@@ -7,7 +7,7 @@ const nextConfig = {
     unoptimized: true,
     formats: ['image/avif', 'image/webp'],
   },
-  output: 'standalone',
+  // output: 'standalone', // Comentado para Vercel (usa otimização própria)
   compress: true,
   poweredByHeader: false,
   reactStrictMode: true,
