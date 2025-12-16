@@ -18,12 +18,21 @@ Se você já tem o projeto `v0-bacco-erp-website` na Vercel, o CLI vai perguntar
 - Link to existing project? → **Yes**
 - What's the name of your existing project? → **v0-bacco-erp-website**
 
-## Opção 2: Via Interface Web da Vercel
+## Opção 2: Via Interface Web da Vercel (Recomendado - Deploy Automático)
 
 1. Acesse: https://vercel.com/lussandros-projects/v0-bacco-erp-website
 2. Vá em **Settings** → **Git**
-3. Conecte seu repositório Git (GitHub, GitLab ou Bitbucket)
-4. A Vercel fará deploy automático a cada push
+3. Clique em **Connect Git Repository**
+4. Selecione o repositório: **lussandro/bacco-site**
+5. Configure:
+   - **Framework Preset**: Next.js
+   - **Root Directory**: `./` (raiz)
+   - **Build Command**: `pnpm build` (ou deixe padrão)
+   - **Output Directory**: `.next` (ou deixe padrão)
+6. Clique em **Deploy**
+7. A Vercel fará deploy automático a cada push no GitHub! 🚀
+
+**Repositório GitHub**: https://github.com/lussandro/bacco-site
 
 ## Opção 3: Push para Git e Conectar
 
