@@ -1,5 +1,6 @@
 import type React from "react"
 import type { Metadata } from "next"
+import Script from "next/script"
 import { Playfair_Display, Inter } from "next/font/google"
 import { StructuredData } from "@/components/structured-data"
 import "./globals.css"
@@ -105,6 +106,19 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className="scroll-smooth">
       <body className={`${inter.variable} ${playfair.variable} font-sans antialiased`}>
+        {/* Google Analytics */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-ESY8595331"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-ESY8595331');
+          `}
+        </Script>
         <StructuredData />
         {children}
       </body>
