@@ -2,8 +2,11 @@
 
 import { Card } from "@/components/ui/card"
 import { Target, Eye, Heart, Leaf, Users, Award, Lightbulb, Shield } from "lucide-react"
+import { useTranslations } from "next-intl"
 
 export function MissionValues() {
+  const t = useTranslations("mission")
+
   return (
     <section id="missao-valores" className="py-24 lg:py-32 bg-background">
       <div className="container mx-auto px-4 lg:px-8">
@@ -16,14 +19,9 @@ export function MissionValues() {
                 <div className="p-3 rounded-lg bg-primary/20">
                   <Target className="h-8 w-8 text-primary" />
                 </div>
-                <h2 className="font-serif text-3xl font-bold">Nossa Missão</h2>
+                <h2 className="font-serif text-3xl font-bold">{t("title")}</h2>
               </div>
-              <p className="text-lg leading-relaxed text-muted-foreground">
-                Empoderar vinícolas brasileiras com tecnologia de excelência, oferecendo um sistema completo e
-                inteligente que acompanha cada etapa da produção vitivinícola — do vinhedo à garrafa — com
-                rastreabilidade total, análises precisas e gestão integrada, permitindo que produtores de todos os
-                portes tomem decisões baseadas em dados e elevem a qualidade de seus vinhos ao padrão internacional.
-              </p>
+              <p className="text-lg leading-relaxed text-muted-foreground">{t("text")}</p>
             </Card>
 
             {/* Visão */}
@@ -32,14 +30,9 @@ export function MissionValues() {
                 <div className="p-3 rounded-lg bg-secondary/20">
                   <Eye className="h-8 w-8 text-secondary" />
                 </div>
-                <h2 className="font-serif text-3xl font-bold">Nossa Visão</h2>
+                <h2 className="font-serif text-3xl font-bold">{t("visionTitle")}</h2>
               </div>
-              <p className="text-lg leading-relaxed text-muted-foreground">
-                Ser reconhecido como o ERP de referência para o setor vitivinícola brasileiro e latino-americano,
-                transformando a forma como vinícolas gerenciam sua produção através da união entre tradição e inovação,
-                contribuindo para o crescimento e profissionalização da indústria do vinho nacional e posicionando o
-                Brasil como protagonista na tecnologia enológica.
-              </p>
+              <p className="text-lg leading-relaxed text-muted-foreground">{t("visionText")}</p>
             </Card>
           </div>
 
@@ -48,11 +41,9 @@ export function MissionValues() {
             <div className="text-center mb-12">
               <div className="inline-flex items-center gap-3 mb-4">
                 <Heart className="h-8 w-8 text-primary" />
-                <h2 className="font-serif text-3xl lg:text-4xl font-bold">Nossos Valores</h2>
+                <h2 className="font-serif text-3xl lg:text-4xl font-bold">{t("valuesTitle")}</h2>
               </div>
-              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Princípios que guiam cada linha de código e cada decisão que tomamos
-              </p>
+              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">{t("valuesSubtitle")}</p>
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -61,11 +52,8 @@ export function MissionValues() {
                 <div className="p-3 rounded-lg bg-primary/10 w-fit mb-4">
                   <Heart className="h-6 w-6 text-primary" />
                 </div>
-                <h3 className="font-semibold text-xl mb-3">Paixão pelo Vinho</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  Desenvolvemos com amor e respeito pela arte da vinificação, entendendo que cada lote conta uma
-                  história única.
-                </p>
+                <h3 className="font-semibold text-xl mb-3">{t("values.passion.title")}</h3>
+                <p className="text-muted-foreground leading-relaxed">{t("values.passion.description")}</p>
               </Card>
 
               {/* Excelência Técnica */}
@@ -73,11 +61,8 @@ export function MissionValues() {
                 <div className="p-3 rounded-lg bg-primary/10 w-fit mb-4">
                   <Award className="h-6 w-6 text-primary" />
                 </div>
-                <h3 className="font-semibold text-xl mb-3">Excelência Técnica</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  Comprometidos com código limpo, arquitetura moderna e as melhores práticas de desenvolvimento para
-                  entregar qualidade superior.
-                </p>
+                <h3 className="font-semibold text-xl mb-3">{t("values.excellence.title")}</h3>
+                <p className="text-muted-foreground leading-relaxed">{t("values.excellence.description")}</p>
               </Card>
 
               {/* Inovação Consciente */}
@@ -85,11 +70,8 @@ export function MissionValues() {
                 <div className="p-3 rounded-lg bg-primary/10 w-fit mb-4">
                   <Lightbulb className="h-6 w-6 text-primary" />
                 </div>
-                <h3 className="font-semibold text-xl mb-3">Inovação Consciente</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  Buscamos constantemente novas soluções, mas sempre respeitando a tradição e as particularidades do
-                  setor vitivinícola.
-                </p>
+                <h3 className="font-semibold text-xl mb-3">{t("values.innovation.title")}</h3>
+                <p className="text-muted-foreground leading-relaxed">{t("values.innovation.description")}</p>
               </Card>
 
               {/* Sustentabilidade */}
@@ -97,11 +79,8 @@ export function MissionValues() {
                 <div className="p-3 rounded-lg bg-primary/10 w-fit mb-4">
                   <Leaf className="h-6 w-6 text-primary" />
                 </div>
-                <h3 className="font-semibold text-xl mb-3">Sustentabilidade</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  Valorizamos práticas sustentáveis e ajudamos vinícolas a otimizar recursos, reduzir desperdícios e
-                  cuidar do terroir.
-                </p>
+                <h3 className="font-semibold text-xl mb-3">{t("values.sustainability.title")}</h3>
+                <p className="text-muted-foreground leading-relaxed">{t("values.sustainability.description")}</p>
               </Card>
 
               {/* Transparência */}
@@ -109,11 +88,8 @@ export function MissionValues() {
                 <div className="p-3 rounded-lg bg-primary/10 w-fit mb-4">
                   <Shield className="h-6 w-6 text-primary" />
                 </div>
-                <h3 className="font-semibold text-xl mb-3">Transparência</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  Rastreabilidade total não é só para o vinho — é também para nossa relação com clientes, baseada em
-                  honestidade e clareza.
-                </p>
+                <h3 className="font-semibold text-xl mb-3">{t("values.transparency.title")}</h3>
+                <p className="text-muted-foreground leading-relaxed">{t("values.transparency.description")}</p>
               </Card>
 
               {/* Proximidade */}
@@ -121,11 +97,8 @@ export function MissionValues() {
                 <div className="p-3 rounded-lg bg-primary/10 w-fit mb-4">
                   <Users className="h-6 w-6 text-primary" />
                 </div>
-                <h3 className="font-semibold text-xl mb-3">Proximidade</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  Desenvolvido por quem entende de vinho para quem vive do vinho, mantendo sempre o diálogo aberto com
-                  nossos clientes.
-                </p>
+                <h3 className="font-semibold text-xl mb-3">{t("values.proximity.title")}</h3>
+                <p className="text-muted-foreground leading-relaxed">{t("values.proximity.description")}</p>
               </Card>
 
               {/* Evolução Contínua */}
@@ -133,11 +106,8 @@ export function MissionValues() {
                 <div className="p-3 rounded-lg bg-primary/10 w-fit mb-4">
                   <Target className="h-6 w-6 text-primary" />
                 </div>
-                <h3 className="font-semibold text-xl mb-3">Evolução Contínua</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  Como um bom vinho, estamos sempre amadurecendo — melhorando, aprendendo e evoluindo junto com nossos
-                  clientes.
-                </p>
+                <h3 className="font-semibold text-xl mb-3">{t("values.evolution.title")}</h3>
+                <p className="text-muted-foreground leading-relaxed">{t("values.evolution.description")}</p>
               </Card>
 
               {/* Acessibilidade */}
@@ -145,11 +115,8 @@ export function MissionValues() {
                 <div className="p-3 rounded-lg bg-primary/10 w-fit mb-4">
                   <Heart className="h-6 w-6 text-primary" />
                 </div>
-                <h3 className="font-semibold text-xl mb-3">Acessibilidade</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  Acreditamos que tecnologia de qualidade deve estar ao alcance de vinícolas de todos os portes, do
-                  artesanal ao industrial.
-                </p>
+                <h3 className="font-semibold text-xl mb-3">{t("values.accessibility.title")}</h3>
+                <p className="text-muted-foreground leading-relaxed">{t("values.accessibility.description")}</p>
               </Card>
             </div>
           </div>

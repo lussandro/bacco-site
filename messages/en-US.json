@@ -1,0 +1,954 @@
+{
+  "common": {
+    "brand": "Bacco",
+    "accessDemo": "Access Demo",
+    "close": "Close",
+    "download": "Download",
+    "seeDemo": "See Demo",
+    "contact": "Contact",
+    "allRightsReserved": "All rights reserved"
+  },
+  "seo": {
+    "organizationDescription": "Complete ERP system developed exclusively for Brazilian wineries",
+    "contactType": "Support",
+    "softwareDescription": "Complete ERP for winery management with AI, traceability, SIVIBE/ENVIN compliance and wine tourism module",
+    "featureList": {
+      "vineyardManagement": "Vineyard Management",
+      "aiWinemaking": "AI Winemaking",
+      "traceability": "Complete Traceability",
+      "compliance": "SIVIBE and ENVIN Compliance",
+      "enotourism": "Wine Tourism",
+      "pos": "Integrated POS",
+      "mobileApps": "Mobile Apps (Bacco-Campo and Bacco-Comanda)"
+    },
+    "home": "Home"
+  },
+  "header": {
+    "features": "Features",
+    "mobile": "Bacco-Campo",
+    "comanda": "Bacco-Comanda",
+    "system": "System",
+    "differentials": "Differentials",
+    "comparison": "Comparison",
+    "about": "About"
+  },
+  "hero": {
+    "badge": "Complete System for Wineries",
+    "title": "From Vineyard to Bottle: Total Control of Your Production",
+    "description": "<strong>The only Brazilian ERP developed exclusively for wineries.</strong> Manage every stage of wine, sparkling wine, and juice production with Bacco ERP. Complete traceability, real-time monitoring, artificial intelligence, and integrated management. Includes <strong>Bacco-Campo</strong> for vineyard management and <strong>Bacco-Comanda</strong> for POS and wine tourism.",
+    "ctaDemo": "Request Demo",
+    "ctaSystem": "View System",
+    "imageAlt": "Modern vineyard at sunset",
+    "stats": {
+      "traceable": "100%",
+      "traceableLabel": "Traceable",
+      "realtime": "Real-time",
+      "realtimeLabel": "Monitoring",
+      "support": "24/7",
+      "supportLabel": "Support"
+    },
+    "floatingCard": {
+      "title": "Total Control",
+      "description": "Vineyard, production, and quality"
+    }
+  },
+  "features": {
+    "title": "Complete Features for Your Winery",
+    "subtitle": "Everything you need to manage your wine, sparkling wine, and juice production in a single system.",
+    "items": {
+      "vineyardManagement": {
+        "title": "Vineyard Management",
+        "description": "Complete control of vineyards and plots with detailed information on varieties (65 pre-registered), planted area, and history."
+      },
+      "vineyardHandling": {
+        "title": "Vineyard Management",
+        "description": "Plan and track all management tasks (42 standard tasks): pruning, fertilization, treatments, and harvest."
+      },
+      "aiCalendar": {
+        "title": "AI: Suggested Management Calendar",
+        "description": "Artificial Intelligence suggests management practices based on vineyard region, climate, and time of year, optimizing your production."
+      },
+      "climateAI": {
+        "title": "Climate & AI",
+        "description": "Intelligent climate analysis with forecasts and automatic recommendations for vineyard protection and optimization."
+      },
+      "grapeReception": {
+        "title": "Grape Reception",
+        "description": "Record reception of own and third-party grapes with complete analyses: BRIX, pH, acidity, temperature, and classification."
+      },
+      "productionLots": {
+        "title": "Winemaking Lots",
+        "description": "Manage production lots with complete traceability from grape entry to final product."
+      },
+      "visualFlowEditor": {
+        "title": "Visual Flow Editor",
+        "description": "Create custom winemaking flows with an interactive graphical editor (N8N style) for any type of wine."
+      },
+      "vinificationAI": {
+        "title": "Winemaking AI",
+        "description": "Artificial Intelligence that suggests corrections, input additions, and optimizes winemaking processes based on analyses."
+      },
+      "temperatureIoT": {
+        "title": "IoT Temperature Control",
+        "description": "Monitor must temperature and density in real-time with RAPT Cloud integration and automatic alerts."
+      },
+      "labAnalysis": {
+        "title": "Laboratory Analysis",
+        "description": "Complete control and management of laboratory analyses with history, traceability, and reports."
+      },
+      "dashboard": {
+        "title": "Smart Dashboard",
+        "description": "View real-time indicators: production, alerts, pending analyses, sales, and much more."
+      },
+      "multitenant": {
+        "title": "Multi-tenant",
+        "description": "Multi-tenant architecture with complete data isolation, ideal for SaaS and multiple wineries."
+      },
+      "commercial": {
+        "title": "Commercial Management",
+        "description": "Sales (quotes, orders, price tables), purchases, customers, and suppliers integrated."
+      },
+      "financial": {
+        "title": "Complete Financial",
+        "description": "Accounts payable/receivable, cash flow, complete financial control integrated with sales and purchases."
+      },
+      "fiscalNotes": {
+        "title": "Fiscal Notes",
+        "description": "Fiscal note issuance with Webmania integration, fiscal control, and regulatory compliance."
+      },
+      "sivibe": {
+        "title": "SIVIBE",
+        "description": "Wine and Beverage Information System - Regulatory declarations (Law 7.678/1988) with deadline alerts."
+      },
+      "envin": {
+        "title": "ENVIN",
+        "description": "Compliance module for ENVIN declarations, ensuring complete regulatory compliance."
+      },
+      "enotourism": {
+        "title": "Wine Tourism",
+        "description": "Exclusive module for wine tourism management: appointments, tastings, visits, experiences, and reservations."
+      },
+      "stockControl": {
+        "title": "Stock Control",
+        "description": "Complete stock management with inventory, movements, inputs, and labeling control."
+      },
+      "stockLabeling": {
+        "title": "Stock and Labeling",
+        "description": "Complete stock control, movements, labeling, and QR tags for traceability."
+      },
+      "traceability": {
+        "title": "Total Traceability",
+        "description": "Complete traceability by lot, plot, variety, and terroir from vineyard to bottle."
+      },
+      "reports": {
+        "title": "Reports and Analytics",
+        "description": "Complete reports on production, sales, financial, and analyses with data export."
+      }
+    }
+  },
+  "mobile": {
+    "badge": "Bacco-Campo",
+    "title": "Complete Management Directly from the Vineyard",
+    "description": "Take the power of Bacco ERP to the field with <strong>Bacco-Campo</strong>. With the Android app, your team can execute all operations directly in the vineyard, with or without internet connection. Automatic synchronization when connection is available.",
+    "downloadAndroid": "Download for Android",
+    "features": {
+      "lotManagement": {
+        "title": "Lot Management in the Field",
+        "description": "Track and manage all production lots directly from the vineyard with real-time information."
+      },
+      "taskExecution": {
+        "title": "Task Execution",
+        "description": "Execute and record management tasks: pruning, fertilization, phytosanitary treatments, and harvest."
+      },
+      "grapeReception": {
+        "title": "Grape Reception",
+        "description": "Record grape entry in the field with weighing, quality analyses, and immediate classification."
+      },
+      "fieldQualification": {
+        "title": "Field Qualification",
+        "description": "Evaluate health, maturity, and quality of grapes directly in the vineyard before harvest."
+      },
+      "geolocation": {
+        "title": "Geolocation",
+        "description": "All activities are recorded with GPS location for complete traceability."
+      },
+      "offlineMode": {
+        "title": "Offline Mode",
+        "description": "Work without connection and automatically synchronize when internet is available."
+      }
+    },
+    "benefits": {
+      "autoSync": "Automatic synchronization",
+      "offline": "Works offline"
+    },
+    "inAction": {
+      "badge": "Bacco-Campo in Action",
+      "title": "See the App in Action",
+      "subtitle": "Intuitive and modern interface to manage all vineyard operations in the palm of your hand"
+    },
+    "screenshots": {
+      "dashboard": {
+        "title": "Dashboard",
+        "description": "Overview of activities"
+      },
+      "grapeReception": {
+        "title": "Grape Reception",
+        "description": "Grape entry record"
+      },
+      "receptionDetails": {
+        "title": "Reception Details",
+        "description": "Complete harvest information"
+      },
+      "tasks": {
+        "title": "Tasks",
+        "description": "Vineyard activity management"
+      },
+      "executions": {
+        "title": "Executions",
+        "description": "Winemaking tracking"
+      }
+    },
+    "downloadDialog": {
+      "title": "Download Bacco-Campo",
+      "description": "Follow the instructions below to install the Bacco-Campo app on your Android device",
+      "mobileDetected": {
+        "title": "Mobile Device Detected",
+        "description": "Click the button below to download the app directly",
+        "downloadAPK": "Download APK"
+      },
+      "qrCode": {
+        "title": "Scan QR Code",
+        "description": "Scan this code with your phone camera to download the app"
+      },
+      "instructions": {
+        "title": "Installation Instructions",
+        "android8": {
+          "title": "For Android 8.0 (API level 26) or higher:",
+          "text": "You must navigate to the system settings screen \"Install unknown apps\" to enable app installations from a specific location (i.e., the web browser from which you are downloading the app)."
+        },
+        "android7": {
+          "title": "For Android 7.1.1 (API level 25) or lower:",
+          "text": "You must enable the system setting \"Unknown sources\", found in Settings > Security on your device."
+        }
+      },
+      "afterInstall": {
+        "title": "After installation",
+        "items": [
+          "Use your Bacco ERP system credentials to log in",
+          "Configure the server if necessary",
+          "Synchronize your data and start working in the field"
+        ]
+      },
+      "openDownloadLink": "Open Download Link",
+      "notifications": {
+        "taskCompleted": "Task Completed",
+        "taskCompletedSub": "Pruning - Plot A3",
+        "grapesReceived": "2,450 kg",
+        "grapesReceivedSub": "Grapes received"
+      }
+    }
+  },
+  "comanda": {
+    "badge": "Bacco-Comanda",
+    "title": "Complete POS for Wine Tourism and Restaurants",
+    "description": "<strong>Bacco-Comanda</strong> is a complete point of sale (POS) system integrated with Bacco ERP, developed specifically for wineries, restaurants, and wine tourism establishments. Manage tables, orders, payments, and sales simply and efficiently.",
+    "features": {
+      "tableManagement": {
+        "title": "Table Management",
+        "description": "Complete control of tables, occupancy, table merging and splitting for restaurants and wine tourism."
+      },
+      "digitalOrders": {
+        "title": "Digital Orders",
+        "description": "Complete order system with multiple items, services, and real-time status control."
+      },
+      "paymentMethods": {
+        "title": "Multiple Payment Methods",
+        "description": "Cash, card, PIX, card machine integration, and automatic change control."
+      },
+      "cashManagement": {
+        "title": "Cash Management",
+        "description": "Cash opening and closing, cash withdrawal control, sales reports, and daily closing."
+      },
+      "customers": {
+        "title": "Customers and History",
+        "description": "Customer registration, purchase history, and loyalty integrated with the commercial module."
+      },
+      "reports": {
+        "title": "Real-time Reports",
+        "description": "Dashboard with daily sales, best-selling products, average ticket, and performance analysis."
+      }
+    },
+    "benefits": {
+      "integrated": "Integrated with ERP",
+      "intuitive": "Intuitive interface"
+    },
+    "inAction": {
+      "badge": "Bacco-Comanda in Action",
+      "title": "Modern and Functional Interface",
+      "subtitle": "Complete POS system with table, order, and payment management integrated"
+    },
+    "screenshots": {
+      "cashOpen": {
+        "title": "Cash Opening",
+        "description": "Complete control of cash opening and closing with initial values"
+      },
+      "tables": {
+        "title": "Table Management",
+        "description": "View and manage all tables, open orders, and occupancy status"
+      }
+    }
+  },
+  "screenshots": {
+    "title": "Get to Know the System Inside",
+    "subtitle": "Explore the main features of Bacco ERP through real system screenshots.",
+    "items": {
+      "dashboard": {
+        "title": "Dashboard",
+        "description": "Complete view of your operation with real-time metrics, activity charts, and production status"
+      },
+      "vineyards": {
+        "title": "Vineyard Management",
+        "description": "Complete control of vineyards and plots with detailed information on area, soil, and irrigation"
+      },
+      "calendarAI": {
+        "title": "AI Management Calendar",
+        "description": "Artificial Intelligence suggests management practices based on vineyard region, with automatic alerts and recommendations"
+      },
+      "flows": {
+        "title": "Winemaking Flows",
+        "description": "Visual winemaking flow editor with creation of custom processes for any type of wine"
+      },
+      "lots": {
+        "title": "Production Lots",
+        "description": "Complete tracking of winemaking lots with status, analyses, and detailed history"
+      },
+      "pdv": {
+        "title": "Bacco-Comanda (POS)",
+        "description": "Complete point of sale system with table, order, and payment management for wine tourism"
+      },
+      "pdvTables": {
+        "title": "POS - Table Management",
+        "description": "Visual control of tables and orders with real-time status for efficient service"
+      },
+      "enotourism": {
+        "title": "Wine Tourism - Reservations",
+        "description": "Exclusive module for managing appointments, tastings, and visits with complete experience control"
+      },
+      "compliance": {
+        "title": "Compliance - SIVIBE",
+        "description": "Management of mandatory SIVIBE declarations with deadline alerts and regulatory compliance control"
+      },
+      "financial": {
+        "title": "Financial",
+        "description": "Complete control of accounts payable and receivable, cash flow, and integrated financial management"
+      },
+      "vineyardDetails": {
+        "title": "Vineyard Details",
+        "description": "Complete view of plots with varieties, rootstocks, clones, and training systems"
+      },
+      "newParcel": {
+        "title": "Plot Registration",
+        "description": "Complete form for plot registration with planting and spacing technical data"
+      },
+      "newVineyard": {
+        "title": "Vineyard Registration",
+        "description": "Registration of new vineyards with geolocation, altitude, slope, and soil characteristics"
+      },
+      "varieties": {
+        "title": "Grape Varieties",
+        "description": "Complete catalog of varieties with origin, color, ripening cycle, and status"
+      },
+      "newVariety": {
+        "title": "Variety Registration",
+        "description": "Add new grape varieties with origin, color, and cycle information"
+      },
+      "handling": {
+        "title": "Management Tasks",
+        "description": "Plan and track management tasks with filters by vineyard, status, and category"
+      },
+      "newTask": {
+        "title": "New Management Task",
+        "description": "Create custom tasks or use standard tasks with scheduling and responsible parties"
+      }
+    }
+  },
+  "process": {
+    "title": "From Vineyard to Bottle",
+    "subtitle": "Track the entire production process with total control and complete traceability at each stage.",
+    "steps": {
+      "vineyard": {
+        "number": "01",
+        "title": "Vineyard Management",
+        "description": "Complete control of vineyards and plots, with registration of varieties, planted area, spacing, and management history. Plan and track all field activities."
+      },
+      "harvest": {
+        "number": "02",
+        "title": "Harvest and Reception",
+        "description": "Record entry of own and third-party grapes with complete analyses: BRIX, pH, total acidity, and temperature. Traceability from origin."
+      },
+      "vinification": {
+        "number": "03",
+        "title": "Winemaking",
+        "description": "Track each stage of the process: destemming, pressing, fermentation, racking. Control temperature and density in real-time with automatic alerts."
+      },
+      "bottling": {
+        "number": "04",
+        "title": "Bottling and Distribution",
+        "description": "Complete lot management, laboratory analyses, and traceability to final product. Quality control at each stage."
+      }
+    }
+  },
+  "differentials": {
+    "badge": "Why Bacco?",
+    "title": "Bacco ERP Advantages Over Existing Systems",
+    "subtitle": "Bacco was designed to revolutionize winery management, offering specific, modern tools fully aligned with the practical needs of wine producers in Brazil.",
+    "items": {
+      "visualFlow": {
+        "title": "Graphic and Interactive Winemaking Flow",
+        "badge": "Pioneer in Brazil",
+        "description": "First Brazilian ERP with visual winemaking flow editor. Create, customize, and simulate processes with nodes, connections, and conditional logic between stages.",
+        "highlights": [
+          "Model processes for red, white, rosé, sparkling, or alternative wines",
+          "Create custom flows connecting all production stages",
+          "Reuse flows across multiple simultaneous lots",
+          "Real-time view of winemaking status in graphic format"
+        ]
+      },
+      "ai": {
+        "title": "Integrated Artificial Intelligence",
+        "badge": "Advanced AI",
+        "description": "Intelligent system that not only records but actively acts in the production process with AI in multiple modules.",
+        "highlights": [
+          "Winemaking AI: suggests corrections and optimizes processes based on analyses",
+          "Climate AI: climate analysis with forecasts and automatic recommendations",
+          "AI Management Calendar: suggestions based on vineyard region",
+          "Rules engine: resolves operations based on YAN, density, or pH"
+        ]
+      },
+      "integrated": {
+        "title": "Complete Integrated Management",
+        "badge": "All in One",
+        "description": "From vineyard to bottling in a single platform. Eliminate spreadsheets and fragmented external systems.",
+        "highlights": [
+          "Viticulture: planting, management, harvest, and vineyard analyses",
+          "Enology: flows, analyses, tanks, and barrels",
+          "Terroir and traceability by lot, plot, and variety",
+          "Complete stock and enological input control"
+        ]
+      },
+      "traceability": {
+        "title": "Technical Data and Total Traceability",
+        "badge": "Absolute Control",
+        "description": "Total control of technical variables with detailed history for auditing, certifications, and export.",
+        "highlights": [
+          "Monitoring of Brix, temperature, density, and fermentation",
+          "Record of treatments, rackings, and temperature by tank",
+          "Complete history integrated with the lot end-to-end",
+          "Ready for certifications and international export"
+        ]
+      },
+      "brazilian": {
+        "title": "Brazilian with International Standards",
+        "badge": "Global Ready",
+        "description": "Developed for Brazil, but prepared for the world. Complete support for local practices and international standards.",
+        "highlights": [
+          "Support for Brazilian varieties and practices",
+          "Adapted to MAPA, NCM, and SIF rules",
+          "Ready for export and international certification",
+          "Different from foreign software with superficial translations"
+        ]
+      },
+      "architecture": {
+        "title": "Modern and Scalable Architecture",
+        "badge": "Cutting-edge Technology",
+        "description": "Built with the most modern technologies on the market, ready to grow with your business.",
+        "highlights": [
+          "React + Node + Kubernetes + Redis + PostgreSQL",
+          "Multi-tenant ideal for SaaS",
+          "API ready for IoT and tank automation",
+          "Different from legacy systems with limitations and closed architecture"
+        ]
+      }
+    },
+    "pioneers": {
+      "badge": "Pioneering",
+      "title": "Why are we pioneers?",
+      "subtitle": "We made history by being first in multiple fronts",
+      "cards": {
+        "unique": {
+          "badge": "#1 in Brazil",
+          "title": "Unique Exclusive Brazilian ERP",
+          "description": "<strong>Developed exclusively for wineries</strong> - not an adaptation of a generic system. Born to meet the specific needs of the Brazilian market."
+        },
+        "editor": {
+          "badge": "Innovation",
+          "title": "Visual Editor + Integrated AI",
+          "description": "First Brazilian platform with <strong>interactive visual editor</strong> for winemaking flows and <strong>integrated Artificial Intelligence</strong> in multiple modules."
+        },
+        "unification": {
+          "badge": "Total Integration",
+          "title": "Complete Unification",
+          "description": "First solution that <strong>unifies viticulture, winemaking, wine tourism, and quality control</strong> with artificial intelligence in a single platform."
+        },
+        "aiModules": {
+          "badge": "Advanced AI",
+          "title": "AI in Multiple Modules",
+          "description": "First ERP for wineries with <strong>AI in multiple modules</strong>: winemaking, climate, and management calendar. System that learns and continuously optimizes."
+        }
+      },
+      "mission": {
+        "title": "Our Mission",
+        "text": "The first and only <span class=\"text-primary\">100% national</span> solution developed from scratch for Brazilian wineries, with <span class=\"text-primary\">integrated AI</span> and <span class=\"text-primary\">technical depth</span> unmatched."
+      }
+    }
+  },
+  "comparison": {
+    "badge": "Comparison",
+    "title": "Bacco vs Global ERPs: Why We Are Superior",
+    "subtitle": "Direct comparison with the main international solutions. See where Bacco really stands out.",
+    "bacco": "Bacco ERP",
+    "baccoBadge": "Brazilian",
+    "competitors": "Global ERPs",
+    "competitorsList": "Vintrace, AMS Winery, Vinsight, SAP Business One, Other Global ERPs",
+    "feature": "Feature",
+    "available": "Available",
+    "notAvailable": "Not Available",
+    "partial": "Partial",
+    "variable": "Variable",
+    "high": "High",
+    "generic": "Generic",
+    "highlights": {
+      "ai": {
+        "title": "Pioneer AI",
+        "description": "First Brazilian ERP with Artificial Intelligence integrated in multiple modules. Global ERPs don't offer AI specific to winemaking."
+      },
+      "compliance": {
+        "title": "Brazilian Compliance",
+        "description": "SIVIBE and ENVIN natively integrated. Global ERPs require expensive and complex customizations to meet Brazilian regulations."
+      },
+      "enotourism": {
+        "title": "Exclusive Wine Tourism",
+        "description": "Complete wine tourism module that global ERPs don't have. Appointment, tasting, and experience management integrated with the ERP."
+      }
+    },
+    "cta": {
+      "title": "The Only Brazilian ERP Made for Wineries",
+      "description": "While global ERPs try to adapt generic solutions for the Brazilian market, Bacco was developed from scratch thinking about the specific needs of Brazilian wineries. It's not adaptation - it's native specialization.",
+      "check1": "Developed in Brazil, for Brazil",
+      "check2": "Portuguese support with local knowledge",
+      "check3": "Affordable price without international licensing",
+      "check4": "Modern technology vs legacy systems"
+    },
+    "items": {
+      "specialization": {
+        "category": "Specialization",
+        "feature": "Developed exclusively for Brazilian wineries",
+        "description": "Only Brazilian ERP born to serve wineries, not an adaptation of a generic system"
+      },
+      "ai": {
+        "category": "Artificial Intelligence",
+        "feature": "AI integrated in multiple modules",
+        "description": "Winemaking AI, Climate AI, and Management Calendar AI - pioneer in Brazil"
+      },
+      "visualEditor": {
+        "category": "Visual Editor",
+        "feature": "Graphic editor for winemaking flows",
+        "description": "First Brazilian ERP with interactive visual editor N8N style to create custom flows"
+      },
+      "compliance": {
+        "category": "Brazilian Compliance",
+        "feature": "SIVIBE and ENVIN integrated",
+        "description": "Total compliance with Brazilian regulations (Law 7.678/1988) and mandatory declarations"
+      },
+      "enotourism": {
+        "category": "Wine Tourism",
+        "feature": "Exclusive wine tourism module",
+        "description": "Complete management of appointments, tastings, visits, and experiences"
+      },
+      "mobileApps": {
+        "category": "Mobile Apps",
+        "feature": "Native Bacco-Campo and Bacco-Comanda",
+        "description": "Native mobile apps for field (vineyard management) and POS (point of sale)"
+      },
+      "support": {
+        "category": "Support",
+        "feature": "Support in Portuguese with knowledge of the Brazilian market",
+        "description": "Brazilian team that understands the particularities of the market and national legislation"
+      },
+      "technology": {
+        "category": "Technology",
+        "feature": "Modern architecture (React, Node, Kubernetes)",
+        "description": "Modern technology stack vs legacy systems with limitations"
+      },
+      "cost": {
+        "category": "Cost",
+        "feature": "Affordable price for Brazilian wineries",
+        "description": "Solution developed in Brazil, without international licensing costs"
+      },
+      "traceability": {
+        "category": "Traceability",
+        "feature": "Complete traceability from vineyard to bottle",
+        "description": "Both offer, but Bacco with specific focus on Brazilian practices and varieties"
+      },
+      "vineyardManagement": {
+        "category": "Vineyard Management",
+        "feature": "Detailed control adapted to Brazil",
+        "description": "Brazilian varieties, specific regions, local practices vs generic solutions"
+      },
+      "integration": {
+        "category": "Integration",
+        "feature": "Complete integration from vineyard to POS",
+        "description": "Everything integrated: viticulture, winemaking, stock, commercial, financial, wine tourism, and POS"
+      }
+    }
+  },
+  "benefits": {
+    "title": "Why Choose Bacco?",
+    "subtitle": "Transform your winery management with cutting-edge technology and total production control.",
+    "items": {
+      "traceability": {
+        "stat": "100%",
+        "label": "Total Traceability",
+        "description": "From vineyard to bottle, track each stage of production"
+      },
+      "realtime": {
+        "stat": "Real-time",
+        "label": "Real-time Monitoring",
+        "description": "Automatic alerts for temperature, density, and analyses"
+      },
+      "integrated": {
+        "stat": "360°",
+        "label": "Integrated Management",
+        "description": "Vineyard, production, laboratory, and quality in one place"
+      },
+      "reports": {
+        "stat": "24/7",
+        "label": "Smart Reports",
+        "description": "Dashboards and indicators for decision making"
+      }
+    }
+  },
+  "about": {
+    "history": {
+      "badge": "History",
+      "title": "A Bit of History",
+      "subtitle": "A journey that unites technology and passion for wine",
+      "timeline": {
+        "nineties": {
+          "period": "90s",
+          "title": "Clipper and DBASE",
+          "description": "Line by line programming"
+        },
+        "devops": {
+          "period": "2015+",
+          "title": "DevOps and Cloud",
+          "description": "Automation and scalability"
+        },
+        "sommelier": {
+          "period": "2023",
+          "title": "Sommelier Course",
+          "description": "Passion for wine"
+        },
+        "enology": {
+          "period": "2025",
+          "title": "Enology College",
+          "description": "Science and sensitivity"
+        }
+      },
+      "text": {
+        "p1": "My journey in technology began long before cloud, containers, and DevOps. In the 90s, I was already exploring the world of code with Clipper and DBASE, when programming was an almost manual art — done line by line, with patience and curiosity.",
+        "p2": "Over time, I evolved along with languages and tools: I went through Visual Basic, where I learned to bring graphical interfaces to life, and later dove headfirst into the world of Python and Node.js with TypeScript, building APIs, SaaS systems, and scalable solutions.",
+        "p3": "Starting in 2015, I took on a new passion within technology: DevOps. That's when I began integrating development with infrastructure, automating pipelines, orchestrating containers, and making the deployment cycle something continuous, secure, and predictable. <strong>This transition taught me something I carry to this day: a system is alive, and like every organism, it needs balance, care, and constant evolution.</strong>",
+        "p4": "But, outside of code, there's another part of me that also seeks this balance: wine. Over 20 years ago, it entered my life — first as curiosity, then as passion. In 2023, I completed the sommelier course and, inspired by friend Elisson Manfroi, started the hobby of \"winemaker\", producing my own wines in an artisanal way.",
+        "p5": "This year, I decided to go further and started enology college, uniting science and sensitivity to understand every detail of the winemaking process.",
+        "quote": "\"Today, these two passions — technology and wine — walk together. Between pipelines and barrels, I found my space: transforming knowledge into tools that empower those who live from grapes and wine.\""
+      }
+    },
+    "origin": {
+      "badge": "Origin",
+      "title": "The Origin of Bacco",
+      "subtitle": "How the idea of creating an exclusive ERP for wineries was born",
+      "text": {
+        "p1": "The idea of Bacco was born from a real need: while I was producing my own wines in an artisanal way, I realized that there was no management system in the Brazilian market that really understood the particularities of wine production in Brazil.",
+        "p2": "The available systems were, for the most part, adaptations of generic ERPs or superficial translations of foreign software that did not contemplate Brazilian grape varieties, local practices, MAPA regulations, or the specific needs of small and medium wineries.",
+        "p3": "That's when I decided to unite my two passions — technology and wine — to create something unique: an ERP developed from scratch, designed exclusively for Brazilian wineries, but with international standards of quality and traceability.",
+        "p4": "Bacco is not just software. It is the result of years of experience in system development, technical knowledge in enology, and a deep understanding of the real needs of those who produce wine in Brazil.",
+        "extra1": "More than software, Bacco represents a vision for the future of Brazilian wine — modern, authentic, and made with soul. A system that understands that each lot has a story, each fermentation a rhythm, and each wine an identity.",
+        "extra2": "Bacco is not just an ERP. It is the result of decades of experience in technology meeting a passion for wine. It is the tool I wish existed when I started studying enology."
+      },
+      "whyBacco": {
+        "title": "Why Bacco?",
+        "description": "Bacco is a tribute to Bacchus, the Roman god of wine, harvest, and fertility. We chose this reference not only for the connection with wine, but also for the symbolism: Bacchus represents transformation, celebration, and the union between nature and culture — values that perfectly reflect the essence of our system."
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready to Transform Your Winery?",
+    "subtitle": "Contact us and discover how Bacco can revolutionize your production management.",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "phone": "+55 48 99128-6399",
+    "emailAddress": "lussandro@gmail.com"
+  },
+  "footer": {
+    "description": "Complete management system for wineries. From vineyard to bottle.",
+    "product": {
+      "title": "Product",
+      "features": "Features",
+      "process": "Process",
+      "benefits": "Benefits"
+    },
+    "company": {
+      "title": "Company",
+      "about": "About",
+      "contact": "Contact",
+      "terms": "Terms of Use",
+      "privacy": "Privacy Policy"
+    },
+    "support": {
+      "title": "Support",
+      "email": "lussandro@gmail.com",
+      "phone": "+55 48 99128-6399",
+      "location": "Florianópolis, SC"
+    },
+    "copyright": "© 2025 Bacco ERP. All rights reserved."
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Have questions or want to know more about Bacco? We are here to help.",
+    "talkToUs": "Talk to us",
+    "description": "Contact us to schedule a demo, ask questions, or learn more about Bacco ERP.",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location",
+    "address": "Florianópolis, SC",
+    "form": {
+      "name": "Full name *",
+      "email": "Email *",
+      "phone": "Phone *",
+      "company": "Winery name",
+      "message": "Message",
+      "namePlaceholder": "Your name",
+      "emailPlaceholder": "your@email.com",
+      "phonePlaceholder": "(00) 00000-0000",
+      "companyPlaceholder": "Your winery",
+      "messagePlaceholder": "How can we help?",
+      "submit": "Send Message"
+    }
+  },
+  "mission": {
+    "title": "Our Mission",
+    "text": "Empower Brazilian wineries with top-tier technology, providing a complete and intelligent system that follows every stage of vitiviniculture — from vineyard to bottle — with full traceability, accurate analyses, and integrated management, allowing producers of all sizes to make data-driven decisions and raise the quality of their wines to international standards.",
+    "visionTitle": "Our Vision",
+    "visionText": "To be recognized as the reference ERP for the Brazilian and Latin American wine sector, transforming how wineries manage production by uniting tradition and innovation, contributing to the growth and professionalization of the national wine industry and positioning Brazil as a leader in enology technology.",
+    "valuesTitle": "Our Values",
+    "valuesSubtitle": "Principles that guide every line of code and every decision we make",
+    "values": {
+      "passion": {
+        "title": "Passion for Wine",
+        "description": "We develop with love and respect for the art of winemaking, understanding that each lot tells a unique story."
+      },
+      "excellence": {
+        "title": "Technical Excellence",
+        "description": "Committed to clean code, modern architecture, and best development practices to deliver superior quality."
+      },
+      "innovation": {
+        "title": "Thoughtful Innovation",
+        "description": "We constantly seek new solutions while respecting tradition and the particularities of the wine sector."
+      },
+      "sustainability": {
+        "title": "Sustainability",
+        "description": "We value sustainable practices and help wineries optimize resources, reduce waste, and care for the terroir."
+      },
+      "transparency": {
+        "title": "Transparency",
+        "description": "Total traceability is not only for wine — it is also for our relationship with clients, based on honesty and clarity."
+      },
+      "proximity": {
+        "title": "Closeness",
+        "description": "Developed by those who understand wine for those who live from wine, always keeping an open dialogue with our clients."
+      },
+      "evolution": {
+        "title": "Continuous Evolution",
+        "description": "Like a good wine, we are always maturing — improving, learning, and evolving together with our clients."
+      },
+      "accessibility": {
+        "title": "Accessibility",
+        "description": "We believe that quality technology should be within reach of wineries of all sizes, from artisanal to industrial."
+      }
+    }
+  },
+  "terms": {
+    "title": "Terms of Use",
+    "updated": "Last updated: October 30, 2025",
+    "back": "Back to site",
+    "contactPhone": "Phone",
+    "contactAddress": "Address",
+    "accept": {
+      "title": "Acceptance of Terms",
+      "text": "By accessing and using Bacco ERP, you agree to these Terms of Use. If you do not agree with any part of these terms, do not use our system."
+    },
+    "service": {
+      "title": "Service Description",
+      "text": "Bacco ERP is a winery management system offering end-to-end control from vineyard to bottle, including:",
+      "items": [
+        "Vineyard and plot management",
+        "Management task control",
+        "Intake of own and third-party grapes",
+        "Winemaking lots and full process flow",
+        "Must temperature and density control",
+        "Laboratory analysis management"
+      ]
+    },
+    "account": {
+      "title": "User Account",
+      "text": "To use Bacco ERP, you must:",
+      "items": [
+        "Provide true, accurate, and complete information during registration",
+        "Keep your credentials confidential",
+        "Notify us immediately of any unauthorized use",
+        "Be responsible for all activities under your account"
+      ]
+    },
+    "lgpd": {
+      "title": "Data Protection (LGPD)",
+      "text": "In accordance with the Brazilian LGPD, Bacco ERP commits to:",
+      "items": [
+        "Collect only data necessary to deliver the service",
+        "Use data exclusively for the informed purposes",
+        "Implement technical and administrative security measures",
+        "Not share personal data with third parties without consent",
+        "Respect all data subject rights"
+      ]
+    },
+    "rights": {
+      "title": "Data Subject Rights",
+      "text": "Under LGPD, you are entitled to:",
+      "items": [
+        "Confirm processing of your data",
+        "Access your personal data",
+        "Correct incomplete, inaccurate, or outdated data",
+        "Request anonymization, blocking, or deletion",
+        "Request data portability",
+        "Withdraw consent at any time",
+        "Obtain information about data sharing"
+      ],
+      "contact": "To exercise your rights, contact: lussandro@gmail.com"
+    },
+    "acceptable": {
+      "title": "Acceptable Use",
+      "text": "You agree NOT to:",
+      "items": [
+        "Use the system for illegal or unauthorized purposes",
+        "Attempt to access restricted areas",
+        "Interfere with or disrupt system operation",
+        "Copy, modify, or distribute the software without authorization",
+        "Reverse engineer the system",
+        "Use the system to harm third parties"
+      ]
+    },
+    "ip": {
+      "title": "Intellectual Property",
+      "text": "All content, design, source code, logos, and materials of Bacco ERP are protected. You receive only a limited use license; no ownership rights are transferred."
+    },
+    "availability": {
+      "title": "Service Availability",
+      "text": "We strive for 24/7 availability but do not guarantee uninterrupted or error-free service. We may perform scheduled maintenance with prior notice when possible."
+    },
+    "liability": {
+      "title": "Limitation of Liability",
+      "text": "Bacco ERP is not liable for indirect, incidental, special, or consequential damages resulting from use or inability to use the system. We recommend maintaining regular backups of your data."
+    },
+    "changes": {
+      "title": "Changes to Terms",
+      "text": "We may modify these Terms at any time. Significant changes will be communicated by email or in-app notice. Continued use after changes constitutes acceptance."
+    },
+    "termination": {
+      "title": "Termination",
+      "text": "We may suspend or terminate access immediately, without prior notice, in case of breach of these Terms. You may close your account at any time via settings or by contacting us."
+    },
+    "law": {
+      "title": "Governing Law",
+      "text": "These Terms are governed by the laws of Brazil. Any disputes will be submitted to the courts of Florianópolis, Santa Catarina."
+    },
+    "contact": {
+      "title": "Contact",
+      "text": "For questions about these Terms or data processing, contact:"
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "updated": "Last updated: October 30, 2025",
+    "back": "Back to site",
+    "sections": [
+      {
+        "heading": "1. Introduction",
+        "paragraphs": [
+          "This Privacy Policy explains how Bacco ERP collects, uses, stores, and protects your personal data.",
+          "By using the system, you agree to this policy. If you do not agree, do not use the service."
+        ]
+      },
+      {
+        "heading": "2. Data Collected",
+        "paragraphs": ["We may collect the following information:"],
+        "list": [
+          "Identification data (name, email, phone)",
+          "Company/winery data (name, address)",
+          "System usage data (logs, technical metrics)",
+          "Data needed for management, compliance, and traceability features"
+        ]
+      },
+      {
+        "heading": "3. Purpose of Processing",
+        "paragraphs": [
+          "Data is used to deliver and improve the service, meet legal obligations (including SIVIBE/ENVIN), and ensure security and traceability.",
+          "We never sell your data."
+        ]
+      },
+      {
+        "heading": "4. Data Sharing",
+        "paragraphs": [
+          "We may share data with essential service providers (infrastructure, email, billing) under confidentiality and only for the contracted purpose.",
+          "We do not share data with third parties for marketing."
+        ]
+      },
+      {
+        "heading": "5. Security",
+        "paragraphs": [
+          "We adopt technical and organizational measures to protect your data, including access control, in-transit encryption, and monitoring.",
+          "No system is 100% secure; use strong passwords and 2FA where applicable."
+        ]
+      },
+      {
+        "heading": "6. Retention",
+        "paragraphs": [
+          "We keep data only as long as necessary to fulfill this policy and legal obligations.",
+          "After that period, data is anonymized or securely deleted."
+        ]
+      },
+      {
+        "heading": "7. Data Subject Rights",
+        "paragraphs": ["You may exercise your rights under LGPD, including access, correction, deletion, and portability."],
+        "list": [
+          "Request confirmation and access",
+          "Correct or update",
+          "Request deletion or anonymization",
+          "Withdraw consent",
+          "Portability, when applicable"
+        ]
+      },
+      {
+        "heading": "8. Cookies",
+        "paragraphs": ["We use cookies for authentication, security, and experience improvement. You can adjust preferences in your browser."]
+      },
+      {
+        "heading": "9. Contact",
+        "paragraphs": [
+          "For privacy questions or requests, contact:",
+          "Email: lussandro@gmail.com | Phone: +55 48 99128-6399"
+        ]
+      }
+    ]
+  }
+}
+

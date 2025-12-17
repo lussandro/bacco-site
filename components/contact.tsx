@@ -6,8 +6,11 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Mail, Phone, MapPin } from "lucide-react"
 import { useState } from "react"
+import { useTranslations } from "next-intl"
 
 export function Contact() {
+  const t = useTranslations("contact")
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -34,19 +37,15 @@ export function Contact() {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12 lg:mb-16">
-            <h2 className="font-serif text-3xl lg:text-5xl font-bold mb-4 text-balance">Entre em Contato</h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-pretty">
-              Tem dúvidas ou quer saber mais sobre o Bacco? Estamos aqui para ajudar.
-            </p>
+            <h2 className="font-serif text-3xl lg:text-5xl font-bold mb-4 text-balance">{t("title")}</h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-pretty">{t("subtitle")}</p>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-12">
             <div className="space-y-8">
               <div>
-                <h3 className="font-serif text-2xl font-bold mb-6">Fale Conosco</h3>
-                <p className="text-muted-foreground mb-8 leading-relaxed">
-                  Entre em contato para agendar uma demonstração, tirar dúvidas ou conhecer melhor o Bacco ERP.
-                </p>
+                <h3 className="font-serif text-2xl font-bold mb-6">{t("talkToUs")}</h3>
+                <p className="text-muted-foreground mb-8 leading-relaxed">{t("description")}</p>
               </div>
 
               <div className="space-y-6">
@@ -55,7 +54,7 @@ export function Contact() {
                     <Mail className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <h4 className="font-semibold mb-1">E-mail</h4>
+                    <h4 className="font-semibold mb-1">{t("email")}</h4>
                     <a
                       href="mailto:lussandro@gmail.com"
                       className="text-muted-foreground hover:text-primary transition-colors"
@@ -70,9 +69,9 @@ export function Contact() {
                     <Phone className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <h4 className="font-semibold mb-1">Telefone</h4>
+                    <h4 className="font-semibold mb-1">{t("phone")}</h4>
                     <a href="tel:+5548991286399" className="text-muted-foreground hover:text-primary transition-colors">
-                      (48) 99128-6399
+                      +55 48 99128-6399
                     </a>
                   </div>
                 </div>
@@ -82,8 +81,8 @@ export function Contact() {
                     <MapPin className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <h4 className="font-semibold mb-1">Localização</h4>
-                    <p className="text-muted-foreground">Florianópolis, SC</p>
+                    <h4 className="font-semibold mb-1">{t("location")}</h4>
+                    <p className="text-muted-foreground">{t("address")}</p>
                   </div>
                 </div>
               </div>
@@ -93,21 +92,21 @@ export function Contact() {
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="space-y-2">
                   <label htmlFor="name" className="text-sm font-medium">
-                    Nome completo *
+                    {t("form.name")}
                   </label>
                   <Input
                     id="name"
                     name="name"
                     value={formData.name}
                     onChange={handleChange}
-                    placeholder="Seu nome"
+                    placeholder={t("form.namePlaceholder")}
                     required
                   />
                 </div>
 
                 <div className="space-y-2">
                   <label htmlFor="email" className="text-sm font-medium">
-                    E-mail *
+                    {t("form.email")}
                   </label>
                   <Input
                     id="email"
@@ -115,14 +114,14 @@ export function Contact() {
                     type="email"
                     value={formData.email}
                     onChange={handleChange}
-                    placeholder="seu@email.com"
+                    placeholder={t("form.emailPlaceholder")}
                     required
                   />
                 </div>
 
                 <div className="space-y-2">
                   <label htmlFor="phone" className="text-sm font-medium">
-                    Telefone *
+                    {t("form.phone")}
                   </label>
                   <Input
                     id="phone"
@@ -130,40 +129,40 @@ export function Contact() {
                     type="tel"
                     value={formData.phone}
                     onChange={handleChange}
-                    placeholder="(00) 00000-0000"
+                    placeholder={t("form.phonePlaceholder")}
                     required
                   />
                 </div>
 
                 <div className="space-y-2">
                   <label htmlFor="company" className="text-sm font-medium">
-                    Nome da vinícola
+                    {t("form.company")}
                   </label>
                   <Input
                     id="company"
                     name="company"
                     value={formData.company}
                     onChange={handleChange}
-                    placeholder="Sua vinícola"
+                    placeholder={t("form.companyPlaceholder")}
                   />
                 </div>
 
                 <div className="space-y-2">
                   <label htmlFor="message" className="text-sm font-medium">
-                    Mensagem
+                    {t("form.message")}
                   </label>
                   <Textarea
                     id="message"
                     name="message"
                     value={formData.message}
                     onChange={handleChange}
-                    placeholder="Como podemos ajudar?"
+                    placeholder={t("form.messagePlaceholder")}
                     rows={4}
                   />
                 </div>
 
                 <Button type="submit" size="lg" className="w-full">
-                  Enviar Mensagem
+                  {t("form.submit")}
                 </Button>
               </form>
             </div>

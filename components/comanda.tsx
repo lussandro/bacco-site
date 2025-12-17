@@ -14,40 +14,21 @@ import {
   CheckCircle2,
 } from "lucide-react"
 import Image from "next/image"
+import { useTranslations } from "next-intl"
 
 export function Comanda() {
-  const comandaFeatures = [
-    {
-      icon: Table,
-      title: "Gestão de Mesas",
-      description: "Controle completo de mesas, ocupação, união e divisão de mesas para restaurantes e enoturismo.",
-    },
-    {
-      icon: ShoppingCart,
-      title: "Comandas Digitais",
-      description: "Sistema completo de comandas com múltiplos itens, serviços e controle de status em tempo real.",
-    },
-    {
-      icon: CreditCard,
-      title: "Múltiplas Formas de Pagamento",
-      description: "Dinheiro, cartão, PIX, integração com máquinas de cartão e controle de troco automático.",
-    },
-    {
-      icon: Receipt,
-      title: "Gestão de Caixa",
-      description: "Abertura e fechamento de caixa, controle de sangria, relatórios de vendas e fechamento diário.",
-    },
-    {
-      icon: Users,
-      title: "Clientes e Histórico",
-      description: "Cadastro de clientes, histórico de compras e fidelidade integrado com o módulo comercial.",
-    },
-    {
-      icon: TrendingUp,
-      title: "Relatórios em Tempo Real",
-      description: "Dashboard com vendas do dia, produtos mais vendidos, ticket médio e análise de desempenho.",
-    },
-  ]
+  const t = useTranslations("comanda")
+  const tCommon = useTranslations("common")
+
+  const featureKeys = [
+    "tableManagement",
+    "digitalOrders",
+    "paymentMethods",
+    "cashManagement",
+    "customers",
+    "reports",
+  ] as const
+  const featureIcons = [Table, ShoppingCart, CreditCard, Receipt, Users, TrendingUp]
 
   return (
     <section
@@ -63,37 +44,40 @@ export function Comanda() {
           <div>
             <Badge className="mb-4 bg-primary/10 text-primary hover:bg-primary/20">
               <ShoppingCart className="h-3 w-3 mr-1" />
-              Bacco-Comanda
+              {t("badge")}
             </Badge>
 
             <h2 className="font-serif text-4xl lg:text-5xl font-bold mb-6 text-balance">
-              PDV Completo para Enoturismo e Restaurantes
+              {t("title")}
             </h2>
 
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed text-pretty">
-              O <strong>Bacco-Comanda</strong> é um sistema de ponto de venda (PDV) completo e integrado ao Bacco ERP,
-              desenvolvido especificamente para vinícolas, restaurantes e estabelecimentos de enoturismo. Gerencie
-              mesas, comandas, pagamentos e vendas de forma simples e eficiente.
+              <span dangerouslySetInnerHTML={{ __html: t("description") }} />
             </p>
 
             <div className="grid sm:grid-cols-2 gap-4 mb-8">
-              {comandaFeatures.map((feature, index) => (
-                <div key={index} className="flex gap-3">
-                  <div className="h-10 w-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
-                    <feature.icon className="h-5 w-5 text-primary" />
+              {featureKeys.map((key, index) => {
+                const Icon = featureIcons[index]
+                return (
+                  <div key={key} className="flex gap-3">
+                    <div className="h-10 w-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+                      <Icon className="h-5 w-5 text-primary" />
+                    </div>
+                    <div>
+                      <h3 className="font-semibold mb-1">{t(`features.${key}.title`)}</h3>
+                      <p className="text-sm text-muted-foreground leading-relaxed">
+                        {t(`features.${key}.description`)}
+                      </p>
+                    </div>
                   </div>
-                  <div>
-                    <h3 className="font-semibold mb-1">{feature.title}</h3>
-                    <p className="text-sm text-muted-foreground leading-relaxed">{feature.description}</p>
-                  </div>
-                </div>
-              ))}
+                )
+              })}
             </div>
 
             <div className="flex flex-wrap gap-4">
               <Button size="lg" variant="outline" asChild>
                 <a href="https://staging.bacco-erp.com" target="_blank" rel="noopener noreferrer">
-                  Ver Demonstração
+                  {tCommon("seeDemo")}
                 </a>
               </Button>
             </div>
@@ -101,11 +85,11 @@ export function Comanda() {
             <div className="mt-8 flex items-center gap-6 text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="h-4 w-4 text-primary" />
-                <span>Integrado ao ERP</span>
+                <span>{t("benefits.integrated")}</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="h-4 w-4 text-primary" />
-                <span>Interface intuitiva</span>
+                <span>{t("benefits.intuitive")}</span>
               </div>
             </div>
           </div>
@@ -129,12 +113,10 @@ export function Comanda() {
           <div className="text-center mb-12">
             <Badge className="mb-4 bg-primary/10 text-primary hover:bg-primary/20">
               <ShoppingCart className="h-3 w-3 mr-1" />
-              Bacco-Comanda em Ação
+              {t("inAction.badge")}
             </Badge>
-            <h3 className="font-serif text-3xl lg:text-4xl font-bold mb-4">Interface Moderna e Funcional</h3>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Sistema completo de PDV com gestão de mesas, comandas e pagamentos integrado
-            </p>
+            <h3 className="font-serif text-3xl lg:text-4xl font-bold mb-4">{t("inAction.title")}</h3>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">{t("inAction.subtitle")}</p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-6">
@@ -142,16 +124,14 @@ export function Comanda() {
               <div className="relative aspect-video">
                 <Image
                   src="/screenshots/pdv-comanda.png"
-                  alt="Tela de abertura de caixa"
+                  alt={t("screenshots.cashOpen.title")}
                   fill
                   className="object-cover"
                 />
               </div>
               <div className="p-4">
-                <h4 className="font-semibold mb-2">Abertura de Caixa</h4>
-                <p className="text-sm text-muted-foreground">
-                  Controle completo de abertura e fechamento de caixa com valores iniciais
-                </p>
+                <h4 className="font-semibold mb-2">{t("screenshots.cashOpen.title")}</h4>
+                <p className="text-sm text-muted-foreground">{t("screenshots.cashOpen.description")}</p>
               </div>
             </Card>
 
@@ -159,16 +139,14 @@ export function Comanda() {
               <div className="relative aspect-video">
                 <Image
                   src="/screenshots/pdv-mesas.png"
-                  alt="Gestão de mesas"
+                  alt={t("screenshots.tables.title")}
                   fill
                   className="object-cover"
                 />
               </div>
               <div className="p-4">
-                <h4 className="font-semibold mb-2">Gestão de Mesas</h4>
-                <p className="text-sm text-muted-foreground">
-                  Visualize e gerencie todas as mesas, comandas abertas e status de ocupação
-                </p>
+                <h4 className="font-semibold mb-2">{t("screenshots.tables.title")}</h4>
+                <p className="text-sm text-muted-foreground">{t("screenshots.tables.description")}</p>
               </div>
             </Card>
           </div>
