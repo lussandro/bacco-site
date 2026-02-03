@@ -9,7 +9,7 @@
     "allRightsReserved": "Todos los derechos reservados"
   },
   "seo": {
-    "organizationDescription": "Sistema ERP completo desarrollado exclusivamente para bodegas brasileras",
+    "organizationDescription": "Sistema ERP completo para bodegas con soporte multilingüe (Portugués, Inglés, Español, Italiano)",
     "contactType": "Soporte",
     "softwareDescription": "ERP completo para gestión de bodegas con IA, trazabilidad, compliance SIVIBE/ENVIN y módulo de enoturismo",
     "featureList": {
@@ -35,9 +35,9 @@
   "hero": {
     "badge": "Sistema Completo para Bodegas",
     "title": "Del Viñedo a la Botella: Control Total de Su Producción",
-    "description": "<strong>El único ERP brasilero desarrollado exclusivamente para bodegas.</strong> Gestione cada etapa de la producción de vinos, espumantes y jugos con Bacco ERP. Trazabilidad completa, monitoreo en tiempo real, inteligencia artificial y gestión integrada. Incluye <strong>Bacco-Campo</strong> para gestión del viñedo y <strong>Bacco-Comanda</strong> para PDV y enoturismo.",
-    "ctaDemo": "Solicitar Demo",
-    "ctaSystem": "Ver Sistema",
+    "description": "<strong>ERP completo para bodegas con soporte multilingüe nativo.</strong> Gestione cada etapa de la producción de vinos, espumantes y jugos con Bacco ERP. <strong>Disponible en Portugués, Inglés, Español e Italiano</strong> - traducciones profesionales, no solo superficiales. Trazabilidad completa, monitoreo en tiempo real, inteligencia artificial integrada y gestión unificada. Incluye <strong>Bacco-Campo</strong> para gestión del viñedo y <strong>Bacco-Comanda</strong> para PDV y enoturismo.",
+    "ctaDemo": "Solicitar Demo Gratuita",
+    "ctaSystem": "Ver Sistema en Acción",
     "imageAlt": "Viñedo moderno al atardecer",
     "stats": {
       "traceable": "100%",
@@ -50,7 +50,50 @@
     "floatingCard": {
       "title": "Control Total",
       "description": "Viñedo, producción y calidad"
+    },
+    "badgeMultilingual": "🌍 Disponible en 4 Idiomas",
+    "subtitle": "El único ERP brasilero exclusivo para bodegas, ahora disponible globalmente",
+    "stats": {
+      "traceable": "100%",
+      "traceableLabel": "Trazable",
+      "languages": "4",
+      "languagesLabel": "Idiomas",
+      "realtime": "Real-time",
+      "realtimeLabel": "Monitoreo",
+      "support": "24/7",
+      "supportLabel": "Soporte"
+    },
+    "trustBadges": {
+      "brazilian": "100% Brasilero",
+      "global": "Listo para el Mundo",
+      "ai": "IA Integrada",
+      "compliance": "Compliance Total"
     }
+  },
+  "internationalization": {
+    "badge": "Internacionalización",
+    "title": "Disponible en 4 Idiomas: Listo para el Mundo",
+    "subtitle": "Desarrollado en Brasil, pero preparado para bodegas en cualquier lugar del planeta. Traducciones profesionales que preservan el significado técnico y la especialización del sistema.",
+    "native": "Nativo",
+    "professional": {
+      "title": "Traducciones Profesionales",
+      "description": "No son solo traducciones automáticas. Cada idioma fue cuidadosamente adaptado por especialistas, manteniendo la precisión técnica y el contexto enológico."
+    },
+    "benefits": [
+      "Interfaz completa traducida, no solo textos básicos",
+      "Terminología técnica enológica preservada en cada idioma",
+      "Soporte a prácticas y regulaciones locales",
+      "Documentación y materiales de entrenamiento multilingües",
+      "Actualizaciones simultáneas en todos los idiomas"
+    ],
+    "global": {
+      "title": "Alcance Global",
+      "description": "Bacco ERP está listo para atender bodegas en cualquier región del mundo, manteniendo la especialización nativa.",
+      "languages": "Idiomas Soportados",
+      "translated": "de la Interfaz Traducida",
+      "regions": "Regiones Atendidas"
+    },
+    "cta": "Elija su idioma preferido y comience a usar Bacco ERP hoy mismo. El cambio de idioma es instantáneo y no requiere configuración adicional."
   },
   "features": {
     "title": "Funcionalidades Completas para Su Bodega",
@@ -448,14 +491,15 @@
         ]
       },
       "brazilian": {
-        "title": "Brasilero con Estándar Internacional",
+        "title": "Multilingüe y Global",
         "badge": "Global Ready",
-        "description": "Desarrollado para Brasil, pero preparado para el mundo. Soporte completo a las prácticas locales y estándares internacionales.",
+        "description": "Desarrollado en Brasil, pero preparado para el mundo. Disponible en Portugués, Inglés, Español e Italiano. Soporte completo a las prácticas locales y estándares internacionales.",
         "highlights": [
-          "Soporte a variedades y prácticas brasileras",
-          "Adaptado a las reglas del MAPA, NCM y SIF",
+          "Interfaz disponible en 4 idiomas: PT, EN, ES, IT",
+          "Soporte a variedades y prácticas de diferentes regiones",
+          "Adaptado a las reglas del MAPA, NCM y SIF (Brasil)",
           "Preparado para exportación y certificación internacional",
-          "Diferente de softwares extranjeros con traducciones superficiales"
+          "Traducciones profesionales, no solo superficiales"
         ]
       },
       "architecture": {
@@ -498,7 +542,7 @@
       },
       "mission": {
         "title": "Nuestra Misión",
-        "text": "La primera y única solución <span class=\"text-primary\">100% nacional</span> desarrollada desde cero para bodegas brasileras, con <span class=\"text-primary\">IA integrada</span> y <span class=\"text-primary\">profundidad técnica</span> incomparable."
+        "text": "La primera y única solución <span class=\"text-primary\">100% nacional</span> desarrollada desde cero para bodegas, con <span class=\"text-primary\">soporte multilingüe</span> (PT, EN, ES, IT), <span class=\"text-primary\">IA integrada</span> y <span class=\"text-primary\">profundidad técnica</span> incomparable."
       }
     }
   },
@@ -532,10 +576,10 @@
       }
     },
     "cta": {
-      "title": "El Único ERP Brasilero Hecho para Bodegas",
-      "description": "Mientras ERPs globales intentan adaptar soluciones genéricas para el mercado brasilero, Bacco fue desarrollado desde cero pensando en las necesidades específicas de las bodegas brasileras. No es adaptación - es especialización nativa.",
-      "check1": "Desarrollado en Brasil, para Brasil",
-      "check2": "Soporte en portugués con conocimiento local",
+      "title": "ERP Completo para Bodegas en Todo el Mundo",
+      "description": "Desarrollado en Brasil con estándares internacionales, Bacco fue creado desde cero pensando en las necesidades específicas de bodegas. Disponible en 4 idiomas (PT, EN, ES, IT), ofrece especialización nativa con alcance global.",
+      "check1": "Desarrollado en Brasil, disponible globalmente",
+      "check2": "Soporte multilingüe (PT, EN, ES, IT) con conocimiento local",
       "check3": "Precio accesible sin licenciamiento internacional",
       "check4": "Tecnología moderna vs sistemas heredados"
     },

@@ -60,7 +60,9 @@ export function Header() {
               <DropdownMenuTrigger asChild>
                 <Button variant="ghost" size="sm" className="gap-2">
                   <Globe className="h-4 w-4" />
-                  <span className="hidden sm:inline">{locale === 'pt-BR' ? 'PT' : locale === 'es' ? 'ES' : 'EN'}</span>
+                  <span className="hidden sm:inline">
+                    {locale === 'pt-BR' ? 'PT' : locale === 'es' ? 'ES' : locale === 'it-IT' ? 'IT' : 'EN'}
+                  </span>
                 </Button>
               </DropdownMenuTrigger>
               <DropdownMenuContent align="end">
@@ -72,6 +74,9 @@ export function Header() {
                 </DropdownMenuItem>
                 <DropdownMenuItem onClick={() => changeLocale('es')} className={locale === 'es' ? 'bg-primary/10' : ''}>
                   🇪🇸 Español
+                </DropdownMenuItem>
+                <DropdownMenuItem onClick={() => changeLocale('it-IT')} className={locale === 'it-IT' ? 'bg-primary/10' : ''}>
+                  🇮🇹 Italiano
                 </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>

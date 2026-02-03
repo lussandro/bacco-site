@@ -1,17 +1,17 @@
 {
   "common": {
     "brand": "Bacco",
-    "accessDemo": "Access Demo",
-    "close": "Close",
-    "download": "Download",
-    "seeDemo": "See Demo",
-    "contact": "Contact",
-    "allRightsReserved": "All rights reserved"
+    "accessDemo": "Accedi alla Demo",
+    "close": "Chiudi",
+    "download": "Scarica",
+    "seeDemo": "Vedi Demo",
+    "contact": "Contatto",
+    "allRightsReserved": "Tutti i diritti riservati"
   },
   "seo": {
-    "organizationDescription": "Complete ERP system for wineries with multilingual support (Portuguese, English, Spanish, Italian)",
-    "contactType": "Support",
-    "softwareDescription": "Complete ERP for winery management with AI, traceability, SIVIBE/ENVIN compliance and wine tourism module",
+    "organizationDescription": "Sistema ERP completo per cantine con supporto multilingue (Portoghese, Inglese, Spagnolo, Italiano)",
+    "contactType": "Supporto",
+    "softwareDescription": "ERP completo per la gestione di cantine con IA, tracciabilità, conformità SIVIBE/ENVIN e modulo enoturismo",
     "featureList": {
       "vineyardManagement": "Vineyard Management",
       "aiWinemaking": "AI Winemaking",
@@ -19,81 +19,81 @@
       "compliance": "SIVIBE and ENVIN Compliance",
       "enotourism": "Wine Tourism",
       "pos": "Integrated POS",
-      "mobileApps": "Mobile Apps (Bacco-Campo and Bacco-Comanda)"
+      "mobileApps": "App Mobili (Bacco-Campo e Bacco-Comanda)"
     },
     "home": "Home"
   },
   "header": {
-    "features": "Features",
+    "features": "Funzionalità",
     "mobile": "Bacco-Campo",
     "comanda": "Bacco-Comanda",
-    "system": "System",
-    "differentials": "Differentials",
-    "comparison": "Comparison",
-    "about": "About"
+    "system": "Sistema",
+    "differentials": "Differenziali",
+    "comparison": "Confronto",
+    "about": "Chi Siamo"
   },
   "hero": {
-    "badge": "Complete System for Wineries",
-    "title": "From Vineyard to Bottle: Total Control of Your Production",
-    "description": "<strong>Complete ERP for wineries with native multilingual support.</strong> Manage every stage of wine, sparkling wine, and juice production with Bacco ERP. <strong>Available in Portuguese, English, Spanish, and Italian</strong> - professional translations, not just superficial. Complete traceability, real-time monitoring, integrated artificial intelligence, and unified management. Includes <strong>Bacco-Campo</strong> for vineyard management and <strong>Bacco-Comanda</strong> for POS and wine tourism.",
-    "ctaDemo": "Request Free Demo",
-    "ctaSystem": "See System in Action",
-    "imageAlt": "Modern vineyard at sunset",
+    "badge": "Sistema Completo per Cantine",
+    "title": "Dal Vigneto alla Bottiglia: Controllo Totale della Tua Produzione",
+    "description": "<strong>ERP completo per cantine con supporto multilingue nativo.</strong> Gestisci ogni fase della produzione di vini, spumanti e succhi con Bacco ERP. <strong>Disponibile in Portoghese, Inglese, Spagnolo e Italiano</strong> - traduzioni professionali, non solo superficiali. Tracciabilità completa, monitoraggio in tempo reale, intelligenza artificiale integrata e gestione unificata. Include <strong>Bacco-Campo</strong> per la gestione del vigneto e <strong>Bacco-Comanda</strong> per POS ed enoturismo.",
+    "ctaDemo": "Richiedi Demo Gratuita",
+    "ctaSystem": "Vedi Sistema",
+    "imageAlt": "Vigneto moderno al tramonto",
     "stats": {
       "traceable": "100%",
-      "traceableLabel": "Traceable",
-      "realtime": "Real-time",
-      "realtimeLabel": "Monitoring",
+      "traceableLabel": "Tracciabile",
+      "realtime": "Tempo Reale",
+      "realtimeLabel": "Monitoraggio",
       "support": "24/7",
-      "supportLabel": "Support"
+      "supportLabel": "Supporto"
     },
     "floatingCard": {
-      "title": "Total Control",
-      "description": "Vineyard, production, and quality"
+      "title": "Controllo Totale",
+      "description": "Vigneto, produzione e qualità"
     },
-    "badgeMultilingual": "🌍 Available in 4 Languages",
-    "subtitle": "The only Brazilian ERP exclusively for wineries, now available globally",
+    "badgeMultilingual": "🌍 Disponibile in 4 Lingue",
+    "subtitle": "L'unico ERP brasiliano esclusivo per cantine, ora disponibile globalmente",
     "stats": {
       "traceable": "100%",
-      "traceableLabel": "Traceable",
+      "traceableLabel": "Tracciabile",
       "languages": "4",
-      "languagesLabel": "Languages",
+      "languagesLabel": "Lingue",
       "realtime": "Real-time",
-      "realtimeLabel": "Monitoring",
+      "realtimeLabel": "Monitoraggio",
       "support": "24/7",
-      "supportLabel": "Support"
+      "supportLabel": "Supporto"
     },
     "trustBadges": {
-      "brazilian": "100% Brazilian",
-      "global": "Ready for the World",
-      "ai": "Integrated AI",
-      "compliance": "Total Compliance"
+      "brazilian": "100% Brasiliano",
+      "global": "Pronto per il Mondo",
+      "ai": "IA Integrata",
+      "compliance": "Compliance Totale"
     }
   },
   "internationalization": {
-    "badge": "Internationalization",
-    "title": "Available in 4 Languages: Ready for the World",
-    "subtitle": "Developed in Brazil, but prepared for wineries anywhere on the planet. Professional translations that preserve technical meaning and system specialization.",
-    "native": "Native",
+    "badge": "Internazionalizzazione",
+    "title": "Disponibile in 4 Lingue: Pronto per il Mondo",
+    "subtitle": "Sviluppato in Brasile, ma preparato per cantine ovunque nel pianeta. Traduzioni professionali che preservano il significato tecnico e la specializzazione del sistema.",
+    "native": "Nativo",
     "professional": {
-      "title": "Professional Translations",
-      "description": "Not just automatic translations. Each language was carefully adapted by specialists, maintaining technical precision and enological context."
+      "title": "Traduzioni Professionali",
+      "description": "Non sono solo traduzioni automatiche. Ogni lingua è stata attentamente adattata da specialisti, mantenendo la precisione tecnica e il contesto enologico."
     },
     "benefits": [
-      "Complete interface translated, not just basic texts",
-      "Enological technical terminology preserved in each language",
-      "Support for local practices and regulations",
-      "Multilingual documentation and training materials",
-      "Simultaneous updates in all languages"
+      "Interfaccia completa tradotta, non solo testi base",
+      "Terminologia tecnica enologica preservata in ogni lingua",
+      "Supporto a pratiche e regolamentazioni locali",
+      "Documentazione e materiali di formazione multilingue",
+      "Aggiornamenti simultanei in tutte le lingue"
     ],
     "global": {
-      "title": "Global Reach",
-      "description": "Bacco ERP is ready to serve wineries in any region of the world, maintaining native specialization.",
-      "languages": "Supported Languages",
-      "translated": "of Interface Translated",
-      "regions": "Regions Served"
+      "title": "Portata Globale",
+      "description": "Bacco ERP è pronto per servire cantine in qualsiasi regione del mondo, mantenendo la specializzazione nativa.",
+      "languages": "Lingue Supportate",
+      "translated": "dell'Interfaccia Tradotta",
+      "regions": "Regioni Servite"
     },
-    "cta": "Choose your preferred language and start using Bacco ERP today. Language switching is instant and requires no additional configuration."
+    "cta": "Scegli la tua lingua preferita e inizia a usare Bacco ERP oggi stesso. Il cambio di lingua è istantaneo e non richiede configurazione aggiuntiva."
   },
   "features": {
     "title": "Complete Features for Your Winery",
@@ -541,8 +541,8 @@
         }
       },
       "mission": {
-        "title": "Our Mission",
-        "text": "The first and only <span class=\"text-primary\">100% national</span> solution developed from scratch for wineries, with <span class=\"text-primary\">multilingual support</span> (PT, EN, ES, IT), <span class=\"text-primary\">integrated AI</span> and <span class=\"text-primary\">technical depth</span> unmatched."
+        "title": "La Nostra Missione",
+        "text": "La prima e unica soluzione <span class=\"text-primary\">100% nazionale</span> sviluppata da zero per cantine, con <span class=\"text-primary\">supporto multilingue</span> (PT, EN, ES, IT), <span class=\"text-primary\">IA integrata</span> e <span class=\"text-primary\">profondità tecnica</span> incomparabile."
       }
     }
   },
@@ -576,12 +576,12 @@
       }
     },
     "cta": {
-      "title": "Complete ERP for Wineries Around the World",
-      "description": "Developed in Brazil with international standards, Bacco was created from scratch thinking about the specific needs of wineries. Available in 4 languages (PT, EN, ES, IT), it offers native specialization with global reach.",
-      "check1": "Developed in Brazil, available globally",
-      "check2": "Multilingual support (PT, EN, ES, IT) with local knowledge",
-      "check3": "Affordable price without international licensing",
-      "check4": "Modern technology vs legacy systems"
+      "title": "ERP Completo per Cantine in Tutto il Mondo",
+      "description": "Sviluppato in Brasile con standard internazionali, Bacco è stato creato da zero pensando alle esigenze specifiche delle cantine. Disponibile in 4 lingue (PT, EN, ES, IT), offre specializzazione nativa con portata globale.",
+      "check1": "Sviluppato in Brasile, disponibile globalmente",
+      "check2": "Supporto multilingue (PT, EN, ES, IT) con conoscenza locale",
+      "check3": "Prezzo accessibile senza licenze internazionali",
+      "check4": "Tecnologia moderna vs sistemi legacy"
     },
     "items": {
       "specialization": {

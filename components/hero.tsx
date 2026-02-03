@@ -17,15 +17,25 @@ export function Hero() {
       <div className="container mx-auto px-4 lg:px-8 relative">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="space-y-8 animate-in fade-in slide-in-from-left duration-700">
-            <div className="inline-block">
+            <div className="flex flex-wrap items-center gap-3">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium">
                 {t('badge')}
               </span>
+              <span className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-gradient-to-r from-primary/20 to-primary/10 text-primary text-xs font-semibold border border-primary/30 shadow-sm">
+                {t('badgeMultilingual')}
+              </span>
             </div>
 
-            <h1 className="font-serif text-5xl lg:text-7xl font-bold leading-tight text-balance">
-              {t('title')}
-            </h1>
+            <div>
+              <h1 className="font-serif text-5xl lg:text-7xl font-bold leading-tight text-balance">
+                {t('title')}
+              </h1>
+              {t('subtitle') && (
+                <p className="text-lg lg:text-xl text-primary/80 font-medium mt-3">
+                  {t('subtitle')}
+                </p>
+              )}
+            </div>
 
             <p className="text-xl text-muted-foreground leading-relaxed text-pretty max-w-xl" dangerouslySetInnerHTML={{ __html: t('description') }} />
 
@@ -49,11 +59,17 @@ export function Hero() {
               </Button>
             </div>
 
-            <div className="grid grid-cols-3 gap-6 pt-6">
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 pt-6">
               <div className="space-y-1">
                 <div className="text-3xl font-bold text-primary">{t('stats.traceable')}</div>
                 <div className="text-sm text-muted-foreground">{t('stats.traceableLabel')}</div>
               </div>
+              {t('stats.languages') && (
+                <div className="space-y-1">
+                  <div className="text-3xl font-bold text-primary">{t('stats.languages')}</div>
+                  <div className="text-sm text-muted-foreground">{t('stats.languagesLabel')}</div>
+                </div>
+              )}
               <div className="space-y-1">
                 <div className="text-3xl font-bold text-primary">{t('stats.realtime')}</div>
                 <div className="text-sm text-muted-foreground">{t('stats.realtimeLabel')}</div>

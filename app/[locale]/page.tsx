@@ -1,5 +1,6 @@
 import { Header } from "@/components/header"
 import { Hero } from "@/components/hero"
+import { Internationalization } from "@/components/internationalization"
 import { Features } from "@/components/features"
 import { Mobile } from "@/components/mobile"
 import { Comanda } from "@/components/comanda"
@@ -18,6 +19,7 @@ export default function Home() {
       <Header />
       <main className="min-h-screen">
         <Hero />
+        <Internationalization />
         <Features />
         <Mobile />
         <Comanda />

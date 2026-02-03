@@ -9,7 +9,7 @@
     "allRightsReserved": "Todos os direitos reservados"
   },
   "seo": {
-    "organizationDescription": "Sistema ERP completo desenvolvido exclusivamente para vinícolas brasileiras",
+    "organizationDescription": "Sistema ERP completo para vinícolas com suporte multilíngue (Português, Inglês, Espanhol, Italiano)",
     "contactType": "Suporte",
     "softwareDescription": "ERP completo para gestão de vinícolas com IA, rastreabilidade, compliance SIVIBE/ENVIN e módulo de enoturismo",
     "featureList": {
@@ -34,14 +34,18 @@
   },
   "hero": {
     "badge": "Sistema Completo para Vinícolas",
+    "badgeMultilingual": "🌍 Disponível em 4 Idiomas",
     "title": "Do Vinhedo à Garrafa: Controle Total da Sua Produção",
-    "description": "<strong>O único ERP brasileiro desenvolvido exclusivamente para vinícolas.</strong> Gerencie cada etapa da produção de vinhos, espumantes e sucos com o Bacco ERP. Rastreabilidade completa, monitoramento em tempo real, inteligência artificial e gestão integrada. Inclui <strong>Bacco-Campo</strong> para gestão no vinhedo e <strong>Bacco-Comanda</strong> para PDV e enoturismo.",
-    "ctaDemo": "Solicitar Demonstração",
-    "ctaSystem": "Ver Sistema",
+    "subtitle": "O único ERP brasileiro exclusivo para vinícolas, agora disponível globalmente",
+    "description": "<strong>ERP completo para vinícolas com suporte multilíngue nativo.</strong> Gerencie cada etapa da produção de vinhos, espumantes e sucos com o Bacco ERP. <strong>Disponível em Português, Inglês, Espanhol e Italiano</strong> - traduções profissionais, não apenas superficiais. Rastreabilidade completa, monitoramento em tempo real, inteligência artificial integrada e gestão unificada. Inclui <strong>Bacco-Campo</strong> para gestão no vinhedo e <strong>Bacco-Comanda</strong> para PDV e enoturismo.",
+    "ctaDemo": "Solicitar Demonstração Gratuita",
+    "ctaSystem": "Ver Sistema em Ação",
     "imageAlt": "Vinhedo moderno ao pôr do sol",
     "stats": {
       "traceable": "100%",
       "traceableLabel": "Rastreável",
+      "languages": "4",
+      "languagesLabel": "Idiomas",
       "realtime": "Real-time",
       "realtimeLabel": "Monitoramento",
       "support": "24/7",
@@ -50,7 +54,38 @@
     "floatingCard": {
       "title": "Controle Total",
       "description": "Vinhedo, produção e qualidade"
+    },
+    "trustBadges": {
+      "brazilian": "100% Brasileiro",
+      "global": "Pronto para o Mundo",
+      "ai": "IA Integrada",
+      "compliance": "Compliance Total"
     }
+  },
+  "internationalization": {
+    "badge": "Internacionalização",
+    "title": "Disponível em 4 Idiomas: Pronto para o Mundo",
+    "subtitle": "Desenvolvido no Brasil, mas preparado para vinícolas em qualquer lugar do planeta. Traduções profissionais que preservam o significado técnico e a especialização do sistema.",
+    "native": "Nativo",
+    "professional": {
+      "title": "Traduções Profissionais",
+      "description": "Não são apenas traduções automáticas. Cada idioma foi cuidadosamente adaptado por especialistas, mantendo a precisão técnica e o contexto enológico."
+    },
+    "benefits": [
+      "Interface completa traduzida, não apenas textos básicos",
+      "Terminologia técnica enológica preservada em cada idioma",
+      "Suporte a práticas e regulamentações locais",
+      "Documentação e materiais de treinamento multilíngues",
+      "Atualizações simultâneas em todos os idiomas"
+    ],
+    "global": {
+      "title": "Alcance Global",
+      "description": "O Bacco ERP está pronto para atender vinícolas em qualquer região do mundo, mantendo a especialização nativa.",
+      "languages": "Idiomas Suportados",
+      "translated": "da Interface Traduzida",
+      "regions": "Regiões Atendidas"
+    },
+    "cta": "Escolha seu idioma preferido e comece a usar o Bacco ERP hoje mesmo. A mudança de idioma é instantânea e não requer configuração adicional."
   },
   "features": {
     "title": "Funcionalidades Completas para Sua Vinícola",
@@ -448,14 +483,15 @@
         ]
       },
       "brazilian": {
-        "title": "Brasileiro com Padrão Internacional",
+        "title": "Multilíngue e Global",
         "badge": "Global Ready",
-        "description": "Desenvolvido para o Brasil, mas preparado para o mundo. Suporte completo às práticas locais e padrões internacionais.",
+        "description": "Desenvolvido no Brasil, mas preparado para o mundo. Disponível em Português, Inglês, Espanhol e Italiano. Suporte completo às práticas locais e padrões internacionais.",
         "highlights": [
-          "Suporte a variedades e práticas brasileiras",
-          "Adaptado às regras do MAPA, NCM e SIF",
+          "Interface disponível em 4 idiomas: PT, EN, ES, IT",
+          "Suporte a variedades e práticas de diferentes regiões",
+          "Adaptado às regras do MAPA, NCM e SIF (Brasil)",
           "Preparado para exportação e certificação internacional",
-          "Diferente de softwares estrangeiros com traduções superficiais"
+          "Traduções profissionais, não apenas superficiais"
         ]
       },
       "architecture": {
@@ -498,7 +534,7 @@
       },
       "mission": {
         "title": "Nossa Missão",
-        "text": "A primeira e única solução <span class=\"text-primary\">100% nacional</span> desenvolvida do zero para vinícolas brasileiras, com <span class=\"text-primary\">IA integrada</span> e <span class=\"text-primary\">profundidade técnica</span> incomparável."
+        "text": "A primeira e única solução <span class=\"text-primary\">100% nacional</span> desenvolvida do zero para vinícolas, com <span class=\"text-primary\">suporte multilíngue</span> (PT, EN, ES, IT), <span class=\"text-primary\">IA integrada</span> e <span class=\"text-primary\">profundidade técnica</span> incomparável."
       }
     }
   },
@@ -532,10 +568,10 @@
       }
     },
     "cta": {
-      "title": "O Único ERP Brasileiro Feito para Vinícolas",
-      "description": "Enquanto ERPs globais tentam adaptar soluções genéricas para o mercado brasileiro, o Bacco foi desenvolvido do zero pensando nas necessidades específicas das vinícolas brasileiras. Não é adaptação - é especialização nativa.",
-      "check1": "Desenvolvido no Brasil, para o Brasil",
-      "check2": "Suporte em português com conhecimento local",
+      "title": "ERP Completo para Vinícolas ao Redor do Mundo",
+      "description": "Desenvolvido no Brasil com padrões internacionais, o Bacco foi criado do zero pensando nas necessidades específicas de vinícolas. Disponível em 4 idiomas (PT, EN, ES, IT), oferece especialização nativa com alcance global.",
+      "check1": "Desenvolvido no Brasil, disponível globalmente",
+      "check2": "Suporte multilíngue (PT, EN, ES, IT) com conhecimento local",
       "check3": "Preço acessível sem licenciamento internacional",
       "check4": "Tecnologia moderna vs sistemas legados"
     },
@@ -669,10 +705,10 @@
       "title": "A Origem do Bacco",
       "subtitle": "Como nasceu a ideia de criar um ERP exclusivo para vinícolas",
       "text": {
-        "p1": "A ideia do Bacco nasceu de uma necessidade real: enquanto eu produzia meus próprios vinhos de forma artesanal, percebi que não existia no mercado brasileiro um sistema de gestão que realmente entendesse as particularidades da produção de vinhos no Brasil.",
-        "p2": "Os sistemas disponíveis eram, em sua maioria, adaptações de ERPs genéricos ou traduções superficiais de softwares estrangeiros que não contemplavam as variedades de uvas brasileiras, as práticas locais, as regulamentações do MAPA ou as necessidades específicas de pequenas e médias vinícolas.",
-        "p3": "Foi então que decidi unir minhas duas paixões — tecnologia e vinho — para criar algo único: um ERP desenvolvido do zero, pensado exclusivamente para vinícolas brasileiras, mas com padrões internacionais de qualidade e rastreabilidade.",
-        "p4": "O Bacco não é apenas um software. É o resultado de anos de experiência em desenvolvimento de sistemas, conhecimento técnico em enologia e uma profunda compreensão das necessidades reais de quem produz vinho no Brasil.",
+        "p1": "A ideia do Bacco nasceu de uma necessidade real: enquanto eu produzia meus próprios vinhos de forma artesanal, percebi que não existia no mercado um sistema de gestão que realmente entendesse as particularidades da produção de vinhos.",
+        "p2": "Os sistemas disponíveis eram, em sua maioria, adaptações de ERPs genéricos ou traduções superficiais de softwares estrangeiros que não contemplavam as variedades de uvas, práticas locais, regulamentações específicas ou as necessidades de pequenas e médias vinícolas.",
+        "p3": "Foi então que decidi unir minhas duas paixões — tecnologia e vinho — para criar algo único: um ERP desenvolvido do zero, pensado para vinícolas, mas com padrões internacionais de qualidade e rastreabilidade. Hoje, o Bacco está disponível em 4 idiomas (Português, Inglês, Espanhol, Italiano), atendendo vinícolas ao redor do mundo.",
+        "p4": "O Bacco não é apenas um software. É o resultado de anos de experiência em desenvolvimento de sistemas, conhecimento técnico em enologia e uma profunda compreensão das necessidades reais de quem produz vinho. Com suporte multilíngue, levamos essa solução para vinícolas em diferentes países.",
         "extra1": "Mais do que um software, o Bacco representa uma visão de futuro para o vinho brasileiro — moderna, autêntica e feita com alma. Um sistema que entende que cada lote tem uma história, cada fermentação um ritmo, e cada vinho uma identidade.",
         "extra2": "O Bacco não é apenas um ERP. É o resultado de décadas de experiência em tecnologia encontrando a paixão pelo vinho. É a ferramenta que eu gostaria que existisse quando comecei a estudar enologia."
       },
@@ -740,7 +776,7 @@
     "title": "Nossa Missão",
     "text": "Empoderar vinícolas brasileiras com tecnologia de excelência, oferecendo um sistema completo e inteligente que acompanha cada etapa da produção vitivinícola — do vinhedo à garrafa — com rastreabilidade total, análises precisas e gestão integrada, permitindo que produtores de todos os portes tomem decisões baseadas em dados e elevem a qualidade de seus vinhos ao padrão internacional.",
     "visionTitle": "Nossa Visão",
-    "visionText": "Ser reconhecido como o ERP de referência para o setor vitivinícola brasileiro e latino-americano, transformando a forma como vinícolas gerenciam sua produção através da união entre tradição e inovação, contribuindo para o crescimento e profissionalização da indústria do vinho nacional e posicionando o Brasil como protagonista na tecnologia enológica.",
+    "visionText": "Ser reconhecido como o ERP de referência para o setor vitivinícola global, com foco especial no Brasil e América Latina, transformando a forma como vinícolas gerenciam sua produção através da união entre tradição e inovação. Com suporte multilíngue, contribuímos para o crescimento e profissionalização da indústria do vinho em diferentes mercados, posicionando o Brasil como protagonista na tecnologia enológica mundial.",
     "valuesTitle": "Nossos Valores",
     "valuesSubtitle": "Princípios que guiam cada linha de código e cada decisão que tomamos",
     "values": {
