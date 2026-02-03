@@ -1294,6 +1294,29 @@
       "check3": "No international licensing costs",
       "button": "Request Free Demo"
     },
+    "regulatory": {
+      "badge": "Coming Soon",
+      "title": "Regulatory Documentation",
+      "subtitle": "Complete support material for compliance with Brazilian wine industry regulations.",
+      "items": {
+        "guides": {
+          "title": "Compliance Guides",
+          "description": "Detailed documentation on SIVIBE, ENVIN and MAPA"
+        },
+        "templates": {
+          "title": "Report Templates",
+          "description": "Ready-to-use models for mandatory declarations and reports"
+        },
+        "checklists": {
+          "title": "Audit Checklists",
+          "description": "Verification lists to ensure full compliance"
+        },
+        "manuals": {
+          "title": "Procedure Manuals",
+          "description": "Step-by-step instructions for regulatory processes"
+        }
+      }
+    },
     "footer": {
       "rights": "All rights reserved."
     }
@@ -1459,6 +1482,29 @@
       "check3": "Local currency (ARS)",
       "button": "Request Free Demo"
     },
+    "regulatory": {
+      "badge": "Coming Soon",
+      "title": "Regulatory Documentation",
+      "subtitle": "Complete support material for compliance with Argentine wine industry regulations.",
+      "items": {
+        "guides": {
+          "title": "Compliance Guides",
+          "description": "Detailed documentation on SENASA, INV and AFIP"
+        },
+        "templates": {
+          "title": "Report Templates",
+          "description": "Ready-to-use models for mandatory declarations and reports"
+        },
+        "checklists": {
+          "title": "Audit Checklists",
+          "description": "Verification lists to ensure full compliance"
+        },
+        "manuals": {
+          "title": "Procedure Manuals",
+          "description": "Step-by-step instructions for regulatory processes"
+        }
+      }
+    },
     "footer": {
       "rights": "All rights reserved."
     }
@@ -1611,6 +1657,29 @@
       "check3": "EU regulation compliance",
       "button": "Request Free Demo"
     },
+    "regulatory": {
+      "badge": "Coming Soon",
+      "title": "Regulatory Documentation",
+      "subtitle": "Complete support material for compliance with Italian and European wine industry regulations.",
+      "items": {
+        "guides": {
+          "title": "Compliance Guides",
+          "description": "Detailed documentation on DOC, DOCG, IGT and SIAN"
+        },
+        "templates": {
+          "title": "Report Templates",
+          "description": "Ready-to-use models for mandatory declarations and reports"
+        },
+        "checklists": {
+          "title": "Audit Checklists",
+          "description": "Verification lists to ensure full compliance"
+        },
+        "manuals": {
+          "title": "Procedure Manuals",
+          "description": "Step-by-step instructions for regulatory processes"
+        }
+      }
+    },
     "footer": {
       "rights": "All rights reserved."
     }
@@ -1758,6 +1827,29 @@
       "check3": "Prices in Chilean Peso",
       "button": "Request Free Demo"
     },
+    "regulatory": {
+      "badge": "Coming Soon",
+      "title": "Regulatory Documentation",
+      "subtitle": "Complete support material for compliance with Chilean wine industry regulations.",
+      "items": {
+        "guides": {
+          "title": "Compliance Guides",
+          "description": "Detailed documentation on SAG, DO and SII"
+        },
+        "templates": {
+          "title": "Report Templates",
+          "description": "Ready-to-use models for mandatory declarations and reports"
+        },
+        "checklists": {
+          "title": "Audit Checklists",
+          "description": "Verification lists to ensure full compliance"
+        },
+        "manuals": {
+          "title": "Procedure Manuals",
+          "description": "Step-by-step instructions for regulatory processes"
+        }
+      }
+    },
     "footer": {
       "rights": "All rights reserved."
     }
@@ -1899,6 +1991,29 @@
       "check2": "Spanish support",
       "check3": "Prices in Uruguayan Peso",
       "button": "Request Free Demo"
+    },
+    "regulatory": {
+      "badge": "Coming Soon",
+      "title": "Regulatory Documentation",
+      "subtitle": "Complete support material for compliance with Uruguayan wine industry regulations.",
+      "items": {
+        "guides": {
+          "title": "Compliance Guides",
+          "description": "Detailed documentation on INAVI, MGAP and DGI"
+        },
+        "templates": {
+          "title": "Report Templates",
+          "description": "Ready-to-use models for mandatory declarations and reports"
+        },
+        "checklists": {
+          "title": "Audit Checklists",
+          "description": "Verification lists to ensure full compliance"
+        },
+        "manuals": {
+          "title": "Procedure Manuals",
+          "description": "Step-by-step instructions for regulatory processes"
+        }
+      }
     },
     "footer": {
       "rights": "All rights reserved."

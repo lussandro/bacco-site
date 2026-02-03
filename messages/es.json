@@ -1294,6 +1294,29 @@
       "check3": "Sin costos de licenciamiento internacional",
       "button": "Solicitar Demo Gratuita"
     },
+    "regulatory": {
+      "badge": "Proximamente",
+      "title": "Documentacion Regulatoria",
+      "subtitle": "Material completo de apoyo para el cumplimiento de las regulaciones brasilenas del sector vinicola.",
+      "items": {
+        "guides": {
+          "title": "Guias de Cumplimiento",
+          "description": "Documentacion detallada sobre SIVIBE, ENVIN y MAPA"
+        },
+        "templates": {
+          "title": "Plantillas de Informes",
+          "description": "Modelos listos para declaraciones e informes obligatorios"
+        },
+        "checklists": {
+          "title": "Listas de Verificacion de Auditoria",
+          "description": "Listas de verificacion para garantizar el cumplimiento total"
+        },
+        "manuals": {
+          "title": "Manuales de Procedimientos",
+          "description": "Instrucciones paso a paso para procesos regulatorios"
+        }
+      }
+    },
     "footer": {
       "rights": "Todos los derechos reservados."
     }
@@ -1459,6 +1482,29 @@
       "check3": "Moneda local (ARS)",
       "button": "Solicitar Demo Gratuita"
     },
+    "regulatory": {
+      "badge": "Proximamente",
+      "title": "Documentacion Regulatoria",
+      "subtitle": "Material completo de apoyo para el cumplimiento de las regulaciones argentinas del sector vinicola.",
+      "items": {
+        "guides": {
+          "title": "Guias de Cumplimiento",
+          "description": "Documentacion detallada sobre SENASA, INV y AFIP"
+        },
+        "templates": {
+          "title": "Plantillas de Informes",
+          "description": "Modelos listos para declaraciones e informes obligatorios"
+        },
+        "checklists": {
+          "title": "Listas de Verificacion de Auditoria",
+          "description": "Listas de verificacion para garantizar el cumplimiento total"
+        },
+        "manuals": {
+          "title": "Manuales de Procedimientos",
+          "description": "Instrucciones paso a paso para procesos regulatorios"
+        }
+      }
+    },
     "footer": {
       "rights": "Todos los derechos reservados."
     }
@@ -1611,6 +1657,29 @@
       "check3": "Conformidad con regulaciones UE",
       "button": "Solicitar Demo Gratuita"
     },
+    "regulatory": {
+      "badge": "Proximamente",
+      "title": "Documentacion Regulatoria",
+      "subtitle": "Material completo de apoyo para el cumplimiento de las regulaciones italianas y europeas del sector vinicola.",
+      "items": {
+        "guides": {
+          "title": "Guias de Cumplimiento",
+          "description": "Documentacion detallada sobre DOC, DOCG, IGT y SIAN"
+        },
+        "templates": {
+          "title": "Plantillas de Informes",
+          "description": "Modelos listos para declaraciones e informes obligatorios"
+        },
+        "checklists": {
+          "title": "Listas de Verificacion de Auditoria",
+          "description": "Listas de verificacion para garantizar el cumplimiento total"
+        },
+        "manuals": {
+          "title": "Manuales de Procedimientos",
+          "description": "Instrucciones paso a paso para procesos regulatorios"
+        }
+      }
+    },
     "footer": {
       "rights": "Todos los derechos reservados."
     }
@@ -1758,6 +1827,29 @@
       "check3": "Precios en Peso Chileno",
       "button": "Solicitar Demo Gratuita"
     },
+    "regulatory": {
+      "badge": "Proximamente",
+      "title": "Documentacion Regulatoria",
+      "subtitle": "Material completo de apoyo para el cumplimiento de las regulaciones chilenas del sector vinicola.",
+      "items": {
+        "guides": {
+          "title": "Guias de Cumplimiento",
+          "description": "Documentacion detallada sobre SAG, DO y SII"
+        },
+        "templates": {
+          "title": "Plantillas de Informes",
+          "description": "Modelos listos para declaraciones e informes obligatorios"
+        },
+        "checklists": {
+          "title": "Listas de Verificacion de Auditoria",
+          "description": "Listas de verificacion para garantizar el cumplimiento total"
+        },
+        "manuals": {
+          "title": "Manuales de Procedimientos",
+          "description": "Instrucciones paso a paso para procesos regulatorios"
+        }
+      }
+    },
     "footer": {
       "rights": "Todos los derechos reservados."
     }
@@ -1899,6 +1991,29 @@
       "check2": "Soporte en espanol",
       "check3": "Precios en Peso Uruguayo",
       "button": "Solicitar Demo Gratuita"
+    },
+    "regulatory": {
+      "badge": "Proximamente",
+      "title": "Documentacion Regulatoria",
+      "subtitle": "Material completo de apoyo para el cumplimiento de las regulaciones uruguayas del sector vinicola.",
+      "items": {
+        "guides": {
+          "title": "Guias de Cumplimiento",
+          "description": "Documentacion detallada sobre INAVI, MGAP y DGI"
+        },
+        "templates": {
+          "title": "Plantillas de Informes",
+          "description": "Modelos listos para declaraciones e informes obligatorios"
+        },
+        "checklists": {
+          "title": "Listas de Verificacion de Auditoria",
+          "description": "Listas de verificacion para garantizar el cumplimiento total"
+        },
+        "manuals": {
+          "title": "Manuales de Procedimientos",
+          "description": "Instrucciones paso a paso para procesos regulatorios"
+        }
+      }
     },
     "footer": {
       "rights": "Todos los derechos reservados."

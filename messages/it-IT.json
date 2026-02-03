@@ -1294,6 +1294,29 @@
       "check3": "Nessun costo di licenza internazionale",
       "button": "Richiedi Demo Gratuita"
     },
+    "regulatory": {
+      "badge": "In Arrivo",
+      "title": "Documentazione Normativa",
+      "subtitle": "Materiale completo di supporto per la conformita con le normative brasiliane del settore vinicolo.",
+      "items": {
+        "guides": {
+          "title": "Guide alla Conformita",
+          "description": "Documentazione dettagliata su SIVIBE, ENVIN e MAPA"
+        },
+        "templates": {
+          "title": "Modelli di Report",
+          "description": "Modelli pronti per dichiarazioni e report obbligatori"
+        },
+        "checklists": {
+          "title": "Checklist di Audit",
+          "description": "Liste di verifica per garantire la piena conformita"
+        },
+        "manuals": {
+          "title": "Manuali delle Procedure",
+          "description": "Istruzioni passo-passo per i processi normativi"
+        }
+      }
+    },
     "footer": {
       "rights": "Tutti i diritti riservati."
     }
@@ -1459,6 +1482,29 @@
       "check3": "Valuta locale (ARS)",
       "button": "Richiedi Demo Gratuita"
     },
+    "regulatory": {
+      "badge": "In Arrivo",
+      "title": "Documentazione Normativa",
+      "subtitle": "Materiale completo di supporto per la conformita con le normative argentine del settore vinicolo.",
+      "items": {
+        "guides": {
+          "title": "Guide alla Conformita",
+          "description": "Documentazione dettagliata su SENASA, INV e AFIP"
+        },
+        "templates": {
+          "title": "Modelli di Report",
+          "description": "Modelli pronti per dichiarazioni e report obbligatori"
+        },
+        "checklists": {
+          "title": "Checklist di Audit",
+          "description": "Liste di verifica per garantire la piena conformita"
+        },
+        "manuals": {
+          "title": "Manuali delle Procedure",
+          "description": "Istruzioni passo-passo per i processi normativi"
+        }
+      }
+    },
     "footer": {
       "rights": "Tutti i diritti riservati."
     }
@@ -1611,6 +1657,29 @@
       "check3": "Conformita con normative UE",
       "button": "Richiedi Demo Gratuita"
     },
+    "regulatory": {
+      "badge": "In Arrivo",
+      "title": "Documentazione Normativa",
+      "subtitle": "Materiale completo di supporto per la conformita con le normative italiane ed europee del settore vinicolo.",
+      "items": {
+        "guides": {
+          "title": "Guide alla Conformita",
+          "description": "Documentazione dettagliata su DOC, DOCG, IGT e SIAN"
+        },
+        "templates": {
+          "title": "Modelli di Report",
+          "description": "Modelli pronti per dichiarazioni e report obbligatori"
+        },
+        "checklists": {
+          "title": "Checklist di Audit",
+          "description": "Liste di verifica per garantire la piena conformita"
+        },
+        "manuals": {
+          "title": "Manuali delle Procedure",
+          "description": "Istruzioni passo-passo per i processi normativi"
+        }
+      }
+    },
     "footer": {
       "rights": "Tutti i diritti riservati."
     }
@@ -1758,6 +1827,29 @@
       "check3": "Prezzi in Peso Cileno",
       "button": "Richiedi Demo Gratuita"
     },
+    "regulatory": {
+      "badge": "In Arrivo",
+      "title": "Documentazione Normativa",
+      "subtitle": "Materiale completo di supporto per la conformita con le normative cilene del settore vinicolo.",
+      "items": {
+        "guides": {
+          "title": "Guide alla Conformita",
+          "description": "Documentazione dettagliata su SAG, DO e SII"
+        },
+        "templates": {
+          "title": "Modelli di Report",
+          "description": "Modelli pronti per dichiarazioni e report obbligatori"
+        },
+        "checklists": {
+          "title": "Checklist di Audit",
+          "description": "Liste di verifica per garantire la piena conformita"
+        },
+        "manuals": {
+          "title": "Manuali delle Procedure",
+          "description": "Istruzioni passo-passo per i processi normativi"
+        }
+      }
+    },
     "footer": {
       "rights": "Tutti i diritti riservati."
     }
@@ -1899,6 +1991,29 @@
       "check2": "Supporto in spagnolo",
       "check3": "Prezzi in Peso Uruguaiano",
       "button": "Richiedi Demo Gratuita"
+    },
+    "regulatory": {
+      "badge": "In Arrivo",
+      "title": "Documentazione Normativa",
+      "subtitle": "Materiale completo di supporto per la conformita con le normative uruguaiane del settore vinicolo.",
+      "items": {
+        "guides": {
+          "title": "Guide alla Conformita",
+          "description": "Documentazione dettagliata su INAVI, MGAP e DGI"
+        },
+        "templates": {
+          "title": "Modelli di Report",
+          "description": "Modelli pronti per dichiarazioni e report obbligatori"
+        },
+        "checklists": {
+          "title": "Checklist di Audit",
+          "description": "Liste di verifica per garantire la piena conformita"
+        },
+        "manuals": {
+          "title": "Manuali delle Procedure",
+          "description": "Istruzioni passo-passo per i processi normativi"
+        }
+      }
     },
     "footer": {
       "rights": "Tutti i diritti riservati."

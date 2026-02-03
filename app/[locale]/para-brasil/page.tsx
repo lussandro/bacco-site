@@ -1,6 +1,6 @@
 "use client"
 
-import { Wine, MapPin, Grape, Shield, FileCheck, Building2, Check, ArrowRight, Globe, Leaf, Mountain, Sun, Database } from "lucide-react"
+import { Wine, MapPin, Grape, Shield, FileCheck, Building2, Check, ArrowRight, Globe, Leaf, Mountain, Sun, Database, Clock, FileText } from "lucide-react"
 import Link from "next/link"
 import { useTranslations } from "next-intl"
 import { Card, CardContent } from "@/components/ui/card"
@@ -120,8 +120,72 @@ export default function ParaBrasil() {
           </div>
         </section>
 
-        {/* Wine Regions Section */}
+        {/* Regulatory Documentation Section - Coming Soon */}
         <section className="py-20 lg:py-32 bg-background">
+          <div className="container mx-auto px-4 lg:px-8">
+            <div className="max-w-4xl mx-auto">
+              <div className="bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-900/50 dark:to-slate-800/50 rounded-2xl p-8 lg:p-12 border border-slate-200 dark:border-slate-700">
+                <div className="flex items-center gap-3 mb-6">
+                  <div className="h-12 w-12 rounded-xl bg-slate-200 dark:bg-slate-700 flex items-center justify-center">
+                    <FileText className="h-6 w-6 text-slate-600 dark:text-slate-300" />
+                  </div>
+                  <div>
+                    <div className="flex items-center gap-2">
+                      <h3 className="text-xl font-bold">{t("regulatory.title")}</h3>
+                      <Badge variant="secondary" className="bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-400">
+                        <Clock className="mr-1 h-3 w-3" />
+                        {t("regulatory.badge")}
+                      </Badge>
+                    </div>
+                    <p className="text-muted-foreground text-sm mt-1">{t("regulatory.subtitle")}</p>
+                  </div>
+                </div>
+
+                <div className="grid md:grid-cols-2 gap-4">
+                  <div className="flex items-start gap-3 p-4 rounded-lg bg-white/50 dark:bg-slate-800/50">
+                    <div className="h-8 w-8 rounded-lg bg-slate-100 dark:bg-slate-700 flex items-center justify-center flex-shrink-0">
+                      <FileCheck className="h-4 w-4 text-slate-500" />
+                    </div>
+                    <div>
+                      <h4 className="font-medium text-sm">{t("regulatory.items.guides.title")}</h4>
+                      <p className="text-xs text-muted-foreground">{t("regulatory.items.guides.description")}</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3 p-4 rounded-lg bg-white/50 dark:bg-slate-800/50">
+                    <div className="h-8 w-8 rounded-lg bg-slate-100 dark:bg-slate-700 flex items-center justify-center flex-shrink-0">
+                      <FileText className="h-4 w-4 text-slate-500" />
+                    </div>
+                    <div>
+                      <h4 className="font-medium text-sm">{t("regulatory.items.templates.title")}</h4>
+                      <p className="text-xs text-muted-foreground">{t("regulatory.items.templates.description")}</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3 p-4 rounded-lg bg-white/50 dark:bg-slate-800/50">
+                    <div className="h-8 w-8 rounded-lg bg-slate-100 dark:bg-slate-700 flex items-center justify-center flex-shrink-0">
+                      <Check className="h-4 w-4 text-slate-500" />
+                    </div>
+                    <div>
+                      <h4 className="font-medium text-sm">{t("regulatory.items.checklists.title")}</h4>
+                      <p className="text-xs text-muted-foreground">{t("regulatory.items.checklists.description")}</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3 p-4 rounded-lg bg-white/50 dark:bg-slate-800/50">
+                    <div className="h-8 w-8 rounded-lg bg-slate-100 dark:bg-slate-700 flex items-center justify-center flex-shrink-0">
+                      <Building2 className="h-4 w-4 text-slate-500" />
+                    </div>
+                    <div>
+                      <h4 className="font-medium text-sm">{t("regulatory.items.manuals.title")}</h4>
+                      <p className="text-xs text-muted-foreground">{t("regulatory.items.manuals.description")}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Wine Regions Section */}
+        <section className="py-20 lg:py-32 bg-muted/30">
           <div className="container mx-auto px-4 lg:px-8">
             <div className="text-center mb-16">
               <Badge className="mb-4 text-base px-4 py-1.5">

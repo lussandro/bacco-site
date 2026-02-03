@@ -1278,6 +1278,29 @@
         }
       }
     },
+    "regulatory": {
+      "badge": "Em Breve",
+      "title": "Documentacao Regulatoria",
+      "subtitle": "Material completo de apoio para conformidade com as regulamentacoes brasileiras do setor vinicola.",
+      "items": {
+        "guides": {
+          "title": "Guias de Conformidade",
+          "description": "Documentacao detalhada sobre SIVIBE, ENVIN e MAPA"
+        },
+        "templates": {
+          "title": "Templates de Relatorios",
+          "description": "Modelos prontos para declaracoes e relatorios obrigatorios"
+        },
+        "checklists": {
+          "title": "Checklists de Auditoria",
+          "description": "Listas de verificacao para garantir conformidade total"
+        },
+        "manuals": {
+          "title": "Manuais de Procedimentos",
+          "description": "Instrucoes passo a passo para processos regulatorios"
+        }
+      }
+    },
     "cta": {
       "title": "Pronto para Modernizar sua Vinicola?",
       "subtitle": "Junte-se as vinicolas brasileiras que ja estao transformando sua gestao com o Bacco ERP. Demonstracao gratuita sem compromisso.",
@@ -1443,6 +1466,29 @@
         }
       }
     },
+    "regulatory": {
+      "badge": "Em Breve",
+      "title": "Documentacao Regulatoria",
+      "subtitle": "Material completo de apoio para conformidade com as regulamentacoes argentinas do setor vinicola.",
+      "items": {
+        "guides": {
+          "title": "Guias de Conformidade",
+          "description": "Documentacao detalhada sobre SENASA, INV e AFIP"
+        },
+        "templates": {
+          "title": "Templates de Relatorios",
+          "description": "Modelos prontos para declaracoes e relatorios obrigatorios"
+        },
+        "checklists": {
+          "title": "Checklists de Auditoria",
+          "description": "Listas de verificacao para garantir conformidade total"
+        },
+        "manuals": {
+          "title": "Manuais de Procedimentos",
+          "description": "Instrucoes passo a passo para processos regulatorios"
+        }
+      }
+    },
     "cta": {
       "title": "Pronto para Modernizar sua Bodega?",
       "subtitle": "Junte-se as bodegas argentinas que ja estao transformando sua gestao com o Bacco ERP. Demonstracao gratuita sem compromisso.",
@@ -1603,6 +1649,29 @@
       "check3": "Conformidade com regulamentacoes EU",
       "button": "Solicitar Demonstracao Gratuita"
     },
+    "regulatory": {
+      "badge": "Em Breve",
+      "title": "Documentacao Regulatoria",
+      "subtitle": "Material completo de apoio para conformidade com as regulamentacoes italianas e europeias do setor vinicola.",
+      "items": {
+        "guides": {
+          "title": "Guias de Conformidade",
+          "description": "Documentacao detalhada sobre DOC, DOCG, IGT e SIAN"
+        },
+        "templates": {
+          "title": "Templates de Relatorios",
+          "description": "Modelos prontos para declaracoes e relatorios obrigatorios"
+        },
+        "checklists": {
+          "title": "Checklists de Auditoria",
+          "description": "Listas de verificacao para garantir conformidade total"
+        },
+        "manuals": {
+          "title": "Manuais de Procedimentos",
+          "description": "Instrucoes passo a passo para processos regulatorios"
+        }
+      }
+    },
     "footer": {
       "rights": "Todos os direitos reservados."
     }
@@ -1750,6 +1819,29 @@
       "check3": "Precos em Peso Chileno",
       "button": "Solicitar Demonstracao Gratuita"
     },
+    "regulatory": {
+      "badge": "Em Breve",
+      "title": "Documentacao Regulatoria",
+      "subtitle": "Material completo de apoio para conformidade com as regulamentacoes chilenas do setor vinicola.",
+      "items": {
+        "guides": {
+          "title": "Guias de Conformidade",
+          "description": "Documentacao detalhada sobre SAG, DO e SII"
+        },
+        "templates": {
+          "title": "Templates de Relatorios",
+          "description": "Modelos prontos para declaracoes e relatorios obrigatorios"
+        },
+        "checklists": {
+          "title": "Checklists de Auditoria",
+          "description": "Listas de verificacao para garantir conformidade total"
+        },
+        "manuals": {
+          "title": "Manuais de Procedimentos",
+          "description": "Instrucoes passo a passo para processos regulatorios"
+        }
+      }
+    },
     "footer": {
       "rights": "Todos os direitos reservados."
     }
@@ -1891,6 +1983,29 @@
       "check2": "Suporte em espanhol",
       "check3": "Precos em Peso Uruguaio",
       "button": "Solicitar Demonstracao Gratuita"
+    },
+    "regulatory": {
+      "badge": "Em Breve",
+      "title": "Documentacao Regulatoria",
+      "subtitle": "Material completo de apoio para conformidade com as regulamentacoes uruguaias do setor vinicola.",
+      "items": {
+        "guides": {
+          "title": "Guias de Conformidade",
+          "description": "Documentacao detalhada sobre INAVI, MGAP e DGI"
+        },
+        "templates": {
+          "title": "Templates de Relatorios",
+          "description": "Modelos prontos para declaracoes e relatorios obrigatorios"
+        },
+        "checklists": {
+          "title": "Checklists de Auditoria",
+          "description": "Listas de verificacao para garantir conformidade total"
+        },
+        "manuals": {
+          "title": "Manuais de Procedimentos",
+          "description": "Instrucoes passo a passo para processos regulatorios"
+        }
+      }
     },
     "footer": {
       "rights": "Todos os direitos reservados."
