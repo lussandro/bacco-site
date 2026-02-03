@@ -11,7 +11,7 @@ export function Footer() {
   return (
     <footer className="bg-secondary text-secondary-foreground">
       <div className="container mx-auto px-4 lg:px-8 py-12 lg:py-16">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
+        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8 lg:gap-12">
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <Wine className="h-8 w-8 text-primary" />
@@ -38,6 +38,11 @@ export function Footer() {
               <li>
                 <a href="#beneficios" className="hover:text-primary transition-colors">
                   {t('product.benefits')}
+                </a>
+              </li>
+              <li>
+                <a href="#faq" className="hover:text-primary transition-colors">
+                  FAQ
                 </a>
               </li>
             </ul>
@@ -87,6 +92,37 @@ export function Footer() {
               <li className="flex items-center gap-2">
                 <MapPin className="h-4 w-4" />
                 <span>{t('support.location')}</span>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="font-semibold mb-4">{t('countries.title')}</h4>
+            <ul className="space-y-2 text-sm opacity-80">
+              <li>
+                <I18nLink href="/para-brasil" className="hover:text-primary transition-colors">
+                  {t('countries.brazil')}
+                </I18nLink>
+              </li>
+              <li>
+                <I18nLink href="/para-argentina" className="hover:text-primary transition-colors">
+                  {t('countries.argentina')}
+                </I18nLink>
+              </li>
+              <li>
+                <I18nLink href="/para-chile" className="hover:text-primary transition-colors">
+                  {t('countries.chile')}
+                </I18nLink>
+              </li>
+              <li>
+                <I18nLink href="/para-uruguai" className="hover:text-primary transition-colors">
+                  {t('countries.uruguay')}
+                </I18nLink>
+              </li>
+              <li>
+                <I18nLink href="/para-italia" className="hover:text-primary transition-colors">
+                  {t('countries.italy')}
+                </I18nLink>
               </li>
             </ul>
           </div>

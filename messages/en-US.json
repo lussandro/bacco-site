@@ -755,6 +755,14 @@
       "phone": "+55 48 99128-6399",
       "location": "Florianópolis, SC"
     },
+    "countries": {
+      "title": "Countries",
+      "brazil": "Brazil",
+      "argentina": "Argentina",
+      "chile": "Chile",
+      "uruguay": "Uruguay",
+      "italy": "Italy"
+    },
     "copyright": "© 2025 Bacco ERP. All rights reserved."
   },
   "contact": {
@@ -920,6 +928,39 @@
       "text": "For questions about these Terms or data processing, contact:"
     }
   },
+  "aiAlerts": {
+    "badge": "AI Alerts",
+    "title": "Intelligent Multilingual Alert System",
+    "subtitle": "Our AI continuously monitors your production and sends contextual alerts in your preferred language. See how the same alert appears in different languages.",
+    "selectLanguage": "View in",
+    "types": {
+      "climate": "Climate",
+      "vinification": "Vinification",
+      "phytosanitary": "Phytosanitary",
+      "calendar": "Calendar"
+    },
+    "severity": {
+      "warning": "Warning",
+      "info": "Information",
+      "critical": "Critical",
+      "success": "Success"
+    },
+    "features": {
+      "realtime": {
+        "title": "Real-time Alerts",
+        "description": "Continuous monitoring with instant notifications when actions are needed."
+      },
+      "contextual": {
+        "title": "Contextual AI",
+        "description": "Smart alerts that consider history, climate, and production stage."
+      },
+      "multilingual": {
+        "title": "100% Multilingual",
+        "description": "All alerts are professionally translated to PT, EN, ES, and IT."
+      }
+    },
+    "cta": "Bacco's AI alerts help you make proactive decisions, prevent problems, and optimize every stage of production."
+  },
   "privacy": {
     "title": "Privacy Policy",
     "updated": "Last updated: October 30, 2025",
@@ -993,6 +1034,875 @@
         ]
       }
     ]
+  },
+  "countries": {
+    "badge": "Global Coverage",
+    "title": "Support for 5 Wine-Producing Countries",
+    "subtitle": "Bacco ERP was developed to meet the regulations and specific needs of each wine-producing country, with full compliance and native support.",
+    "primary": "Primary Country",
+    "items": {
+      "brazil": {
+        "name": "Brazil",
+        "description": "Full compliance with all Brazilian regulations for wine production and commercialization.",
+        "features": {
+          "sivibe": "Wine and Beverage Information System",
+          "envin": "Mandatory production declarations",
+          "mapa": "Ministry of Agriculture - Registrations",
+          "nfe": "Integrated Electronic Invoice"
+        }
+      },
+      "argentina": {
+        "name": "Argentina",
+        "description": "Support for Argentine wine production regulations.",
+        "features": {
+          "senasa": "National Service for Agri-Food Health and Quality",
+          "localRegulationsLabel": "Local Regulations",
+          "localRegulations": "Provincial and national standards"
+        }
+      },
+      "chile": {
+        "name": "Chile",
+        "description": "Compliance with Chilean wine production regulations.",
+        "features": {
+          "sag": "Agricultural and Livestock Service",
+          "localRegulationsLabel": "Local Regulations",
+          "localRegulations": "Chilean appellations of origin"
+        }
+      },
+      "uruguay": {
+        "name": "Uruguay",
+        "description": "Complete support for Uruguayan wine sector regulations.",
+        "features": {
+          "inavi": "National Vitiviniculture Institute",
+          "localRegulationsLabel": "Local Regulations",
+          "localRegulations": "Production and export standards"
+        }
+      },
+      "italy": {
+        "name": "Italy",
+        "description": "Compliance with Italian and European Union regulations.",
+        "features": {
+          "docg": "Controlled and Guaranteed Designation of Origin",
+          "euRegulationsLabel": "EU Regulations",
+          "euRegulations": "Compliance with European standards"
+        }
+      }
+    },
+    "stats": {
+      "countries": "Supported Countries",
+      "compliance": "Regulatory Compliance",
+      "languages": "Available Languages"
+    },
+    "cta": "Regardless of where your winery is located, Bacco ERP offers complete support for local and international regulations."
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Get answers about Bacco ERP and discover how it can transform your winery management.",
+    "items": {
+      "whatIsBacco": {
+        "question": "What is Bacco ERP?",
+        "answer": "Bacco is a complete ERP system developed exclusively for wineries. It manages the entire production process, from vineyard to bottle, including vineyard management, winemaking, quality control, inventory, sales, finance, and wine tourism. It is the only Brazilian ERP 100% specialized in wineries."
+      },
+      "countries": {
+        "question": "In which countries is Bacco available?",
+        "answer": "Bacco is available globally. Developed in Brazil, the system was designed to serve wineries anywhere in the world, with support for local practices, specific regulations, and professional translations in 4 languages."
+      },
+      "languages": {
+        "question": "What languages are supported?",
+        "answer": "Bacco is available in 4 languages: Portuguese (Brazil), English, Spanish, and Italian. All translations were professionally made, preserving the enological technical terminology and the specialized context of the wine sector."
+      },
+      "installation": {
+        "question": "Does it require installation? How does it work?",
+        "answer": "No! Bacco is a 100% cloud-based system (SaaS). You access it through a browser from any device, with no need to install anything. Your data is secure on servers with automatic backup and high availability."
+      },
+      "support": {
+        "question": "How does technical support work?",
+        "answer": "We offer dedicated support with deep knowledge of the wine market. Our team understands both technology and enology, ensuring specialized assistance for your needs."
+      },
+      "aiDifferential": {
+        "question": "What is the AI differential?",
+        "answer": "Bacco is a pioneer in AI for wineries in Brazil. Artificial intelligence operates across multiple modules: it suggests corrections in winemaking based on analyses, recommends management practices based on climate and vineyard region, and continuously optimizes processes. It's an AI that truly understands wine."
+      },
+      "offline": {
+        "question": "Does the system work offline?",
+        "answer": "The web system requires an internet connection. However, the Bacco-Campo Android app works 100% offline in the vineyard, automatically syncing when a connection is available. Ideal for fieldwork where internet is unstable."
+      },
+      "howToStart": {
+        "question": "How do I start using Bacco?",
+        "answer": "It's simple! Request a free demo through our website or WhatsApp. Our team will present the system, understand your needs, and configure everything so you can start using it quickly. Onboarding includes training and data migration support."
+      },
+      "pricing": {
+        "question": "How much does Bacco ERP cost?",
+        "answer": "Bacco offers affordable plans for wineries of all sizes, from small artisanal productions to large wineries. Contact us to receive a customized proposal according to your needs."
+      },
+      "dataImport": {
+        "question": "Can I import data from other systems?",
+        "answer": "Yes! Our team assists with data migration from spreadsheets or other systems. The process is supervised to ensure that your winery's entire history is preserved and organized in Bacco."
+      }
+    }
+  },
+  "brazil": {
+    "back": "Back to site",
+    "hero": {
+      "badge": "100% Brazilian",
+      "title": "The Only Brazilian ERP Developed Exclusively for Wineries",
+      "subtitle": "Full compliance with SIVIBE, ENVIN, MAPA and NF-e. Developed by those who understand wine for those who live from wine.",
+      "ctaDemo": "Request Free Demo",
+      "ctaFeatures": "See Features"
+    },
+    "compliance": {
+      "badge": "Brazilian Compliance",
+      "title": "Full Compliance with Brazilian Regulations",
+      "subtitle": "Bacco ERP was developed to meet 100% of Brazilian legal requirements for the production and commercialization of wines, sparkling wines, and juices.",
+      "items": {
+        "sivibe": {
+          "title": "SIVIBE",
+          "description": "Wine and Beverage Information System. Generate mandatory declarations under Law 7.678/1988 with automatic deadline alerts and complete compliance control."
+        },
+        "envin": {
+          "title": "ENVIN",
+          "description": "Complete module for ENVIN declarations with export in government-required formats, ensuring full regulatory compliance."
+        },
+        "mapa": {
+          "title": "MAPA",
+          "description": "Integration with Ministry of Agriculture, Livestock and Food Supply records. Control of establishments, products, and labeling."
+        },
+        "nfe": {
+          "title": "NF-e / NFC-e",
+          "description": "Integrated electronic invoice issuance via Webmania. Complete fiscal control with NCM, CFOP, and wine-specific taxation."
+        }
+      },
+      "highlight": {
+        "title": "Automated Compliance",
+        "description": "Never miss deadlines! Bacco automatically monitors all regulatory obligations and sends alerts before due dates. Generate declarations with one click."
+      }
+    },
+    "regions": {
+      "badge": "Wine Regions",
+      "title": "Complete Support for Brazilian Wine Regions",
+      "subtitle": "Bacco knows the particularities of each Brazilian terroir, offering management and winemaking suggestions adapted to each region.",
+      "items": {
+        "serraGaucha": {
+          "name": "Serra Gaucha",
+          "description": "Brazil's main wine hub, with Italian tradition and high-altitude climate.",
+          "grapes": ["Merlot", "Cabernet Sauvignon", "Chardonnay", "Moscato"]
+        },
+        "valeSaoFrancisco": {
+          "name": "Sao Francisco Valley",
+          "description": "The world's only tropical region with two annual harvests.",
+          "grapes": ["Syrah", "Muscat", "Tempranillo", "Chenin Blanc"]
+        },
+        "planaltoCatarinense": {
+          "name": "Santa Catarina Plateau",
+          "description": "High-altitude wines with cold climate and slow maturation.",
+          "grapes": ["Sauvignon Blanc", "Pinot Noir", "Cabernet Franc"]
+        },
+        "campanhGaucha": {
+          "name": "Campanha Gaucha",
+          "description": "Terroir of stony soils and continental climate.",
+          "grapes": ["Tannat", "Merlot", "Cabernet Sauvignon", "Alicante Bouschet"]
+        },
+        "serraDoSudeste": {
+          "name": "Serra do Sudeste",
+          "description": "Emerging region with vineyards on granite slopes.",
+          "grapes": ["Tannat", "Merlot", "Viognier", "Gewurztraminer"]
+        },
+        "camposDeCima": {
+          "name": "Campos de Cima da Serra",
+          "description": "High altitude and temperature range for elegant wines.",
+          "grapes": ["Merlot", "Cabernet Sauvignon", "Pinot Noir", "Chardonnay"]
+        }
+      }
+    },
+    "grapes": {
+      "badge": "Grape Varieties",
+      "title": "65+ Pre-registered Varieties",
+      "subtitle": "All varieties grown in Brazil are already in the system, with complete technical information on origin, cycle, and characteristics.",
+      "items": {
+        "tannat": {
+          "name": "Tannat",
+          "type": "Red - Brazil's Ambassador"
+        },
+        "merlot": {
+          "name": "Merlot",
+          "type": "Red - Main variety"
+        },
+        "cabernet": {
+          "name": "Cabernet Sauvignon",
+          "type": "Red - World classic"
+        },
+        "chardonnay": {
+          "name": "Chardonnay",
+          "type": "White - Sparkling base"
+        },
+        "moscato": {
+          "name": "Moscato",
+          "type": "White - Aromatic"
+        },
+        "riesling": {
+          "name": "Riesling Italico",
+          "type": "White - Italian tradition"
+        },
+        "pinotNoir": {
+          "name": "Pinot Noir",
+          "type": "Red - Elegance and finesse"
+        },
+        "malvasia": {
+          "name": "Malvasia",
+          "type": "White - Sparkling wines"
+        }
+      },
+      "total": "All Brazilian vinifera and hybrid varieties",
+      "stats": {
+        "varieties": "Registered varieties",
+        "tasks": "Standard management tasks"
+      }
+    },
+    "integrations": {
+      "badge": "Brazilian Integrations",
+      "title": "Integrated with Brazilian Systems",
+      "subtitle": "Bacco natively connects with the main Brazilian systems and services to automate your operation.",
+      "items": {
+        "webmania": {
+          "badge": "Invoices",
+          "title": "Webmania NF-e",
+          "description": "Automatic issuance of NF-e, NFC-e, and NFS-e directly from the system with real-time SEFAZ validation."
+        },
+        "rapt": {
+          "badge": "IoT",
+          "title": "RAPT Cloud",
+          "description": "Real-time temperature and density monitoring with automatic alerts during fermentation."
+        },
+        "pix": {
+          "badge": "Payments",
+          "title": "PIX Integrated",
+          "description": "Receive PIX payments directly in the Bacco-Comanda POS with instant confirmation."
+        },
+        "whatsapp": {
+          "badge": "Communication",
+          "title": "WhatsApp Business",
+          "description": "Send notifications, reservation confirmations, and updates to customers automatically."
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to Modernize Your Winery?",
+      "subtitle": "Join Brazilian wineries that are already transforming their management with Bacco ERP. Free demo with no commitment.",
+      "check1": "Complete Brazilian compliance",
+      "check2": "Portuguese support",
+      "check3": "No international licensing costs",
+      "button": "Request Free Demo"
+    },
+    "footer": {
+      "rights": "All rights reserved."
+    }
+  },
+  "argentina": {
+    "back": "Back to site",
+    "hero": {
+      "badge": "For Argentina",
+      "title": "Complete ERP for Argentine Wineries",
+      "subtitle": "Full compliance with SENASA, INV and local regulations. Native support for Argentine Peso, wine regions and Argentine grape varieties.",
+      "ctaDemo": "Request Free Demo",
+      "ctaFeatures": "See Features"
+    },
+    "compliance": {
+      "badge": "Argentine Compliance",
+      "title": "Full Compliance with Argentine Regulations",
+      "subtitle": "Bacco ERP was developed to meet 100% of Argentine legal requirements for wine production and commercialization.",
+      "items": {
+        "senasa": {
+          "title": "SENASA",
+          "description": "National Service for Agri-Food Health and Quality. Compliance with sanitary and phytosanitary standards for wine production."
+        },
+        "inv": {
+          "title": "INV",
+          "description": "National Institute of Viticulture. Mandatory declarations, production records and quality control according to INV regulations."
+        },
+        "afip": {
+          "title": "AFIP",
+          "description": "Federal Administration of Public Revenues. Integration with Argentine fiscal systems and invoice issuance."
+        },
+        "factura": {
+          "title": "Electronic Invoice",
+          "description": "Electronic invoice issuance according to AFIP regulations. Complete fiscal control for commercial operations."
+        }
+      },
+      "highlight": {
+        "title": "Automated Compliance",
+        "description": "Never miss deadlines! Bacco automatically monitors all Argentine regulatory obligations and sends alerts before due dates."
+      }
+    },
+    "regions": {
+      "badge": "Wine Regions",
+      "title": "Complete Support for Argentine Wine Regions",
+      "subtitle": "Bacco knows the particularities of each Argentine terroir, offering management and winemaking suggestions adapted to each region.",
+      "items": {
+        "mendoza": {
+          "name": "Mendoza",
+          "description": "Argentina's main wine region, responsible for over 70% of production. Ideal terroir for Malbec.",
+          "grapes": ["Malbec", "Cabernet Sauvignon", "Bonarda", "Chardonnay"]
+        },
+        "sanJuan": {
+          "name": "San Juan",
+          "description": "Second largest producing region. Hot and dry climate, ideal for full-bodied wines and table grapes.",
+          "grapes": ["Syrah", "Bonarda", "Malbec", "Torrontes"]
+        },
+        "salta": {
+          "name": "Salta",
+          "description": "Extreme altitude vineyards (up to 3,000m). Birthplace of Torrontes, Argentina's emblematic white grape.",
+          "grapes": ["Torrontes", "Malbec", "Cabernet Sauvignon", "Tannat"]
+        },
+        "patagonia": {
+          "name": "Patagonia",
+          "description": "Emerging region with cold climate. Elegant and fresh wines with vibrant acidity.",
+          "grapes": ["Pinot Noir", "Merlot", "Chardonnay", "Sauvignon Blanc"]
+        },
+        "laRioja": {
+          "name": "La Rioja",
+          "description": "One of Argentina's oldest wine regions. Tradition and history in wine production.",
+          "grapes": ["Torrontes", "Bonarda", "Syrah", "Malbec"]
+        }
+      }
+    },
+    "grapes": {
+      "badge": "Grape Varieties",
+      "title": "Pre-registered Argentine Varieties",
+      "subtitle": "All varieties grown in Argentina are already in the system, with complete technical information on origin, cycle and characteristics.",
+      "items": {
+        "malbec": {
+          "name": "Malbec",
+          "type": "Red - Argentina's Ambassador"
+        },
+        "torrontes": {
+          "name": "Torrontes",
+          "type": "White - Argentine native grape"
+        },
+        "bonarda": {
+          "name": "Bonarda",
+          "type": "Red - Second most planted"
+        },
+        "cabernetSauvignon": {
+          "name": "Cabernet Sauvignon",
+          "type": "Red - World classic"
+        },
+        "syrah": {
+          "name": "Syrah",
+          "type": "Red - Argentine expression"
+        },
+        "tempranillo": {
+          "name": "Tempranillo",
+          "type": "Red - Spanish heritage"
+        },
+        "chardonnay": {
+          "name": "Chardonnay",
+          "type": "White - Sparkling base"
+        },
+        "pinotNoir": {
+          "name": "Pinot Noir",
+          "type": "Red - Patagonian elegance"
+        }
+      },
+      "total": "All Argentine vinifera varieties",
+      "stats": {
+        "varieties": "Registered varieties",
+        "tasks": "Standard management tasks"
+      }
+    },
+    "currency": {
+      "badge": "Local Currency",
+      "title": "Native Support for Argentine Peso",
+      "subtitle": "Bacco ERP natively supports the Argentine Peso (ARS), facilitating financial management for Argentine wineries.",
+      "peso": {
+        "title": "Argentine Peso (ARS)",
+        "description": "All financial operations, prices, costs and reports can be configured in Argentine Peso. Automatic conversion to other currencies when needed.",
+        "features": {
+          "multiCurrency": "Multi-currency",
+          "autoConversion": "Auto conversion",
+          "localPricing": "Prices in ARS"
+        }
+      }
+    },
+    "integrations": {
+      "badge": "Argentine Integrations",
+      "title": "Integrated with Argentine Systems",
+      "subtitle": "Bacco natively connects with the main Argentine systems and services to automate your operation.",
+      "items": {
+        "afip": {
+          "badge": "Fiscal",
+          "title": "AFIP",
+          "description": "Integration with AFIP systems for electronic invoice issuance and automated fiscal compliance."
+        },
+        "mercadopago": {
+          "badge": "Payments",
+          "title": "Mercado Pago",
+          "description": "Receive Mercado Pago payments directly in Bacco-Comanda POS with instant confirmation."
+        },
+        "whatsapp": {
+          "badge": "Communication",
+          "title": "WhatsApp Business",
+          "description": "Send notifications, reservation confirmations and updates to customers automatically."
+        },
+        "rapt": {
+          "badge": "IoT",
+          "title": "RAPT Cloud",
+          "description": "Real-time temperature and density monitoring with automatic alerts during fermentation."
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to Modernize Your Winery?",
+      "subtitle": "Join Argentine wineries that are already transforming their management with Bacco ERP. Free demo with no commitment.",
+      "check1": "Complete Argentine compliance",
+      "check2": "Spanish support",
+      "check3": "Local currency (ARS)",
+      "button": "Request Free Demo"
+    },
+    "footer": {
+      "rights": "All rights reserved."
+    }
+  },
+  "italy": {
+    "back": "Back to site",
+    "hero": {
+      "badge": "For Italian Wineries",
+      "title": "Complete ERP for Italian Wineries with EU Compliance",
+      "subtitle": "Full compliance with DOC, DOCG, IGT, Registro Vigneti and SIAN. Developed to meet Italian and European regulatory requirements.",
+      "ctaDemo": "Request Free Demo",
+      "ctaFeatures": "See Features"
+    },
+    "compliance": {
+      "badge": "Italian/EU Compliance",
+      "title": "Full Compliance with Italian and European Regulations",
+      "subtitle": "Bacco ERP was developed to meet 100% of Italian and European legal requirements for wine production and commercialization.",
+      "items": {
+        "doc": {
+          "title": "DOC",
+          "description": "Denominazione di Origine Controllata. Complete DOC certification management with full traceability and controlled origin management."
+        },
+        "docg": {
+          "title": "DOCG",
+          "description": "Denominazione di Origine Controllata e Garantita. The highest level of Italian certification, with rigorous quality and provenance control."
+        },
+        "igt": {
+          "title": "IGT",
+          "description": "Indicazione Geografica Tipica. Management of wines with typical geographical indication, flexibility with regional identity."
+        },
+        "registroVigneti": {
+          "title": "Registro Vigneti",
+          "description": "Integration with the Italian National Vineyard Registry. Complete control of plots, varieties and planted areas."
+        },
+        "sian": {
+          "title": "SIAN",
+          "description": "Sistema Informativo Agricolo Nazionale. Compliance with the Italian agricultural information system for declarations and reports."
+        }
+      },
+      "highlight": {
+        "title": "Automated EU Compliance",
+        "description": "Never miss deadlines! Bacco automatically monitors all Italian and European regulatory obligations, sending alerts before due dates."
+      }
+    },
+    "regions": {
+      "badge": "Wine Regions",
+      "title": "Complete Support for Italian Wine Regions",
+      "subtitle": "Bacco knows the particularities of each Italian terroir, offering management and winemaking suggestions adapted to each region.",
+      "items": {
+        "toscana": {
+          "name": "Tuscany",
+          "description": "Birthplace of Chianti and Brunello di Montalcino, with centuries-old tradition in high-quality wines.",
+          "grapes": ["Sangiovese", "Vernaccia", "Trebbiano", "Canaiolo"]
+        },
+        "piemonte": {
+          "name": "Piedmont",
+          "description": "Land of Barolo and Barbaresco, wines of great structure and longevity.",
+          "grapes": ["Nebbiolo", "Barbera", "Dolcetto", "Moscato"]
+        },
+        "veneto": {
+          "name": "Veneto",
+          "description": "Region of Prosecco, Amarone and Soave, diversity of styles and traditions.",
+          "grapes": ["Glera", "Corvina", "Garganega", "Pinot Grigio"]
+        },
+        "sicilia": {
+          "name": "Sicily",
+          "description": "Island with unique Mediterranean climate, production of intense and aromatic wines.",
+          "grapes": ["Nero d'Avola", "Grillo", "Catarratto", "Nerello Mascalese"]
+        },
+        "puglia": {
+          "name": "Puglia",
+          "description": "Heel of the Italian boot, known for Primitivo and full-bodied wines.",
+          "grapes": ["Primitivo", "Negroamaro", "Bombino", "Uva di Troia"]
+        },
+        "trentinoAltoAdige": {
+          "name": "Trentino-Alto Adige",
+          "description": "Alpine region with fresh and elegant wines, Austro-Germanic influence.",
+          "grapes": ["Pinot Grigio", "Gewurztraminer", "Lagrein", "Teroldego"]
+        }
+      }
+    },
+    "grapes": {
+      "badge": "Grape Varieties",
+      "title": "Italian Autochthonous Varieties",
+      "subtitle": "Italy has more than 500 autochthonous varieties. Bacco supports all major Italian varieties with complete technical information.",
+      "items": {
+        "sangiovese": {
+          "name": "Sangiovese",
+          "type": "Red - Heart of Tuscany"
+        },
+        "nebbiolo": {
+          "name": "Nebbiolo",
+          "type": "Red - King of Piedmont"
+        },
+        "barbera": {
+          "name": "Barbera",
+          "type": "Red - Versatile and Fruity"
+        },
+        "pinotGrigio": {
+          "name": "Pinot Grigio",
+          "type": "White - World Popular"
+        },
+        "prosecco": {
+          "name": "Glera (Prosecco)",
+          "type": "White - Iconic Sparkling"
+        },
+        "primitivo": {
+          "name": "Primitivo",
+          "type": "Red - Power of the South"
+        }
+      },
+      "total": "Support for all autochthonous and international varieties grown in Italy",
+      "stats": {
+        "varieties": "Autochthonous varieties",
+        "regions": "Wine regions"
+      }
+    },
+    "currency": {
+      "badge": "Euro & EU Integrations",
+      "title": "Prepared for the European Market",
+      "subtitle": "Native Euro support and full compliance with European Union regulations for wine trade and export.",
+      "items": {
+        "euCompliance": {
+          "badge": "Compliance",
+          "title": "EU Regulations",
+          "description": "Compliance with all European regulations for wine production, labeling and commercialization."
+        },
+        "traceability": {
+          "badge": "Traceability",
+          "title": "EU Traceability",
+          "description": "Complete traceability system as required by European standards, from vineyard to bottle."
+        },
+        "export": {
+          "badge": "Export",
+          "title": "Export Documentation",
+          "description": "Automatic generation of documents for export within and outside the European Union."
+        },
+        "multiCurrency": {
+          "badge": "Currency",
+          "title": "Euro Support",
+          "description": "System fully prepared for Euro operations with automatic conversion to other currencies."
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to Modernize Your Italian Winery?",
+      "subtitle": "Join Italian wineries that are already transforming their management with Bacco ERP. Free demo with no commitment.",
+      "check1": "Complete Italian compliance",
+      "check2": "Italian support",
+      "check3": "EU regulation compliance",
+      "button": "Request Free Demo"
+    },
+    "footer": {
+      "rights": "All rights reserved."
+    }
+  },
+  "chile": {
+    "back": "Back to site",
+    "hero": {
+      "badge": "For Chile",
+      "title": "Complete ERP for Chilean Wineries",
+      "subtitle": "Full compliance with SAG and Chilean regulations. Developed to meet the specific needs of Chilean winemakers.",
+      "ctaDemo": "Request Free Demo",
+      "ctaFeatures": "See Features"
+    },
+    "compliance": {
+      "badge": "Chilean Compliance",
+      "title": "Full Compliance with Chilean Regulations",
+      "subtitle": "Bacco ERP has been adapted to meet 100% of Chilean legal requirements for wine production and commercialization.",
+      "items": {
+        "sag": {
+          "title": "SAG",
+          "description": "Servicio Agricola y Ganadero. Complete integration with mandatory declarations and traceability required by the Chilean regulatory body."
+        },
+        "do": {
+          "title": "Appellations of Origin",
+          "description": "Full support for Chilean Appellations of Origin: Valle Central, Maipo, Colchagua, Casablanca, Maule and others."
+        },
+        "sii": {
+          "title": "SII - Invoicing",
+          "description": "Integration with Servicio de Impuestos Internos for electronic tax document (DTE) issuance and tax compliance."
+        }
+      },
+      "highlight": {
+        "title": "Automated Compliance",
+        "description": "Never miss deadlines! Bacco automatically monitors all Chilean regulatory obligations and sends alerts before due dates."
+      }
+    },
+    "regions": {
+      "badge": "Wine Regions",
+      "title": "Complete Support for Chilean Wine Regions",
+      "subtitle": "Bacco knows the particularities of each Chilean terroir, offering management and winemaking suggestions adapted to each region.",
+      "items": {
+        "valleCentral": {
+          "name": "Central Valley",
+          "description": "Heart of Chilean wine production, spanning several sub-valleys between the Andes and the Pacific.",
+          "grapes": ["Cabernet Sauvignon", "Carmenere", "Merlot", "Sauvignon Blanc"]
+        },
+        "maipo": {
+          "name": "Maipo Valley",
+          "description": "Historic region near Santiago, famous for its world-class Cabernets.",
+          "grapes": ["Cabernet Sauvignon", "Carmenere", "Merlot", "Syrah"]
+        },
+        "colchagua": {
+          "name": "Colchagua Valley",
+          "description": "One of the most awarded regions, known for excellence in full-bodied reds.",
+          "grapes": ["Carmenere", "Cabernet Sauvignon", "Syrah", "Malbec"]
+        },
+        "casablanca": {
+          "name": "Casablanca Valley",
+          "description": "Cool climate influenced by the ocean, ideal for white wines and sparkling wines.",
+          "grapes": ["Sauvignon Blanc", "Chardonnay", "Pinot Noir", "Riesling"]
+        },
+        "maule": {
+          "name": "Maule Valley",
+          "description": "Chile's largest wine region, with centuries-old tradition and historic Pais grapes.",
+          "grapes": ["Pais", "Carignan", "Cabernet Sauvignon", "Malbec"]
+        }
+      }
+    },
+    "grapes": {
+      "badge": "Grape Varieties",
+      "title": "Pre-registered Chilean Varieties",
+      "subtitle": "All varieties grown in Chile are already in the system, with complete technical information on origin, cycle and characteristics.",
+      "items": {
+        "carmenere": {
+          "name": "Carmenere",
+          "type": "Red - Chile's Emblem"
+        },
+        "cabernetSauvignon": {
+          "name": "Cabernet Sauvignon",
+          "type": "Red - Main variety"
+        },
+        "sauvignonBlanc": {
+          "name": "Sauvignon Blanc",
+          "type": "White - Cool climate"
+        },
+        "pais": {
+          "name": "Pais",
+          "type": "Red - Historic traditional"
+        },
+        "syrah": {
+          "name": "Syrah",
+          "type": "Red - Rising star"
+        },
+        "chardonnay": {
+          "name": "Chardonnay",
+          "type": "White - Versatile"
+        },
+        "merlot": {
+          "name": "Merlot",
+          "type": "Red - Classic"
+        },
+        "pinotNoir": {
+          "name": "Pinot Noir",
+          "type": "Red - Cool climate"
+        }
+      },
+      "total": "All Chilean vinifera varieties",
+      "stats": {
+        "varieties": "Registered varieties",
+        "tasks": "Standard management tasks"
+      }
+    },
+    "integrations": {
+      "badge": "Chilean Integrations",
+      "title": "Integrated with Chilean Systems",
+      "subtitle": "Bacco natively connects with main Chilean systems and services to automate your operation.",
+      "items": {
+        "facturacion": {
+          "badge": "Invoicing",
+          "title": "Electronic Invoicing",
+          "description": "Automatic issuance of electronic tax documents (DTE) with real-time SII validation."
+        },
+        "sii": {
+          "badge": "Fiscal",
+          "title": "SII Compliance",
+          "description": "Complete integration with Servicio de Impuestos Internos for automated tax compliance."
+        },
+        "exportacion": {
+          "badge": "Export",
+          "title": "Export Management",
+          "description": "Complete export control with documentation, traceability and customs compliance."
+        },
+        "whatsapp": {
+          "badge": "Communication",
+          "title": "WhatsApp Business",
+          "description": "Send notifications, reservation confirmations and updates to customers automatically."
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to Modernize Your Chilean Winery?",
+      "subtitle": "Join Chilean wineries that are already transforming their management with Bacco ERP. Free demo with no commitment.",
+      "check1": "Complete Chilean compliance",
+      "check2": "Spanish support",
+      "check3": "Prices in Chilean Peso",
+      "button": "Request Free Demo"
+    },
+    "footer": {
+      "rights": "All rights reserved."
+    }
+  },
+  "uruguay": {
+    "back": "Back to site",
+    "hero": {
+      "badge": "For Uruguay",
+      "title": "Complete ERP for Uruguayan Wineries",
+      "subtitle": "Full compliance with INAVI and Uruguayan regulations. Developed to meet the specific needs of Uruguayan winemakers.",
+      "ctaDemo": "Request Free Demo",
+      "ctaFeatures": "See Features"
+    },
+    "compliance": {
+      "badge": "Uruguayan Compliance",
+      "title": "Full Compliance with Uruguayan Regulations",
+      "subtitle": "Bacco ERP has been adapted to meet 100% of Uruguayan legal requirements for wine production and commercialization.",
+      "items": {
+        "inavi": {
+          "title": "INAVI",
+          "description": "Instituto Nacional de Vitivinicultura. Complete integration with mandatory declarations and traceability required by the Uruguayan regulatory body."
+        },
+        "mgap": {
+          "title": "MGAP",
+          "description": "Ministerio de Ganaderia, Agricultura y Pesca. Compliance with agricultural sector registrations and regulations."
+        },
+        "dgi": {
+          "title": "DGI - Invoicing",
+          "description": "Integration with Direccion General Impositiva for electronic fiscal voucher (CFE) issuance and tax compliance."
+        }
+      },
+      "highlight": {
+        "title": "Automated Compliance",
+        "description": "Never miss deadlines! Bacco automatically monitors all Uruguayan regulatory obligations and sends alerts before due dates."
+      }
+    },
+    "regions": {
+      "badge": "Wine Regions",
+      "title": "Complete Support for Uruguayan Wine Regions",
+      "subtitle": "Bacco knows the particularities of each Uruguayan terroir, offering management and winemaking suggestions adapted to each region.",
+      "items": {
+        "canelones": {
+          "name": "Canelones",
+          "description": "Uruguay's main wine region, responsible for over 60% of national production.",
+          "grapes": ["Tannat", "Merlot", "Cabernet Sauvignon", "Sauvignon Blanc"]
+        },
+        "montevideo": {
+          "name": "Montevideo",
+          "description": "Historic region with centuries-old winemaking tradition, near the capital.",
+          "grapes": ["Tannat", "Cabernet Franc", "Merlot", "Chardonnay"]
+        },
+        "maldonado": {
+          "name": "Maldonado",
+          "description": "Emerging region with oceanic influence, producing fresh and elegant wines.",
+          "grapes": ["Albarino", "Tannat", "Pinot Noir", "Viognier"]
+        },
+        "colonia": {
+          "name": "Colonia",
+          "description": "Unique terroir on the banks of the Rio de la Plata, with limestone soils.",
+          "grapes": ["Tannat", "Petit Verdot", "Marselan", "Sauvignon Blanc"]
+        }
+      }
+    },
+    "grapes": {
+      "badge": "Grape Varieties",
+      "title": "Pre-registered Uruguayan Varieties",
+      "subtitle": "All varieties grown in Uruguay are already in the system, with complete technical information on origin, cycle and characteristics.",
+      "items": {
+        "tannat": {
+          "name": "Tannat",
+          "type": "Red - National Emblem"
+        },
+        "albarino": {
+          "name": "Albarino",
+          "type": "White - Rising star"
+        },
+        "petitVerdot": {
+          "name": "Petit Verdot",
+          "type": "Red - Growing"
+        },
+        "cabernetFranc": {
+          "name": "Cabernet Franc",
+          "type": "Red - Elegant"
+        },
+        "merlot": {
+          "name": "Merlot",
+          "type": "Red - Classic"
+        },
+        "sauvignonBlanc": {
+          "name": "Sauvignon Blanc",
+          "type": "White - Fresh"
+        },
+        "marselan": {
+          "name": "Marselan",
+          "type": "Red - New generation"
+        },
+        "pinotNoir": {
+          "name": "Pinot Noir",
+          "type": "Red - Delicate"
+        }
+      },
+      "total": "All Uruguayan vinifera varieties",
+      "stats": {
+        "varieties": "Registered varieties",
+        "tasks": "Standard management tasks"
+      }
+    },
+    "integrations": {
+      "badge": "Uruguayan Integrations",
+      "title": "Integrated with Uruguayan Systems",
+      "subtitle": "Bacco natively connects with main Uruguayan systems and services to automate your operation.",
+      "items": {
+        "facturacion": {
+          "badge": "Invoicing",
+          "title": "Electronic Invoicing",
+          "description": "Automatic issuance of electronic fiscal vouchers (CFE) with real-time DGI validation."
+        },
+        "dgi": {
+          "badge": "Fiscal",
+          "title": "DGI Compliance",
+          "description": "Complete integration with Direccion General Impositiva for automated tax compliance."
+        },
+        "exportacion": {
+          "badge": "Export",
+          "title": "Export Management",
+          "description": "Complete export control with documentation, traceability and customs compliance."
+        },
+        "whatsapp": {
+          "badge": "Communication",
+          "title": "WhatsApp Business",
+          "description": "Send notifications, reservation confirmations and updates to customers automatically."
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to Modernize Your Uruguayan Winery?",
+      "subtitle": "Join Uruguayan wineries that are already transforming their management with Bacco ERP. Free demo with no commitment.",
+      "check1": "Complete Uruguayan compliance",
+      "check2": "Spanish support",
+      "check3": "Prices in Uruguayan Peso",
+      "button": "Request Free Demo"
+    },
+    "footer": {
+      "rights": "All rights reserved."
+    }
   }
 }
 

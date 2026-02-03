@@ -53,6 +53,9 @@ export function Header() {
             <a href="#sobre" className="text-sm font-medium hover:text-primary transition-colors">
               {t('about')}
             </a>
+            <a href="#faq" className="text-sm font-medium hover:text-primary transition-colors">
+              FAQ
+            </a>
           </nav>
 
           <div className="flex items-center gap-2">
