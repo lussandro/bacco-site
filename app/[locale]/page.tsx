@@ -13,6 +13,7 @@ import { Comparison } from "@/components/comparison"
 import { Benefits } from "@/components/benefits"
 import { About } from "@/components/about"
 import { FAQ } from "@/components/faq"
+import { Contact } from "@/components/contact"
 import { CTA } from "@/components/cta"
 import { Footer } from "@/components/footer"
 
@@ -35,6 +36,7 @@ export default function Home() {
         <Benefits />
         <About />
         <FAQ />
+        <Contact />
         <CTA />
       </main>
       <Footer />
