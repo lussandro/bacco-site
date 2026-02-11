@@ -4,9 +4,12 @@ import type React from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { Mail, Phone, MapPin } from "lucide-react"
+import { Mail, Phone, MapPin, CheckCircle2, Loader2 } from "lucide-react"
 import { useState } from "react"
 import { useTranslations } from "next-intl"
+
+const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://ezwdwwqekfczkberwzic.supabase.co"
+const SUPABASE_KEY = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_DEFAULT_KEY || ""
 
 export function Contact() {
   const t = useTranslations("contact")
@@ -18,11 +21,56 @@ export function Contact() {
     company: "",
     message: "",
   })
+  const [loading, setLoading] = useState(false)
+  const [success, setSuccess] = useState(false)
+  const [error, setError] = useState("")
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    // Aqui você pode adicionar a lógica de envio do formulário
-    console.log("Form submitted:", formData)
+    setLoading(true)
+    setError("")
+
+    try {
+      const notasParts = []
+      if (formData.email) notasParts.push(`Email: ${formData.email}`)
+      if (formData.message) notasParts.push(`Mensagem: ${formData.message}`)
+
+      const res = await fetch(`${SUPABASE_URL}/rest/v1/leads`, {
+        method: "POST",
+        headers: {
+          "apikey": SUPABASE_KEY,
+          "Authorization": `Bearer ${SUPABASE_KEY}`,
+          "Content-Type": "application/json",
+          "Prefer": "resolution=merge-duplicates",
+        },
+        body: JSON.stringify({
+          nome: formData.name || null,
+          telefone: formData.phone,
+          email: formData.email || null,
+          vinicola: formData.company || null,
+          origem: "site",
+          status: "novo",
+          notas_ia: notasParts.length > 0 ? notasParts.join(" | ") : null,
+        }),
+      })
+
+      if (!res.ok) {
+        const data = await res.json().catch(() => null)
+        if (data?.code === "23505") {
+          setSuccess(true)
+          setFormData({ name: "", email: "", phone: "", company: "", message: "" })
+        } else {
+          throw new Error("Erro ao enviar")
+        }
+      } else {
+        setSuccess(true)
+        setFormData({ name: "", email: "", phone: "", company: "", message: "" })
+      }
+    } catch {
+      setError("Erro ao enviar. Tente novamente ou entre em contato por WhatsApp.")
+    } finally {
+      setLoading(false)
+    }
   }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -89,82 +137,106 @@ export function Contact() {
             </div>
 
             <div className="bg-card p-6 lg:p-8 rounded-2xl border border-border shadow-lg">
-              <form onSubmit={handleSubmit} className="space-y-6">
-                <div className="space-y-2">
-                  <label htmlFor="name" className="text-sm font-medium">
-                    {t("form.name")}
-                  </label>
-                  <Input
-                    id="name"
-                    name="name"
-                    value={formData.name}
-                    onChange={handleChange}
-                    placeholder={t("form.namePlaceholder")}
-                    required
-                  />
+              {success ? (
+                <div className="flex flex-col items-center justify-center py-12 text-center">
+                  <CheckCircle2 className="h-12 w-12 text-green-500 mb-4" />
+                  <h3 className="font-serif text-xl font-bold mb-2">Cadastro recebido!</h3>
+                  <p className="text-muted-foreground text-sm mb-6">
+                    Entraremos em contato em breve. Obrigado pelo interesse no Bacco!
+                  </p>
+                  <Button variant="outline" onClick={() => setSuccess(false)}>
+                    Enviar outro
+                  </Button>
                 </div>
+              ) : (
+                <form onSubmit={handleSubmit} className="space-y-6">
+                  <div className="space-y-2">
+                    <label htmlFor="name" className="text-sm font-medium">
+                      {t("form.name")}
+                    </label>
+                    <Input
+                      id="name"
+                      name="name"
+                      value={formData.name}
+                      onChange={handleChange}
+                      placeholder={t("form.namePlaceholder")}
+                      required
+                    />
+                  </div>
 
-                <div className="space-y-2">
-                  <label htmlFor="email" className="text-sm font-medium">
-                    {t("form.email")}
-                  </label>
-                  <Input
-                    id="email"
-                    name="email"
-                    type="email"
-                    value={formData.email}
-                    onChange={handleChange}
-                    placeholder={t("form.emailPlaceholder")}
-                    required
-                  />
-                </div>
+                  <div className="space-y-2">
+                    <label htmlFor="email" className="text-sm font-medium">
+                      {t("form.email")}
+                    </label>
+                    <Input
+                      id="email"
+                      name="email"
+                      type="email"
+                      value={formData.email}
+                      onChange={handleChange}
+                      placeholder={t("form.emailPlaceholder")}
+                      required
+                    />
+                  </div>
 
-                <div className="space-y-2">
-                  <label htmlFor="phone" className="text-sm font-medium">
-                    {t("form.phone")}
-                  </label>
-                  <Input
-                    id="phone"
-                    name="phone"
-                    type="tel"
-                    value={formData.phone}
-                    onChange={handleChange}
-                    placeholder={t("form.phonePlaceholder")}
-                    required
-                  />
-                </div>
+                  <div className="space-y-2">
+                    <label htmlFor="phone" className="text-sm font-medium">
+                      {t("form.phone")}
+                    </label>
+                    <Input
+                      id="phone"
+                      name="phone"
+                      type="tel"
+                      value={formData.phone}
+                      onChange={handleChange}
+                      placeholder={t("form.phonePlaceholder")}
+                      required
+                    />
+                  </div>
 
-                <div className="space-y-2">
-                  <label htmlFor="company" className="text-sm font-medium">
-                    {t("form.company")}
-                  </label>
-                  <Input
-                    id="company"
-                    name="company"
-                    value={formData.company}
-                    onChange={handleChange}
-                    placeholder={t("form.companyPlaceholder")}
-                  />
-                </div>
+                  <div className="space-y-2">
+                    <label htmlFor="company" className="text-sm font-medium">
+                      {t("form.company")}
+                    </label>
+                    <Input
+                      id="company"
+                      name="company"
+                      value={formData.company}
+                      onChange={handleChange}
+                      placeholder={t("form.companyPlaceholder")}
+                    />
+                  </div>
 
-                <div className="space-y-2">
-                  <label htmlFor="message" className="text-sm font-medium">
-                    {t("form.message")}
-                  </label>
-                  <Textarea
-                    id="message"
-                    name="message"
-                    value={formData.message}
-                    onChange={handleChange}
-                    placeholder={t("form.messagePlaceholder")}
-                    rows={4}
-                  />
-                </div>
+                  <div className="space-y-2">
+                    <label htmlFor="message" className="text-sm font-medium">
+                      {t("form.message")}
+                    </label>
+                    <Textarea
+                      id="message"
+                      name="message"
+                      value={formData.message}
+                      onChange={handleChange}
+                      placeholder={t("form.messagePlaceholder")}
+                      rows={4}
+                    />
+                  </div>
 
-                <Button type="submit" size="lg" className="w-full">
-                  {t("form.submit")}
-                </Button>
-              </form>
+                  {error && (
+                    <p className="text-destructive text-sm">{error}</p>
+                  )}
+
+                  <Button type="submit" size="lg" className="w-full" disabled={loading}>
+                    {loading ? (
+                      <>
+                        <Loader2 className="h-4 w-4 animate-spin mr-2" />
+                        Enviando...
+                      </>
+                    ) : (
+                      t("form.submit")
+                    )}
+                  </Button>
+                </form>
+              )}
             </div>
           </div>
         </div>
