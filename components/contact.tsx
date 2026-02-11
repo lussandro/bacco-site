@@ -9,7 +9,7 @@ import { useState } from "react"
 import { useTranslations } from "next-intl"
 
 const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://ezwdwwqekfczkberwzic.supabase.co"
-const SUPABASE_KEY = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_DEFAULT_KEY || ""
+const SUPABASE_KEY = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || "sb_publishable_YooK50O3JiASp5IwQkcDbw_8ZQj1nel"
 
 export function Contact() {
   const t = useTranslations("contact")
