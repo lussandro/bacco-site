@@ -124,6 +124,14 @@ export default async function LocaleLayout({
           </Script>
           <StructuredData />
           {children}
+          {/* Bacco Chat Widget */}
+          <Script
+            src="/widget/bacco-chat.js"
+            data-webhook="https://n8n.bacco-erp.com/webhook/chat-site"
+            data-supabase-url="https://ezwdwwqekfczkberwzic.supabase.co"
+            data-supabase-key="sb_publishable_YooK50O3JiASp5IwQkcDbw_8ZQj1nel"
+            strategy="lazyOnload"
+          />
         </NextIntlClientProvider>
       </body>
     </html>
