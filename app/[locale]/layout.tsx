@@ -124,6 +124,12 @@ export default async function LocaleLayout({
           </Script>
           <StructuredData />
           {children}
+          {/* Cloudflare Web Analytics */}
+          <Script
+            src="https://static.cloudflareinsights.com/beacon.min.js"
+            data-cf-beacon='{"token": "762db2f5c85d4720855abb4e81f85ef6"}'
+            strategy="afterInteractive"
+          />
           {/* Bacco Chat Widget */}
           <Script
             src="/widget/bacco-chat.js"
