@@ -29,6 +29,12 @@ const metaByLocale: Record<string, { title: string; description: string; ogLocal
       "O único ERP brasileiro desenvolvido exclusivamente para vinícolas. Do vinhedo à garrafa: controle total da produção com IA, rastreabilidade completa, compliance SIVIBE/ENVIN e enoturismo. Inclui Bacco-Campo e Bacco-Comanda.",
     ogLocale: "pt_BR",
   },
+  "pt-PT": {
+    title: "Bacco ERP - Sistema Completo para Gestão de Adegas | ERP especializado",
+    description:
+      "ERP desenvolvido exclusivamente para adegas. Da vinha à garrafa: controlo total da produção com IA, rastreabilidade completa, compliance SIVIBE/ENVIN e enoturismo. Inclui Bacco-Campo e Bacco-Comanda.",
+    ogLocale: "pt_PT",
+  },
   "en-US": {
     title: "Bacco ERP - Complete Winery Management | Brazilian-born ERP",
     description:
@@ -40,6 +46,18 @@ const metaByLocale: Record<string, { title: string; description: string; ogLocal
     description:
       "El único ERP brasilero desarrollado exclusivamente para bodegas. Del viñedo a la botella: control total de producción con IA, trazabilidad completa, compliance SIVIBE/ENVIN y enoturismo. Incluye Bacco-Campo y Bacco-Comanda.",
     ogLocale: "es_ES",
+  },
+  "it-IT": {
+    title: "Bacco ERP - Sistema Completo per la Gestione delle Cantine",
+    description:
+      "ERP sviluppato esclusivamente per cantine. Dal vigneto alla bottiglia: controllo completo della produzione con IA, tracciabilita end-to-end, compliance SIVIBE/ENVIN ed enoturismo.",
+    ogLocale: "it_IT",
+  },
+  "fr": {
+    title: "Bacco ERP - Suite Complete de Gestion des Domaines Viticoles",
+    description:
+      "ERP concu exclusivement pour les domaines viticoles. De la vigne a la bouteille : controle total de la production avec IA, tracabilite complete, conformite et oenotourisme.",
+    ogLocale: "fr_FR",
   },
 }
 
@@ -83,6 +101,15 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     },
     alternates: {
       canonical: `${baseUrl.origin}/${locale}`,
+      languages: {
+        "pt-BR": `${baseUrl.origin}/pt-BR`,
+        "pt-PT": `${baseUrl.origin}/pt-PT`,
+        "en-US": `${baseUrl.origin}/en-US`,
+        "es": `${baseUrl.origin}/es`,
+        "it-IT": `${baseUrl.origin}/it-IT`,
+        "fr": `${baseUrl.origin}/fr`,
+        "x-default": `${baseUrl.origin}/pt-BR`,
+      },
     },
   }
 }
@@ -125,10 +152,10 @@ export default async function LocaleLayout({
           <StructuredData />
           {children}
           {/* Cloudflare Web Analytics */}
-          <Script
+          <script
+            defer
             src="https://static.cloudflareinsights.com/beacon.min.js"
             data-cf-beacon='{"token": "762db2f5c85d4720855abb4e81f85ef6"}'
-            strategy="afterInteractive"
           />
           {/* Bacco Chat Widget */}
           <Script
