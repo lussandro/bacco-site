@@ -64,13 +64,24 @@ export function Header() {
                 <Button variant="ghost" size="sm" className="gap-2">
                   <Globe className="h-4 w-4" />
                   <span className="hidden sm:inline">
-                    {locale === 'pt-BR' ? 'PT' : locale === 'es' ? 'ES' : locale === 'it-IT' ? 'IT' : 'EN'}
+                    {locale === 'pt-BR' || locale === 'pt-PT'
+                      ? 'PT'
+                      : locale === 'es'
+                        ? 'ES'
+                        : locale === 'it-IT'
+                          ? 'IT'
+                          : locale === 'fr'
+                            ? 'FR'
+                            : 'EN'}
                   </span>
                 </Button>
               </DropdownMenuTrigger>
               <DropdownMenuContent align="end">
                 <DropdownMenuItem onClick={() => changeLocale('pt-BR')} className={locale === 'pt-BR' ? 'bg-primary/10' : ''}>
-                  🇧🇷 Português
+                  🇧🇷 Português (Brasil)
+                </DropdownMenuItem>
+                <DropdownMenuItem onClick={() => changeLocale('pt-PT')} className={locale === 'pt-PT' ? 'bg-primary/10' : ''}>
+                  🇵🇹 Português (Portugal)
                 </DropdownMenuItem>
                 <DropdownMenuItem onClick={() => changeLocale('en-US')} className={locale === 'en-US' ? 'bg-primary/10' : ''}>
                   🇺🇸 English
@@ -80,6 +91,9 @@ export function Header() {
                 </DropdownMenuItem>
                 <DropdownMenuItem onClick={() => changeLocale('it-IT')} className={locale === 'it-IT' ? 'bg-primary/10' : ''}>
                   🇮🇹 Italiano
+                </DropdownMenuItem>
+                <DropdownMenuItem onClick={() => changeLocale('fr')} className={locale === 'fr' ? 'bg-primary/10' : ''}>
+                  🇫🇷 Français
                 </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>

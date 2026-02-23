@@ -7,6 +7,12 @@ const metaByLocale: Record<string, { title: string; description: string; ogLocal
       "O unico ERP brasileiro desenvolvido exclusivamente para vinicolas. Compliance total com SIVIBE, ENVIN, MAPA e NF-e. Suporte a todas as regioes vinicolas brasileiras: Serra Gaucha, Vale do Sao Francisco, Campanha Gaucha e mais.",
     ogLocale: "pt_BR",
   },
+  "pt-PT": {
+    title: "Bacco ERP para o Brasil - Compliance SIVIBE, ENVIN, MAPA e NF-e",
+    description:
+      "ERP desenvolvido exclusivamente para adegas. Compliance total com SIVIBE, ENVIN, MAPA e NF-e. Suporte para todas as regioes vitivinicolas do Brasil.",
+    ogLocale: "pt_PT",
+  },
   "en-US": {
     title: "Bacco ERP for Brazil - SIVIBE, ENVIN, MAPA & NF-e Compliance",
     description:
@@ -25,6 +31,12 @@ const metaByLocale: Record<string, { title: string; description: string; ogLocal
       "L'unico ERP brasiliano sviluppato esclusivamente per cantine. Compliance totale con SIVIBE, ENVIN, MAPA e NF-e. Supporto a tutte le regioni vinicole brasiliane: Serra Gaucha, Valle del San Francisco, Campagna Gaucha e altre.",
     ogLocale: "it_IT",
   },
+  "fr": {
+    title: "Bacco ERP pour le Bresil - Conformite SIVIBE, ENVIN, MAPA et NF-e",
+    description:
+      "ERP concu pour les domaines viticoles operant au Bresil. Conformite complete avec SIVIBE, ENVIN, MAPA et NF-e.",
+    ogLocale: "fr_FR",
+  },
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
@@ -35,9 +47,11 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
   const pathByLocale: Record<string, string> = {
     "pt-BR": "/para-brasil",
+    "pt-PT": "/para-brasil",
     "en-US": "/for-brazil",
     "es": "/para-brasil",
     "it-IT": "/per-brasile",
+    "fr": "/pour-bresil",
   }
 
   const ogUrl = `${baseUrl.origin}/${locale}${pathByLocale[locale] || "/para-brasil"}`
@@ -89,9 +103,11 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       canonical: ogUrl,
       languages: {
         "pt-BR": `${baseUrl.origin}/pt-BR/para-brasil`,
+        "pt-PT": `${baseUrl.origin}/pt-PT/para-brasil`,
         "en-US": `${baseUrl.origin}/en-US/for-brazil`,
         "es": `${baseUrl.origin}/es/para-brasil`,
         "it-IT": `${baseUrl.origin}/it-IT/per-brasile`,
+        "fr": `${baseUrl.origin}/fr/pour-bresil`,
       },
     },
   }

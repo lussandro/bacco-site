@@ -7,6 +7,12 @@ const metaByLocale: Record<string, { title: string; description: string; ogLocal
       "ERP completo para vinicolas italianas. Compliance com DOC, DOCG, IGT, Registro Vigneti e SIAN. Suporte a todas as regioes vinicolas italianas: Toscana, Piemonte, Veneto, Sicilia, Puglia e mais.",
     ogLocale: "pt_BR",
   },
+  "pt-PT": {
+    title: "Bacco ERP para Italia - Compliance DOC, DOCG, IGT e regulacao UE",
+    description:
+      "ERP completo para adegas italianas. Compliance com DOC, DOCG, IGT, Registro Vigneti e SIAN.",
+    ogLocale: "pt_PT",
+  },
   "en-US": {
     title: "Bacco ERP for Italy - DOC, DOCG, IGT & EU Compliance",
     description:
@@ -25,6 +31,12 @@ const metaByLocale: Record<string, { title: string; description: string; ogLocal
       "ERP completo per cantine italiane. Compliance con DOC, DOCG, IGT, Registro Vigneti e SIAN. Supporto a tutte le regioni vinicole italiane: Toscana, Piemonte, Veneto, Sicilia, Puglia e altre.",
     ogLocale: "it_IT",
   },
+  "fr": {
+    title: "Bacco ERP pour l'Italie - Conformite DOC, DOCG, IGT et normes UE",
+    description:
+      "ERP complet pour les domaines viticoles italiens, avec conformite DOC, DOCG, IGT, Registro Vigneti et SIAN.",
+    ogLocale: "fr_FR",
+  },
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
@@ -35,9 +47,11 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
   const pathByLocale: Record<string, string> = {
     "pt-BR": "/para-italia",
+    "pt-PT": "/para-italia",
     "en-US": "/for-italy",
     "es": "/para-italia",
     "it-IT": "/per-italia",
+    "fr": "/pour-italie",
   }
 
   const ogUrl = `${baseUrl.origin}/${locale}${pathByLocale[locale] || "/per-italia"}`
@@ -96,9 +110,11 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       canonical: ogUrl,
       languages: {
         "pt-BR": `${baseUrl.origin}/pt-BR/para-italia`,
+        "pt-PT": `${baseUrl.origin}/pt-PT/para-italia`,
         "en-US": `${baseUrl.origin}/en-US/for-italy`,
         "es": `${baseUrl.origin}/es/para-italia`,
         "it-IT": `${baseUrl.origin}/it-IT/per-italia`,
+        "fr": `${baseUrl.origin}/fr/pour-italie`,
       },
     },
   }

@@ -3,7 +3,7 @@ import { createNavigation } from 'next-intl/navigation';
 
 export const routing = defineRouting({
   // A list of all locales that are supported
-  locales: ['pt-BR', 'en-US', 'es', 'it-IT'],
+  locales: ['pt-BR', 'pt-PT', 'en-US', 'es', 'it-IT', 'fr'],
 
   // Used when no locale matches
   defaultLocale: 'pt-BR',
@@ -16,43 +16,59 @@ export const routing = defineRouting({
     '/': '/',
     '/termos-de-uso': {
       'pt-BR': '/termos-de-uso',
+      'pt-PT': '/termos-de-utilizacao',
       'en-US': '/terms-of-use',
-      'es': '/terminos-de-uso'
+      'es': '/terminos-de-uso',
+      'it-IT': '/termini-di-utilizzo',
+      'fr': '/conditions-d-utilisation'
     },
     '/politica-de-privacidade': {
       'pt-BR': '/politica-de-privacidade',
+      'pt-PT': '/politica-de-privacidade',
       'en-US': '/privacy-policy',
-      'es': '/politica-de-privacidad'
+      'es': '/politica-de-privacidad',
+      'it-IT': '/informativa-sulla-privacy',
+      'fr': '/politique-de-confidentialite'
     },
     '/para-brasil': {
       'pt-BR': '/para-brasil',
+      'pt-PT': '/para-brasil',
       'en-US': '/for-brazil',
       'es': '/para-brasil',
-      'it-IT': '/per-brasile'
+      'it-IT': '/per-brasile',
+      'fr': '/pour-bresil'
     },
     '/para-argentina': {
       'pt-BR': '/para-argentina',
+      'pt-PT': '/para-argentina',
       'en-US': '/for-argentina',
       'es': '/para-argentina',
-      'it-IT': '/per-argentina'
+      'it-IT': '/per-argentina',
+      'fr': '/pour-argentine'
     },
     '/para-italia': {
       'pt-BR': '/para-italia',
+      'pt-PT': '/para-italia',
       'en-US': '/for-italy',
       'es': '/para-italia',
-      'it-IT': '/per-italia'
+      'it-IT': '/per-italia',
+      'fr': '/pour-italie'
     },
     '/para-chile': {
       'pt-BR': '/para-chile',
+      'pt-PT': '/para-chile',
       'en-US': '/for-chile',
       'es': '/para-chile',
-      'it-IT': '/per-cile'
+      'it-IT': '/per-cile',
+      'fr': '/pour-chili'
     },
     '/para-uruguai': {
       'pt-BR': '/para-uruguai',
+      'pt-PT': '/para-uruguai',
       'en-US': '/for-uruguay',
       'es': '/para-uruguay',
-      'it-IT': '/per-uruguay'
+      'it-IT': '/per-uruguay',
+      'fr': '/pour-uruguay'
     }
   }
 });
@@ -61,4 +77,3 @@ export const routing = defineRouting({
 // that will consider the routing configuration
 export const { Link, redirect, usePathname, useRouter, getPathname } =
   createNavigation(routing);
-

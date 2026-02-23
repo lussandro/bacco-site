@@ -1,7 +1,7 @@
 "use client"
 
 import { Wine, MapPin, Grape, Shield, FileCheck, Building2, Check, ArrowRight, Globe, Leaf, Mountain, Sun, Database, Clock, FileText } from "lucide-react"
-import Link from "next/link"
+import { Link } from "@/i18n/routing"
 import { useTranslations } from "next-intl"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -61,7 +61,7 @@ export default function ParaChile() {
                   </a>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
-                  <Link href="/#funcionalidades">
+                  <Link href={{ pathname: "/", hash: "funcionalidades" }}>
                     {t("hero.ctaFeatures")}
                   </Link>
                 </Button>

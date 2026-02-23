@@ -1,0 +1,2149 @@
+{
+  "about": {
+    "history": {
+      "badge": "História",
+      "subtitle": "Uma jornada que une tecnologia e paixão pelo vinho",
+      "text": {
+        "p1": "Minha jornada na tecnologia começou muito antes da nuvem, dos containers e do DevOps. Nos anos 90, eu já explorava o universo do código com Clipper e DBASE, quando programar era uma arte quase manual — feita linha por linha, com paciência e curiosidade.",
+        "p2": "Com o tempo, evoluí junto com as linguagens e ferramentas: passei pelo Visual Basic, onde aprendi a dar vida às interfaces gráficas, e mais tarde mergulhei de cabeça no mundo do Python e do Node.js com TypeScript, construindo APIs, sistemas SaaS e soluções escaláveis.",
+        "p3": "A partir de 2015, assumi uma nova paixão dentro da tecnologia: o DevOps. Foi quando comecei a integrar o desenvolvimento à infraestrutura, automatizando pipelines, orquestrando containers e tornando o ciclo de deploy algo contínuo, seguro e previsível. <strong>Essa transição me ensinou algo que levo até hoje: um sistema é vivo, e como todo organismo, precisa de equilíbrio, cuidado e evolução constante.</strong>",
+        "p4": "Mas, fora do código, existe outra parte de mim que também busca esse equilíbrio: o vinho. Há mais de 20 anos, ele entrou na minha vida — primeiro como curiosidade, depois como paixão. Em 2023, concluí o curso de sommelier e, inspirado pelo amigo Elisson Manfroi, iniciei o hobby de \"vinhateiro\", produzindo meus próprios vinhos de forma artesanal.",
+        "p5": "Neste ano, decidi ir além e comecei a faculdade de Enologia, unindo ciência e sensibilidade para compreender cada detalhe do processo de vinificação.",
+        "quote": "\"Hoje, essas duas paixões — tecnologia e vinho — caminham juntas. Entre pipelines e barricas, encontrei meu espaço: transformar conhecimento em ferramentas que empoderam quem vive da uva e do vinho.\""
+      },
+      "timeline": {
+        "devops": {
+          "description": "Automação e escalabilidade",
+          "period": "2015+",
+          "title": "DevOps e Cloud"
+        },
+        "enology": {
+          "description": "Ciência e sensibilidade",
+          "period": "2025",
+          "title": "Faculdade de Enologia"
+        },
+        "nineties": {
+          "description": "Programação linha por linha",
+          "period": "Anos 90",
+          "title": "Clipper e DBASE"
+        },
+        "sommelier": {
+          "description": "Paixão pelo vinho",
+          "period": "2023",
+          "title": "Curso de Sommelier"
+        }
+      },
+      "title": "Um pouco de História"
+    },
+    "origin": {
+      "badge": "Origem",
+      "subtitle": "Como nasceu a ideia de criar um ERP exclusivo para adegas",
+      "text": {
+        "extra1": "Mais do que um software, o Bacco representa uma visão de futuro para o vinho brasileiro — moderna, autêntica e feita com alma. Um sistema que entende que cada lote tem uma história, cada fermentação um ritmo, e cada vinho uma identidade.",
+        "extra2": "O Bacco não é apenas um ERP. É o resultado de décadas de experiência em tecnologia encontrando a paixão pelo vinho. É a ferramenta que eu gostaria que existisse quando comecei a estudar enologia.",
+        "p1": "A ideia do Bacco nasceu de uma necessidade real: enquanto eu produzia meus próprios vinhos de forma artesanal, percebi que não existia no mercado um sistema de gestão que realmente entendesse as particularidades da produção de vinhos.",
+        "p2": "Os sistemas disponíveis eram, em sua maioria, adaptações de ERPs genéricos ou traduções superficiais de softwares estrangeiros que não contemplavam as variedades de uvas, práticas locais, regulamentações específicas ou as necessidades de pequenas e médias adegas.",
+        "p3": "Foi então que decidi unir minhas duas paixões — tecnologia e vinho — para criar algo único: um ERP desenvolvido do zero, pensado para adegas, mas com padrões internacionais de qualidade e rastreabilidade. Hoje, o Bacco está disponível em 4 idiomas (Português, Inglês, Espanhol, Italiano), atendendo adegas ao redor do mundo.",
+        "p4": "O Bacco não é apenas um software. É o resultado de anos de experiência em desenvolvimento de sistemas, conhecimento técnico em enologia e uma profunda compreensão das necessidades reais de quem produz vinho. Com suporte multilíngue, levamos essa solução para adegas em diferentes países."
+      },
+      "title": "A Origem do Bacco",
+      "whyBacco": {
+        "description": "Bacco é uma homenagem a Baco, o deus romano do vinho, da colheita e da fertilidade. Escolhemos essa referência não apenas pela conexão com o vinho, mas também pelo simbolismo: Baco representa transformação, celebração e a união entre natureza e cultura — valores que refletem perfeitamente a essência do nosso sistema.",
+        "title": "Por Que Bacco?"
+      }
+    }
+  },
+  "aiAlerts": {
+    "badge": "Alertas com IA",
+    "cta": "Os alertas de IA do Bacco ajudam voce a tomar decisoes proativas, prevenir problemas e otimizar cada etapa da producao.",
+    "features": {
+      "contextual": {
+        "description": "Alertas inteligentes que consideram historico, clima e estagio da producao.",
+        "title": "IA Contextual"
+      },
+      "multilingual": {
+        "description": "Todos os alertas sao traduzidos profissionalmente para PT, EN, ES e IT.",
+        "title": "100% Multilingue"
+      },
+      "realtime": {
+        "description": "Monitorização continuo com notificacoes instantaneas quando acoes sao necessarias.",
+        "title": "Alertas em Tempo Real"
+      }
+    },
+    "selectLanguage": "Ver em",
+    "severity": {
+      "critical": "Critico",
+      "info": "Informacao",
+      "success": "Sucesso",
+      "warning": "Atencao"
+    },
+    "subtitle": "Nossa IA monitora continuamente sua producao e envia alertas contextuais no idioma de sua preferencia. Veja como o mesmo alerta aparece em diferentes idiomas.",
+    "title": "Sistema de Alertas Inteligente e Multilingue",
+    "types": {
+      "calendar": "Calendario",
+      "climate": "Clima",
+      "phytosanitary": "Fitossanidade",
+      "vinification": "Vinificacao"
+    }
+  },
+  "argentina": {
+    "back": "Voltar ao site",
+    "compliance": {
+      "badge": "Conformidade Argentino",
+      "highlight": {
+        "description": "Nao perca prazos! O Bacco monitora automaticamente todas as obrigacoes regulatorias argentinas e envia alertas antes dos vencimentos.",
+        "title": "Conformidade Automatizado"
+      },
+      "items": {
+        "afip": {
+          "description": "Administracion Federal de Ingresos Publicos. Integracao com sistemas fiscais argentinos e emissao de comprovantes.",
+          "title": "AFIP"
+        },
+        "factura": {
+          "description": "Emissao de faturas eletronicas conforme regulamentacoes da AFIP. Controlo fiscal completo para operacoes comerciais.",
+          "title": "Factura Electronica"
+        },
+        "inv": {
+          "description": "Instituto Nacional de Vitivinicultura. Declaracoes obrigatorias, registros de producao e controlo de qualidade conforme regulamentacoes do INV.",
+          "title": "INV"
+        },
+        "senasa": {
+          "description": "Servicio Nacional de Sanidad y Calidad Agroalimentaria. Conformidade com normas sanitarias e fitossanitarias para producao vinicola.",
+          "title": "SENASA"
+        }
+      },
+      "subtitle": "O Bacco ERP foi desenvolvido para atender 100% das exigencias legais argentinas para producao e comercializacao de vinhos.",
+      "title": "Conformidade Total com Regulamentacoes Argentinas"
+    },
+    "cta": {
+      "button": "Solicitar Demonstracao Gratuita",
+      "check1": "Conformidade argentino completo",
+      "check2": "Suporte em espanhol",
+      "check3": "Moeda local (ARS)",
+      "subtitle": "Junte-se as bodegas argentinas que ja estao transformando sua gestao com o Bacco ERP. Demonstracao gratuita sem compromisso.",
+      "title": "Pronto para Modernizar sua Bodega?"
+    },
+    "currency": {
+      "badge": "Moeda Local",
+      "peso": {
+        "description": "Todas as operacoes financeiras, precos, custos e relatorios podem ser configurados em Peso Argentino. Conversao automatica para outras moedas quando necessario.",
+        "features": {
+          "autoConversion": "Conversao automatica",
+          "localPricing": "Precos em ARS",
+          "multiCurrency": "Multi-moeda"
+        },
+        "title": "Peso Argentino (ARS)"
+      },
+      "subtitle": "O Bacco ERP suporta nativamente o Peso Argentino (ARS), facilitando a gestao financeira de bodegas argentinas.",
+      "title": "Suporte Nativo a Peso Argentino"
+    },
+    "footer": {
+      "rights": "Todos os direitos reservados."
+    },
+    "grapes": {
+      "badge": "Variedades de Uva",
+      "items": {
+        "bonarda": {
+          "name": "Bonarda",
+          "type": "Tinta - Segunda mais plantada"
+        },
+        "cabernetSauvignon": {
+          "name": "Cabernet Sauvignon",
+          "type": "Tinta - Classica mundial"
+        },
+        "chardonnay": {
+          "name": "Chardonnay",
+          "type": "Branca - Base de espumantes"
+        },
+        "malbec": {
+          "name": "Malbec",
+          "type": "Tinta - Embaixadora da Argentina"
+        },
+        "pinotNoir": {
+          "name": "Pinot Noir",
+          "type": "Tinta - Elegancia patagonica"
+        },
+        "syrah": {
+          "name": "Syrah",
+          "type": "Tinta - Expressao argentina"
+        },
+        "tempranillo": {
+          "name": "Tempranillo",
+          "type": "Tinta - Heranca espanhola"
+        },
+        "torrontes": {
+          "name": "Torrontes",
+          "type": "Branca - Uva autoctone argentina"
+        }
+      },
+      "stats": {
+        "tasks": "Tarefas de manejo padrao",
+        "varieties": "Variedades cadastradas"
+      },
+      "subtitle": "Todas as variedades cultivadas na Argentina ja estao no sistema, com informacoes tecnicas completas sobre origem, ciclo e caracteristicas.",
+      "title": "Variedades Argentinas Pre-Cadastradas",
+      "total": "Todas as variedades viniferas argentinas"
+    },
+    "hero": {
+      "badge": "Para Argentina",
+      "ctaDemo": "Solicitar Demonstracao Gratuita",
+      "ctaFeatures": "Ver Funcionalidades",
+      "subtitle": "Conformidade total com SENASA, INV e regulamentacoes locais. Suporte nativo a Peso Argentino, regioes vinicolas e variedades argentinas.",
+      "title": "ERP Completo para Bodegas Argentinas"
+    },
+    "integrations": {
+      "badge": "Integracoes Argentinas",
+      "items": {
+        "afip": {
+          "badge": "Fiscal",
+          "description": "Integracao com sistemas da AFIP para emissao de faturas eletronicas e compliance fiscal automatizado.",
+          "title": "AFIP"
+        },
+        "mercadopago": {
+          "badge": "Pagamentos",
+          "description": "Receba pagamentos via Mercado Pago direto no PDV Bacco-Comanda com confirmacao instantanea.",
+          "title": "Mercado Pago"
+        },
+        "rapt": {
+          "badge": "IoT",
+          "description": "Monitorização de temperatura e densidade em tempo real com alertas automaticos durante fermentacao.",
+          "title": "RAPT Cloud"
+        },
+        "whatsapp": {
+          "badge": "Comunicacao",
+          "description": "Envie notificacoes, confirmacoes de reservas e atualizacoes para clientes automaticamente.",
+          "title": "WhatsApp Business"
+        }
+      },
+      "subtitle": "O Bacco se conecta nativamente com os principais sistemas e servicos argentinos para automatizar sua operacao.",
+      "title": "Integrado com Sistemas Argentinos"
+    },
+    "regions": {
+      "badge": "Regioes Vinicolas",
+      "items": {
+        "laRioja": {
+          "description": "Uma das regioes vinicolas mais antigas da Argentina. Tradicao e historia na producao de vinhos.",
+          "grapes": [
+            "Torrontes",
+            "Bonarda",
+            "Syrah",
+            "Malbec"
+          ],
+          "name": "La Rioja"
+        },
+        "mendoza": {
+          "description": "Principal regiao vinicola da Argentina, responsavel por mais de 70% da producao. Terroir ideal para Malbec.",
+          "grapes": [
+            "Malbec",
+            "Cabernet Sauvignon",
+            "Bonarda",
+            "Chardonnay"
+          ],
+          "name": "Mendoza"
+        },
+        "patagonia": {
+          "description": "Regiao emergente com clima frio. Vinhos elegantes e frescos com acidez vibrante.",
+          "grapes": [
+            "Pinot Noir",
+            "Merlot",
+            "Chardonnay",
+            "Sauvignon Blanc"
+          ],
+          "name": "Patagonia"
+        },
+        "salta": {
+          "description": "Vinhedos de altitude extrema (ate 3.000m). Berco do Torrontes, a uva branca emblematica argentina.",
+          "grapes": [
+            "Torrontes",
+            "Malbec",
+            "Cabernet Sauvignon",
+            "Tannat"
+          ],
+          "name": "Salta"
+        },
+        "sanJuan": {
+          "description": "Segunda maior regiao produtora. Clima quente e seco, ideal para vinhos encorpados e uvas de mesa.",
+          "grapes": [
+            "Syrah",
+            "Bonarda",
+            "Malbec",
+            "Torrontes"
+          ],
+          "name": "San Juan"
+        }
+      },
+      "subtitle": "O Bacco conhece as particularidades de cada terroir argentino, oferecendo sugestoes de manejo e vinificacao adaptadas a cada regiao.",
+      "title": "Suporte Completo as Regioes Vinicolas Argentinas"
+    },
+    "regulatory": {
+      "badge": "Em Breve",
+      "items": {
+        "checklists": {
+          "description": "Listas de verificacao para garantir conformidade total",
+          "title": "Checklists de Auditoria"
+        },
+        "guides": {
+          "description": "Documentacao detalhada sobre SENASA, INV e AFIP",
+          "title": "Guias de Conformidade"
+        },
+        "manuals": {
+          "description": "Instrucoes passo a passo para processos regulatorios",
+          "title": "Manuais de Procedimentos"
+        },
+        "templates": {
+          "description": "Modelos prontos para declaracoes e relatorios obrigatorios",
+          "title": "Templates de Relatorios"
+        }
+      },
+      "subtitle": "Material completo de apoio para conformidade com as regulamentacoes argentinas do setor vinicola.",
+      "title": "Documentacao Regulatoria"
+    }
+  },
+  "benefits": {
+    "items": {
+      "integrated": {
+        "description": "Vinhedo, produção, laboratório e qualidade em um só lugar",
+        "label": "Gestão Integrada",
+        "stat": "360°"
+      },
+      "realtime": {
+        "description": "Alertas automáticos de temperatura, densidade e análises",
+        "label": "Monitorização em Tempo Real",
+        "stat": "Tempo real"
+      },
+      "reports": {
+        "description": "Dashboards e indicadores para tomada de decisão",
+        "label": "Relatórios Inteligentes",
+        "stat": "24/7"
+      },
+      "traceability": {
+        "description": "Do vinhedo à garrafa, rastreie cada etapa da produção",
+        "label": "Rastreabilidade Total",
+        "stat": "100%"
+      }
+    },
+    "subtitle": "Transforme a gestão da sua adega com tecnologia de ponta e controlo total da produção.",
+    "title": "Por Que Escolher o Bacco?"
+  },
+  "brazil": {
+    "back": "Voltar ao site",
+    "compliance": {
+      "badge": "Conformidade Brasileiro",
+      "highlight": {
+        "description": "Nao perca prazos! O Bacco monitora automaticamente todas as obrigacoes regulatorias e envia alertas antes dos vencimentos. Gere declaracoes com um clique.",
+        "title": "Conformidade Automatizado"
+      },
+      "items": {
+        "envin": {
+          "description": "Modulo completo para declaracoes ENVIN com exportacao nos formatos exigidos pelo governo, garantindo conformidade regulatoria total.",
+          "title": "ENVIN"
+        },
+        "mapa": {
+          "description": "Integracao com registros do Ministerio da Agricultura, Pecuaria e Abastecimento. Controlo de estabelecimentos, produtos e rotulagem.",
+          "title": "MAPA"
+        },
+        "nfe": {
+          "description": "Emissao de notas fiscais eletronicas integrada via Webmania. Controlo fiscal completo com NCM, CFOP e tributacao especifica para vinhos.",
+          "title": "NF-e / NFC-e"
+        },
+        "sivibe": {
+          "description": "Sistema de Informacoes Vinicolas e Bebidas. Gere declaracoes obrigatorias da Lei 7.678/1988 com alertas automaticos de prazos e controlo completo de compliance.",
+          "title": "SIVIBE"
+        }
+      },
+      "subtitle": "O Bacco ERP foi desenvolvido para atender 100% das exigencias legais brasileiras para producao e comercializacao de vinhos, espumantes e sucos.",
+      "title": "Conformidade Total com Regulamentacoes Brasileiras"
+    },
+    "cta": {
+      "button": "Solicitar Demonstracao Gratuita",
+      "check1": "Conformidade brasileiro completo",
+      "check2": "Suporte em portugues",
+      "check3": "Sem custos de licenciamento internacional",
+      "subtitle": "Junte-se as vinicolas brasileiras que ja estao transformando sua gestao com o Bacco ERP. Demonstracao gratuita sem compromisso.",
+      "title": "Pronto para Modernizar sua Vinicola?"
+    },
+    "footer": {
+      "rights": "Todos os direitos reservados."
+    },
+    "grapes": {
+      "badge": "Variedades de Uva",
+      "items": {
+        "cabernet": {
+          "name": "Cabernet Sauvignon",
+          "type": "Tinta - Classica mundial"
+        },
+        "chardonnay": {
+          "name": "Chardonnay",
+          "type": "Branca - Base de espumantes"
+        },
+        "malvasia": {
+          "name": "Malvasia",
+          "type": "Branca - Espumantes"
+        },
+        "merlot": {
+          "name": "Merlot",
+          "type": "Tinta - Principal variedade"
+        },
+        "moscato": {
+          "name": "Moscato",
+          "type": "Branca - Aromatica"
+        },
+        "pinotNoir": {
+          "name": "Pinot Noir",
+          "type": "Tinta - Elegancia e finesse"
+        },
+        "riesling": {
+          "name": "Riesling Italico",
+          "type": "Branca - Tradicao italiana"
+        },
+        "tannat": {
+          "name": "Tannat",
+          "type": "Tinta - Embaixadora do Brasil"
+        }
+      },
+      "stats": {
+        "tasks": "Tarefas de manejo padrao",
+        "varieties": "Variedades cadastradas"
+      },
+      "subtitle": "Todas as variedades cultivadas no Brasil ja estao no sistema, com informacoes tecnicas completas sobre origem, ciclo e caracteristicas.",
+      "title": "65+ Variedades Pre-Cadastradas",
+      "total": "Todas as variedades viniferas e hibridas brasileiras"
+    },
+    "hero": {
+      "badge": "100% Brasileiro",
+      "ctaDemo": "Solicitar Demonstracao Gratuita",
+      "ctaFeatures": "Ver Funcionalidades",
+      "subtitle": "Conformidade total com SIVIBE, ENVIN, MAPA e NF-e. Desenvolvido por quem entende de vinho para quem vive do vinho.",
+      "title": "O Unico ERP Brasileiro Desenvolvido Exclusivamente para Vinicolas"
+    },
+    "integrations": {
+      "badge": "Integracoes Brasileiras",
+      "items": {
+        "pix": {
+          "badge": "Pagamentos",
+          "description": "Receba pagamentos via PIX direto no PDV Bacco-Comanda com confirmacao instantanea.",
+          "title": "PIX Integrado"
+        },
+        "rapt": {
+          "badge": "IoT",
+          "description": "Monitorização de temperatura e densidade em tempo real com alertas automaticos durante fermentacao.",
+          "title": "RAPT Cloud"
+        },
+        "webmania": {
+          "badge": "Notas Fiscais",
+          "description": "Emissao automatica de NF-e, NFC-e e NFS-e direto do sistema com validacao SEFAZ em tempo real.",
+          "title": "Webmania NF-e"
+        },
+        "whatsapp": {
+          "badge": "Comunicacao",
+          "description": "Envie notificacoes, confirmacoes de reservas e atualizacoes para clientes automaticamente.",
+          "title": "WhatsApp Business"
+        }
+      },
+      "subtitle": "O Bacco se conecta nativamente com os principais sistemas e servicos brasileiros para automatizar sua operacao.",
+      "title": "Integrado com Sistemas Brasileiros"
+    },
+    "regions": {
+      "badge": "Regioes Vinicolas",
+      "items": {
+        "campanhGaucha": {
+          "description": "Terroir de solos pedregosos e clima continental.",
+          "grapes": [
+            "Tannat",
+            "Merlot",
+            "Cabernet Sauvignon",
+            "Alicante Bouschet"
+          ],
+          "name": "Campanha Gaucha"
+        },
+        "camposDeCima": {
+          "description": "Altitude elevada e amplitude termica para vinhos elegantes.",
+          "grapes": [
+            "Merlot",
+            "Cabernet Sauvignon",
+            "Pinot Noir",
+            "Chardonnay"
+          ],
+          "name": "Campos de Cima da Serra"
+        },
+        "planaltoCatarinense": {
+          "description": "Vinhos de altitude com clima frio e maturacao lenta.",
+          "grapes": [
+            "Sauvignon Blanc",
+            "Pinot Noir",
+            "Cabernet Franc"
+          ],
+          "name": "Planalto Catarinense"
+        },
+        "serraDoSudeste": {
+          "description": "Regiao emergente com vinhedos em encostas graniticas.",
+          "grapes": [
+            "Tannat",
+            "Merlot",
+            "Viognier",
+            "Gewurztraminer"
+          ],
+          "name": "Serra do Sudeste"
+        },
+        "serraGaucha": {
+          "description": "Principal polo vinicola do Brasil, com tradicao italiana e clima de altitude.",
+          "grapes": [
+            "Merlot",
+            "Cabernet Sauvignon",
+            "Chardonnay",
+            "Moscato"
+          ],
+          "name": "Serra Gaucha"
+        },
+        "valeSaoFrancisco": {
+          "description": "Unica regiao tropical do mundo com duas safras anuais.",
+          "grapes": [
+            "Syrah",
+            "Moscatel",
+            "Tempranillo",
+            "Chenin Blanc"
+          ],
+          "name": "Vale do Sao Francisco"
+        }
+      },
+      "subtitle": "O Bacco conhece as particularidades de cada terroir brasileiro, oferecendo sugestoes de manejo e vinificacao adaptadas a cada regiao.",
+      "title": "Suporte Completo as Regioes Vinicolas Brasileiras"
+    },
+    "regulatory": {
+      "badge": "Em Breve",
+      "items": {
+        "checklists": {
+          "description": "Listas de verificacao para garantir conformidade total",
+          "title": "Checklists de Auditoria"
+        },
+        "guides": {
+          "description": "Documentacao detalhada sobre SIVIBE, ENVIN e MAPA",
+          "title": "Guias de Conformidade"
+        },
+        "manuals": {
+          "description": "Instrucoes passo a passo para processos regulatorios",
+          "title": "Manuais de Procedimentos"
+        },
+        "templates": {
+          "description": "Modelos prontos para declaracoes e relatorios obrigatorios",
+          "title": "Templates de Relatorios"
+        }
+      },
+      "subtitle": "Material completo de apoio para conformidade com as regulamentacoes brasileiras do setor vinicola.",
+      "title": "Documentacao Regulatoria"
+    }
+  },
+  "chile": {
+    "back": "Voltar ao site",
+    "compliance": {
+      "badge": "Conformidade Chileno",
+      "highlight": {
+        "description": "Nao perca prazos! O Bacco monitora automaticamente todas as obrigacoes regulatorias chilenas e envia alertas antes dos vencimentos.",
+        "title": "Conformidade Automatizado"
+      },
+      "items": {
+        "do": {
+          "description": "Suporte completo as Denominacoes de Origem chilenas: Valle Central, Maipo, Colchagua, Casablanca, Maule e outras.",
+          "title": "Denominacoes de Origem"
+        },
+        "sag": {
+          "description": "Servicio Agricola y Ganadero. Integracao completa com declaracoes obrigatorias e rastreabilidade exigida pelo orgao regulador chileno.",
+          "title": "SAG"
+        },
+        "sii": {
+          "description": "Integracao com o Servicio de Impuestos Internos para emissao de documentos fiscais eletronicos (DTE) e compliance tributario.",
+          "title": "SII - Faturacao"
+        }
+      },
+      "subtitle": "O Bacco ERP foi adaptado para atender 100% das exigencias legais chilenas para producao e comercializacao de vinhos.",
+      "title": "Conformidade Total com Regulamentacoes Chilenas"
+    },
+    "cta": {
+      "button": "Solicitar Demonstracao Gratuita",
+      "check1": "Conformidade chileno completo",
+      "check2": "Suporte em espanhol",
+      "check3": "Precos em Peso Chileno",
+      "subtitle": "Junte-se as vinicolas chilenas que ja estao transformando sua gestao com o Bacco ERP. Demonstracao gratuita sem compromisso.",
+      "title": "Pronto para Modernizar sua Vinicola Chilena?"
+    },
+    "footer": {
+      "rights": "Todos os direitos reservados."
+    },
+    "grapes": {
+      "badge": "Variedades de Uva",
+      "items": {
+        "cabernetSauvignon": {
+          "name": "Cabernet Sauvignon",
+          "type": "Tinta - Principal variedade"
+        },
+        "carmenere": {
+          "name": "Carmenere",
+          "type": "Tinta - Emblema do Chile"
+        },
+        "chardonnay": {
+          "name": "Chardonnay",
+          "type": "Branca - Versatil"
+        },
+        "merlot": {
+          "name": "Merlot",
+          "type": "Tinta - Classica"
+        },
+        "pais": {
+          "name": "Pais",
+          "type": "Tinta - Historica tradicional"
+        },
+        "pinotNoir": {
+          "name": "Pinot Noir",
+          "type": "Tinta - Clima frio"
+        },
+        "sauvignonBlanc": {
+          "name": "Sauvignon Blanc",
+          "type": "Branca - Clima frio"
+        },
+        "syrah": {
+          "name": "Syrah",
+          "type": "Tinta - Em ascensao"
+        }
+      },
+      "stats": {
+        "tasks": "Tarefas de manejo padrao",
+        "varieties": "Variedades cadastradas"
+      },
+      "subtitle": "Todas as variedades cultivadas no Chile ja estao no sistema, com informacoes tecnicas completas sobre origem, ciclo e caracteristicas.",
+      "title": "Variedades Chilenas Pre-Cadastradas",
+      "total": "Todas as variedades viniferas chilenas"
+    },
+    "hero": {
+      "badge": "Para o Chile",
+      "ctaDemo": "Solicitar Demonstracao Gratuita",
+      "ctaFeatures": "Ver Funcionalidades",
+      "subtitle": "Conformidade total com SAG e regulamentacoes chilenas. Desenvolvido para atender as necessidades especificas dos vinicultores do Chile.",
+      "title": "ERP Completo para Vinicolas Chilenas"
+    },
+    "integrations": {
+      "badge": "Integracoes Chilenas",
+      "items": {
+        "exportacion": {
+          "badge": "Exportacao",
+          "description": "Controlo completo de exportacoes com documentacao, rastreabilidade e compliance aduaneiro.",
+          "title": "Gestao de Exportacoes"
+        },
+        "facturacion": {
+          "badge": "Faturacao",
+          "description": "Emissao automatica de documentos tributarios eletronicos (DTE) com validacao SII em tempo real.",
+          "title": "Facturacion Electronica"
+        },
+        "sii": {
+          "badge": "Fiscal",
+          "description": "Integracao completa com o Servicio de Impuestos Internos para compliance tributario automatizado.",
+          "title": "SII Conformidade"
+        },
+        "whatsapp": {
+          "badge": "Comunicacao",
+          "description": "Envie notificacoes, confirmacoes de reservas e atualizacoes para clientes automaticamente.",
+          "title": "WhatsApp Business"
+        }
+      },
+      "subtitle": "O Bacco se conecta nativamente com os principais sistemas e servicos chilenos para automatizar sua operacao.",
+      "title": "Integrado com Sistemas Chilenos"
+    },
+    "regions": {
+      "badge": "Regioes Vinicolas",
+      "items": {
+        "casablanca": {
+          "description": "Clima frio influenciado pelo oceano, ideal para vinhos brancos e espumantes.",
+          "grapes": [
+            "Sauvignon Blanc",
+            "Chardonnay",
+            "Pinot Noir",
+            "Riesling"
+          ],
+          "name": "Valle de Casablanca"
+        },
+        "colchagua": {
+          "description": "Uma das regioes mais premiadas, conhecida pela excelencia em tintos encorpados.",
+          "grapes": [
+            "Carmenere",
+            "Cabernet Sauvignon",
+            "Syrah",
+            "Malbec"
+          ],
+          "name": "Valle de Colchagua"
+        },
+        "maipo": {
+          "description": "Regiao historica proxima a Santiago, famosa por seus Cabernets de classe mundial.",
+          "grapes": [
+            "Cabernet Sauvignon",
+            "Carmenere",
+            "Merlot",
+            "Syrah"
+          ],
+          "name": "Valle del Maipo"
+        },
+        "maule": {
+          "description": "Maior regiao vinicola do Chile, com tradicao secular e uvas Pais historicas.",
+          "grapes": [
+            "Pais",
+            "Carignan",
+            "Cabernet Sauvignon",
+            "Malbec"
+          ],
+          "name": "Valle del Maule"
+        },
+        "valleCentral": {
+          "description": "Coracao da producao vinicola chilena, abrangendo varios sub-vales entre os Andes e o Pacifico.",
+          "grapes": [
+            "Cabernet Sauvignon",
+            "Carmenere",
+            "Merlot",
+            "Sauvignon Blanc"
+          ],
+          "name": "Valle Central"
+        }
+      },
+      "subtitle": "O Bacco conhece as particularidades de cada terroir chileno, oferecendo sugestoes de manejo e vinificacao adaptadas a cada regiao.",
+      "title": "Suporte Completo as Regioes Vinicolas Chilenas"
+    },
+    "regulatory": {
+      "badge": "Em Breve",
+      "items": {
+        "checklists": {
+          "description": "Listas de verificacao para garantir conformidade total",
+          "title": "Checklists de Auditoria"
+        },
+        "guides": {
+          "description": "Documentacao detalhada sobre SAG, DO e SII",
+          "title": "Guias de Conformidade"
+        },
+        "manuals": {
+          "description": "Instrucoes passo a passo para processos regulatorios",
+          "title": "Manuais de Procedimentos"
+        },
+        "templates": {
+          "description": "Modelos prontos para declaracoes e relatorios obrigatorios",
+          "title": "Templates de Relatorios"
+        }
+      },
+      "subtitle": "Material completo de apoio para conformidade com as regulamentacoes chilenas do setor vinicola.",
+      "title": "Documentacao Regulatoria"
+    }
+  },
+  "comanda": {
+    "badge": "Bacco-Comanda",
+    "benefits": {
+      "integrated": "Integrado ao ERP",
+      "intuitive": "Interface intuitiva"
+    },
+    "description": "O <strong>Bacco-Comanda</strong> é um sistema de ponto de venda (PDV) completo e integrado ao Bacco ERP, desenvolvido especificamente para adegas, restaurantes e estabelecimentos de enoturismo. Gerencie mesas, comandas, pagamentos e vendas de forma simples e eficiente.",
+    "features": {
+      "cashManagement": {
+        "description": "Abertura e fechamento de caixa, controlo de sangria, relatórios de vendas e fechamento diário.",
+        "title": "Gestão de Caixa"
+      },
+      "customers": {
+        "description": "Cadastro de clientes, histórico de compras e fidelidade integrado com o módulo comercial.",
+        "title": "Clientes e Histórico"
+      },
+      "digitalOrders": {
+        "description": "Sistema completo de comandas com múltiplos itens, serviços e controlo de status em tempo real.",
+        "title": "Comandas Digitais"
+      },
+      "paymentMethods": {
+        "description": "Dinheiro, cartão, PIX, integração com máquinas de cartão e controlo de troco automático.",
+        "title": "Múltiplas Formas de Pagamento"
+      },
+      "reports": {
+        "description": "Dashboard com vendas do dia, produtos mais vendidos, ticket médio e análise de desempenho.",
+        "title": "Relatórios em Tempo Real"
+      },
+      "tableManagement": {
+        "description": "Controlo completo de mesas, ocupação, união e divisão de mesas para restaurantes e enoturismo.",
+        "title": "Gestão de Mesas"
+      }
+    },
+    "inAction": {
+      "badge": "Bacco-Comanda em Ação",
+      "subtitle": "Sistema completo de PDV com gestão de mesas, comandas e pagamentos integrado",
+      "title": "Interface Moderna e Funcional"
+    },
+    "screenshots": {
+      "cashOpen": {
+        "description": "Controlo completo de abertura e fechamento de caixa com valores iniciais",
+        "title": "Abertura de Caixa"
+      },
+      "tables": {
+        "description": "Visualize e gerencie todas as mesas, comandas abertas e status de ocupação",
+        "title": "Gestão de Mesas"
+      }
+    },
+    "title": "PDV Completo para Enoturismo e Restaurantes"
+  },
+  "common": {
+    "accessDemo": "Aceder à demonstração",
+    "allRightsReserved": "Todos os direitos reservados",
+    "brand": "Bacco",
+    "close": "Fechar",
+    "contact": "Contacto",
+    "download": "Baixar",
+    "seeDemo": "Ver demonstração"
+  },
+  "comparison": {
+    "available": "Disponível",
+    "bacco": "Bacco ERP",
+    "baccoBadge": "Brasileiro",
+    "badge": "Comparação",
+    "competitors": "ERPs Globais",
+    "competitorsList": "Vintrace, AMS Winery, Vinsight, SAP Business One, Outros ERPs Globais",
+    "cta": {
+      "check1": "Desenvolvido no Brasil, disponível globalmente",
+      "check2": "Suporte multilíngue (PT, EN, ES, IT) com conhecimento local",
+      "check3": "Preço acessível sem licenciamento internacional",
+      "check4": "Tecnologia moderna vs sistemas legados",
+      "description": "Desenvolvido no Brasil com padrões internacionais, o Bacco foi criado do zero pensando nas necessidades específicas de adegas. Disponível em 4 idiomas (PT, EN, ES, IT), oferece especialização nativa com alcance global.",
+      "title": "ERP Completo para Adegas ao Redor do Mundo"
+    },
+    "feature": "Funcionalidade",
+    "generic": "Genérico",
+    "high": "Alto",
+    "highlights": {
+      "ai": {
+        "description": "Primeiro ERP brasileiro com Inteligência Artificial integrada em múltiplos módulos. ERPs globais não oferecem IA específica para vinificação.",
+        "title": "IA Pioneira"
+      },
+      "compliance": {
+        "description": "SIVIBE e ENVIN integrados nativamente. ERPs globais exigem customizações caras e complexas para atender regulamentações brasileiras.",
+        "title": "Conformidade Brasileiro"
+      },
+      "enotourism": {
+        "description": "Módulo completo de enoturismo que ERPs globais não possuem. Gestão de agendamentos, degustações e experiências integrada ao ERP.",
+        "title": "Enoturismo Exclusivo"
+      }
+    },
+    "items": {
+      "ai": {
+        "category": "Inteligência Artificial",
+        "description": "IA de Vinificação, Clima e Calendário de Manejos - pioneiro no Brasil",
+        "feature": "IA integrada em múltiplos módulos"
+      },
+      "compliance": {
+        "category": "Conformidade Brasileiro",
+        "description": "Conformidade total com regulamentações brasileiras (Lei 7.678/1988) e declarações obrigatórias",
+        "feature": "SIVIBE e ENVIN integrados"
+      },
+      "cost": {
+        "category": "Custo",
+        "description": "Solução desenvolvida no Brasil, sem custos de licenciamento internacional",
+        "feature": "Preço acessível para adegas brasileiras"
+      },
+      "enotourism": {
+        "category": "Enoturismo",
+        "description": "Gestão completa de agendamentos, degustações, visitações e experiências",
+        "feature": "Módulo exclusivo de enoturismo"
+      },
+      "integration": {
+        "category": "Integração",
+        "description": "Tudo integrado: viticultura, vinificação, estoque, comercial, financeiro, enoturismo e PDV",
+        "feature": "Integração completa do vinhedo ao PDV"
+      },
+      "mobileApps": {
+        "category": "Apps Móveis",
+        "description": "Apps móveis nativos para campo (gestão de vinhedos) e PDV (ponto de venda)",
+        "feature": "Bacco-Campo e Bacco-Comanda nativos"
+      },
+      "specialization": {
+        "category": "Especialização",
+        "description": "Único ERP brasileiro nascido para atender adegas, não é adaptação de sistema genérico",
+        "feature": "Desenvolvido exclusivamente para adegas brasileiras"
+      },
+      "support": {
+        "category": "Suporte",
+        "description": "Equipe brasileira que entende as particularidades do mercado e legislação nacional",
+        "feature": "Suporte em português com conhecimento do mercado brasileiro"
+      },
+      "technology": {
+        "category": "Tecnologia",
+        "description": "Stack tecnológico moderno vs sistemas legados com limitações",
+        "feature": "Arquitetura moderna (React, Node, Kubernetes)"
+      },
+      "traceability": {
+        "category": "Rastreabilidade",
+        "description": "Ambos oferecem, mas Bacco com foco específico em práticas e variedades brasileiras",
+        "feature": "Rastreabilidade completa do vinhedo à garrafa"
+      },
+      "vineyardManagement": {
+        "category": "Gestão de Vinhedos",
+        "description": "Variedades brasileiras, regiões específicas, práticas locais vs soluções genéricas",
+        "feature": "Controlo detalhado adaptado ao Brasil"
+      },
+      "visualEditor": {
+        "category": "Editor Visual",
+        "description": "Primeiro ERP brasileiro com editor visual interativo estilo N8N para criar fluxos personalizados",
+        "feature": "Editor gráfico de fluxos de vinificação"
+      }
+    },
+    "notAvailable": "Não Disponível",
+    "partial": "Parcial",
+    "subtitle": "Comparação direta com as principais soluções internacionais. Veja onde o Bacco realmente se destaca.",
+    "title": "Bacco vs ERPs Globais: Por Que Somos Superiores",
+    "variable": "Variável"
+  },
+  "contact": {
+    "address": "Florianópolis, SC",
+    "description": "Entre em contacto para agendar uma demonstração, tirar dúvidas ou conhecer melhor o Bacco ERP.",
+    "email": "E-mail",
+    "form": {
+      "company": "Nome da adega",
+      "companyPlaceholder": "a sua adega",
+      "email": "E-mail *",
+      "emailPlaceholder": "seu@email.com",
+      "message": "Mensagem",
+      "messagePlaceholder": "Como podemos ajudar?",
+      "name": "Nome completo *",
+      "namePlaceholder": "Seu nome",
+      "phone": "Telefone *",
+      "phonePlaceholder": "(00) 00000-0000",
+      "submit": "Enviar Mensagem"
+    },
+    "location": "Localização",
+    "phone": "Telefone",
+    "subtitle": "Tem dúvidas ou quer saber mais sobre o Bacco? Estamos aqui para ajudar.",
+    "talkToUs": "Fale Conosco",
+    "title": "Entre em Contacto"
+  },
+  "countries": {
+    "badge": "Cobertura Global",
+    "cta": "Independente de onde sua vinicola esteja localizada, o Bacco ERP oferece suporte completo as regulamentacoes locais e internacionais.",
+    "items": {
+      "argentina": {
+        "description": "Suporte as regulamentacoes argentinas para producao vinicola.",
+        "features": {
+          "localRegulations": "Normas provinciais e nacionais",
+          "localRegulationsLabel": "Regulamentacoes Locais",
+          "senasa": "Servicio Nacional de Sanidad y Calidad Agroalimentaria"
+        },
+        "name": "Argentina"
+      },
+      "brazil": {
+        "description": "Conformidade total com todas as regulamentacoes brasileiras para producao e comercializacao de vinhos.",
+        "features": {
+          "envin": "Declaracoes obrigatorias de producao",
+          "mapa": "Ministerio da Agricultura - Registros",
+          "nfe": "Nota Fiscal Eletronica integrada",
+          "sivibe": "Sistema de Informacoes Vinicolas e Bebidas"
+        },
+        "name": "Brasil"
+      },
+      "chile": {
+        "description": "Conformidade com as regulamentacoes chilenas de producao de vinhos.",
+        "features": {
+          "localRegulations": "Denominacoes de origem chilenas",
+          "localRegulationsLabel": "Regulamentacoes Locais",
+          "sag": "Servicio Agricola y Ganadero"
+        },
+        "name": "Chile"
+      },
+      "italy": {
+        "description": "Conformidade com regulamentacoes italianas e da Uniao Europeia.",
+        "features": {
+          "docg": "Denominazione di Origine Controllata e Garantita",
+          "euRegulations": "Conformidade com normas europeias",
+          "euRegulationsLabel": "Regulamentacoes EU"
+        },
+        "name": "Italia"
+      },
+      "uruguay": {
+        "description": "Suporte completo as regulamentacoes uruguaias do setor vinicola.",
+        "features": {
+          "inavi": "Instituto Nacional de Vitivinicultura",
+          "localRegulations": "Normas de producao e exportacao",
+          "localRegulationsLabel": "Regulamentacoes Locais"
+        },
+        "name": "Uruguai"
+      }
+    },
+    "primary": "Pais Principal",
+    "stats": {
+      "compliance": "Conformidade Regulatorio",
+      "countries": "Paises Suportados",
+      "languages": "Idiomas Disponiveis"
+    },
+    "subtitle": "O Bacco ERP foi desenvolvido para atender as regulamentacoes e necessidades especificas de cada pais produtor de vinho, com compliance total e suporte nativo.",
+    "title": "Suporte a 5 Paises Vinicolas"
+  },
+  "cta": {
+    "email": "E-mail",
+    "emailAddress": "lussandro@gmail.com",
+    "phone": "+55 48 99128-6399",
+    "subtitle": "Entre em contacto connosco e descubra como o Bacco pode revolucionar a gestão da sua produção.",
+    "title": "Pronto para transformar a sua adega?",
+    "whatsapp": "WhatsApp"
+  },
+  "differentials": {
+    "badge": "Por que Bacco?",
+    "items": {
+      "ai": {
+        "badge": "IA Avançada",
+        "description": "Sistema inteligente que não apenas registra, mas atua ativamente no processo produtivo com IA em múltiplos módulos.",
+        "highlights": [
+          "IA de Vinificação: sugere correções e otimiza processos baseado em análises",
+          "IA de Clima: análise climática com previsões e recomendações automáticas",
+          "Calendário de Manejos com IA: sugestões baseadas na região do vinhedo",
+          "Motor de regras: resolve operações baseadas em YAN, densidade ou pH"
+        ],
+        "title": "Inteligência Artificial Integrada"
+      },
+      "architecture": {
+        "badge": "Tecnologia de Ponta",
+        "description": "Construído com as tecnologias mais modernas do mercado, pronto para crescer com o seu negócio.",
+        "highlights": [
+          "React + Node + Kubernetes + Redis + PostgreSQL",
+          "Multi-tenant ideal para SaaS",
+          "API pronta para IoT e automação de tanques",
+          "Diferente de sistemas legados limitados e fechados"
+        ],
+        "title": "Arquitetura Moderna e Escalável"
+      },
+      "brazilian": {
+        "badge": "Global Ready",
+        "description": "Desenvolvido no Brasil, mas preparado para o mundo. Disponível em Português, Inglês, Espanhol e Italiano. Suporte completo às práticas locais e padrões internacionais.",
+        "highlights": [
+          "Interface disponível em 4 idiomas: PT, EN, ES, IT",
+          "Suporte a variedades e práticas de diferentes regiões",
+          "Adaptado às regras do MAPA, NCM e SIF (Brasil)",
+          "Preparado para exportação e certificação internacional",
+          "Traduções profissionais, não apenas superficiais"
+        ],
+        "title": "Multilíngue e Global"
+      },
+      "integrated": {
+        "badge": "Tudo em Um",
+        "description": "Do vinhedo ao engarrafamento em uma única plataforma. Elimine planilhas e sistemas externos fragmentados.",
+        "highlights": [
+          "Viticultura: plantio, manejo, colheita e análises do vinhedo",
+          "Enologia: fluxos, análises, tanques e barricas",
+          "Terroir e rastreabilidade por lote, talhão e variedade",
+          "Controlo de estoque e insumos enológicos completo"
+        ],
+        "title": "Gestão Completa Integrada"
+      },
+      "traceability": {
+        "badge": "Controlo Absoluto",
+        "description": "Controlo total de variáveis técnicas com histórico detalhado para auditoria, certificações e exportação.",
+        "highlights": [
+          "Monitorização de Brix, temperatura, densidade e fermentação",
+          "Registro de tratamentos, trasfegas e temperatura por tanque",
+          "Histórico completo integrado com o lote de ponta a ponta",
+          "Pronto para certificações e exportação internacional"
+        ],
+        "title": "Dados Técnicos e Rastreabilidade Total"
+      },
+      "visualFlow": {
+        "badge": "Pioneiro no Brasil",
+        "description": "Primeiro ERP brasileiro com editor visual de fluxos de vinificação. Crie, personalize e simule processos com nós, conexões e lógica condicional entre etapas.",
+        "highlights": [
+          "Modele processos de vinho tinto, branco, rosé, espumante ou alternativos",
+          "Crie fluxos customizados conectando todas as etapas de produção",
+          "Reaproveite fluxos em vários lotes simultâneos",
+          "Visão em tempo real do estado da vinificação em formato gráfico"
+        ],
+        "title": "Fluxo de Vinificação Gráfico e Interativo"
+      }
+    },
+    "pioneers": {
+      "badge": "Pioneirismo",
+      "cards": {
+        "aiModules": {
+          "badge": "IA Avançada",
+          "description": "Primeiro ERP para adegas com <strong>IA em múltiplos módulos</strong>: vinificação, clima e calendário de manejos. Sistema que aprende e otimiza continuamente.",
+          "title": "IA em Múltiplos Módulos"
+        },
+        "editor": {
+          "badge": "Inovação",
+          "description": "Primeira plataforma brasileira com <strong>editor visual interativo</strong> para fluxos de vinificação e <strong>Inteligência Artificial integrada</strong> em múltiplos módulos.",
+          "title": "Editor Visual + IA Integrada"
+        },
+        "unification": {
+          "badge": "Integração Total",
+          "description": "Primeira solução que <strong>unifica viticultura, vinificação, enoturismo e controlo de qualidade</strong> com inteligência artificial em uma única plataforma.",
+          "title": "Unificação Completa"
+        },
+        "unique": {
+          "badge": "#1 no Brasil",
+          "description": "<strong>Desenvolvido exclusivamente para adegas</strong> - não é adaptação de sistema genérico. Nascido para atender as necessidades específicas do mercado brasileiro.",
+          "title": "Único ERP Brasileiro Exclusivo"
+        }
+      },
+      "mission": {
+        "text": "A primeira e única solução <span class=\"text-primary\">100% nacional</span> desenvolvida do zero para adegas, com <span class=\"text-primary\">suporte multilíngue</span> (PT, EN, ES, IT), <span class=\"text-primary\">IA integrada</span> e <span class=\"text-primary\">profundidade técnica</span> incomparável.",
+        "title": "Nossa Missão"
+      },
+      "subtitle": "Marcamos a história sendo os primeiros em múltiplas frentes",
+      "title": "Por que somos pioneiros?"
+    },
+    "subtitle": "O Bacco foi concebido para revolucionar a gestão de adegas, oferecendo ferramentas específicas, modernas e totalmente alinhadas com as necessidades práticas de quem produz vinho no Brasil.",
+    "title": "Vantagens do Bacco ERP em Relação aos Sistemas Existentes"
+  },
+  "faq": {
+    "badge": "FAQ",
+    "items": {
+      "aiDifferential": {
+        "answer": "O Bacco e pioneiro em IA para vinicolas no Brasil. A inteligencia artificial atua em multiplos modulos: sugere correcoes na vinificacao baseado em analises, recomenda manejos baseado no clima e regiao do vinhedo, e otimiza processos continuamente. E uma IA que realmente entende de vinho.",
+        "question": "Qual o diferencial da Inteligencia Artificial?"
+      },
+      "countries": {
+        "answer": "O Bacco esta disponivel globalmente. Desenvolvido no Brasil, o sistema foi preparado para atender vinicolas em qualquer lugar do mundo, com suporte a praticas locais, regulamentacoes especificas e traducoes profissionais em 4 idiomas.",
+        "question": "Para quais paises o Bacco esta disponivel?"
+      },
+      "dataImport": {
+        "answer": "Sim! Nossa equipe auxilia na migracao de dados de planilhas ou outros sistemas. O processo e acompanhado para garantir que todo o historico da sua vinicola seja preservado e organizado no Bacco.",
+        "question": "Posso importar dados de outros sistemas?"
+      },
+      "howToStart": {
+        "answer": "E simples! Solicite uma demonstraçãonstracao gratuita pelo nosso site ou WhatsApp. Nossa equipe apresentara o sistema, entendera suas necessidades e configurara tudo para voce comecar a usar rapidamente. O onboarding inclui treinamento e suporte na migracao de dados.",
+        "question": "Como comecar a usar o Bacco?"
+      },
+      "installation": {
+        "answer": "Nao! O Bacco e um sistema 100% na nuvem (SaaS). Voce acessa pelo navegador de qualquer dispositivo, sem necessidade de instalar nada. Seus dados ficam seguros em servidores com backup automatico e alta disponibilidade.",
+        "question": "Precisa de instalacao? Como funciona?"
+      },
+      "languages": {
+        "answer": "O Bacco esta disponivel em 4 idiomas: Portugues (Brasil), Ingles, Espanhol e Italiano. Todas as traducoes foram feitas profissionalmente, preservando a terminologia tecnica enologica e o contexto especializado do setor vinicola.",
+        "question": "Quais idiomas sao suportados?"
+      },
+      "offline": {
+        "answer": "O sistema web requer conexao com internet. Porem, a aplicação Bacco-Campo para Android funciona 100% offline no vinhedo, sincronizando automaticamente quando a conexao estiver disponivel. Ideal para trabalho no campo onde a internet e instavel.",
+        "question": "O sistema funciona offline?"
+      },
+      "pricing": {
+        "answer": "O Bacco oferece planos acessiveis para vinicolas de todos os portes, desde pequenas producoes artesanais ate grandes vinicolas. Entre em contacto para receber uma proposta personalizada de acordo com suas necessidades.",
+        "question": "Quanto custa o Bacco ERP?"
+      },
+      "support": {
+        "answer": "Oferecemos suporte dedicado em portugues com conhecimento profundo do mercado vinicola brasileiro. Nossa equipe entende tanto de tecnologia quanto de enologia, garantindo atendimento especializado para suas necessidades.",
+        "question": "Como funciona o suporte tecnico?"
+      },
+      "whatIsBacco": {
+        "answer": "O Bacco e um sistema ERP completo desenvolvido exclusivamente para vinicolas. Ele gerencia todo o processo produtivo, desde o vinhedo ate a garrafa, incluindo gestao de vinhedos, vinificacao, controlo de qualidade, estoque, vendas, financeiro e enoturismo. E o unico ERP brasileiro 100% especializado em vinicolas.",
+        "question": "O que e o Bacco ERP?"
+      }
+    },
+    "subtitle": "Tire suas duvidas sobre o Bacco ERP e descubra como ele pode transformar a gestao da sua vinicola.",
+    "title": "Perguntas Frequentes"
+  },
+  "features": {
+    "items": {
+      "aiCalendar": {
+        "description": "Inteligência Artificial sugere manejos baseados na região do vinhedo, clima e época do ano, otimizando sua produção.",
+        "title": "IA: Calendário de Manejos Sugerido"
+      },
+      "climateAI": {
+        "description": "Análise climática inteligente com previsões e recomendações automáticas para proteção e otimização dos vinhedos.",
+        "title": "Clima & IA"
+      },
+      "commercial": {
+        "description": "Vendas (orçamentos, pedidos, tabelas de preço), compras, clientes e fornecedores integrados.",
+        "title": "Gestão Comercial"
+      },
+      "dashboard": {
+        "description": "Visualize indicadores em tempo real: produção, alertas, análises pendentes, vendas e muito mais.",
+        "title": "Dashboard Inteligente"
+      },
+      "enotourism": {
+        "description": "Módulo exclusivo para gestão de enoturismo: agendamentos, degustações, visitações, experiências e reservas.",
+        "title": "Enoturismo"
+      },
+      "envin": {
+        "description": "Módulo de compliance para declarações ENVIN, garantindo conformidade regulatória completa.",
+        "title": "ENVIN"
+      },
+      "financial": {
+        "description": "Contas a pagar/receber, fluxo de caixa, controlo financeiro completo integrado com vendas e compras.",
+        "title": "Financeiro Completo"
+      },
+      "fiscalNotes": {
+        "description": "Emissão de notas fiscais com integração Webmania, controlo fiscal e compliance regulatório.",
+        "title": "Notas Fiscais"
+      },
+      "grapeReception": {
+        "description": "Registre a recepção de uvas próprias e de terceiros com análises completas: BRIX, pH, acidez, temperatura e classificação.",
+        "title": "Recepção de Uvas"
+      },
+      "labAnalysis": {
+        "description": "Controlo e gestão completa de análises laboratoriais com histórico, rastreabilidade e laudos.",
+        "title": "Análises Laboratoriais"
+      },
+      "multitenant": {
+        "description": "Arquitetura multi-tenant com isolamento completo de dados, ideal para SaaS e múltiplas adegas.",
+        "title": "Multi-tenant"
+      },
+      "productionLots": {
+        "description": "Gerencie lotes de produção com rastreabilidade total desde a entrada da uva até o produto final.",
+        "title": "Lotes de Vinificação"
+      },
+      "reports": {
+        "description": "Relatórios completos de produção, vendas, financeiro e análises com exportação de dados.",
+        "title": "Relatórios e Analytics"
+      },
+      "sivibe": {
+        "description": "Sistema de Informações Adegas e Bebidas - Declarações regulatorias (Lei 7.678/1988) com alertas de prazos.",
+        "title": "SIVIBE"
+      },
+      "stockControl": {
+        "description": "Gestão completa de estoque com inventário, movimentações, insumos e controlo de rotulagem.",
+        "title": "Controlo de Estoque"
+      },
+      "stockLabeling": {
+        "description": "Controlo de estoque completo, movimentações, rotulagem e etiquetas QR para rastreabilidade.",
+        "title": "Estoque e Rotulagem"
+      },
+      "temperatureIoT": {
+        "description": "Monitore temperatura e densidade do mosto em tempo real com integração RAPT Cloud e alertas automáticos.",
+        "title": "Controlo de Temperatura IoT"
+      },
+      "traceability": {
+        "description": "Rastreabilidade completa por lote, talhão, variedade e terroir desde o vinhedo até a garrafa.",
+        "title": "Rastreabilidade Total"
+      },
+      "vineyardHandling": {
+        "description": "Planeje e acompanhe todas as tarefas de manejo (42 tarefas padrão): poda, adubação, tratamentos e colheita.",
+        "title": "Manejo dos Vinhedos"
+      },
+      "vineyardManagement": {
+        "description": "Controlo completo de vinhedos e parcelas com informações detalhadas de variedades (65 pré-cadastradas), área plantada e histórico.",
+        "title": "Gestão de Vinhedos"
+      },
+      "vinificationAI": {
+        "description": "Inteligência Artificial que sugere correções, adições de insumos e otimiza processos de vinificação baseado em análises.",
+        "title": "IA de Vinificação"
+      },
+      "visualFlowEditor": {
+        "description": "Crie fluxos de vinificação personalizados com editor gráfico interativo (estilo N8N) para qualquer tipo de vinho.",
+        "title": "Editor Visual de Fluxos"
+      }
+    },
+    "subtitle": "Tudo que você precisa para gerenciar sua produção de vinhos, espumantes e sucos em um único sistema.",
+    "title": "Funcionalidades Completas para a sua Adega"
+  },
+  "footer": {
+    "company": {
+      "about": "Sobre",
+      "contact": "Contacto",
+      "privacy": "Política de Privacidade",
+      "terms": "Termos de Utilização",
+      "title": "Empresa"
+    },
+    "copyright": "© 2025 Bacco ERP. Todos os direitos reservados.",
+    "countries": {
+      "argentina": "Argentina",
+      "brazil": "Brasil",
+      "chile": "Chile",
+      "italy": "Itália",
+      "title": "Países",
+      "uruguay": "Uruguai"
+    },
+    "description": "Sistema completo de gestão para adegas. Do vinhedo à garrafa.",
+    "product": {
+      "benefits": "Benefícios",
+      "features": "Funcionalidades",
+      "process": "Processo",
+      "title": "Produto"
+    },
+    "support": {
+      "email": "lussandro@gmail.com",
+      "location": "Florianópolis, SC",
+      "phone": "+55 48 99128-6399",
+      "title": "Suporte"
+    }
+  },
+  "header": {
+    "about": "Sobre",
+    "comanda": "Bacco-Comanda",
+    "comparison": "Comparação",
+    "differentials": "Diferenciais",
+    "features": "Funcionalidades",
+    "mobile": "Bacco-Campo",
+    "system": "Sistema"
+  },
+  "hero": {
+    "badge": "Sistema Completo para Adegas",
+    "badgeMultilingual": "🌍 Disponível em 4 Idiomas",
+    "ctaDemo": "Solicitar Demonstração Gratuita",
+    "ctaSystem": "Ver Sistema em Ação",
+    "description": "<strong>ERP completo para adegas com suporte multilíngue nativo.</strong> Gerencie cada etapa da produção de vinhos, espumantes e sucos com o Bacco ERP. <strong>Disponível em Português, Inglês, Espanhol e Italiano</strong> - traduções profissionais, não apenas superficiais. Rastreabilidade completa, monitoramento em tempo real, inteligência artificial integrada e gestão unificada. Inclui <strong>Bacco-Campo</strong> para gestão no vinhedo e <strong>Bacco-Comanda</strong> para PDV e enoturismo.",
+    "floatingCard": {
+      "description": "Vinhedo, produção e qualidade",
+      "title": "Controlo Total"
+    },
+    "imageAlt": "Vinhedo moderno ao pôr do sol",
+    "stats": {
+      "languages": "4",
+      "languagesLabel": "Idiomas",
+      "realtime": "Tempo real",
+      "realtimeLabel": "Monitorização",
+      "support": "24/7",
+      "supportLabel": "Suporte",
+      "traceable": "100%",
+      "traceableLabel": "Rastreável"
+    },
+    "subtitle": "O único ERP brasileiro exclusivo para adegas, agora disponível globalmente",
+    "title": "Da Vinha à Garrafa: Controlo Total da Sua Produção",
+    "trustBadges": {
+      "ai": "IA Integrada",
+      "brazilian": "100% Brasileiro",
+      "compliance": "Conformidade Total",
+      "global": "Pronto para o mundo"
+    }
+  },
+  "internationalization": {
+    "badge": "Internacionalização",
+    "benefits": [
+      "Interface completa traduzida, não apenas textos básicos",
+      "Terminologia técnica enológica preservada em cada idioma",
+      "Suporte a práticas e regulamentações locais",
+      "Documentação e materiais de treinamento multilíngues",
+      "Atualizações simultâneas em todos os idiomas"
+    ],
+    "cta": "Escolha o seu idioma preferido e comece a usar o Bacco ERP hoje mesmo. A mudança de idioma é instantânea e não requer configuração adicional.",
+    "global": {
+      "description": "O Bacco ERP está pronto para atender adegas em qualquer região do mundo, mantendo a especialização nativa.",
+      "languages": "Idiomas Suportados",
+      "regions": "Regiões Atendidas",
+      "title": "Alcance Global",
+      "translated": "da Interface Traduzida"
+    },
+    "native": "Nativo",
+    "professional": {
+      "description": "Não são apenas traduções automáticas. Cada idioma foi cuidadosamente adaptado por especialistas, mantendo a precisão técnica e o contexto enológico.",
+      "title": "Traduções Profissionais"
+    },
+    "subtitle": "Desenvolvido no Brasil, mas preparado para adegas em qualquer lugar do planeta. Traduções profissionais que preservam o significado técnico e a especialização do sistema.",
+    "title": "Disponível em 4 Idiomas: Pronto para o mundo"
+  },
+  "italy": {
+    "back": "Voltar ao site",
+    "compliance": {
+      "badge": "Conformidade Italiano/EU",
+      "highlight": {
+        "description": "Nao perca prazos! O Bacco monitora automaticamente todas as obrigacoes regulatorias italianas e europeias, enviando alertas antes dos vencimentos.",
+        "title": "Conformidade EU Automatizado"
+      },
+      "items": {
+        "doc": {
+          "description": "Denominazione di Origine Controllata. Gestao completa de certificacoes DOC com rastreabilidade total e controlo de origem controlada.",
+          "title": "DOC"
+        },
+        "docg": {
+          "description": "Denominazione di Origine Controllata e Garantita. O nivel mais alto de certificacao italiana, com controlo rigoroso de qualidade e procedencia.",
+          "title": "DOCG"
+        },
+        "igt": {
+          "description": "Indicazione Geografica Tipica. Gestao de vinhos com indicacao geografica tipica, flexibilidade com identidade regional.",
+          "title": "IGT"
+        },
+        "registroVigneti": {
+          "description": "Integracao com o Registro Nacional de Vinhedos italiano. Controlo completo de parcelas, variedades e areas plantadas.",
+          "title": "Registro Vigneti"
+        },
+        "sian": {
+          "description": "Sistema Informativo Agricolo Nazionale. Conformidade com o sistema de informacoes agricolas italiano para declaracoes e relatorios.",
+          "title": "SIAN"
+        }
+      },
+      "subtitle": "O Bacco ERP foi desenvolvido para atender 100% das exigencias legais italianas e europeias para producao e comercializacao de vinhos.",
+      "title": "Conformidade Total com Regulamentacoes Italianas e Europeias"
+    },
+    "cta": {
+      "button": "Solicitar Demonstracao Gratuita",
+      "check1": "Conformidade italiano completo",
+      "check2": "Suporte em italiano",
+      "check3": "Conformidade com regulamentacoes EU",
+      "subtitle": "Junte-se as vinicolas italianas que ja estao transformando sua gestao com o Bacco ERP. Demonstracao gratuita sem compromisso.",
+      "title": "Pronto para Modernizar sua Cantina Italiana?"
+    },
+    "currency": {
+      "badge": "Euro e Integracoes EU",
+      "items": {
+        "euCompliance": {
+          "badge": "Conformidade",
+          "description": "Conformidade com todas as regulamentacoes europeias para producao, rotulagem e comercializacao de vinhos.",
+          "title": "Regulamentacoes EU"
+        },
+        "export": {
+          "badge": "Exportacao",
+          "description": "Geracao automatica de documentos para exportacao dentro e fora da Uniao Europeia.",
+          "title": "Documentacao de Exportacao"
+        },
+        "multiCurrency": {
+          "badge": "Moeda",
+          "description": "Sistema totalmente preparado para operacoes em Euro com conversao automatica para outras moedas.",
+          "title": "Suporte a Euro"
+        },
+        "traceability": {
+          "badge": "Rastreabilidade",
+          "description": "Sistema de rastreabilidade completo conforme exigencias europeias, do vinhedo a garrafa.",
+          "title": "Rastreabilidade EU"
+        }
+      },
+      "subtitle": "Suporte nativo ao Euro e conformidade total com regulamentacoes da Uniao Europeia para comercio e exportacao de vinhos.",
+      "title": "Preparado para o Mercado Europeu"
+    },
+    "footer": {
+      "rights": "Todos os direitos reservados."
+    },
+    "grapes": {
+      "badge": "Variedades de Uva",
+      "items": {
+        "barbera": {
+          "name": "Barbera",
+          "type": "Tinta - Versatil e Frutada"
+        },
+        "nebbiolo": {
+          "name": "Nebbiolo",
+          "type": "Tinta - Rei do Piemonte"
+        },
+        "pinotGrigio": {
+          "name": "Pinot Grigio",
+          "type": "Branca - Popular Mundial"
+        },
+        "primitivo": {
+          "name": "Primitivo",
+          "type": "Tinta - Potencia do Sul"
+        },
+        "prosecco": {
+          "name": "Glera (Prosecco)",
+          "type": "Branca - Espumante Iconico"
+        },
+        "sangiovese": {
+          "name": "Sangiovese",
+          "type": "Tinta - Coracao da Toscana"
+        }
+      },
+      "stats": {
+        "regions": "Regioes vinicolas",
+        "varieties": "Variedades autoctoneas"
+      },
+      "subtitle": "Italia possui mais de 500 variedades autoctoneas. O Bacco suporta todas as principais variedades italianas com informacoes tecnicas completas.",
+      "title": "Variedades Autoctoneas Italianas",
+      "total": "Suporte a todas as variedades autoctoneas e internacionais cultivadas na Italia"
+    },
+    "hero": {
+      "badge": "Para Cantine Italiane",
+      "ctaDemo": "Solicitar Demonstracao Gratuita",
+      "ctaFeatures": "Ver Funcionalidades",
+      "subtitle": "Conformidade total com DOC, DOCG, IGT, Registro Vigneti e SIAN. Desenvolvido para atender as exigencias das regulamentacoes italianas e europeias.",
+      "title": "ERP Completo para Vinicolas Italianas com Conformidade EU"
+    },
+    "regions": {
+      "badge": "Regioes Vinicolas",
+      "items": {
+        "piemonte": {
+          "description": "Terra do Barolo e Barbaresco, vinhos de grande estrutura e longevidade.",
+          "grapes": [
+            "Nebbiolo",
+            "Barbera",
+            "Dolcetto",
+            "Moscato"
+          ],
+          "name": "Piemonte"
+        },
+        "puglia": {
+          "description": "Calcanha da bota italiana, conhecida pelo Primitivo e vinhos encorpados.",
+          "grapes": [
+            "Primitivo",
+            "Negroamaro",
+            "Bombino",
+            "Uva di Troia"
+          ],
+          "name": "Puglia"
+        },
+        "sicilia": {
+          "description": "Ilha com clima mediterraneo unico, producao de vinhos intensos e aromaticos.",
+          "grapes": [
+            "Nero d'Avola",
+            "Grillo",
+            "Catarratto",
+            "Nerello Mascalese"
+          ],
+          "name": "Sicilia"
+        },
+        "toscana": {
+          "description": "Berco do Chianti e Brunello di Montalcino, com tradicao secular em vinhos de alta qualidade.",
+          "grapes": [
+            "Sangiovese",
+            "Vernaccia",
+            "Trebbiano",
+            "Canaiolo"
+          ],
+          "name": "Toscana"
+        },
+        "trentinoAltoAdige": {
+          "description": "Regiao alpina com vinhos frescos e elegantes, influencia austro-germanica.",
+          "grapes": [
+            "Pinot Grigio",
+            "Gewurztraminer",
+            "Lagrein",
+            "Teroldego"
+          ],
+          "name": "Trentino-Alto Adige"
+        },
+        "veneto": {
+          "description": "Regiao do Prosecco, Amarone e Soave, diversidade de estilos e tradicoes.",
+          "grapes": [
+            "Glera",
+            "Corvina",
+            "Garganega",
+            "Pinot Grigio"
+          ],
+          "name": "Veneto"
+        }
+      },
+      "subtitle": "O Bacco conhece as particularidades de cada terroir italiano, oferecendo sugestoes de manejo e vinificacao adaptadas a cada regiao.",
+      "title": "Suporte Completo as Regioes Vinicolas Italianas"
+    },
+    "regulatory": {
+      "badge": "Em Breve",
+      "items": {
+        "checklists": {
+          "description": "Listas de verificacao para garantir conformidade total",
+          "title": "Checklists de Auditoria"
+        },
+        "guides": {
+          "description": "Documentacao detalhada sobre DOC, DOCG, IGT e SIAN",
+          "title": "Guias de Conformidade"
+        },
+        "manuals": {
+          "description": "Instrucoes passo a passo para processos regulatorios",
+          "title": "Manuais de Procedimentos"
+        },
+        "templates": {
+          "description": "Modelos prontos para declaracoes e relatorios obrigatorios",
+          "title": "Templates de Relatorios"
+        }
+      },
+      "subtitle": "Material completo de apoio para conformidade com as regulamentacoes italianas e europeias do setor vinicola.",
+      "title": "Documentacao Regulatoria"
+    }
+  },
+  "mission": {
+    "text": "Empoderar adegas brasileiras com tecnologia de excelência, oferecendo um sistema completo e inteligente que acompanha cada etapa da produção vitiadega — do vinhedo à garrafa — com rastreabilidade total, análises precisas e gestão integrada, permitindo que produtores de todos os portes tomem decisões baseadas em dados e elevem a qualidade de seus vinhos ao padrão internacional.",
+    "title": "Nossa Missão",
+    "values": {
+      "accessibility": {
+        "description": "Acreditamos que tecnologia de qualidade deve estar ao alcance de adegas de todos os portes, do artesanal ao industrial.",
+        "title": "Acessibilidade"
+      },
+      "evolution": {
+        "description": "Como um bom vinho, estamos sempre amadurecendo — melhorando, aprendendo e evoluindo junto com nossos clientes.",
+        "title": "Evolução Contínua"
+      },
+      "excellence": {
+        "description": "Comprometidos com código limpo, arquitetura moderna e as melhores práticas de desenvolvimento para entregar qualidade superior.",
+        "title": "Excelência Técnica"
+      },
+      "innovation": {
+        "description": "Buscamos constantemente novas soluções, mas sempre respeitando a tradição e as particularidades do setor vitiadega.",
+        "title": "Inovação Consciente"
+      },
+      "passion": {
+        "description": "Desenvolvemos com amor e respeito pela arte da vinificação, entendendo que cada lote conta uma história única.",
+        "title": "Paixão pelo Vinho"
+      },
+      "proximity": {
+        "description": "Desenvolvido por quem entende de vinho para quem vive do vinho, mantendo sempre o diálogo aberto com nossos clientes.",
+        "title": "Proximidade"
+      },
+      "sustainability": {
+        "description": "Valorizamos práticas sustentáveis e ajudamos adegas a otimizar recursos, reduzir desperdícios e cuidar do terroir.",
+        "title": "Sustentabilidade"
+      },
+      "transparency": {
+        "description": "Rastreabilidade total não é só para o vinho — é também para nossa relação com clientes, baseada em honestidade e clareza.",
+        "title": "Transparência"
+      }
+    },
+    "valuesSubtitle": "Princípios que guiam cada linha de código e cada decisão que tomamos",
+    "valuesTitle": "Nossos Valores",
+    "visionText": "Ser reconhecido como o ERP de referência para o setor vitiadega global, com foco especial no Brasil e América Latina, transformando a forma como adegas gerenciam sua produção através da união entre tradição e inovação. Com suporte multilíngue, contribuímos para o crescimento e profissionalização da indústria do vinho em diferentes mercados, posicionando o Brasil como protagonista na tecnologia enológica mundial.",
+    "visionTitle": "Nossa Visão"
+  },
+  "mobile": {
+    "badge": "Bacco-Campo",
+    "benefits": {
+      "autoSync": "Sincronização automática",
+      "offline": "Funciona offline"
+    },
+    "description": "Leve o poder do Bacco ERP para o campo com o <strong>Bacco-Campo</strong>. Com a aplicação Android, sua equipe pode executar todas as operações diretamente no vinhedo, com ou sem conexão à internet. Sincronização automática quando a conexão estiver disponível.",
+    "downloadAndroid": "Baixar para Android",
+    "downloadDialog": {
+      "afterInstall": {
+        "items": [
+          "Use suas credenciais do sistema Bacco ERP para fazer login",
+          "Configure o servidor se necessário",
+          "Sincronize seus dados e comece a trabalhar no campo"
+        ],
+        "title": "Após a instalação"
+      },
+      "description": "Siga as instruções abaixo para instalar a aplicação Bacco-Campo no o seu dispositivo Android",
+      "instructions": {
+        "android7": {
+          "text": "Você deve habilitar a configuração do sistema \"Fontes desconhecidas\", encontrada em Configurações > Segurança no o seu dispositivo.",
+          "title": "Para Android 7.1.1 (API nível 25) ou inferior:"
+        },
+        "android8": {
+          "text": "Você deve navegar até a tela de configurações do sistema \"Instalar aplicações desconhecidos\" para habilitar instalações de aplicações de um local específico (ou seja, o navegador da web do qual você está baixando a aplicação).",
+          "title": "Para Android 8.0 (API nível 26) ou superior:"
+        },
+        "title": "Instruções de Instalação"
+      },
+      "mobileDetected": {
+        "description": "Clique no botão abaixo para baixar a aplicação diretamente",
+        "downloadAPK": "Baixar APK",
+        "title": "Dispositivo Móvel Detectado"
+      },
+      "notifications": {
+        "grapesReceived": "2.450 kg",
+        "grapesReceivedSub": "Uvas recebidas",
+        "taskCompleted": "Tarefa Concluída",
+        "taskCompletedSub": "Poda - Parcela A3"
+      },
+      "openDownloadLink": "Abrir Link de Download",
+      "qrCode": {
+        "description": "Escaneie este código com a câmera do o seu telemóvel para baixar a aplicação",
+        "title": "Escaneie o QR Code"
+      },
+      "title": "Baixar Bacco-Campo"
+    },
+    "features": {
+      "fieldQualification": {
+        "description": "Avalie sanidade, maturação e qualidade das uvas diretamente no vinhedo antes da colheita.",
+        "title": "Qualificação em Campo"
+      },
+      "geolocation": {
+        "description": "Todas as atividades são registradas com localização GPS para rastreabilidade completa.",
+        "title": "Geolocalização"
+      },
+      "grapeReception": {
+        "description": "Registre a entrada de uvas no campo com pesagem, análises de qualidade e classificação imediata.",
+        "title": "Recepção de Uvas"
+      },
+      "lotManagement": {
+        "description": "Acompanhe e gerencie todos os lotes de produção diretamente do vinhedo com informações em tempo real.",
+        "title": "Gestão de Lotes no Campo"
+      },
+      "offlineMode": {
+        "description": "Trabalhe sem conexão e sincronize automaticamente quando a internet estiver disponível.",
+        "title": "Modo Offline"
+      },
+      "taskExecution": {
+        "description": "Execute e registre tarefas de manejo: poda, adubação, tratamentos fitossanitários e colheita.",
+        "title": "Execução de Tarefas"
+      }
+    },
+    "inAction": {
+      "badge": "Bacco-Campo em Ação",
+      "subtitle": "Interface intuitiva e moderna para gerenciar todas as operações do vinhedo na palma da sua mão",
+      "title": "Veja o App em Ação"
+    },
+    "screenshots": {
+      "dashboard": {
+        "description": "Visão geral das atividades",
+        "title": "Dashboard"
+      },
+      "executions": {
+        "description": "Acompanhamento de vinificação",
+        "title": "Execuções"
+      },
+      "grapeReception": {
+        "description": "Registro de entrada de uvas",
+        "title": "Recepção de Uvas"
+      },
+      "receptionDetails": {
+        "description": "Informações completas da colheita",
+        "title": "Detalhes da Recepção"
+      },
+      "tasks": {
+        "description": "Gestão de atividades do vinhedo",
+        "title": "Tarefas"
+      }
+    },
+    "title": "Gestão Completa Direto do Vinhedo"
+  },
+  "privacy": {
+    "title": "Política de Privacidade",
+    "updated": "Última atualização: 30 de outubro de 2025",
+    "back": "Voltar ao site",
+    "sections": [
+      {
+        "heading": "1. Introdução",
+        "paragraphs": [
+          "A presente Política de Privacidade descreve como o Bacco ERP recolhe, utiliza, armazena e protege dados pessoais.",
+          "Ao utilizar o sistema, o Utilizador declara ter lido e compreendido esta política. Caso não concorde com os seus termos, deverá abster-se de utilizar o serviço."
+        ]
+      },
+      {
+        "heading": "2. Dados Recolhidos",
+        "paragraphs": [
+          "Podem ser recolhidas, entre outras, as seguintes categorias de dados:"
+        ],
+        "list": [
+          "Dados de identificação (nome, e-mail, telefone)",
+          "Dados da empresa/adega (nome e morada)",
+          "Dados de utilização do sistema (registos de acesso e métricas técnicas)",
+          "Dados necessários às funcionalidades de gestão, conformidade e rastreabilidade"
+        ]
+      },
+      {
+        "heading": "3. Finalidades do Tratamento",
+        "paragraphs": [
+          "Os dados são tratados para prestação, melhoria e segurança do serviço, bem como para cumprimento de obrigações legais e regulatórias (incluindo SIVIBE/ENVIN).",
+          "O Bacco ERP não vende dados pessoais."
+        ]
+      },
+      {
+        "heading": "4. Partilha de Dados",
+        "paragraphs": [
+          "Os dados podem ser partilhados com prestadores de serviços essenciais (infraestrutura, e-mail e faturação), exclusivamente para execução contratual e sob obrigações de confidencialidade.",
+          "Não é efetuada partilha de dados com terceiros para finalidades de marketing próprio de terceiros."
+        ]
+      },
+      {
+        "heading": "5. Segurança",
+        "paragraphs": [
+          "São adotadas medidas técnicas e organizativas adequadas para proteção dos dados, incluindo controlo de acesso, encriptação em trânsito e monitorização de segurança.",
+          "Embora sejam aplicadas boas práticas de segurança, nenhum sistema é absolutamente inviolável; recomenda-se a utilização de palavras-passe robustas e autenticação de duplo fator quando disponível."
+        ]
+      },
+      {
+        "heading": "6. Conservação",
+        "paragraphs": [
+          "Os dados são conservados apenas pelo período necessário ao cumprimento das finalidades desta política e das obrigações legais aplicáveis.",
+          "Decorrido o prazo de conservação, os dados são eliminados ou anonimizados de forma segura, salvo quando a retenção adicional for legalmente exigida."
+        ]
+      },
+      {
+        "heading": "7. Direitos dos Titulares",
+        "paragraphs": [
+          "O titular pode exercer os direitos previstos na LGPD, incluindo acesso, correção, eliminação, anonimização e portabilidade, nos termos legalmente aplicáveis."
+        ],
+        "list": [
+          "Solicitar confirmação de tratamento e acesso aos dados",
+          "Solicitar correção ou atualização de dados",
+          "Solicitar eliminação, bloqueio ou anonimização de dados",
+          "Revogar consentimento, quando aplicável",
+          "Solicitar portabilidade, quando tecnicamente e legalmente aplicável"
+        ]
+      },
+      {
+        "heading": "8. Cookies",
+        "paragraphs": [
+          "O Bacco ERP utiliza cookies para autenticação, segurança e melhoria da experiência de utilização. As preferências de cookies podem ser geridas no navegador do Utilizador."
+        ]
+      },
+      {
+        "heading": "9. Contacto",
+        "paragraphs": [
+          "Para questões, pedidos ou reclamações relacionados com privacidade e proteção de dados, contacte:",
+          "E-mail: lussandro@gmail.com | Telefone: +55 48 99128-6399"
+        ]
+      }
+    ]
+  },
+  "process": {
+    "steps": {
+      "bottling": {
+        "description": "Gestão completa de lotes, análises laboratoriais e rastreabilidade até o produto final. Controlo de qualidade em cada etapa.",
+        "number": "04",
+        "title": "Engarrafamento e Distribuição"
+      },
+      "harvest": {
+        "description": "Registre a entrada de uvas próprias e de terceiros com análises completas: BRIX, pH, acidez total e temperatura. Rastreabilidade desde a origem.",
+        "number": "02",
+        "title": "Colheita e Recepção"
+      },
+      "vineyard": {
+        "description": "Controlo completo de vinhedos e parcelas, com registro de variedades, área plantada, espaçamento e histórico de manejo. Planeje e acompanhe todas as atividades do campo.",
+        "number": "01",
+        "title": "Gestão do Vinhedo"
+      },
+      "vinification": {
+        "description": "Acompanhe cada etapa do processo: desengace, prensagem, fermentação, trasfega. Controlo temperatura e densidade em tempo real com alertas automáticos.",
+        "number": "03",
+        "title": "Vinificação"
+      }
+    },
+    "subtitle": "Acompanhe todo o processo de produção com controlo total e rastreabilidade completa em cada etapa.",
+    "title": "Do Vinhedo à Garrafa"
+  },
+  "screenshots": {
+    "items": {
+      "calendarAI": {
+        "description": "Inteligência Artificial sugere manejos baseados na região do vinhedo, com alertas e recomendações automáticas",
+        "title": "Calendário de Manejos com IA"
+      },
+      "compliance": {
+        "description": "Gestão de declarações obrigatórias SIVIBE com alertas de prazos e controlo de compliance regulatório",
+        "title": "Conformidade - SIVIBE"
+      },
+      "dashboard": {
+        "description": "Visão completa da sua operação com métricas em tempo real, gráficos de atividades e status de produção",
+        "title": "Dashboard"
+      },
+      "enotourism": {
+        "description": "Módulo exclusivo para gestão de agendamentos, degustações e visitações com controlo completo de experiências",
+        "title": "Enoturismo - Reservas"
+      },
+      "financial": {
+        "description": "Controlo completo de contas a pagar e receber, fluxo de caixa e gestão financeira integrada",
+        "title": "Financeiro"
+      },
+      "flows": {
+        "description": "Editor visual de fluxos de vinificação com criação de processos personalizados para qualquer tipo de vinho",
+        "title": "Fluxos de Vinificação"
+      },
+      "handling": {
+        "description": "Planeje e acompanhe tarefas de manejo com filtros por vinhedo, status e categoria",
+        "title": "Tarefas de Manejo"
+      },
+      "lots": {
+        "description": "Acompanhamento completo de lotes de vinificação com status, análises e histórico detalhado",
+        "title": "Lotes em Produção"
+      },
+      "newParcel": {
+        "description": "Formulário completo para registro de parcelas com dados técnicos de plantio e espaçamento",
+        "title": "Cadastro de Parcelas"
+      },
+      "newTask": {
+        "description": "Crie tarefas personalizadas ou use tarefas padrão com agendamento e responsáveis",
+        "title": "Nova Tarefa de Manejo"
+      },
+      "newVariety": {
+        "description": "Adicione novas variedades de uvas com informações de origem, cor e ciclo",
+        "title": "Cadastro de Variedades"
+      },
+      "newVineyard": {
+        "description": "Registro de novos vinhedos com geolocalização, altitude, declividade e características do solo",
+        "title": "Cadastro de Vinhedos"
+      },
+      "pdv": {
+        "description": "Sistema completo de ponto de venda com gestão de mesas, comandas e pagamentos para enoturismo",
+        "title": "Bacco-Comanda (PDV)"
+      },
+      "pdvTables": {
+        "description": "Controlo visual de mesas e comandas com status em tempo real para atendimento eficiente",
+        "title": "PDV - Gestão de Mesas"
+      },
+      "varieties": {
+        "description": "Catálogo completo de variedades com origem, cor, ciclo de maturação e status",
+        "title": "Variedades de Uvas"
+      },
+      "vineyardDetails": {
+        "description": "Visualização completa de parcelas com variedades, porta-enxertos, clones e sistemas de condução",
+        "title": "Detalhes do Vinhedo"
+      },
+      "vineyards": {
+        "description": "Controlo completo de vinhedos e parcelas com informações detalhadas de área, solo e irrigação",
+        "title": "Gestão de Vinhedos"
+      }
+    },
+    "subtitle": "Explore as principais funcionalidades do Bacco ERP através de capturas de tela reais do sistema.",
+    "title": "Conheça o Sistema por Dentro"
+  },
+  "seo": {
+    "contactType": "Suporte",
+    "featureList": {
+      "aiWinemaking": "Vinificação com IA",
+      "compliance": "Conformidade SIVIBE e ENVIN",
+      "enotourism": "Enoturismo",
+      "mobileApps": "Apps Móveis (Bacco-Campo e Bacco-Comanda)",
+      "pos": "PDV Integrado",
+      "traceability": "Rastreabilidade Completa",
+      "vineyardManagement": "Gestão de Vinhedos"
+    },
+    "home": "Início",
+    "organizationDescription": "Sistema ERP completo para adegas com suporte multilíngue (Português, Inglês, Espanhol, Italiano)",
+    "softwareDescription": "ERP completo para gestão de adegas com IA, rastreabilidade, compliance SIVIBE/ENVIN e módulo de enoturismo"
+  },
+  "terms": {
+    "title": "Termos de Utilização",
+    "updated": "Última atualização: 30 de outubro de 2025",
+    "back": "Voltar ao site",
+    "contactPhone": "Telefone",
+    "contactAddress": "Morada",
+    "accept": {
+      "title": "Aceitação dos Termos",
+      "text": "Ao aceder e utilizar o Bacco ERP, o Utilizador declara que leu, compreendeu e aceita ficar vinculado aos presentes Termos de Utilização. Caso não concorde, total ou parcialmente, com estes termos, deverá abster-se de utilizar o sistema."
+    },
+    "service": {
+      "title": "Descrição do Serviço",
+      "text": "O Bacco ERP é um sistema de gestão especializado para adegas, oferecendo controlo integral desde a vinha até à garrafa, incluindo:",
+      "items": [
+        "Gestão de vinhas e parcelas",
+        "Controlo de tarefas de maneio",
+        "Registo de uvas próprias e de terceiros",
+        "Gestão de lotes de vinificação e respetivo fluxo",
+        "Controlo de temperatura e densidade do mosto",
+        "Gestão de análises laboratoriais"
+      ]
+    },
+    "account": {
+      "title": "Registo e Conta de Utilizador",
+      "text": "Para utilizar o Bacco ERP, o Utilizador deverá:",
+      "items": [
+        "Fornecer informações verdadeiras, exatas e completas no momento do registo",
+        "Manter as credenciais de acesso sob confidencialidade",
+        "Comunicar de imediato qualquer utilização não autorizada da sua conta",
+        "Assumir responsabilidade por todas as atividades realizadas através da sua conta"
+      ]
+    },
+    "lgpd": {
+      "title": "Proteção de Dados e LGPD",
+      "text": "Em conformidade com a Lei Geral de Proteção de Dados do Brasil (LGPD - Lei n.º 13.709/2018), o Bacco ERP compromete-se a:",
+      "items": [
+        "Recolher apenas os dados estritamente necessários à prestação do serviço",
+        "Tratar os dados exclusivamente para as finalidades informadas",
+        "Implementar medidas técnicas e organizativas adequadas de segurança",
+        "Não partilhar dados pessoais com terceiros sem base legal ou consentimento válido",
+        "Assegurar o pleno exercício dos direitos dos titulares dos dados"
+      ]
+    },
+    "rights": {
+      "title": "Direitos dos Titulares dos Dados",
+      "text": "Nos termos da LGPD, o titular pode, entre outros direitos:",
+      "items": [
+        "Confirmar a existência de tratamento dos seus dados",
+        "Aceder aos seus dados pessoais",
+        "Solicitar a correção de dados incompletos, inexatos ou desatualizados",
+        "Solicitar anonimização, bloqueio ou eliminação de dados",
+        "Solicitar portabilidade dos dados, quando aplicável",
+        "Revogar o consentimento, quando esta for a base legal do tratamento",
+        "Obter informação sobre partilha de dados"
+      ],
+      "contact": "Para exercer os seus direitos, contacte-nos através do e-mail: lussandro@gmail.com"
+    },
+    "acceptable": {
+      "title": "Utilização Aceitável",
+      "text": "O Utilizador compromete-se a NÃO:",
+      "items": [
+        "Utilizar o sistema para fins ilícitos ou não autorizados",
+        "Tentar aceder a áreas restritas do sistema sem autorização",
+        "Interferir no funcionamento do sistema ou provocar a sua interrupção",
+        "Copiar, modificar ou distribuir o software sem autorização prévia",
+        "Realizar engenharia inversa do sistema",
+        "Utilizar o sistema de modo a causar danos a terceiros"
+      ]
+    },
+    "ip": {
+      "title": "Propriedade Intelectual",
+      "text": "Todo o conteúdo, design, código-fonte, logótipos e demais materiais do Bacco ERP encontram-se protegidos por direitos de autor e por legislação aplicável em matéria de propriedade intelectual. É concedida ao Utilizador apenas uma licença limitada, não exclusiva e revogável de utilização do sistema, não lhe sendo transmitido qualquer direito de propriedade sobre o software."
+    },
+    "availability": {
+      "title": "Disponibilidade do Serviço",
+      "text": "Embora sejam envidados esforços razoáveis para manter o serviço disponível 24 horas por dia, 7 dias por semana, não se garante disponibilidade ininterrupta nem ausência de erros. O Bacco ERP poderá realizar manutenções programadas, procurando comunicá-las com antecedência sempre que possível."
+    },
+    "liability": {
+      "title": "Limitação de Responsabilidade",
+      "text": "Na máxima extensão permitida pela lei aplicável, o Bacco ERP não será responsável por danos indiretos, incidentais, especiais, punitivos ou consequenciais decorrentes da utilização, ou impossibilidade de utilização, do sistema. Recomenda-se a realização periódica de cópias de segurança dos dados."
+    },
+    "changes": {
+      "title": "Alterações aos Termos",
+      "text": "O Bacco ERP reserva-se o direito de alterar os presentes Termos de Utilização a qualquer momento. Alterações materialmente relevantes serão comunicadas por e-mail ou por notificação no sistema. A continuação da utilização do serviço após a entrada em vigor das alterações constitui aceitação dos novos termos."
+    },
+    "termination": {
+      "title": "Resolução",
+      "text": "O Bacco ERP poderá suspender ou cessar o acesso do Utilizador, de imediato e sem aviso prévio, em caso de violação destes Termos de Utilização. O Utilizador pode igualmente encerrar a sua conta a qualquer momento através do painel de configurações ou por contacto com a equipa de suporte."
+    },
+    "law": {
+      "title": "Lei Aplicável e Foro",
+      "text": "Os presentes Termos de Utilização regem-se pelas leis da República Federativa do Brasil. Qualquer litígio será submetido ao foro da comarca de Florianópolis, Santa Catarina, com renúncia a qualquer outro, por mais privilegiado que seja."
+    },
+    "contact": {
+      "title": "Contacto",
+      "text": "Para questões relativas a estes Termos de Utilização ou ao tratamento de dados pessoais, contacte:"
+    }
+  },
+  "uruguay": {
+    "back": "Voltar ao site",
+    "compliance": {
+      "badge": "Conformidade Uruguaio",
+      "highlight": {
+        "description": "Nao perca prazos! O Bacco monitora automaticamente todas as obrigacoes regulatorias uruguaias e envia alertas antes dos vencimentos.",
+        "title": "Conformidade Automatizado"
+      },
+      "items": {
+        "dgi": {
+          "description": "Integracao com a Direccion General Impositiva para emissao de comprovantes fiscais eletronicos (CFE) e compliance tributario.",
+          "title": "DGI - Faturacao"
+        },
+        "inavi": {
+          "description": "Instituto Nacional de Vitivinicultura. Integracao completa com declaracoes obrigatorias e rastreabilidade exigida pelo orgao regulador uruguaio.",
+          "title": "INAVI"
+        },
+        "mgap": {
+          "description": "Ministerio de Ganaderia, Agricultura y Pesca. Conformidade com registros e regulamentacoes do setor agropecuario.",
+          "title": "MGAP"
+        }
+      },
+      "subtitle": "O Bacco ERP foi adaptado para atender 100% das exigencias legais uruguaias para producao e comercializacao de vinhos.",
+      "title": "Conformidade Total com Regulamentacoes Uruguaias"
+    },
+    "cta": {
+      "button": "Solicitar Demonstracao Gratuita",
+      "check1": "Conformidade uruguaio completo",
+      "check2": "Suporte em espanhol",
+      "check3": "Precos em Peso Uruguaio",
+      "subtitle": "Junte-se as vinicolas uruguaias que ja estao transformando sua gestao com o Bacco ERP. Demonstracao gratuita sem compromisso.",
+      "title": "Pronto para Modernizar sua Vinicola Uruguaia?"
+    },
+    "footer": {
+      "rights": "Todos os direitos reservados."
+    },
+    "grapes": {
+      "badge": "Variedades de Uva",
+      "items": {
+        "albarino": {
+          "name": "Albarino",
+          "type": "Branca - Em destaque"
+        },
+        "cabernetFranc": {
+          "name": "Cabernet Franc",
+          "type": "Tinta - Elegante"
+        },
+        "marselan": {
+          "name": "Marselan",
+          "type": "Tinta - Nova geracao"
+        },
+        "merlot": {
+          "name": "Merlot",
+          "type": "Tinta - Classica"
+        },
+        "petitVerdot": {
+          "name": "Petit Verdot",
+          "type": "Tinta - Em crescimento"
+        },
+        "pinotNoir": {
+          "name": "Pinot Noir",
+          "type": "Tinta - Delicada"
+        },
+        "sauvignonBlanc": {
+          "name": "Sauvignon Blanc",
+          "type": "Branca - Fresca"
+        },
+        "tannat": {
+          "name": "Tannat",
+          "type": "Tinta - Emblema Nacional"
+        }
+      },
+      "stats": {
+        "tasks": "Tarefas de manejo padrao",
+        "varieties": "Variedades cadastradas"
+      },
+      "subtitle": "Todas as variedades cultivadas no Uruguai ja estao no sistema, com informacoes tecnicas completas sobre origem, ciclo e caracteristicas.",
+      "title": "Variedades Uruguaias Pre-Cadastradas",
+      "total": "Todas as variedades viniferas uruguaias"
+    },
+    "hero": {
+      "badge": "Para o Uruguai",
+      "ctaDemo": "Solicitar Demonstracao Gratuita",
+      "ctaFeatures": "Ver Funcionalidades",
+      "subtitle": "Conformidade total com INAVI e regulamentacoes uruguaias. Desenvolvido para atender as necessidades especificas dos vinicultores do Uruguai.",
+      "title": "ERP Completo para Vinicolas Uruguaias"
+    },
+    "integrations": {
+      "badge": "Integracoes Uruguaias",
+      "items": {
+        "dgi": {
+          "badge": "Fiscal",
+          "description": "Integracao completa com a Direccion General Impositiva para compliance tributario automatizado.",
+          "title": "DGI Conformidade"
+        },
+        "exportacion": {
+          "badge": "Exportacao",
+          "description": "Controlo completo de exportacoes com documentacao, rastreabilidade e compliance aduaneiro.",
+          "title": "Gestao de Exportacoes"
+        },
+        "facturacion": {
+          "badge": "Faturacao",
+          "description": "Emissao automatica de comprovantes fiscais eletronicos (CFE) com validacao DGI em tempo real.",
+          "title": "Facturacion Electronica"
+        },
+        "whatsapp": {
+          "badge": "Comunicacao",
+          "description": "Envie notificacoes, confirmacoes de reservas e atualizacoes para clientes automaticamente.",
+          "title": "WhatsApp Business"
+        }
+      },
+      "subtitle": "O Bacco se conecta nativamente com os principais sistemas e servicos uruguaios para automatizar sua operacao.",
+      "title": "Integrado com Sistemas Uruguaios"
+    },
+    "regions": {
+      "badge": "Regioes Vinicolas",
+      "items": {
+        "canelones": {
+          "description": "Principal regiao vinicola do Uruguai, responsavel por mais de 60% da producao nacional.",
+          "grapes": [
+            "Tannat",
+            "Merlot",
+            "Cabernet Sauvignon",
+            "Sauvignon Blanc"
+          ],
+          "name": "Canelones"
+        },
+        "colonia": {
+          "description": "Terroir unico as margens do Rio de la Plata, com solos calcarios.",
+          "grapes": [
+            "Tannat",
+            "Petit Verdot",
+            "Marselan",
+            "Sauvignon Blanc"
+          ],
+          "name": "Colonia"
+        },
+        "maldonado": {
+          "description": "Regiao emergente com influencia oceanica, produzindo vinhos frescos e elegantes.",
+          "grapes": [
+            "Albarino",
+            "Tannat",
+            "Pinot Noir",
+            "Viognier"
+          ],
+          "name": "Maldonado"
+        },
+        "montevideo": {
+          "description": "Regiao historica com tradicao vinicola secular, proxima a capital.",
+          "grapes": [
+            "Tannat",
+            "Cabernet Franc",
+            "Merlot",
+            "Chardonnay"
+          ],
+          "name": "Montevideo"
+        }
+      },
+      "subtitle": "O Bacco conhece as particularidades de cada terroir uruguaio, oferecendo sugestoes de manejo e vinificacao adaptadas a cada regiao.",
+      "title": "Suporte Completo as Regioes Vinicolas Uruguaias"
+    },
+    "regulatory": {
+      "badge": "Em Breve",
+      "items": {
+        "checklists": {
+          "description": "Listas de verificacao para garantir conformidade total",
+          "title": "Checklists de Auditoria"
+        },
+        "guides": {
+          "description": "Documentacao detalhada sobre INAVI, MGAP e DGI",
+          "title": "Guias de Conformidade"
+        },
+        "manuals": {
+          "description": "Instrucoes passo a passo para processos regulatorios",
+          "title": "Manuais de Procedimentos"
+        },
+        "templates": {
+          "description": "Modelos prontos para declaracoes e relatorios obrigatorios",
+          "title": "Templates de Relatorios"
+        }
+      },
+      "subtitle": "Material completo de apoio para conformidade com as regulamentacoes uruguaias do setor vinicola.",
+      "title": "Documentacao Regulatoria"
+    }
+  }
+}

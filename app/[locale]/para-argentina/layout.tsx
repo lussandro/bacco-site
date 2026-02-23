@@ -7,6 +7,12 @@ const metaByLocale: Record<string, { title: string; description: string; ogLocal
       "ERP completo para vinicolas argentinas. Compliance total com SENASA, INV (Instituto Nacional de Vitivinicultura) e regulamentacoes locais. Suporte a todas as regioes vinicolas: Mendoza, San Juan, Salta, Patagonia e La Rioja.",
     ogLocale: "pt_BR",
   },
+  "pt-PT": {
+    title: "Bacco ERP para a Argentina - Compliance SENASA, INV e Regulamentacao Local",
+    description:
+      "ERP completo para adegas argentinas. Compliance com SENASA, INV e regulamentacao local de vitivinicultura.",
+    ogLocale: "pt_PT",
+  },
   "en-US": {
     title: "Bacco ERP for Argentina - SENASA, INV & Local Compliance",
     description:
@@ -25,6 +31,12 @@ const metaByLocale: Record<string, { title: string; description: string; ogLocal
       "ERP completo per cantine argentine. Compliance totale con SENASA, INV (Istituto Nazionale di Vitivinicoltura) e regolamentazioni locali. Supporto a tutte le regioni vinicole: Mendoza, San Juan, Salta, Patagonia e La Rioja.",
     ogLocale: "it_IT",
   },
+  "fr": {
+    title: "Bacco ERP pour l'Argentine - Conformite SENASA, INV et normes locales",
+    description:
+      "ERP complet pour les domaines viticoles argentins. Conformite avec SENASA, INV et la reglementation locale.",
+    ogLocale: "fr_FR",
+  },
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
@@ -35,9 +47,11 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
   const pathByLocale: Record<string, string> = {
     "pt-BR": "/para-argentina",
+    "pt-PT": "/para-argentina",
     "en-US": "/for-argentina",
     "es": "/para-argentina",
     "it-IT": "/per-argentina",
+    "fr": "/pour-argentine",
   }
 
   const ogUrl = `${baseUrl.origin}/${locale}${pathByLocale[locale] || "/para-argentina"}`
@@ -92,9 +106,11 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       canonical: ogUrl,
       languages: {
         "pt-BR": `${baseUrl.origin}/pt-BR/para-argentina`,
+        "pt-PT": `${baseUrl.origin}/pt-PT/para-argentina`,
         "en-US": `${baseUrl.origin}/en-US/for-argentina`,
         "es": `${baseUrl.origin}/es/para-argentina`,
         "it-IT": `${baseUrl.origin}/it-IT/per-argentina`,
+        "fr": `${baseUrl.origin}/fr/pour-argentine`,
       },
     },
   }

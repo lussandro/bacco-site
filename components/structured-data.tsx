@@ -7,16 +7,11 @@ export function StructuredData() {
       "Sistema ERP completo desenvolvido exclusivamente para vinícolas brasileiras",
     url: "https://bacco-erp.com",
     logo: "https://bacco-erp.com/icon.svg",
-    sameAs: [
-      // Adicione redes sociais quando tiver
-      // "https://www.linkedin.com/company/bacco-erp",
-      // "https://www.facebook.com/baccoerp",
-      // "https://www.instagram.com/baccoerp",
-    ],
+    sameAs: [],
     contactPoint: {
       "@type": "ContactPoint",
       contactType: "Suporte",
-      email: "contato@bacco-erp.com", // Atualize com email real
+      email: "lussandro@gmail.com",
     },
   }
 
@@ -77,4 +72,3 @@ export function StructuredData() {
     </>
   )
 }
-

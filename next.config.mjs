@@ -15,6 +15,9 @@ const nextConfig = {
   compress: true,
   poweredByHeader: false,
   reactStrictMode: true,
+  turbopack: {
+    root: process.cwd(),
+  },
   // Headers de segurança
   async headers() {
     return [

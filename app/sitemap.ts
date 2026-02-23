@@ -2,26 +2,37 @@ import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://bacco-erp.com'
+  const locales = ['pt-BR', 'pt-PT', 'en-US', 'es', 'it-IT', 'fr']
+  const localizedPaths = [
+    '',
+    '/termos-de-uso',
+    '/politica-de-privacidade',
+    '/para-brasil',
+    '/para-argentina',
+    '/para-chile',
+    '/para-uruguai',
+    '/para-italia',
+  ]
 
-  return [
+  const entries: MetadataRoute.Sitemap = [
     {
       url: baseUrl,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 1,
     },
-    {
-      url: `${baseUrl}/termos-de-uso`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.5,
-    },
-    {
-      url: `${baseUrl}/politica-de-privacidade`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.5,
-    },
   ]
-}
 
+  for (const locale of locales) {
+    for (const path of localizedPaths) {
+      entries.push({
+        url: `${baseUrl}/${locale}${path}`,
+        lastModified: new Date(),
+        changeFrequency: path === '' ? 'weekly' : 'monthly',
+        priority: path === '' ? 0.9 : 0.7,
+      })
+    }
+  }
+
+  return entries
+}
