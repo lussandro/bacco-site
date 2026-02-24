@@ -36,7 +36,7 @@
     "badge": "Sistema Completo para Bodegas",
     "title": "Del Viñedo a la Botella: Control Total de Su Producción",
     "description": "<strong>ERP completo para bodegas con soporte multilingüe nativo.</strong> Gestione cada etapa de la producción de vinos, espumantes y jugos con Bacco ERP. <strong>Disponible en Portugués, Inglés, Español e Italiano</strong> - traducciones profesionales, no solo superficiales. Trazabilidad completa, monitoreo en tiempo real, inteligencia artificial integrada y gestión unificada. Incluye <strong>Bacco-Campo</strong> para gestión del viñedo y <strong>Bacco-Comanda</strong> para PDV y enoturismo.",
-    "ctaDemo": "Solicitar Demo Gratuita",
+    "ctaDemo": "Agendar Demo",
     "ctaSystem": "Ver Sistema en Acción",
     "imageAlt": "Viñedo moderno al atardecer",
     "stats": {
@@ -719,8 +719,8 @@
     }
   },
   "cta": {
-    "title": "¿Listo para Transformar Su Bodega?",
-    "subtitle": "Contáctenos y descubra cómo Bacco puede revolucionar la gestión de su producción.",
+    "title": "Habla con un Especialista de tu País",
+    "subtitle": "Nuestro equipo te ayuda a validar compliance y definir el flujo ideal para tu mercado.",
     "whatsapp": "WhatsApp",
     "email": "E-mail",
     "phone": "+55 48 99128-6399",
@@ -1115,6 +1115,9 @@
             "ENVIN",
             "MAPA",
             "NF-e"
+          ],
+          "gaps": [
+            "-"
           ]
         },
         "argentina": {
@@ -1124,6 +1127,9 @@
             "SENASA",
             "INV",
             "Normas provinciales"
+          ],
+          "gaps": [
+            "-"
           ]
         },
         "chile": {
@@ -1133,6 +1139,9 @@
             "SAG",
             "Normas locales",
             "DO chilenas"
+          ],
+          "gaps": [
+            "-"
           ]
         },
         "uruguay": {
@@ -1142,6 +1151,9 @@
             "INAVI",
             "Normas locales",
             "Exportacion"
+          ],
+          "gaps": [
+            "-"
           ]
         },
         "italy": {
@@ -1151,6 +1163,9 @@
             "DOC/DOCG",
             "IGT",
             "Normas UE (SIAN)"
+          ],
+          "gaps": [
+            "-"
           ]
         },
         "spain": {
@@ -1160,6 +1175,9 @@
             "DO/DOCa",
             "SII (fiscal)",
             "Normas UE"
+          ],
+          "gaps": [
+            "Flujos fiscales y reportes locales en rollout progresivo"
           ]
         },
         "france": {
@@ -1169,6 +1187,9 @@
             "AOC/AOP",
             "Normas UE",
             "Trazabilidad por lote"
+          ],
+          "gaps": [
+            "Flujos fiscales y reportes locales en rollout progresivo"
           ]
         },
         "germany": {
@@ -1178,8 +1199,20 @@
             "Weingesetz",
             "Normas UE",
             "Declaraciones fiscales"
+          ],
+          "gaps": [
+            "Modulo regulatorio local en roadmap"
           ]
         }
+      },
+      "cta": {
+        "primary": "Agendar demo con especialista",
+        "secondary": "Ver flujo de compliance"
+      },
+      "tooltip": {
+        "label": "Ver detalles de cobertura",
+        "coveredTitle": "Cubierto hoy",
+        "gapsTitle": "En evolución"
       }
     }
   },

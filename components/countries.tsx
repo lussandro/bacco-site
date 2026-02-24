@@ -1,8 +1,10 @@
 "use client"
 
-import { Globe, CheckCircle2, FileText, ShieldCheck } from "lucide-react"
+import { Globe, CheckCircle2, FileText, ShieldCheck, Info } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
+import { Button } from "@/components/ui/button"
+import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip"
 import { useTranslations } from "next-intl"
 import { routing } from "@/i18n/routing"
 
@@ -14,6 +16,8 @@ interface CountryFeature {
 interface Country {
   code: string
   flag: string
+  label: string
+  description: string
   features: CountryFeature[]
   primary?: boolean
 }
@@ -25,17 +29,31 @@ export function Countries() {
     badge: string
     title: string
     subtitle: string
+    cta: { primary: string; secondary: string }
+    tooltip: { label: string; coveredTitle: string; gapsTitle: string }
     columns: { country: string; obligations: string; status: string }
     status: { full: string; partial: string; planned: string }
-    markets: Record<string, { label: string; status: "full" | "partial" | "planned"; items: string[] }>
+    markets: Record<string, { label: string; status: "full" | "partial" | "planned"; items: string[]; gaps: string[] }>
   }
   const marketOrder = ["brazil", "argentina", "chile", "uruguay", "italy", "spain", "france", "germany"] as const
   const supportedCountries = marketOrder.length
+  const countryFlags: Record<(typeof marketOrder)[number], string> = {
+    brazil: "🇧🇷",
+    argentina: "🇦🇷",
+    chile: "🇨🇱",
+    uruguay: "🇺🇾",
+    italy: "🇮🇹",
+    spain: "🇪🇸",
+    france: "🇫🇷",
+    germany: "🇩🇪",
+  }
 
   const countries: Country[] = [
     {
       code: "brazil",
       flag: "🇧🇷",
+      label: t("items.brazil.name"),
+      description: t("items.brazil.description"),
       features: [
         { name: "SIVIBE", description: t("items.brazil.features.sivibe") },
         { name: "ENVIN", description: t("items.brazil.features.envin") },
@@ -47,6 +65,8 @@ export function Countries() {
     {
       code: "argentina",
       flag: "🇦🇷",
+      label: t("items.argentina.name"),
+      description: t("items.argentina.description"),
       features: [
         { name: "SENASA", description: t("items.argentina.features.senasa") },
         { name: t("items.argentina.features.localRegulationsLabel"), description: t("items.argentina.features.localRegulations") },
@@ -55,6 +75,8 @@ export function Countries() {
     {
       code: "chile",
       flag: "🇨🇱",
+      label: t("items.chile.name"),
+      description: t("items.chile.description"),
       features: [
         { name: "SAG", description: t("items.chile.features.sag") },
         { name: t("items.chile.features.localRegulationsLabel"), description: t("items.chile.features.localRegulations") },
@@ -63,6 +85,8 @@ export function Countries() {
     {
       code: "uruguay",
       flag: "🇺🇾",
+      label: t("items.uruguay.name"),
+      description: t("items.uruguay.description"),
       features: [
         { name: "INAVI", description: t("items.uruguay.features.inavi") },
         { name: t("items.uruguay.features.localRegulationsLabel"), description: t("items.uruguay.features.localRegulations") },
@@ -71,6 +95,8 @@ export function Countries() {
     {
       code: "italy",
       flag: "🇮🇹",
+      label: t("items.italy.name"),
+      description: t("items.italy.description"),
       features: [
         { name: "DOC/DOCG", description: t("items.italy.features.docg") },
         { name: t("items.italy.features.euRegulationsLabel"), description: t("items.italy.features.euRegulations") },
@@ -142,21 +168,30 @@ export function Countries() {
 
         {/* Other Countries Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-          {countries.slice(1).map((country) => (
+          {marketOrder.slice(1).map((countryCode) => {
+            const market = obligations.markets[countryCode]
+            if (!market) return null
+            const legacyCountry = countries.find((c) => c.code === countryCode)
+            const features = legacyCountry?.features ?? market.items.map((item) => ({ name: item, description: item }))
+            const description =
+              legacyCountry?.description ??
+              `${obligations.columns.status}: ${obligations.status[market.status]}`
+
+            return (
             <Card
-              key={country.code}
+              key={countryCode}
               className="border-2 border-border hover:border-primary/30 transition-all duration-300 hover:shadow-lg"
             >
               <CardContent className="p-6">
                 <div className="text-center mb-4">
-                  <div className="text-5xl mb-3">{country.flag}</div>
-                  <h3 className="text-lg font-bold">{t(`items.${country.code}.name`)}</h3>
+                  <div className="text-5xl mb-3">{countryFlags[countryCode]}</div>
+                  <h3 className="text-lg font-bold">{market.label}</h3>
                 </div>
                 <p className="text-sm text-muted-foreground mb-4 text-center">
-                  {t(`items.${country.code}.description`)}
+                  {description}
                 </p>
                 <div className="space-y-3">
-                  {country.features.map((feature, idx) => (
+                  {features.map((feature, idx) => (
                     <div key={idx} className="flex items-start gap-2">
                       <CheckCircle2 className="h-4 w-4 text-primary mt-0.5 flex-shrink-0" />
                       <div>
@@ -168,7 +203,8 @@ export function Countries() {
                 </div>
               </CardContent>
             </Card>
-          ))}
+            )
+          })}
         </div>
 
         {/* Stats Section */}
@@ -219,9 +255,35 @@ export function Countries() {
                     <div className="col-span-3 p-4 font-semibold">{market.label}</div>
                     <div className="col-span-7 p-4 text-sm text-muted-foreground">{market.items.join(" • ")}</div>
                     <div className="col-span-2 p-4">
-                      <span className={`inline-flex items-center rounded-md border px-2 py-1 text-xs font-medium ${statusClass}`}>
-                        {obligations.status[market.status]}
-                      </span>
+                      <div className="inline-flex items-center gap-2">
+                        <span className={`inline-flex items-center rounded-md border px-2 py-1 text-xs font-medium ${statusClass}`}>
+                          {obligations.status[market.status]}
+                        </span>
+                        <Tooltip>
+                          <TooltipTrigger asChild>
+                            <button
+                              type="button"
+                              aria-label={obligations.tooltip.label}
+                              className="inline-flex h-6 w-6 items-center justify-center rounded-md border border-border bg-background text-muted-foreground hover:text-foreground"
+                            >
+                              <Info className="h-3.5 w-3.5" />
+                            </button>
+                          </TooltipTrigger>
+                          <TooltipContent side="left" className="max-w-sm p-3 text-left">
+                            <div className="space-y-2">
+                              <p className="font-semibold text-sm">{market.label}</p>
+                              <div>
+                                <p className="text-[11px] uppercase tracking-wide opacity-80">{obligations.tooltip.coveredTitle}</p>
+                                <p className="text-xs">{market.items.join(" • ")}</p>
+                              </div>
+                              <div>
+                                <p className="text-[11px] uppercase tracking-wide opacity-80">{obligations.tooltip.gapsTitle}</p>
+                                <p className="text-xs">{market.gaps.join(" • ")}</p>
+                              </div>
+                            </div>
+                          </TooltipContent>
+                        </Tooltip>
+                      </div>
                     </div>
                   </div>
                 )
@@ -244,9 +306,35 @@ export function Countries() {
                   <CardContent className="p-4">
                     <div className="flex items-center justify-between mb-2">
                       <h4 className="font-semibold">{market.label}</h4>
-                      <span className={`inline-flex items-center rounded-md border px-2 py-1 text-xs font-medium ${statusClass}`}>
-                        {obligations.status[market.status]}
-                      </span>
+                      <div className="inline-flex items-center gap-2">
+                        <span className={`inline-flex items-center rounded-md border px-2 py-1 text-xs font-medium ${statusClass}`}>
+                          {obligations.status[market.status]}
+                        </span>
+                        <Tooltip>
+                          <TooltipTrigger asChild>
+                            <button
+                              type="button"
+                              aria-label={obligations.tooltip.label}
+                              className="inline-flex h-6 w-6 items-center justify-center rounded-md border border-border bg-background text-muted-foreground hover:text-foreground"
+                            >
+                              <Info className="h-3.5 w-3.5" />
+                            </button>
+                          </TooltipTrigger>
+                          <TooltipContent side="top" className="max-w-sm p-3 text-left">
+                            <div className="space-y-2">
+                              <p className="font-semibold text-sm">{market.label}</p>
+                              <div>
+                                <p className="text-[11px] uppercase tracking-wide opacity-80">{obligations.tooltip.coveredTitle}</p>
+                                <p className="text-xs">{market.items.join(" • ")}</p>
+                              </div>
+                              <div>
+                                <p className="text-[11px] uppercase tracking-wide opacity-80">{obligations.tooltip.gapsTitle}</p>
+                                <p className="text-xs">{market.gaps.join(" • ")}</p>
+                              </div>
+                            </div>
+                          </TooltipContent>
+                        </Tooltip>
+                      </div>
                     </div>
                     <p className="text-sm text-muted-foreground">{market.items.join(" • ")}</p>
                   </CardContent>
@@ -254,6 +342,15 @@ export function Countries() {
               )
             })}
           </div>
+        </div>
+
+        <div className="flex flex-col sm:flex-row justify-center gap-4 mb-12">
+          <Button asChild size="lg">
+            <a href="#contato">{obligations.cta.primary}</a>
+          </Button>
+          <Button asChild variant="outline" size="lg">
+            <a href="#processo">{obligations.cta.secondary}</a>
+          </Button>
         </div>
 
         {/* CTA */}

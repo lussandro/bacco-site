@@ -36,7 +36,7 @@
     "badge": "Complete System for Wineries",
     "title": "From Vineyard to Bottle: Total Control of Your Production",
     "description": "<strong>Complete ERP for wineries with native multilingual support.</strong> Manage every stage of wine, sparkling wine, and juice production with Bacco ERP. <strong>Available in Portuguese, English, Spanish, and Italian</strong> - professional translations, not just superficial. Complete traceability, real-time monitoring, integrated artificial intelligence, and unified management. Includes <strong>Bacco-Campo</strong> for vineyard management and <strong>Bacco-Comanda</strong> for POS and wine tourism.",
-    "ctaDemo": "Request Free Demo",
+    "ctaDemo": "Schedule Demo",
     "ctaSystem": "See System in Action",
     "imageAlt": "Modern vineyard at sunset",
     "stats": {
@@ -719,8 +719,8 @@
     }
   },
   "cta": {
-    "title": "Ready to Transform Your Winery?",
-    "subtitle": "Contact us and discover how Bacco can revolutionize your production management.",
+    "title": "Talk to a Specialist for Your Country",
+    "subtitle": "Our team helps you validate compliance and design the ideal workflow for your market.",
     "whatsapp": "WhatsApp",
     "email": "Email",
     "phone": "+55 48 99128-6399",
@@ -1115,6 +1115,9 @@
             "ENVIN",
             "MAPA",
             "NF-e"
+          ],
+          "gaps": [
+            "-"
           ]
         },
         "argentina": {
@@ -1124,6 +1127,9 @@
             "SENASA",
             "INV",
             "Provincial rules"
+          ],
+          "gaps": [
+            "-"
           ]
         },
         "chile": {
@@ -1133,6 +1139,9 @@
             "SAG",
             "Local rules",
             "Chilean appellations"
+          ],
+          "gaps": [
+            "-"
           ]
         },
         "uruguay": {
@@ -1142,6 +1151,9 @@
             "INAVI",
             "Local rules",
             "Exports"
+          ],
+          "gaps": [
+            "-"
           ]
         },
         "italy": {
@@ -1151,6 +1163,9 @@
             "DOC/DOCG",
             "IGT",
             "EU rules (SIAN)"
+          ],
+          "gaps": [
+            "-"
           ]
         },
         "spain": {
@@ -1160,6 +1175,9 @@
             "DO/DOCa",
             "SII (tax)",
             "EU rules"
+          ],
+          "gaps": [
+            "Local tax and reporting flows in progressive rollout"
           ]
         },
         "france": {
@@ -1169,6 +1187,9 @@
             "AOC/AOP",
             "EU rules",
             "Lot traceability"
+          ],
+          "gaps": [
+            "Local tax and reporting flows in progressive rollout"
           ]
         },
         "germany": {
@@ -1178,8 +1199,20 @@
             "Weingesetz",
             "EU rules",
             "Tax declarations"
+          ],
+          "gaps": [
+            "Local regulatory module on roadmap"
           ]
         }
+      },
+      "cta": {
+        "primary": "Schedule demo with specialist",
+        "secondary": "View compliance workflow"
+      },
+      "tooltip": {
+        "label": "View coverage details",
+        "coveredTitle": "Covered today",
+        "gapsTitle": "In progress"
       }
     }
   },

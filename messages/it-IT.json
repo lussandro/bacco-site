@@ -9,14 +9,14 @@
     "allRightsReserved": "Tutti i diritti riservati"
   },
   "seo": {
-    "organizationDescription": "Sistema ERP completo per cantine con supporto multilingue (Portoghese, Inglese, Spagnolo, Italiano)",
+    "organizationDescription": "Sistema ERP completo per cantine con supporto multilingue (portoghese, inglese, spagnolo, italiano)",
     "contactType": "Supporto",
     "softwareDescription": "ERP completo per la gestione di cantine con IA, tracciabilità, conformità SIVIBE/ENVIN e modulo enoturismo",
     "featureList": {
-      "vineyardManagement": "Vineyard Management",
+      "vineyardManagement": "Gestione del vigneto",
       "aiWinemaking": "AI Winemaking",
-      "traceability": "Complete Traceability",
-      "compliance": "SIVIBE and ENVIN Compliance",
+      "traceability": "Tracciabilità completa",
+      "compliance": "Conformità SIVIBE ed ENVIN",
       "enotourism": "Wine Tourism",
       "pos": "Integrated POS",
       "mobileApps": "App Mobili (Bacco-Campo e Bacco-Comanda)"
@@ -35,8 +35,8 @@
   "hero": {
     "badge": "Sistema Completo per Cantine",
     "title": "Dal Vigneto alla Bottiglia: Controllo Totale della Tua Produzione",
-    "description": "<strong>ERP completo per cantine con supporto multilingue nativo.</strong> Gestisci ogni fase della produzione di vini, spumanti e succhi con Bacco ERP. <strong>Disponibile in Portoghese, Inglese, Spagnolo e Italiano</strong> - traduzioni professionali, non solo superficiali. Tracciabilità completa, monitoraggio in tempo reale, intelligenza artificiale integrata e gestione unificata. Include <strong>Bacco-Campo</strong> per la gestione del vigneto e <strong>Bacco-Comanda</strong> per POS ed enoturismo.",
-    "ctaDemo": "Richiedi Demo Gratuita",
+    "description": "<strong>ERP completo per cantine con supporto multilingue nativo.</strong> Gestisci ogni fase della produzione di vini, spumanti e succhi con Bacco ERP. <strong>Disponibile in portoghese, inglese, spagnolo e italiano</strong> - traduzioni professionali, non solo superficiali. Tracciabilità completa, monitoraggio in tempo reale, intelligenza artificiale integrata e gestione unificata. Include <strong>Bacco-Campo</strong> per la gestione del vigneto e <strong>Bacco-Comanda</strong> per POS ed enoturismo.",
+    "ctaDemo": "Prenota Demo",
     "ctaSystem": "Vedi Sistema",
     "imageAlt": "Vigneto moderno al tramonto",
     "stats": {
@@ -81,135 +81,135 @@
     "global": {
       "title": "Portata Globale",
       "description": "Bacco ERP è pronto per servire cantine in qualsiasi regione del mondo, mantenendo la specializzazione nativa.",
-      "languages": "Lingue Supportate",
+      "languages": "Supporto linguistico",
       "translated": "dell'Interfaccia Tradotta",
       "regions": "Regioni Servite"
     },
     "cta": "Scegli la tua lingua preferita e inizia a usare Bacco ERP oggi stesso. Il cambio di lingua è istantaneo e non richiede configurazione aggiuntiva."
   },
   "features": {
-    "title": "Complete Features for Your Winery",
-    "subtitle": "Everything you need to manage your wine, sparkling wine, and juice production in a single system.",
+    "title": "Funzionalità complete per la tua azienda vinicola",
+    "subtitle": "Tutto ciò di cui hai bisogno per gestire la tua produzione di vino, spumante e succhi in un unico sistema.",
     "items": {
       "vineyardManagement": {
-        "title": "Vineyard Management",
-        "description": "Complete control of vineyards and plots with detailed information on varieties (65 pre-registered), planted area, and history."
+        "title": "Gestione del vigneto",
+        "description": "Controllo completo di vigneti e appezzamenti con informazioni dettagliate su varietà (65 pre-registrate), superficie vitata e storia."
       },
       "vineyardHandling": {
-        "title": "Vineyard Management",
-        "description": "Plan and track all management tasks (42 standard tasks): pruning, fertilization, treatments, and harvest."
+        "title": "Gestione del vigneto",
+        "description": "Pianifica e monitora tutte le attività di gestione (42 attività standard): potatura, fertilizzazione, trattamenti e raccolta."
       },
       "aiCalendar": {
-        "title": "AI: Suggested Management Calendar",
-        "description": "Artificial Intelligence suggests management practices based on vineyard region, climate, and time of year, optimizing your production."
+        "title": "AI: Calendario gestionale consigliato",
+        "description": "L'intelligenza artificiale suggerisce pratiche di gestione in base alla regione del vigneto, al clima e al periodo dell'anno, ottimizzando la produzione."
       },
       "climateAI": {
         "title": "Climate & AI",
-        "description": "Intelligent climate analysis with forecasts and automatic recommendations for vineyard protection and optimization."
+        "description": "Analisi climatica intelligente con previsioni e raccomandazioni automatiche per la tutela e l'ottimizzazione del vigneto."
       },
       "grapeReception": {
         "title": "Grape Reception",
-        "description": "Record reception of own and third-party grapes with complete analyses: BRIX, pH, acidity, temperature, and classification."
+        "description": "Registra la ricezione delle uve proprie e di terzi con analisi complete: BRIX, pH, acidità, temperatura e classificazione."
       },
       "productionLots": {
         "title": "Winemaking Lots",
-        "description": "Manage production lots with complete traceability from grape entry to final product."
+        "description": "Gestisci i lotti di produzione con tracciabilità completa dall'ingresso dell'uva al prodotto finale."
       },
       "visualFlowEditor": {
         "title": "Visual Flow Editor",
-        "description": "Create custom winemaking flows with an interactive graphical editor (N8N style) for any type of wine."
+        "description": "Crea flussi di vinificazione personalizzati con un editor grafico interattivo (stile N8N) per qualsiasi tipologia di vino."
       },
       "vinificationAI": {
         "title": "Winemaking AI",
-        "description": "Artificial Intelligence that suggests corrections, input additions, and optimizes winemaking processes based on analyses."
+        "description": "Intelligenza Artificiale che suggerisce correzioni, aggiunte di input e ottimizza i processi di vinificazione sulla base delle analisi."
       },
       "temperatureIoT": {
         "title": "IoT Temperature Control",
-        "description": "Monitor must temperature and density in real-time with RAPT Cloud integration and automatic alerts."
+        "description": "Monitora la temperatura e la densità del mosto in tempo reale con l'integrazione RAPT Cloud e gli avvisi automatici."
       },
       "labAnalysis": {
         "title": "Laboratory Analysis",
-        "description": "Complete control and management of laboratory analyses with history, traceability, and reports."
+        "description": "Controllo e gestione completa delle analisi di laboratorio con storico, tracciabilità e report."
       },
       "dashboard": {
-        "title": "Smart Dashboard",
-        "description": "View real-time indicators: production, alerts, pending analyses, sales, and much more."
+        "title": "Cruscotto intelligente",
+        "description": "Visualizza indicatori in tempo reale: produzione, avvisi, analisi in sospeso, vendite e molto altro."
       },
       "multitenant": {
         "title": "Multi-tenant",
-        "description": "Multi-tenant architecture with complete data isolation, ideal for SaaS and multiple wineries."
+        "description": "Architettura multi-tenant con isolamento completo dei dati, ideale per SaaS e più aziende vinicole."
       },
       "commercial": {
-        "title": "Commercial Management",
-        "description": "Sales (quotes, orders, price tables), purchases, customers, and suppliers integrated."
+        "title": "Gestione commerciale",
+        "description": "Vendite (preventivi, ordini, tabelle prezzi), acquisti, clienti e fornitori integrati."
       },
       "financial": {
-        "title": "Complete Financial",
-        "description": "Accounts payable/receivable, cash flow, complete financial control integrated with sales and purchases."
+        "title": "Finanziario completo",
+        "description": "Contabilità fornitori/crediti, flusso di cassa, controllo finanziario completo integrato con vendite e acquisti."
       },
       "fiscalNotes": {
         "title": "Fiscal Notes",
-        "description": "Fiscal note issuance with Webmania integration, fiscal control, and regulatory compliance."
+        "description": "Emissione di note fiscali con integrazione Webmania, controllo fiscale e conformità normativa."
       },
       "sivibe": {
         "title": "SIVIBE",
-        "description": "Wine and Beverage Information System - Regulatory declarations (Law 7.678/1988) with deadline alerts."
+        "description": "Sistema Informativo Vino e Bevande - Dichiarazioni normative (Legge 7.678/1988) con avvisi di scadenza."
       },
       "envin": {
         "title": "ENVIN",
-        "description": "Compliance module for ENVIN declarations, ensuring complete regulatory compliance."
+        "description": "Modulo di conformità per le dichiarazioni ENVIN, garantendo la completa conformità normativa."
       },
       "enotourism": {
         "title": "Wine Tourism",
-        "description": "Exclusive module for wine tourism management: appointments, tastings, visits, experiences, and reservations."
+        "description": "Modulo esclusivo per la gestione dell'enoturismo: appuntamenti, degustazioni, visite, esperienze e prenotazioni."
       },
       "stockControl": {
         "title": "Stock Control",
-        "description": "Complete stock management with inventory, movements, inputs, and labeling control."
+        "description": "Gestione completa delle scorte con controllo dell'inventario, dei movimenti, degli input e dell'etichettatura."
       },
       "stockLabeling": {
-        "title": "Stock and Labeling",
-        "description": "Complete stock control, movements, labeling, and QR tags for traceability."
+        "title": "Magazzino ed etichettatura",
+        "description": "Controllo completo delle scorte, movimenti, etichettatura e tag QR per la tracciabilità."
       },
       "traceability": {
         "title": "Total Traceability",
-        "description": "Complete traceability by lot, plot, variety, and terroir from vineyard to bottle."
+        "description": "Tracciabilità completa per lotto, appezzamento, varietà e terroir, dal vigneto alla bottiglia."
       },
       "reports": {
-        "title": "Reports and Analytics",
-        "description": "Complete reports on production, sales, financial, and analyses with data export."
+        "title": "Report e analisi",
+        "description": "Report completi su produzione, vendite, finanziari e analisi con esportazione dei dati."
       }
     }
   },
   "mobile": {
     "badge": "Bacco-Campo",
-    "title": "Complete Management Directly from the Vineyard",
-    "description": "Take the power of Bacco ERP to the field with <strong>Bacco-Campo</strong>. With the Android app, your team can execute all operations directly in the vineyard, with or without internet connection. Automatic synchronization when connection is available.",
-    "downloadAndroid": "Download for Android",
+    "title": "Gestione Completa Direttamente dal Vigneto",
+    "description": "Porta sul campo la potenza di Bacco ERP con <strong>Bacco-Campo</strong>. Con l'app Android il tuo team potrà eseguire tutte le operazioni direttamente in vigneto, con o senza connessione internet. Sincronizzazione automatica quando la connessione è disponibile.",
+    "downloadAndroid": "Scarica per Android",
     "features": {
       "lotManagement": {
-        "title": "Lot Management in the Field",
-        "description": "Track and manage all production lots directly from the vineyard with real-time information."
+        "title": "Gestione dei lotti sul campo",
+        "description": "Traccia e gestisci tutti i lotti di produzione direttamente dal vigneto con informazioni in tempo reale."
       },
       "taskExecution": {
         "title": "Task Execution",
-        "description": "Execute and record management tasks: pruning, fertilization, phytosanitary treatments, and harvest."
+        "description": "Eseguire e registrare le attività di gestione: potatura, fertilizzazione, trattamenti fitosanitari e raccolta."
       },
       "grapeReception": {
         "title": "Grape Reception",
-        "description": "Record grape entry in the field with weighing, quality analyses, and immediate classification."
+        "description": "Registra l'ingresso dell'uva nel campo con pesatura, analisi di qualità e classificazione immediata."
       },
       "fieldQualification": {
         "title": "Field Qualification",
-        "description": "Evaluate health, maturity, and quality of grapes directly in the vineyard before harvest."
+        "description": "Valutare la salute, la maturità e la qualità delle uve direttamente in vigna prima della raccolta."
       },
       "geolocation": {
         "title": "Geolocation",
-        "description": "All activities are recorded with GPS location for complete traceability."
+        "description": "Tutte le attività sono registrate con posizione GPS per una completa tracciabilità."
       },
       "offlineMode": {
         "title": "Offline Mode",
-        "description": "Work without connection and automatically synchronize when internet is available."
+        "description": "Lavora senza connessione e sincronizza automaticamente quando Internet è disponibile."
       }
     },
     "benefits": {
@@ -218,12 +218,12 @@
     },
     "inAction": {
       "badge": "Bacco-Campo in Action",
-      "title": "See the App in Action",
-      "subtitle": "Intuitive and modern interface to manage all vineyard operations in the palm of your hand"
+      "title": "Guarda l'app in azione",
+      "subtitle": "Interfaccia intuitiva e moderna per gestire tutte le operazioni del vigneto nel palmo della tua mano"
     },
     "screenshots": {
       "dashboard": {
-        "title": "Dashboard",
+        "title": "Pannello di controllo",
         "description": "Overview of activities"
       },
       "grapeReception": {
@@ -232,11 +232,11 @@
       },
       "receptionDetails": {
         "title": "Reception Details",
-        "description": "Complete harvest information"
+        "description": "Informazioni complete sulla raccolta"
       },
       "tasks": {
         "title": "Tasks",
-        "description": "Vineyard activity management"
+        "description": "Gestione delle attività del vigneto"
       },
       "executions": {
         "title": "Executions",
@@ -245,33 +245,33 @@
     },
     "downloadDialog": {
       "title": "Download Bacco-Campo",
-      "description": "Follow the instructions below to install the Bacco-Campo app on your Android device",
+      "description": "Segui le istruzioni riportate di seguito per installare l'app Bacco-Campo sul tuo dispositivo Android",
       "mobileDetected": {
         "title": "Mobile Device Detected",
-        "description": "Click the button below to download the app directly",
+        "description": "Clicca il pulsante qui sotto per scaricare direttamente l'app",
         "downloadAPK": "Download APK"
       },
       "qrCode": {
         "title": "Scan QR Code",
-        "description": "Scan this code with your phone camera to download the app"
+        "description": "Scansiona questo codice con la fotocamera del tuo telefono per scaricare l'app"
       },
       "instructions": {
         "title": "Installation Instructions",
         "android8": {
-          "title": "For Android 8.0 (API level 26) or higher:",
-          "text": "You must navigate to the system settings screen \"Install unknown apps\" to enable app installations from a specific location (i.e., the web browser from which you are downloading the app)."
+          "title": "Per Android 8.0 (livello API 26) o versioni successive:",
+          "text": "È necessario accedere alla schermata delle impostazioni di sistema \"Installa app sconosciute\" per abilitare le installazioni delle app da una posizione specifica (ad esempio, il browser Web da cui stai scaricando l'app)."
         },
         "android7": {
-          "title": "For Android 7.1.1 (API level 25) or lower:",
-          "text": "You must enable the system setting \"Unknown sources\", found in Settings > Security on your device."
+          "title": "Per Android 7.1.1 (livello API 25) o versioni precedenti:",
+          "text": "È necessario abilitare l'impostazione di sistema \"Origini sconosciute\", che si trova in Impostazioni > Sicurezza sul tuo dispositivo."
         }
       },
       "afterInstall": {
         "title": "After installation",
         "items": [
           "Use your Bacco ERP system credentials to log in",
-          "Configure the server if necessary",
-          "Synchronize your data and start working in the field"
+          "Configurare il server, se necessario",
+          "Sincronizza i tuoi dati e inizia a lavorare sul campo"
         ]
       },
       "openDownloadLink": "Open Download Link",
@@ -285,165 +285,165 @@
   },
   "comanda": {
     "badge": "Bacco-Comanda",
-    "title": "Complete POS for Wine Tourism and Restaurants",
-    "description": "<strong>Bacco-Comanda</strong> is a complete point of sale (POS) system integrated with Bacco ERP, developed specifically for wineries, restaurants, and wine tourism establishments. Manage tables, orders, payments, and sales simply and efficiently.",
+    "title": "POS completo per Enoturismo e Ristoranti",
+    "description": "<strong>Bacco-Comanda</strong> è un sistema di punti vendita (POS) completo integrato con Bacco ERP, sviluppato appositamente per cantine, ristoranti e strutture enoturistiche. Gestisci tabelle, ordini, pagamenti e vendite in modo semplice ed efficiente.",
     "features": {
       "tableManagement": {
-        "title": "Table Management",
-        "description": "Complete control of tables, occupancy, table merging and splitting for restaurants and wine tourism."
+        "title": "Gestione tavoli",
+        "description": "Controllo completo di tavoli, occupazione, fusione e suddivisione dei tavoli per ristoranti ed enoturismo."
       },
       "digitalOrders": {
         "title": "Digital Orders",
-        "description": "Complete order system with multiple items, services, and real-time status control."
+        "description": "Sistema di ordini completo con più articoli, servizi e controllo dello stato in tempo reale."
       },
       "paymentMethods": {
         "title": "Multiple Payment Methods",
-        "description": "Cash, card, PIX, card machine integration, and automatic change control."
+        "description": "Integrazione di contanti, carte, PIX, macchine per carte e controllo automatico del resto."
       },
       "cashManagement": {
-        "title": "Cash Management",
-        "description": "Cash opening and closing, cash withdrawal control, sales reports, and daily closing."
+        "title": "Gestione della cassa",
+        "description": "Apertura e chiusura contante, controllo prelievo contante, report vendite e chiusura giornaliera."
       },
       "customers": {
-        "title": "Customers and History",
-        "description": "Customer registration, purchase history, and loyalty integrated with the commercial module."
+        "title": "Clienti e storia",
+        "description": "Registrazione clienti, storico acquisti e fidelizzazione integrati con il modulo commerciale."
       },
       "reports": {
         "title": "Real-time Reports",
-        "description": "Dashboard with daily sales, best-selling products, average ticket, and performance analysis."
+        "description": "Dashboard con vendite giornaliere, prodotti più venduti, ticket medio e analisi delle prestazioni."
       }
     },
     "benefits": {
-      "integrated": "Integrated with ERP",
+      "integrated": "Integrato con ERP",
       "intuitive": "Intuitive interface"
     },
     "inAction": {
       "badge": "Bacco-Comanda in Action",
-      "title": "Modern and Functional Interface",
-      "subtitle": "Complete POS system with table, order, and payment management integrated"
+      "title": "Interfaccia moderna e funzionale",
+      "subtitle": "Sistema POS completo con gestione integrata di tabelle, ordini e pagamenti"
     },
     "screenshots": {
       "cashOpen": {
         "title": "Cash Opening",
-        "description": "Complete control of cash opening and closing with initial values"
+        "description": "Controllo completo dell'apertura e chiusura della cassa con valori iniziali"
       },
       "tables": {
-        "title": "Table Management",
-        "description": "View and manage all tables, open orders, and occupancy status"
+        "title": "Gestione tavoli",
+        "description": "Visualizza e gestisci tutti i tavoli, gli ordini aperti e lo stato di occupazione"
       }
     }
   },
   "screenshots": {
-    "title": "Get to Know the System Inside",
-    "subtitle": "Explore the main features of Bacco ERP through real system screenshots.",
+    "title": "Conosci il sistema interno",
+    "subtitle": "Esplora le principali funzionalità di Bacco ERP attraverso screenshot reali del sistema.",
     "items": {
       "dashboard": {
-        "title": "Dashboard",
-        "description": "Complete view of your operation with real-time metrics, activity charts, and production status"
+        "title": "Pannello di controllo",
+        "description": "Visualizzazione completa delle tue operazioni con parametri in tempo reale, grafici delle attività e stato della produzione"
       },
       "vineyards": {
-        "title": "Vineyard Management",
-        "description": "Complete control of vineyards and plots with detailed information on area, soil, and irrigation"
+        "title": "Gestione del vigneto",
+        "description": "Controllo completo di vigneti e appezzamenti con informazioni dettagliate su zona, terreno e irrigazione"
       },
       "calendarAI": {
-        "title": "AI Management Calendar",
-        "description": "Artificial Intelligence suggests management practices based on vineyard region, with automatic alerts and recommendations"
+        "title": "Calendario di gestione dell'intelligenza artificiale",
+        "description": "L'intelligenza artificiale suggerisce pratiche di gestione in base alla regione del vigneto, con avvisi e raccomandazioni automatici"
       },
       "flows": {
         "title": "Winemaking Flows",
-        "description": "Visual winemaking flow editor with creation of custom processes for any type of wine"
+        "description": "Editor visivo del flusso di vinificazione con creazione di processi personalizzati per qualsiasi tipologia di vino"
       },
       "lots": {
         "title": "Production Lots",
-        "description": "Complete tracking of winemaking lots with status, analyses, and detailed history"
+        "description": "Tracciamento completo dei lotti di vinificazione con stato, analisi e storico dettagliato"
       },
       "pdv": {
         "title": "Bacco-Comanda (POS)",
-        "description": "Complete point of sale system with table, order, and payment management for wine tourism"
+        "description": "Sistema completo di punti vendita con gestione tavoli, ordini e pagamenti per l'enoturismo"
       },
       "pdvTables": {
-        "title": "POS - Table Management",
-        "description": "Visual control of tables and orders with real-time status for efficient service"
+        "title": "POS - Gestione tavoli",
+        "description": "Controllo visivo di tabelle e ordini con stato in tempo reale per un servizio efficiente"
       },
       "enotourism": {
         "title": "Wine Tourism - Reservations",
-        "description": "Exclusive module for managing appointments, tastings, and visits with complete experience control"
+        "description": "Modulo esclusivo per la gestione di appuntamenti, degustazioni e visite con il controllo completo dell'esperienza"
       },
       "compliance": {
         "title": "Compliance - SIVIBE",
-        "description": "Management of mandatory SIVIBE declarations with deadline alerts and regulatory compliance control"
+        "description": "Gestione delle dichiarazioni obbligatorie SIVIBE con avvisi di scadenza e controllo della conformità normativa"
       },
       "financial": {
         "title": "Financial",
-        "description": "Complete control of accounts payable and receivable, cash flow, and integrated financial management"
+        "description": "Controllo completo della contabilità fornitori e clienti, del flusso di cassa e della gestione finanziaria integrata"
       },
       "vineyardDetails": {
         "title": "Vineyard Details",
-        "description": "Complete view of plots with varieties, rootstocks, clones, and training systems"
+        "description": "Visione completa degli appezzamenti con varietà, portinnesti, cloni e forme di allevamento"
       },
       "newParcel": {
         "title": "Plot Registration",
-        "description": "Complete form for plot registration with planting and spacing technical data"
+        "description": "Modulo completo per la registrazione degli appezzamenti con dati tecnici di semina e sestimenti"
       },
       "newVineyard": {
         "title": "Vineyard Registration",
-        "description": "Registration of new vineyards with geolocation, altitude, slope, and soil characteristics"
+        "description": "Registrazione di nuovi vigneti con geolocalizzazione, altitudine, pendenza e caratteristiche del terreno"
       },
       "varieties": {
         "title": "Grape Varieties",
-        "description": "Complete catalog of varieties with origin, color, ripening cycle, and status"
+        "description": "Catalogo completo delle varietà con origine, colore, ciclo di maturazione e stato"
       },
       "newVariety": {
         "title": "Variety Registration",
-        "description": "Add new grape varieties with origin, color, and cycle information"
+        "description": "Aggiungi nuove varietà di uva con informazioni su origine, colore e ciclo"
       },
       "handling": {
-        "title": "Management Tasks",
-        "description": "Plan and track management tasks with filters by vineyard, status, and category"
+        "title": "Compiti di gestione",
+        "description": "Pianifica e monitora le attività di gestione con filtri per vigneto, stato e categoria"
       },
       "newTask": {
-        "title": "New Management Task",
-        "description": "Create custom tasks or use standard tasks with scheduling and responsible parties"
+        "title": "Nuovo compito di gestione",
+        "description": "Crea attività personalizzate o utilizza attività standard con pianificazione e parti responsabili"
       }
     }
   },
   "process": {
-    "title": "From Vineyard to Bottle",
-    "subtitle": "Track the entire production process with total control and complete traceability at each stage.",
+    "title": "Dalla vigna alla bottiglia",
+    "subtitle": "Traccia l'intero processo produttivo con un controllo totale e una completa tracciabilità in ogni fase.",
     "steps": {
       "vineyard": {
         "number": "01",
-        "title": "Vineyard Management",
-        "description": "Complete control of vineyards and plots, with registration of varieties, planted area, spacing, and management history. Plan and track all field activities."
+        "title": "Gestione del vigneto",
+        "description": "Controllo completo di vigneti e appezzamenti, con registrazione di varietà, superficie vitata, spaziatura e cronologia di gestione. Pianifica e monitora tutte le attività sul campo."
       },
       "harvest": {
         "number": "02",
-        "title": "Harvest and Reception",
-        "description": "Record entry of own and third-party grapes with complete analyses: BRIX, pH, total acidity, and temperature. Traceability from origin."
+        "title": "Raccolta e ricevimento",
+        "description": "Inserimento record di uve proprie e di terzi con analisi complete: BRIX, pH, acidità totale e temperatura. Tracciabilità dall'origine."
       },
       "vinification": {
         "number": "03",
         "title": "Winemaking",
-        "description": "Track each stage of the process: destemming, pressing, fermentation, racking. Control temperature and density in real-time with automatic alerts."
+        "description": "Traccia ogni fase del processo: diraspatura, pressatura, fermentazione, svinatura. Controlla la temperatura e la densità in tempo reale con avvisi automatici."
       },
       "bottling": {
         "number": "04",
-        "title": "Bottling and Distribution",
-        "description": "Complete lot management, laboratory analyses, and traceability to final product. Quality control at each stage."
+        "title": "Imbottigliamento e Distribuzione",
+        "description": "Gestione completa dei lotti, analisi di laboratorio e tracciabilità del prodotto finale. Controllo di qualità in ogni fase."
       }
     }
   },
   "differentials": {
     "badge": "Why Bacco?",
     "title": "Bacco ERP Advantages Over Existing Systems",
-    "subtitle": "Bacco was designed to revolutionize winery management, offering specific, modern tools fully aligned with the practical needs of wine producers in Brazil.",
+    "subtitle": "Bacco è stato progettato per rivoluzionare la gestione della cantina, offrendo strumenti specifici e moderni completamente in linea con le esigenze pratiche dei produttori di vino in Brasile.",
     "items": {
       "visualFlow": {
-        "title": "Graphic and Interactive Winemaking Flow",
+        "title": "Flusso di vinificazione grafico e interattivo",
         "badge": "Pioneer in Brazil",
-        "description": "First Brazilian ERP with visual winemaking flow editor. Create, customize, and simulate processes with nodes, connections, and conditional logic between stages.",
+        "description": "Primo ERP brasiliano con editor visivo del flusso di vinificazione. Crea, personalizza e simula processi con nodi, connessioni e logica condizionale tra le fasi.",
         "highlights": [
-          "Model processes for red, white, rosé, sparkling, or alternative wines",
+          "Processi modello per vini rossi, bianchi, rosati, spumanti o alternativi",
           "Create custom flows connecting all production stages",
           "Reuse flows across multiple simultaneous lots",
           "Real-time view of winemaking status in graphic format"
@@ -452,57 +452,57 @@
       "ai": {
         "title": "Integrated Artificial Intelligence",
         "badge": "Advanced AI",
-        "description": "Intelligent system that not only records but actively acts in the production process with AI in multiple modules.",
+        "description": "Sistema intelligente che non solo registra ma agisce attivamente nel processo di produzione con l'intelligenza artificiale in più moduli.",
         "highlights": [
-          "Winemaking AI: suggests corrections and optimizes processes based on analyses",
-          "Climate AI: climate analysis with forecasts and automatic recommendations",
-          "AI Management Calendar: suggestions based on vineyard region",
+          "Winemaking AI: suggerisce correzioni e ottimizza i processi sulla base delle analisi",
+          "Climate AI: analisi del clima con previsioni e raccomandazioni automatiche",
+          "Calendario di gestione AI: suggerimenti in base alla regione del vigneto",
           "Rules engine: resolves operations based on YAN, density, or pH"
         ]
       },
       "integrated": {
-        "title": "Complete Integrated Management",
+        "title": "Gestione integrata completa",
         "badge": "All in One",
-        "description": "From vineyard to bottling in a single platform. Eliminate spreadsheets and fragmented external systems.",
+        "description": "Dalla vigna all'imbottigliamento in un'unica piattaforma. Elimina fogli di calcolo e sistemi esterni frammentati.",
         "highlights": [
-          "Viticulture: planting, management, harvest, and vineyard analyses",
-          "Enology: flows, analyses, tanks, and barrels",
-          "Terroir and traceability by lot, plot, and variety",
-          "Complete stock and enological input control"
+          "Viticoltura: impianto, gestione, vendemmia e analisi del vigneto",
+          "Enologia: flussi, analisi, vasche e botti",
+          "Terroir e tracciabilità per lotto, appezzamento e varietà",
+          "Controllo completo delle scorte e degli input enologici"
         ]
       },
       "traceability": {
-        "title": "Technical Data and Total Traceability",
+        "title": "Dati tecnici e tracciabilità totale",
         "badge": "Absolute Control",
-        "description": "Total control of technical variables with detailed history for auditing, certifications, and export.",
+        "description": "Controllo totale delle variabili tecniche con storico dettagliato per audit, certificazioni ed esportazione.",
         "highlights": [
-          "Monitoring of Brix, temperature, density, and fermentation",
-          "Record of treatments, rackings, and temperature by tank",
-          "Complete history integrated with the lot end-to-end",
-          "Ready for certifications and international export"
+          "Monitoraggio del grado Brix, della temperatura, della densità e della fermentazione",
+          "Registrazione dei trattamenti, dei travasi e della temperatura per vasca",
+          "Storico completo integrato con il lotto end-to-end",
+          "Pronti per certificazioni ed esportazione internazionale"
         ]
       },
       "brazilian": {
-        "title": "Multilingual and Global",
+        "title": "Multilingue e globale",
         "badge": "Global Ready",
-        "description": "Developed in Brazil, but prepared for the world. Available in Portuguese, English, Spanish, and Italian. Complete support for local practices and international standards.",
+        "description": "Sviluppato in Brasile, ma preparato per il mondo. Disponibile in portoghese, inglese, spagnolo e italiano. Supporto completo per pratiche locali e standard internazionali.",
         "highlights": [
-          "Interface available in 7 languages: PT, EN, ES, IT",
-          "Support for varieties and practices from different regions",
-          "Adapted to MAPA, NCM, and SIF rules (Brazil)",
-          "Ready for export and international certification",
+          "Interfaccia disponibile in 7 lingue: PT, EN, ES, IT",
+          "Sostegno a varietà e pratiche provenienti da diverse regioni",
+          "Adattato alle regole MAPA, NCM e SIF (Brasile)",
+          "Pronti per l'export e la certificazione internazionale",
           "Professional translations, not just superficial"
         ]
       },
       "architecture": {
-        "title": "Modern and Scalable Architecture",
+        "title": "Architettura moderna e scalabile",
         "badge": "Cutting-edge Technology",
-        "description": "Built with the most modern technologies on the market, ready to grow with your business.",
+        "description": "Costruito con le più moderne tecnologie presenti sul mercato, pronto a crescere con il tuo business.",
         "highlights": [
           "React + Node + Kubernetes + Redis + PostgreSQL",
-          "Multi-tenant ideal for SaaS",
-          "API ready for IoT and tank automation",
-          "Different from legacy systems with limitations and closed architecture"
+          "Multi-tenant ideale per SaaS",
+          "API pronta per l'IoT e l'automazione dei serbatoi",
+          "Diverso dai sistemi legacy con limitazioni e architettura chiusa"
         ]
       }
     },
@@ -514,22 +514,22 @@
         "unique": {
           "badge": "#1 in Brazil",
           "title": "Unique Exclusive Brazilian ERP",
-          "description": "<strong>Developed exclusively for wineries</strong> - not an adaptation of a generic system. Born to meet the specific needs of the Brazilian market."
+          "description": "<strong>Sviluppato esclusivamente per le cantine</strong> - non un adattamento di un sistema generico. Nato per soddisfare le esigenze specifiche del mercato brasiliano."
         },
         "editor": {
           "badge": "Innovation",
           "title": "Visual Editor + Integrated AI",
-          "description": "First Brazilian platform with <strong>interactive visual editor</strong> for winemaking flows and <strong>integrated Artificial Intelligence</strong> in multiple modules."
+          "description": "Prima piattaforma brasiliana con <strong>editor visivo interattivo</strong> per i flussi di vinificazione e <strong>Intelligenza Artificiale integrata</strong> in più moduli."
         },
         "unification": {
           "badge": "Total Integration",
-          "title": "Complete Unification",
-          "description": "First solution that <strong>unifies viticulture, winemaking, wine tourism, and quality control</strong> with artificial intelligence in a single platform."
+          "title": "Unificazione completa",
+          "description": "Prima soluzione che <strong>unifica viticoltura, vinificazione, enoturismo e controllo qualità</strong> con l'intelligenza artificiale in un'unica piattaforma."
         },
         "aiModules": {
           "badge": "Advanced AI",
           "title": "AI in Multiple Modules",
-          "description": "First ERP for wineries with <strong>AI in multiple modules</strong>: winemaking, climate, and management calendar. System that learns and continuously optimizes."
+          "description": "Primo ERP per aziende vinicole con <strong>AI in più moduli</strong>: vinificazione, clima e calendario gestionale. Sistema che apprende e ottimizza continuamente."
         }
       },
       "mission": {
@@ -541,14 +541,14 @@
   "comparison": {
     "badge": "Comparison",
     "title": "Bacco vs Global ERPs: Why We Are Superior",
-    "subtitle": "Direct comparison with the main international solutions. See where Bacco really stands out.",
+    "subtitle": "Confronto diretto con le principali soluzioni internazionali. Scopri dove Bacco si distingue davvero.",
     "bacco": "Bacco ERP",
     "baccoBadge": "Brazilian",
     "competitors": "Global ERPs",
     "competitorsList": "Vintrace, AMS Winery, Vinsight, SAP Business One, Other Global ERPs",
     "feature": "Feature",
-    "available": "Available",
-    "notAvailable": "Not Available",
+    "available": "Disponibile",
+    "notAvailable": "Non disponibile",
     "partial": "Partial",
     "variable": "Variable",
     "high": "High",
@@ -556,15 +556,15 @@
     "highlights": {
       "ai": {
         "title": "Pioneer AI",
-        "description": "First Brazilian ERP with Artificial Intelligence integrated in multiple modules. Global ERPs don't offer AI specific to winemaking."
+        "description": "Primo ERP brasiliano con Intelligenza Artificiale integrata in più moduli. Gli ERP globali non offrono un’intelligenza artificiale specifica per la vinificazione."
       },
       "compliance": {
         "title": "Brazilian Compliance",
-        "description": "SIVIBE and ENVIN natively integrated. Global ERPs require expensive and complex customizations to meet Brazilian regulations."
+        "description": "SIVIBE ed ENVIN integrati nativamente. Gli ERP globali richiedono personalizzazioni costose e complesse per soddisfare le normative brasiliane."
       },
       "enotourism": {
         "title": "Exclusive Wine Tourism",
-        "description": "Complete wine tourism module that global ERPs don't have. Appointment, tasting, and experience management integrated with the ERP."
+        "description": "Modulo completo per l'enoturismo che gli ERP globali non hanno. Gestione appuntamenti, degustazioni ed esperienze integrata con l'ERP."
       }
     },
     "cta": {
@@ -578,89 +578,89 @@
     "items": {
       "specialization": {
         "category": "Specialization",
-        "feature": "Developed exclusively for Brazilian wineries",
+        "feature": "Sviluppato esclusivamente per le cantine brasiliane",
         "description": "Only Brazilian ERP born to serve wineries, not an adaptation of a generic system"
       },
       "ai": {
         "category": "Artificial Intelligence",
         "feature": "AI integrated in multiple modules",
-        "description": "Winemaking AI, Climate AI, and Management Calendar AI - pioneer in Brazil"
+        "description": "AI per la vinificazione, per il clima e per il calendario di gestione: pionieri in Brasile"
       },
       "visualEditor": {
         "category": "Visual Editor",
-        "feature": "Graphic editor for winemaking flows",
-        "description": "First Brazilian ERP with interactive visual editor N8N style to create custom flows"
+        "feature": "Editor grafico per i flussi di vinificazione",
+        "description": "Primo ERP brasiliano con editor visuale interattivo stile N8N per creare flussi personalizzati"
       },
       "compliance": {
         "category": "Brazilian Compliance",
-        "feature": "SIVIBE and ENVIN integrated",
-        "description": "Total compliance with Brazilian regulations (Law 7.678/1988) and mandatory declarations"
+        "feature": "SIVIBE ed ENVIN integrati",
+        "description": "Totale rispetto della normativa brasiliana (Legge 7.678/1988) e delle dichiarazioni obbligatorie"
       },
       "enotourism": {
         "category": "Wine Tourism",
         "feature": "Exclusive wine tourism module",
-        "description": "Complete management of appointments, tastings, visits, and experiences"
+        "description": "Gestione completa di appuntamenti, degustazioni, visite ed esperienze"
       },
       "mobileApps": {
         "category": "Mobile Apps",
-        "feature": "Native Bacco-Campo and Bacco-Comanda",
-        "description": "Native mobile apps for field (vineyard management) and POS (point of sale)"
+        "feature": "Nativi Bacco-Campo e Bacco-Comanda",
+        "description": "App mobili native per campo (gestione del vigneto) e POS (punto vendita)"
       },
       "support": {
-        "category": "Support",
-        "feature": "Support in Portuguese with knowledge of the Brazilian market",
-        "description": "Brazilian team that understands the particularities of the market and national legislation"
+        "category": "Supporto",
+        "feature": "Supporto in portoghese con conoscenza del mercato brasiliano",
+        "description": "Squadra brasiliana che comprende le particolarità del mercato e della legislazione nazionale"
       },
       "technology": {
         "category": "Technology",
         "feature": "Modern architecture (React, Node, Kubernetes)",
-        "description": "Modern technology stack vs legacy systems with limitations"
+        "description": "Stack tecnologico moderno rispetto ai sistemi legacy con limitazioni"
       },
       "cost": {
         "category": "Cost",
-        "feature": "Affordable price for Brazilian wineries",
+        "feature": "Prezzo conveniente per le aziende vinicole brasiliane",
         "description": "Solution developed in Brazil, without international licensing costs"
       },
       "traceability": {
         "category": "Traceability",
-        "feature": "Complete traceability from vineyard to bottle",
-        "description": "Both offer, but Bacco with specific focus on Brazilian practices and varieties"
+        "feature": "Tracciabilità completa dal vigneto alla bottiglia",
+        "description": "Entrambi offrono, ma Bacco con un focus specifico sulle pratiche e le varietà brasiliane"
       },
       "vineyardManagement": {
-        "category": "Vineyard Management",
+        "category": "Gestione del vigneto",
         "feature": "Detailed control adapted to Brazil",
         "description": "Brazilian varieties, specific regions, local practices vs generic solutions"
       },
       "integration": {
         "category": "Integration",
-        "feature": "Complete integration from vineyard to POS",
-        "description": "Everything integrated: viticulture, winemaking, stock, commercial, financial, wine tourism, and POS"
+        "feature": "Integrazione completa dal vigneto al punto vendita",
+        "description": "Tutto integrato: viticoltura, vinificazione, allevamento, commerciale, finanziario, enoturismo e POS"
       }
     }
   },
   "benefits": {
     "title": "Why Choose Bacco?",
-    "subtitle": "Transform your winery management with cutting-edge technology and total production control.",
+    "subtitle": "Trasforma la gestione della tua cantina con tecnologia all'avanguardia e controllo totale della produzione.",
     "items": {
       "traceability": {
         "stat": "100%",
         "label": "Total Traceability",
-        "description": "From vineyard to bottle, track each stage of production"
+        "description": "Dal vigneto alla bottiglia, monitora ogni fase della produzione"
       },
       "realtime": {
         "stat": "Real-time",
         "label": "Real-time Monitoring",
-        "description": "Automatic alerts for temperature, density, and analyses"
+        "description": "Avvisi automatici per temperatura, densità e analisi"
       },
       "integrated": {
         "stat": "360°",
-        "label": "Integrated Management",
-        "description": "Vineyard, production, laboratory, and quality in one place"
+        "label": "Gestione integrata",
+        "description": "Vigneto, produzione, laboratorio e qualità in un unico luogo"
       },
       "reports": {
         "stat": "24/7",
         "label": "Smart Reports",
-        "description": "Dashboards and indicators for decision making"
+        "description": "Cruscotti e indicatori per il processo decisionale"
       }
     }
   },
@@ -668,66 +668,66 @@
     "history": {
       "badge": "History",
       "title": "A Bit of History",
-      "subtitle": "A journey that unites technology and passion for wine",
+      "subtitle": "Un viaggio che unisce tecnologia e passione per il vino",
       "timeline": {
         "nineties": {
           "period": "90s",
-          "title": "Clipper and DBASE",
+          "title": "Clipper e DBASE",
           "description": "Line by line programming"
         },
         "devops": {
           "period": "2015+",
-          "title": "DevOps and Cloud",
-          "description": "Automation and scalability"
+          "title": "DevOps e cloud",
+          "description": "Automazione e scalabilità"
         },
         "sommelier": {
           "period": "2023",
           "title": "Sommelier Course",
-          "description": "Passion for wine"
+          "description": "Passione per il vino"
         },
         "enology": {
           "period": "2025",
           "title": "Enology College",
-          "description": "Science and sensitivity"
+          "description": "Scienza e sensibilità"
         }
       },
       "text": {
-        "p1": "My journey in technology began long before cloud, containers, and DevOps. In the 90s, I was already exploring the world of code with Clipper and DBASE, when programming was an almost manual art — done line by line, with patience and curiosity.",
-        "p2": "Over time, I evolved along with languages and tools: I went through Visual Basic, where I learned to bring graphical interfaces to life, and later dove headfirst into the world of Python and Node.js with TypeScript, building APIs, SaaS systems, and scalable solutions.",
-        "p3": "Starting in 2015, I took on a new passion within technology: DevOps. That's when I began integrating development with infrastructure, automating pipelines, orchestrating containers, and making the deployment cycle something continuous, secure, and predictable. <strong>This transition taught me something I carry to this day: a system is alive, and like every organism, it needs balance, care, and constant evolution.</strong>",
-        "p4": "But, outside of code, there's another part of me that also seeks this balance: wine. Over 20 years ago, it entered my life — first as curiosity, then as passion. In 2023, I completed the sommelier course and, inspired by friend Elisson Manfroi, started the hobby of \"winemaker\", producing my own wines in an artisanal way.",
-        "p5": "This year, I decided to go further and started enology college, uniting science and sensitivity to understand every detail of the winemaking process.",
-        "quote": "\"Today, these two passions — technology and wine — walk together. Between pipelines and barrels, I found my space: transforming knowledge into tools that empower those who live from grapes and wine.\""
+        "p1": "Il mio viaggio nella tecnologia è iniziato molto prima del cloud, dei contenitori e di DevOps. Già negli anni ’90 esploravo il mondo del codice con Clipper e DBASE, quando la programmazione era un’arte quasi manuale, fatta riga per riga, con pazienza e curiosità.",
+        "p2": "Nel tempo mi sono evoluto insieme ai linguaggi e agli strumenti: sono passato a Visual Basic, dove ho imparato a dare vita alle interfacce grafiche, e successivamente mi sono tuffato a capofitto nel mondo di Python e Node.js con TypeScript, costruendo API, sistemi SaaS e soluzioni scalabili.",
+        "p3": "A partire dal 2015 ho colto una nuova passione nell'ambito della tecnologia: DevOps. È stato allora che ho iniziato a integrare lo sviluppo con l'infrastruttura, automatizzando le pipeline, orchestrando i container e rendendo il ciclo di distribuzione qualcosa di continuo, sicuro e prevedibile. <strong>Questa transizione mi ha insegnato qualcosa che porto avanti ancora oggi: un sistema è vivo e, come ogni organismo, ha bisogno di equilibrio, cura ed evoluzione costante.</strong>",
+        "p4": "Ma, fuori dal codice, c'è anche un'altra parte di me che cerca questo equilibrio: il vino. Oltre 20 anni fa è entrata nella mia vita, prima come curiosità, poi come passione. Nel 2023 ho completato il corso da sommelier e, ispirato dall'amico Elisson Manfroi, ho iniziato l'hobby di \"enologo\", producendo i miei vini in modo artigianale.",
+        "p5": "Quest’anno ho deciso di andare oltre e ho iniziato la facoltà di enologia, unendo scienza e sensibilità per comprendere ogni dettaglio del processo di vinificazione.",
+        "quote": "\"Oggi queste due passioni, tecnologia e vino, camminano insieme. Tra condutture e botti, ho trovato il mio spazio: trasformare la conoscenza in strumenti che danno potere a chi vive dell'uva e del vino.\""
       }
     },
     "origin": {
       "badge": "Origin",
-      "title": "The Origin of Bacco",
-      "subtitle": "How the idea of creating an exclusive ERP for wineries was born",
+      "title": "L'origine di Bacco",
+      "subtitle": "Come è nata l'idea di creare un ERP esclusivo per le aziende vinicole",
       "text": {
-        "p1": "The idea of Bacco was born from a real need: while I was producing my own wines in an artisanal way, I realized that there was no management system in the Brazilian market that really understood the particularities of wine production in Brazil.",
-        "p2": "The available systems were, for the most part, adaptations of generic ERPs or superficial translations of foreign software that did not contemplate Brazilian grape varieties, local practices, MAPA regulations, or the specific needs of small and medium wineries.",
-        "p3": "That's when I decided to unite my two passions — technology and wine — to create something unique: an ERP developed from scratch, designed exclusively for Brazilian wineries, but with international standards of quality and traceability.",
-        "p4": "Bacco is not just software. It is the result of years of experience in system development, technical knowledge in enology, and a deep understanding of the real needs of those who produce wine in Brazil.",
-        "extra1": "More than software, Bacco represents a vision for the future of Brazilian wine — modern, authentic, and made with soul. A system that understands that each lot has a story, each fermentation a rhythm, and each wine an identity.",
-        "extra2": "Bacco is not just an ERP. It is the result of decades of experience in technology meeting a passion for wine. It is the tool I wish existed when I started studying enology."
+        "p1": "L'idea di Bacco è nata da un'esigenza reale: mentre producevo i miei vini in modo artigianale, mi sono reso conto che non esisteva nel mercato brasiliano un sistema di gestione che comprendesse veramente le particolarità della produzione vinicola in Brasile.",
+        "p2": "I sistemi disponibili erano, per la maggior parte, adattamenti di ERP generici o traduzioni superficiali di software straniero che non contemplavano i vitigni brasiliani, le pratiche locali, le normative MAPA o le esigenze specifiche delle piccole e medie aziende vinicole.",
+        "p3": "È stato allora che ho deciso di unire le mie due passioni, tecnologia e vino, per creare qualcosa di unico: un ERP sviluppato da zero, progettato esclusivamente per le cantine brasiliane, ma con standard internazionali di qualità e tracciabilità.",
+        "p4": "Bacco non è solo software. È il risultato di anni di esperienza nello sviluppo di sistemi, conoscenze tecniche in ambito enologico e una profonda comprensione delle reali esigenze di chi produce vino in Brasile.",
+        "extra1": "Più che un software, Bacco rappresenta una visione per il futuro del vino brasiliano: moderno, autentico e fatto con l'anima. Un sistema che comprende che ogni lotto ha una storia, ogni fermentazione un ritmo e ogni vino un'identità.",
+        "extra2": "Bacco non è solo un ERP. È il risultato di decenni di esperienza nella tecnologia che incontrano la passione per il vino. È lo strumento che avrei voluto esistesse quando ho iniziato a studiare enologia."
       },
       "whyBacco": {
         "title": "Why Bacco?",
-        "description": "Bacco is a tribute to Bacchus, the Roman god of wine, harvest, and fertility. We chose this reference not only for the connection with wine, but also for the symbolism: Bacchus represents transformation, celebration, and the union between nature and culture — values that perfectly reflect the essence of our system."
+        "description": "Bacco è un omaggio a Bacco, il dio romano del vino, del raccolto e della fertilità. Abbiamo scelto questo riferimento non solo per il legame con il vino, ma anche per il simbolismo: Bacco rappresenta la trasformazione, la celebrazione e l'unione tra natura e cultura, valori che riflettono perfettamente l'essenza del nostro sistema."
       }
     }
   },
   "cta": {
-    "title": "Ready to Transform Your Winery?",
-    "subtitle": "Contact us and discover how Bacco can revolutionize your production management.",
+    "title": "Parla con uno Specialista del Tuo Paese",
+    "subtitle": "Il nostro team ti aiuta a validare la compliance e definire il flusso ideale per il tuo mercato.",
     "whatsapp": "WhatsApp",
     "email": "Email",
     "phone": "+55 48 99128-6399",
     "emailAddress": "lussandro@gmail.com"
   },
   "footer": {
-    "description": "Complete management system for wineries. From vineyard to bottle.",
+    "description": "Sistema gestionale completo per aziende vinicole. Dalla vigna alla bottiglia.",
     "product": {
       "title": "Product",
       "features": "Features",
@@ -735,11 +735,11 @@
       "benefits": "Benefits"
     },
     "company": {
-      "title": "Company",
-      "about": "About",
-      "contact": "Contact",
-      "terms": "Terms of Use",
-      "privacy": "Privacy Policy"
+      "title": "Azienda",
+      "about": "Chi siamo",
+      "contact": "Contatto",
+      "terms": "Termini di Utilizzo",
+      "privacy": "Informativa sulla Privacy"
     },
     "support": {
       "title": "Supporto",
@@ -758,13 +758,13 @@
     "copyright": "© 2025 Bacco ERP. Tutti i diritti riservati."
   },
   "contact": {
-    "title": "Get in Touch",
-    "subtitle": "Have questions or want to know more about Bacco? We are here to help.",
-    "talkToUs": "Talk to us",
-    "description": "Contact us to schedule a demo, ask questions, or learn more about Bacco ERP.",
+    "title": "Mettiti in Contatto",
+    "subtitle": "Hai domande o vuoi saperne di più su Bacco? Siamo qui per aiutarti.",
+    "talkToUs": "Parla con noi",
+    "description": "Contattaci per pianificare una demo, fare domande o scoprire di più su Bacco ERP.",
     "email": "Email",
-    "phone": "Phone",
-    "location": "Location",
+    "phone": "Telefono",
+    "location": "Località",
     "address": "Florianópolis, SC",
     "form": {
       "name": "Full name *",
@@ -782,86 +782,86 @@
   },
   "mission": {
     "title": "Our Mission",
-    "text": "Empower Brazilian wineries with top-tier technology, providing a complete and intelligent system that follows every stage of vitiviniculture — from vineyard to bottle — with full traceability, accurate analyses, and integrated management, allowing producers of all sizes to make data-driven decisions and raise the quality of their wines to international standards.",
+    "text": "Dotare le aziende vinicole brasiliane di una tecnologia di alto livello, fornendo un sistema completo e intelligente che segue ogni fase della vitivinicoltura, dal vigneto alla bottiglia, con tracciabilità completa, analisi accurate e gestione integrata, consentendo ai produttori di tutte le dimensioni di prendere decisioni basate sui dati e aumentare la qualità dei loro vini fino agli standard internazionali.",
     "visionTitle": "Our Vision",
-    "visionText": "To be recognized as the reference ERP for the Brazilian and Latin American wine sector, transforming how wineries manage production by uniting tradition and innovation, contributing to the growth and professionalization of the national wine industry and positioning Brazil as a leader in enology technology.",
+    "visionText": "Essere riconosciuto come ERP di riferimento per il settore vitivinicolo brasiliano e latinoamericano, trasformando il modo in cui le aziende vinicole gestiscono la produzione unendo tradizione e innovazione, contribuendo alla crescita e alla professionalizzazione dell’industria vinicola nazionale e posizionando il Brasile come leader nella tecnologia enologica.",
     "valuesTitle": "Our Values",
-    "valuesSubtitle": "Principles that guide every line of code and every decision we make",
+    "valuesSubtitle": "Principi che guidano ogni riga di codice e ogni decisione che prendiamo",
     "values": {
       "passion": {
-        "title": "Passion for Wine",
-        "description": "We develop with love and respect for the art of winemaking, understanding that each lot tells a unique story."
+        "title": "Passione per il vino",
+        "description": "Sviluppiamo con amore e rispetto per l'arte della vinificazione, comprendendo che ogni lotto racconta una storia unica."
       },
       "excellence": {
         "title": "Technical Excellence",
-        "description": "Committed to clean code, modern architecture, and best development practices to deliver superior quality."
+        "description": "Impegno nel codice pulito, nell'architettura moderna e nelle migliori pratiche di sviluppo per offrire una qualità superiore."
       },
       "innovation": {
         "title": "Thoughtful Innovation",
-        "description": "We constantly seek new solutions while respecting tradition and the particularities of the wine sector."
+        "description": "Cerchiamo costantemente nuove soluzioni nel rispetto della tradizione e delle particolarità del settore vitivinicolo."
       },
       "sustainability": {
         "title": "Sustainability",
-        "description": "We value sustainable practices and help wineries optimize resources, reduce waste, and care for the terroir."
+        "description": "Apprezziamo le pratiche sostenibili e aiutiamo le aziende vinicole a ottimizzare le risorse, ridurre gli sprechi e prendersi cura del terroir."
       },
       "transparency": {
         "title": "Transparency",
-        "description": "Total traceability is not only for wine — it is also for our relationship with clients, based on honesty and clarity."
+        "description": "La tracciabilità totale non riguarda solo il vino, ma anche il nostro rapporto con i clienti, basato su onestà e chiarezza."
       },
       "proximity": {
         "title": "Closeness",
-        "description": "Developed by those who understand wine for those who live from wine, always keeping an open dialogue with our clients."
+        "description": "Sviluppato da chi capisce il vino per chi vive di vino, mantenendo sempre un dialogo aperto con i nostri clienti."
       },
       "evolution": {
         "title": "Continuous Evolution",
-        "description": "Like a good wine, we are always maturing — improving, learning, and evolving together with our clients."
+        "description": "Come un buon vino, maturiamo continuamente: miglioriamo, impariamo ed evolviamo insieme ai nostri clienti."
       },
       "accessibility": {
         "title": "Accessibility",
-        "description": "We believe that quality technology should be within reach of wineries of all sizes, from artisanal to industrial."
+        "description": "Crediamo che la tecnologia di qualità debba essere alla portata delle aziende vinicole di tutte le dimensioni, da quelle artigianali a quelle industriali."
       }
     }
   },
   "terms": {
-    "title": "Terms of Use",
+    "title": "Termini di utilizzo",
     "updated": "Last updated: October 30, 2025",
     "back": "Back to site",
     "contactPhone": "Phone",
     "contactAddress": "Address",
     "accept": {
       "title": "Acceptance of Terms",
-      "text": "By accessing and using Bacco ERP, you agree to these Terms of Use. If you do not agree with any part of these terms, do not use our system."
+      "text": "Accedendo e utilizzando Bacco ERP, accetti le presenti Condizioni d'uso. Se non sei d'accordo con qualsiasi parte di questi termini, non utilizzare il nostro sistema."
     },
     "service": {
       "title": "Service Description",
-      "text": "Bacco ERP is a winery management system offering end-to-end control from vineyard to bottle, including:",
+      "text": "Bacco ERP è un sistema di gestione della cantina che offre un controllo end-to-end dal vigneto alla bottiglia, tra cui:",
       "items": [
-        "Vineyard and plot management",
-        "Management task control",
-        "Intake of own and third-party grapes",
-        "Winemaking lots and full process flow",
-        "Must temperature and density control",
-        "Laboratory analysis management"
+        "Gestione del vigneto e dell'appezzamento",
+        "Controllo delle attività gestionali",
+        "Conferimento di uve proprie e di terzi",
+        "Lotti di vinificazione e flusso completo del processo",
+        "Controllo della temperatura e della densità del mosto",
+        "Gestione analisi di laboratorio"
       ]
     },
     "account": {
       "title": "User Account",
       "text": "To use Bacco ERP, you must:",
       "items": [
-        "Provide true, accurate, and complete information during registration",
+        "Fornire informazioni veritiere, accurate e complete durante la registrazione",
         "Keep your credentials confidential",
         "Notify us immediately of any unauthorized use",
-        "Be responsible for all activities under your account"
+        "Sii responsabile di tutte le attività del tuo account"
       ]
     },
     "lgpd": {
       "title": "Data Protection (LGPD)",
-      "text": "In accordance with the Brazilian LGPD, Bacco ERP commits to:",
+      "text": "In conformità alla LGPD brasiliana, Bacco ERP si impegna a:",
       "items": [
-        "Collect only data necessary to deliver the service",
-        "Use data exclusively for the informed purposes",
-        "Implement technical and administrative security measures",
-        "Not share personal data with third parties without consent",
+        "Raccogliere solo i dati necessari per erogare il servizio",
+        "Utilizzare i dati esclusivamente per scopi informati",
+        "Attuare misure di sicurezza tecniche e amministrative",
+        "Non condividere i dati personali con terzi senza consenso",
         "Respect all data subject rights"
       ]
     },
@@ -883,25 +883,25 @@
       "title": "Acceptable Use",
       "text": "You agree NOT to:",
       "items": [
-        "Use the system for illegal or unauthorized purposes",
+        "Utilizzare il sistema per scopi illegali o non autorizzati",
         "Attempt to access restricted areas",
-        "Interfere with or disrupt system operation",
-        "Copy, modify, or distribute the software without authorization",
-        "Reverse engineer the system",
-        "Use the system to harm third parties"
+        "Interferire o interrompere il funzionamento del sistema",
+        "Copiare, modificare o distribuire il software senza autorizzazione",
+        "Effettuare il reverse engineering del sistema",
+        "Utilizzare il sistema per danneggiare terzi"
       ]
     },
     "ip": {
       "title": "Intellectual Property",
-      "text": "All content, design, source code, logos, and materials of Bacco ERP are protected. You receive only a limited use license; no ownership rights are transferred."
+      "text": "Tutti i contenuti, il design, il codice sorgente, i loghi e i materiali di Bacco ERP sono protetti. Ricevi solo una licenza d'uso limitata; nessun diritto di proprietà viene trasferito."
     },
     "availability": {
       "title": "Service Availability",
-      "text": "We strive for 24/7 availability but do not guarantee uninterrupted or error-free service. We may perform scheduled maintenance with prior notice when possible."
+      "text": "Puntiamo alla disponibilità 24 ore su 24, 7 giorni su 7, ma non garantiamo un servizio ininterrotto o privo di errori. Potremmo eseguire la manutenzione programmata con preavviso quando possibile."
     },
     "liability": {
       "title": "Limitation of Liability",
-      "text": "Bacco ERP is not liable for indirect, incidental, special, or consequential damages resulting from use or inability to use the system. We recommend maintaining regular backups of your data."
+      "text": "Bacco ERP non è responsabile per danni indiretti, incidentali, speciali o consequenziali derivanti dall'uso o dall'impossibilità di utilizzare il sistema. Ti consigliamo di mantenere backup regolari dei tuoi dati."
     },
     "changes": {
       "title": "Changes to Terms",
@@ -913,11 +913,11 @@
     },
     "law": {
       "title": "Governing Law",
-      "text": "These Terms are governed by the laws of Brazil. Any disputes will be submitted to the courts of Florianópolis, Santa Catarina."
+      "text": "I presenti Termini sono regolati dalle leggi del Brasile. Eventuali controversie saranno sottoposte ai tribunali di Florianópolis, Santa Catarina."
     },
     "contact": {
       "title": "Contact",
-      "text": "For questions about these Terms or data processing, contact:"
+      "text": "Per domande sui presenti Termini o sul trattamento dei dati, contattare:"
     }
   },
   "aiAlerts": {
@@ -954,64 +954,64 @@
     "cta": "Gli avvisi IA di Bacco ti aiutano a prendere decisioni proattive, prevenire problemi e ottimizzare ogni fase della produzione."
   },
   "privacy": {
-    "title": "Privacy Policy",
+    "title": "politica sulla riservatezza",
     "updated": "Last updated: October 30, 2025",
     "back": "Back to site",
     "sections": [
       {
         "heading": "1. Introduction",
         "paragraphs": [
-          "This Privacy Policy explains how Bacco ERP collects, uses, stores, and protects your personal data.",
-          "By using the system, you agree to this policy. If you do not agree, do not use the service."
+          "La presente Informativa sulla privacy spiega come Bacco ERP raccoglie, utilizza, archivia e protegge i tuoi dati personali.",
+          "Utilizzando il sistema, accetti questa politica. Se non sei d'accordo, non utilizzare il servizio."
         ]
       },
       {
         "heading": "2. Data Collected",
         "paragraphs": [
-          "We may collect the following information:"
+          "Potremmo raccogliere le seguenti informazioni:"
         ],
         "list": [
           "Identification data (name, email, phone)",
           "Company/winery data (name, address)",
           "System usage data (logs, technical metrics)",
-          "Data needed for management, compliance, and traceability features"
+          "Dati necessari per le funzionalità di gestione, conformità e tracciabilità"
         ]
       },
       {
         "heading": "3. Purpose of Processing",
         "paragraphs": [
-          "Data is used to deliver and improve the service, meet legal obligations (including SIVIBE/ENVIN), and ensure security and traceability.",
+          "I dati vengono utilizzati per fornire e migliorare il servizio, soddisfare gli obblighi legali (incluso SIVIBE/ENVIN) e garantire sicurezza e tracciabilità.",
           "We never sell your data."
         ]
       },
       {
         "heading": "4. Data Sharing",
         "paragraphs": [
-          "We may share data with essential service providers (infrastructure, email, billing) under confidentiality and only for the contracted purpose.",
-          "We do not share data with third parties for marketing."
+          "Possiamo condividere i dati con i fornitori di servizi essenziali (infrastruttura, posta elettronica, fatturazione) in modo confidenziale e solo per lo scopo contrattato.",
+          "Non condividiamo i dati con terze parti per scopi di marketing."
         ]
       },
       {
         "heading": "5. Security",
         "paragraphs": [
-          "We adopt technical and organizational measures to protect your data, including access control, in-transit encryption, and monitoring.",
-          "No system is 100% secure; use strong passwords and 2FA where applicable."
+          "Adottiamo misure tecniche e organizzative per proteggere i tuoi dati, inclusi il controllo degli accessi, la crittografia in transito e il monitoraggio.",
+          "Nessun sistema è sicuro al 100%; utilizzare password complesse e 2FA ove applicabile."
         ]
       },
       {
         "heading": "6. Retention",
         "paragraphs": [
-          "We keep data only as long as necessary to fulfill this policy and legal obligations.",
+          "Conserviamo i dati solo per il tempo necessario ad adempiere a questa politica e agli obblighi legali.",
           "After that period, data is anonymized or securely deleted."
         ]
       },
       {
         "heading": "7. Data Subject Rights",
         "paragraphs": [
-          "You may exercise your rights under LGPD, including access, correction, deletion, and portability."
+          "Puoi esercitare i tuoi diritti previsti dalla LGPD, inclusi accesso, correzione, cancellazione e portabilità."
         ],
         "list": [
-          "Request confirmation and access",
+          "Richiedi conferma e accesso",
           "Correct or update",
           "Request deletion or anonymization",
           "Withdraw consent",
@@ -1021,13 +1021,13 @@
       {
         "heading": "8. Cookies",
         "paragraphs": [
-          "We use cookies for authentication, security, and experience improvement. You can adjust preferences in your browser."
+          "Utilizziamo i cookie per l'autenticazione, la sicurezza e il miglioramento dell'esperienza. Puoi regolare le preferenze nel tuo browser."
         ]
       },
       {
         "heading": "9. Contact",
         "paragraphs": [
-          "For privacy questions or requests, contact:",
+          "Per domande o richieste sulla privacy, contattare:",
           "Email: lussandro@gmail.com | Phone: +55 48 99128-6399"
         ]
       }
@@ -1115,6 +1115,9 @@
             "ENVIN",
             "MAPA",
             "NF-e"
+          ],
+          "gaps": [
+            "-"
           ]
         },
         "argentina": {
@@ -1124,6 +1127,9 @@
             "SENASA",
             "INV",
             "Norme provinciali"
+          ],
+          "gaps": [
+            "-"
           ]
         },
         "chile": {
@@ -1133,6 +1139,9 @@
             "SAG",
             "Norme locali",
             "DO cilene"
+          ],
+          "gaps": [
+            "-"
           ]
         },
         "uruguay": {
@@ -1142,6 +1151,9 @@
             "INAVI",
             "Norme locali",
             "Export"
+          ],
+          "gaps": [
+            "-"
           ]
         },
         "italy": {
@@ -1151,6 +1163,9 @@
             "DOC/DOCG",
             "IGT",
             "Norme UE (SIAN)"
+          ],
+          "gaps": [
+            "-"
           ]
         },
         "spain": {
@@ -1160,6 +1175,9 @@
             "DO/DOCa",
             "SII (fiscale)",
             "Norme UE"
+          ],
+          "gaps": [
+            "Flussi fiscali e report locali in rollout progressivo"
           ]
         },
         "france": {
@@ -1169,6 +1187,9 @@
             "AOC/AOP",
             "Norme UE",
             "Tracciabilita per lotto"
+          ],
+          "gaps": [
+            "Flussi fiscali e report locali in rollout progressivo"
           ]
         },
         "germany": {
@@ -1178,8 +1199,20 @@
             "Weingesetz",
             "Norme UE",
             "Dichiarazioni fiscali"
+          ],
+          "gaps": [
+            "Modulo normativo locale in roadmap"
           ]
         }
+      },
+      "cta": {
+        "primary": "Prenota demo con specialista",
+        "secondary": "Vedi flusso di compliance"
+      },
+      "tooltip": {
+        "label": "Vedi dettagli di copertura",
+        "coveredTitle": "Coperto oggi",
+        "gapsTitle": "In evoluzione"
       }
     }
   },
@@ -1194,7 +1227,7 @@
       },
       "countries": {
         "question": "In quali paesi e disponibile Bacco?",
-        "answer": "Bacco e disponibile a livello globale. Sviluppato in Brasile, il sistema e stato progettato per servire cantine ovunque nel mondo, con supporto per pratiche locali, normative specifiche e traduzioni professionali in 7 lingue."
+        "answer": "Bacco è disponibile a livello globale. Sviluppato in Brasile, il sistema e stato progettato per servire cantine ovunque nel mondo, con supporto per pratiche locali, normative specifiche e traduzioni professionali in 7 lingue."
       },
       "languages": {
         "question": "Quali lingue sono supportate?",
@@ -1206,7 +1239,7 @@
       },
       "support": {
         "question": "Come funziona il supporto tecnico?",
-        "answer": "Offriamo supporto dedicato con profonda conoscenza del mercato vinicolo. Il nostro team comprende sia la tecnologia che l'enologia, garantendo assistenza specializzata per le tue esigenze."
+        "answer": "Supporto Offriamo dedicato con profonda conoscenza del mercato vinicolo. Il nostro team comprende sia la tecnologia che l'enologia, garantendo assistenza specializzata per le tue esigenze."
       },
       "aiDifferential": {
         "question": "Qual e il differenziale dell'Intelligenza Artificiale?",
@@ -1218,7 +1251,7 @@
       },
       "howToStart": {
         "question": "Come iniziare a usare Bacco?",
-        "answer": "E semplice! Richiedi una demo gratuita tramite il nostro sito o WhatsApp. Il nostro team presentera il sistema, comprendera le tue esigenze e configurera tutto per iniziare rapidamente. L'onboarding include formazione e supporto alla migrazione dei dati."
+        "answer": "E semplice! Richiedi una demo gratuita tramite il nostro sito o WhatsApp. Il nostro team presenterà il sistema, comprenderà le tue esigenze e configurerà tutto per iniziare rapidamente. L'onboarding include formazione e supporto alla migrazione dei dati."
       },
       "pricing": {
         "question": "Quanto costa Bacco ERP?",
@@ -1335,7 +1368,7 @@
     "grapes": {
       "badge": "Varieta di Uva",
       "title": "65+ Varieta Pre-registrate",
-      "subtitle": "Tutte le varieta coltivate in Brasile sono gia nel sistema, con informazioni tecniche complete su origine, ciclo e caratteristiche.",
+      "subtitle": "Tutte le varietà coltivate in Brasile sono già nel sistema, con informazioni tecniche complete su origine, ciclo e caratteristiche.",
       "items": {
         "tannat": {
           "name": "Tannat",
@@ -1443,7 +1476,7 @@
     "hero": {
       "badge": "Per Argentina",
       "title": "ERP Completo per Cantine Argentine",
-      "subtitle": "Compliance totale con SENASA, INV e regolamentazioni locali. Supporto nativo per Peso Argentino, regioni vinicole e varieta argentine.",
+      "subtitle": "Conformità totale con SENASA, INV e regolamentazioni locali. Supporto nativo per Peso Argentino, regioni vinicole e varietà argentine.",
       "ctaDemo": "Richiedi Demo Gratuita",
       "ctaFeatures": "Vedi Funzionalita"
     },
@@ -1476,7 +1509,7 @@
     },
     "regions": {
       "badge": "Regioni Vinicole",
-      "title": "Supporto Completo alle Regioni Vinicole Argentine",
+      "title": "Supporto Completo alle Regioni Vinicole Argentina",
       "subtitle": "Bacco conosce le particolarita di ogni terroir argentino, offrendo suggerimenti di gestione e vinificazione adattati a ogni regione.",
       "items": {
         "mendoza": {
@@ -1534,7 +1567,7 @@
     "grapes": {
       "badge": "Varieta di Uva",
       "title": "Varieta Argentine Pre-registrate",
-      "subtitle": "Tutte le varieta coltivate in Argentina sono gia nel sistema, con informazioni tecniche complete su origine, ciclo e caratteristiche.",
+      "subtitle": "Tutte le varietà coltivate in Argentina sono già nel sistema, con informazioni tecniche complete su origine, ciclo e caratteristiche.",
       "items": {
         "malbec": {
           "name": "Malbec",
@@ -1577,7 +1610,7 @@
     },
     "currency": {
       "badge": "Valuta Locale",
-      "title": "Supporto Nativo per Peso Argentino",
+      "title": "Supporto nativo per peso argentino",
       "subtitle": "Bacco ERP supporta nativamente il Peso Argentino (ARS), facilitando la gestione finanziaria delle cantine argentine.",
       "peso": {
         "title": "Peso Argentino (ARS)",
@@ -1761,7 +1794,7 @@
     "grapes": {
       "badge": "Varieta di Uva",
       "title": "Varieta Autoctone Italiane",
-      "subtitle": "L'Italia ha piu di 500 varieta autoctone. Bacco supporta tutte le principali varieta italiane con informazioni tecniche complete.",
+      "subtitle": "L'Italia ha più di 500 varietà autoctone. Bacco supporta tutte le principali varietà italiane con informazioni tecniche complete.",
       "items": {
         "sangiovese": {
           "name": "Sangiovese",
@@ -1788,7 +1821,7 @@
           "type": "Rossa - Potenza del Sud"
         }
       },
-      "total": "Supporto per tutte le varieta autoctone e internazionali coltivate in Italia",
+      "total": "Supporto per tutte le varietà autoctone e internazionali coltivate in Italia",
       "stats": {
         "varieties": "Varieta autoctone",
         "regions": "Regioni vinicole"
@@ -1797,7 +1830,7 @@
     "currency": {
       "badge": "Euro e Integrazioni UE",
       "title": "Preparato per il Mercato Europeo",
-      "subtitle": "Supporto nativo all'Euro e conformita totale con le normative dell'Unione Europea per il commercio e l'esportazione di vini.",
+      "subtitle": "Supporto nativo all'Euro e conforme totale con le normative dell'Unione Europea per il commercio e l'esportazione di vini.",
       "items": {
         "euCompliance": {
           "badge": "Compliance",
@@ -1832,7 +1865,7 @@
     "regulatory": {
       "badge": "In Arrivo",
       "title": "Documentazione Normativa",
-      "subtitle": "Materiale completo di supporto per la conformita con le normative italiane ed europee del settore vinicolo.",
+      "subtitle": "Materiale completo di supporto per la conformità con le normative italiane ed europee del settore vinicolo.",
       "items": {
         "guides": {
           "title": "Guide alla Conformita",
@@ -1948,7 +1981,7 @@
     "grapes": {
       "badge": "Varieta di Uva",
       "title": "Varieta Cilene Pre-registrate",
-      "subtitle": "Tutte le varieta coltivate in Cile sono gia nel sistema, con informazioni tecniche complete su origine, ciclo e caratteristiche.",
+      "subtitle": "Tutte le varietà coltivate in Cile sono già nel sistema, con informazioni tecniche complete su origine, ciclo e caratteristiche.",
       "items": {
         "carmenere": {
           "name": "Carmenere",
@@ -2133,7 +2166,7 @@
     "grapes": {
       "badge": "Varieta di Uva",
       "title": "Varieta Uruguaiane Pre-registrate",
-      "subtitle": "Tutte le varieta coltivate in Uruguay sono gia nel sistema, con informazioni tecniche complete su origine, ciclo e caratteristiche.",
+      "subtitle": "Tutte le varietà coltivate in Uruguay sono già nel sistema, con informazioni tecniche complete su origine, ciclo e caratteristiche.",
       "items": {
         "tannat": {
           "name": "Tannat",

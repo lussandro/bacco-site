@@ -992,6 +992,9 @@
             "ENVIN",
             "MAPA",
             "NF-e"
+          ],
+          "gaps": [
+            "-"
           ]
         },
         "argentina": {
@@ -1001,6 +1004,9 @@
             "SENASA",
             "INV",
             "Regles provinciales"
+          ],
+          "gaps": [
+            "-"
           ]
         },
         "chile": {
@@ -1010,6 +1016,9 @@
             "SAG",
             "Regles locales",
             "Appellations chiliennes"
+          ],
+          "gaps": [
+            "-"
           ]
         },
         "uruguay": {
@@ -1019,6 +1028,9 @@
             "INAVI",
             "Regles locales",
             "Export"
+          ],
+          "gaps": [
+            "-"
           ]
         },
         "italy": {
@@ -1028,6 +1040,9 @@
             "DOC/DOCG",
             "IGT",
             "Regles UE (SIAN)"
+          ],
+          "gaps": [
+            "-"
           ]
         },
         "spain": {
@@ -1037,6 +1052,9 @@
             "DO/DOCa",
             "SII (fiscal)",
             "Regles UE"
+          ],
+          "gaps": [
+            "Flux fiscaux et rapports locaux en deploiement progressif"
           ]
         },
         "france": {
@@ -1046,6 +1064,9 @@
             "AOC/AOP",
             "Regles UE",
             "Tracabilite par lot"
+          ],
+          "gaps": [
+            "Flux fiscaux et rapports locaux en deploiement progressif"
           ]
         },
         "germany": {
@@ -1055,8 +1076,20 @@
             "Weingesetz",
             "Regles UE",
             "Declarations fiscales"
+          ],
+          "gaps": [
+            "Module reglementaire local sur la roadmap"
           ]
         }
+      },
+      "cta": {
+        "primary": "Planifier une demo avec specialiste",
+        "secondary": "Voir le flux de conformite"
+      },
+      "tooltip": {
+        "label": "Voir les details de couverture",
+        "coveredTitle": "Couvert aujourd'hui",
+        "gapsTitle": "En evolution"
       }
     }
   },
@@ -1064,8 +1097,8 @@
     "email": "E-mail",
     "emailAddress": "lussandro@gmail.com",
     "phone": "+55 48 99128-6399",
-    "subtitle": "Contactez-nous et découvrez comment Bacco peut révolutionner votre gestion de production.",
-    "title": "Prêt à transformer votre domaine viticole ?",
+    "subtitle": "Notre equipe vous aide a valider la conformite et a definir le flux ideal pour votre marche.",
+    "title": "Parlez avec un Specialiste de Votre Pays",
     "whatsapp": "WhatsApp"
   },
   "differentials": {
@@ -1357,7 +1390,7 @@
   "hero": {
     "badge": "Suite complète pour les domaines viticoles",
     "badgeMultilingual": "🌍 Disponible en 7 langues",
-    "ctaDemo": "Demander une démo gratuite",
+    "ctaDemo": "Planifier une Demo",
     "ctaSystem": "Voir le système en action",
     "description": "<strong>ERP complet pour les domaines viticoles avec support multilingue natif.</strong> Gérez chaque étape de la production de vin, de vin mousseux et de jus avec Bacco ERP. <strong>Disponible en portugais, anglais, espagnol et italien</strong> - traductions professionnelles, pas seulement superficielles. Traçabilité complète, surveillance en temps réel, intelligence artificielle intégrée et gestion unifiée. Comprend <strong>Bacco-Campo</strong> pour la gestion du vignoble et <strong>Bacco-Comanda</strong> pour les points de vente et l'œnotourisme.",
     "floatingCard": {

@@ -38,7 +38,7 @@
     "title": "Do Vinhedo à Garrafa: Controle Total da Sua Produção",
     "subtitle": "O único ERP brasileiro exclusivo para vinícolas, agora disponível globalmente",
     "description": "<strong>ERP completo para vinícolas com suporte multilíngue nativo.</strong> Gerencie cada etapa da produção de vinhos, espumantes e sucos com o Bacco ERP. <strong>Disponível em Português, Inglês, Espanhol e Italiano</strong> - traduções profissionais, não apenas superficiais. Rastreabilidade completa, monitoramento em tempo real, inteligência artificial integrada e gestão unificada. Inclui <strong>Bacco-Campo</strong> para gestão no vinhedo e <strong>Bacco-Comanda</strong> para PDV e enoturismo.",
-    "ctaDemo": "Solicitar Demonstração Gratuita",
+    "ctaDemo": "Agendar Demo",
     "ctaSystem": "Ver Sistema em Ação",
     "imageAlt": "Vinhedo moderno ao pôr do sol",
     "stats": {
@@ -707,7 +707,7 @@
       "text": {
         "p1": "A ideia do Bacco nasceu de uma necessidade real: enquanto eu produzia meus próprios vinhos de forma artesanal, percebi que não existia no mercado um sistema de gestão que realmente entendesse as particularidades da produção de vinhos.",
         "p2": "Os sistemas disponíveis eram, em sua maioria, adaptações de ERPs genéricos ou traduções superficiais de softwares estrangeiros que não contemplavam as variedades de uvas, práticas locais, regulamentações específicas ou as necessidades de pequenas e médias vinícolas.",
-        "p3": "Foi então que decidi unir minhas duas paixões — tecnologia e vinho — para criar algo único: um ERP desenvolvido do zero, pensado para vinícolas, mas com padrões internacionais de qualidade e rastreabilidade. Hoje, o Bacco está disponível em 7 idiomas (Português (Brasil), Português (Portugal), Inglês, Espanhol, Italiano, Francês e Alemão), atendendo vinícolas ao redor do mundo.",
+    "p3": "Foi então que decidi unir minhas duas paixões — tecnologia e vinho — para criar algo único: um ERP desenvolvido do zero, pensado para vinícolas, mas com padrões internacionais de qualidade e rastreabilidade. Hoje, o Bacco está disponível em 4 idiomas (Português, Inglês, Espanhol, Italiano), atendendo vinícolas ao redor do mundo.",
         "p4": "O Bacco não é apenas um software. É o resultado de anos de experiência em desenvolvimento de sistemas, conhecimento técnico em enologia e uma profunda compreensão das necessidades reais de quem produz vinho. Com suporte multilíngue, levamos essa solução para vinícolas em diferentes países.",
         "extra1": "Mais do que um software, o Bacco representa uma visão de futuro para o vinho brasileiro — moderna, autêntica e feita com alma. Um sistema que entende que cada lote tem uma história, cada fermentação um ritmo, e cada vinho uma identidade.",
         "extra2": "O Bacco não é apenas um ERP. É o resultado de décadas de experiência em tecnologia encontrando a paixão pelo vinho. É a ferramenta que eu gostaria que existisse quando comecei a estudar enologia."
@@ -719,8 +719,8 @@
     }
   },
   "cta": {
-    "title": "Pronto para Transformar Sua Vinícola?",
-    "subtitle": "Entre em contato conosco e descubra como o Bacco pode revolucionar a gestão da sua produção.",
+    "title": "Fale com um Especialista do Seu País",
+    "subtitle": "Nossa equipe ajuda você a validar compliance e montar o fluxo ideal para o seu mercado.",
     "whatsapp": "WhatsApp",
     "email": "E-mail",
     "phone": "+55 48 99128-6399",
@@ -1115,6 +1115,9 @@
             "ENVIN",
             "MAPA",
             "NF-e"
+          ],
+          "gaps": [
+            "-"
           ]
         },
         "argentina": {
@@ -1124,6 +1127,9 @@
             "SENASA",
             "INV",
             "Normas provinciais"
+          ],
+          "gaps": [
+            "-"
           ]
         },
         "chile": {
@@ -1133,6 +1139,9 @@
             "SAG",
             "Normas locais",
             "DO chilenas"
+          ],
+          "gaps": [
+            "-"
           ]
         },
         "uruguay": {
@@ -1142,6 +1151,9 @@
             "INAVI",
             "Normas locais",
             "Exportacao"
+          ],
+          "gaps": [
+            "-"
           ]
         },
         "italy": {
@@ -1151,6 +1163,9 @@
             "DOC/DOCG",
             "IGT",
             "Normas UE (SIAN)"
+          ],
+          "gaps": [
+            "-"
           ]
         },
         "spain": {
@@ -1160,6 +1175,9 @@
             "DO/DOCa",
             "SII (fiscal)",
             "Normas UE"
+          ],
+          "gaps": [
+            "Fluxos fiscais e relatorios locais em rollout progressivo"
           ]
         },
         "france": {
@@ -1169,6 +1187,9 @@
             "AOC/AOP",
             "Normas UE",
             "Rastreabilidade por lote"
+          ],
+          "gaps": [
+            "Fluxos fiscais e relatorios locais em rollout progressivo"
           ]
         },
         "germany": {
@@ -1178,8 +1199,20 @@
             "Weingesetz",
             "Normas UE",
             "Declaracoes fiscais"
+          ],
+          "gaps": [
+            "Modulo regulatorio local em roadmap"
           ]
         }
+      },
+      "cta": {
+        "primary": "Agendar demo com especialista",
+        "secondary": "Ver fluxo de compliance"
+      },
+      "tooltip": {
+        "label": "Ver detalhes de cobertura",
+        "coveredTitle": "Coberto hoje",
+        "gapsTitle": "Em evolução"
       }
     }
   },
