@@ -42,7 +42,7 @@
     "stats": {
       "traceable": "100%",
       "traceableLabel": "Rückverfolgbar",
-      "languages": "4",
+      "languages": "7",
       "languagesLabel": "Sprachen",
       "realtime": "Echtzeit",
       "realtimeLabel": "Überwachung",
@@ -53,7 +53,7 @@
       "title": "Total Control",
       "description": "Weinberg, Produktion und Qualität"
     },
-    "badgeMultilingual": "🌍 Verfügbar in 5 Sprachen",
+    "badgeMultilingual": "🌍 Verfügbar in 7 Sprachen",
     "subtitle": "Das einzige brasilianische ERP exklusiv für Weingüter, jetzt weltweit verfügbar",
     "trustBadges": {
       "brazilian": "100% Brasilianisch",
@@ -64,7 +64,7 @@
   },
   "internationalization": {
     "badge": "Internationalization",
-    "title": "Erhältlich in 5 Sprachen: Bereit für die Welt",
+    "title": "Erhältlich in 7 Sprachen: Bereit für die Welt",
     "subtitle": "Entwickelt in Brasilien, aber bereit für Weingüter überall auf dem Planeten. Professionelle Übersetzungen unter Wahrung der technischen Bedeutung und Systemspezialisierung.",
     "native": "Nativ",
     "professional": {
@@ -534,7 +534,7 @@
       },
       "mission": {
         "title": "Unsere Mission",
-        "text": "Die erste und einzige <span class=\"text-primary\">100% nationale</span> Lösung, die von Grund auf für Weingüter entwickelt wurde, mit <span class=\"text-primary\">mehrsprachiger Unterstützung</span> (PT, EN, ES, IT, DE), <span class=\"text-primary\">integrierter KI</span> und unübertroffener <span class=\"text-primary\">technischer Tiefe</span>."
+        "text": "Die erste und einzige <span class=\"text-primary\">100% nationale</span> Lösung, die von Grund auf für Weingüter entwickelt wurde, mit <span class=\"text-primary\">mehrsprachiger Unterstützung</span> (PT-BR, PT-PT, EN, ES, IT, FR, DE), <span class=\"text-primary\">integrierter KI</span> und unübertroffener <span class=\"text-primary\">technischer Tiefe</span>."
       }
     }
   },
@@ -569,9 +569,9 @@
     },
     "cta": {
       "title": "Komplettes ERP für Weingüter auf der ganzen Welt",
-      "description": "Developed in Brazil with international standards, Bacco was created from scratch thinking about the specific needs of wineries. Available in 4 languages (PT, EN, ES, IT, DE), it offers native specialization with global reach.",
-      "check1": "Developed in Brazil, available globally",
-      "check2": "Multilingual support (PT, EN, ES, IT, DE) with local knowledge",
+      "description": "In Brasilien nach internationalen Standards entwickelt, wurde Bacco von Grund auf fuer die spezifischen Anforderungen von Weinguetern geschaffen. Verfuegbar in 7 Sprachen (PT-BR, PT-PT, EN, ES, IT, FR, DE) und mit nativer Spezialisierung fuer den globalen Einsatz.",
+      "check1": "In Brasilien entwickelt, weltweit verfuegbar",
+      "check2": "Mehrsprachiger Support (PT-BR, PT-PT, EN, ES, IT, FR, DE) mit lokalem Know-how",
       "check3": "Affordable price without international licensing",
       "check4": "Modern technology vs legacy systems"
     },
@@ -1035,8 +1035,8 @@
   },
   "countries": {
     "badge": "Global Coverage",
-    "title": "Support for 5 Wine-Producing Countries",
-    "subtitle": "Bacco ERP was developed to meet the regulations and specific needs of each wine-producing country, with full compliance and native support.",
+    "title": "Unterstuetzung fuer 8 Weinmaerkte",
+    "subtitle": "Bacco ERP deckt regulatorische und operative Pflichten je Land ab, mit einer klaren Matrix fuer internationale Compliance.",
     "primary": "Primary Country",
     "items": {
       "brazil": {
@@ -1091,7 +1091,97 @@
       "compliance": "Regulatory Compliance",
       "languages": "Available Languages"
     },
-    "cta": "Regardless of where your winery is located, Bacco ERP offers complete support for local and international regulations."
+    "cta": "Regardless of where your winery is located, Bacco ERP offers complete support for local and international regulations.",
+    "obligations": {
+      "badge": "Compliance-Matrix",
+      "title": "Land x Abgedeckte Pflichten",
+      "subtitle": "Konsolidierte Sicht der von Bacco je Markt abgedeckten Pflichten.",
+      "columns": {
+        "country": "Land",
+        "obligations": "Abgedeckte Pflichten",
+        "status": "Abdeckung"
+      },
+      "status": {
+        "full": "Vollstaendig",
+        "partial": "Teilweise",
+        "planned": "Geplant"
+      },
+      "markets": {
+        "brazil": {
+          "label": "Brasilien",
+          "status": "full",
+          "items": [
+            "SIVIBE",
+            "ENVIN",
+            "MAPA",
+            "NF-e"
+          ]
+        },
+        "argentina": {
+          "label": "Argentinien",
+          "status": "full",
+          "items": [
+            "SENASA",
+            "INV",
+            "Provinzregeln"
+          ]
+        },
+        "chile": {
+          "label": "Chile",
+          "status": "full",
+          "items": [
+            "SAG",
+            "Lokale Regeln",
+            "Chilenische Herkunftsbezeichnungen"
+          ]
+        },
+        "uruguay": {
+          "label": "Uruguay",
+          "status": "full",
+          "items": [
+            "INAVI",
+            "Lokale Regeln",
+            "Export"
+          ]
+        },
+        "italy": {
+          "label": "Italien",
+          "status": "full",
+          "items": [
+            "DOC/DOCG",
+            "IGT",
+            "EU-Regeln (SIAN)"
+          ]
+        },
+        "spain": {
+          "label": "Spanien",
+          "status": "partial",
+          "items": [
+            "DO/DOCa",
+            "SII (Steuer)",
+            "EU-Regeln"
+          ]
+        },
+        "france": {
+          "label": "Frankreich",
+          "status": "partial",
+          "items": [
+            "AOC/AOP",
+            "EU-Regeln",
+            "Los-Rueckverfolgbarkeit"
+          ]
+        },
+        "germany": {
+          "label": "Deutschland",
+          "status": "planned",
+          "items": [
+            "Weingesetz",
+            "EU-Regeln",
+            "Steuererklaerungen"
+          ]
+        }
+      }
+    }
   },
   "faq": {
     "badge": "FAQ",
@@ -1103,12 +1193,12 @@
         "answer": "Bacco is a complete ERP system developed exclusively for wineries. It manages the entire production process, from vineyard to bottle, including vineyard management, winemaking, quality control, inventory, sales, finance, and wine tourism. It is the only Brazilian ERP 100% specialized in wineries."
       },
       "countries": {
-        "question": "In which countries is Bacco available?",
-        "answer": "Bacco is available globally. Developed in Brazil, the system was designed to serve wineries anywhere in the world, with support for local practices, specific regulations, and professional translations in 4 languages."
+        "question": "In welchen Laendern ist Bacco verfuegbar?",
+        "answer": "Bacco ist weltweit verfuegbar. Das in Brasilien entwickelte System wurde fuer Weingueter in jeder Region konzipiert, mit Unterstuetzung lokaler Praktiken, spezifischer Vorschriften und professionellen Uebersetzungen in 7 Sprachen."
       },
       "languages": {
-        "question": "What languages are supported?",
-        "answer": "Bacco is available in 4 languages: Portuguese (Brazil), English, Spanish, and Italian. All translations were professionally made, preserving the enological technical terminology and the specialized context of the wine sector."
+        "question": "Welche Sprachen werden unterstuetzt?",
+        "answer": "Bacco ist in 7 Sprachen verfuegbar: Portugiesisch (Brasilien), Portugiesisch (Portugal), Englisch, Spanisch, Italienisch, Franzoesisch und Deutsch. Alle Uebersetzungen wurden professionell erstellt und bewahren die oenologische Fachterminologie sowie den spezialisierten Kontext des Weinsektors."
       },
       "installation": {
         "question": "Does it require installation? How does it work?",

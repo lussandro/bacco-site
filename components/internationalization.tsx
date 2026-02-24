@@ -10,9 +10,11 @@ export function Internationalization() {
 
   const languages = [
     { code: "pt-BR", name: "Português (Brasil)", flag: "🇧🇷", native: true },
+    { code: "pt-PT", name: "Português (Portugal)", flag: "🇵🇹", native: false },
     { code: "en-US", name: "English (US)", flag: "🇺🇸", native: false },
     { code: "es-ES", name: "Español (España)", flag: "🇪🇸", native: false },
     { code: "it-IT", name: "Italiano (Italia)", flag: "🇮🇹", native: false },
+    { code: "fr-FR", name: "Français (France)", flag: "🇫🇷", native: false },
     { code: "de-DE", name: "Deutsch (Deutschland)", flag: "🇩🇪", native: false },
   ]
 

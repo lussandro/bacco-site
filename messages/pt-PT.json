@@ -43,7 +43,7 @@
         "extra2": "O Bacco não é apenas um ERP. É o resultado de décadas de experiência em tecnologia encontrando a paixão pelo vinho. É a ferramenta que eu gostaria que existisse quando comecei a estudar enologia.",
         "p1": "A ideia do Bacco nasceu de uma necessidade real: enquanto eu produzia meus próprios vinhos de forma artesanal, percebi que não existia no mercado um sistema de gestão que realmente entendesse as particularidades da produção de vinhos.",
         "p2": "Os sistemas disponíveis eram, em sua maioria, adaptações de ERPs genéricos ou traduções superficiais de softwares estrangeiros que não contemplavam as variedades de uvas, práticas locais, regulamentações específicas ou as necessidades de pequenas e médias adegas.",
-        "p3": "Foi então que decidi unir minhas duas paixões — tecnologia e vinho — para criar algo único: um ERP desenvolvido do zero, pensado para adegas, mas com padrões internacionais de qualidade e rastreabilidade. Hoje, o Bacco está disponível em 4 idiomas (Português, Inglês, Espanhol, Italiano), atendendo adegas ao redor do mundo.",
+        "p3": "Foi então que decidi unir minhas duas paixões — tecnologia e vinho — para criar algo único: um ERP desenvolvido do zero, pensado para adegas, mas com padrões internacionais de qualidade e rastreabilidade. Hoje, o Bacco está disponível em 7 idiomas (Português (Brasil), Português (Portugal), Inglês, Espanhol, Italiano, Francês e Alemão), atendendo adegas ao redor do mundo.",
         "p4": "O Bacco não é apenas um software. É o resultado de anos de experiência em desenvolvimento de sistemas, conhecimento técnico em enologia e uma profunda compreensão das necessidades reais de quem produz vinho. Com suporte multilíngue, levamos essa solução para adegas em diferentes países."
       },
       "title": "A Origem do Bacco",
@@ -796,10 +796,10 @@
     "competitorsList": "Vintrace, AMS Winery, Vinsight, SAP Business One, Outros ERPs Globais",
     "cta": {
       "check1": "Desenvolvido no Brasil, disponível globalmente",
-      "check2": "Suporte multilíngue (PT, EN, ES, IT) com conhecimento local",
+      "check2": "Suporte multilíngue (PT-BR, PT-PT, EN, ES, IT, FR, DE) com conhecimento local",
       "check3": "Preço acessível sem licenciamento internacional",
       "check4": "Tecnologia moderna vs sistemas legados",
-      "description": "Desenvolvido no Brasil com padrões internacionais, o Bacco foi criado do zero pensando nas necessidades específicas de adegas. Disponível em 4 idiomas (PT, EN, ES, IT), oferece especialização nativa com alcance global.",
+      "description": "Desenvolvido no Brasil com padrões internacionais, o Bacco foi criado do zero pensando nas necessidades específicas de adegas. Disponível em 7 idiomas (PT-BR, PT-PT, EN, ES, IT, FR, DE), oferece especialização nativa com alcance global.",
       "title": "ERP Completo para Adegas ao Redor do Mundo"
     },
     "feature": "Funcionalidade",
@@ -967,8 +967,98 @@
       "countries": "Paises Suportados",
       "languages": "Idiomas Disponiveis"
     },
-    "subtitle": "O Bacco ERP foi desenvolvido para atender as regulamentacoes e necessidades especificas de cada pais produtor de vinho, com compliance total e suporte nativo.",
-    "title": "Suporte a 5 Paises Vinicolas"
+    "subtitle": "O Bacco ERP cobre obrigacoes regulatorias e operacionais por pais, com uma matriz de cobertura para compliance internacional.",
+    "title": "Suporte a 8 Mercados Vitivinicolas",
+    "obligations": {
+      "badge": "Matriz de Compliance",
+      "title": "Pais x Obrigacoes Cobertas",
+      "subtitle": "Visao consolidada das obrigacoes que o Bacco cobre por mercado.",
+      "columns": {
+        "country": "Pais",
+        "obligations": "Obrigacoes Cobertas",
+        "status": "Cobertura"
+      },
+      "status": {
+        "full": "Completo",
+        "partial": "Parcial",
+        "planned": "Planeado"
+      },
+      "markets": {
+        "brazil": {
+          "label": "Brasil",
+          "status": "full",
+          "items": [
+            "SIVIBE",
+            "ENVIN",
+            "MAPA",
+            "NF-e"
+          ]
+        },
+        "argentina": {
+          "label": "Argentina",
+          "status": "full",
+          "items": [
+            "SENASA",
+            "INV",
+            "Normas provinciais"
+          ]
+        },
+        "chile": {
+          "label": "Chile",
+          "status": "full",
+          "items": [
+            "SAG",
+            "Normas locais",
+            "DO chilenas"
+          ]
+        },
+        "uruguay": {
+          "label": "Uruguai",
+          "status": "full",
+          "items": [
+            "INAVI",
+            "Normas locais",
+            "Exportacao"
+          ]
+        },
+        "italy": {
+          "label": "Italia",
+          "status": "full",
+          "items": [
+            "DOC/DOCG",
+            "IGT",
+            "Normas UE (SIAN)"
+          ]
+        },
+        "spain": {
+          "label": "Espanha",
+          "status": "partial",
+          "items": [
+            "DO/DOCa",
+            "SII (fiscal)",
+            "Normas UE"
+          ]
+        },
+        "france": {
+          "label": "Franca",
+          "status": "partial",
+          "items": [
+            "AOC/AOP",
+            "Normas UE",
+            "Rastreabilidade por lote"
+          ]
+        },
+        "germany": {
+          "label": "Alemanha",
+          "status": "planned",
+          "items": [
+            "Weingesetz",
+            "Normas UE",
+            "Declaracoes fiscais"
+          ]
+        }
+      }
+    }
   },
   "cta": {
     "email": "E-mail",
@@ -1007,7 +1097,7 @@
         "badge": "Global Ready",
         "description": "Desenvolvido no Brasil, mas preparado para o mundo. Disponível em Português, Inglês, Espanhol e Italiano. Suporte completo às práticas locais e padrões internacionais.",
         "highlights": [
-          "Interface disponível em 4 idiomas: PT, EN, ES, IT",
+          "Interface disponível em 7 idiomas: PT, EN, ES, IT",
           "Suporte a variedades e práticas de diferentes regiões",
           "Adaptado às regras do MAPA, NCM e SIF (Brasil)",
           "Preparado para exportação e certificação internacional",
@@ -1074,7 +1164,7 @@
         }
       },
       "mission": {
-        "text": "A primeira e única solução <span class=\"text-primary\">100% nacional</span> desenvolvida do zero para adegas, com <span class=\"text-primary\">suporte multilíngue</span> (PT, EN, ES, IT), <span class=\"text-primary\">IA integrada</span> e <span class=\"text-primary\">profundidade técnica</span> incomparável.",
+        "text": "A primeira e única solução <span class=\"text-primary\">100% nacional</span> desenvolvida do zero para adegas, com <span class=\"text-primary\">suporte multilíngue</span> (PT-BR, PT-PT, EN, ES, IT, FR, DE), <span class=\"text-primary\">IA integrada</span> e <span class=\"text-primary\">profundidade técnica</span> incomparável.",
         "title": "Nossa Missão"
       },
       "subtitle": "Marcamos a história sendo os primeiros em múltiplas frentes",
@@ -1091,7 +1181,7 @@
         "question": "Qual o diferencial da Inteligencia Artificial?"
       },
       "countries": {
-        "answer": "O Bacco esta disponivel globalmente. Desenvolvido no Brasil, o sistema foi preparado para atender vinicolas em qualquer lugar do mundo, com suporte a praticas locais, regulamentacoes especificas e traducoes profissionais em 4 idiomas.",
+        "answer": "O Bacco esta disponivel globalmente. Desenvolvido no Brasil, o sistema foi preparado para atender vinicolas em qualquer lugar do mundo, com suporte a praticas locais, regulamentacoes especificas e traducoes profissionais em 7 idiomas.",
         "question": "Para quais paises o Bacco esta disponivel?"
       },
       "dataImport": {
@@ -1107,7 +1197,7 @@
         "question": "Precisa de instalacao? Como funciona?"
       },
       "languages": {
-        "answer": "O Bacco esta disponivel em 4 idiomas: Portugues (Brasil), Ingles, Espanhol e Italiano. Todas as traducoes foram feitas profissionalmente, preservando a terminologia tecnica enologica e o contexto especializado do setor vinicola.",
+        "answer": "O Bacco esta disponivel em 7 idiomas: Portugues (Brasil), Portugues (Portugal), Ingles, Espanhol, Italiano, Frances e Alemao. Todas as traducoes foram feitas profissionalmente, preservando a terminologia tecnica enologica e o contexto especializado do setor vinicola.",
         "question": "Quais idiomas sao suportados?"
       },
       "offline": {
@@ -1266,7 +1356,7 @@
   },
   "hero": {
     "badge": "Sistema Completo para Adegas",
-    "badgeMultilingual": "🌍 Disponível em 4 Idiomas",
+    "badgeMultilingual": "🌍 Disponível em 7 Idiomas",
     "ctaDemo": "Solicitar Demonstração Gratuita",
     "ctaSystem": "Ver Sistema em Ação",
     "description": "<strong>ERP completo para adegas com suporte multilíngue nativo.</strong> Gerencie cada etapa da produção de vinhos, espumantes e sucos com o Bacco ERP. <strong>Disponível em Português, Inglês, Espanhol e Italiano</strong> - traduções profissionais, não apenas superficiais. Rastreabilidade completa, monitoramento em tempo real, inteligência artificial integrada e gestão unificada. Inclui <strong>Bacco-Campo</strong> para gestão no vinhedo e <strong>Bacco-Comanda</strong> para PDV e enoturismo.",
@@ -1276,7 +1366,7 @@
     },
     "imageAlt": "Vinhedo moderno ao pôr do sol",
     "stats": {
-      "languages": "4",
+      "languages": "7",
       "languagesLabel": "Idiomas",
       "realtime": "Tempo real",
       "realtimeLabel": "Monitorização",
@@ -1317,7 +1407,7 @@
       "title": "Traduções Profissionais"
     },
     "subtitle": "Desenvolvido no Brasil, mas preparado para adegas em qualquer lugar do planeta. Traduções profissionais que preservam o significado técnico e a especialização do sistema.",
-    "title": "Disponível em 4 Idiomas: Pronto para o mundo"
+    "title": "Disponível em 7 Idiomas: Pronto para o mundo"
   },
   "italy": {
     "back": "Voltar ao site",
@@ -1860,7 +1950,7 @@
       "vineyardManagement": "Gestão de Vinhedos"
     },
     "home": "Início",
-    "organizationDescription": "Sistema ERP completo para adegas com suporte multilíngue (Português, Inglês, Espanhol, Italiano)",
+    "organizationDescription": "Sistema ERP completo para adegas com suporte multilíngue (Português (Brasil), Português (Portugal), Inglês, Espanhol, Italiano, Francês e Alemão)",
     "softwareDescription": "ERP completo para gestão de adegas com IA, rastreabilidade, compliance SIVIBE/ENVIN e módulo de enoturismo"
   },
   "terms": {

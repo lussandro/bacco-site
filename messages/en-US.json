@@ -42,6 +42,8 @@
     "stats": {
       "traceable": "100%",
       "traceableLabel": "Traceable",
+      "languages": "7",
+      "languagesLabel": "Languages",
       "realtime": "Real-time",
       "realtimeLabel": "Monitoring",
       "support": "24/7",
@@ -51,18 +53,8 @@
       "title": "Total Control",
       "description": "Vineyard, production, and quality"
     },
-    "badgeMultilingual": "🌍 Available in 4 Languages",
+    "badgeMultilingual": "🌍 Available in 7 Languages",
     "subtitle": "The only Brazilian ERP exclusively for wineries, now available globally",
-    "stats": {
-      "traceable": "100%",
-      "traceableLabel": "Traceable",
-      "languages": "4",
-      "languagesLabel": "Languages",
-      "realtime": "Real-time",
-      "realtimeLabel": "Monitoring",
-      "support": "24/7",
-      "supportLabel": "Support"
-    },
     "trustBadges": {
       "brazilian": "100% Brazilian",
       "global": "Ready for the World",
@@ -72,7 +64,7 @@
   },
   "internationalization": {
     "badge": "Internationalization",
-    "title": "Available in 4 Languages: Ready for the World",
+    "title": "Available in 7 Languages: Ready for the World",
     "subtitle": "Developed in Brazil, but prepared for wineries anywhere on the planet. Professional translations that preserve technical meaning and system specialization.",
     "native": "Native",
     "professional": {
@@ -495,7 +487,7 @@
         "badge": "Global Ready",
         "description": "Developed in Brazil, but prepared for the world. Available in Portuguese, English, Spanish, and Italian. Complete support for local practices and international standards.",
         "highlights": [
-          "Interface available in 4 languages: PT, EN, ES, IT",
+          "Interface available in 7 languages: PT, EN, ES, IT",
           "Support for varieties and practices from different regions",
           "Adapted to MAPA, NCM, and SIF rules (Brazil)",
           "Ready for export and international certification",
@@ -542,7 +534,7 @@
       },
       "mission": {
         "title": "Our Mission",
-        "text": "The first and only <span class=\"text-primary\">100% national</span> solution developed from scratch for wineries, with <span class=\"text-primary\">multilingual support</span> (PT, EN, ES, IT), <span class=\"text-primary\">integrated AI</span> and <span class=\"text-primary\">technical depth</span> unmatched."
+        "text": "The first and only <span class=\"text-primary\">100% national</span> solution developed from scratch for wineries, with <span class=\"text-primary\">multilingual support</span> (PT-BR, PT-PT, EN, ES, IT, FR, DE), <span class=\"text-primary\">integrated AI</span> and <span class=\"text-primary\">technical depth</span> unmatched."
       }
     }
   },
@@ -577,9 +569,9 @@
     },
     "cta": {
       "title": "Complete ERP for Wineries Around the World",
-      "description": "Developed in Brazil with international standards, Bacco was created from scratch thinking about the specific needs of wineries. Available in 4 languages (PT, EN, ES, IT), it offers native specialization with global reach.",
+      "description": "Developed in Brazil with international standards, Bacco was created from scratch thinking about the specific needs of wineries. Available in 7 languages (PT-BR, PT-PT, EN, ES, IT, FR, DE), it offers native specialization with global reach.",
       "check1": "Developed in Brazil, available globally",
-      "check2": "Multilingual support (PT, EN, ES, IT) with local knowledge",
+      "check2": "Multilingual support (PT-BR, PT-PT, EN, ES, IT, FR, DE) with local knowledge",
       "check3": "Affordable price without international licensing",
       "check4": "Modern technology vs legacy systems"
     },
@@ -975,7 +967,9 @@
       },
       {
         "heading": "2. Data Collected",
-        "paragraphs": ["We may collect the following information:"],
+        "paragraphs": [
+          "We may collect the following information:"
+        ],
         "list": [
           "Identification data (name, email, phone)",
           "Company/winery data (name, address)",
@@ -1013,7 +1007,9 @@
       },
       {
         "heading": "7. Data Subject Rights",
-        "paragraphs": ["You may exercise your rights under LGPD, including access, correction, deletion, and portability."],
+        "paragraphs": [
+          "You may exercise your rights under LGPD, including access, correction, deletion, and portability."
+        ],
         "list": [
           "Request confirmation and access",
           "Correct or update",
@@ -1024,7 +1020,9 @@
       },
       {
         "heading": "8. Cookies",
-        "paragraphs": ["We use cookies for authentication, security, and experience improvement. You can adjust preferences in your browser."]
+        "paragraphs": [
+          "We use cookies for authentication, security, and experience improvement. You can adjust preferences in your browser."
+        ]
       },
       {
         "heading": "9. Contact",
@@ -1037,8 +1035,8 @@
   },
   "countries": {
     "badge": "Global Coverage",
-    "title": "Support for 5 Wine-Producing Countries",
-    "subtitle": "Bacco ERP was developed to meet the regulations and specific needs of each wine-producing country, with full compliance and native support.",
+    "title": "Support for 8 Wine Markets",
+    "subtitle": "Bacco ERP covers regulatory and operational obligations by country, with a clear international compliance matrix.",
     "primary": "Primary Country",
     "items": {
       "brazil": {
@@ -1093,7 +1091,97 @@
       "compliance": "Regulatory Compliance",
       "languages": "Available Languages"
     },
-    "cta": "Regardless of where your winery is located, Bacco ERP offers complete support for local and international regulations."
+    "cta": "Regardless of where your winery is located, Bacco ERP offers complete support for local and international regulations.",
+    "obligations": {
+      "badge": "Compliance Matrix",
+      "title": "Country x Covered Obligations",
+      "subtitle": "Consolidated view of obligations covered by Bacco in each market.",
+      "columns": {
+        "country": "Country",
+        "obligations": "Covered Obligations",
+        "status": "Coverage"
+      },
+      "status": {
+        "full": "Full",
+        "partial": "Partial",
+        "planned": "Planned"
+      },
+      "markets": {
+        "brazil": {
+          "label": "Brazil",
+          "status": "full",
+          "items": [
+            "SIVIBE",
+            "ENVIN",
+            "MAPA",
+            "NF-e"
+          ]
+        },
+        "argentina": {
+          "label": "Argentina",
+          "status": "full",
+          "items": [
+            "SENASA",
+            "INV",
+            "Provincial rules"
+          ]
+        },
+        "chile": {
+          "label": "Chile",
+          "status": "full",
+          "items": [
+            "SAG",
+            "Local rules",
+            "Chilean appellations"
+          ]
+        },
+        "uruguay": {
+          "label": "Uruguay",
+          "status": "full",
+          "items": [
+            "INAVI",
+            "Local rules",
+            "Exports"
+          ]
+        },
+        "italy": {
+          "label": "Italy",
+          "status": "full",
+          "items": [
+            "DOC/DOCG",
+            "IGT",
+            "EU rules (SIAN)"
+          ]
+        },
+        "spain": {
+          "label": "Spain",
+          "status": "partial",
+          "items": [
+            "DO/DOCa",
+            "SII (tax)",
+            "EU rules"
+          ]
+        },
+        "france": {
+          "label": "France",
+          "status": "partial",
+          "items": [
+            "AOC/AOP",
+            "EU rules",
+            "Lot traceability"
+          ]
+        },
+        "germany": {
+          "label": "Germany",
+          "status": "planned",
+          "items": [
+            "Weingesetz",
+            "EU rules",
+            "Tax declarations"
+          ]
+        }
+      }
+    }
   },
   "faq": {
     "badge": "FAQ",
@@ -1106,11 +1194,11 @@
       },
       "countries": {
         "question": "In which countries is Bacco available?",
-        "answer": "Bacco is available globally. Developed in Brazil, the system was designed to serve wineries anywhere in the world, with support for local practices, specific regulations, and professional translations in 4 languages."
+        "answer": "Bacco is available globally. Developed in Brazil, the system was designed to serve wineries anywhere in the world, with support for local practices, specific regulations, and professional translations in 7 languages."
       },
       "languages": {
         "question": "What languages are supported?",
-        "answer": "Bacco is available in 4 languages: Portuguese (Brazil), English, Spanish, and Italian. All translations were professionally made, preserving the enological technical terminology and the specialized context of the wine sector."
+        "answer": "Bacco is available in 7 languages: Portuguese (Brazil), Portuguese (Portugal), English, Spanish, Italian, French, and German. All translations were professionally made, preserving the enological technical terminology and the specialized context of the wine sector."
       },
       "installation": {
         "question": "Does it require installation? How does it work?",
@@ -1186,32 +1274,61 @@
         "serraGaucha": {
           "name": "Serra Gaucha",
           "description": "Brazil's main wine hub, with Italian tradition and high-altitude climate.",
-          "grapes": ["Merlot", "Cabernet Sauvignon", "Chardonnay", "Moscato"]
+          "grapes": [
+            "Merlot",
+            "Cabernet Sauvignon",
+            "Chardonnay",
+            "Moscato"
+          ]
         },
         "valeSaoFrancisco": {
           "name": "Sao Francisco Valley",
           "description": "The world's only tropical region with two annual harvests.",
-          "grapes": ["Syrah", "Muscat", "Tempranillo", "Chenin Blanc"]
+          "grapes": [
+            "Syrah",
+            "Muscat",
+            "Tempranillo",
+            "Chenin Blanc"
+          ]
         },
         "planaltoCatarinense": {
           "name": "Santa Catarina Plateau",
           "description": "High-altitude wines with cold climate and slow maturation.",
-          "grapes": ["Sauvignon Blanc", "Pinot Noir", "Cabernet Franc"]
+          "grapes": [
+            "Sauvignon Blanc",
+            "Pinot Noir",
+            "Cabernet Franc"
+          ]
         },
         "campanhGaucha": {
           "name": "Campanha Gaucha",
           "description": "Terroir of stony soils and continental climate.",
-          "grapes": ["Tannat", "Merlot", "Cabernet Sauvignon", "Alicante Bouschet"]
+          "grapes": [
+            "Tannat",
+            "Merlot",
+            "Cabernet Sauvignon",
+            "Alicante Bouschet"
+          ]
         },
         "serraDoSudeste": {
           "name": "Serra do Sudeste",
           "description": "Emerging region with vineyards on granite slopes.",
-          "grapes": ["Tannat", "Merlot", "Viognier", "Gewurztraminer"]
+          "grapes": [
+            "Tannat",
+            "Merlot",
+            "Viognier",
+            "Gewurztraminer"
+          ]
         },
         "camposDeCima": {
           "name": "Campos de Cima da Serra",
           "description": "High altitude and temperature range for elegant wines.",
-          "grapes": ["Merlot", "Cabernet Sauvignon", "Pinot Noir", "Chardonnay"]
+          "grapes": [
+            "Merlot",
+            "Cabernet Sauvignon",
+            "Pinot Noir",
+            "Chardonnay"
+          ]
         }
       }
     },
@@ -1365,27 +1482,52 @@
         "mendoza": {
           "name": "Mendoza",
           "description": "Argentina's main wine region, responsible for over 70% of production. Ideal terroir for Malbec.",
-          "grapes": ["Malbec", "Cabernet Sauvignon", "Bonarda", "Chardonnay"]
+          "grapes": [
+            "Malbec",
+            "Cabernet Sauvignon",
+            "Bonarda",
+            "Chardonnay"
+          ]
         },
         "sanJuan": {
           "name": "San Juan",
           "description": "Second largest producing region. Hot and dry climate, ideal for full-bodied wines and table grapes.",
-          "grapes": ["Syrah", "Bonarda", "Malbec", "Torrontes"]
+          "grapes": [
+            "Syrah",
+            "Bonarda",
+            "Malbec",
+            "Torrontes"
+          ]
         },
         "salta": {
           "name": "Salta",
           "description": "Extreme altitude vineyards (up to 3,000m). Birthplace of Torrontes, Argentina's emblematic white grape.",
-          "grapes": ["Torrontes", "Malbec", "Cabernet Sauvignon", "Tannat"]
+          "grapes": [
+            "Torrontes",
+            "Malbec",
+            "Cabernet Sauvignon",
+            "Tannat"
+          ]
         },
         "patagonia": {
           "name": "Patagonia",
           "description": "Emerging region with cold climate. Elegant and fresh wines with vibrant acidity.",
-          "grapes": ["Pinot Noir", "Merlot", "Chardonnay", "Sauvignon Blanc"]
+          "grapes": [
+            "Pinot Noir",
+            "Merlot",
+            "Chardonnay",
+            "Sauvignon Blanc"
+          ]
         },
         "laRioja": {
           "name": "La Rioja",
           "description": "One of Argentina's oldest wine regions. Tradition and history in wine production.",
-          "grapes": ["Torrontes", "Bonarda", "Syrah", "Malbec"]
+          "grapes": [
+            "Torrontes",
+            "Bonarda",
+            "Syrah",
+            "Malbec"
+          ]
         }
       }
     },
@@ -1557,32 +1699,62 @@
         "toscana": {
           "name": "Tuscany",
           "description": "Birthplace of Chianti and Brunello di Montalcino, with centuries-old tradition in high-quality wines.",
-          "grapes": ["Sangiovese", "Vernaccia", "Trebbiano", "Canaiolo"]
+          "grapes": [
+            "Sangiovese",
+            "Vernaccia",
+            "Trebbiano",
+            "Canaiolo"
+          ]
         },
         "piemonte": {
           "name": "Piedmont",
           "description": "Land of Barolo and Barbaresco, wines of great structure and longevity.",
-          "grapes": ["Nebbiolo", "Barbera", "Dolcetto", "Moscato"]
+          "grapes": [
+            "Nebbiolo",
+            "Barbera",
+            "Dolcetto",
+            "Moscato"
+          ]
         },
         "veneto": {
           "name": "Veneto",
           "description": "Region of Prosecco, Amarone and Soave, diversity of styles and traditions.",
-          "grapes": ["Glera", "Corvina", "Garganega", "Pinot Grigio"]
+          "grapes": [
+            "Glera",
+            "Corvina",
+            "Garganega",
+            "Pinot Grigio"
+          ]
         },
         "sicilia": {
           "name": "Sicily",
           "description": "Island with unique Mediterranean climate, production of intense and aromatic wines.",
-          "grapes": ["Nero d'Avola", "Grillo", "Catarratto", "Nerello Mascalese"]
+          "grapes": [
+            "Nero d'Avola",
+            "Grillo",
+            "Catarratto",
+            "Nerello Mascalese"
+          ]
         },
         "puglia": {
           "name": "Puglia",
           "description": "Heel of the Italian boot, known for Primitivo and full-bodied wines.",
-          "grapes": ["Primitivo", "Negroamaro", "Bombino", "Uva di Troia"]
+          "grapes": [
+            "Primitivo",
+            "Negroamaro",
+            "Bombino",
+            "Uva di Troia"
+          ]
         },
         "trentinoAltoAdige": {
           "name": "Trentino-Alto Adige",
           "description": "Alpine region with fresh and elegant wines, Austro-Germanic influence.",
-          "grapes": ["Pinot Grigio", "Gewurztraminer", "Lagrein", "Teroldego"]
+          "grapes": [
+            "Pinot Grigio",
+            "Gewurztraminer",
+            "Lagrein",
+            "Teroldego"
+          ]
         }
       }
     },
@@ -1724,27 +1896,52 @@
         "valleCentral": {
           "name": "Central Valley",
           "description": "Heart of Chilean wine production, spanning several sub-valleys between the Andes and the Pacific.",
-          "grapes": ["Cabernet Sauvignon", "Carmenere", "Merlot", "Sauvignon Blanc"]
+          "grapes": [
+            "Cabernet Sauvignon",
+            "Carmenere",
+            "Merlot",
+            "Sauvignon Blanc"
+          ]
         },
         "maipo": {
           "name": "Maipo Valley",
           "description": "Historic region near Santiago, famous for its world-class Cabernets.",
-          "grapes": ["Cabernet Sauvignon", "Carmenere", "Merlot", "Syrah"]
+          "grapes": [
+            "Cabernet Sauvignon",
+            "Carmenere",
+            "Merlot",
+            "Syrah"
+          ]
         },
         "colchagua": {
           "name": "Colchagua Valley",
           "description": "One of the most awarded regions, known for excellence in full-bodied reds.",
-          "grapes": ["Carmenere", "Cabernet Sauvignon", "Syrah", "Malbec"]
+          "grapes": [
+            "Carmenere",
+            "Cabernet Sauvignon",
+            "Syrah",
+            "Malbec"
+          ]
         },
         "casablanca": {
           "name": "Casablanca Valley",
           "description": "Cool climate influenced by the ocean, ideal for white wines and sparkling wines.",
-          "grapes": ["Sauvignon Blanc", "Chardonnay", "Pinot Noir", "Riesling"]
+          "grapes": [
+            "Sauvignon Blanc",
+            "Chardonnay",
+            "Pinot Noir",
+            "Riesling"
+          ]
         },
         "maule": {
           "name": "Maule Valley",
           "description": "Chile's largest wine region, with centuries-old tradition and historic Pais grapes.",
-          "grapes": ["Pais", "Carignan", "Cabernet Sauvignon", "Malbec"]
+          "grapes": [
+            "Pais",
+            "Carignan",
+            "Cabernet Sauvignon",
+            "Malbec"
+          ]
         }
       }
     },
@@ -1894,22 +2091,42 @@
         "canelones": {
           "name": "Canelones",
           "description": "Uruguay's main wine region, responsible for over 60% of national production.",
-          "grapes": ["Tannat", "Merlot", "Cabernet Sauvignon", "Sauvignon Blanc"]
+          "grapes": [
+            "Tannat",
+            "Merlot",
+            "Cabernet Sauvignon",
+            "Sauvignon Blanc"
+          ]
         },
         "montevideo": {
           "name": "Montevideo",
           "description": "Historic region with centuries-old winemaking tradition, near the capital.",
-          "grapes": ["Tannat", "Cabernet Franc", "Merlot", "Chardonnay"]
+          "grapes": [
+            "Tannat",
+            "Cabernet Franc",
+            "Merlot",
+            "Chardonnay"
+          ]
         },
         "maldonado": {
           "name": "Maldonado",
           "description": "Emerging region with oceanic influence, producing fresh and elegant wines.",
-          "grapes": ["Albarino", "Tannat", "Pinot Noir", "Viognier"]
+          "grapes": [
+            "Albarino",
+            "Tannat",
+            "Pinot Noir",
+            "Viognier"
+          ]
         },
         "colonia": {
           "name": "Colonia",
           "description": "Unique terroir on the banks of the Rio de la Plata, with limestone soils.",
-          "grapes": ["Tannat", "Petit Verdot", "Marselan", "Sauvignon Blanc"]
+          "grapes": [
+            "Tannat",
+            "Petit Verdot",
+            "Marselan",
+            "Sauvignon Blanc"
+          ]
         }
       }
     },
@@ -2020,4 +2237,3 @@
     }
   }
 }
-

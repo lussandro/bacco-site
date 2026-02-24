@@ -4,6 +4,7 @@ import { Globe, CheckCircle2, FileText, ShieldCheck } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { useTranslations } from "next-intl"
+import { routing } from "@/i18n/routing"
 
 interface CountryFeature {
   name: string
@@ -19,6 +20,17 @@ interface Country {
 
 export function Countries() {
   const t = useTranslations("countries")
+  const supportedLanguages = routing.locales.length
+  const obligations = t.raw("obligations") as {
+    badge: string
+    title: string
+    subtitle: string
+    columns: { country: string; obligations: string; status: string }
+    status: { full: string; partial: string; planned: string }
+    markets: Record<string, { label: string; status: "full" | "partial" | "planned"; items: string[] }>
+  }
+  const marketOrder = ["brazil", "argentina", "chile", "uruguay", "italy", "spain", "france", "germany"] as const
+  const supportedCountries = marketOrder.length
 
   const countries: Country[] = [
     {
@@ -162,7 +174,7 @@ export function Countries() {
         {/* Stats Section */}
         <div className="grid sm:grid-cols-3 gap-6 mb-12">
           <div className="flex items-center gap-4 p-6 rounded-xl bg-muted/50 border border-border">
-            <div className="text-4xl font-bold text-primary">5</div>
+            <div className="text-4xl font-bold text-primary">{supportedCountries}</div>
             <div className="text-sm text-muted-foreground">{t("stats.countries")}</div>
           </div>
           <div className="flex items-center gap-4 p-6 rounded-xl bg-muted/50 border border-border">
@@ -170,8 +182,77 @@ export function Countries() {
             <div className="text-sm text-muted-foreground">{t("stats.compliance")}</div>
           </div>
           <div className="flex items-center gap-4 p-6 rounded-xl bg-muted/50 border border-border">
-            <div className="text-4xl font-bold text-primary">4</div>
+            <div className="text-4xl font-bold text-primary">{supportedLanguages}</div>
             <div className="text-sm text-muted-foreground">{t("stats.languages")}</div>
+          </div>
+        </div>
+
+        {/* Obligations Matrix */}
+        <div className="mb-12">
+          <div className="text-center mb-8">
+            <div className="inline-flex items-center gap-2 mb-3">
+              <FileText className="h-5 w-5 text-primary" />
+              <Badge className="bg-primary/10 text-primary border-primary/20">{obligations.badge}</Badge>
+            </div>
+            <h3 className="text-3xl font-serif font-bold mb-3">{obligations.title}</h3>
+            <p className="text-muted-foreground max-w-3xl mx-auto">{obligations.subtitle}</p>
+          </div>
+
+          <Card className="hidden lg:block border-2 border-border">
+            <CardContent className="p-0">
+              <div className="grid grid-cols-12 bg-muted/40 border-b border-border text-sm font-semibold">
+                <div className="col-span-3 p-4">{obligations.columns.country}</div>
+                <div className="col-span-7 p-4">{obligations.columns.obligations}</div>
+                <div className="col-span-2 p-4">{obligations.columns.status}</div>
+              </div>
+              {marketOrder.map((key) => {
+                const market = obligations.markets[key]
+                if (!market) return null
+                const statusClass =
+                  market.status === "full"
+                    ? "bg-green-500/10 text-green-700 border-green-500/20"
+                    : market.status === "partial"
+                      ? "bg-amber-500/10 text-amber-700 border-amber-500/20"
+                      : "bg-blue-500/10 text-blue-700 border-blue-500/20"
+                return (
+                  <div key={key} className="grid grid-cols-12 border-b border-border last:border-b-0">
+                    <div className="col-span-3 p-4 font-semibold">{market.label}</div>
+                    <div className="col-span-7 p-4 text-sm text-muted-foreground">{market.items.join(" • ")}</div>
+                    <div className="col-span-2 p-4">
+                      <span className={`inline-flex items-center rounded-md border px-2 py-1 text-xs font-medium ${statusClass}`}>
+                        {obligations.status[market.status]}
+                      </span>
+                    </div>
+                  </div>
+                )
+              })}
+            </CardContent>
+          </Card>
+
+          <div className="grid sm:grid-cols-2 gap-4 lg:hidden">
+            {marketOrder.map((key) => {
+              const market = obligations.markets[key]
+              if (!market) return null
+              const statusClass =
+                market.status === "full"
+                  ? "bg-green-500/10 text-green-700 border-green-500/20"
+                  : market.status === "partial"
+                    ? "bg-amber-500/10 text-amber-700 border-amber-500/20"
+                    : "bg-blue-500/10 text-blue-700 border-blue-500/20"
+              return (
+                <Card key={key} className="border border-border">
+                  <CardContent className="p-4">
+                    <div className="flex items-center justify-between mb-2">
+                      <h4 className="font-semibold">{market.label}</h4>
+                      <span className={`inline-flex items-center rounded-md border px-2 py-1 text-xs font-medium ${statusClass}`}>
+                        {obligations.status[market.status]}
+                      </span>
+                    </div>
+                    <p className="text-sm text-muted-foreground">{market.items.join(" • ")}</p>
+                  </CardContent>
+                </Card>
+              )
+            })}
           </div>
         </div>
 
