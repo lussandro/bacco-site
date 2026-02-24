@@ -72,6 +72,8 @@ export function Header() {
                           ? 'IT'
                           : locale === 'fr'
                             ? 'FR'
+                            : locale === 'de'
+                              ? 'DE'
                             : 'EN'}
                   </span>
                 </Button>
@@ -94,6 +96,9 @@ export function Header() {
                 </DropdownMenuItem>
                 <DropdownMenuItem onClick={() => changeLocale('fr')} className={locale === 'fr' ? 'bg-primary/10' : ''}>
                   🇫🇷 Français
+                </DropdownMenuItem>
+                <DropdownMenuItem onClick={() => changeLocale('de')} className={locale === 'de' ? 'bg-primary/10' : ''}>
+                  🇩🇪 Deutsch
                 </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>

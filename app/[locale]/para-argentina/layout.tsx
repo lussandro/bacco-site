@@ -37,6 +37,12 @@ const metaByLocale: Record<string, { title: string; description: string; ogLocal
       "ERP complet pour les domaines viticoles argentins. Conformite avec SENASA, INV et la reglementation locale.",
     ogLocale: "fr_FR",
   },
+  "de": {
+    title: "Bacco ERP fuer Argentinien - SENASA, INV und lokale Compliance",
+    description:
+      "Komplettes ERP fuer argentinische Weingueter. Volle Compliance mit SENASA, INV und lokalen Vorschriften.",
+    ogLocale: "de_DE",
+  },
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
@@ -52,6 +58,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     "es": "/para-argentina",
     "it-IT": "/per-argentina",
     "fr": "/pour-argentine",
+    "de": "/fuer-argentinien",
   }
 
   const ogUrl = `${baseUrl.origin}/${locale}${pathByLocale[locale] || "/para-argentina"}`
@@ -111,6 +118,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
         "es": `${baseUrl.origin}/es/para-argentina`,
         "it-IT": `${baseUrl.origin}/it-IT/per-argentina`,
         "fr": `${baseUrl.origin}/fr/pour-argentine`,
+        "de": `${baseUrl.origin}/de/fuer-argentinien`,
       },
     },
   }

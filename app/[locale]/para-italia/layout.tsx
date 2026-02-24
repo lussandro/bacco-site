@@ -37,6 +37,12 @@ const metaByLocale: Record<string, { title: string; description: string; ogLocal
       "ERP complet pour les domaines viticoles italiens, avec conformite DOC, DOCG, IGT, Registro Vigneti et SIAN.",
     ogLocale: "fr_FR",
   },
+  "de": {
+    title: "Bacco ERP fuer Italien - DOC, DOCG, IGT und EU-Compliance",
+    description:
+      "Komplettes ERP fuer italienische Weingueter. Compliance mit DOC, DOCG, IGT, Registro Vigneti und SIAN.",
+    ogLocale: "de_DE",
+  },
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
@@ -52,6 +58,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     "es": "/para-italia",
     "it-IT": "/per-italia",
     "fr": "/pour-italie",
+    "de": "/fuer-italien",
   }
 
   const ogUrl = `${baseUrl.origin}/${locale}${pathByLocale[locale] || "/per-italia"}`
@@ -115,6 +122,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
         "es": `${baseUrl.origin}/es/para-italia`,
         "it-IT": `${baseUrl.origin}/it-IT/per-italia`,
         "fr": `${baseUrl.origin}/fr/pour-italie`,
+        "de": `${baseUrl.origin}/de/fuer-italien`,
       },
     },
   }

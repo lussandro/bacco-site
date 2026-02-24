@@ -28,6 +28,7 @@ interface AlertExample {
     "en-US": string
     "es": string
     "it-IT": string
+    "de": string
   }
 }
 
@@ -40,7 +41,8 @@ const alertExamples: AlertExample[] = [
       "pt-BR": "Alerta: Chuva intensa prevista para os proximos 3 dias. Recomenda-se adiar a colheita do vinhedo Parcela A3.",
       "en-US": "Alert: Heavy rain forecast for the next 3 days. It is recommended to postpone the harvest of Parcel A3 vineyard.",
       "es": "Alerta: Se prevee lluvia intensa para los proximos 3 dias. Se recomienda posponer la cosecha del vinedo Parcela A3.",
-      "it-IT": "Avviso: Pioggia intensa prevista per i prossimi 3 giorni. Si consiglia di posticipare la vendemmia del vigneto Parcella A3."
+      "it-IT": "Avviso: Pioggia intensa prevista per i prossimi 3 giorni. Si consiglia di posticipare la vendemmia del vigneto Parcella A3.",
+      "de": "Alarm: Starker Regen wird fuer die naechsten 3 Tage erwartet. Es wird empfohlen, die Ernte im Weinberg Parzelle A3 zu verschieben."
     }
   },
   {
@@ -51,7 +53,8 @@ const alertExamples: AlertExample[] = [
       "pt-BR": "Critico: Temperatura do tanque T-05 atingiu 28C. Ativar sistema de refrigeracao imediatamente para evitar paralisacao da fermentacao.",
       "en-US": "Critical: Tank T-05 temperature reached 28C. Activate cooling system immediately to prevent fermentation arrest.",
       "es": "Critico: La temperatura del tanque T-05 alcanzo 28C. Active el sistema de refrigeracion inmediatamente para evitar la detencion de la fermentacion.",
-      "it-IT": "Critico: La temperatura del serbatoio T-05 ha raggiunto 28C. Attivare immediatamente il sistema di raffreddamento per evitare l'arresto della fermentazione."
+      "it-IT": "Critico: La temperatura del serbatoio T-05 ha raggiunto 28C. Attivare immediatamente il sistema di raffreddamento per evitare l'arresto della fermentazione.",
+      "de": "Kritisch: Die Temperatur im Tank T-05 hat 28C erreicht. Kuehlsystem sofort aktivieren, um einen Gärstopp zu vermeiden."
     }
   },
   {
@@ -62,7 +65,8 @@ const alertExamples: AlertExample[] = [
       "pt-BR": "Atencao: Condicoes favoraveis para desenvolvimento de mildio detectadas. Aplicacao preventiva recomendada nos proximos 2 dias.",
       "en-US": "Attention: Favorable conditions for downy mildew development detected. Preventive application recommended within the next 2 days.",
       "es": "Atencion: Se detectaron condiciones favorables para el desarrollo del mildiu. Se recomienda aplicacion preventiva en los proximos 2 dias.",
-      "it-IT": "Attenzione: Rilevate condizioni favorevoli allo sviluppo della peronospora. Applicazione preventiva consigliata nei prossimi 2 giorni."
+      "it-IT": "Attenzione: Rilevate condizioni favorevoli allo sviluppo della peronospora. Applicazione preventiva consigliata nei prossimi 2 giorni.",
+      "de": "Achtung: Guenstige Bedingungen fuer die Entwicklung von Falschem Mehltau wurden erkannt. Eine vorbeugende Anwendung wird in den naechsten 2 Tagen empfohlen."
     }
   },
   {
@@ -73,7 +77,8 @@ const alertExamples: AlertExample[] = [
       "pt-BR": "Lembrete: Periodo ideal para poda verde inicia em 5 dias. 3 vinhedos com tarefas pendentes de agendamento.",
       "en-US": "Reminder: Ideal period for green pruning starts in 5 days. 3 vineyards with pending scheduling tasks.",
       "es": "Recordatorio: El periodo ideal para la poda en verde comienza en 5 dias. 3 vinedos con tareas de programacion pendientes.",
-      "it-IT": "Promemoria: Il periodo ideale per la potatura verde inizia tra 5 giorni. 3 vigneti con attivita di pianificazione in sospeso."
+      "it-IT": "Promemoria: Il periodo ideale per la potatura verde inizia tra 5 giorni. 3 vigneti con attivita di pianificazione in sospeso.",
+      "de": "Erinnerung: Der ideale Zeitraum fuer den Gruenschnitt beginnt in 5 Tagen. 3 Weinberge haben noch offene Planungsaufgaben."
     }
   }
 ]
@@ -82,7 +87,8 @@ const languages = [
   { code: "pt-BR" as const, name: "Portugues", flag: "BR" },
   { code: "en-US" as const, name: "English", flag: "US" },
   { code: "es" as const, name: "Espanol", flag: "ES" },
-  { code: "it-IT" as const, name: "Italiano", flag: "IT" }
+  { code: "it-IT" as const, name: "Italiano", flag: "IT" },
+  { code: "de" as const, name: "Deutsch", flag: "DE" }
 ]
 
 const severityColors = {
@@ -102,7 +108,7 @@ const severityBgColors = {
 export function AIAlerts() {
   const t = useTranslations("aiAlerts")
   const [selectedAlert, setSelectedAlert] = useState<AlertType>("climate")
-  const [activeLanguage, setActiveLanguage] = useState<"pt-BR" | "en-US" | "es" | "it-IT">("pt-BR")
+  const [activeLanguage, setActiveLanguage] = useState<"pt-BR" | "en-US" | "es" | "it-IT" | "de">("pt-BR")
 
   const currentAlert = alertExamples.find(a => a.type === selectedAlert)!
   const AlertIcon = currentAlert.icon

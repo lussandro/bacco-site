@@ -4,7 +4,7 @@ test.describe('i18n - Internationalization', () => {
   test('root should redirect to a valid locale', async ({ page }) => {
     await page.goto('/');
     // Should redirect to either pt-BR (default) or detected locale
-    expect(page.url()).toMatch(/\/(pt-BR|en-US|es)/);
+    expect(page.url()).toMatch(/\/(pt-BR|en-US|es|de)/);
   });
 
   test('should load Portuguese (pt-BR) page correctly', async ({ page }) => {
@@ -24,6 +24,12 @@ test.describe('i18n - Internationalization', () => {
     await page.goto('/es');
     await expect(page).toHaveTitle(/Bacco ERP.*Sistema Completo para Gestión de Bodegas/);
     await expect(page.getByRole('heading', { name: /Del Viñedo a la Botella/ }).first()).toBeVisible();
+  });
+
+  test('should load German (de) page correctly', async ({ page }) => {
+    await page.goto('/de');
+    await expect(page).toHaveTitle(/Bacco ERP/);
+    await expect(page.getByRole('heading', { name: /Vom Weinberg bis zur Flasche/ }).first()).toBeVisible();
   });
 
   test('should load Terms of Use in all languages', async ({ page }) => {

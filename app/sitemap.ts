@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://bacco-erp.com'
-  const locales = ['pt-BR', 'pt-PT', 'en-US', 'es', 'it-IT', 'fr']
+  const locales = ['pt-BR', 'pt-PT', 'en-US', 'es', 'it-IT', 'fr', 'de']
   const localizedPaths = [
     '',
     '/termos-de-uso',

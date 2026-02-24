@@ -13,6 +13,7 @@ export function Internationalization() {
     { code: "en-US", name: "English (US)", flag: "🇺🇸", native: false },
     { code: "es-ES", name: "Español (España)", flag: "🇪🇸", native: false },
     { code: "it-IT", name: "Italiano (Italia)", flag: "🇮🇹", native: false },
+    { code: "de-DE", name: "Deutsch (Deutschland)", flag: "🇩🇪", native: false },
   ]
 
   const benefits = t.raw("benefits") as string[]
@@ -96,7 +97,7 @@ export function Internationalization() {
               </div>
               <div className="space-y-4">
                 <div className="flex items-center gap-3 p-4 rounded-lg bg-muted/50">
-                  <div className="text-2xl font-bold text-primary">4</div>
+                  <div className="text-2xl font-bold text-primary">{languages.length}</div>
                   <div className="text-sm text-muted-foreground">{t("global.languages")}</div>
                 </div>
                 <div className="flex items-center gap-3 p-4 rounded-lg bg-muted/50">

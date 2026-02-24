@@ -59,6 +59,12 @@ const metaByLocale: Record<string, { title: string; description: string; ogLocal
       "ERP concu exclusivement pour les domaines viticoles. De la vigne a la bouteille : controle total de la production avec IA, tracabilite complete, conformite et oenotourisme.",
     ogLocale: "fr_FR",
   },
+  "de": {
+    title: "Bacco ERP - Komplette Loesung fuer das Weingueter-Management",
+    description:
+      "ERP, das exklusiv fuer Weingueter entwickelt wurde. Vom Weinberg bis zur Flasche: volle Produktionskontrolle mit KI, vollstaendiger Rueckverfolgbarkeit, SIVIBE/ENVIN-Compliance und Weintourismus.",
+    ogLocale: "de_DE",
+  },
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
@@ -108,6 +114,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
         "es": `${baseUrl.origin}/es`,
         "it-IT": `${baseUrl.origin}/it-IT`,
         "fr": `${baseUrl.origin}/fr`,
+        "de": `${baseUrl.origin}/de`,
         "x-default": `${baseUrl.origin}/pt-BR`,
       },
     },

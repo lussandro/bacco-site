@@ -37,6 +37,12 @@ const metaByLocale: Record<string, { title: string; description: string; ogLocal
       "ERP concu pour les domaines viticoles operant au Bresil. Conformite complete avec SIVIBE, ENVIN, MAPA et NF-e.",
     ogLocale: "fr_FR",
   },
+  "de": {
+    title: "Bacco ERP fuer Brasilien - SIVIBE, ENVIN, MAPA und NF-e Compliance",
+    description:
+      "Das einzige brasilianische ERP, das exklusiv fuer Weingueter entwickelt wurde. Volle Compliance mit SIVIBE, ENVIN, MAPA und NF-e.",
+    ogLocale: "de_DE",
+  },
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
@@ -52,6 +58,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     "es": "/para-brasil",
     "it-IT": "/per-brasile",
     "fr": "/pour-bresil",
+    "de": "/fuer-brasilien",
   }
 
   const ogUrl = `${baseUrl.origin}/${locale}${pathByLocale[locale] || "/para-brasil"}`
@@ -108,6 +115,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
         "es": `${baseUrl.origin}/es/para-brasil`,
         "it-IT": `${baseUrl.origin}/it-IT/per-brasile`,
         "fr": `${baseUrl.origin}/fr/pour-bresil`,
+        "de": `${baseUrl.origin}/de/fuer-brasilien`,
       },
     },
   }
