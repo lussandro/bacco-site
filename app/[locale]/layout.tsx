@@ -22,6 +22,16 @@ const inter = Inter({
 })
 
 
+const ogAltByLocale: Record<string, string> = {
+  "pt-BR": "Bacco ERP - Sistema para Vinícolas",
+  "pt-PT": "Bacco ERP - Sistema para Adegas",
+  "en-US": "Bacco ERP - Winery Management System",
+  "es": "Bacco ERP - Sistema para Bodegas",
+  "it-IT": "Bacco ERP - Sistema per Cantine",
+  "fr": "Bacco ERP - Système pour Domaines Viticoles",
+  "de": "Bacco ERP - Weingut-Management-System",
+}
+
 const metaByLocale: Record<string, { title: string; description: string; ogLocale: string }> = {
   "pt-BR": {
     title: "Bacco ERP - Sistema Completo para Gestão de Vinícolas | Único ERP Brasileiro",
@@ -94,7 +104,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
           url: ogImage,
           width: 1200,
           height: 630,
-          alt: "Bacco ERP - Sistema para Vinícolas",
+          alt: ogAltByLocale[locale] ?? ogAltByLocale["pt-BR"],
         },
       ],
     },
@@ -156,7 +166,7 @@ export default async function LocaleLayout({
               gtag('config', 'G-ESY8595331');
             `}
           </Script>
-          <StructuredData />
+          <StructuredData locale={locale} />
           {children}
           {/* Cloudflare Web Analytics */}
           <script
