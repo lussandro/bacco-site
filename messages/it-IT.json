@@ -30,7 +30,8 @@
     "system": "Sistema",
     "differentials": "Differenziali",
     "comparison": "Confronto",
-    "about": "Chi Siamo"
+    "about": "Chi Siamo",
+    "enotourism": "Enoturismo"
   },
   "hero": {
     "badge": "Sistema Completo per Cantine",
@@ -2267,6 +2268,49 @@
     },
     "footer": {
       "rights": "Tutti i diritti riservati."
+    }
+  },
+  "enotourism": {
+    "badge": "Enoturismo",
+    "title": "Enoturismo Completo e Integrato",
+    "description": "Gestisci l'intera esperienza enoturistica della tua cantina con strumenti moderni. Pagina pubblica per la vendita di esperienze, prenotazione intelligente via WhatsApp con IA e controllo totale su prenotazioni, degustazioni e visite.",
+    "imageAlt": "Sistema di prenotazione enoturismo di Bacco ERP",
+    "cta": "Scopri di Più",
+    "ctaDemo": "Vedi Demo",
+    "features": {
+      "booking": {
+        "title": "Prenotazione Intelligente",
+        "description": "Bot con IA su WhatsApp per prenotazioni, conferme e cancellazioni automatiche. I tuoi visitatori interagiscono in modo naturale e ricevono assistenza 24/7."
+      },
+      "whatsappBot": {
+        "title": "Assistente IA su WhatsApp",
+        "description": "Intelligenza artificiale che gestisce prenotazioni, invia promemoria, conferma presenze ed elabora cancellazioni direttamente tramite WhatsApp."
+      },
+      "publicPage": {
+        "title": "Pagina Pubblica Esperienze",
+        "description": "Pagina di prenotazione personalizzata per la tua cantina. I visitatori scelgono l'esperienza, la data, l'orario e il numero di ospiti, tutto online."
+      }
+    },
+    "highlights": {
+      "experiences": {
+        "title": "Degustazioni ed Esperienze",
+        "description": "Crea e gestisci diversi tipi di esperienze: degustazioni classiche, premium, tour del vigneto ed eventi speciali.",
+        "detail": "Più esperienze simultanee"
+      },
+      "payments": {
+        "title": "Pagamento Online",
+        "description": "Ricevi pagamenti direttamente dalla pagina di prenotazione, con conferma automatica e integrazione finanziaria.",
+        "detail": "Integrato con la contabilità dell'ERP"
+      },
+      "capacity": {
+        "title": "Controllo Capacità",
+        "description": "Definisci posti per fascia oraria ed esperienza. Il sistema gestisce la disponibilità in tempo reale, evitando l'overbooking.",
+        "detail": "Disponibilità in tempo reale"
+      }
+    },
+    "floatingCard": {
+      "title": "WhatsApp Bot",
+      "description": "IA che prenota, conferma e cancella prenotazioni automaticamente."
     }
   }
 }

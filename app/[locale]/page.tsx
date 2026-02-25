@@ -6,6 +6,7 @@ import { Features } from "@/components/features"
 import { AIAlerts } from "@/components/ai-alerts"
 import { Mobile } from "@/components/mobile"
 import { Comanda } from "@/components/comanda"
+import { Enotourism } from "@/components/enotourism"
 import { Screenshots } from "@/components/screenshots"
 import { Process } from "@/components/process"
 import { Differentials } from "@/components/differentials"
@@ -29,6 +30,7 @@ export default function Home() {
         <AIAlerts />
         <Mobile />
         <Comanda />
+        <Enotourism />
         <Screenshots />
         <Process />
         <Differentials />

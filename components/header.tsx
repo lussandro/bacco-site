@@ -41,6 +41,9 @@ export function Header() {
             <a href="#comanda" className="text-sm font-medium hover:text-primary transition-colors">
               {t('comanda')}
             </a>
+            <a href="#enoturismo" className="text-sm font-medium hover:text-primary transition-colors">
+              {t('enotourism')}
+            </a>
             <a href="#sistema" className="text-sm font-medium hover:text-primary transition-colors">
               {t('system')}
             </a>

@@ -30,7 +30,8 @@
     "system": "System",
     "differentials": "- Für Differentiale:",
     "comparison": "Vergleich",
-    "about": "Über uns"
+    "about": "Über uns",
+    "enotourism": "Weintourismus"
   },
   "hero": {
     "badge": "Komplettsystem für Weingüter",
@@ -2267,6 +2268,49 @@
     },
     "footer": {
       "rights": "All rights reserved."
+    }
+  },
+  "enotourism": {
+    "badge": "Weintourismus",
+    "title": "Kompletter und Integrierter Weintourismus",
+    "description": "Verwalten Sie das gesamte Weintourismus-Erlebnis Ihres Weinguts mit modernen Tools. Öffentliche Seite für den Verkauf von Erlebnissen, intelligente Terminplanung über WhatsApp mit KI und volle Kontrolle über Reservierungen, Verkostungen und Besichtigungen.",
+    "imageAlt": "Bacco ERP Weintourismus-Buchungssystem",
+    "cta": "Mehr Erfahren",
+    "ctaDemo": "Demo Ansehen",
+    "features": {
+      "booking": {
+        "title": "Intelligente Terminplanung",
+        "description": "KI-gesteuerter WhatsApp-Bot für automatische Buchungen, Bestätigungen und Stornierungen. Ihre Besucher interagieren natürlich und erhalten rund um die Uhr Service."
+      },
+      "whatsappBot": {
+        "title": "WhatsApp KI-Assistent",
+        "description": "Künstliche Intelligenz, die Buchungen verwaltet, Erinnerungen sendet, Anwesenheiten bestätigt und Stornierungen direkt über WhatsApp verarbeitet."
+      },
+      "publicPage": {
+        "title": "Öffentliche Erlebnisseite",
+        "description": "Individuelle Buchungsseite für Ihr Weingut. Besucher wählen Erlebnis, Datum, Uhrzeit und Personenzahl — alles online."
+      }
+    },
+    "highlights": {
+      "experiences": {
+        "title": "Verkostungen & Erlebnisse",
+        "description": "Erstellen und verwalten Sie verschiedene Erlebnistypen: klassische Verkostungen, Premium-Verkostungen, Weinbergtouren und besondere Veranstaltungen.",
+        "detail": "Mehrere gleichzeitige Erlebnisse"
+      },
+      "payments": {
+        "title": "Online-Zahlung",
+        "description": "Erhalten Sie Zahlungen direkt über die Buchungsseite, mit automatischer Bestätigung und Finanzintegration.",
+        "detail": "In die ERP-Finanzen integriert"
+      },
+      "capacity": {
+        "title": "Kapazitätskontrolle",
+        "description": "Legen Sie die Verfügbarkeit pro Zeitfenster und Erlebnis fest. Das System verwaltet die Verfügbarkeit in Echtzeit und verhindert Überbuchungen.",
+        "detail": "Echtzeit-Verfügbarkeit"
+      }
+    },
+    "floatingCard": {
+      "title": "WhatsApp Bot",
+      "description": "KI, die Reservierungen automatisch bucht, bestätigt und storniert."
     }
   }
 }

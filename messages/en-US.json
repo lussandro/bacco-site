@@ -30,7 +30,8 @@
     "system": "System",
     "differentials": "Differentials",
     "comparison": "Comparison",
-    "about": "About"
+    "about": "About",
+    "enotourism": "Wine Tourism"
   },
   "hero": {
     "badge": "Complete System for Wineries",
@@ -2267,6 +2268,49 @@
     },
     "footer": {
       "rights": "All rights reserved."
+    }
+  },
+  "enotourism": {
+    "badge": "Wine Tourism",
+    "title": "Complete Wine Tourism Management",
+    "description": "Manage your winery's entire wine tourism experience with modern tools. A public page for selling experiences, smart scheduling via WhatsApp with AI, and full control over reservations, tastings, and visits.",
+    "imageAlt": "Bacco ERP wine tourism booking system",
+    "cta": "Learn More",
+    "ctaDemo": "See Demo",
+    "features": {
+      "booking": {
+        "title": "Smart Scheduling",
+        "description": "AI-powered WhatsApp bot for automatic bookings, confirmations, and cancellations. Your visitors interact naturally and receive 24/7 service."
+      },
+      "whatsappBot": {
+        "title": "WhatsApp AI Assistant",
+        "description": "Artificial intelligence that manages bookings, sends reminders, confirms attendance, and processes cancellations directly through WhatsApp."
+      },
+      "publicPage": {
+        "title": "Public Experience Page",
+        "description": "A custom booking page for your winery. Visitors choose the experience, date, time, and number of guests — all online."
+      }
+    },
+    "highlights": {
+      "experiences": {
+        "title": "Tastings & Experiences",
+        "description": "Create and manage different experience types: classic tastings, premium tastings, vineyard tours, and special events.",
+        "detail": "Multiple simultaneous experiences"
+      },
+      "payments": {
+        "title": "Online Payments",
+        "description": "Receive payments directly through the booking page, with automatic confirmation and financial integration.",
+        "detail": "Integrated with ERP financials"
+      },
+      "capacity": {
+        "title": "Capacity Control",
+        "description": "Set availability per time slot and experience. The system manages real-time availability, preventing overbooking.",
+        "detail": "Real-time availability"
+      }
+    },
+    "floatingCard": {
+      "title": "WhatsApp Bot",
+      "description": "AI that books, confirms, and cancels reservations automatically."
     }
   }
 }

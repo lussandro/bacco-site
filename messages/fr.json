@@ -1385,7 +1385,8 @@
     "differentials": "Différences",
     "features": "Caractéristiques",
     "mobile": "Bacco-Campo",
-    "system": "Système"
+    "system": "Système",
+    "enotourism": "Œnotourisme"
   },
   "hero": {
     "badge": "Suite complète pour les domaines viticoles",
@@ -2267,6 +2268,49 @@
       },
       "subtitle": "Matériel de support complet pour le respect de la réglementation uruguayenne dans le secteur vitivinicole.",
       "title": "Documentation réglementaire"
+    }
+  },
+  "enotourism": {
+    "badge": "Œnotourisme",
+    "title": "Œnotourisme Complet et Intégré",
+    "description": "Gérez toute l'expérience œnotouristique de votre domaine avec des outils modernes. Page publique pour la vente d'expériences, réservation intelligente via WhatsApp avec IA et contrôle total des réservations, dégustations et visites.",
+    "imageAlt": "Système de réservation œnotourisme de Bacco ERP",
+    "cta": "En Savoir Plus",
+    "ctaDemo": "Voir la Démo",
+    "features": {
+      "booking": {
+        "title": "Réservation Intelligente",
+        "description": "Bot IA sur WhatsApp pour les réservations, confirmations et annulations automatiques. Vos visiteurs interagissent naturellement et bénéficient d'un service 24/7."
+      },
+      "whatsappBot": {
+        "title": "Assistant IA WhatsApp",
+        "description": "Intelligence artificielle qui gère les réservations, envoie des rappels, confirme les présences et traite les annulations directement via WhatsApp."
+      },
+      "publicPage": {
+        "title": "Page Publique d'Expériences",
+        "description": "Page de réservation personnalisée pour votre domaine. Vos visiteurs choisissent l'expérience, la date, l'horaire et le nombre de personnes, le tout en ligne."
+      }
+    },
+    "highlights": {
+      "experiences": {
+        "title": "Dégustations et Expériences",
+        "description": "Créez et gérez différents types d'expériences : dégustations classiques, premium, visites du vignoble et événements spéciaux.",
+        "detail": "Plusieurs expériences simultanées"
+      },
+      "payments": {
+        "title": "Paiement en Ligne",
+        "description": "Recevez les paiements directement via la page de réservation, avec confirmation automatique et intégration financière.",
+        "detail": "Intégré aux finances de l'ERP"
+      },
+      "capacity": {
+        "title": "Contrôle de Capacité",
+        "description": "Définissez les places par créneau horaire et expérience. Le système gère la disponibilité en temps réel, évitant la surréservation.",
+        "detail": "Disponibilité en temps réel"
+      }
+    },
+    "floatingCard": {
+      "title": "WhatsApp Bot",
+      "description": "IA qui réserve, confirme et annule les réservations automatiquement."
     }
   }
 }

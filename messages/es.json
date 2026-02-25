@@ -30,7 +30,8 @@
     "system": "Sistema",
     "differentials": "Diferenciales",
     "comparison": "Comparación",
-    "about": "Acerca de"
+    "about": "Acerca de",
+    "enotourism": "Enoturismo"
   },
   "hero": {
     "badge": "Sistema Completo para Bodegas",
@@ -2267,6 +2268,49 @@
     },
     "footer": {
       "rights": "Todos los derechos reservados."
+    }
+  },
+  "enotourism": {
+    "badge": "Enoturismo",
+    "title": "Enoturismo Completo e Integrado",
+    "description": "Gestione toda la experiencia de enoturismo de su bodega con herramientas modernas. Página pública para venta de experiencias, programación inteligente vía WhatsApp con IA y control total de reservas, degustaciones y visitas.",
+    "imageAlt": "Sistema de reservas de enoturismo de Bacco ERP",
+    "cta": "Saber Más",
+    "ctaDemo": "Ver Demostración",
+    "features": {
+      "booking": {
+        "title": "Programación Inteligente",
+        "description": "Bot con IA en WhatsApp para reservas, confirmaciones y cancelaciones automáticas. Sus visitantes interactúan de forma natural y reciben atención 24/7."
+      },
+      "whatsappBot": {
+        "title": "Asistente IA en WhatsApp",
+        "description": "Inteligencia artificial que gestiona reservas, envía recordatorios, confirma asistencias y procesa cancelaciones directamente por WhatsApp."
+      },
+      "publicPage": {
+        "title": "Página Pública de Experiencias",
+        "description": "Página de reservas personalizada para su bodega. Sus visitantes eligen la experiencia, fecha, horario y número de personas, todo en línea."
+      }
+    },
+    "highlights": {
+      "experiences": {
+        "title": "Degustaciones y Experiencias",
+        "description": "Cree y gestione diferentes tipos de experiencias: degustaciones clásicas, premium, tours por el viñedo y eventos especiales.",
+        "detail": "Múltiples experiencias simultáneas"
+      },
+      "payments": {
+        "title": "Pago en Línea",
+        "description": "Reciba pagos directamente por la página de reservas, con confirmación automática e integración al financiero.",
+        "detail": "Integrado al financiero del ERP"
+      },
+      "capacity": {
+        "title": "Control de Capacidad",
+        "description": "Defina plazas por horario y experiencia. El sistema gestiona la disponibilidad en tiempo real, evitando sobreventas.",
+        "detail": "Disponibilidad en tiempo real"
+      }
+    },
+    "floatingCard": {
+      "title": "WhatsApp Bot",
+      "description": "IA que agenda, confirma y cancela reservas automáticamente."
     }
   }
 }

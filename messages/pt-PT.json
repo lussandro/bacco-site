@@ -43,7 +43,7 @@
         "extra2": "O Bacco não é apenas um ERP. É o resultado de décadas de experiência em tecnologia encontrando a paixão pelo vinho. É a ferramenta que eu gostaria que existisse quando comecei a estudar enologia.",
         "p1": "A ideia do Bacco nasceu de uma necessidade real: enquanto eu produzia meus próprios vinhos de forma artesanal, percebi que não existia no mercado um sistema de gestão que realmente entendesse as particularidades da produção de vinhos.",
         "p2": "Os sistemas disponíveis eram, em sua maioria, adaptações de ERPs genéricos ou traduções superficiais de softwares estrangeiros que não contemplavam as variedades de uvas, práticas locais, regulamentações específicas ou as necessidades de pequenas e médias adegas.",
-    "p3": "Foi então que decidi unir minhas duas paixões — tecnologia e vinho — para criar algo único: um ERP desenvolvido do zero, pensado para adegas, mas com padrões internacionais de qualidade e rastreabilidade. Hoje, o Bacco está disponível em 4 idiomas (Português, Inglês, Espanhol, Italiano), atendendo adegas ao redor do mundo.",
+        "p3": "Foi então que decidi unir minhas duas paixões — tecnologia e vinho — para criar algo único: um ERP desenvolvido do zero, pensado para adegas, mas com padrões internacionais de qualidade e rastreabilidade. Hoje, o Bacco está disponível em 4 idiomas (Português, Inglês, Espanhol, Italiano), atendendo adegas ao redor do mundo.",
         "p4": "O Bacco não é apenas um software. É o resultado de anos de experiência em desenvolvimento de sistemas, conhecimento técnico em enologia e uma profunda compreensão das necessidades reais de quem produz vinho. Com suporte multilíngue, levamos essa solução para adegas em diferentes países."
       },
       "title": "A Origem do Bacco",
@@ -1385,7 +1385,8 @@
     "differentials": "Diferenciais",
     "features": "Funcionalidades",
     "mobile": "Bacco-Campo",
-    "system": "Sistema"
+    "system": "Sistema",
+    "enotourism": "Enoturismo"
   },
   "hero": {
     "badge": "Sistema Completo para Adegas",
@@ -2267,6 +2268,49 @@
       },
       "subtitle": "Material completo de apoio para conformidade com as regulamentacoes uruguaias do setor vinicola.",
       "title": "Documentacao Regulatoria"
+    }
+  },
+  "enotourism": {
+    "badge": "Enoturismo",
+    "title": "Enoturismo Completo e Integrado",
+    "description": "Faça a gestão de toda a experiência de enoturismo da sua adega com ferramentas modernas. Página pública para venda de experiências, agendamento inteligente via WhatsApp com IA e controlo total de reservas, provas e visitas.",
+    "imageAlt": "Sistema de reservas de enoturismo do Bacco ERP",
+    "cta": "Saber Mais",
+    "ctaDemo": "Ver Demonstração",
+    "features": {
+      "booking": {
+        "title": "Agendamento Inteligente",
+        "description": "Bot com IA no WhatsApp para agendamentos, confirmações e cancelamentos automáticos. Os seus visitantes interagem de forma natural e recebem atendimento 24/7."
+      },
+      "whatsappBot": {
+        "title": "Assistente IA no WhatsApp",
+        "description": "Inteligência artificial que gere agendamentos, envia lembretes, confirma presenças e processa cancelamentos diretamente pelo WhatsApp."
+      },
+      "publicPage": {
+        "title": "Página Pública de Experiências",
+        "description": "Página de reservas personalizada para a sua adega. Os seus visitantes escolhem a experiência, data, horário e número de pessoas, tudo online."
+      }
+    },
+    "highlights": {
+      "experiences": {
+        "title": "Provas e Experiências",
+        "description": "Crie e faça a gestão de diferentes tipos de experiências: provas clássicas, premium, visitas à vinha e eventos especiais.",
+        "detail": "Múltiplas experiências em simultâneo"
+      },
+      "payments": {
+        "title": "Pagamento Online",
+        "description": "Receba pagamentos diretamente pela página de reservas, com confirmação automática e integração ao financeiro.",
+        "detail": "Integrado ao financeiro do ERP"
+      },
+      "capacity": {
+        "title": "Controlo de Capacidade",
+        "description": "Defina vagas por horário e experiência. O sistema gere a disponibilidade em tempo real, evitando overbooking.",
+        "detail": "Disponibilidade em tempo real"
+      }
+    },
+    "floatingCard": {
+      "title": "WhatsApp Bot",
+      "description": "IA que agenda, confirma e cancela reservas automaticamente."
     }
   }
 }
