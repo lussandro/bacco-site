@@ -2311,6 +2311,25 @@
     "floatingCard": {
       "title": "WhatsApp Bot",
       "description": "IA que agenda, confirma e cancela reservas automaticamente."
+    },
+    "chat": {
+      "badge": "Assistente IA",
+      "title": "Agendamento por WhatsApp com IA",
+      "description": "A Valentina, assistente inteligente com IA, atende seus visitantes no WhatsApp 24/7. Ela apresenta as experiências disponíveis, verifica horários, faz reservas e envia confirmações — tudo de forma natural e automatizada.",
+      "botName": "Valentina",
+      "messages": {
+        "greeting": "Boa tarde! 😊 Como posso ajudar você hoje?",
+        "userAsk": "Gostaria de saber quais passeios e visitas vocês tem disponível",
+        "experienceIntro": "Aqui estão as experiências disponíveis na Vinícola:",
+        "exp1name": "Degustação Clássica",
+        "exp1detail": "4 vinhos. 60 min. R$ 89,90",
+        "exp2name": "Degustação Premium",
+        "exp2detail": "6 vinhos reserva com harmonização. 90 min. R$ 159,90",
+        "exp3name": "Tour Completo",
+        "exp3detail": "Visita completa com degustação e almoço. 180 min. R$ 289,90",
+        "userChoice": "Quero a Degustação Premium para sábado!",
+        "botConfirm": "Ótima escolha! 🍷 Vou verificar a disponibilidade para sábado. Para quantas pessoas seria?"
+      }
     }
   }
 }

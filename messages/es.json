@@ -2311,6 +2311,25 @@
     "floatingCard": {
       "title": "WhatsApp Bot",
       "description": "IA que agenda, confirma y cancela reservas automáticamente."
+    },
+    "chat": {
+      "badge": "Asistente IA",
+      "title": "Reservas por WhatsApp con IA",
+      "description": "Valentina, asistente inteligente con IA, atiende a sus visitantes en WhatsApp 24/7. Presenta las experiencias disponibles, verifica horarios, hace reservas y envía confirmaciones — todo de forma natural y automatizada.",
+      "botName": "Valentina",
+      "messages": {
+        "greeting": "¡Buenas tardes! 😊 ¿Cómo puedo ayudarle hoy?",
+        "userAsk": "Me gustaría saber qué tours y visitas tienen disponibles",
+        "experienceIntro": "Aquí están las experiencias disponibles en la Bodega:",
+        "exp1name": "Degustación Clásica",
+        "exp1detail": "4 vinos. 60 min. $89.90",
+        "exp2name": "Degustación Premium",
+        "exp2detail": "6 vinos reserva con maridaje. 90 min. $159.90",
+        "exp3name": "Tour Completo",
+        "exp3detail": "Visita completa con degustación y almuerzo. 180 min. $289.90",
+        "userChoice": "¡Quiero la Degustación Premium para el sábado!",
+        "botConfirm": "¡Excelente elección! 🍷 Voy a verificar la disponibilidad para el sábado. ¿Para cuántas personas sería?"
+      }
     }
   }
 }

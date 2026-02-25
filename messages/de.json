@@ -2311,6 +2311,25 @@
     "floatingCard": {
       "title": "WhatsApp Bot",
       "description": "KI, die Reservierungen automatisch bucht, bestätigt und storniert."
+    },
+    "chat": {
+      "badge": "KI-Assistent",
+      "title": "WhatsApp-Buchung mit KI",
+      "description": "Valentina, die KI-gesteuerte Assistentin, betreut Ihre Besucher auf WhatsApp rund um die Uhr. Sie präsentiert verfügbare Erlebnisse, prüft Termine, nimmt Reservierungen vor und sendet Bestätigungen — alles natürlich und automatisiert.",
+      "botName": "Valentina",
+      "messages": {
+        "greeting": "Guten Tag! 😊 Wie kann ich Ihnen heute helfen?",
+        "userAsk": "Ich würde gerne wissen, welche Touren und Besichtigungen Sie anbieten",
+        "experienceIntro": "Hier sind die verfügbaren Erlebnisse im Weingut:",
+        "exp1name": "Klassische Verkostung",
+        "exp1detail": "4 Weine. 60 Min. 89,90€",
+        "exp2name": "Premium-Verkostung",
+        "exp2detail": "6 Reserveweine mit Begleitung. 90 Min. 159,90€",
+        "exp3name": "Komplette Tour",
+        "exp3detail": "Vollständige Besichtigung mit Verkostung und Mittagessen. 180 Min. 289,90€",
+        "userChoice": "Ich möchte die Premium-Verkostung für Samstag!",
+        "botConfirm": "Ausgezeichnete Wahl! 🍷 Ich prüfe die Verfügbarkeit für Samstag. Für wie viele Personen wäre es?"
+      }
     }
   }
 }

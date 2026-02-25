@@ -2311,6 +2311,25 @@
     "floatingCard": {
       "title": "WhatsApp Bot",
       "description": "IA qui réserve, confirme et annule les réservations automatiquement."
+    },
+    "chat": {
+      "badge": "Assistant IA",
+      "title": "Réservation WhatsApp avec IA",
+      "description": "Valentina, l'assistante intelligente avec IA, accueille vos visiteurs sur WhatsApp 24/7. Elle présente les expériences disponibles, vérifie les horaires, effectue les réservations et envoie les confirmations — le tout de manière naturelle et automatisée.",
+      "botName": "Valentina",
+      "messages": {
+        "greeting": "Bonjour ! 😊 Comment puis-je vous aider aujourd'hui ?",
+        "userAsk": "J'aimerais savoir quels tours et visites vous proposez",
+        "experienceIntro": "Voici les expériences disponibles au Domaine :",
+        "exp1name": "Dégustation Classique",
+        "exp1detail": "4 vins. 60 min. 89,90€",
+        "exp2name": "Dégustation Premium",
+        "exp2detail": "6 vins de réserve avec accord. 90 min. 159,90€",
+        "exp3name": "Tour Complet",
+        "exp3detail": "Visite complète avec dégustation et déjeuner. 180 min. 289,90€",
+        "userChoice": "Je veux la Dégustation Premium pour samedi !",
+        "botConfirm": "Excellent choix ! 🍷 Je vérifie la disponibilité pour samedi. Pour combien de personnes ?"
+      }
     }
   }
 }

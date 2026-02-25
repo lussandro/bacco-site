@@ -2311,6 +2311,25 @@
     "floatingCard": {
       "title": "WhatsApp Bot",
       "description": "AI that books, confirms, and cancels reservations automatically."
+    },
+    "chat": {
+      "badge": "AI Assistant",
+      "title": "WhatsApp Booking with AI",
+      "description": "Valentina, our AI-powered assistant, serves your visitors on WhatsApp 24/7. She presents available experiences, checks schedules, makes reservations, and sends confirmations — all naturally and automatically.",
+      "botName": "Valentina",
+      "messages": {
+        "greeting": "Good afternoon! 😊 How can I help you today?",
+        "userAsk": "I'd like to know what tours and visits you have available",
+        "experienceIntro": "Here are the experiences available at the Winery:",
+        "exp1name": "Classic Tasting",
+        "exp1detail": "4 wines. 60 min. $89.90",
+        "exp2name": "Premium Tasting",
+        "exp2detail": "6 reserve wines with pairing. 90 min. $159.90",
+        "exp3name": "Full Tour",
+        "exp3detail": "Complete visit with tasting and lunch. 180 min. $289.90",
+        "userChoice": "I want the Premium Tasting for Saturday!",
+        "botConfirm": "Great choice! 🍷 Let me check availability for Saturday. How many guests would it be for?"
+      }
     }
   }
 }

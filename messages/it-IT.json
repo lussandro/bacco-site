@@ -2311,6 +2311,25 @@
     "floatingCard": {
       "title": "WhatsApp Bot",
       "description": "IA che prenota, conferma e cancella prenotazioni automaticamente."
+    },
+    "chat": {
+      "badge": "Assistente IA",
+      "title": "Prenotazione WhatsApp con IA",
+      "description": "Valentina, l'assistente intelligente con IA, accoglie i tuoi visitatori su WhatsApp 24/7. Presenta le esperienze disponibili, verifica gli orari, effettua prenotazioni e invia conferme — tutto in modo naturale e automatizzato.",
+      "botName": "Valentina",
+      "messages": {
+        "greeting": "Buon pomeriggio! 😊 Come posso aiutarla oggi?",
+        "userAsk": "Vorrei sapere quali tour e visite avete disponibili",
+        "experienceIntro": "Ecco le esperienze disponibili in Cantina:",
+        "exp1name": "Degustazione Classica",
+        "exp1detail": "4 vini. 60 min. 89,90€",
+        "exp2name": "Degustazione Premium",
+        "exp2detail": "6 vini riserva con abbinamento. 90 min. 159,90€",
+        "exp3name": "Tour Completo",
+        "exp3detail": "Visita completa con degustazione e pranzo. 180 min. 289,90€",
+        "userChoice": "Voglio la Degustazione Premium per sabato!",
+        "botConfirm": "Ottima scelta! 🍷 Verifico la disponibilità per sabato. Per quante persone sarebbe?"
+      }
     }
   }
 }
