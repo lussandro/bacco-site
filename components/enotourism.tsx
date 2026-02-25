@@ -88,7 +88,7 @@ export function Enotourism() {
                 </a>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <a href="https://staging.bacco-erp.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://staging.bacco-erp.com/reservar/vinicola-demo" target="_blank" rel="noopener noreferrer">
                   <ExternalLink className="h-4 w-4 mr-2" />
                   {t("ctaDemo")}
                 </a>
