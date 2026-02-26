@@ -38,7 +38,7 @@
     "badgeMultilingual": "🌍 Disponível em 7 Idiomas",
     "title": "Do Vinhedo à Garrafa: Controle Total da Sua Produção",
     "subtitle": "O único ERP brasileiro exclusivo para vinícolas, agora disponível globalmente",
-    "description": "<strong>ERP completo para vinícolas com suporte multilíngue nativo.</strong> Gerencie cada etapa da produção de vinhos, espumantes e sucos com o Bacco ERP. <strong>Disponível em Português, Inglês, Espanhol e Italiano</strong> - traduções profissionais, não apenas superficiais. Rastreabilidade completa, monitoramento em tempo real, inteligência artificial integrada e gestão unificada. Inclui <strong>Bacco-Campo</strong> para gestão no vinhedo e <strong>Bacco-Comanda</strong> para PDV e enoturismo.",
+    "description": "<strong>ERP completo para vinícolas com suporte multilíngue nativo.</strong> Gerencie cada etapa da produção de vinhos, espumantes e sucos com o Bacco ERP. <strong>Disponível em Português, Inglês, Espanhol, Italiano, Francês e Alemão</strong> - traduções profissionais, não apenas superficiais. Rastreabilidade completa, monitoramento em tempo real, inteligência artificial integrada e gestão unificada. Inclui <strong>Bacco-Campo</strong> para gestão no vinhedo e <strong>Bacco-Comanda</strong> para PDV e enoturismo.",
     "ctaDemo": "Agendar Demo",
     "ctaSystem": "Ver Sistema em Ação",
     "imageAlt": "Vinhedo moderno ao pôr do sol",
@@ -486,9 +486,9 @@
       "brazilian": {
         "title": "Multilíngue e Global",
         "badge": "Global Ready",
-        "description": "Desenvolvido no Brasil, mas preparado para o mundo. Disponível em Português, Inglês, Espanhol e Italiano. Suporte completo às práticas locais e padrões internacionais.",
+        "description": "Desenvolvido no Brasil, mas preparado para o mundo. Disponível em Português, Inglês, Espanhol, Italiano, Francês e Alemão. Suporte completo às práticas locais e padrões internacionais.",
         "highlights": [
-          "Interface disponível em 7 idiomas: PT, EN, ES, IT",
+          "Interface disponível em 7 idiomas: PT-BR, PT-PT, EN, ES, IT, FR, DE",
           "Suporte a variedades e práticas de diferentes regiões",
           "Adaptado às regras do MAPA, NCM e SIF (Brasil)",
           "Preparado para exportação e certificação internacional",
@@ -708,7 +708,7 @@
       "text": {
         "p1": "A ideia do Bacco nasceu de uma necessidade real: enquanto eu produzia meus próprios vinhos de forma artesanal, percebi que não existia no mercado um sistema de gestão que realmente entendesse as particularidades da produção de vinhos.",
         "p2": "Os sistemas disponíveis eram, em sua maioria, adaptações de ERPs genéricos ou traduções superficiais de softwares estrangeiros que não contemplavam as variedades de uvas, práticas locais, regulamentações específicas ou as necessidades de pequenas e médias vinícolas.",
-        "p3": "Foi então que decidi unir minhas duas paixões — tecnologia e vinho — para criar algo único: um ERP desenvolvido do zero, pensado para vinícolas, mas com padrões internacionais de qualidade e rastreabilidade. Hoje, o Bacco está disponível em 4 idiomas (Português, Inglês, Espanhol, Italiano), atendendo vinícolas ao redor do mundo.",
+        "p3": "Foi então que decidi unir minhas duas paixões — tecnologia e vinho — para criar algo único: um ERP desenvolvido do zero, pensado para vinícolas, mas com padrões internacionais de qualidade e rastreabilidade. Hoje, o Bacco está disponível em 7 idiomas (Português (Brasil), Português (Portugal), Inglês, Espanhol, Italiano, Francês e Alemão), atendendo vinícolas ao redor do mundo.",
         "p4": "O Bacco não é apenas um software. É o resultado de anos de experiência em desenvolvimento de sistemas, conhecimento técnico em enologia e uma profunda compreensão das necessidades reais de quem produz vinho. Com suporte multilíngue, levamos essa solução para vinícolas em diferentes países.",
         "extra1": "Mais do que um software, o Bacco representa uma visão de futuro para o vinho brasileiro — moderna, autêntica e feita com alma. Um sistema que entende que cada lote tem uma história, cada fermentação um ritmo, e cada vinho uma identidade.",
         "extra2": "O Bacco não é apenas um ERP. É o resultado de décadas de experiência em tecnologia encontrando a paixão pelo vinho. É a ferramenta que eu gostaria que existisse quando comecei a estudar enologia."

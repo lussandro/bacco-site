@@ -9,7 +9,7 @@
     "allRightsReserved": "Tutti i diritti riservati"
   },
   "seo": {
-    "organizationDescription": "Sistema ERP completo per cantine con supporto multilingue (portoghese, inglese, spagnolo, italiano)",
+    "organizationDescription": "Sistema ERP completo per cantine con supporto multilingue (Portoghese (Brasile), Portoghese (Portogallo), Inglese, Spagnolo, Italiano, Francese e Tedesco)",
     "contactType": "Supporto",
     "softwareDescription": "ERP completo per la gestione di cantine con IA, tracciabilità, conformità SIVIBE/ENVIN e modulo enoturismo",
     "featureList": {
@@ -36,7 +36,7 @@
   "hero": {
     "badge": "Sistema Completo per Cantine",
     "title": "Dal Vigneto alla Bottiglia: Controllo Totale della Tua Produzione",
-    "description": "<strong>ERP completo per cantine con supporto multilingue nativo.</strong> Gestisci ogni fase della produzione di vini, spumanti e succhi con Bacco ERP. <strong>Disponibile in portoghese, inglese, spagnolo e italiano</strong> - traduzioni professionali, non solo superficiali. Tracciabilità completa, monitoraggio in tempo reale, intelligenza artificiale integrata e gestione unificata. Include <strong>Bacco-Campo</strong> per la gestione del vigneto e <strong>Bacco-Comanda</strong> per POS ed enoturismo.",
+    "description": "<strong>ERP completo per cantine con supporto multilingue nativo.</strong> Gestisci ogni fase della produzione di vini, spumanti e succhi con Bacco ERP. <strong>Disponibile in portoghese, inglese, spagnolo, italiano, francese e tedesco</strong> - traduzioni professionali, non solo superficiali. Tracciabilità completa, monitoraggio in tempo reale, intelligenza artificiale integrata e gestione unificata. Include <strong>Bacco-Campo</strong> per la gestione del vigneto e <strong>Bacco-Comanda</strong> per POS ed enoturismo.",
     "ctaDemo": "Prenota Demo",
     "ctaSystem": "Vedi Sistema",
     "imageAlt": "Vigneto moderno al tramonto",
@@ -486,9 +486,9 @@
       "brazilian": {
         "title": "Multilingue e globale",
         "badge": "Global Ready",
-        "description": "Sviluppato in Brasile, ma preparato per il mondo. Disponibile in portoghese, inglese, spagnolo e italiano. Supporto completo per pratiche locali e standard internazionali.",
+        "description": "Sviluppato in Brasile, ma preparato per il mondo. Disponibile in portoghese, inglese, spagnolo, italiano, francese e tedesco. Supporto completo per pratiche locali e standard internazionali.",
         "highlights": [
-          "Interfaccia disponibile in 7 lingue: PT, EN, ES, IT",
+          "Interfaccia disponibile in 7 lingue: PT-BR, PT-PT, EN, ES, IT, FR, DE",
           "Sostegno a varietà e pratiche provenienti da diverse regioni",
           "Adattato alle regole MAPA, NCM e SIF (Brasile)",
           "Pronti per l'export e la certificazione internazionale",

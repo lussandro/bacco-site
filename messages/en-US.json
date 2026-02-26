@@ -9,7 +9,7 @@
     "allRightsReserved": "All rights reserved"
   },
   "seo": {
-    "organizationDescription": "Complete ERP system for wineries with multilingual support (Portuguese, English, Spanish, Italian)",
+    "organizationDescription": "Complete ERP system for wineries with multilingual support (Portuguese (Brazil), Portuguese (Portugal), English, Spanish, Italian, French and German)",
     "contactType": "Support",
     "softwareDescription": "Complete ERP for winery management with AI, traceability, SIVIBE/ENVIN compliance and wine tourism module",
     "featureList": {
@@ -36,7 +36,7 @@
   "hero": {
     "badge": "Complete System for Wineries",
     "title": "From Vineyard to Bottle: Total Control of Your Production",
-    "description": "<strong>Complete ERP for wineries with native multilingual support.</strong> Manage every stage of wine, sparkling wine, and juice production with Bacco ERP. <strong>Available in Portuguese, English, Spanish, and Italian</strong> - professional translations, not just superficial. Complete traceability, real-time monitoring, integrated artificial intelligence, and unified management. Includes <strong>Bacco-Campo</strong> for vineyard management and <strong>Bacco-Comanda</strong> for POS and wine tourism.",
+    "description": "<strong>Complete ERP for wineries with native multilingual support.</strong> Manage every stage of wine, sparkling wine, and juice production with Bacco ERP. <strong>Available in Portuguese, English, Spanish, Italian, French and German</strong> - professional translations, not just superficial. Complete traceability, real-time monitoring, integrated artificial intelligence, and unified management. Includes <strong>Bacco-Campo</strong> for vineyard management and <strong>Bacco-Comanda</strong> for POS and wine tourism.",
     "ctaDemo": "Schedule Demo",
     "ctaSystem": "See System in Action",
     "imageAlt": "Modern vineyard at sunset",
@@ -486,9 +486,9 @@
       "brazilian": {
         "title": "Multilingual and Global",
         "badge": "Global Ready",
-        "description": "Developed in Brazil, but prepared for the world. Available in Portuguese, English, Spanish, and Italian. Complete support for local practices and international standards.",
+        "description": "Developed in Brazil, but prepared for the world. Available in Portuguese, English, Spanish, Italian, French and German. Complete support for local practices and international standards.",
         "highlights": [
-          "Interface available in 7 languages: PT, EN, ES, IT",
+          "Interface available in 7 languages: PT-BR, PT-PT, EN, ES, IT, FR, DE",
           "Support for varieties and practices from different regions",
           "Adapted to MAPA, NCM, and SIF rules (Brazil)",
           "Ready for export and international certification",

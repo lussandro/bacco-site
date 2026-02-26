@@ -43,7 +43,7 @@
         "extra2": "Bacco n'est pas qu'un ERP. C'est le résultat de décennies d'expérience dans la technologie et de la passion du vin. C'est l'outil que j'aurais aimé avoir lorsque j'ai commencé mes études d'œnologie.",
         "p1": "L'idée de Bacco est née d'un réel besoin : alors que je produisais mes propres vins à la main, je me suis rendu compte qu'il n'existait pas sur le marché de système de gestion qui comprenne réellement les particularités de la production vitivinicole.",
         "p2": "Les systèmes disponibles étaient pour la plupart des adaptations d'ERP génériques ou des traductions superficielles de logiciels étrangers qui ne prenaient pas en compte les cépages, les pratiques locales, les réglementations spécifiques ou les besoins des petites et moyennes domaines viticoles.",
-        "p3": "C’est alors que j’ai décidé de combiner mes deux passions – la technologie et le vin – pour créer quelque chose d’unique : un ERP développé de toutes pièces, conçu pour les domaines viticoles, mais avec des normes internationales de qualité et de traçabilité. Aujourd'hui, Bacco est disponible en 7 langues (portugais, anglais, espagnol, italien), au service des domaines viticoles du monde entier.",
+        "p3": "C’est alors que j’ai décidé de combiner mes deux passions – la technologie et le vin – pour créer quelque chose d’unique : un ERP développé de toutes pièces, conçu pour les domaines viticoles, mais avec des normes internationales de qualité et de traçabilité. Aujourd'hui, Bacco est disponible en 7 langues (portugais (Brésil), portugais (Portugal), anglais, espagnol, italien, français et allemand), au service des domaines viticoles du monde entier.",
         "p4": "Bacco n'est pas qu'un logiciel. C'est le résultat d'années d'expérience dans le développement de systèmes, de connaissances techniques en œnologie et d'une profonde compréhension des besoins réels de ceux qui produisent du vin. Avec un support multilingue, nous apportons cette solution aux domaines viticoles de différents pays."
       },
       "title": "L'origine du bacco",
@@ -1128,9 +1128,9 @@
       },
       "brazilian": {
         "badge": "Prêt pour le monde entier",
-        "description": "Développé au Brésil, mais préparé pour le monde. Disponible en portugais, anglais, espagnol et italien. Prise en charge totale des pratiques locales et des normes internationales.",
+        "description": "Développé au Brésil, mais préparé pour le monde. Disponible en portugais, anglais, espagnol, italien, français et allemand. Prise en charge totale des pratiques locales et des normes internationales.",
         "highlights": [
-          "Interface disponible en 7 langues : PT, EN, ES, IT",
+          "Interface disponible en 7 langues : PT-BR, PT-PT, EN, ES, IT, FR, DE",
           "Support aux variétés et pratiques de différentes régions",
           "Adapté aux règles du MAPA, NCM et SIF (Brésil)",
           "Préparé pour l'exportation et la certification internationale",
@@ -1393,7 +1393,7 @@
     "badgeMultilingual": "🌍 Disponible en 7 langues",
     "ctaDemo": "Planifier une Demo",
     "ctaSystem": "Voir le système en action",
-    "description": "<strong>ERP complet pour les domaines viticoles avec support multilingue natif.</strong> Gérez chaque étape de la production de vin, de vin mousseux et de jus avec Bacco ERP. <strong>Disponible en portugais, anglais, espagnol et italien</strong> - traductions professionnelles, pas seulement superficielles. Traçabilité complète, surveillance en temps réel, intelligence artificielle intégrée et gestion unifiée. Comprend <strong>Bacco-Campo</strong> pour la gestion du vignoble et <strong>Bacco-Comanda</strong> pour les points de vente et l'œnotourisme.",
+    "description": "<strong>ERP complet pour les domaines viticoles avec support multilingue natif.</strong> Gérez chaque étape de la production de vin, de vin mousseux et de jus avec Bacco ERP. <strong>Disponible en portugais, anglais, espagnol, italien, français et allemand</strong> - traductions professionnelles, pas seulement superficielles. Traçabilité complète, surveillance en temps réel, intelligence artificielle intégrée et gestion unifiée. Comprend <strong>Bacco-Campo</strong> pour la gestion du vignoble et <strong>Bacco-Comanda</strong> pour les points de vente et l'œnotourisme.",
     "floatingCard": {
       "description": "Vignoble, production et qualité",
       "title": "Contrôle total"
@@ -1984,7 +1984,7 @@
       "vineyardManagement": "Gestion du vignoble"
     },
     "home": "Commencer",
-    "organizationDescription": "Système ERP complet pour domaines viticoles avec support multilingue (portugais, anglais, espagnol, italien)",
+    "organizationDescription": "Système ERP complet pour domaines viticoles avec support multilingue (Portugais (Brésil), Portugais (Portugal), Anglais, Espagnol, Italien, Français et Allemand)",
     "softwareDescription": "ERP complet pour la gestion de domaine viticole avec IA, traçabilité, conformité SIVIBE/ENVIN et module oenotourisme"
   },
   "terms": {

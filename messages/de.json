@@ -9,7 +9,7 @@
     "allRightsReserved": "Alle Rechte vorbehalten"
   },
   "seo": {
-    "organizationDescription": "Komplettes ERP-System für Weingüter mit mehrsprachiger Unterstützung (Portugiesisch, Englisch, Spanisch, Italienisch)",
+    "organizationDescription": "Komplettes ERP-System für Weingüter mit mehrsprachiger Unterstützung (Portugiesisch (Brasilien), Portugiesisch (Portugal), Englisch, Spanisch, Italienisch, Französisch und Deutsch)",
     "contactType": "Unterstützung",
     "softwareDescription": "Komplettes ERP für das Weingut-Management mit KI, Rückverfolgbarkeit, SIVIBE/ENVIN-Compliance und Weintourismus-Modul",
     "featureList": {
@@ -486,9 +486,9 @@
       "brazilian": {
         "title": "Mehrsprachig und global",
         "badge": "Global Ready",
-        "description": "Entwickelt in Brasilien, aber auf die Welt vorbereitet. Verfügbar in Portugiesisch, Englisch, Spanisch, Italienisch und Deutsch. Vollständige Unterstützung für lokale Praktiken und internationale Standards.",
+        "description": "Entwickelt in Brasilien, aber auf die Welt vorbereitet. Verfügbar in Portugiesisch, Englisch, Spanisch, Italienisch, Französisch und Deutsch. Vollständige Unterstützung für lokale Praktiken und internationale Standards.",
         "highlights": [
-          "Schnittstelle in 5 Sprachen verfügbar: PT, EN, ES, IT",
+          "Schnittstelle in 7 Sprachen verfügbar: PT-BR, PT-PT, EN, ES, IT, FR, DE",
           "Unterstützung von Sorten und Praktiken aus verschiedenen Regionen",
           "Angepasst AN Mapa-, Ncm- und SIF-Regeln (Brasilien)",
           "Exportfertig und internationale Zertifizierung",

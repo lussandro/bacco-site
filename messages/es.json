@@ -9,7 +9,7 @@
     "allRightsReserved": "Todos los derechos reservados"
   },
   "seo": {
-    "organizationDescription": "Sistema ERP completo para bodegas con soporte multilingüe (Portugués, Inglés, Español, Italiano)",
+    "organizationDescription": "Sistema ERP completo para bodegas con soporte multilingüe (Portugués (Brasil), Portugués (Portugal), Inglés, Español, Italiano, Francés y Alemán)",
     "contactType": "Soporte",
     "softwareDescription": "ERP completo para gestión de bodegas con IA, trazabilidad, compliance SIVIBE/ENVIN y módulo de enoturismo",
     "featureList": {
@@ -36,7 +36,7 @@
   "hero": {
     "badge": "Sistema Completo para Bodegas",
     "title": "Del Viñedo a la Botella: Control Total de Su Producción",
-    "description": "<strong>ERP completo para bodegas con soporte multilingüe nativo.</strong> Gestione cada etapa de la producción de vinos, espumantes y jugos con Bacco ERP. <strong>Disponible en Portugués, Inglés, Español e Italiano</strong> - traducciones profesionales, no solo superficiales. Trazabilidad completa, monitoreo en tiempo real, inteligencia artificial integrada y gestión unificada. Incluye <strong>Bacco-Campo</strong> para gestión del viñedo y <strong>Bacco-Comanda</strong> para PDV y enoturismo.",
+    "description": "<strong>ERP completo para bodegas con soporte multilingüe nativo.</strong> Gestione cada etapa de la producción de vinos, espumantes y jugos con Bacco ERP. <strong>Disponible en Portugués, Inglés, Español, Italiano, Francés y Alemán</strong> - traducciones profesionales, no solo superficiales. Trazabilidad completa, monitoreo en tiempo real, inteligencia artificial integrada y gestión unificada. Incluye <strong>Bacco-Campo</strong> para gestión del viñedo y <strong>Bacco-Comanda</strong> para PDV y enoturismo.",
     "ctaDemo": "Agendar Demo",
     "ctaSystem": "Ver Sistema en Acción",
     "imageAlt": "Viñedo moderno al atardecer",
@@ -486,9 +486,9 @@
       "brazilian": {
         "title": "Multilingüe y Global",
         "badge": "Global Ready",
-        "description": "Desarrollado en Brasil, pero preparado para el mundo. Disponible en Portugués, Inglés, Español e Italiano. Soporte completo a las prácticas locales y estándares internacionales.",
+        "description": "Desarrollado en Brasil, pero preparado para el mundo. Disponible en Portugués, Inglés, Español, Italiano, Francés y Alemán. Soporte completo a las prácticas locales y estándares internacionales.",
         "highlights": [
-          "Interfaz disponible en 7 idiomas: PT, EN, ES, IT",
+          "Interfaz disponible en 7 idiomas: PT-BR, PT-PT, EN, ES, IT, FR, DE",
           "Soporte a variedades y prácticas de diferentes regiones",
           "Adaptado a las reglas del MAPA, NCM y SIF (Brasil)",
           "Preparado para exportación y certificación internacional",
