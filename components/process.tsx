@@ -1,6 +1,7 @@
 "use client"
 
 import { Card } from "@/components/ui/card"
+import Image from "next/image"
 import { useTranslations } from 'next-intl';
 
 const images = [
@@ -42,9 +43,11 @@ export function Process() {
 
               <div className={index % 2 === 1 ? "lg:order-1" : ""}>
                 <Card className="overflow-hidden">
-                  <img
-                    src={images[index] || "/placeholder.svg"}
+                  <Image
+                    src={images[index]}
                     alt={t(`steps.${step}.title`)}
+                    width={900}
+                    height={600}
                     className="w-full aspect-[3/2] object-cover"
                   />
                 </Card>

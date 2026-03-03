@@ -41,7 +41,7 @@ export function Enotourism() {
       id="enoturismo"
       className="py-20 lg:py-32 bg-gradient-to-b from-background via-primary/5 to-background relative overflow-hidden"
     >
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_60%_20%,rgba(139,69,19,0.06),transparent_50%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_60%_20%,color-mix(in oklch, var(--primary) 6%, transparent),transparent_50%)]" />
 
       <div className="container mx-auto px-4 lg:px-8 relative">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
@@ -100,7 +100,7 @@ export function Enotourism() {
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border-2 border-border/50 ring-1 ring-primary/10">
               <Image
-                src="/screenshots/17-enoturismo-reservas.png"
+                src="/screenshots/enoturismo-reservas.png"
                 alt={t("imageAlt")}
                 width={1200}
                 height={800}

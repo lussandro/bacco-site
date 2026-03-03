@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Play, Wine } from "lucide-react"
+import Image from "next/image"
 import { useTranslations } from 'next-intl';
 
 export function Hero() {
@@ -11,8 +12,8 @@ export function Hero() {
   return (
     <section className="relative pt-32 pb-20 lg:pt-40 lg:pb-32 overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-background to-primary/10" />
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(139,69,19,0.1),transparent_50%)]" />
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(139,69,19,0.08),transparent_50%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,color-mix(in oklch, var(--primary) 10%, transparent),transparent_50%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,color-mix(in oklch, var(--primary) 8%, transparent),transparent_50%)]" />
 
       <div className="container mx-auto px-4 lg:px-8 relative">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
@@ -84,9 +85,12 @@ export function Hero() {
           <div className="relative animate-in fade-in slide-in-from-right duration-700 delay-150">
             <div className="relative">
               <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl border-2 border-border/50 ring-1 ring-primary/10">
-                <img
+                <Image
                   src="/vineyard-sunset.png"
                   alt={t('imageAlt')}
+                  width={800}
+                  height={600}
+                  priority
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                 />
               </div>

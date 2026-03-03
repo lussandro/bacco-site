@@ -902,7 +902,12 @@
       "namePlaceholder": "Seu nome",
       "phone": "Telefone *",
       "phonePlaceholder": "(00) 00000-0000",
-      "submit": "Enviar Mensagem"
+      "submit": "Enviar Mensagem",
+      "sending": "A enviar...",
+      "successTitle": "Registo recebido!",
+      "successMessage": "Entraremos em contacto brevemente. Obrigado pelo interesse no Bacco!",
+      "sendAnother": "Enviar outro",
+      "errorMessage": "Erro ao enviar. Tente novamente ou contacte-nos por WhatsApp."
     },
     "location": "Localização",
     "phone": "Telefone",
@@ -1172,6 +1177,32 @@
         "title": "Fluxo de Vinificação Gráfico e Interativo"
       }
     },
+    "pitch": {
+      "badge": "Diferenciais Comerciais",
+      "title": "O Que Mais Pesa na Decisao",
+      "subtitle": "Argumentos concretos que fazem a diferenca na hora de escolher o Bacco ERP",
+      "items": {
+        "vertical": { "title": "Verticalizacao Real para Vinho", "description": "Nao e um ERP generico adaptado. Cada modulo foi concebido para as necessidades reais de quem produz vinho." },
+        "endToEnd": { "title": "Cobertura de Ponta a Ponta", "description": "Viticultura + vinificacao + ERP comercial + experiencia publica, tudo ligado num unico sistema." },
+        "modular": { "title": "Arquitetura Modular", "description": "Venda por necessidade e maturidade do cliente. Ative apenas os modulos que fazem sentido agora." },
+        "multiCountry": { "title": "Multi-Pais Fiscal", "description": "Base pronta para operacao internacional com modulos fiscais dedicados: BR, PT, IT, FR, ES, DE, AR, CL, UY." },
+        "parcelMap": { "title": "Mapa de Parcelas Operacional", "description": "Desenho, edicao, clusters e visao de risco/estado diretamente no mapa satelite com poligonos editaveis." },
+        "operationalAI": { "title": "IA Operacional Aplicada", "description": "Clima e vinificacao integrados ao fluxo. IA que sugere, alerta e otimiza." },
+        "omnichannel": { "title": "Omnicanal", "description": "E-commerce, WhatsApp Bot e enoturismo no mesmo ambiente, com stock e financas integrados." },
+        "governance": { "title": "Governanca Enterprise", "description": "Superadmin, observabilidade com Grafana/Loki/Prometheus, auditoria completa e controlo de seguranca." }
+      }
+    },
+    "recent": {
+      "badge": "Entregas Recentes",
+      "title": "Implementacoes com Impacto Comercial",
+      "items": {
+        "polygonMap": { "title": "Mapa com Poligonos Editaveis", "description": "Registo visual de parcelas por desenho no mapa satelite, edicao de area e painel lateral com indicadores." },
+        "productivity": { "title": "Produtividade Conectada", "description": "Parcela e vinha refletem dados de vindima concluida e rececao, com fonte explicita do dado." },
+        "compliance": { "title": "Compliance MAPA e SIVIBE", "description": "Relatorios de vindima com fallback inteligente por ordem de vindima quando nao ha rececao vinculada." },
+        "vinificationOS": { "title": "Vinificacao com OS Integrada", "description": "Execucao de vinificacao com ordem de adega ligada ao Production Run, sem controlo paralelo em folha de calculo." },
+        "ecommerce": { "title": "E-commerce Operacional", "description": "Configuracao por canal, catalogo por artigo, importacao de encomendas e integracao com stock e financas." }
+      }
+    },
     "pioneers": {
       "badge": "Pioneirismo",
       "cards": {
@@ -1347,6 +1378,124 @@
     "subtitle": "Tudo que você precisa para gerenciar sua produção de vinhos, espumantes e sucos em um único sistema.",
     "title": "Funcionalidades Completas para a sua Adega"
   },
+  "scope": {
+    "badge": "Ambito Funcional",
+    "title": "Tudo o Que o Bacco ERP Faz por Si",
+    "subtitle": "11 blocos funcionais validados e operacionais, cobrindo toda a cadeia produtiva da adega.",
+    "footer": "Todos os modulos sao ativaveis por licenca, permitindo adocao gradual conforme a maturidade da operacao.",
+    "modules": {
+      "platform": {
+        "title": "Nucleo de Plataforma",
+        "description": "Base multi-tenant com gestao organizacional completa.",
+        "items": [
+          "Autenticacao, registo e onboarding",
+          "Dashboard operacional em tempo real",
+          "Utilizadores, setores, cargos e perfis de acesso",
+          "Licenciamento e modularizacao por plano",
+          "Superadmin: tenants, billing, auditoria, observabilidade"
+        ]
+      },
+      "viticulture": {
+        "title": "Viticultura",
+        "description": "Gestao completa da vinha, da plantacao a vindima.",
+        "items": [
+          "Vinhas e parcelas com geolocalizacao e mapa interativo",
+          "Manejos, tarefas padrao e calendario de manejos",
+          "Fitossanitario, vindima e pluviometria",
+          "Analise de solo, analise foliar e maturacao",
+          "Clima IA e Vinificacao IA",
+          "Mecanizacao: gasoleo, maquinas, horimetro, OS e manutencao"
+        ]
+      },
+      "enology": {
+        "title": "Enologia e Vinificacao",
+        "description": "Da rececao de uvas ao engarrafamento, com fluxos visuais.",
+        "items": [
+          "Rececao de uvas com rastreabilidade",
+          "Vasilhames, barricas, atestos, etapas e consumiveis",
+          "Fluxos de vinificacao com editor visual",
+          "Lotes de producao e detalhe da execucao",
+          "Ordens de adega / OS de vinificacao",
+          "Laboratorio e prova"
+        ]
+      },
+      "juices": {
+        "title": "Linha de Sumos",
+        "description": "Producao de sumos com fluxos e rastreabilidade dedicados.",
+        "items": [
+          "Dashboard e fluxos com editor visual",
+          "Producao e detalhe por execucao",
+          "Formulas, embalagem, ENVIN e rastreabilidade"
+        ]
+      },
+      "commercial": {
+        "title": "ERP Comercial e Financeiro",
+        "description": "Vendas, compras, financeiro e PDV integrados.",
+        "items": [
+          "Clientes e fornecedores",
+          "Vendas, tabelas de precos e compras",
+          "Financeiro completo (contas a pagar/receber, fluxo de caixa)",
+          "PDV, gestor de caixa, mesas e formas de pagamento",
+          "Integracao com terminais de pagamento"
+        ]
+      },
+      "fiscal": {
+        "title": "Fiscal e Compliance",
+        "description": "Compliance regulatorio com modulos por pais.",
+        "items": [
+          "Configuracao e parametrizacao fiscal",
+          "Faturas eletronicas",
+          "Modulos fiscais: BR, PT, IT, FR, ES, DE, AR, CL, UY",
+          "Compliance SIVIBE, livros/mapas e rastreabilidade publica"
+        ]
+      },
+      "logistics": {
+        "title": "Logistica e Distribuicao",
+        "description": "Expedicao e controlo de entregas.",
+        "items": [
+          "Expedicao com controlo de lotes",
+          "Gestao de entregas e rotas"
+        ]
+      },
+      "cooperative": {
+        "title": "Cooperativa",
+        "description": "Gestao de produtores associados e contas correntes.",
+        "items": [
+          "Registo de produtores",
+          "Conta corrente de produtor com movimentacao"
+        ]
+      },
+      "enotourism": {
+        "title": "Enoturismo e Publico Externo",
+        "description": "Reservas, avaliacoes e pagamentos online.",
+        "items": [
+          "Enoturismo com operacoes e reservas",
+          "Portal publico de reservas por slug",
+          "Avaliacao publica por token",
+          "Webhooks de pagamento (Mercado Pago e Pagar.me)"
+        ]
+      },
+      "iot": {
+        "title": "IoT e Canais Digitais",
+        "description": "Sensores, WhatsApp Bot e hub de e-commerce.",
+        "items": [
+          "Sensores RAPT e telemetria IoT",
+          "WhatsApp Bot com webhook publico",
+          "E-commerce Hub: integracao por canal, catalogo, sincronismo de produtos",
+          "Importacao de encomendas e relatorios de resumo"
+        ]
+      },
+      "observability": {
+        "title": "Observabilidade e Operacao",
+        "description": "Monitorizacao enterprise com stack completa.",
+        "items": [
+          "Health endpoint e Sentry",
+          "Grafana, Loki, Prometheus e Promtail",
+          "Auditoria e trilha administrativa completa"
+        ]
+      }
+    }
+  },
   "footer": {
     "company": {
       "about": "Sobre",
@@ -1381,9 +1530,9 @@
   "header": {
     "about": "Sobre",
     "comanda": "Bacco-Comanda",
-    "comparison": "Comparação",
     "differentials": "Diferenciais",
     "features": "Funcionalidades",
+    "scope": "Escopo",
     "mobile": "Bacco-Campo",
     "system": "Sistema",
     "enotourism": "Enoturismo"
@@ -1916,6 +2065,10 @@
         "description": "Módulo exclusivo para gestão de agendamentos, degustações e visitações com controlo completo de experiências",
         "title": "Enoturismo - Reservas"
       },
+      "enotourismPortal": {
+        "description": "Página pública para agendamento de experiências e degustações com pagamento online integrado",
+        "title": "Portal Público de Reservas"
+      },
       "financial": {
         "description": "Controlo completo de contas a pagar e receber, fluxo de caixa e gestão financeira integrada",
         "title": "Financeiro"
@@ -1970,6 +2123,12 @@
       }
     },
     "subtitle": "Explore as principais funcionalidades do Bacco ERP através de capturas de tela reais do sistema.",
+    "categories": {
+      "viticulture": "Viticultura",
+      "vinification": "Vinificação",
+      "commercial": "Comercial & PDV",
+      "management": "Gestão & Compliance"
+    },
     "title": "Conheça o Sistema por Dentro"
   },
   "seo": {

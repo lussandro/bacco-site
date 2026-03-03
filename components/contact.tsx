@@ -67,7 +67,7 @@ export function Contact() {
         setFormData({ name: "", email: "", phone: "", company: "", message: "" })
       }
     } catch {
-      setError("Erro ao enviar. Tente novamente ou entre em contato por WhatsApp.")
+      setError(t("form.errorMessage"))
     } finally {
       setLoading(false)
     }
@@ -140,12 +140,12 @@ export function Contact() {
               {success ? (
                 <div className="flex flex-col items-center justify-center py-12 text-center">
                   <CheckCircle2 className="h-12 w-12 text-green-500 mb-4" />
-                  <h3 className="font-serif text-xl font-bold mb-2">Cadastro recebido!</h3>
+                  <h3 className="font-serif text-xl font-bold mb-2">{t("form.successTitle")}</h3>
                   <p className="text-muted-foreground text-sm mb-6">
-                    Entraremos em contato em breve. Obrigado pelo interesse no Bacco!
+                    {t("form.successMessage")}
                   </p>
                   <Button variant="outline" onClick={() => setSuccess(false)}>
-                    Enviar outro
+                    {t("form.sendAnother")}
                   </Button>
                 </div>
               ) : (
@@ -229,7 +229,7 @@ export function Contact() {
                     {loading ? (
                       <>
                         <Loader2 className="h-4 w-4 animate-spin mr-2" />
-                        Enviando...
+                        {t("form.sending")}
                       </>
                     ) : (
                       t("form.submit")

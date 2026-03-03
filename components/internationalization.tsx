@@ -22,7 +22,7 @@ export function Internationalization() {
 
   return (
     <section className="py-20 lg:py-32 bg-gradient-to-b from-background via-primary/5 to-background relative overflow-hidden">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(139,69,19,0.05),transparent_70%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,color-mix(in oklch, var(--primary) 5%, transparent),transparent_70%)]" />
       
       <div className="container mx-auto px-4 lg:px-8 relative">
         <div className="text-center mb-16">

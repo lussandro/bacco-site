@@ -148,20 +148,6 @@ export function About() {
             </div>
           </div>
 
-          {/* Final */}
-          <div className="mt-12">
-            <Card className="p-8 lg:p-10 bg-gradient-to-br from-primary/10 via-background to-background border-primary/20">
-              <div className="flex items-start gap-6">
-                <div className="h-14 w-14 rounded-full bg-primary/20 flex items-center justify-center">
-                  <Heart className="h-6 w-6 text-primary" />
-                </div>
-                <div className="space-y-4">
-                  <p className="text-lg text-muted-foreground leading-relaxed">{t("origin.text.extra1")}</p>
-                  <p className="text-lg font-semibold text-foreground leading-relaxed">{t("origin.text.extra2")}</p>
-                </div>
-              </div>
-            </Card>
-          </div>
         </div>
       </div>
     </section>

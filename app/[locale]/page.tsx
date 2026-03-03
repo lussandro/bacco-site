@@ -3,6 +3,7 @@ import { Hero } from "@/components/hero"
 import { Internationalization } from "@/components/internationalization"
 import { Countries } from "@/components/countries"
 import { Features } from "@/components/features"
+import { Scope } from "@/components/scope"
 import { AIAlerts } from "@/components/ai-alerts"
 import { Mobile } from "@/components/mobile"
 import { Comanda } from "@/components/comanda"
@@ -13,10 +14,12 @@ import { Differentials } from "@/components/differentials"
 import { Comparison } from "@/components/comparison"
 import { Benefits } from "@/components/benefits"
 import { About } from "@/components/about"
+import { MissionValues } from "@/components/mission-values"
 import { FAQ } from "@/components/faq"
 import { Contact } from "@/components/contact"
 import { CTA } from "@/components/cta"
 import { Footer } from "@/components/footer"
+import { AnimateOnScroll } from "@/components/animate-on-scroll"
 
 export default function Home() {
   return (
@@ -24,21 +27,57 @@ export default function Home() {
       <Header />
       <main className="min-h-screen">
         <Hero />
-        <Internationalization />
-        <Countries />
-        <Features />
-        <AIAlerts />
-        <Mobile />
-        <Comanda />
-        <Enotourism />
-        <Screenshots />
-        <Process />
-        <Differentials />
-        <Comparison />
-        <Benefits />
-        <About />
-        <FAQ />
-        <Contact />
+        <AnimateOnScroll>
+          <Internationalization />
+        </AnimateOnScroll>
+        <AnimateOnScroll>
+          <Countries />
+        </AnimateOnScroll>
+        <AnimateOnScroll>
+          <Features />
+        </AnimateOnScroll>
+        <AnimateOnScroll>
+          <Scope />
+        </AnimateOnScroll>
+        <AnimateOnScroll>
+          <AIAlerts />
+        </AnimateOnScroll>
+        <AnimateOnScroll>
+          <Mobile />
+        </AnimateOnScroll>
+        <AnimateOnScroll>
+          <Comanda />
+        </AnimateOnScroll>
+        <AnimateOnScroll>
+          <Enotourism />
+        </AnimateOnScroll>
+        <AnimateOnScroll>
+          <Screenshots />
+        </AnimateOnScroll>
+        <AnimateOnScroll>
+          <Process />
+        </AnimateOnScroll>
+        <AnimateOnScroll>
+          <Differentials />
+        </AnimateOnScroll>
+        <AnimateOnScroll>
+          <Comparison />
+        </AnimateOnScroll>
+        <AnimateOnScroll>
+          <Benefits />
+        </AnimateOnScroll>
+        <AnimateOnScroll>
+          <About />
+        </AnimateOnScroll>
+        <AnimateOnScroll>
+          <MissionValues />
+        </AnimateOnScroll>
+        <AnimateOnScroll>
+          <FAQ />
+        </AnimateOnScroll>
+        <AnimateOnScroll>
+          <Contact />
+        </AnimateOnScroll>
         <CTA />
       </main>
       <Footer />
