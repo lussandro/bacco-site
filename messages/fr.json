@@ -1182,25 +1182,64 @@
       "title": "Ce Qui Compte le Plus dans la Decision",
       "subtitle": "Des arguments concrets qui font la difference lors du choix de Bacco ERP",
       "items": {
-        "vertical": { "title": "Verticalisation Reelle pour le Vin", "description": "Ce n'est pas un ERP generique adapte. Chaque module a ete concu pour les besoins reels de la production vinicole." },
-        "endToEnd": { "title": "Couverture de Bout en Bout", "description": "Viticulture + vinification + ERP commercial + experience publique, le tout connecte dans un seul systeme." },
-        "modular": { "title": "Architecture Modulaire", "description": "Vendez selon les besoins et la maturite du client. Activez uniquement les modules qui ont du sens maintenant." },
-        "multiCountry": { "title": "Multi-Pays Fiscal", "description": "Pret pour les operations internationales avec des modules fiscaux dedies : BR, PT, IT, FR, ES, DE, AR, CL, UY." },
-        "parcelMap": { "title": "Carte Parcellaire Operationnelle", "description": "Dessin, edition, clusters et vision risque/statut directement sur la carte satellite avec des polygones editables." },
-        "operationalAI": { "title": "IA Operationnelle Appliquee", "description": "Climat et vinification integres au flux de travail. IA qui suggere, alerte et optimise." },
-        "omnichannel": { "title": "Omnicanal", "description": "E-commerce, WhatsApp Bot et oenotourisme dans le meme environnement, avec stock et finances integres." },
-        "governance": { "title": "Gouvernance Enterprise", "description": "Superadmin, observabilite avec Grafana/Loki/Prometheus, piste d'audit complete et controle de securite." }
+        "vertical": {
+          "title": "Verticalisation Reelle pour le Vin",
+          "description": "Ce n'est pas un ERP generique adapte. Chaque module a ete concu pour les besoins reels de la production vinicole."
+        },
+        "endToEnd": {
+          "title": "Couverture de Bout en Bout",
+          "description": "Viticulture + vinification + ERP commercial + experience publique, le tout connecte dans un seul systeme."
+        },
+        "modular": {
+          "title": "Architecture Modulaire",
+          "description": "Vendez selon les besoins et la maturite du client. Activez uniquement les modules qui ont du sens maintenant."
+        },
+        "multiCountry": {
+          "title": "Multi-Pays Fiscal",
+          "description": "Pret pour les operations internationales avec des modules fiscaux dedies : BR, PT, IT, FR, ES, DE, AR, CL, UY."
+        },
+        "parcelMap": {
+          "title": "Carte Parcellaire Operationnelle",
+          "description": "Dessin, edition, clusters et vision risque/statut directement sur la carte satellite avec des polygones editables."
+        },
+        "operationalAI": {
+          "title": "IA Operationnelle Appliquee",
+          "description": "Climat et vinification integres au flux de travail. IA qui suggere, alerte et optimise."
+        },
+        "omnichannel": {
+          "title": "Omnicanal",
+          "description": "E-commerce, WhatsApp Bot et oenotourisme dans le meme environnement, avec stock et finances integres."
+        },
+        "governance": {
+          "title": "Gouvernance Enterprise",
+          "description": "Superadmin, observabilite avec Grafana/Loki/Prometheus, piste d'audit complete et controle de securite."
+        }
       }
     },
     "recent": {
       "badge": "Livraisons Recentes",
       "title": "Implementations a Impact Commercial",
       "items": {
-        "polygonMap": { "title": "Carte avec Polygones Editables", "description": "Enregistrement visuel des parcelles par dessin sur carte satellite, edition de surface et panneau lateral avec indicateurs." },
-        "productivity": { "title": "Productivite Connectee", "description": "Parcelle et vignoble refletent les donnees de vendange terminee et de reception, avec source explicite de la donnee." },
-        "compliance": { "title": "Compliance MAPA et SIVIBE", "description": "Rapports de vendange avec fallback intelligent par ordre de vendange lorsqu'il n'y a pas de reception liee." },
-        "vinificationOS": { "title": "Vinification avec OT Integree", "description": "Execution de vinification avec ordre de cave connecte au Production Run, sans controle parallele sur tableur." },
-        "ecommerce": { "title": "E-commerce Operationnel", "description": "Configuration par canal, catalogue par article, importation de commandes et integration avec stock et finances." }
+        "polygonMap": {
+          "title": "Carte avec Polygones Editables",
+          "description": "Enregistrement visuel des parcelles par dessin sur carte satellite, edition de surface et panneau lateral avec indicateurs."
+        },
+        "productivity": {
+          "title": "Productivite Connectee",
+          "description": "Parcelle et vignoble refletent les donnees de vendange terminee et de reception, avec source explicite de la donnee."
+        },
+        "compliance": {
+          "title": "Compliance MAPA et SIVIBE",
+          "description": "Rapports de vendange avec fallback intelligent par ordre de vendange lorsqu'il n'y a pas de reception liee."
+        },
+        "vinificationOS": {
+          "title": "Vinification avec OT Integree",
+          "description": "Execution de vinification avec ordre de cave connecte au Production Run, sans controle parallele sur tableur."
+        },
+        "ecommerce": {
+          "title": "E-commerce Operationnel",
+          "description": "Configuration par canal, catalogue par article, importation de commandes et integration avec stock et finances."
+        }
       }
     },
     "pioneers": {
@@ -1535,7 +1574,8 @@
     "scope": "Perimetre",
     "mobile": "Bacco-Campo",
     "system": "Système",
-    "enotourism": "Œnotourisme"
+    "enotourism": "Œnotourisme",
+    "baccoCpu": "Telemetrie"
   },
   "hero": {
     "badge": "Suite complète pour les domaines viticoles",
@@ -2490,5 +2530,73 @@
         "botConfirm": "Excellent choix ! 🍷 Je vérifie la disponibilité pour samedi. Pour combien de personnes ?"
       }
     }
+  },
+  "baccoCpu": {
+    "badge": "Telemetrie",
+    "title": "Suivi Intelligent de la Fermentation",
+    "intro1": "La fermentation est l une des etapes les plus critiques de la production de vin. De petites variations de temperature peuvent modifier les aromes, affecter la structure du vin ou meme provoquer des arrets fermentaires.",
+    "intro2": "Avec la telemetrie integree a Bacco ERP, des capteurs installes sur les cuves collectent les donnees en continu et les envoient vers un tableau de bord unique en temps reel. Vous gagnez une visibilite complete de la cave et plus de securite a chaque etape.",
+    "monitoring": {
+      "tankTemperature": "Temperature actuelle de chaque fermentation",
+      "temperatureAlerts": "Alertes quand la temperature sort de la plage ideale",
+      "lotHistory": "Historique complet de chaque lot",
+      "visualTracking": "Suivi visuel de la fermentation"
+    },
+    "decisionSupport": "Cela permet a l oenologue de prendre des decisions rapides et de garder un controle total de la vinification.",
+    "panel": {
+      "title": "La cave connectee a Bacco ERP",
+      "subtitle": "Toutes les cuves sur un seul ecran",
+      "live": "Temps Reel",
+      "stats": {
+        "activeTanks": "Cuves actives",
+        "alerts": "Alertes",
+        "inRange": "Dans la plage ideale"
+      }
+    },
+    "benefits": {
+      "smartAlerts": {
+        "title": "Alertes Intelligentes",
+        "description": "Le systeme surveille en continu les capteurs et alerte automatiquement en cas de comportement hors norme."
+      },
+      "lessManualWork": {
+        "title": "Moins de Travail Manuel",
+        "description": "Les mesures deviennent automatiques et sont enregistrees dans le systeme, liberant du temps pour le travail oenologique."
+      },
+      "fermentationHistory": {
+        "title": "Historique Complet",
+        "description": "Analysez les courbes de fermentation, le comportement thermique, la comparaison entre millesimes et la performance des levures."
+      },
+      "fullErpIntegration": {
+        "title": "Integration Totale avec l ERP",
+        "description": "Contrairement aux systemes isoles, les donnees sont directement integrees a l historique de production du domaine, de la vigne a la bouteille."
+      },
+      "allWinerySizes": {
+        "title": "Evolutif pour Toutes les Tailles",
+        "description": "Capteurs industriels avec passerelles intelligentes et envoi cloud securise, avec extension simple a mesure que le domaine grandit."
+      }
+    },
+    "gallery": {
+      "main": {
+        "alt": "Cave avec cuves et panneau de suivi de fermentation"
+      },
+      "secondary1": {
+        "alt": "Cuves avec tableau de bord de telemetrie dans la cave",
+        "title": "Vue Globale de la Cave",
+        "description": "Suivi en temps reel de toute la zone de fermentation."
+      },
+      "secondary2": {
+        "alt": "Terminal industriel de suivi de fermentation entre les cuves",
+        "title": "Collecte Terrain",
+        "description": "Capteurs industriels et passerelles pour une collecte continue des donnees."
+      }
+    },
+    "closing": "Controler la fermentation avec precision permet de produire des vins plus reguliers et de reduire les risques de process. Avec la telemetrie Bacco-CPU, votre domaine gagne en technologie, en visibilite et en controle pour elever la qualite des vins."
+  },
+  "telemetryCallout": {
+    "title": "Nouveau : Telemetrie Bacco-CPU",
+    "description": "Decouvrez comment suivre la fermentation en temps reel dans Bacco ERP.",
+    "cta": "Voir Telemetrie",
+    "dismiss": "Pas maintenant",
+    "close": "Fermer l avis"
   }
 }

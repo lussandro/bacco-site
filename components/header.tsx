@@ -28,6 +28,7 @@ export function Header() {
     { href: "#funcionalidades", label: t('features') },
     { href: "#escopo", label: t('scope') },
     { href: "#mobile", label: t('mobile') },
+    { href: "#bacco-cpu", label: t('baccoCpu') },
     { href: "#comanda", label: t('comanda') },
     { href: "#enoturismo", label: t('enotourism') },
     { href: "#sistema", label: t('system') },

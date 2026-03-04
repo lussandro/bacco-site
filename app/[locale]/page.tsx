@@ -6,6 +6,7 @@ import { Features } from "@/components/features"
 import { Scope } from "@/components/scope"
 import { AIAlerts } from "@/components/ai-alerts"
 import { Mobile } from "@/components/mobile"
+import { BaccoCpu } from "@/components/bacco-cpu"
 import { Comanda } from "@/components/comanda"
 import { Enotourism } from "@/components/enotourism"
 import { Screenshots } from "@/components/screenshots"
@@ -20,11 +21,13 @@ import { Contact } from "@/components/contact"
 import { CTA } from "@/components/cta"
 import { Footer } from "@/components/footer"
 import { AnimateOnScroll } from "@/components/animate-on-scroll"
+import { TelemetryCallout } from "@/components/telemetry-callout"
 
 export default function Home() {
   return (
     <>
       <Header />
+      <TelemetryCallout />
       <main className="min-h-screen">
         <Hero />
         <AnimateOnScroll>
@@ -44,6 +47,9 @@ export default function Home() {
         </AnimateOnScroll>
         <AnimateOnScroll>
           <Mobile />
+        </AnimateOnScroll>
+        <AnimateOnScroll>
+          <BaccoCpu />
         </AnimateOnScroll>
         <AnimateOnScroll>
           <Comanda />
