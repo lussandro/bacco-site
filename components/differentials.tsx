@@ -24,7 +24,7 @@ const pitchIcons = [
 ]
 
 const recentKeys = [
-  "polygonMap", "productivity", "compliance", "vinificationOS", "ecommerce",
+  "sparklingModule", "multiModeReception", "harvestCosts", "fullVinification", "financialComplete",
 ] as const
 
 export function Differentials() {

@@ -180,6 +180,34 @@
       "reports": {
         "title": "Relatórios e Analytics",
         "description": "Relatórios completos de produção, vendas, financeiro e análises com exportação de dados."
+      },
+      "sparklingWine": {
+        "title": "Espumantes",
+        "description": "Módulo dedicado para produções de espumante: Charmat, Champenoise e Ancestral, com calculadora de dosagem e métodos de produção."
+      },
+      "blends": {
+        "title": "Cortes / Blends",
+        "description": "Criação de assemblages combinando lotes de vinho com percentuais por variedade, volume resultante e rastreabilidade completa."
+      },
+      "bottling": {
+        "title": "Engarrafamento",
+        "description": "Ordens de envase com controle de garrafas previstas vs. produzidas, rendimento, contagem de caixas e rastreabilidade por lote."
+      },
+      "vinificationAnalytics": {
+        "title": "Analytics de Vinificação",
+        "description": "Visão gerencial da safra: lotes, volume total, variedades, garrafas, blends, rendimento uva→vinho e rendimento de envase."
+      },
+      "mechanization": {
+        "title": "Mecanização e Diesel",
+        "description": "Centro de custo de mecanização com controle de diesel, máquinas, horímetro, ordens de serviço, manutenção e relatórios."
+      },
+      "ecommerceHub": {
+        "title": "E-commerce Hub",
+        "description": "Integração com iFood e Nuvemshop: sincronismo de catálogo, importação de pedidos e integração com estoque e financeiro."
+      },
+      "labeling": {
+        "title": "Rotulagem e QR Code",
+        "description": "Cadastro de rótulos com rastreabilidade, classificação do vinho e geração de QR Code para verificação pública de autenticidade."
       }
     }
   },
@@ -342,80 +370,108 @@
       "viticulture": "Viticultura",
       "vinification": "Vinificação",
       "commercial": "Comercial & PDV",
-      "management": "Gestão & Compliance"
+      "enotourism": "Enoturismo",
+      "financial": "Financeiro",
+      "ecommerce": "E-commerce",
+      "stock": "Estoque & Rastreabilidade",
+      "management": "Compliance"
     },
     "items": {
-      "dashboard": {
-        "title": "Dashboard",
-        "description": "Visão completa da sua operação com métricas em tempo real, gráficos de atividades e status de produção"
+      "dashboardExecutivo": {
+        "title": "Dashboard Executivo",
+        "description": "Relatórios consolidados com KPIs principais, comparação entre safras e indicadores de produtividade, recepção e capacidade."
       },
-      "vineyards": {
-        "title": "Gestão de Vinhedos",
-        "description": "Controle completo de vinhedos e parcelas com informações detalhadas de área, solo e irrigação"
+      "vinhedosPoligonos": {
+        "title": "Vinhedos com Mapa de Polígonos",
+        "description": "Mapa satélite com polígonos editáveis das parcelas, produtividade média, área total e visualização georreferenciada."
+      },
+      "maturacao": {
+        "title": "Maturação e Decisão de Colheita",
+        "description": "Curva de maturação com Brix, Babo, potencial alcoólico, densidade do mosto e recomendação automática de ponto de colheita."
+      },
+      "custoColheita": {
+        "title": "Custo de Colheita",
+        "description": "Registro de custos por parcela e vinhedo com cálculo automático de diárias, colhedores e vinculação ao lote de vinificação."
+      },
+      "mecanizacao": {
+        "title": "Mecanização e Diesel",
+        "description": "Centro de custo de mecanização com controle de diesel, máquinas, horímetro, ordens de serviço e manutenção."
       },
       "calendarAI": {
         "title": "Calendário de Manejos com IA",
-        "description": "Inteligência Artificial sugere manejos baseados na região do vinhedo, com alertas e recomendações automáticas"
+        "description": "Inteligência Artificial sugere manejos baseados na região do vinhedo, com alertas e recomendações automáticas."
       },
-      "flows": {
-        "title": "Fluxos de Vinificação",
-        "description": "Editor visual de fluxos de vinificação com criação de processos personalizados para qualquer tipo de vinho"
+      "vinificacaoLotes": {
+        "title": "Lotes de Vinho",
+        "description": "Gestão de lotes em produção e maturação com código, variedade, safra, volume, vasilhame associado e status."
       },
-      "lots": {
-        "title": "Lotes em Produção",
-        "description": "Acompanhamento completo de lotes de vinificação com status, análises e histórico detalhado"
+      "vinificacaoBlends": {
+        "title": "Cortes / Blends",
+        "description": "Criação de assemblages combinando lotes de vinho com percentuais por variedade, volume resultante e rastreabilidade."
+      },
+      "vinificacaoEnvase": {
+        "title": "Engarrafamento",
+        "description": "Ordens de envase com controle de garrafas previstas vs. produzidas, rendimento, contagem de caixas e rastreabilidade."
+      },
+      "painelTanques": {
+        "title": "Painel de Vasilhames",
+        "description": "Cards visuais de cada vasilhame com capacidade, volume atual, percentual de ocupação, tipo e localização."
+      },
+      "vinificacaoAnalytics": {
+        "title": "Analytics de Vinificação",
+        "description": "Visão gerencial da safra com total de lotes, volume, variedades, garrafas, blends, rendimento uva→vinho e gráficos."
+      },
+      "espumantes": {
+        "title": "Espumantes",
+        "description": "Módulo dedicado para produções de espumante com métodos Charmat, Champenoise e Ancestral, calculadora de dosagem."
       },
       "pdv": {
         "title": "Bacco-Comanda (PDV)",
-        "description": "Sistema completo de ponto de venda com gestão de mesas, comandas e pagamentos para enoturismo"
+        "description": "Sistema completo de ponto de venda com gestão de mesas, comandas e pagamentos para enoturismo."
       },
       "pdvTables": {
         "title": "PDV - Gestão de Mesas",
-        "description": "Controle visual de mesas e comandas com status em tempo real para atendimento eficiente"
+        "description": "Controle visual de mesas e comandas com status em tempo real para atendimento eficiente."
       },
-      "enotourism": {
+      "recepcaoUvas": {
+        "title": "Recepção de Uvas Multi-modo",
+        "description": "5 modos de recepção: Carga Total, Caixas Unitárias, Caixas Tara Variável, Amostragem e Bins/Macrobins."
+      },
+      "enoturismoReservas": {
         "title": "Enoturismo - Reservas",
-        "description": "Módulo exclusivo para gestão de agendamentos, degustações e visitações com controle completo de experiências"
+        "description": "Gestão completa com 12 abas: Dashboard, Visitantes, Experiências, Horários, Reservas, Avaliações, Cupons, Vouchers e mais."
       },
-      "enotourismPortal": {
+      "portalPublico": {
         "title": "Portal Público de Reservas",
-        "description": "Página pública para agendamento de experiências e degustações, com pagamento online integrado"
+        "description": "Wizard de 5 etapas para reservas online: Experiência, Data/Horário, Extras, Dados Pessoais e Pagamento."
       },
-      "compliance": {
-        "title": "Compliance - SIVIBE",
-        "description": "Gestão de declarações obrigatórias SIVIBE com alertas de prazos e controle de compliance regulatório"
+      "financeiroDashboard": {
+        "title": "Dashboard Financeiro",
+        "description": "Saldo em contas, contas a receber/pagar, saldo previsto, alertas de títulos vencidos com aging e próximos vencimentos."
       },
-      "financial": {
-        "title": "Financeiro",
-        "description": "Controle completo de contas a pagar e receber, fluxo de caixa e gestão financeira integrada"
+      "financeiroRelatorios": {
+        "title": "Relatórios Financeiros",
+        "description": "DRE Contábil por competência com filtros por data, linha de negócio, safra e centro de custo. Exportação PDF/CSV."
       },
-      "vineyardDetails": {
-        "title": "Detalhes do Vinhedo",
-        "description": "Visualização completa de parcelas com variedades, porta-enxertos, clones e sistemas de condução"
+      "ecommerceHub": {
+        "title": "E-commerce Hub",
+        "description": "Integração com iFood e Nuvemshop com dashboard de pedidos, faturamento, ticket médio e sincronismo de catálogo."
       },
-      "newParcel": {
-        "title": "Cadastro de Parcelas",
-        "description": "Formulário completo para registro de parcelas com dados técnicos de plantio e espaçamento"
+      "ecommercePedidos": {
+        "title": "Pedidos E-commerce",
+        "description": "Importação automática de pedidos externos com mapeamento de canal, cliente, valor e vinculação ao ERP."
       },
-      "newVineyard": {
-        "title": "Cadastro de Vinhedos",
-        "description": "Registro de novos vinhedos com geolocalização, altitude, declividade e características do solo"
+      "rotulagem": {
+        "title": "Rotulagem",
+        "description": "Cadastro completo de rótulos com dados de rastreabilidade, classificação do vinho, teor alcoólico e volume."
       },
-      "varieties": {
-        "title": "Variedades de Uvas",
-        "description": "Catálogo completo de variedades com origem, cor, ciclo de maturação e status"
+      "qrCodeRastreabilidade": {
+        "title": "QR Code - Rastreabilidade Pública",
+        "description": "Página pública de verificação de autenticidade: origem das uvas, processo produtivo e certificação do produto."
       },
-      "newVariety": {
-        "title": "Cadastro de Variedades",
-        "description": "Adicione novas variedades de uvas com informações de origem, cor e ciclo"
-      },
-      "handling": {
-        "title": "Tarefas de Manejo",
-        "description": "Planeje e acompanhe tarefas de manejo com filtros por vinhedo, status e categoria"
-      },
-      "newTask": {
-        "title": "Nova Tarefa de Manejo",
-        "description": "Crie tarefas personalizadas ou use tarefas padrão com agendamento e responsáveis"
+      "sivibeCompliance": {
+        "title": "SIVIBE - Compliance",
+        "description": "Gestão de declarações obrigatórias com prazos, alertas urgentes, safra atual e acompanhamento de compliance."
       }
     }
   },
@@ -561,25 +617,25 @@
       "badge": "Entregas Recentes",
       "title": "Implementações com Impacto Comercial",
       "items": {
-        "polygonMap": {
-          "title": "Mapa com Polígonos Editáveis",
-          "description": "Cadastro visual de parcelas por desenho no mapa satélite, edição de área e painel lateral com indicadores."
+        "sparklingModule": {
+          "title": "Módulo de Espumantes",
+          "description": "Produções de espumante com métodos Charmat, Champenoise e Ancestral, calculadora de dosagem e controle dedicado."
         },
-        "productivity": {
-          "title": "Produtividade Conectada",
-          "description": "Parcela e vinhedo refletem dados de colheita concluída e recepção, com fonte explícita do dado."
+        "multiModeReception": {
+          "title": "Recepção Multi-modo",
+          "description": "5 modos de recepção de uvas: carga total, caixas unitárias, caixas tara variável, amostragem e bins/macrobins."
         },
-        "compliance": {
-          "title": "Compliance MAPA e SIVIBE",
-          "description": "Relatórios de safra com fallback inteligente por ordem de colheita quando não há recepção vinculada."
+        "harvestCosts": {
+          "title": "Custo de Colheita e Poda",
+          "description": "Registro de custos por parcela com cálculo automático de diárias, colhedores e vinculação ao lote de vinificação."
         },
-        "vinificationOS": {
-          "title": "Vinificação com OS Integrada",
-          "description": "Execução de vinificação com ordem de adega conectada ao Production Run, sem controle paralelo em planilha."
+        "fullVinification": {
+          "title": "Vinificação Completa",
+          "description": "Lotes de vinho, blends/cortes, engarrafamento com rendimento, painel de vasilhames e analytics por safra."
         },
-        "ecommerce": {
-          "title": "E-commerce Operacional",
-          "description": "Configuração por canal, catálogo por item, importação de pedidos e integração com estoque e financeiro."
+        "financialComplete": {
+          "title": "Financeiro Completo",
+          "description": "Dashboard financeiro com aging, DRE contábil por competência, patrimônio, reconciliação bancária e relatórios PDF/CSV."
         }
       }
     },
@@ -712,6 +768,41 @@
         "category": "Integração",
         "feature": "Integração completa do vinhedo ao PDV",
         "description": "Tudo integrado: viticultura, vinificação, estoque, comercial, financeiro, enoturismo e PDV"
+      },
+      "sparklingWine": {
+        "category": "Espumantes",
+        "feature": "Módulo dedicado para espumantes",
+        "description": "Produção de espumantes com métodos Charmat, Champenoise e Ancestral com calculadora de dosagem",
+        "bacco": true,
+        "competitors": "Parcial"
+      },
+      "ecommerceHub": {
+        "category": "E-commerce",
+        "feature": "Hub de e-commerce integrado ao ERP",
+        "description": "Integração com iFood e Nuvemshop com sincronismo de catálogo e importação automática de pedidos",
+        "bacco": true,
+        "competitors": false
+      },
+      "vinificationAnalytics": {
+        "category": "Analytics",
+        "feature": "Analytics de vinificação por safra",
+        "description": "Rendimento uva→vinho, rendimento de envase, distribuição por status e comparação entre safras",
+        "bacco": true,
+        "competitors": "Parcial"
+      },
+      "mechanization": {
+        "category": "Mecanização",
+        "feature": "Mecanização e diesel integrado ao vinhedo",
+        "description": "Controle de máquinas, diesel, horímetro, ordens de serviço e manutenção integrados à viticultura",
+        "bacco": true,
+        "competitors": false
+      },
+      "qrTraceability": {
+        "category": "Autenticidade",
+        "feature": "Verificação pública via QR Code",
+        "description": "Página pública para consumidor verificar autenticidade, origem das uvas e processo produtivo do vinho",
+        "bacco": true,
+        "competitors": "Parcial"
       }
     }
   },
@@ -824,24 +915,27 @@
         "title": "Viticultura",
         "description": "Gestão completa do vinhedo, do plantio à colheita.",
         "items": [
-          "Vinhedos e parcelas com geolocalização e mapa interativo",
-          "Manejos, tarefas padrão e calendário de manejos",
+          "Vinhedos e parcelas com geolocalização e mapa de polígonos editáveis",
+          "Manejos, tarefas padrão e calendário de manejos com IA",
           "Fitossanitário, colheita e pluviometria",
-          "Análise de solo, análise foliar e maturação",
-          "Clima IA e Vinificação IA",
-          "Mecanização: diesel, máquinas, horímetro, OS e manutenção"
+          "Análise de solo, análise foliar e maturação com decisão de colheita",
+          "Clima IA com previsões e recomendações automáticas",
+          "Mecanização: diesel, máquinas, horímetro, OS e manutenção",
+          "Custo de colheita e custo de poda por parcela"
         ]
       },
       "enology": {
         "title": "Enologia e Vinificação",
         "description": "Da recepção de uvas ao engarrafamento, com fluxos visuais.",
         "items": [
-          "Recepção de uvas com rastreabilidade",
-          "Vasilhames, barricas, atestos, etapas e insumos",
-          "Fluxos de vinificação com editor visual",
-          "Lotes de produção e detalhe da execução",
-          "Ordens de adega / OS de vinificação",
-          "Laboratório e degustação"
+          "Recepção de uvas multi-modo: carga total, caixas, amostragem e bins",
+          "Vasilhames com painel de ocupação, barricas e localização",
+          "Fluxos de vinificação com editor visual interativo",
+          "Lotes de vinho, cortes/blends e assemblages",
+          "Engarrafamento com rendimento e controle de caixas",
+          "Espumantes: Charmat, Champenoise e Ancestral",
+          "Analytics de vinificação com comparação de safras",
+          "Laboratório, degustação e ordens de adega"
         ]
       },
       "juices": {
@@ -859,9 +953,10 @@
         "items": [
           "Clientes e fornecedores",
           "Vendas, tabelas de preço e compras",
-          "Financeiro completo (contas a pagar/receber, fluxo de caixa)",
+          "Financeiro completo: contas a pagar/receber, fluxo de caixa, DRE contábil",
           "PDV, gestor de caixa, mesas e formas de pagamento",
-          "Integração com máquinas de cartão"
+          "Integração com máquinas de cartão",
+          "E-commerce Hub: iFood, Nuvemshop, catálogo e importação de pedidos"
         ]
       },
       "fiscal": {
@@ -871,7 +966,8 @@
           "Configuração e parametrização fiscal",
           "Notas fiscais eletrônicas",
           "Módulos fiscais: BR, PT, IT, FR, ES, DE, AR, CL, UY",
-          "Compliance SIVIBE, livros/mapas e rastreabilidade pública"
+          "Compliance SIVIBE com alertas de prazos e declarações",
+          "Rastreabilidade pública com QR Code de autenticidade"
         ]
       },
       "logistics": {
@@ -894,10 +990,12 @@
         "title": "Enoturismo e Público Externo",
         "description": "Reservas, avaliações e pagamentos online.",
         "items": [
-          "Enoturismo com operações e reservas",
-          "Portal público de reservas por slug",
+          "Enoturismo com 12 abas: dashboard, visitantes, experiências, horários, reservas e mais",
+          "Portal público de reservas com wizard de 5 etapas",
           "Avaliação pública por token",
-          "Webhooks de pagamento (Mercado Pago e Pagar.me)"
+          "Cupons, vouchers e lista de espera",
+          "Webhooks de pagamento (Mercado Pago e Pagar.me)",
+          "Exportação iCal e QR Code para check-in"
         ]
       },
       "iot": {

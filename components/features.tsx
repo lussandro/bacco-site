@@ -17,15 +17,20 @@ import {
   Database,
   Wifi,
   QrCode,
-  Receipt,
   CreditCard,
   Store,
   Brain,
-  Calendar,
   Cloud,
   Wine,
   ShieldCheck,
   Building2,
+  Blend,
+  Pipette,
+  Tractor,
+  ShoppingBag,
+  Tag,
+  GlassWater,
+  LineChart,
 } from "lucide-react"
 import { useTranslations } from 'next-intl';
 
@@ -34,14 +39,17 @@ export function Features() {
   const icons = [
     Grape, Sprout, Brain, Cloud, ClipboardList, Package, FlaskConical, Brain,
     Thermometer, Beaker, BarChart3, Users, ShoppingCart, CreditCard, FileText,
-    Database, ShieldCheck, Wine, Building2, Store, QrCode, TrendingUp
+    Database, ShieldCheck, Wine, Building2, Store, QrCode, TrendingUp,
+    GlassWater, Blend, Pipette, LineChart, Tractor, ShoppingBag, Tag
   ];
   const keys = [
     'vineyardManagement', 'vineyardHandling', 'aiCalendar', 'climateAI',
     'grapeReception', 'productionLots', 'visualFlowEditor', 'vinificationAI',
     'temperatureIoT', 'labAnalysis', 'dashboard', 'multitenant', 'commercial',
     'financial', 'fiscalNotes', 'sivibe', 'envin', 'enotourism', 'stockControl',
-    'stockLabeling', 'traceability', 'reports'
+    'stockLabeling', 'traceability', 'reports',
+    'sparklingWine', 'blends', 'bottling', 'vinificationAnalytics',
+    'mechanization', 'ecommerceHub', 'labeling'
   ];
 
   return (

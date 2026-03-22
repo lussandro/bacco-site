@@ -2,26 +2,40 @@
 
 import { useState } from "react"
 import { Card } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
 import Image from "next/image"
 import { useTranslations } from "next-intl"
 
-type Category = "viticulture" | "vinification" | "commercial" | "management"
+type Category =
+  | "viticulture"
+  | "vinification"
+  | "commercial"
+  | "enotourism"
+  | "financial"
+  | "ecommerce"
+  | "stock"
+  | "management"
 
 const categories: { key: Category; screenshots: { id: string; image: string }[] }[] = [
   {
     key: "viticulture",
     screenshots: [
-      { id: "dashboard", image: "/screenshots/dashboard.png" },
-      { id: "vineyards", image: "/screenshots/vinhedos.png" },
+      { id: "dashboardExecutivo", image: "/screenshots/novo-site/dashboard-executivo.png" },
+      { id: "vinhedosPoligonos", image: "/screenshots/novo-site/vinhedos-mapa-poligonos.png" },
+      { id: "maturacao", image: "/screenshots/novo-site/maturacao-decisao-colheita.png" },
+      { id: "custoColheita", image: "/screenshots/novo-site/custo-colheita.png" },
+      { id: "mecanizacao", image: "/screenshots/novo-site/mecanizacao.png" },
       { id: "calendarAI", image: "/screenshots/11-calendario-manejos-ia.png" },
     ],
   },
   {
     key: "vinification",
     screenshots: [
-      { id: "flows", image: "/screenshots/fluxos-vinificacao.png" },
-      { id: "lots", image: "/screenshots/10-lotes-producao.png" },
+      { id: "vinificacaoLotes", image: "/screenshots/novo-site/vinificacao-lotes.png" },
+      { id: "vinificacaoBlends", image: "/screenshots/novo-site/vinificacao-blends.png" },
+      { id: "vinificacaoEnvase", image: "/screenshots/novo-site/vinificacao-envase.png" },
+      { id: "painelTanques", image: "/screenshots/novo-site/painel-tanques.png" },
+      { id: "vinificacaoAnalytics", image: "/screenshots/novo-site/vinificacao-analytics.png" },
+      { id: "espumantes", image: "/screenshots/novo-site/espumantes.png" },
     ],
   },
   {
@@ -29,15 +43,41 @@ const categories: { key: Category; screenshots: { id: string; image: string }[] 
     screenshots: [
       { id: "pdv", image: "/screenshots/pdv-caixa-aberto.png" },
       { id: "pdvTables", image: "/screenshots/pdv-mesas.png" },
-      { id: "enotourism", image: "/screenshots/enoturismo-reservas.png" },
-      { id: "enotourismPortal", image: "/screenshots/enoturismo-portal-publico.png" },
+      { id: "recepcaoUvas", image: "/screenshots/novo-site/recepcao-uvas.png" },
+    ],
+  },
+  {
+    key: "enotourism",
+    screenshots: [
+      { id: "enoturismoReservas", image: "/screenshots/novo-site/enoturismo-reservas-novo.png" },
+      { id: "portalPublico", image: "/screenshots/novo-site/portal-publico-reservas.png" },
+    ],
+  },
+  {
+    key: "financial",
+    screenshots: [
+      { id: "financeiroDashboard", image: "/screenshots/novo-site/financeiro-dashboard.png" },
+      { id: "financeiroRelatorios", image: "/screenshots/novo-site/financeiro-relatorios.png" },
+    ],
+  },
+  {
+    key: "ecommerce",
+    screenshots: [
+      { id: "ecommerceHub", image: "/screenshots/novo-site/ecommerce-hub.png" },
+      { id: "ecommercePedidos", image: "/screenshots/novo-site/ecommerce-pedidos.png" },
+    ],
+  },
+  {
+    key: "stock",
+    screenshots: [
+      { id: "rotulagem", image: "/screenshots/novo-site/rotulagem.png" },
+      { id: "qrCodeRastreabilidade", image: "/screenshots/novo-site/qr-code-rastreabilidade.png" },
     ],
   },
   {
     key: "management",
     screenshots: [
-      { id: "compliance", image: "/screenshots/13-compliance-sivibe.png" },
-      { id: "financial", image: "/screenshots/19-financeiro.png" },
+      { id: "sivibeCompliance", image: "/screenshots/novo-site/sivibe-compliance.png" },
     ],
   },
 ]
@@ -74,18 +114,25 @@ export function Screenshots() {
         </div>
 
         {/* Screenshots grid */}
-        <div className={`grid gap-6 ${currentCategory.screenshots.length === 2 ? "md:grid-cols-2" : "md:grid-cols-2 lg:grid-cols-3"}`}>
+        <div className={`grid gap-6 ${
+          currentCategory.screenshots.length === 1
+            ? "max-w-3xl mx-auto"
+            : currentCategory.screenshots.length === 2
+              ? "md:grid-cols-2"
+              : "md:grid-cols-2 lg:grid-cols-3"
+        }`}>
           {currentCategory.screenshots.map((screenshot) => (
             <Card
               key={screenshot.id}
               className="overflow-hidden border-2 hover:border-primary/50 transition-all duration-300 hover:shadow-lg group"
             >
-              <div className="relative aspect-video overflow-hidden">
+              <div className="relative overflow-hidden bg-muted/30">
                 <Image
                   src={screenshot.image}
                   alt={t(`items.${screenshot.id}.title`)}
-                  fill
-                  className="object-cover object-top group-hover:scale-[1.02] transition-transform duration-500"
+                  width={1400}
+                  height={900}
+                  className="w-full h-auto group-hover:scale-[1.02] transition-transform duration-500"
                 />
               </div>
               <div className="p-5">

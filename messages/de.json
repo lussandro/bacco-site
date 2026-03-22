@@ -180,6 +180,34 @@
       "reports": {
         "title": "Berichte und Analysen",
         "description": "Komplette Berichte über Produktion, Vertrieb, Finanzen und Analysen mit Datenexport."
+      },
+      "sparklingWine": {
+        "title": "Schaumwein",
+        "description": "Dediziertes Modul für Schaumweinproduktion: Charmat-, Champenoise- und Ancestral-Methoden, mit Dosagerechner und Produktionsverfolgung."
+      },
+      "blends": {
+        "title": "Verschnitte / Cuvées",
+        "description": "Erstellung von Verschnitten durch Kombination von Weinlosen mit Sortenanteilen, Ergebnisvolumen und vollständiger Rückverfolgbarkeit."
+      },
+      "bottling": {
+        "title": "Abfüllung",
+        "description": "Abfüllaufträge mit Kontrolle geplanter vs. produzierter Flaschen, Ausbeute, Kartonzählung und Los-Rückverfolgbarkeit."
+      },
+      "vinificationAnalytics": {
+        "title": "Vinifikations-Analytics",
+        "description": "Jahrgangsübersicht: Lose, Gesamtvolumen, Rebsorten, Flaschen, Verschnitte, Traube-zu-Wein-Ausbeute und Abfüllausbeute."
+      },
+      "mechanization": {
+        "title": "Mechanisierung & Diesel",
+        "description": "Mechanisierungs-Kostenstelle mit Dieselkontrolle, Maschinen, Betriebsstundenzähler, Arbeitsaufträge, Wartung und Berichte."
+      },
+      "ecommerceHub": {
+        "title": "E-Commerce Hub",
+        "description": "iFood- und Nuvemshop-Integration: Katalogsynchronisierung, Bestellimport und Integration mit Lager und Finanzen."
+      },
+      "labeling": {
+        "title": "Etikettierung & QR-Code",
+        "description": "Etikettenregistrierung mit Rückverfolgbarkeit, Weinklassifikation und QR-Code-Generierung zur öffentlichen Authentizitätsprüfung."
       }
     }
   },
@@ -336,87 +364,43 @@
     }
   },
   "screenshots": {
-    "title": "Lernen Sie das System im Inneren kennen",
-    "subtitle": "Erkunden Sie die Hauptfunktionen von Bacco ERP anhand echter System-Screenshots.",
+    "title": "Entdecken Sie das System von Innen",
+    "subtitle": "Erkunden Sie die wichtigsten Funktionen von Bacco ERP anhand realer Screenshots des Systems.",
     "categories": {
       "viticulture": "Weinbau",
-      "vinification": "Weinbereitung",
-      "commercial": "Vertrieb & Kasse",
-      "management": "Verwaltung & Compliance"
+      "vinification": "Vinifikation",
+      "commercial": "Handel & POS",
+      "enotourism": "Weintourismus",
+      "financial": "Finanzen",
+      "ecommerce": "E-Commerce",
+      "stock": "Lager & Rückverfolgbarkeit",
+      "management": "Compliance"
     },
     "items": {
-      "dashboard": {
-        "title": "Armaturenbrett",
-        "description": "Vollständige Ansicht Ihres Betriebs mit Echtzeitmetriken, Aktivitätsdiagrammen und Produktionsstatus"
-      },
-      "vineyards": {
-        "title": "Weinbergsmanagement",
-        "description": "Vollständige Kontrolle der Weinberge und Parzellen mit detaillierten Informationen zu Fläche, Boden und Bewässerung"
-      },
-      "calendarAI": {
-        "title": "KI-Management-Kalender",
-        "description": "Künstliche Intelligenz schlägt Managementpraktiken vor, die auf der Weinbergregion basieren, mit automatischen Warnungen und Empfehlungen"
-      },
-      "flows": {
-        "title": "Winzerströme",
-        "description": "Visueller Ablaufeditor für die Weinherstellung mit der Erstellung benutzerdefinierter Prozesse für jede Art von Wein"
-      },
-      "lots": {
-        "title": "Produktionschargen",
-        "description": "Vollständige Nachverfolgung der Weinbaulose mit Status, Analysen und detaillierter Historie"
-      },
-      "pdv": {
-        "title": "Bacco-Comanda (Pos)",
-        "description": "Komplettes POS-System mit Tisch-, Bestell- und Zahlungsmanagement für den Weintourismus"
-      },
-      "pdvTables": {
-        "title": "Pos - Tischverwaltung",
-        "description": "Visuelle Kontrolle von Tabellen und Aufträgen mit Echtzeitstatus für effizienten Service"
-      },
-      "enotourism": {
-        "title": "Weintourismus - Reservierungen",
-        "description": "Exklusives Modul zur Verwaltung von Terminen, Verkostungen und Besuchen mit vollständiger Erfahrungskontrolle"
-      },
-      "enotourismPortal": {
-        "title": "Öffentliches Buchungsportal",
-        "description": "Öffentliche Seite zur Buchung von Erlebnissen und Verkostungen mit integrierter Online-Zahlung"
-      },
-      "compliance": {
-        "title": "Compliance - SIVIBE",
-        "description": "Verwaltung von obligatorischen SIVIBE-Erklärungen mit Terminwarnungen und behördlicher Compliance-Kontrolle"
-      },
-      "financial": {
-        "title": "Finanzen",
-        "description": "Vollständige Kontrolle der Kreditoren- und Debitorenbuchhaltung, des Cashflows und des integrierten Finanzmanagements"
-      },
-      "vineyardDetails": {
-        "title": "Details zum Weingut",
-        "description": "Komplette Ansicht von Parzellen mit Sorten, Wurzelstöcken, Klonen und Trainingssystemen"
-      },
-      "newParcel": {
-        "title": "Flurstücksregistrierung",
-        "description": "Vollständiges Formular für die Grundstücksregistrierung mit Pflanz- und Abstandsdaten"
-      },
-      "newVineyard": {
-        "title": "Weinbergsregistrierung",
-        "description": "Registrierung neuer Weinberge mit Geolokalisierung, Höhenlage, Hanglage und Bodenbeschaffenheit"
-      },
-      "varieties": {
-        "title": "REBSORTEN",
-        "description": "Kompletter Sortenkatalog mit Herkunft, Farbe, Reifezyklus und Status"
-      },
-      "newVariety": {
-        "title": "Sortenregistrierung",
-        "description": "Neue Rebsorten mit Herkunfts-, Farb- und Zyklusinformationen hinzufügen"
-      },
-      "handling": {
-        "title": "Verwaltungsaufgaben",
-        "description": "Planen und verfolgen Sie Verwaltungsaufgaben mit Filtern nach Weinberg, Status und Kategorie"
-      },
-      "newTask": {
-        "title": "NEUES MANAGEMENT",
-        "description": "Erstellen Sie benutzerdefinierte Aufgaben oder verwenden Sie Standardaufgaben mit Planungs- und Verantwortlichen"
-      }
+      "dashboardExecutivo": { "title": "Executive Dashboard", "description": "Konsolidierte Berichte mit wichtigen KPIs, Jahrgangsvergleich und Produktivitäts-, Annahme- und Kapazitätsindikatoren." },
+      "vinhedosPoligonos": { "title": "Weinberge mit Polygonkarte", "description": "Satellitenkarte mit editierbaren Parzellenpolygonen, Durchschnittsertrag, Gesamtfläche und georeferenzierte Darstellung." },
+      "maturacao": { "title": "Reifung & Ernteentscheidung", "description": "Reifekurve mit Brix, Babo, Alkoholpotential, Mostdichte und automatische Empfehlung des Erntezeitpunkts." },
+      "custoColheita": { "title": "Erntekosten", "description": "Kostenerfassung pro Parzelle und Weinberg mit automatischer Tagessatzberechnung, Erntehelfer und Verknüpfung zum Vinifikationslos." },
+      "mecanizacao": { "title": "Mechanisierung & Diesel", "description": "Mechanisierungs-Kostenstelle mit Dieselkontrolle, Maschinen, Betriebsstundenzähler, Arbeitsaufträge und Wartung." },
+      "calendarAI": { "title": "KI-Bewirtschaftungskalender", "description": "Künstliche Intelligenz schlägt Bewirtschaftungsmaßnahmen basierend auf der Weinbergregion vor, mit Warnungen und automatischen Empfehlungen." },
+      "vinificacaoLotes": { "title": "Weinlose", "description": "Verwaltung von Produktions- und Reifungslosen mit Code, Rebsorte, Jahrgang, Volumen, zugeordnetem Behälter und Status." },
+      "vinificacaoBlends": { "title": "Verschnitte / Cuvées", "description": "Erstellung von Verschnitten durch Kombination von Weinlosen mit Sortenanteilen, Ergebnisvolumen und Rückverfolgbarkeit." },
+      "vinificacaoEnvase": { "title": "Abfüllung", "description": "Abfüllaufträge mit Kontrolle geplanter vs. produzierter Flaschen, Ausbeute, Kartonzählung und Rückverfolgbarkeit." },
+      "painelTanques": { "title": "Behälter-Panel", "description": "Visuelle Karten für jeden Behälter mit Kapazität, aktuellem Volumen, Auslastungsprozent, Typ und Standort." },
+      "vinificacaoAnalytics": { "title": "Vinifikations-Analytics", "description": "Jahrgangsübersicht mit Gesamtlosen, Volumen, Rebsorten, Flaschen, Verschnitten, Traube-zu-Wein-Ausbeute und Diagrammen." },
+      "espumantes": { "title": "Schaumwein", "description": "Dediziertes Modul für Schaumweinproduktion mit Charmat-, Champenoise- und Ancestral-Methoden, Dosagerechner." },
+      "pdv": { "title": "Bacco-Comanda (POS)", "description": "Komplettes Kassensystem mit Tischverwaltung, Bestellungen und Zahlungen für Weintourismus." },
+      "pdvTables": { "title": "POS - Tischverwaltung", "description": "Visuelle Tisch- und Bestellkontrolle mit Echtzeit-Status für effizienten Service." },
+      "recepcaoUvas": { "title": "Multi-Modus Traubenannahme", "description": "5 Annahmemodi: Gesamtladung, Einzelkisten, Kisten variable Tara, Probenahme und Bins/Macrobins." },
+      "enoturismoReservas": { "title": "Weintourismus - Reservierungen", "description": "Komplette Verwaltung mit 12 Tabs: Dashboard, Besucher, Erlebnisse, Zeiten, Reservierungen, Bewertungen, Gutscheine, Voucher und mehr." },
+      "portalPublico": { "title": "Öffentliches Buchungsportal", "description": "5-Schritte-Assistent für Online-Buchungen: Erlebnis, Datum/Zeit, Extras, Persönliche Daten und Zahlung." },
+      "financeiroDashboard": { "title": "Finanz-Dashboard", "description": "Kontosalden, Forderungen/Verbindlichkeiten, prognostizierter Saldo, Überfälligkeitswarnungen mit Aging und kommende Fälligkeiten." },
+      "financeiroRelatorios": { "title": "Finanzberichte", "description": "Gewinn- und Verlustrechnung nach Periodenabgrenzung mit Filtern nach Datum, Geschäftsbereich, Jahrgang und Kostenstelle. PDF/CSV-Export." },
+      "ecommerceHub": { "title": "E-Commerce Hub", "description": "iFood- und Nuvemshop-Integration mit Bestell-Dashboard, Umsatz, Durchschnittsbon und Katalogsynchronisierung." },
+      "ecommercePedidos": { "title": "E-Commerce-Bestellungen", "description": "Automatischer Import externer Bestellungen mit Kanalmapping, Kunde, Betrag und ERP-Verknüpfung." },
+      "rotulagem": { "title": "Etikettierung", "description": "Vollständige Etikettenregistrierung mit Rückverfolgbarkeitsdaten, Weinklassifikation, Alkoholgehalt und Volumen." },
+      "qrCodeRastreabilidade": { "title": "QR-Code - Öffentliche Rückverfolgbarkeit", "description": "Öffentliche Authentizitätsprüfungsseite: Traubenherkunft, Produktionsprozess und Produktzertifizierung." },
+      "sivibeCompliance": { "title": "SIVIBE - Compliance", "description": "Verwaltung obligatorischer Erklärungen mit Fristen, dringenden Warnungen, aktuellem Jahrgang und Compliance-Tracking." }
     }
   },
   "process": {
@@ -561,25 +545,25 @@
       "badge": "Aktuelle Lieferungen",
       "title": "Implementierungen mit kommerziellem Impact",
       "items": {
-        "polygonMap": {
-          "title": "Karte mit editierbaren Polygonen",
-          "description": "Visuelle Parzellenregistrierung durch Zeichnen auf Satellitenkarte, Flaechenbearbeitung und Seitenpanel mit Indikatoren."
+        "sparklingModule": {
+          "title": "Schaumwein-Modul",
+          "description": "Schaumweinproduktion mit Charmat-, Champenoise- und Ancestral-Methoden, Dosagerechner und dedizierte Kontrolle."
         },
-        "productivity": {
-          "title": "Vernetzte Produktivitaet",
-          "description": "Parzelle und Weinberg spiegeln abgeschlossene Ernte- und Empfangsdaten wider, mit expliziter Datenquelle."
+        "multiModeReception": {
+          "title": "Multi-Modus Annahme",
+          "description": "5 Traubenannahmemodi: Gesamtladung, Einzelkisten, Kisten variable Tara, Probenahme und Bins/Macrobins."
         },
-        "compliance": {
-          "title": "MAPA- und SIVIBE-Compliance",
-          "description": "Ernteberichte mit intelligentem Fallback nach Ernteauftrag, wenn kein verknuepfter Empfang vorhanden ist."
+        "harvestCosts": {
+          "title": "Ernte- & Schnittkosten",
+          "description": "Kostenerfassung pro Parzelle mit automatischer Tagessatzberechnung, Erntehelfer und Verknüpfung zum Vinifikationslos."
         },
-        "vinificationOS": {
-          "title": "Vinifikation mit integriertem Arbeitsauftrag",
-          "description": "Vinifikationsausfuehrung mit Kellerauftrag verbunden zum Production Run, ohne parallele Tabellenkontrolle."
+        "fullVinification": {
+          "title": "Komplette Vinifikation",
+          "description": "Weinlose, Verschnitte/Cuvées, Abfüllung mit Ausbeute, Behälter-Panel und Jahrgangs-Analytics."
         },
-        "ecommerce": {
-          "title": "Operativer E-Commerce",
-          "description": "Konfiguration pro Kanal, Katalog pro Artikel, Bestellimport und Integration mit Lager und Finanzen."
+        "financialComplete": {
+          "title": "Komplette Finanzen",
+          "description": "Finanz-Dashboard mit Aging, periodengerechte GuV, Anlagenbuchhaltung, Bankabstimmung und PDF/CSV-Berichte."
         }
       }
     },
@@ -712,6 +696,41 @@
         "category": "Integration",
         "feature": "Vollständige Integration vom Weinberg bis zum POS",
         "description": "Alles integriert: Weinbau, Weinherstellung, Lager, Handel, Finanzen, Weintourismus und POS"
+      },
+      "sparklingWine": {
+        "category": "Schaumwein",
+        "feature": "Dediziertes Schaumwein-Modul",
+        "description": "Schaumweinproduktion mit Charmat-, Champenoise- und Ancestral-Methoden mit Dosagerechner",
+        "bacco": true,
+        "competitors": "Parcial"
+      },
+      "ecommerceHub": {
+        "category": "E-Commerce",
+        "feature": "E-Commerce Hub integriert ins ERP",
+        "description": "iFood- und Nuvemshop-Integration mit Katalogsynchronisierung und automatischem Bestellimport",
+        "bacco": true,
+        "competitors": false
+      },
+      "vinificationAnalytics": {
+        "category": "Analytics",
+        "feature": "Vinifikations-Analytics nach Jahrgang",
+        "description": "Traube-zu-Wein-Ausbeute, Abfüllausbeute, Statusverteilung und Jahrgangsvergleich",
+        "bacco": true,
+        "competitors": "Parcial"
+      },
+      "mechanization": {
+        "category": "Mechanisierung",
+        "feature": "Mechanisierung und Diesel im Weinberg integriert",
+        "description": "Maschinenkontrolle, Diesel, Betriebsstundenzähler, Arbeitsaufträge und Wartung in die Weinbautechnik integriert",
+        "bacco": true,
+        "competitors": false
+      },
+      "qrTraceability": {
+        "category": "Authentizität",
+        "feature": "Öffentliche Verifizierung via QR-Code",
+        "description": "Öffentliche Seite für Verbraucher zur Überprüfung von Authentizität, Traubenherkunft und Produktionsprozess",
+        "bacco": true,
+        "competitors": "Parcial"
       }
     }
   },
@@ -824,24 +843,27 @@
         "title": "Weinbau",
         "description": "Vollstaendige Weinbergverwaltung, von der Pflanzung bis zur Ernte.",
         "items": [
-          "Weinberge und Parzellen mit Geolokalisierung und interaktiver Karte",
-          "Bewirtschaftung, Standardaufgaben und Bewirtschaftungskalender",
+          "Weinberge und Parzellen mit Geolokalisierung und editierbaren Polygonkarten",
+          "Bewirtschaftung, Standardaufgaben und KI-Bewirtschaftungskalender",
           "Pflanzenschutz, Ernte und Niederschlagsmessung",
-          "Bodenanalyse, Blattanalyse und Reifung",
-          "Klima-KI und Vinifikations-KI",
-          "Mechanisierung: Diesel, Maschinen, Betriebsstundenzaehler, Arbeitsauftrag und Wartung"
+          "Bodenanalyse, Blattanalyse und Reifung mit Ernteentscheidung",
+          "Klima-KI mit Vorhersagen und automatischen Empfehlungen",
+          "Mechanisierung: Diesel, Maschinen, Betriebsstundenzähler, Aufträge und Wartung",
+          "Ernte- und Schnittkosten pro Parzelle"
         ]
       },
       "enology": {
         "title": "Oenologie und Vinifikation",
         "description": "Vom Traubenempfang bis zur Abfuellung, mit visuellen Fluessen.",
         "items": [
-          "Traubenempfang mit Rueckverfolgbarkeit",
-          "Behaelter, Faesser, Auffuellung, Phasen und Materialien",
-          "Vinifikationsfluesse mit visuellem Editor",
-          "Produktionschargen und Ausfuehrungsdetails",
-          "Kellerauftraege / Vinifikations-Arbeitsauftraege",
-          "Labor und Verkostung"
+          "Multi-Modus Traubenannahme: Gesamtladung, Kisten, Probenahme und Bins",
+          "Behälter mit Auslastungs-Panel, Fässer und Standort",
+          "Vinifikationsflüsse mit interaktivem visuellem Editor",
+          "Weinlose, Verschnitte/Cuvées",
+          "Abfüllung mit Ausbeute und Kartonkontrolle",
+          "Schaumweine: Charmat, Champenoise und Ancestral",
+          "Vinifikations-Analytics mit Jahrgangsvergleich",
+          "Labor, Verkostung und Kelleraufträge"
         ]
       },
       "juices": {
@@ -858,20 +880,22 @@
         "description": "Verkauf, Einkauf, Finanzen und integriertes POS.",
         "items": [
           "Kunden und Lieferanten",
-          "Verkauf, Preislisten und Einkauf",
-          "Komplette Finanzen (Verbindlichkeiten/Forderungen, Cashflow)",
-          "POS, Kassenverwaltung, Tische und Zahlungsmethoden",
-          "Integration mit Kartenterminals"
+          "Verkäufe, Preislisten und Einkäufe",
+          "Komplette Finanzen: Verbindlichkeiten/Forderungen, Cashflow, periodengerechte GuV",
+          "POS, Kassenmanagement, Tische und Zahlungsmethoden",
+          "Integration Kartenterminals",
+          "E-Commerce Hub: iFood, Nuvemshop, Katalog und Bestellimport"
         ]
       },
       "fiscal": {
         "title": "Fiskal und Compliance",
         "description": "Regulatorische Compliance mit Modulen pro Land.",
         "items": [
-          "Fiskale Konfiguration und Parametrierung",
+          "Steuerkonfiguration und -parametrierung",
           "Elektronische Rechnungen",
-          "Fiskalmodule: BR, PT, IT, FR, ES, DE, AR, CL, UY",
-          "SIVIBE-Compliance, Buecher/Karten und oeffentliche Rueckverfolgbarkeit"
+          "Steuermodule: BR, PT, IT, FR, ES, DE, AR, CL, UY",
+          "SIVIBE-Compliance mit Fristenwarnungen und Erklärungen",
+          "Öffentliche Rückverfolgbarkeit mit QR-Code Authentizitätsprüfung"
         ]
       },
       "logistics": {
@@ -894,10 +918,12 @@
         "title": "Weintourismus und oeffentliche Erfahrung",
         "description": "Reservierungen, Bewertungen und Online-Zahlungen.",
         "items": [
-          "Weintourismus mit Betrieb und Reservierungen",
-          "Oeffentliches Reservierungsportal per Slug",
-          "Oeffentliche Bewertung per Token",
-          "Zahlungs-Webhooks (Mercado Pago und Pagar.me)"
+          "Weintourismus mit 12 Tabs: Dashboard, Besucher, Erlebnisse, Zeiten, Reservierungen und mehr",
+          "Öffentliches Buchungsportal mit 5-Schritte-Assistent",
+          "Öffentliche Bewertung per Token",
+          "Gutscheine, Voucher und Warteliste",
+          "Zahlungs-Webhooks (Mercado Pago und Pagar.me)",
+          "iCal-Export und QR-Code für Check-in"
         ]
       },
       "iot": {
