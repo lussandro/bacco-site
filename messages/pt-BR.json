@@ -2630,70 +2630,70 @@
     }
   },
   "baccoCpu": {
-    "badge": "Telemetria",
-    "title": "Monitoramento Inteligente da Fermentacao",
-    "intro1": "A fermentacao e uma das etapas mais criticas da producao do vinho. Pequenas variacoes de temperatura podem alterar aromas, afetar a estrutura do vinho ou ate causar paradas fermentativas.",
-    "intro2": "Com a telemetria integrada ao Bacco ERP, sensores instalados nos tanques coletam dados continuamente e enviam tudo em tempo real para um unico painel. Voce ganha visibilidade completa da adega e mais seguranca em cada etapa do processo.",
+    "badge": "Plataforma IoT",
+    "title": "Uma camada IoT completa para vinhedo, adega e ERP",
+    "intro1": "O Bacco-iOT nao e apenas um modulo de telemetria climatica. A aplicacao foi estruturada como uma plataforma IoT para vinicolas, com dispositivos dedicados para campo e para adega, painel web, Bacco-Cloud, API publica e operacao multiusuario.",
+    "intro2": "Dentro dessa plataforma entram tres linhas de hardware: Bacco Meteo para estacao meteorologica no vinhedo, Bacco Ferm para controle e leitura de fermentacao em tanques, e BaccoDens para densidade e temperatura do mosto ou vinho. Tudo converge para um unico ambiente com historico, alertas, relatorios, chaves de API e atualizacao OTA.",
     "monitoring": {
-      "tankTemperature": "Temperatura atual de cada fermentacao",
-      "temperatureAlerts": "Alertas de temperatura fora da faixa ideal",
-      "lotHistory": "Historico completo de cada lote",
-      "visualTracking": "Acompanhamento visual da fermentacao"
+      "meteoStation": "Bacco Meteo: temperatura, umidade, vento, chuva, molhamento foliar e apoio a fenologia e risco fitossanitario.",
+      "fermentationControl": "Bacco Ferm: temperatura do tanque, setpoint, temperatura ambiente, refrigeracao, densidade e pH.",
+      "digitalDensimeter": "BaccoDens: densimetro e termometro digital para acompanhamento continuo do mosto ou vinho.",
+      "cloudIntegration": "Bacco-Cloud: painel central, API REST, API Keys, historico, auditoria, relatorios e firmware OTA."
     },
-    "decisionSupport": "Isso permite ao enologo tomar decisoes rapidas e manter controle total sobre a vinificacao.",
+    "decisionSupport": "Na pratica, a plataforma conecta dado de campo, dado de tanque e integracao de sistema no mesmo fluxo operacional.",
     "panel": {
-      "title": "A adega conectada ao Bacco ERP",
-      "subtitle": "Todos os tanques em uma unica tela",
-      "live": "Tempo Real",
+      "title": "Ecossistema Bacco conectado",
+      "subtitle": "Hardware, cloud e operacao em uma unica visao",
+      "live": "Ao vivo",
       "stats": {
-        "activeTanks": "Tanques ativos",
-        "alerts": "Alertas",
-        "inRange": "Na faixa ideal"
+        "activeTanks": "Linhas IoT",
+        "alerts": "Motores de analise",
+        "inRange": "Camadas da plataforma"
       }
     },
     "benefits": {
       "smartAlerts": {
-        "title": "Alertas Inteligentes",
-        "description": "O sistema monitora continuamente os sensores e alerta automaticamente quando houver comportamento fora do padrao."
+        "title": "Alertas e analises",
+        "description": "A plataforma calcula risco para mildio, oidio e botrytis, valida janela de pulverizacao e organiza alertas operacionais."
       },
       "lessManualWork": {
-        "title": "Menos Trabalho Manual",
-        "description": "As medicoes passam a ser automaticas e registradas no sistema, liberando o time para focar no processo enologico."
+        "title": "Operacao centralizada",
+        "description": "Vinhedos, dispositivos, tanques, usuarios, regras e chaves de integracao ficam no mesmo painel web."
       },
       "fermentationHistory": {
-        "title": "Historico Completo",
-        "description": "Analise curvas de fermentacao, comportamento termico, comparacao entre safras e desempenho de leveduras."
+        "title": "Leitura tecnica dos processos",
+        "description": "O sistema expõe series de medicoes, latest readings, resumo por vinhedo, relatorio climatico e relatorio de fermentacao."
       },
       "fullErpIntegration": {
-        "title": "Integracao Total com o ERP",
-        "description": "Diferente de sistemas isolados, os dados entram direto no historico produtivo da vinicola, do vinhedo a garrafa."
+        "title": "API pronta para ERP",
+        "description": "As rotas /api/v1 permitem integrar dispositivos e leituras ao Bacco ERP ou a sistemas externos com API Key."
       },
       "allWinerySizes": {
-        "title": "Escalavel para Todos os Portes",
-        "description": "Sensores industriais com gateways inteligentes e envio seguro para nuvem, com expansao simples conforme a vinicola cresce."
+        "title": "Escala e manutencao",
+        "description": "A arquitetura suporta multiplas organizacoes, controle de plano, auditoria, firmware versionado e atualizacao OTA dos dispositivos."
       }
     },
     "gallery": {
       "main": {
-        "alt": "Adega com tanques e painel de monitoramento da fermentacao"
+        "alt": "Visao geral da plataforma Bacco-iOT para vinhedo e adega"
       },
       "secondary1": {
-        "alt": "Tanques com dashboard de telemetria no ambiente da adega",
-        "title": "Visao Geral da Adega",
-        "description": "Monitoramento de toda a area de fermentacao em tempo real."
+        "alt": "Painel da operacao com dispositivos, indicadores e integracoes",
+        "title": "Painel operacional unificado",
+        "description": "Uma mesma base para acompanhar vinhedos, tanques, dispositivos, usuarios e regras de alerta."
       },
       "secondary2": {
-        "alt": "Terminal industrial para monitoramento de fermentacao entre os tanques",
-        "title": "Coleta em Campo",
-        "description": "Sensores industriais e gateways para captura continua dos dados."
+        "alt": "Estrutura Bacco-iOT com coleta em campo e processamento no cloud",
+        "title": "Do dispositivo ao cloud",
+        "description": "Os IoTs enviam telemetria para o Bacco-Cloud, que organiza dados, historico, API e atualizacao remota."
       }
     },
-    "closing": "Controlar a fermentacao com precisao significa produzir vinhos mais consistentes e reduzir riscos durante o processo. Com a telemetria Bacco-CPU, sua vinicola ganha tecnologia, visibilidade e controle para elevar a qualidade dos vinhos."
+    "closing": "O valor do Bacco-iOT esta em unir os demais IoTs da operacao em uma so plataforma: campo com Bacco Meteo, fermentacao com Bacco Ferm, leitura de densidade com BaccoDens e uma camada cloud pronta para integracao e escala."
   },
   "telemetryCallout": {
-    "title": "Nova: Telemetria Bacco-CPU",
-    "description": "Veja como monitorar fermentacao em tempo real dentro do Bacco ERP.",
-    "cta": "Ver Telemetria",
+    "title": "Conheca o Bacco-iOT",
+    "description": "Veja como Bacco Meteo, Bacco Ferm e BaccoDens se conectam ao Bacco-Cloud e ao ERP.",
+    "cta": "Ver plataforma IoT",
     "dismiss": "Agora nao",
     "close": "Fechar aviso"
   }

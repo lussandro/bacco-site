@@ -5,30 +5,24 @@ import { Card, CardContent } from "@/components/ui/card"
 import Image from "next/image"
 import {
   Cpu,
+  CloudSun,
   Thermometer,
+  Droplets,
+  Database,
   Bell,
-  Clock3,
-  LineChart,
-  FlaskConical,
   ShieldCheck,
   Wifi,
-  Database,
   GanttChartSquare,
   CheckCircle2,
+  Activity,
 } from "lucide-react"
 import { useTranslations } from "next-intl"
 
 export function BaccoCpu() {
   const t = useTranslations("baccoCpu")
 
-  const monitorKeys = [
-    "tankTemperature",
-    "temperatureAlerts",
-    "lotHistory",
-    "visualTracking",
-  ] as const
-
-  const monitorIcons = [Thermometer, Bell, Clock3, LineChart]
+  const monitorKeys = ["meteoStation", "fermentationControl", "digitalDensimeter", "cloudIntegration"] as const
+  const monitorIcons = [CloudSun, Thermometer, Droplets, Database]
 
   const benefitKeys = [
     "smartAlerts",
@@ -38,7 +32,7 @@ export function BaccoCpu() {
     "allWinerySizes",
   ] as const
 
-  const benefitIcons = [Bell, GanttChartSquare, Database, ShieldCheck, Wifi]
+  const benefitIcons = [Bell, GanttChartSquare, Activity, ShieldCheck, Wifi]
 
   return (
     <section
@@ -100,7 +94,7 @@ export function BaccoCpu() {
                     <h3 className="text-xl font-bold">{t("panel.subtitle")}</h3>
                   </div>
                   <Badge className="bg-green-600/10 text-green-700 hover:bg-green-600/20">
-                    <FlaskConical className="h-3 w-3 mr-1" />
+                    <Activity className="h-3 w-3 mr-1" />
                     {t("panel.live")}
                   </Badge>
                 </div>
@@ -108,7 +102,7 @@ export function BaccoCpu() {
                 <div className="grid grid-cols-3 gap-3 mb-4">
                   <div className="rounded-lg bg-muted/40 p-3">
                     <p className="text-xs text-muted-foreground mb-1">{t("panel.stats.activeTanks")}</p>
-                    <p className="text-2xl font-bold text-primary">18</p>
+                    <p className="text-2xl font-bold text-primary">3</p>
                   </div>
                   <div className="rounded-lg bg-muted/40 p-3">
                     <p className="text-xs text-muted-foreground mb-1">{t("panel.stats.alerts")}</p>
@@ -116,22 +110,26 @@ export function BaccoCpu() {
                   </div>
                   <div className="rounded-lg bg-muted/40 p-3">
                     <p className="text-xs text-muted-foreground mb-1">{t("panel.stats.inRange")}</p>
-                    <p className="text-2xl font-bold text-green-600">16</p>
+                    <p className="text-2xl font-bold text-green-600">4</p>
                   </div>
                 </div>
 
                 <div className="space-y-2">
-                  <div className="rounded-md border border-border/60 p-3 flex items-center justify-between">
-                    <span className="text-sm">TQ-01</span>
-                    <span className="text-sm font-semibold text-green-600">23.7 C</span>
+                  <div className="rounded-md border border-border/60 p-3 flex items-center justify-between gap-3">
+                    <span className="text-sm">Bacco Meteo</span>
+                    <span className="text-sm font-semibold text-green-600">clima, chuva e molhamento</span>
                   </div>
-                  <div className="rounded-md border border-amber-300/60 bg-amber-50/40 p-3 flex items-center justify-between dark:bg-amber-950/20">
-                    <span className="text-sm">TQ-07</span>
-                    <span className="text-sm font-semibold text-amber-700 dark:text-amber-400">27.4 C</span>
+                  <div className="rounded-md border border-border/60 p-3 flex items-center justify-between gap-3">
+                    <span className="text-sm">Bacco Ferm</span>
+                    <span className="text-sm font-semibold text-primary">temperatura, setpoint e pH</span>
                   </div>
-                  <div className="rounded-md border border-border/60 p-3 flex items-center justify-between">
-                    <span className="text-sm">TQ-12</span>
-                    <span className="text-sm font-semibold text-green-600">24.1 C</span>
+                  <div className="rounded-md border border-border/60 p-3 flex items-center justify-between gap-3">
+                    <span className="text-sm">BaccoDens</span>
+                    <span className="text-sm font-semibold text-green-600">densidade e temperatura</span>
+                  </div>
+                  <div className="rounded-md border border-amber-300/60 bg-amber-50/40 p-3 flex items-center justify-between gap-3 dark:bg-amber-950/20">
+                    <span className="text-sm">Bacco-Cloud + API</span>
+                    <span className="text-sm font-semibold text-amber-700 dark:text-amber-400">alertas, historico e OTA</span>
                   </div>
                 </div>
               </CardContent>
