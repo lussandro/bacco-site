@@ -33,6 +33,7 @@ export function Header() {
     { href: "#enoturismo", label: t('enotourism') },
     { href: "#sistema", label: t('system') },
     { href: "#diferenciais", label: t('differentials') },
+    { href: "#clientes", label: t('clients') },
     { href: "#sobre", label: t('about') },
     { href: "#faq", label: "FAQ" },
   ]

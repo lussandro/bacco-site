@@ -32,7 +32,8 @@
     "differentials": "- Für Differentiale:",
     "about": "Über uns",
     "enotourism": "Weintourismus",
-    "baccoCpu": "Telemetrie"
+    "baccoCpu": "Telemetrie",
+    "clients": "Kunden"
   },
   "hero": {
     "badge": "Komplettsystem für Weingüter",
@@ -757,6 +758,20 @@
         "stat": "täglich rund um die Uhr",
         "label": "Smart Reports",
         "description": "Dashboards und Indikatoren zur Entscheidungsfindung"
+      }
+    }
+  },
+  "clients": {
+    "badge": "Kunden",
+    "title": "Weingüter, die Bacco Vertrauen",
+    "subtitle": "Produzenten, die Bacco ERP gewählt haben, um das Management ihrer Weingüter zu transformieren.",
+    "visitWebsite": "Website besuchen",
+    "trustText": "Weingüter verschiedener Regionen und Profile vertrauen Bacco für die Verwaltung ihrer Produktion.",
+    "items": {
+      "quintaDeGlaura": {
+        "name": "Quinta de Glaura",
+        "description": "Boutique-Weingut in der historischen Stadt Ouro Preto, das hochwertige handwerkliche Weine in der Region Minas Gerais produziert.",
+        "location": "Ouro Preto, MG - Brasilien"
       }
     }
   },

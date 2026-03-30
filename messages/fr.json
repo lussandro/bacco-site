@@ -325,6 +325,20 @@
     "subtitle": "Transformez la gestion de votre domaine viticole avec une technologie de pointe et un contrôle total de la production.",
     "title": "Pourquoi choisir Bacco ?"
   },
+  "clients": {
+    "badge": "Clients",
+    "title": "Domaines Viticoles qui Font Confiance à Bacco",
+    "subtitle": "Des producteurs qui ont choisi Bacco ERP pour transformer la gestion de leurs domaines viticoles.",
+    "visitWebsite": "Visiter le site",
+    "trustText": "Des domaines viticoles de différentes régions et profils font confiance à Bacco pour gérer leur production.",
+    "items": {
+      "quintaDeGlaura": {
+        "name": "Quinta de Glaura",
+        "description": "Domaine viticole boutique situé dans la ville historique d'Ouro Preto, produisant des vins artisanaux de haute qualité dans la région du Minas Gerais.",
+        "location": "Ouro Preto, MG - Brésil"
+      }
+    }
+  },
   "brazil": {
     "back": "Retour au site Web",
     "compliance": {
@@ -1645,7 +1659,8 @@
     "mobile": "Bacco-Campo",
     "system": "Système",
     "enotourism": "Œnotourisme",
-    "baccoCpu": "Telemetrie"
+    "baccoCpu": "Telemetrie",
+    "clients": "Clients"
   },
   "hero": {
     "badge": "Suite complète pour les domaines viticoles",

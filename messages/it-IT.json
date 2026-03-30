@@ -32,7 +32,8 @@
     "differentials": "Differenziali",
     "about": "Chi Siamo",
     "enotourism": "Enoturismo",
-    "baccoCpu": "Telemetria"
+    "baccoCpu": "Telemetria",
+    "clients": "Clienti"
   },
   "hero": {
     "badge": "Sistema Completo per Cantine",
@@ -757,6 +758,20 @@
         "stat": "24/7",
         "label": "Smart Reports",
         "description": "Cruscotti e indicatori per il processo decisionale"
+      }
+    }
+  },
+  "clients": {
+    "badge": "Clienti",
+    "title": "Cantine che Si Affidano a Bacco",
+    "subtitle": "Produttori che hanno scelto Bacco ERP per trasformare la gestione delle loro cantine.",
+    "visitWebsite": "Visita il sito",
+    "trustText": "Cantine di diverse regioni e profili si affidano a Bacco per gestire la loro produzione.",
+    "items": {
+      "quintaDeGlaura": {
+        "name": "Quinta de Glaura",
+        "description": "Cantina boutique situata nella storica città di Ouro Preto, che produce vini artigianali di alta qualità nella regione del Minas Gerais.",
+        "location": "Ouro Preto, MG - Brasile"
       }
     }
   },

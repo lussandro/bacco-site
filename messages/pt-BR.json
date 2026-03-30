@@ -32,7 +32,8 @@
     "differentials": "Diferenciais",
     "about": "Sobre",
     "enotourism": "Enoturismo",
-    "baccoCpu": "Telemetria"
+    "baccoCpu": "Telemetria",
+    "clients": "Clientes"
   },
   "hero": {
     "badge": "Sistema Completo para Vinícolas",
@@ -829,6 +830,20 @@
         "stat": "24/7",
         "label": "Relatórios Inteligentes",
         "description": "Dashboards e indicadores para tomada de decisão"
+      }
+    }
+  },
+  "clients": {
+    "badge": "Clientes",
+    "title": "Vinícolas que Confiam no Bacco",
+    "subtitle": "Produtores que escolheram o Bacco ERP para transformar a gestão das suas vinícolas.",
+    "visitWebsite": "Visitar site",
+    "trustText": "Vinícolas de diferentes regiões e perfis confiam no Bacco para gerir a sua produção.",
+    "items": {
+      "quintaDeGlaura": {
+        "name": "Quinta de Glaura",
+        "description": "Vinícola boutique localizada na histórica cidade de Ouro Preto, produzindo vinhos artesanais de alta qualidade na região de Minas Gerais.",
+        "location": "Ouro Preto, MG - Brasil"
       }
     }
   },

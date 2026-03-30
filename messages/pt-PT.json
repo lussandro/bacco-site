@@ -325,6 +325,20 @@
     "subtitle": "Transforme a gestão da sua adega com tecnologia de ponta e controlo total da produção.",
     "title": "Por Que Escolher o Bacco?"
   },
+  "clients": {
+    "badge": "Clientes",
+    "title": "Adegas que Confiam no Bacco",
+    "subtitle": "Produtores que escolheram o Bacco ERP para transformar a gestão das suas adegas.",
+    "visitWebsite": "Visitar site",
+    "trustText": "Adegas de diferentes regiões e perfis confiam no Bacco para gerir a sua produção.",
+    "items": {
+      "quintaDeGlaura": {
+        "name": "Quinta de Glaura",
+        "description": "Adega boutique localizada na histórica cidade de Ouro Preto, produzindo vinhos artesanais de alta qualidade na região de Minas Gerais.",
+        "location": "Ouro Preto, MG - Brasil"
+      }
+    }
+  },
   "brazil": {
     "back": "Voltar ao site",
     "compliance": {
@@ -1579,7 +1593,8 @@
     "mobile": "Bacco-Campo",
     "system": "Sistema",
     "enotourism": "Enoturismo",
-    "baccoCpu": "Telemetria"
+    "baccoCpu": "Telemetria",
+    "clients": "Clientes"
   },
   "hero": {
     "badge": "Sistema Completo para Adegas",

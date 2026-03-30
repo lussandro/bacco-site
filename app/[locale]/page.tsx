@@ -14,6 +14,7 @@ import { Process } from "@/components/process"
 import { Differentials } from "@/components/differentials"
 import { Comparison } from "@/components/comparison"
 import { Benefits } from "@/components/benefits"
+import { Clients } from "@/components/clients"
 import { About } from "@/components/about"
 import { MissionValues } from "@/components/mission-values"
 import { FAQ } from "@/components/faq"
@@ -71,6 +72,9 @@ export default function Home() {
         </AnimateOnScroll>
         <AnimateOnScroll>
           <Benefits />
+        </AnimateOnScroll>
+        <AnimateOnScroll>
+          <Clients />
         </AnimateOnScroll>
         <AnimateOnScroll>
           <About />

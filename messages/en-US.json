@@ -32,7 +32,8 @@
     "differentials": "Differentials",
     "about": "About",
     "enotourism": "Wine Tourism",
-    "baccoCpu": "Telemetry"
+    "baccoCpu": "Telemetry",
+    "clients": "Clients"
   },
   "hero": {
     "badge": "Complete System for Wineries",
@@ -829,6 +830,20 @@
         "stat": "24/7",
         "label": "Smart Reports",
         "description": "Dashboards and indicators for decision making"
+      }
+    }
+  },
+  "clients": {
+    "badge": "Clients",
+    "title": "Wineries that Trust Bacco",
+    "subtitle": "Producers who chose Bacco ERP to transform the management of their wineries.",
+    "visitWebsite": "Visit website",
+    "trustText": "Wineries from different regions and profiles trust Bacco to manage their production.",
+    "items": {
+      "quintaDeGlaura": {
+        "name": "Quinta de Glaura",
+        "description": "Boutique winery located in the historic city of Ouro Preto, producing high-quality artisanal wines in the Minas Gerais region.",
+        "location": "Ouro Preto, MG - Brazil"
       }
     }
   },

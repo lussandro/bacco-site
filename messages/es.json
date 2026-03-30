@@ -32,7 +32,8 @@
     "differentials": "Diferenciales",
     "about": "Acerca de",
     "enotourism": "Enoturismo",
-    "baccoCpu": "Telemetria"
+    "baccoCpu": "Telemetria",
+    "clients": "Clientes"
   },
   "hero": {
     "badge": "Sistema Completo para Bodegas",
@@ -829,6 +830,20 @@
         "stat": "24/7",
         "label": "Informes Inteligentes",
         "description": "Dashboards e indicadores para toma de decisiones"
+      }
+    }
+  },
+  "clients": {
+    "badge": "Clientes",
+    "title": "Bodegas que Confían en Bacco",
+    "subtitle": "Productores que eligieron Bacco ERP para transformar la gestión de sus bodegas.",
+    "visitWebsite": "Visitar sitio web",
+    "trustText": "Bodegas de diferentes regiones y perfiles confían en Bacco para gestionar su producción.",
+    "items": {
+      "quintaDeGlaura": {
+        "name": "Quinta de Glaura",
+        "description": "Bodega boutique ubicada en la histórica ciudad de Ouro Preto, produciendo vinos artesanales de alta calidad en la región de Minas Gerais.",
+        "location": "Ouro Preto, MG - Brasil"
       }
     }
   },
