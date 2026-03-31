@@ -16,6 +16,7 @@ const clients = [
     key: "casaRozental",
     logo: "/clients/casa-rozental.jpeg",
     instagram: "https://instagram.com/casarozental",
+    logoClass: "w-64 h-48",
   },
 ]
 
@@ -59,7 +60,7 @@ export function Clients() {
                   {/* Logo area */}
                   <div className="relative bg-gradient-to-br from-muted/50 to-muted/30 p-8 flex items-center justify-center min-h-[220px] border-b border-primary/10">
                     <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,var(--primary)_0.5px,transparent_0.5px)] bg-[length:24px_24px] opacity-[0.03]" />
-                    <div className="relative w-48 h-48 group-hover:scale-105 transition-transform duration-500">
+                    <div className={`relative ${client.logoClass || "w-48 h-48"} group-hover:scale-105 transition-transform duration-500`}>
                       <Image
                         src={client.logo}
                         alt={t(`items.${client.key}.name`)}
