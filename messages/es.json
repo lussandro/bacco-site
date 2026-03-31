@@ -844,6 +844,11 @@
         "name": "Quinta de Glaura",
         "description": "Bodega boutique ubicada en la histórica ciudad de Ouro Preto, produciendo vinos artesanales de alta calidad en la región de Minas Gerais.",
         "location": "Ouro Preto, MG - Brasil"
+      },
+      "casaRozental": {
+        "name": "Casa Rozental",
+        "description": "Bodega con enoturismo en Resende, combinando producción artesanal de vinos y experiencias inmersivas en la región del Vale do Paraíba fluminense.",
+        "location": "Resende, RJ - Brasil"
       }
     }
   },

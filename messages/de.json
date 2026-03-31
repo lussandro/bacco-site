@@ -772,6 +772,11 @@
         "name": "Quinta de Glaura",
         "description": "Boutique-Weingut in der historischen Stadt Ouro Preto, das hochwertige handwerkliche Weine in der Region Minas Gerais produziert.",
         "location": "Ouro Preto, MG - Brasilien"
+      },
+      "casaRozental": {
+        "name": "Casa Rozental",
+        "description": "Weingut mit Weintourismus in Resende, das handwerkliche Weinproduktion und immersive Erlebnisse in der Region Vale do Paraíba fluminense vereint.",
+        "location": "Resende, RJ - Brasilien"
       }
     }
   },

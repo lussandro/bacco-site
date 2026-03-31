@@ -2,7 +2,7 @@
 
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent } from "@/components/ui/card"
-import { MapPin, ExternalLink, Wine } from "lucide-react"
+import { MapPin, ExternalLink, Instagram, Wine } from "lucide-react"
 import Image from "next/image"
 import { useTranslations } from "next-intl"
 
@@ -11,6 +11,11 @@ const clients = [
     key: "quintaDeGlaura",
     logo: "/clients/quinta-de-glaura.jpeg",
     website: "https://quintadeglaura.com.br",
+  },
+  {
+    key: "casaRozental",
+    logo: "/clients/casa-rozental.jpeg",
+    instagram: "https://instagram.com/casarozental",
   },
 ]
 
@@ -79,17 +84,32 @@ export function Clients() {
                       <span>{t(`items.${client.key}.location`)}</span>
                     </div>
 
-                    <a
-                      href={client.website}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-primary/80 transition-colors group/link"
-                    >
-                      <ExternalLink className="h-4 w-4" />
-                      <span className="border-b border-primary/30 group-hover/link:border-primary transition-colors">
-                        {t("visitWebsite")}
-                      </span>
-                    </a>
+                    {client.website && (
+                      <a
+                        href={client.website}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-primary/80 transition-colors group/link"
+                      >
+                        <ExternalLink className="h-4 w-4" />
+                        <span className="border-b border-primary/30 group-hover/link:border-primary transition-colors">
+                          {t("visitWebsite")}
+                        </span>
+                      </a>
+                    )}
+                    {client.instagram && (
+                      <a
+                        href={client.instagram}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-primary/80 transition-colors group/link"
+                      >
+                        <Instagram className="h-4 w-4" />
+                        <span className="border-b border-primary/30 group-hover/link:border-primary transition-colors">
+                          @{client.instagram.split("/").pop()}
+                        </span>
+                      </a>
+                    )}
                   </div>
                 </CardContent>
               </Card>
