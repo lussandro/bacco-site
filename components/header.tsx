@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button"
 import { Wine, Globe, Menu, X } from "lucide-react"
 import { useTranslations, useLocale } from 'next-intl';
 import { usePathname, useRouter } from '@/i18n/routing';
+import { trackEvent } from '@/lib/analytics';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -21,6 +22,7 @@ export function Header() {
   const [menuOpen, setMenuOpen] = useState(false)
 
   const changeLocale = (newLocale: string) => {
+    trackEvent('language_change', { from_locale: locale, to_locale: newLocale })
     router.replace(pathname, { locale: newLocale });
   };
 
@@ -102,7 +104,7 @@ export function Header() {
               </DropdownMenu>
 
               <Button className="hidden sm:inline-flex" asChild>
-                <a href="https://staging.bacco-erp.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://staging.bacco-erp.com" target="_blank" rel="noopener noreferrer" onClick={() => trackEvent('cta_click', { cta_name: 'access_demo', cta_location: 'header' })}>
                   {tCommon('accessDemo')}
                 </a>
               </Button>
@@ -141,7 +143,7 @@ export function Header() {
             ))}
             <div className="pt-4 border-t border-border mt-4">
               <Button className="w-full" asChild>
-                <a href="https://staging.bacco-erp.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://staging.bacco-erp.com" target="_blank" rel="noopener noreferrer" onClick={() => trackEvent('cta_click', { cta_name: 'access_demo', cta_location: 'header_mobile' })}>
                   {tCommon('accessDemo')}
                 </a>
               </Button>

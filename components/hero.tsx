@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button"
 import { ArrowRight, Play, Wine } from "lucide-react"
 import Image from "next/image"
 import { useTranslations } from 'next-intl';
+import { trackEvent } from '@/lib/analytics';
 
 export function Hero() {
   const t = useTranslations('hero');
@@ -42,7 +43,7 @@ export function Hero() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="text-base group shadow-lg hover:shadow-xl transition-all" asChild>
-                <a href="#contato">
+                <a href="#contato" onClick={() => trackEvent('cta_click', { cta_name: 'hero_agendar_demo', cta_location: 'hero' })}>
                   {t('ctaDemo')}
                   <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                 </a>
@@ -53,7 +54,7 @@ export function Hero() {
                 className="text-base bg-background/50 backdrop-blur-sm hover:bg-background/80 border-2 transition-all"
                 asChild
               >
-                <a href="#sistema">
+                <a href="#sistema" onClick={() => trackEvent('cta_click', { cta_name: 'hero_ver_sistema', cta_location: 'hero' })}>
                   <Play className="mr-2 h-5 w-5" />
                   {t('ctaSystem')}
                 </a>

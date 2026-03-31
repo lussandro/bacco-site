@@ -5,6 +5,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { MapPin, ExternalLink, Instagram, Wine } from "lucide-react"
 import Image from "next/image"
 import { useTranslations } from "next-intl"
+import { trackEvent } from "@/lib/analytics"
 
 const clients = [
   {
@@ -91,6 +92,7 @@ export function Clients() {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-primary/80 transition-colors group/link"
+                        onClick={() => trackEvent('client_click', { client_name: client.key, link_type: 'website' })}
                       >
                         <ExternalLink className="h-4 w-4" />
                         <span className="border-b border-primary/30 group-hover/link:border-primary transition-colors">
@@ -104,6 +106,7 @@ export function Clients() {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-primary/80 transition-colors group/link"
+                        onClick={() => trackEvent('client_click', { client_name: client.key, link_type: 'instagram' })}
                       >
                         <Instagram className="h-4 w-4" />
                         <span className="border-b border-primary/30 group-hover/link:border-primary transition-colors">

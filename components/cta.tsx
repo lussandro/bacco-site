@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { Mail, MessageCircle } from "lucide-react"
 import { useTranslations } from 'next-intl';
+import { trackEvent } from '@/lib/analytics';
 
 export function CTA() {
   const t = useTranslations('cta');
@@ -24,14 +25,14 @@ export function CTA() {
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
               <Button size="lg" className="w-full sm:w-auto text-base gap-2 bg-[#25D366] hover:bg-[#20BA5A]" asChild>
-                <a href="https://wa.me/5548991286399" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/5548991286399" target="_blank" rel="noopener noreferrer" onClick={() => trackEvent('contact_click', { method: 'whatsapp', location: 'cta_section' })}>
                   <MessageCircle className="h-5 w-5" />
                   {t('whatsapp')}
                 </a>
               </Button>
 
               <Button size="lg" variant="outline" className="w-full sm:w-auto text-base gap-2 bg-transparent" asChild>
-                <a href={`mailto:${t('emailAddress')}`}>
+                <a href={`mailto:${t('emailAddress')}`} onClick={() => trackEvent('contact_click', { method: 'email', location: 'cta_section' })}>
                   <Mail className="h-5 w-5" />
                   {t('email')}
                 </a>

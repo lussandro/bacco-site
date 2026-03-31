@@ -164,6 +164,43 @@ export default async function LocaleLayout({
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
               gtag('config', 'G-ESY8595331');
+
+              // Scroll depth tracking
+              (function() {
+                var thresholds = [25, 50, 75, 100];
+                var fired = {};
+                window.addEventListener('scroll', function() {
+                  var scrollTop = window.scrollY || document.documentElement.scrollTop;
+                  var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+                  if (docHeight <= 0) return;
+                  var pct = Math.round((scrollTop / docHeight) * 100);
+                  for (var i = 0; i < thresholds.length; i++) {
+                    if (pct >= thresholds[i] && !fired[thresholds[i]]) {
+                      fired[thresholds[i]] = true;
+                      gtag('event', 'scroll_depth', { depth_percentage: thresholds[i] });
+                    }
+                  }
+                });
+              })();
+
+              // Section visibility tracking
+              (function() {
+                var sections = ['funcionalidades','escopo','mobile','bacco-cpu','comanda','enoturismo','sistema','diferenciais','clientes','sobre','contato','cta-final'];
+                var observer = new IntersectionObserver(function(entries) {
+                  entries.forEach(function(entry) {
+                    if (entry.isIntersecting) {
+                      gtag('event', 'section_view', { section_id: entry.target.id });
+                      observer.unobserve(entry.target);
+                    }
+                  });
+                }, { threshold: 0.3 });
+                window.addEventListener('DOMContentLoaded', function() {
+                  sections.forEach(function(id) {
+                    var el = document.getElementById(id);
+                    if (el) observer.observe(el);
+                  });
+                });
+              })();
             `}
           </Script>
           <StructuredData locale={locale} />

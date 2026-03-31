@@ -7,6 +7,7 @@ import { Textarea } from "@/components/ui/textarea"
 import { Mail, Phone, MapPin, CheckCircle2, Loader2 } from "lucide-react"
 import { useState } from "react"
 import { useTranslations } from "next-intl"
+import { trackEvent } from "@/lib/analytics"
 
 const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://ezwdwwqekfczkberwzic.supabase.co"
 const SUPABASE_KEY = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || "sb_publishable_YooK50O3JiASp5IwQkcDbw_8ZQj1nel"
@@ -59,12 +60,14 @@ export function Contact() {
         if (data?.code === "23505") {
           setSuccess(true)
           setFormData({ name: "", email: "", phone: "", company: "", message: "" })
+          trackEvent('form_submit', { form_name: 'contact', company: formData.company || 'not_provided' })
         } else {
           throw new Error("Erro ao enviar")
         }
       } else {
         setSuccess(true)
         setFormData({ name: "", email: "", phone: "", company: "", message: "" })
+        trackEvent('form_submit', { form_name: 'contact', company: formData.company || 'not_provided' })
       }
     } catch {
       setError(t("form.errorMessage"))
@@ -106,6 +109,7 @@ export function Contact() {
                     <a
                       href="mailto:lussandro@gmail.com"
                       className="text-muted-foreground hover:text-primary transition-colors"
+                      onClick={() => trackEvent('contact_click', { method: 'email', location: 'contact_section' })}
                     >
                       lussandro@gmail.com
                     </a>
@@ -118,7 +122,7 @@ export function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold mb-1">{t("phone")}</h4>
-                    <a href="tel:+5548991286399" className="text-muted-foreground hover:text-primary transition-colors">
+                    <a href="tel:+5548991286399" className="text-muted-foreground hover:text-primary transition-colors" onClick={() => trackEvent('contact_click', { method: 'phone', location: 'contact_section' })}>
                       +55 48 99128-6399
                     </a>
                   </div>
