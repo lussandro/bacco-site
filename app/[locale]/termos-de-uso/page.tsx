@@ -120,7 +120,7 @@ export default function TermosDeUso() {
                 <strong>E-mail:</strong> lussandro@gmail.com
               </p>
               <p className="text-muted-foreground">
-                <strong>{t("contactPhone")}:</strong> +55 48 99128-6399
+                <strong>{t("contactPhone")}:</strong> +55 48 99197-2220
               </p>
               <p className="text-muted-foreground">
                 <strong>{t("contactAddress")}:</strong> Florianópolis, SC

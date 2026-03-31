@@ -25,7 +25,7 @@ export function CTA() {
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
               <Button size="lg" className="w-full sm:w-auto text-base gap-2 bg-[#25D366] hover:bg-[#20BA5A]" asChild>
-                <a href="https://wa.me/5548991286399" target="_blank" rel="noopener noreferrer" onClick={() => trackEvent('contact_click', { method: 'whatsapp', location: 'cta_section' })}>
+                <a href="https://wa.me/5548991972220" target="_blank" rel="noopener noreferrer" onClick={() => trackEvent('contact_click', { method: 'whatsapp', location: 'cta_section' })}>
                   <MessageCircle className="h-5 w-5" />
                   {t('whatsapp')}
                 </a>

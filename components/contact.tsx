@@ -122,8 +122,8 @@ export function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold mb-1">{t("phone")}</h4>
-                    <a href="tel:+5548991286399" className="text-muted-foreground hover:text-primary transition-colors" onClick={() => trackEvent('contact_click', { method: 'phone', location: 'contact_section' })}>
-                      +55 48 99128-6399
+                    <a href="tel:+5548991972220" className="text-muted-foreground hover:text-primary transition-colors" onClick={() => trackEvent('contact_click', { method: 'phone', location: 'contact_section' })}>
+                      +55 48 99197-2220
                     </a>
                   </div>
                 </div>
