@@ -1,4 +1,5 @@
 import { MetadataRoute } from 'next'
+import { listPosts } from '@/lib/blog'
 
 const baseUrl = 'https://bacco-erp.com'
 const locales = ['pt-BR', 'pt-PT', 'en-US', 'es', 'it-IT', 'fr', 'de'] as const
@@ -71,9 +72,12 @@ const localizedPaths: Record<string, Record<string, string>> = {
     'fr': '/pour-italie',
     'de': '/fuer-italien',
   },
+  '/blog': {
+    'pt-BR': '/blog', 'pt-PT': '/blog', 'en-US': '/blog', 'es': '/blog', 'it-IT': '/blog', 'fr': '/blog', 'de': '/blog',
+  },
 }
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const entries: MetadataRoute.Sitemap = [
     {
       url: baseUrl,
@@ -104,6 +108,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
         alternates: {
           languages,
         },
+      })
+    }
+  }
+
+  // Blog posts — one entry per (locale, slug) with hreflang to all locales
+  const posts = await listPosts('pt-BR')
+  for (const post of posts) {
+    for (const locale of locales) {
+      const languages: Record<string, string> = {}
+      for (const altLocale of locales) {
+        languages[altLocale] = `${baseUrl}/${altLocale}/blog/${post.slug}`
+      }
+      languages['x-default'] = `${baseUrl}/pt-BR/blog/${post.slug}`
+      entries.push({
+        url: `${baseUrl}/${locale}/blog/${post.slug}`,
+        lastModified: new Date(post.date),
+        changeFrequency: 'monthly',
+        priority: 0.6,
+        alternates: { languages },
       })
     }
   }

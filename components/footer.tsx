@@ -62,6 +62,11 @@ export function Footer() {
                 </a>
               </li>
               <li>
+                <I18nLink href="/blog" className="hover:text-primary transition-colors">
+                  {t('company.blog')}
+                </I18nLink>
+              </li>
+              <li>
                 <I18nLink href="/termos-de-uso" className="hover:text-primary transition-colors">
                   {t('company.terms')}
                 </I18nLink>

@@ -14,6 +14,8 @@ export const routing = defineRouting({
   // internal format.
   pathnames: {
     '/': '/',
+    '/blog': '/blog',
+    '/blog/[slug]': '/blog/[slug]',
     '/termos-de-uso': {
       'pt-BR': '/termos-de-uso',
       'pt-PT': '/termos-de-utilizacao',

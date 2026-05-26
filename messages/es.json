@@ -1051,6 +1051,7 @@
       "title": "Empresa",
       "about": "Acerca de",
       "contact": "Contacto",
+      "blog": "Blog",
       "terms": "Términos de Uso",
       "privacy": "Política de Privacidad"
     },
@@ -2716,5 +2717,22 @@
     "cta": "Ver Telemetria",
     "dismiss": "Ahora no",
     "close": "Cerrar aviso"
+  },
+  "blog": {
+    "navLink": "Blog",
+    "listing": {
+      "badge": "Blog",
+      "title": "Reflexiones sobre vitivinicultura y tecnologia",
+      "subtitle": "Practicas e ideas en el cruce entre viticultura, enologia y software, desde la mesa de trabajo y el suelo de la bodega.",
+      "metaTitle": "Blog Bacco — Viticultura, Enologia y Tecnologia",
+      "metaDescription": "Articulos sobre planificacion de vendimia, vinificacion, IoT en el vinedo y gestion de bodegas por el equipo de Bacco Sistemas.",
+      "empty": "Pronto nuevos articulos.",
+      "localeNotice": "Este contenido aun no ha sido traducido a tu idioma. Mostrando la version original en portugues."
+    },
+    "post": {
+      "readingTime": "{minutes} min de lectura",
+      "backToList": "Volver al blog",
+      "fallbackNotice": "Traduccion en curso — mostrando la version original en portugues."
+    }
   }
 }

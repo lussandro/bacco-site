@@ -979,6 +979,7 @@
       "title": "Azienda",
       "about": "Chi siamo",
       "contact": "Contatto",
+      "blog": "Blog",
       "terms": "Termini di Utilizzo",
       "privacy": "Informativa sulla Privacy"
     },
@@ -2644,5 +2645,22 @@
     "cta": "Vedi Telemetria",
     "dismiss": "Non ora",
     "close": "Chiudi avviso"
+  },
+  "blog": {
+    "navLink": "Blog",
+    "listing": {
+      "badge": "Blog",
+      "title": "Riflessioni su viticoltura e tecnologia",
+      "subtitle": "Pratiche e idee all incrocio tra viticoltura, enologia e software, direttamente dal banco e dal pavimento della cantina.",
+      "metaTitle": "Blog Bacco — Viticoltura, Enologia e Tecnologia",
+      "metaDescription": "Articoli su pianificazione della vendemmia, vinificazione, IoT in vigna e gestione delle cantine dal team Bacco Sistemas.",
+      "empty": "Nuovi articoli in arrivo.",
+      "localeNotice": "Questo contenuto non e stato ancora tradotto nella tua lingua. Mostriamo la versione originale in portoghese."
+    },
+    "post": {
+      "readingTime": "{minutes} min di lettura",
+      "backToList": "Torna al blog",
+      "fallbackNotice": "Traduzione in corso — mostriamo la versione originale in portoghese."
+    }
   }
 }

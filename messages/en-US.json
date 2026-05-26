@@ -1051,6 +1051,7 @@
       "title": "Company",
       "about": "About",
       "contact": "Contact",
+      "blog": "Blog",
       "terms": "Terms of Use",
       "privacy": "Privacy Policy"
     },
@@ -2716,5 +2717,22 @@
     "cta": "View Telemetry",
     "dismiss": "Not now",
     "close": "Close notice"
+  },
+  "blog": {
+    "navLink": "Blog",
+    "listing": {
+      "badge": "Blog",
+      "title": "Insights on viticulture and technology",
+      "subtitle": "Practices and ideas at the intersection of viticulture, oenology and software — straight from the bench and the cellar floor.",
+      "metaTitle": "Bacco Blog — Viticulture, Oenology and Technology",
+      "metaDescription": "Articles on harvest planning, winemaking, vineyard IoT and winery management by the Bacco Sistemas team.",
+      "empty": "New articles coming soon.",
+      "localeNotice": "This article has not been translated to your language yet. Showing the original Portuguese version."
+    },
+    "post": {
+      "readingTime": "{minutes} min read",
+      "backToList": "Back to blog",
+      "fallbackNotice": "Translation in progress — showing the original Portuguese version."
+    }
   }
 }

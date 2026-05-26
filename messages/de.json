@@ -979,6 +979,7 @@
       "title": "Company",
       "about": "Über uns",
       "contact": "Ansprechpartner",
+      "blog": "Blog",
       "terms": "Nutzungsbedingungen",
       "privacy": "Datenschutzrichtlinie"
     },
@@ -2644,5 +2645,22 @@
     "cta": "Telemetrie ansehen",
     "dismiss": "Jetzt nicht",
     "close": "Hinweis schliessen"
+  },
+  "blog": {
+    "navLink": "Blog",
+    "listing": {
+      "badge": "Blog",
+      "title": "Gedanken zu Weinbau und Technologie",
+      "subtitle": "Praxis und Ideen an der Schnittstelle von Weinbau, Oenologie und Software, direkt aus dem Labor und vom Kellerboden.",
+      "metaTitle": "Bacco Blog — Weinbau, Oenologie und Technologie",
+      "metaDescription": "Artikel zu Lese-Planung, Weinbereitung, IoT im Weinberg und Weingut-Management vom Bacco-Sistemas-Team.",
+      "empty": "Neue Artikel folgen bald.",
+      "localeNotice": "Dieser Inhalt wurde noch nicht in Ihre Sprache uebersetzt. Es wird die portugiesische Originalversion angezeigt."
+    },
+    "post": {
+      "readingTime": "{minutes} Min. Lesezeit",
+      "backToList": "Zurueck zum Blog",
+      "fallbackNotice": "Uebersetzung in Arbeit — es wird die portugiesische Originalversion angezeigt."
+    }
   }
 }

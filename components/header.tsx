@@ -4,7 +4,7 @@ import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Wine, Globe, Menu, X } from "lucide-react"
 import { useTranslations, useLocale } from 'next-intl';
-import { usePathname, useRouter } from '@/i18n/routing';
+import { Link as I18nLink, usePathname, useRouter } from '@/i18n/routing';
 import { trackEvent } from '@/lib/analytics';
 import {
   DropdownMenu,
@@ -15,6 +15,7 @@ import {
 
 export function Header() {
   const t = useTranslations('header');
+  const tBlog = useTranslations('blog');
   const tCommon = useTranslations('common');
   const locale = useLocale();
   const router = useRouter();
@@ -68,6 +69,12 @@ export function Header() {
                   {link.label}
                 </a>
               ))}
+              <I18nLink
+                href="/blog"
+                className="text-sm font-medium hover:text-primary transition-colors"
+              >
+                {tBlog('navLink')}
+              </I18nLink>
             </nav>
 
             <div className="flex items-center gap-2">
@@ -141,6 +148,13 @@ export function Header() {
                 {link.label}
               </a>
             ))}
+            <I18nLink
+              href="/blog"
+              className="block px-4 py-3 text-base font-medium rounded-lg hover:bg-primary/10 hover:text-primary transition-colors"
+              onClick={() => setMenuOpen(false)}
+            >
+              {tBlog('navLink')}
+            </I18nLink>
             <div className="pt-4 border-t border-border mt-4">
               <Button className="w-full" asChild>
                 <a href="https://staging.bacco-erp.com" target="_blank" rel="noopener noreferrer" onClick={() => trackEvent('cta_click', { cta_name: 'access_demo', cta_location: 'header_mobile' })}>
