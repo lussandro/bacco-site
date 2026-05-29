@@ -1,0 +1,87 @@
+---
+title: "O documento que vale mais que a nota fiscal: por que o recibo do SIVIBE define a cadeia do vinho brasileiro"
+description: "Toda vinícola que compra uva de terceiros convive com um documento que pode custar a operação inteira se for ignorado: o recibo de declaração no SIVIBE."
+date: "2026-05-29"
+author: "Lussandro"
+authorBio: "Desenvolvedor de software com 30 anos de carreira e estudante de Viticultura e Enologia. Constrói a Bacco Sistemas, um ERP especializado em vinícolas brasileiras — controle de fornecedores, recepção de uva, vinificação, fiscal, SIVIBE e rastreabilidade ponta a ponta."
+cover: "/blog/recibo-sivibe/cover.png"
+coverAlt: "Documento de declaração de safra ao lado de taça de vinho tinto"
+tags: ["sivibe", "rastreabilidade", "fiscal", "mapa", "viticultura"]
+readingTime: 7
+---
+
+Toda vinícola brasileira que compra uva de terceiros convive com um documento que poucos fora do setor conhecem, mas que pode custar a operação inteira se for ignorado: o **recibo de declaração no SIVIBE**.
+
+Não é burocracia. É o que separa a vinícola que opera dentro da lei da que está, sem saber, a uma fiscalização da multa — ou da cassação do registro.
+
+Quero destrinchar como esse fluxo funciona na prática, porque ainda vejo muito produtor e muita cantina tratando o SIVIBE como "aquele cadastro chato do MAPA" — e perdendo de vista o que ele representa: a espinha dorsal da rastreabilidade do vinho brasileiro.
+
+## O que é o SIVIBE, em uma frase
+
+O SIVIBE é o **Sistema de Informações da Área de Vinhos e Bebidas**, desenvolvido pelo Ministério da Agricultura e Pecuária (MAPA) para operacionalizar o Cadastro Vitícola Nacional — uma obrigação prevista na Lei Federal nº 7.678/1988, a chamada Lei do Vinho.
+
+Tornou-se oficial em outubro de 2020, com a publicação da Instrução Normativa nº 59, que estabeleceu o cadastro vitícola através do sistema. Desde então, **declarar produção no SIVIBE deixou de ser opção** para qualquer viticultor, vitivinicultor ou vinicultor do país.
+
+## O fluxo, da videira à fiscalização
+
+Vou desenhar como o ciclo funciona na vida real:
+
+**1. O viticultor declara a safra.**
+Em até 10 dias após o fim da vindima, o produtor precisa declarar no SIVIBE as áreas cultivadas com videiras, as quantidades colhidas por cultivar e os destinos das uvas — venda para terceiros, processamento próprio, consumo familiar.
+
+**2. O sistema emite o recibo.**
+A declaração gera um recibo eletrônico que comprova que aquele produtor está em dia com a obrigação legal e que aquela safra foi declarada.
+
+**3. O recibo vira anexo da nota fiscal.**
+Pela lei federal, para que o viticultor possa vender as uvas produzidas para uma indústria de processamento, junto com a nota fiscal do produtor rural a ser encaminhada ao comprador, deve ser anexado o recibo da declaração de produção de uvas da sua propriedade, relativa ao ano safra imediatamente anterior ao ano base atual.
+
+**4. A vinícola arquiva e cruza com o que produziu.**
+Cada quilo de uva entrando precisa ter origem rastreável a uma propriedade cadastrada. Cada litro de vinho saindo precisa ser justificável pelo volume de uva que entrou. É essa equação que o MAPA reconstrói quando fiscaliza.
+
+## O detalhe que pega vinícola desavisada
+
+Aqui está o ponto que muita gente subestima:
+
+O produtor que comercializar uvas sem estar cadastrado no SIVIBE, ou com dados desatualizados, será considerado infrator, bem como o vinicultor ou vitivinicultor que adquirir uvas de produtores não cadastrados. A sanção vai desde advertência e multa até a interdição e cassação do registro.
+
+Leia de novo: **a vinícola que compra de produtor não cadastrado é coautora da infração**. Não adianta alegar boa-fé, não adianta dizer que recebeu nota fiscal do produtor rural normalmente. Se o recibo do SIVIBE não veio junto, ou se o produtor declarou dados defasados, a responsabilidade é compartilhada.
+
+Em uma cadeia onde uma única safra pode movimentar milhões de reais e onde a marca da vinícola é construída em décadas, esse risco precisa ser tratado com a seriedade que ele merece.
+
+## Por que isso importa muito além da multa
+
+O recibo do SIVIBE é a porta de entrada de algo bem maior: a **rastreabilidade da cadeia vitivinícola brasileira**. E rastreabilidade não é tema regulatório apenas. É tema de mercado.
+
+**Combate à fraude.** O cruzamento entre uva declarada e vinho elaborado torna muito mais difícil maquiar produção — vinho "estendido", lastro inexistente, importação a granel disfarçada. Quando o sistema confronta os dois lados da equação, fraude vira evidência.
+
+**Indicações geográficas e denominações de origem.** Nenhuma IG ou DO se sustenta sem rastreabilidade. Vale dos Vinhedos, Altos Montes, Pinto Bandeira, Vales da Uva Goethe — todas dependem do fato de cada garrafa vir de uvas declaradas, de áreas mapeadas, de propriedades identificadas.
+
+**Posicionamento de marca.** Vinícola que rastreia parcela por parcela, que sabe exatamente de qual produtor familiar veio cada lote, tem uma história para contar. Vinícola que não sabe, vende líquido genérico.
+
+## Como resolvemos isso no Bacco ERP
+
+Construímos a Bacco Sistemas justamente porque vimos vinícolas brasileiras — pequenas e médias — controlando essa cadeia em planilha, caderno e pasta de arquivo morto. Isso não escala, não passa em fiscalização, e ainda consome o tempo do enólogo com tarefa administrativa.
+
+O fluxo SIVIBE no Bacco ERP funciona assim:
+
+- **Cadastro de fornecedor de uva com SIVIBE obrigatório.** Sem o número de cadastro e o recibo da safra anexado, o fornecedor fica bloqueado para movimentação. Não dá pra "esquecer" — o sistema não deixa.
+
+- **Validação no momento da recepção da uva.** Quando a carga chega na cantina e é registrada no módulo de recepção (com pesagem integrada via balança MQTT, por talhão, por cultivar, por modo de colheita), o sistema valida automaticamente se aquele fornecedor está com SIVIBE em dia. Se não estiver, alerta antes de processar.
+
+- **Geração da declaração SIVIBE pronta para envio.** No fim da vindima, o Bacco consolida automaticamente todos os dados de área, cultivar, produção e destinação no formato que o sistema do MAPA espera. O enólogo revisa e envia — em minutos, não em dias.
+
+- **Reconciliação uva-para-vinho.** Cada lote de uva recebida está vinculado ao tanque de fermentação, ao lote de vinho, à garrafa engarrafada. Se a fiscalização aparecer pedindo para justificar de onde veio o volume da safra X, isso é relatório de um clique — não arqueologia de pasta.
+
+- **Histórico por safra, por talhão, por produtor.** Série histórica completa, com dados que alimentam tanto a obrigação regulatória quanto as decisões enológicas e comerciais nos anos seguintes.
+
+A diferença prática? Vinícolas que usam o Bacco ERP tratam SIVIBE como subproduto da operação. **A declaração é gerada porque os dados certos foram registrados na hora certa, no lugar certo, durante o ano todo.** Não vira projeto urgente em maio depois da vindima.
+
+## A pergunta de fechamento
+
+Se um fiscal do MAPA aparecer amanhã na sua vinícola pedindo para reconciliar os últimos 24 meses de compras de uva com os respectivos recibos do SIVIBE — você consegue?
+
+Quem responde "sim, em 10 minutos" tem uma operação sólida. Quem precisa de uma semana procurando papel está vulnerável. Quem não sabe responder está, possivelmente, prestes a descobrir o tamanho do problema da pior forma.
+
+O SIVIBE não é o inimigo. É o que dá legitimidade ao vinho brasileiro num mercado cada vez mais exigente em origem, transparência e procedência. Tratá-lo como aliado é decisão estratégica — não burocrática.
+
+Se você é vinícola, cooperativa ou produtor estruturado e quer entender como o Bacco ERP pode tirar isso das suas costas, me chame aqui no LinkedIn. É exatamente esse tipo de dor que a gente resolve todo dia.
