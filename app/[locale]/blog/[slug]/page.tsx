@@ -137,16 +137,21 @@ export default async function BlogPostPage({
             </div>
           </header>
 
-          <div className="relative aspect-[16/10] mb-10 rounded-xl overflow-hidden bg-muted">
+          <a
+            href={post.cover}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative block aspect-[16/10] mb-10 rounded-xl overflow-hidden bg-muted cursor-zoom-in"
+          >
             <Image
               src={post.cover}
               alt={post.coverAlt ?? post.title}
               fill
               priority
-              className="object-cover"
+              className={post.coverFit === 'contain' ? 'object-contain' : 'object-cover'}
               sizes="(max-width: 1024px) 100vw, 768px"
             />
-          </div>
+          </a>
 
           <div className="prose prose-lg dark:prose-invert max-w-none prose-headings:font-serif prose-headings:text-balance prose-a:text-primary prose-blockquote:border-l-primary prose-blockquote:text-muted-foreground">
             <MDXRemote

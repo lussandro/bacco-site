@@ -12,6 +12,7 @@ export interface BlogPostMeta {
   authorBio?: string
   cover: string
   coverAlt?: string
+  coverFit?: 'cover' | 'contain'
   tags: string[]
   readingTime: number
 }
@@ -37,6 +38,7 @@ async function readPostFile(slug: string, locale: string): Promise<BlogPost | nu
       authorBio: data.authorBio,
       cover: data.cover,
       coverAlt: data.coverAlt,
+      coverFit: data.coverFit,
       tags: data.tags ?? [],
       readingTime: data.readingTime ?? estimateReadingTime(content),
       content,
