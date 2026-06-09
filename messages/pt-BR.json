@@ -849,8 +849,24 @@
         "name": "Casa Rozental",
         "description": "Vinícola com enoturismo em Secretário, Petrópolis, unindo produção artesanal de vinhos e experiências imersivas na Serra do Rio de Janeiro.",
         "location": "Secretário, Petrópolis, RJ - Brasil"
+      },
+      "valeDoGongo": {
+        "name": "Vinícola Vale do Gongo",
+        "description": "A única vinícola do norte de Minas Gerais, em Grão Mogol. Pioneira na região e premiada com Grand Gold no Concurso Nacional de Vinhos.",
+        "location": "Grão Mogol, MG - Brasil"
+      },
+      "bodegaDonValentinCenci": {
+        "name": "Bodega Dom Valentin Cenci",
+        "description": "Vinhedo familiar no Distrito Federal, cultivando Syrah, Merlot, Grenache, Tempranillo e Sauvignon Blanc, com espaço dedicado a visitas e degustações.",
+        "location": "Brasília, DF - Brasil"
+      },
+      "estanciaChrysiana": {
+        "name": "Estância Chrysiana",
+        "description": "Vinícola de vinhos de inverno em Três Corações, no Sul de Minas. Vinhedo próprio com Syrah, Cabernet Franc, Marselan e Sauvignon Blanc; primeira safra em 2025.",
+        "location": "Três Corações, MG - Brasil"
       }
-    }
+    },
+    "comingSoon": "Em breve"
   },
   "about": {
     "history": {

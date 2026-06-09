@@ -341,8 +341,24 @@
         "name": "Casa Rozental",
         "description": "Domaine viticole avec oenotourisme à Secretário, Petrópolis, alliant production artisanale de vins et expériences immersives dans la Serra de Rio de Janeiro.",
         "location": "Secretário, Petrópolis, RJ - Brésil"
+      },
+      "valeDoGongo": {
+        "name": "Vinícola Vale do Gongo",
+        "description": "La seule cave du nord du Minas Gerais, à Grão Mogol. Pionnière dans la région et récompensée du Grand Gold au Concours National des Vins.",
+        "location": "Grão Mogol, MG - Brésil"
+      },
+      "bodegaDonValentinCenci": {
+        "name": "Bodega Dom Valentin Cenci",
+        "description": "Vignoble familial dans le District fédéral, cultivant Syrah, Merlot, Grenache, Tempranillo et Sauvignon Blanc, avec un espace dédié aux visites et dégustations.",
+        "location": "Brasília, DF - Brésil"
+      },
+      "estanciaChrysiana": {
+        "name": "Estância Chrysiana",
+        "description": "Cave de vins de vendange d'hiver à Três Corações, sud du Minas Gerais. Vignoble en propre avec Syrah, Cabernet Franc, Marselan et Sauvignon Blanc ; première vendange en 2025.",
+        "location": "Três Corações, MG - Brésil"
       }
-    }
+    },
+    "comingSoon": "Bientôt"
   },
   "brazil": {
     "back": "Retour au site Web",

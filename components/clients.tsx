@@ -19,6 +19,25 @@ const clients = [
     instagram: "https://instagram.com/casarozental",
     logoClass: "w-64 h-48",
   },
+  {
+    key: "valeDoGongo",
+    logo: null,
+    instagram: "https://instagram.com/valedogongo",
+    comingSoon: true,
+  },
+  {
+    key: "bodegaDonValentinCenci",
+    logo: "/clients/bodega-dom-valentin-cenci.png",
+    instagram: "https://instagram.com/bodegadomvalentincenci",
+    logoClass: "w-56 h-24",
+    comingSoon: true,
+  },
+  {
+    key: "estanciaChrysiana",
+    logo: null,
+    instagram: "https://instagram.com/estanciachrysianavinicola",
+    comingSoon: true,
+  },
 ]
 
 export function Clients() {
@@ -61,14 +80,28 @@ export function Clients() {
                   {/* Logo area */}
                   <div className="relative bg-gradient-to-br from-muted/50 to-muted/30 p-8 flex items-center justify-center min-h-[220px] border-b border-primary/10">
                     <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,var(--primary)_0.5px,transparent_0.5px)] bg-[length:24px_24px] opacity-[0.03]" />
-                    <div className={`relative ${client.logoClass || "w-48 h-48"} group-hover:scale-105 transition-transform duration-500`}>
-                      <Image
-                        src={client.logo}
-                        alt={t(`items.${client.key}.name`)}
-                        fill
-                        className="object-contain drop-shadow-md"
-                      />
-                    </div>
+                    {client.comingSoon && (
+                      <Badge className="absolute top-3 right-3 z-10 bg-primary/90 text-primary-foreground border-0 shadow-md">
+                        {t("comingSoon")}
+                      </Badge>
+                    )}
+                    {client.logo ? (
+                      <div className={`relative ${client.logoClass || "w-48 h-48"} group-hover:scale-105 transition-transform duration-500`}>
+                        <Image
+                          src={client.logo}
+                          alt={t(`items.${client.key}.name`)}
+                          fill
+                          className="object-contain drop-shadow-md"
+                        />
+                      </div>
+                    ) : (
+                      <div className="relative flex flex-col items-center justify-center gap-3 text-center group-hover:scale-105 transition-transform duration-500">
+                        <Wine className="h-14 w-14 text-primary/60" />
+                        <span className="font-serif text-lg font-bold text-foreground/80 px-4">
+                          {t(`items.${client.key}.name`)}
+                        </span>
+                      </div>
+                    )}
                   </div>
 
                   {/* Info area */}

@@ -378,30 +378,102 @@
       "management": "Compliance"
     },
     "items": {
-      "dashboardExecutivo": { "title": "Executive Dashboard", "description": "Konsolidierte Berichte mit wichtigen KPIs, Jahrgangsvergleich und Produktivitäts-, Annahme- und Kapazitätsindikatoren." },
-      "vinhedosPoligonos": { "title": "Weinberge mit Polygonkarte", "description": "Satellitenkarte mit editierbaren Parzellenpolygonen, Durchschnittsertrag, Gesamtfläche und georeferenzierte Darstellung." },
-      "maturacao": { "title": "Reifung & Ernteentscheidung", "description": "Reifekurve mit Brix, Babo, Alkoholpotential, Mostdichte und automatische Empfehlung des Erntezeitpunkts." },
-      "custoColheita": { "title": "Erntekosten", "description": "Kostenerfassung pro Parzelle und Weinberg mit automatischer Tagessatzberechnung, Erntehelfer und Verknüpfung zum Vinifikationslos." },
-      "mecanizacao": { "title": "Mechanisierung & Diesel", "description": "Mechanisierungs-Kostenstelle mit Dieselkontrolle, Maschinen, Betriebsstundenzähler, Arbeitsaufträge und Wartung." },
-      "calendarAI": { "title": "KI-Bewirtschaftungskalender", "description": "Künstliche Intelligenz schlägt Bewirtschaftungsmaßnahmen basierend auf der Weinbergregion vor, mit Warnungen und automatischen Empfehlungen." },
-      "vinificacaoLotes": { "title": "Weinlose", "description": "Verwaltung von Produktions- und Reifungslosen mit Code, Rebsorte, Jahrgang, Volumen, zugeordnetem Behälter und Status." },
-      "vinificacaoBlends": { "title": "Verschnitte / Cuvées", "description": "Erstellung von Verschnitten durch Kombination von Weinlosen mit Sortenanteilen, Ergebnisvolumen und Rückverfolgbarkeit." },
-      "vinificacaoEnvase": { "title": "Abfüllung", "description": "Abfüllaufträge mit Kontrolle geplanter vs. produzierter Flaschen, Ausbeute, Kartonzählung und Rückverfolgbarkeit." },
-      "painelTanques": { "title": "Behälter-Panel", "description": "Visuelle Karten für jeden Behälter mit Kapazität, aktuellem Volumen, Auslastungsprozent, Typ und Standort." },
-      "vinificacaoAnalytics": { "title": "Vinifikations-Analytics", "description": "Jahrgangsübersicht mit Gesamtlosen, Volumen, Rebsorten, Flaschen, Verschnitten, Traube-zu-Wein-Ausbeute und Diagrammen." },
-      "espumantes": { "title": "Schaumwein", "description": "Dediziertes Modul für Schaumweinproduktion mit Charmat-, Champenoise- und Ancestral-Methoden, Dosagerechner." },
-      "pdv": { "title": "Bacco-Comanda (POS)", "description": "Komplettes Kassensystem mit Tischverwaltung, Bestellungen und Zahlungen für Weintourismus." },
-      "pdvTables": { "title": "POS - Tischverwaltung", "description": "Visuelle Tisch- und Bestellkontrolle mit Echtzeit-Status für effizienten Service." },
-      "recepcaoUvas": { "title": "Multi-Modus Traubenannahme", "description": "5 Annahmemodi: Gesamtladung, Einzelkisten, Kisten variable Tara, Probenahme und Bins/Macrobins." },
-      "enoturismoReservas": { "title": "Weintourismus - Reservierungen", "description": "Komplette Verwaltung mit 12 Tabs: Dashboard, Besucher, Erlebnisse, Zeiten, Reservierungen, Bewertungen, Gutscheine, Voucher und mehr." },
-      "portalPublico": { "title": "Öffentliches Buchungsportal", "description": "5-Schritte-Assistent für Online-Buchungen: Erlebnis, Datum/Zeit, Extras, Persönliche Daten und Zahlung." },
-      "financeiroDashboard": { "title": "Finanz-Dashboard", "description": "Kontosalden, Forderungen/Verbindlichkeiten, prognostizierter Saldo, Überfälligkeitswarnungen mit Aging und kommende Fälligkeiten." },
-      "financeiroRelatorios": { "title": "Finanzberichte", "description": "Gewinn- und Verlustrechnung nach Periodenabgrenzung mit Filtern nach Datum, Geschäftsbereich, Jahrgang und Kostenstelle. PDF/CSV-Export." },
-      "ecommerceHub": { "title": "E-Commerce Hub", "description": "iFood- und Nuvemshop-Integration mit Bestell-Dashboard, Umsatz, Durchschnittsbon und Katalogsynchronisierung." },
-      "ecommercePedidos": { "title": "E-Commerce-Bestellungen", "description": "Automatischer Import externer Bestellungen mit Kanalmapping, Kunde, Betrag und ERP-Verknüpfung." },
-      "rotulagem": { "title": "Etikettierung", "description": "Vollständige Etikettenregistrierung mit Rückverfolgbarkeitsdaten, Weinklassifikation, Alkoholgehalt und Volumen." },
-      "qrCodeRastreabilidade": { "title": "QR-Code - Öffentliche Rückverfolgbarkeit", "description": "Öffentliche Authentizitätsprüfungsseite: Traubenherkunft, Produktionsprozess und Produktzertifizierung." },
-      "sivibeCompliance": { "title": "SIVIBE - Compliance", "description": "Verwaltung obligatorischer Erklärungen mit Fristen, dringenden Warnungen, aktuellem Jahrgang und Compliance-Tracking." }
+      "dashboardExecutivo": {
+        "title": "Executive Dashboard",
+        "description": "Konsolidierte Berichte mit wichtigen KPIs, Jahrgangsvergleich und Produktivitäts-, Annahme- und Kapazitätsindikatoren."
+      },
+      "vinhedosPoligonos": {
+        "title": "Weinberge mit Polygonkarte",
+        "description": "Satellitenkarte mit editierbaren Parzellenpolygonen, Durchschnittsertrag, Gesamtfläche und georeferenzierte Darstellung."
+      },
+      "maturacao": {
+        "title": "Reifung & Ernteentscheidung",
+        "description": "Reifekurve mit Brix, Babo, Alkoholpotential, Mostdichte und automatische Empfehlung des Erntezeitpunkts."
+      },
+      "custoColheita": {
+        "title": "Erntekosten",
+        "description": "Kostenerfassung pro Parzelle und Weinberg mit automatischer Tagessatzberechnung, Erntehelfer und Verknüpfung zum Vinifikationslos."
+      },
+      "mecanizacao": {
+        "title": "Mechanisierung & Diesel",
+        "description": "Mechanisierungs-Kostenstelle mit Dieselkontrolle, Maschinen, Betriebsstundenzähler, Arbeitsaufträge und Wartung."
+      },
+      "calendarAI": {
+        "title": "KI-Bewirtschaftungskalender",
+        "description": "Künstliche Intelligenz schlägt Bewirtschaftungsmaßnahmen basierend auf der Weinbergregion vor, mit Warnungen und automatischen Empfehlungen."
+      },
+      "vinificacaoLotes": {
+        "title": "Weinlose",
+        "description": "Verwaltung von Produktions- und Reifungslosen mit Code, Rebsorte, Jahrgang, Volumen, zugeordnetem Behälter und Status."
+      },
+      "vinificacaoBlends": {
+        "title": "Verschnitte / Cuvées",
+        "description": "Erstellung von Verschnitten durch Kombination von Weinlosen mit Sortenanteilen, Ergebnisvolumen und Rückverfolgbarkeit."
+      },
+      "vinificacaoEnvase": {
+        "title": "Abfüllung",
+        "description": "Abfüllaufträge mit Kontrolle geplanter vs. produzierter Flaschen, Ausbeute, Kartonzählung und Rückverfolgbarkeit."
+      },
+      "painelTanques": {
+        "title": "Behälter-Panel",
+        "description": "Visuelle Karten für jeden Behälter mit Kapazität, aktuellem Volumen, Auslastungsprozent, Typ und Standort."
+      },
+      "vinificacaoAnalytics": {
+        "title": "Vinifikations-Analytics",
+        "description": "Jahrgangsübersicht mit Gesamtlosen, Volumen, Rebsorten, Flaschen, Verschnitten, Traube-zu-Wein-Ausbeute und Diagrammen."
+      },
+      "espumantes": {
+        "title": "Schaumwein",
+        "description": "Dediziertes Modul für Schaumweinproduktion mit Charmat-, Champenoise- und Ancestral-Methoden, Dosagerechner."
+      },
+      "pdv": {
+        "title": "Bacco-Comanda (POS)",
+        "description": "Komplettes Kassensystem mit Tischverwaltung, Bestellungen und Zahlungen für Weintourismus."
+      },
+      "pdvTables": {
+        "title": "POS - Tischverwaltung",
+        "description": "Visuelle Tisch- und Bestellkontrolle mit Echtzeit-Status für effizienten Service."
+      },
+      "recepcaoUvas": {
+        "title": "Multi-Modus Traubenannahme",
+        "description": "5 Annahmemodi: Gesamtladung, Einzelkisten, Kisten variable Tara, Probenahme und Bins/Macrobins."
+      },
+      "enoturismoReservas": {
+        "title": "Weintourismus - Reservierungen",
+        "description": "Komplette Verwaltung mit 12 Tabs: Dashboard, Besucher, Erlebnisse, Zeiten, Reservierungen, Bewertungen, Gutscheine, Voucher und mehr."
+      },
+      "portalPublico": {
+        "title": "Öffentliches Buchungsportal",
+        "description": "5-Schritte-Assistent für Online-Buchungen: Erlebnis, Datum/Zeit, Extras, Persönliche Daten und Zahlung."
+      },
+      "financeiroDashboard": {
+        "title": "Finanz-Dashboard",
+        "description": "Kontosalden, Forderungen/Verbindlichkeiten, prognostizierter Saldo, Überfälligkeitswarnungen mit Aging und kommende Fälligkeiten."
+      },
+      "financeiroRelatorios": {
+        "title": "Finanzberichte",
+        "description": "Gewinn- und Verlustrechnung nach Periodenabgrenzung mit Filtern nach Datum, Geschäftsbereich, Jahrgang und Kostenstelle. PDF/CSV-Export."
+      },
+      "ecommerceHub": {
+        "title": "E-Commerce Hub",
+        "description": "iFood- und Nuvemshop-Integration mit Bestell-Dashboard, Umsatz, Durchschnittsbon und Katalogsynchronisierung."
+      },
+      "ecommercePedidos": {
+        "title": "E-Commerce-Bestellungen",
+        "description": "Automatischer Import externer Bestellungen mit Kanalmapping, Kunde, Betrag und ERP-Verknüpfung."
+      },
+      "rotulagem": {
+        "title": "Etikettierung",
+        "description": "Vollständige Etikettenregistrierung mit Rückverfolgbarkeitsdaten, Weinklassifikation, Alkoholgehalt und Volumen."
+      },
+      "qrCodeRastreabilidade": {
+        "title": "QR-Code - Öffentliche Rückverfolgbarkeit",
+        "description": "Öffentliche Authentizitätsprüfungsseite: Traubenherkunft, Produktionsprozess und Produktzertifizierung."
+      },
+      "sivibeCompliance": {
+        "title": "SIVIBE - Compliance",
+        "description": "Verwaltung obligatorischer Erklärungen mit Fristen, dringenden Warnungen, aktuellem Jahrgang und Compliance-Tracking."
+      }
     }
   },
   "process": {
@@ -777,8 +849,24 @@
         "name": "Casa Rozental",
         "description": "Weingut mit Weintourismus in Secretário, Petrópolis, das handwerkliche Weinproduktion und immersive Erlebnisse im Bergland von Rio de Janeiro vereint.",
         "location": "Secretário, Petrópolis, RJ - Brasilien"
+      },
+      "valeDoGongo": {
+        "name": "Vinícola Vale do Gongo",
+        "description": "Das einzige Weingut im Norden von Minas Gerais, in Grão Mogol. Pionier der Region und mit Grand Gold beim Nationalen Weinwettbewerb ausgezeichnet.",
+        "location": "Grão Mogol, MG - Brasilien"
+      },
+      "bodegaDonValentinCenci": {
+        "name": "Bodega Dom Valentin Cenci",
+        "description": "Familienweinberg im Bundesdistrikt mit Syrah, Merlot, Grenache, Tempranillo und Sauvignon Blanc sowie einem Bereich für Besuche und Verkostungen.",
+        "location": "Brasília, DF - Brasilien"
+      },
+      "estanciaChrysiana": {
+        "name": "Estância Chrysiana",
+        "description": "Weingut für Winterlese-Weine in Três Corações, im Süden von Minas Gerais. Eigener Weinberg mit Syrah, Cabernet Franc, Marselan und Sauvignon Blanc; erste Lese 2025.",
+        "location": "Três Corações, MG - Brasilien"
       }
-    }
+    },
+    "comingSoon": "Demnächst"
   },
   "about": {
     "history": {

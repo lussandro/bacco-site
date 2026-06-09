@@ -378,30 +378,102 @@
       "management": "Compliance"
     },
     "items": {
-      "dashboardExecutivo": { "title": "Dashboard Esecutivo", "description": "Report consolidati con KPI principali, confronto tra vendemmie e indicatori di produttività, ricevimento e capacità." },
-      "vinhedosPoligonos": { "title": "Vigneti con Mappa Poligonale", "description": "Mappa satellitare con poligoni editabili delle parcelle, produttività media, area totale e visualizzazione georeferenziata." },
-      "maturacao": { "title": "Maturazione e Decisione di Vendemmia", "description": "Curva di maturazione con Brix, Babo, potenziale alcolico, densità del mosto e raccomandazione automatica del punto di vendemmia." },
-      "custoColheita": { "title": "Costo di Vendemmia", "description": "Registrazione costi per parcella e vigneto con calcolo automatico giornaliero, vendemmiatori e collegamento al lotto di vinificazione." },
-      "mecanizacao": { "title": "Meccanizzazione e Diesel", "description": "Centro di costo meccanizzazione con controllo diesel, macchine, contaore, ordini di lavoro e manutenzione." },
-      "calendarAI": { "title": "Calendario Gestione con IA", "description": "L'Intelligenza Artificiale suggerisce le gestioni basate sulla regione del vigneto, con avvisi e raccomandazioni automatiche." },
-      "vinificacaoLotes": { "title": "Lotti di Vino", "description": "Gestione lotti in produzione e maturazione con codice, varietà, vendemmia, volume, recipiente associato e stato." },
-      "vinificacaoBlends": { "title": "Tagli / Blend", "description": "Creazione di assemblage combinando lotti di vino con percentuali per varietà, volume risultante e tracciabilità." },
-      "vinificacaoEnvase": { "title": "Imbottigliamento", "description": "Ordini di imbottigliamento con controllo bottiglie previste vs. prodotte, resa, conteggio casse e tracciabilità." },
-      "painelTanques": { "title": "Pannello Recipienti", "description": "Schede visive per ogni recipiente con capacità, volume attuale, percentuale di occupazione, tipo e posizione." },
-      "vinificacaoAnalytics": { "title": "Analytics di Vinificazione", "description": "Panoramica vendemmiale con totale lotti, volume, varietà, bottiglie, blend, resa uva→vino e grafici." },
-      "espumantes": { "title": "Spumanti", "description": "Modulo dedicato per la produzione di spumanti con metodi Charmat, Champenoise e Ancestrale, calcolatore di dosaggio." },
-      "pdv": { "title": "Bacco-Comanda (POS)", "description": "Sistema completo punto vendita con gestione tavoli, comande e pagamenti per enoturismo." },
-      "pdvTables": { "title": "POS - Gestione Tavoli", "description": "Controllo visivo tavoli e comande con stato in tempo reale per un servizio efficiente." },
-      "recepcaoUvas": { "title": "Ricevimento Uve Multi-modalità", "description": "5 modalità di ricevimento: Carico Totale, Cassette Unitarie, Cassette Tara Variabile, Campionamento e Bins/Macrobins." },
-      "enoturismoReservas": { "title": "Enoturismo - Prenotazioni", "description": "Gestione completa con 12 schede: Dashboard, Visitatori, Esperienze, Orari, Prenotazioni, Recensioni, Coupon, Voucher e altro." },
-      "portalPublico": { "title": "Portale Pubblico Prenotazioni", "description": "Procedura guidata in 5 passaggi per prenotazioni online: Esperienza, Data/Ora, Extra, Dati Personali e Pagamento." },
-      "financeiroDashboard": { "title": "Dashboard Finanziario", "description": "Saldi conti, crediti/debiti, saldo previsto, avvisi scadenze con aging e prossime scadenze." },
-      "financeiroRelatorios": { "title": "Report Finanziari", "description": "Conto Economico per competenza con filtri per data, linea di business, vendemmia e centro di costo. Esportazione PDF/CSV." },
-      "ecommerceHub": { "title": "E-commerce Hub", "description": "Integrazione iFood e Nuvemshop con dashboard ordini, fatturato, scontrino medio e sincronizzazione catalogo." },
-      "ecommercePedidos": { "title": "Ordini E-commerce", "description": "Importazione automatica ordini esterni con mappatura canale, cliente, importo e collegamento ERP." },
-      "rotulagem": { "title": "Etichettatura", "description": "Registrazione completa etichette con dati di tracciabilità, classificazione vino, gradazione alcolica e volume." },
-      "qrCodeRastreabilidade": { "title": "QR Code - Tracciabilità Pubblica", "description": "Pagina pubblica verifica autenticità: origine uve, processo produttivo e certificazione prodotto." },
-      "sivibeCompliance": { "title": "SIVIBE - Compliance", "description": "Gestione dichiarazioni obbligatorie con scadenze, avvisi urgenti, vendemmia corrente e monitoraggio compliance." }
+      "dashboardExecutivo": {
+        "title": "Dashboard Esecutivo",
+        "description": "Report consolidati con KPI principali, confronto tra vendemmie e indicatori di produttività, ricevimento e capacità."
+      },
+      "vinhedosPoligonos": {
+        "title": "Vigneti con Mappa Poligonale",
+        "description": "Mappa satellitare con poligoni editabili delle parcelle, produttività media, area totale e visualizzazione georeferenziata."
+      },
+      "maturacao": {
+        "title": "Maturazione e Decisione di Vendemmia",
+        "description": "Curva di maturazione con Brix, Babo, potenziale alcolico, densità del mosto e raccomandazione automatica del punto di vendemmia."
+      },
+      "custoColheita": {
+        "title": "Costo di Vendemmia",
+        "description": "Registrazione costi per parcella e vigneto con calcolo automatico giornaliero, vendemmiatori e collegamento al lotto di vinificazione."
+      },
+      "mecanizacao": {
+        "title": "Meccanizzazione e Diesel",
+        "description": "Centro di costo meccanizzazione con controllo diesel, macchine, contaore, ordini di lavoro e manutenzione."
+      },
+      "calendarAI": {
+        "title": "Calendario Gestione con IA",
+        "description": "L'Intelligenza Artificiale suggerisce le gestioni basate sulla regione del vigneto, con avvisi e raccomandazioni automatiche."
+      },
+      "vinificacaoLotes": {
+        "title": "Lotti di Vino",
+        "description": "Gestione lotti in produzione e maturazione con codice, varietà, vendemmia, volume, recipiente associato e stato."
+      },
+      "vinificacaoBlends": {
+        "title": "Tagli / Blend",
+        "description": "Creazione di assemblage combinando lotti di vino con percentuali per varietà, volume risultante e tracciabilità."
+      },
+      "vinificacaoEnvase": {
+        "title": "Imbottigliamento",
+        "description": "Ordini di imbottigliamento con controllo bottiglie previste vs. prodotte, resa, conteggio casse e tracciabilità."
+      },
+      "painelTanques": {
+        "title": "Pannello Recipienti",
+        "description": "Schede visive per ogni recipiente con capacità, volume attuale, percentuale di occupazione, tipo e posizione."
+      },
+      "vinificacaoAnalytics": {
+        "title": "Analytics di Vinificazione",
+        "description": "Panoramica vendemmiale con totale lotti, volume, varietà, bottiglie, blend, resa uva→vino e grafici."
+      },
+      "espumantes": {
+        "title": "Spumanti",
+        "description": "Modulo dedicato per la produzione di spumanti con metodi Charmat, Champenoise e Ancestrale, calcolatore di dosaggio."
+      },
+      "pdv": {
+        "title": "Bacco-Comanda (POS)",
+        "description": "Sistema completo punto vendita con gestione tavoli, comande e pagamenti per enoturismo."
+      },
+      "pdvTables": {
+        "title": "POS - Gestione Tavoli",
+        "description": "Controllo visivo tavoli e comande con stato in tempo reale per un servizio efficiente."
+      },
+      "recepcaoUvas": {
+        "title": "Ricevimento Uve Multi-modalità",
+        "description": "5 modalità di ricevimento: Carico Totale, Cassette Unitarie, Cassette Tara Variabile, Campionamento e Bins/Macrobins."
+      },
+      "enoturismoReservas": {
+        "title": "Enoturismo - Prenotazioni",
+        "description": "Gestione completa con 12 schede: Dashboard, Visitatori, Esperienze, Orari, Prenotazioni, Recensioni, Coupon, Voucher e altro."
+      },
+      "portalPublico": {
+        "title": "Portale Pubblico Prenotazioni",
+        "description": "Procedura guidata in 5 passaggi per prenotazioni online: Esperienza, Data/Ora, Extra, Dati Personali e Pagamento."
+      },
+      "financeiroDashboard": {
+        "title": "Dashboard Finanziario",
+        "description": "Saldi conti, crediti/debiti, saldo previsto, avvisi scadenze con aging e prossime scadenze."
+      },
+      "financeiroRelatorios": {
+        "title": "Report Finanziari",
+        "description": "Conto Economico per competenza con filtri per data, linea di business, vendemmia e centro di costo. Esportazione PDF/CSV."
+      },
+      "ecommerceHub": {
+        "title": "E-commerce Hub",
+        "description": "Integrazione iFood e Nuvemshop con dashboard ordini, fatturato, scontrino medio e sincronizzazione catalogo."
+      },
+      "ecommercePedidos": {
+        "title": "Ordini E-commerce",
+        "description": "Importazione automatica ordini esterni con mappatura canale, cliente, importo e collegamento ERP."
+      },
+      "rotulagem": {
+        "title": "Etichettatura",
+        "description": "Registrazione completa etichette con dati di tracciabilità, classificazione vino, gradazione alcolica e volume."
+      },
+      "qrCodeRastreabilidade": {
+        "title": "QR Code - Tracciabilità Pubblica",
+        "description": "Pagina pubblica verifica autenticità: origine uve, processo produttivo e certificazione prodotto."
+      },
+      "sivibeCompliance": {
+        "title": "SIVIBE - Compliance",
+        "description": "Gestione dichiarazioni obbligatorie con scadenze, avvisi urgenti, vendemmia corrente e monitoraggio compliance."
+      }
     }
   },
   "process": {
@@ -777,8 +849,24 @@
         "name": "Casa Rozental",
         "description": "Cantina con enoturismo a Secretário, Petrópolis, che unisce produzione artigianale di vini ed esperienze immersive nella Serra di Rio de Janeiro.",
         "location": "Secretário, Petrópolis, RJ - Brasile"
+      },
+      "valeDoGongo": {
+        "name": "Vinícola Vale do Gongo",
+        "description": "L'unica cantina del nord del Minas Gerais, a Grão Mogol. Pioniera nella regione e premiata con il Grand Gold al Concorso Nazionale dei Vini.",
+        "location": "Grão Mogol, MG - Brasile"
+      },
+      "bodegaDonValentinCenci": {
+        "name": "Bodega Dom Valentin Cenci",
+        "description": "Vigneto familiare nel Distretto Federale, con Syrah, Merlot, Grenache, Tempranillo e Sauvignon Blanc e uno spazio dedicato a visite e degustazioni.",
+        "location": "Brasília, DF - Brasile"
+      },
+      "estanciaChrysiana": {
+        "name": "Estância Chrysiana",
+        "description": "Cantina di vini da vendemmia invernale a Três Corações, sud del Minas Gerais. Vigneto di proprietà con Syrah, Cabernet Franc, Marselan e Sauvignon Blanc; prima vendemmia nel 2025.",
+        "location": "Três Corações, MG - Brasile"
       }
-    }
+    },
+    "comingSoon": "Prossimamente"
   },
   "about": {
     "history": {
