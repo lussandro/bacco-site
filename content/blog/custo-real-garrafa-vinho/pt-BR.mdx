@@ -1,0 +1,163 @@
+---
+title: "Como calcular o custo real de uma garrafa de vinho (planilha quebrada incluída)"
+description: "A maioria dos pequenos produtores acha que sua garrafa custa R$ 20-25. O número real costuma estar entre R$ 36 e R$ 45. A diferença é planilha quebrada — e ela transforma margem imaginária de 50% em margem real de 12%. Vamos abrir a conta."
+date: "2026-06-09"
+author: "Lussandro"
+authorBio: "Desenvolvedor de software com 30 anos de carreira e estudante de Viticultura e Enologia. Constrói a Bacco Sistemas, um ERP especializado em vinícolas brasileiras — fiscal vitivinícola, SIVIBE, gestão de fornecedores de uva, vinificação, custeio por lote e rastreabilidade ponta a ponta."
+cover: "/blog/custo-real-garrafa-vinho/cover.png"
+coverAlt: "Planilha de custos de safra ao lado de taça de vinho tinto, garrafa, máquina de calcular antiga e caderno de notas de produção"
+coverFit: "contain"
+tags: ["custeio", "formacao-de-preco", "custo-producao", "gestao", "viticultura"]
+readingTime: 8
+---
+
+Pergunta direta: quanto custa pra você produzir uma garrafa do seu vinho?
+
+A resposta mais comum que ouço de pequenos e médios produtores brasileiros é alguma variação de "uns 20, 25 reais". Quando peço pra abrir a conta, em 9 de cada 10 casos descobrimos juntos que o número real está entre R$ 36 e R$ 45. Às vezes mais.
+
+Não é incompetência. É **planilha quebrada** — uma planilha que esquece partes inteiras do custo porque elas não aparecem na nota fiscal de compra. E vinícola pequena que vive com planilha quebrada vende vinho pensando que tem margem de 50% quando a margem real é de 12%. Quando essa diferença finalmente aparece, geralmente aparece tarde demais.
+
+Vamos abrir a conta.
+
+> *Os números abaixo são médias de mercado 2026 para uma vinícola comercial de pequeno-médio porte produzindo vinho tinto seco engarrafado em garrafa bordalesa nova com rolha de cortiça natural simples. Sua operação pode variar substancialmente — o objetivo aqui é mostrar a metodologia, não vender o número específico.*
+
+## A planilha simples (que quase todo mundo faz)
+
+Vinícola fictícia mas plausível. Produção de 5.000 garrafas/ano de um vinho tinto seco médio:
+
+| Item | Custo por garrafa (R$) |
+|---|---|
+| Uva (própria ou comprada) | 4,50 |
+| Insumos enológicos (leveduras, SO2, enzimas, clarificantes) | 1,20 |
+| Garrafa 750ml bordalesa nova | 5,00 |
+| Rolha cortiça natural simples | 4,50 |
+| Rótulo + contra-rótulo (impressão adesiva simples) | 1,50 |
+| Cápsula PVC ou estanho simples | 0,80 |
+| Caixa de papelão (1/12) | 1,20 |
+| **Subtotal direto** | **R$ 18,70** |
+
+Bonito. Vinícola vende a R$ 50 pro distribuidor, acha que tem 62% de margem, dorme tranquila.
+
+Agora vamos consertar a planilha.
+
+## A planilha real (que quase ninguém faz)
+
+### 1. Custos indiretos de produção
+
+| Item | Custo por garrafa (R$) |
+|---|---|
+| Energia elétrica (refrigeração + processamento) | 1,10 |
+| Mão de obra direta (vinhateiro, operacional) | 3,20 |
+| Depreciação de equipamento (tanques, prensa, engarrafadora) | 1,80 |
+| Água, gás, produtos de limpeza | 0,40 |
+| Manutenção de equipamento | 0,40 |
+| **Subtotal indireto** | **R$ 6,90** |
+
+Energia esquecida porque "ela já estava na conta da casa". Mão de obra esquecida porque "sou eu mesmo que trabalho". Depreciação esquecida porque "comprei o tanque há cinco anos, já paguei". Esses três sozinhos somam R$ 6,10 que ninguém estava contabilizando.
+
+### 2. Perdas e refugo
+
+| Item | Custo por garrafa (R$) |
+|---|---|
+| Perda de mosto/vinho na vinificação (~8%) | 1,10 |
+| Quebra de garrafa engarrafamento + logística (~2%) | 0,25 |
+| Refugo de fermentação ou lote contaminado | 0,50 |
+| **Subtotal perdas** | **R$ 1,85** |
+
+Vinho não é parafuso. Você compra mil garrafas e engarrafa 980. Você vinifica 1.000 litros de mosto e engarrafa 920. Quem não contabiliza perda está mentindo pra si mesmo.
+
+### 3. Fiscal e regulatório (modelo atual, antes da Reforma)
+
+| Item | Custo por garrafa (R$) |
+|---|---|
+| ICMS efetivo (líquido de crédito) | 2,80 |
+| IPI | 1,00 |
+| PIS/COFINS efetivo (Lucro Presumido) | 1,80 |
+| Compliance regulatório (SIVIBE, MAPA, alvarás) | 0,30 |
+| **Subtotal fiscal** | **R$ 5,90** |
+
+Esse bloco varia muito por estado, regime tributário e porte. Mas raramente fica abaixo de R$ 4 por garrafa em vinícola formal. E em 2027, com o Imposto Seletivo entrando, esse bloco sobe — vinho de 12 a 14% de álcool deve absorver mais R$ 1,50 a R$ 2,50 por garrafa.
+
+### 4. Comerciais
+
+| Item | Custo por garrafa (R$) |
+|---|---|
+| Frete pra distribuidor/cliente | 1,40 |
+| Comissão de vendas/representante (5-8% sobre venda) | 3,00 |
+| Marketing, degustação, feira, brinde | 0,90 |
+| Devolução estimada (~3%) | 1,00 |
+| **Subtotal comercial** | **R$ 6,30** |
+
+Custo de feira, taça de degustação aberta no evento, garrafa enviada pro influencer — tudo isso é custo de venda. Não é "investimento de marketing" que some no demonstrativo.
+
+### 5. Financeiros (o esquecido dos esquecidos)
+
+| Item | Custo por garrafa (R$) |
+|---|---|
+| Custo de estoque parado (vinho aguardando engarrafamento ou venda) | 1,10 |
+| Prazo médio de recebimento (capital de giro) | 0,80 |
+| **Subtotal financeiro** | **R$ 1,90** |
+
+Você compra a uva em fevereiro ou março, engarrafa em outubro do ano seguinte, vende em janeiro do segundo ano, recebe em 60 dias. Esse capital empenhado custa dinheiro — seja juros bancários, seja custo de oportunidade do seu próprio capital.
+
+## A conta fechada
+
+| Bloco | Custo (R$) |
+|---|---|
+| Diretos | 18,70 |
+| Indiretos de produção | 6,90 |
+| Perdas | 1,85 |
+| Fiscal | 5,90 |
+| Comerciais | 6,30 |
+| Financeiros | 1,90 |
+| **CUSTO REAL** | **R$ 41,55** |
+
+Lembra dos "uns 20, 25 reais" do início? Pois é.
+
+A vinícola que vendia a R$ 50 e achava que tinha 62% de margem na verdade tem **17% de margem bruta**. Que vira algo entre 4% e 9% de margem líquida depois de impostos sobre o lucro, retiradas do sócio, custos administrativos não alocados.
+
+Margem de 62% paga viagem internacional. Margem de 6% paga conta de luz no mês seguinte.
+
+E observe: nessa planilha eu **não incluí** envelhecimento em barrica de carvalho (que adiciona facilmente R$ 12 a R$ 25 por garrafa em vinhos de guarda), nem rótulo premium com hot stamping ou alto-relevo (que sobe o item de rótulo de R$ 1,50 pra R$ 8-15), nem rolha de cortiça natural de primeira categoria (R$ 7-12 por unidade). Vinho premium tem outra planilha — geralmente custando o dobro disso.
+
+## Os 5 erros que matam a precisão do cálculo
+
+**1. Não alocar mão de obra do próprio dono.** Se você sai da vinícola amanhã, alguém precisa fazer o que você faz — e cobrar pra fazer. Esse custo existe, esteja ou não no contracheque.
+
+**2. Tratar depreciação como "já pago".** Equipamento se desgasta. Em 8-10 anos você vai trocar. Não reservar dinheiro mensal pra isso é viver de empréstimo invisível com o futuro.
+
+**3. Ignorar perda de produção.** Vinificou 1.000 litros, engarrafou 920. Os 80 litros desaparecidos têm custo — o mesmo da uva, energia, mão de obra dos 1.000.
+
+**4. Esquecer comissão e devolução.** Vinho não vende sozinho. Quem vende cobra. Quem compra às vezes devolve. Os dois custos são reais e recorrentes.
+
+**5. Não contar o tempo entre safra e recebimento.** Capital parado é capital trabalhando contra você. Mesmo que seja seu próprio dinheiro.
+
+## Como construímos isso no Bacco ERP
+
+A formação de preço no Bacco ERP foi desenhada justamente pra resolver o problema da planilha quebrada:
+
+- **Custeio por lote de vinho.** Cada batch de vinificação carrega uva, insumos, energia (rateada por capacidade), mão de obra (rateada por hora), depreciação (rateada por uso). Você sabe o custo daquele lote específico, não a média genérica.
+- **Perdas registradas em cada etapa.** Quebra no engarrafamento, evaporação, refugo de fermentação — tudo apropriado ao lote correspondente.
+- **Custo fiscal automatizado por SKU e por destino.** ICMS interestadual varia. PIS/COFINS varia por regime. Bacco calcula o efetivo, não o teórico.
+- **Custo de capital embutido.** Tempo médio entre vinificação e venda calculado por SKU, traduzido em custo financeiro real.
+- **Simulador de cenário 2027 (Reforma Tributária).** Você vê hoje quanto vai pagar quando o Imposto Seletivo entrar, em cada vinho do seu portfólio.
+
+A diferença prática? Você precifica com base no que **realmente** custa, não no que parece custar. E isso muda decisão estratégica — desde qual vinho vale a pena escalar, até quando faz sentido subir preço, até quando vale a pena descontinuar uma linha.
+
+## A pergunta de fechamento
+
+Abra sua planilha agora. Some o que você considera "custo por garrafa".
+
+Agora pergunte: esse número inclui mão de obra do dono? Inclui depreciação? Inclui perda? Inclui custo de capital? Inclui devolução estimada? Inclui impacto fiscal real do seu estado?
+
+Se a resposta for **sim pra todos**, parabéns — sua planilha não está quebrada e você é exceção rara no setor.
+
+Se a resposta for **não pra algum**, você sabe quanto seu vinho custa **menos** do que pensa. E está vendendo com margem menor do que pensa. Sem saber.
+
+A boa notícia: a planilha pode ser consertada. A má notícia: ela não conserta sozinha.
+
+Se você é dono ou gestor de vinícola e quer revisar como faz seu custeio, me chama no DM. Conversa de planejamento é gratuita — e essa, especificamente, costuma ser a mais transformadora.
+
+---
+
+*Sou desenvolvedor de software com 30 anos de carreira e estudante de Viticultura e Enologia. Construo a Bacco Sistemas, um ERP especializado em vinícolas brasileiras — fiscal vitivinícola, SIVIBE, gestão de fornecedores de uva, vinificação, custeio por lote e rastreabilidade. Escrevo aqui no cruzamento entre tecnologia e viticultura — se faz sentido pra você, me siga.*
