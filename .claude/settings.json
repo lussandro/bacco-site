@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash /home/lussandro/Bacco-Site/.claude/hooks/startup-issues.sh"
+          }
+        ]
+      }
+    ]
+  }
+}
