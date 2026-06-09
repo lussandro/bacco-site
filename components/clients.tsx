@@ -34,8 +34,9 @@ const clients = [
   },
   {
     key: "estanciaChrysiana",
-    logo: null,
+    logo: "/clients/estancia-chrysiana.png",
     instagram: "https://instagram.com/estanciachrysianavinicola",
+    logoClass: "w-44 h-44 rounded-lg overflow-hidden",
     comingSoon: true,
   },
 ]
