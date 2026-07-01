@@ -850,6 +850,11 @@
         "description": "Cantina con enoturismo a Secretário, Petrópolis, che unisce produzione artigianale di vini ed esperienze immersive nella Serra di Rio de Janeiro.",
         "location": "Secretário, Petrópolis, RJ - Brasile"
       },
+      "vinicolaRomera": {
+        "name": "Vinícola Romera",
+        "description": "Cantina a Colônia Roça Nova, zona rurale di Araucária, nell'area metropolitana di Curitiba, in Paraná.",
+        "location": "Araucária, PR - Brasile"
+      },
       "valeDoGongo": {
         "name": "Vinícola Vale do Gongo",
         "description": "L'unica cantina del nord del Minas Gerais, a Grão Mogol. Pioniera nella regione e premiata con il Grand Gold al Concorso Nazionale dei Vini.",

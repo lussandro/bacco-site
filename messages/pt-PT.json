@@ -342,6 +342,11 @@
         "description": "Adega com enoturismo em Secretário, Petrópolis, unindo produção artesanal de vinhos e experiências imersivas na Serra do Rio de Janeiro.",
         "location": "Secretário, Petrópolis, RJ - Brasil"
       },
+      "vinicolaRomera": {
+        "name": "Vinícola Romera",
+        "description": "Vinícola na Colônia Roça Nova, zona rural de Araucária, na região metropolitana de Curitiba, no Paraná.",
+        "location": "Araucária, PR - Brasil"
+      },
       "valeDoGongo": {
         "name": "Vinícola Vale do Gongo",
         "description": "A única vinícola do norte de Minas Gerais, em Grão Mogol. Pioneira na região e premiada com Grand Gold no Concurso Nacional de Vinhos.",

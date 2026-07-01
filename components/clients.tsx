@@ -20,10 +20,15 @@ const clients = [
     logoClass: "w-64 h-48",
   },
   {
+    key: "vinicolaRomera",
+    logo: "/clients/vinicola-romera.jpeg",
+    instagram: "https://instagram.com/vinicolaromera",
+    logoClass: "w-44 h-44 rounded-lg overflow-hidden",
+  },
+  {
     key: "valeDoGongo",
     logo: null,
     instagram: "https://instagram.com/valedogongo",
-    comingSoon: true,
   },
   {
     key: "bodegaDonValentinCenci",

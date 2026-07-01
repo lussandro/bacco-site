@@ -850,6 +850,11 @@
         "description": "Bodega con enoturismo en Secretário, Petrópolis, combinando producción artesanal de vinos y experiencias inmersivas en la Sierra de Río de Janeiro.",
         "location": "Secretário, Petrópolis, RJ - Brasil"
       },
+      "vinicolaRomera": {
+        "name": "Vinícola Romera",
+        "description": "Bodega en Colônia Roça Nova, zona rural de Araucária, en el área metropolitana de Curitiba, Paraná.",
+        "location": "Araucária, PR - Brasil"
+      },
       "valeDoGongo": {
         "name": "Vinícola Vale do Gongo",
         "description": "La única bodega del norte de Minas Gerais, en Grão Mogol. Pionera en la región y premiada con Grand Gold en el Concurso Nacional de Vinos.",
