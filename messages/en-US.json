@@ -1625,6 +1625,10 @@
           "title": "ENVIN",
           "description": "Complete module for ENVIN declarations with export in government-required formats, ensuring full regulatory compliance."
         },
+        "sisdevin": {
+          "title": "SISDEVIN",
+          "description": "IBRAVIN Wine Declaratory System. Generate the harvest, production, sales, and stock declarations required from Rio Grande do Sul wineries, exported in the official formats."
+        },
         "mapa": {
           "title": "MAPA",
           "description": "Integration with Ministry of Agriculture, Livestock and Food Supply records. Control of establishments, products, and labeling."

@@ -378,6 +378,10 @@
           "description": "Modulo completo para declaracoes ENVIN com exportacao nos formatos exigidos pelo governo, garantindo conformidade regulatoria total.",
           "title": "ENVIN"
         },
+        "sisdevin": {
+          "description": "Sistema Declarativo do Vinho do IBRAVIN. Gere as declaracoes de vindima, producao, comercializacao e stock exigidas as vinicolas do Rio Grande do Sul, exportadas nos formatos oficiais.",
+          "title": "SISDEVIN"
+        },
         "mapa": {
           "description": "Integracao com registros do Ministerio da Agricultura, Pecuaria e Abastecimento. Controlo de estabelecimentos, produtos e rotulagem.",
           "title": "MAPA"

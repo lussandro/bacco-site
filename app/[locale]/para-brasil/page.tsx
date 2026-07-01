@@ -13,6 +13,7 @@ export default function ParaBrasil() {
   const complianceItems = [
     { key: "sivibe", icon: Database },
     { key: "envin", icon: FileCheck },
+    { key: "sisdevin", icon: Shield },
     { key: "mapa", icon: Building2 },
     { key: "nfe", icon: FileCheck },
   ]
