@@ -35,7 +35,6 @@ const clients = [
     logo: "/clients/bodega-dom-valentin-cenci.png",
     instagram: "https://instagram.com/bodegadomvalentincenci",
     logoClass: "w-56 h-24",
-    comingSoon: true,
   },
   {
     key: "estanciaChrysiana",
