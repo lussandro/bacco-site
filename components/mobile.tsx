@@ -93,7 +93,8 @@ export function Mobile() {
               </h2>
 
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed text-pretty">
-                <span dangerouslySetInnerHTML={{ __html: t("description") }} />
+                {/* t.raw: a copy traz <strong> literal, que o ICU do next-intl recusa em t() */}
+                <span dangerouslySetInnerHTML={{ __html: t.raw("description") }} />
               </p>
 
               <div className="grid sm:grid-cols-2 gap-4 mb-8">
