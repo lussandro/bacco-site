@@ -4,7 +4,7 @@ RUN apk add --no-cache libc6-compat
 WORKDIR /app
 
 # Instalar pnpm
-RUN corepack enable && corepack prepare pnpm@latest --activate
+RUN corepack enable && corepack prepare pnpm@10.11.0 --activate
 
 # Copiar arquivos de dependências
 COPY package.json pnpm-lock.yaml* ./
@@ -17,7 +17,7 @@ FROM node:20-alpine AS builder
 WORKDIR /app
 
 # Instalar pnpm
-RUN corepack enable && corepack prepare pnpm@latest --activate
+RUN corepack enable && corepack prepare pnpm@10.11.0 --activate
 
 # Copiar dependências do stage anterior
 COPY --from=deps /app/node_modules ./node_modules
@@ -35,9 +35,6 @@ WORKDIR /app
 
 ENV NODE_ENV production
 ENV NEXT_TELEMETRY_DISABLED 1
-
-# pnpm
-RUN corepack enable && corepack prepare pnpm@latest --activate
 
 RUN addgroup --system --gid 1001 nodejs
 RUN adduser --system --uid 1001 nextjs
@@ -62,5 +59,6 @@ EXPOSE 3000
 ENV PORT 3000
 ENV HOSTNAME "0.0.0.0"
 
-CMD ["pnpm", "start"]
+# invoca o next direto: corepack ativado como root não é legível pelo usuário nextjs
+CMD ["node_modules/.bin/next", "start"]
 
