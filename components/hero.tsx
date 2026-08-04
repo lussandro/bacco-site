@@ -1,116 +1,149 @@
 "use client"
 
+import type { CSSProperties } from "react"
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Play, Wine } from "lucide-react"
+import { ArrowRight, Play } from "lucide-react"
 import Image from "next/image"
 import { useTranslations } from 'next-intl';
 import { trackEvent } from '@/lib/analytics';
 
+// ponytail: código de lote é ilustrativo e não traduzível — constante basta.
+const LOT_CODE = "BR-2026-MER-0417"
+const STAGES = ["s1", "s2", "s3", "s4", "s5"] as const
+
 export function Hero() {
   const t = useTranslations('hero');
-  const tCommon = useTranslations('common');
 
   return (
     <section className="relative pt-32 pb-20 lg:pt-40 lg:pb-32 overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-background to-primary/10" />
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,color-mix(in oklch, var(--primary) 10%, transparent),transparent_50%)]" />
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,color-mix(in oklch, var(--primary) 8%, transparent),transparent_50%)]" />
+      <div className="absolute inset-0 bg-gradient-to-b from-primary/[0.03] to-transparent" />
 
       <div className="container mx-auto px-4 lg:px-8 relative">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
-          <div className="space-y-8 animate-in fade-in slide-in-from-left duration-700">
-            <div className="flex flex-wrap items-center gap-3">
-              <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium">
-                {t('badge')}
-              </span>
-              <span className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-gradient-to-r from-primary/20 to-primary/10 text-primary text-xs font-semibold border border-primary/30 shadow-sm">
-                {t('badgeMultilingual')}
-              </span>
-            </div>
+        <div className="grid lg:grid-cols-[1fr_minmax(0,26rem)] gap-12 lg:gap-16 items-center">
+          <div className="space-y-8">
+            <p className="flex items-center gap-3 font-mono text-xs uppercase tracking-[0.2em] text-muted-foreground">
+              <span aria-hidden className="h-px w-8 bg-primary" />
+              {t('badge')}
+            </p>
 
             <div>
-              <h1 className="font-serif text-5xl lg:text-7xl font-bold leading-tight text-balance">
+              <h1 className="font-serif text-[2.6rem] sm:text-5xl lg:text-7xl font-bold leading-[1.05] tracking-tight text-balance">
                 {t('title')}
               </h1>
               {t('subtitle') && (
-                <p className="text-lg lg:text-xl text-primary/80 font-medium mt-3">
+                <p className="text-lg lg:text-xl text-muted-foreground mt-4 max-w-xl text-pretty">
                   {t('subtitle')}
                 </p>
               )}
             </div>
 
-            <p className="text-xl text-muted-foreground leading-relaxed text-pretty max-w-xl" dangerouslySetInnerHTML={{ __html: t('description') }} />
+            {/* t.raw: a copy traz <strong> literal, que o ICU do next-intl recusa em t() */}
+            <p
+              className="text-base lg:text-lg text-muted-foreground leading-relaxed text-pretty max-w-xl [&_strong]:font-semibold [&_strong]:text-foreground"
+              dangerouslySetInnerHTML={{ __html: t.raw('description') }}
+            />
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="text-base group shadow-lg hover:shadow-xl transition-all" asChild>
+              <Button size="lg" className="text-base group" asChild>
                 <a href="#contato" onClick={() => trackEvent('cta_click', { cta_name: 'hero_agendar_demo', cta_location: 'hero' })}>
                   {t('ctaDemo')}
                   <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                 </a>
               </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="text-base bg-background/50 backdrop-blur-sm hover:bg-background/80 border-2 transition-all"
-                asChild
-              >
+              <Button size="lg" variant="outline" className="text-base" asChild>
                 <a href="#sistema" onClick={() => trackEvent('cta_click', { cta_name: 'hero_ver_sistema', cta_location: 'hero' })}>
                   <Play className="mr-2 h-5 w-5" />
                   {t('ctaSystem')}
                 </a>
               </Button>
             </div>
-
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 pt-6">
-              <div className="space-y-1">
-                <div className="text-3xl font-bold text-primary">{t('stats.traceable')}</div>
-                <div className="text-sm text-muted-foreground">{t('stats.traceableLabel')}</div>
-              </div>
-              {t('stats.languages') && (
-                <div className="space-y-1">
-                  <div className="text-3xl font-bold text-primary">{t('stats.languages')}</div>
-                  <div className="text-sm text-muted-foreground">{t('stats.languagesLabel')}</div>
-                </div>
-              )}
-              <div className="space-y-1">
-                <div className="text-3xl font-bold text-primary">{t('stats.realtime')}</div>
-                <div className="text-sm text-muted-foreground">{t('stats.realtimeLabel')}</div>
-              </div>
-              <div className="space-y-1">
-                <div className="text-3xl font-bold text-primary">{t('stats.support')}</div>
-                <div className="text-sm text-muted-foreground">{t('stats.supportLabel')}</div>
-              </div>
-            </div>
           </div>
 
-          <div className="relative animate-in fade-in slide-in-from-right duration-700 delay-150">
-            <div className="relative">
-              <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl border-2 border-border/50 ring-1 ring-primary/10">
-                <Image
-                  src="/vineyard-sunset.png"
-                  alt={t('imageAlt')}
-                  width={800}
-                  height={600}
-                  priority
-                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-                />
-              </div>
-
-              <div className="absolute -bottom-6 -left-6 bg-card p-6 rounded-xl shadow-xl border max-w-xs backdrop-blur-sm bg-card/95 hover:shadow-2xl transition-shadow">
-                <div className="flex items-center gap-4">
-                  <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center">
-                    <Wine className="h-6 w-6 text-primary" />
-                  </div>
-                  <div>
-                    <div className="font-semibold text-foreground">{t('floatingCard.title')}</div>
-                    <div className="text-sm text-muted-foreground">{t('floatingCard.description')}</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <LotRecord />
         </div>
       </div>
     </section>
+  )
+}
+
+/** Ficha de vinificação: a cadeia do vinhedo à garrafa, que é o produto em si. */
+function LotRecord() {
+  const t = useTranslations('hero');
+
+  const footer = [
+    ['stats.traceable', 'stats.traceableLabel'],
+    ['stats.languages', 'stats.languagesLabel'],
+    ['stats.realtime', 'stats.realtimeLabel'],
+    ['stats.support', 'stats.supportLabel'],
+  ] as const
+
+  return (
+    <figure className="relative rounded-lg border border-border bg-card shadow-sm overflow-hidden">
+      <figcaption className="flex items-baseline justify-between gap-3 border-b border-border px-5 py-3 font-mono text-[0.65rem] sm:text-[0.7rem] uppercase tracking-[0.12em] sm:tracking-[0.18em]">
+        <span className="text-muted-foreground whitespace-nowrap">{t('record.label')}</span>
+        <span className="text-foreground whitespace-nowrap">
+          <span className="hidden sm:inline text-muted-foreground">{t('record.lotLabel')} </span>
+          {LOT_CODE}
+        </span>
+      </figcaption>
+
+      <div className="relative aspect-[16/5] border-b border-border">
+        <Image
+          src="/vineyard-sunset.png"
+          alt={t('imageAlt')}
+          width={800}
+          height={250}
+          priority
+          className="h-full w-full object-cover"
+        />
+      </div>
+
+      <ol className="record-paper relative px-5 py-2">
+        <span aria-hidden className="absolute left-[4.125rem] top-7 bottom-7 w-px bg-border" />
+        {STAGES.map((key, i) => {
+          const last = i === STAGES.length - 1
+          return (
+            <li
+              key={key}
+              style={{ '--i': i } as CSSProperties}
+              className="record-row relative grid grid-cols-[1.75rem_0.75rem_1fr_auto] items-baseline gap-x-3 py-3 border-b border-border/50 last:border-0"
+            >
+              <span className="font-mono text-[0.7rem] text-muted-foreground tabular-nums">
+                {String(i + 1).padStart(2, '0')}
+              </span>
+              <span
+                aria-hidden
+                className={`self-start mt-[0.4rem] justify-self-center h-2 w-2 rounded-full ring-4 ring-card ${last ? 'bg-primary' : 'bg-border'}`}
+              />
+              <span className="min-w-0">
+                <span className="block font-mono text-xs uppercase tracking-[0.14em] text-foreground truncate">
+                  {t(`record.${key}.name`)}
+                </span>
+                <span className="block text-xs text-muted-foreground truncate">
+                  {t(`record.${key}.detail`)}
+                </span>
+              </span>
+              <span className="text-right whitespace-nowrap">
+                <span className="font-mono text-base font-semibold text-foreground tabular-nums">
+                  {t(`record.${key}.value`)}
+                </span>
+                <span className="ml-1.5 font-mono text-[0.7rem] text-brix">
+                  {t(`record.${key}.unit`)}
+                </span>
+              </span>
+            </li>
+          )
+        })}
+      </ol>
+
+      <div className="grid grid-cols-2 sm:grid-cols-4 gap-px bg-border border-t border-border">
+        {footer.map(([value, label]) => (
+          <div key={label} className="bg-card px-3 py-3 text-center">
+            <div className="font-mono text-sm font-semibold text-foreground">{t(value)}</div>
+            <div className="mt-0.5 text-[0.7rem] text-muted-foreground">{t(label)}</div>
+          </div>
+        ))}
+      </div>
+    </figure>
   )
 }

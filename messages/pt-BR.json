@@ -63,6 +63,40 @@
       "global": "Pronto para o Mundo",
       "ai": "IA Integrada",
       "compliance": "Compliance Total"
+    },
+    "record": {
+      "label": "Ficha de Lote",
+      "lotLabel": "LOTE",
+      "s1": {
+        "name": "Vinhedo",
+        "detail": "Talhão A-7 · Merlot",
+        "value": "24,1",
+        "unit": "°Brix"
+      },
+      "s2": {
+        "name": "Colheita",
+        "detail": "16 fev · manual",
+        "value": "2.480",
+        "unit": "kg"
+      },
+      "s3": {
+        "name": "Vinificação",
+        "detail": "Tanque 04 · inox",
+        "value": "18,2",
+        "unit": "°C"
+      },
+      "s4": {
+        "name": "Estágio",
+        "detail": "Barrica 112 · carvalho",
+        "value": "8",
+        "unit": "meses"
+      },
+      "s5": {
+        "name": "Engarrafado",
+        "detail": "Linha 02 · 750 ml",
+        "value": "3.240",
+        "unit": "garrafas"
+      }
     }
   },
   "internationalization": {

@@ -63,6 +63,40 @@
       "global": "Ready for the World",
       "ai": "Integrated AI",
       "compliance": "Total Compliance"
+    },
+    "record": {
+      "label": "Lot Record",
+      "lotLabel": "LOT",
+      "s1": {
+        "name": "Vineyard",
+        "detail": "Block A-7 · Merlot",
+        "value": "24.1",
+        "unit": "°Brix"
+      },
+      "s2": {
+        "name": "Harvest",
+        "detail": "Feb 16 · hand-picked",
+        "value": "2,480",
+        "unit": "kg"
+      },
+      "s3": {
+        "name": "Fermentation",
+        "detail": "Tank 04 · stainless",
+        "value": "18.2",
+        "unit": "°C"
+      },
+      "s4": {
+        "name": "Ageing",
+        "detail": "Barrel 112 · oak",
+        "value": "8",
+        "unit": "months"
+      },
+      "s5": {
+        "name": "Bottled",
+        "detail": "Line 02 · 750 ml",
+        "value": "3,240",
+        "unit": "bottles"
+      }
     }
   },
   "internationalization": {

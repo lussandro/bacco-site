@@ -63,6 +63,40 @@
       "global": "Pronto per il Mondo",
       "ai": "IA Integrata",
       "compliance": "Compliance Totale"
+    },
+    "record": {
+      "label": "Scheda di Lotto",
+      "lotLabel": "LOTTO",
+      "s1": {
+        "name": "Vigneto",
+        "detail": "Particella A-7 · Merlot",
+        "value": "24,1",
+        "unit": "°Brix"
+      },
+      "s2": {
+        "name": "Vendemmia",
+        "detail": "16 feb · manuale",
+        "value": "2.480",
+        "unit": "kg"
+      },
+      "s3": {
+        "name": "Vinificazione",
+        "detail": "Serbatoio 04 · acciaio",
+        "value": "18,2",
+        "unit": "°C"
+      },
+      "s4": {
+        "name": "Affinamento",
+        "detail": "Barrique 112 · rovere",
+        "value": "8",
+        "unit": "mesi"
+      },
+      "s5": {
+        "name": "Imbottigliato",
+        "detail": "Linea 02 · 750 ml",
+        "value": "3.240",
+        "unit": "bottiglie"
+      }
     }
   },
   "internationalization": {

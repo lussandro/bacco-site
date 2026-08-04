@@ -63,6 +63,40 @@
       "global": "Listo para el Mundo",
       "ai": "IA Integrada",
       "compliance": "Compliance Total"
+    },
+    "record": {
+      "label": "Ficha de Lote",
+      "lotLabel": "LOTE",
+      "s1": {
+        "name": "Viñedo",
+        "detail": "Cuartel A-7 · Merlot",
+        "value": "24,1",
+        "unit": "°Brix"
+      },
+      "s2": {
+        "name": "Cosecha",
+        "detail": "16 feb · manual",
+        "value": "2.480",
+        "unit": "kg"
+      },
+      "s3": {
+        "name": "Vinificación",
+        "detail": "Tanque 04 · acero",
+        "value": "18,2",
+        "unit": "°C"
+      },
+      "s4": {
+        "name": "Crianza",
+        "detail": "Barrica 112 · roble",
+        "value": "8",
+        "unit": "meses"
+      },
+      "s5": {
+        "name": "Embotellado",
+        "detail": "Línea 02 · 750 ml",
+        "value": "3.240",
+        "unit": "botellas"
+      }
     }
   },
   "internationalization": {

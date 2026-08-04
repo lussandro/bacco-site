@@ -5,7 +5,7 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
-import { Playfair_Display, Inter } from "next/font/google"
+import { Playfair_Display, Inter, IBM_Plex_Mono } from "next/font/google"
 import { StructuredData } from "@/components/structured-data"
 import "../globals.css"
 
@@ -18,6 +18,13 @@ const playfair = Playfair_Display({
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-sans",
+  display: "swap",
+})
+
+const plexMono = IBM_Plex_Mono({
+  subsets: ["latin"],
+  weight: ["400", "500", "600"],
+  variable: "--font-mono",
   display: "swap",
 })
 
@@ -151,7 +158,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} className="scroll-smooth">
-      <body className={`${inter.variable} ${playfair.variable} font-sans antialiased`}>
+      <body className={`${inter.variable} ${playfair.variable} ${plexMono.variable} font-sans antialiased`}>
         <NextIntlClientProvider messages={messages}>
           {/* Google Analytics */}
           <Script

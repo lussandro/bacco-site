@@ -1721,6 +1721,40 @@
       "brazilian": "100% Brasileiro",
       "compliance": "Conformidade Total",
       "global": "Pronto para o mundo"
+    },
+    "record": {
+      "label": "Ficha de Lote",
+      "lotLabel": "LOTE",
+      "s1": {
+        "name": "Vinha",
+        "detail": "Parcela A-7 · Merlot",
+        "value": "24,1",
+        "unit": "°Brix"
+      },
+      "s2": {
+        "name": "Vindima",
+        "detail": "16 fev · manual",
+        "value": "2.480",
+        "unit": "kg"
+      },
+      "s3": {
+        "name": "Vinificação",
+        "detail": "Cuba 04 · inox",
+        "value": "18,2",
+        "unit": "°C"
+      },
+      "s4": {
+        "name": "Estágio",
+        "detail": "Barrica 112 · carvalho",
+        "value": "8",
+        "unit": "meses"
+      },
+      "s5": {
+        "name": "Engarrafado",
+        "detail": "Linha 02 · 750 ml",
+        "value": "3.240",
+        "unit": "garrafas"
+      }
     }
   },
   "internationalization": {

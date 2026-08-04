@@ -63,6 +63,40 @@
       "global": "Bereit für die Welt",
       "ai": "Integrierte KI",
       "compliance": "insgesamt Einhaltung"
+    },
+    "record": {
+      "label": "Chargenblatt",
+      "lotLabel": "CHARGE",
+      "s1": {
+        "name": "Weinberg",
+        "detail": "Parzelle A-7 · Merlot",
+        "value": "24,1",
+        "unit": "°Brix"
+      },
+      "s2": {
+        "name": "Lese",
+        "detail": "16. Feb · Handlese",
+        "value": "2.480",
+        "unit": "kg"
+      },
+      "s3": {
+        "name": "Gärung",
+        "detail": "Tank 04 · Edelstahl",
+        "value": "18,2",
+        "unit": "°C"
+      },
+      "s4": {
+        "name": "Ausbau",
+        "detail": "Barrique 112 · Eiche",
+        "value": "8",
+        "unit": "Monate"
+      },
+      "s5": {
+        "name": "Abgefüllt",
+        "detail": "Linie 02 · 750 ml",
+        "value": "3.240",
+        "unit": "Flaschen"
+      }
     }
   },
   "internationalization": {

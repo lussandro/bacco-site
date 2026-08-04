@@ -1721,6 +1721,40 @@
       "brazilian": "100% brésilien",
       "compliance": "Conformité totale",
       "global": "Prêt pour le monde"
+    },
+    "record": {
+      "label": "Fiche de Lot",
+      "lotLabel": "LOT",
+      "s1": {
+        "name": "Vignoble",
+        "detail": "Parcelle A-7 · Merlot",
+        "value": "24,1",
+        "unit": "°Brix"
+      },
+      "s2": {
+        "name": "Vendange",
+        "detail": "16 fév · manuelle",
+        "value": "2 480",
+        "unit": "kg"
+      },
+      "s3": {
+        "name": "Vinification",
+        "detail": "Cuve 04 · inox",
+        "value": "18,2",
+        "unit": "°C"
+      },
+      "s4": {
+        "name": "Élevage",
+        "detail": "Barrique 112 · chêne",
+        "value": "8",
+        "unit": "mois"
+      },
+      "s5": {
+        "name": "Embouteillé",
+        "detail": "Ligne 02 · 750 ml",
+        "value": "3 240",
+        "unit": "bouteilles"
+      }
     }
   },
   "internationalization": {
