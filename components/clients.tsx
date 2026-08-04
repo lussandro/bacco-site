@@ -43,6 +43,12 @@ const clients = [
     logoClass: "w-44 h-44 rounded-lg overflow-hidden",
     comingSoon: true,
   },
+  {
+    key: "casaDas7Evas",
+    logo: "/clients/casa-7-evas.png",
+    instagram: "https://instagram.com/casa7evas",
+    logoClass: "w-44 h-44 rounded-lg overflow-hidden",
+  },
 ]
 
 export function Clients() {

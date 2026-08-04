@@ -903,6 +903,11 @@
         "name": "Estância Chrysiana",
         "description": "Weingut für Winterlese-Weine in Três Corações, im Süden von Minas Gerais. Eigener Weinberg mit Syrah, Cabernet Franc, Marselan und Sauvignon Blanc; erste Lese 2025.",
         "location": "Três Corações, MG - Brasilien"
+      },
+      "casaDas7Evas": {
+        "name": "Vinícola Casa das 7 Evas",
+        "description": "Weingut im ländlichen São José de Mipibu, Rio Grande do Norte, das den tropischen Weinbau in den Nordosten Brasiliens bringt.",
+        "location": "São José de Mipibu, RN - Brasilien"
       }
     },
     "comingSoon": "Demnächst"

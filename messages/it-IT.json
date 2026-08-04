@@ -903,6 +903,11 @@
         "name": "Estância Chrysiana",
         "description": "Cantina di vini da vendemmia invernale a Três Corações, sud del Minas Gerais. Vigneto di proprietà con Syrah, Cabernet Franc, Marselan e Sauvignon Blanc; prima vendemmia nel 2025.",
         "location": "Três Corações, MG - Brasile"
+      },
+      "casaDas7Evas": {
+        "name": "Vinícola Casa das 7 Evas",
+        "description": "Cantina nella zona rurale di São José de Mipibu, nel Rio Grande do Norte, che porta la viticoltura tropicale nel Nordeste del Brasile.",
+        "location": "São José de Mipibu, RN - Brasile"
       }
     },
     "comingSoon": "Prossimamente"

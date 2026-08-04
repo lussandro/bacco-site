@@ -903,6 +903,11 @@
         "name": "Estância Chrysiana",
         "description": "Bodega de vinos de invierno en Três Corações, sur de Minas Gerais. Viñedo propio con Syrah, Cabernet Franc, Marselan y Sauvignon Blanc; primera cosecha en 2025.",
         "location": "Três Corações, MG - Brasil"
+      },
+      "casaDas7Evas": {
+        "name": "Vinícola Casa das 7 Evas",
+        "description": "Bodega en la zona rural de São José de Mipibu, en Rio Grande do Norte, llevando la viticultura tropical al Nordeste brasileño.",
+        "location": "São José de Mipibu, RN - Brasil"
       }
     },
     "comingSoon": "Próximamente"

@@ -903,6 +903,11 @@
         "name": "Estância Chrysiana",
         "description": "Vinícola de vinhos de inverno em Três Corações, no Sul de Minas. Vinhedo próprio com Syrah, Cabernet Franc, Marselan e Sauvignon Blanc; primeira safra em 2025.",
         "location": "Três Corações, MG - Brasil"
+      },
+      "casaDas7Evas": {
+        "name": "Vinícola Casa das 7 Evas",
+        "description": "Vinícola na zona rural de São José de Mipibu, no Rio Grande do Norte, levando a vitivinicultura tropical ao Nordeste brasileiro.",
+        "location": "São José de Mipibu, RN - Brasil"
       }
     },
     "comingSoon": "Em breve"

@@ -361,6 +361,11 @@
         "name": "Estância Chrysiana",
         "description": "Cave de vins de vendange d'hiver à Três Corações, sud du Minas Gerais. Vignoble en propre avec Syrah, Cabernet Franc, Marselan et Sauvignon Blanc ; première vendange en 2025.",
         "location": "Três Corações, MG - Brésil"
+      },
+      "casaDas7Evas": {
+        "name": "Vinícola Casa das 7 Evas",
+        "description": "Domaine viticole en zone rurale de São José de Mipibu, Rio Grande do Norte, qui apporte la viticulture tropicale au Nordeste brésilien.",
+        "location": "São José de Mipibu, RN - Brésil"
       }
     },
     "comingSoon": "Bientôt"

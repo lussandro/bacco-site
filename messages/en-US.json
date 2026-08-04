@@ -903,6 +903,11 @@
         "name": "Estância Chrysiana",
         "description": "A winter-harvest winery in Três Corações, southern Minas Gerais. Estate vineyard with Syrah, Cabernet Franc, Marselan and Sauvignon Blanc; first harvest in 2025.",
         "location": "Três Corações, MG - Brazil"
+      },
+      "casaDas7Evas": {
+        "name": "Vinícola Casa das 7 Evas",
+        "description": "Winery in rural São José de Mipibu, Rio Grande do Norte, bringing tropical viticulture to Brazil's Northeast.",
+        "location": "São José de Mipibu, RN - Brazil"
       }
     },
     "comingSoon": "Coming soon"
