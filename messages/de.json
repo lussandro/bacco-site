@@ -908,6 +908,16 @@
         "name": "Vinícola Casa das 7 Evas",
         "description": "Weingut im ländlichen São José de Mipibu, Rio Grande do Norte, das den tropischen Weinbau in den Nordosten Brasiliens bringt.",
         "location": "São José de Mipibu, RN - Brasilien"
+      },
+      "quintaDaNeve": {
+        "name": "Quinta da Neve",
+        "description": "Pionier des Höhenweinbaus in São Joaquim: 1999 pflanzte das Gut auf 1.200 Metern die ersten Vitis-vinifera-Reben der Serra Catarinense. 15 Hektar Rebfläche, Schaumweine nach traditioneller Methode und Verkostungen für Besucher.",
+        "location": "São Joaquim, SC - Brasilien"
+      },
+      "goyah": {
+        "name": "Goyah Vinhos e Vinhedos",
+        "description": "Höhenweingut in Rancho Queimado, auf 960 Metern und 40 km von der Küste Santa Catarinas entfernt. 2012 als Garagenkellerei begonnen, 2024 innerhalb der Herkunftsangabe Vinhos de Altitude formalisiert.",
+        "location": "Rancho Queimado, SC - Brasilien"
       }
     },
     "comingSoon": "Demnächst"

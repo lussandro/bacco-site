@@ -908,6 +908,16 @@
         "name": "Vinícola Casa das 7 Evas",
         "description": "Bodega en la zona rural de São José de Mipibu, en Rio Grande do Norte, llevando la viticultura tropical al Nordeste brasileño.",
         "location": "São José de Mipibu, RN - Brasil"
+      },
+      "quintaDaNeve": {
+        "name": "Quinta da Neve",
+        "description": "Pionera de los vinos de altura en São Joaquim: plantó las primeras vitis vinifera de la Serra Catarinense en 1999, a 1.200 metros. Quince hectáreas de viñedo, espumosos por método tradicional y visitas con degustación.",
+        "location": "São Joaquim, SC - Brasil"
+      },
+      "goyah": {
+        "name": "Goyah Vinhos e Vinhedos",
+        "description": "Bodega de altura en Rancho Queimado, a 960 metros y a 40 km del litoral catarinense. Nació como bodega de garaje en 2012 y se formalizó en 2024, dentro de la IP Vinhos de Altitude.",
+        "location": "Rancho Queimado, SC - Brasil"
       }
     },
     "comingSoon": "Próximamente"

@@ -3,7 +3,8 @@
 import { Card } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Check, X, Zap, Globe, Shield, Brain, Workflow, Smartphone, DollarSign } from "lucide-react"
-import { useTranslations } from "next-intl"
+import { useLocale, useTranslations } from "next-intl"
+import { ComparisonBR } from "@/components/comparison-br"
 
 const entries = [
   { key: "specialization", icon: Globe },
@@ -26,7 +27,12 @@ const entries = [
 ] as const
 
 export function Comparison() {
+  const locale = useLocale()
   const t = useTranslations("comparison")
+
+  // Comparativo nominal do mercado brasileiro só nos locales lusófonos.
+  // Os demais seguem com a comparação contra ERPs globais.
+  if (locale.startsWith("pt")) return <ComparisonBR />
 
   return (
     <section id="comparacao" className="py-20 lg:py-32 bg-background relative overflow-hidden">

@@ -908,6 +908,16 @@
         "name": "Vinícola Casa das 7 Evas",
         "description": "Winery in rural São José de Mipibu, Rio Grande do Norte, bringing tropical viticulture to Brazil's Northeast.",
         "location": "São José de Mipibu, RN - Brazil"
+      },
+      "quintaDaNeve": {
+        "name": "Quinta da Neve",
+        "description": "A pioneer of high-altitude wine in São Joaquim: it planted Serra Catarinense's first vitis vinifera vines in 1999, at 1,200 metres. Fifteen hectares of vineyard, traditional-method sparkling wines and tastings open to visitors.",
+        "location": "São Joaquim, SC - Brazil"
+      },
+      "goyah": {
+        "name": "Goyah Vinhos e Vinhedos",
+        "description": "High-altitude winery in Rancho Queimado, 960 metres up and 40 km from the Santa Catarina coast. It began as a garage cellar in 2012 and was formalised in 2024, within the Vinhos de Altitude protected origin.",
+        "location": "Rancho Queimado, SC - Brazil"
       }
     },
     "comingSoon": "Coming soon"

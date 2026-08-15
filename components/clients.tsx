@@ -49,6 +49,18 @@ const clients = [
     instagram: "https://instagram.com/casa7evas",
     logoClass: "w-44 h-44 rounded-lg overflow-hidden",
   },
+  {
+    key: "quintaDaNeve",
+    logo: null,
+    website: "https://quintadaneve.com.br",
+    instagram: "https://instagram.com/quintadaneve",
+  },
+  {
+    key: "goyah",
+    logo: null,
+    website: "https://goyahvinhos.com.br",
+    instagram: "https://instagram.com/goyahvinhos",
+  },
 ]
 
 export function Clients() {
@@ -130,6 +142,7 @@ export function Clients() {
                       <span>{t(`items.${client.key}.location`)}</span>
                     </div>
 
+                    <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
                     {client.website && (
                       <a
                         href={client.website}
@@ -158,6 +171,7 @@ export function Clients() {
                         </span>
                       </a>
                     )}
+                    </div>
                   </div>
                 </CardContent>
               </Card>

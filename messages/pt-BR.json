@@ -908,6 +908,16 @@
         "name": "Vinícola Casa das 7 Evas",
         "description": "Vinícola na zona rural de São José de Mipibu, no Rio Grande do Norte, levando a vitivinicultura tropical ao Nordeste brasileiro.",
         "location": "São José de Mipibu, RN - Brasil"
+      },
+      "quintaDaNeve": {
+        "name": "Quinta da Neve",
+        "description": "Pioneira dos vinhos de altitude em São Joaquim: plantou as primeiras vitis vinifera da Serra Catarinense em 1999, a 1.200 metros. São 15 hectares de vinhedo, espumantes pelo método tradicional e visitação com degustação.",
+        "location": "São Joaquim, SC - Brasil"
+      },
+      "goyah": {
+        "name": "Goyah Vinhos e Vinhedos",
+        "description": "Vinícola de altitude em Rancho Queimado, a 960 metros e a 40 km do litoral catarinense. Nasceu como cantina de garagem em 2012 e foi formalizada em 2024, dentro da IP Vinhos de Altitude.",
+        "location": "Rancho Queimado, SC - Brasil"
       }
     },
     "comingSoon": "Em breve"
@@ -2798,5 +2808,141 @@
       "backToList": "Voltar ao blog",
       "fallbackNotice": "Tradução em andamento — exibindo a versão original em português."
     }
+  },
+  "comparisonBr": {
+    "badge": "O comparativo",
+    "title": "Onde cada sistema para.",
+    "subtitle": "Não é questão de ter mais funcionalidades. É questão de onde a cobertura termina — e o que sobra para você resolver na planilha depois.",
+    "stages": {
+      "vineyard": "Vinhedo",
+      "harvest": "Safra",
+      "vinification": "Vinificação",
+      "traceability": "Rastreio",
+      "fiscal": "Fiscal BR",
+      "pos": "Balcão",
+      "enotourism": "Enoturismo"
+    },
+    "systems": {
+      "bacco": {
+        "name": "Bacco ERP",
+        "note": "Santa Catarina · vertical vitivinícola"
+      },
+      "gvino": {
+        "name": "Gvino",
+        "note": "Rio Grande do Sul · vertical"
+      },
+      "ema": {
+        "name": "Ema ERP",
+        "note": "Santa Catarina · ERP generalista"
+      },
+      "vinoerp": {
+        "name": "VinoERP",
+        "note": "São Paulo · ERP generalista"
+      },
+      "cepaos": {
+        "name": "Cepaos",
+        "note": "LLC norte-americana · vertical"
+      },
+      "generic": {
+        "name": "ERP genérico + planilha",
+        "note": "Omie, Bling, Conta Azul"
+      }
+    },
+    "legend": {
+      "full": "Cobertura completa e integrada",
+      "on": "Cobertura",
+      "part": "Cobertura parcial",
+      "off": "Não cobre"
+    },
+    "stageOrder": "Etapas, da esquerda para a direita: {stages}",
+    "coverageOf": "{name}: cobre {stages}",
+    "coverageNone": "{name}: não cobre nenhuma etapa do fluxo",
+    "stops": {
+      "badge": "Comparação honesta",
+      "title": "Cada um é bom em alguma coisa.",
+      "subtitle": "Não vamos fingir que os outros não servem para nada. Vamos ser precisos sobre onde eles servem — e onde eles deixam você na mão.",
+      "gapPrefix": "Onde para:",
+      "items": {
+        "gvino": {
+          "tag": "Vertical · RS",
+          "name": "Gvino",
+          "body": "Software vitivinícola sério, com cinco módulos que vão da previsão de safra ao engarrafamento, integração com SISDEVIN e relacionamento consolidado na Serra Gaúcha. Se sua vinícola é de Bento Gonçalves e você só produz e vende no atacado, é uma escolha legítima.",
+          "gap": "no balcão. Não cobre PDV, loja na vinícola, reservas de enoturismo nem venda direta ao consumidor."
+        },
+        "ema": {
+          "tag": "Generalista · SC",
+          "name": "Ema ERP",
+          "body": "ERP de gestão competente, com PDV maduro e boa leitura de margem por canal de distribuição. Funciona bem para quem precisa organizar venda e financeiro em vários pontos.",
+          "gap": "na enologia. É um ERP de indústria adaptado, não um sistema que entende corte, blend, trasfega, análise por lote e PIQ do MAPA."
+        },
+        "vinoerp": {
+          "tag": "Generalista · SP",
+          "name": "VinoERP",
+          "body": "Emite nota fiscal com competência, tem SPED com Bloco K e um bom ecossistema de integrações com marketplaces e e-commerce. Serve para loja de vinho, importadora e distribuidora.",
+          "gap": "na uva. O módulo de produção não está disponível em nenhum dos planos publicados — nem no mais caro. Sua vinificação continua na planilha."
+        },
+        "cepaos": {
+          "tag": "Vertical · EUA",
+          "name": "Cepaos",
+          "body": "Produto de cantina moderno, com captura por celular e cobertura regulatória para vários países. Para quem produz e não precisa faturar no Brasil, é um bom caderno digital de adega.",
+          "gap": "no fisco. É uma LLC norte-americana que fatura do exterior e cujo cadastro trabalha com CUIT e NIF — não há campo de CNPJ. Sua NF-e sai de outro sistema."
+        }
+      }
+    },
+    "pillars": {
+      "badge": "O que só o Bacco entrega",
+      "title": "Quatro coisas que ninguém mais junta.",
+      "items": {
+        "fiscal": {
+          "title": "Fiscal nos três regimes, de verdade",
+          "description": "Simples Nacional, Lucro Presumido e Lucro Real. NF-e, NFC-e e NFS-e emitidas de dentro do sistema, com ICMS-ST, IPI e a apuração que seu contador espera receber. Não é integração com terceiro: é o núcleo."
+        },
+        "enotourism": {
+          "title": "Enoturismo que vende sozinho",
+          "description": "Mini-site de reservas e robô de atendimento no WhatsApp que agenda, confirma, cobra e emite a nota de serviço sem ninguém digitar. O turista reserva no sábado à noite, quando não tem gente no escritório."
+        },
+        "iot": {
+          "title": "Sensores no parreiral e na cantina",
+          "description": "Hardware próprio, com patente depositada no INPI, medindo solo, clima, densidade em fermentação e nível de tanque. O dado entra direto no lote — não numa planilha paralela."
+        },
+        "compliance": {
+          "title": "Conformidade inclusa, sempre",
+          "description": "SIVIBE, MAPA e SISDEVIN em todos os planos, sem módulo extra. Atualização de legislação sem custo — inclusive durante toda a transição da reforma tributária, até 2033."
+        }
+      }
+    },
+    "table": {
+      "badge": "Ponto a ponto",
+      "title": "O comparativo completo.",
+      "feature": "Recurso",
+      "values": {
+        "yes": "Sim",
+        "no": "Não",
+        "part": "Parcial",
+        "addon": "Add-on",
+        "included": "Incluso"
+      },
+      "rows": {
+        "vineyard": "Gestão de vinhedo, talhões e manejo",
+        "harvestIntake": "Entrada de uva e pesagem de safra",
+        "vinification": "Vinificação, cortes e blends",
+        "lotTraceability": "Rastreabilidade lote a lote",
+        "nfe": "NF-e e NFC-e emitidas no sistema",
+        "nfse": "NFS-e para enoturismo",
+        "taxRegimes": "Os três regimes tributários",
+        "pos": "PDV e loja na vinícola",
+        "booking": "Reservas de enoturismo e mini-site",
+        "whatsapp": "Atendimento automático no WhatsApp",
+        "wineClub": "Wine club e venda direta",
+        "sivibe": "SIVIBE e declarações MAPA",
+        "sisdevin": "SISDEVIN",
+        "iot": "Sensores IoT integrados ao lote",
+        "accounting": "Contábil, contas a pagar e receber",
+        "unlimitedUsers": "Usuários operacionais ilimitados",
+        "brazilianEntity": "Empresa brasileira, com CNPJ",
+        "onsiteOnboarding": "Implantação presencial na vinícola"
+      }
+    },
+    "footnote": "Comparativo elaborado em agosto de 2026 a partir de material publicado pelos próprios fornecedores — sites de produto, tabelas de planos e documentos legais. As marcas citadas pertencem aos seus respectivos titulares. Encontrou alguma informação desatualizada? Escreva para comercial@bacco-erp.com e corrigimos em até 5 dias úteis."
   }
 }
