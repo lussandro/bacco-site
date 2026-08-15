@@ -28,6 +28,8 @@ const clients = [
   {
     key: "valeDoGongo",
     logo: "/clients/vale-do-gongo.png",
+    // o apex sem www serve certificado autoassinado — o navegador barra
+    website: "https://www.valedogongo.com.br",
     instagram: "https://instagram.com/valedogongo",
     logoClass: "w-44 h-44",
   },
