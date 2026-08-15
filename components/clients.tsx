@@ -51,15 +51,19 @@ const clients = [
   },
   {
     key: "quintaDaNeve",
-    logo: null,
+    logo: "/clients/quinta-da-neve.png",
     website: "https://quintadaneve.com.br",
     instagram: "https://instagram.com/quintadaneve",
+    logoClass: "w-56 h-24",
+    // a marca só existe em branco — o site da vinícola é escuro inteiro
+    logoBg: "bg-primary",
   },
   {
     key: "goyah",
-    logo: null,
+    logo: "/clients/goyah.png",
     website: "https://goyahvinhos.com.br",
     instagram: "https://instagram.com/goyahvinhos",
+    logoClass: "w-36 h-48",
   },
 ]
 
@@ -101,7 +105,7 @@ export function Clients() {
               >
                 <CardContent className="p-0">
                   {/* Logo area */}
-                  <div className="relative bg-gradient-to-br from-muted/50 to-muted/30 p-8 flex items-center justify-center min-h-[220px] border-b border-primary/10">
+                  <div className={`relative ${client.logoBg ?? "bg-gradient-to-br from-muted/50 to-muted/30"} p-8 flex items-center justify-center min-h-[220px] border-b border-primary/10`}>
                     <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,var(--primary)_0.5px,transparent_0.5px)] bg-[length:24px_24px] opacity-[0.03]" />
                     {client.comingSoon && (
                       <Badge className="absolute top-3 right-3 z-10 bg-primary/90 text-primary-foreground border-0 shadow-md">
