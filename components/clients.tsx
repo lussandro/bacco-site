@@ -27,8 +27,9 @@ const clients = [
   },
   {
     key: "valeDoGongo",
-    logo: null,
+    logo: "/clients/vale-do-gongo.png",
     instagram: "https://instagram.com/valedogongo",
+    logoClass: "w-44 h-44",
   },
   {
     key: "bodegaDonValentinCenci",
