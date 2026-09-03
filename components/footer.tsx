@@ -67,6 +67,14 @@ export function Footer() {
                 </I18nLink>
               </li>
               <li>
+                <a
+                  href="https://www.baccosistemas.com.br/"
+                  className="hover:text-primary transition-colors"
+                >
+                  {t('company.sistemas')}
+                </a>
+              </li>
+              <li>
                 <I18nLink href="/termos-de-uso" className="hover:text-primary transition-colors">
                   {t('company.terms')}
                 </I18nLink>
