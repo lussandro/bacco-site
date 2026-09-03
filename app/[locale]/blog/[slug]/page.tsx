@@ -30,6 +30,11 @@ export async function generateMetadata({
   if (!post) return {}
   const baseUrl = 'https://bacco-erp.com'
   const url = `${baseUrl}/${locale}/blog/${slug}`
+  // Sem traducao propria a pagina serve o texto pt-BR: canonical aponta para o
+  // original e hreflang lista so as locales que realmente tem .mdx.
+  const available = await getAvailableLocales(slug, routing.locales)
+  const translated = available.includes(locale)
+  const canonicalUrl = translated ? url : `${baseUrl}/${CANONICAL_LOCALE}/blog/${slug}`
   return {
     title: post.title,
     description: post.description,
@@ -50,10 +55,11 @@ export async function generateMetadata({
       images: [post.cover],
     },
     alternates: {
-      canonical: url,
-      languages: Object.fromEntries(
-        routing.locales.map((l) => [l, `${baseUrl}/${l}/blog/${slug}`])
-      ),
+      canonical: canonicalUrl,
+      languages: {
+        ...Object.fromEntries(available.map((l) => [l, `${baseUrl}/${l}/blog/${slug}`])),
+        'x-default': `${baseUrl}/${CANONICAL_LOCALE}/blog/${slug}`,
+      },
     },
   }
 }

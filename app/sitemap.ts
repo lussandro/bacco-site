@@ -1,128 +1,55 @@
 import { MetadataRoute } from 'next'
-import { listPosts } from '@/lib/blog'
+import { listPosts, getAvailableLocales } from '@/lib/blog'
+import { routing } from '@/i18n/routing'
+import { BASE_URL, urlFor, pathFor } from '@/lib/seo'
 
-const baseUrl = 'https://bacco-erp.com'
-const locales = ['pt-BR', 'pt-PT', 'en-US', 'es', 'it-IT', 'fr', 'de'] as const
+const locales = routing.locales
 
-// Localized paths per locale — mirrors i18n/routing.ts pathnames
-const localizedPaths: Record<string, Record<string, string>> = {
-  '': {
-    'pt-BR': '', 'pt-PT': '', 'en-US': '', 'es': '', 'it-IT': '', 'fr': '', 'de': '',
-  },
-  '/termos-de-uso': {
-    'pt-BR': '/termos-de-uso',
-    'pt-PT': '/termos-de-utilizacao',
-    'en-US': '/terms-of-use',
-    'es': '/terminos-de-uso',
-    'it-IT': '/termini-di-utilizzo',
-    'fr': '/conditions-d-utilisation',
-    'de': '/nutzungsbedingungen',
-  },
-  '/politica-de-privacidade': {
-    'pt-BR': '/politica-de-privacidade',
-    'pt-PT': '/politica-de-privacidade',
-    'en-US': '/privacy-policy',
-    'es': '/politica-de-privacidad',
-    'it-IT': '/informativa-sulla-privacy',
-    'fr': '/politique-de-confidentialite',
-    'de': '/datenschutz',
-  },
-  '/para-brasil': {
-    'pt-BR': '/para-brasil',
-    'pt-PT': '/para-brasil',
-    'en-US': '/for-brazil',
-    'es': '/para-brasil',
-    'it-IT': '/per-brasile',
-    'fr': '/pour-bresil',
-    'de': '/fuer-brasilien',
-  },
-  '/para-argentina': {
-    'pt-BR': '/para-argentina',
-    'pt-PT': '/para-argentina',
-    'en-US': '/for-argentina',
-    'es': '/para-argentina',
-    'it-IT': '/per-argentina',
-    'fr': '/pour-argentine',
-    'de': '/fuer-argentinien',
-  },
-  '/para-chile': {
-    'pt-BR': '/para-chile',
-    'pt-PT': '/para-chile',
-    'en-US': '/for-chile',
-    'es': '/para-chile',
-    'it-IT': '/per-cile',
-    'fr': '/pour-chili',
-    'de': '/fuer-chile',
-  },
-  '/para-uruguai': {
-    'pt-BR': '/para-uruguai',
-    'pt-PT': '/para-uruguai',
-    'en-US': '/for-uruguay',
-    'es': '/para-uruguay',
-    'it-IT': '/per-uruguay',
-    'fr': '/pour-uruguay',
-    'de': '/fuer-uruguay',
-  },
-  '/para-italia': {
-    'pt-BR': '/para-italia',
-    'pt-PT': '/para-italia',
-    'en-US': '/for-italy',
-    'es': '/para-italia',
-    'it-IT': '/per-italia',
-    'fr': '/pour-italie',
-    'de': '/fuer-italien',
-  },
-  '/blog': {
-    'pt-BR': '/blog', 'pt-PT': '/blog', 'en-US': '/blog', 'es': '/blog', 'it-IT': '/blog', 'fr': '/blog', 'de': '/blog',
-  },
-}
+// Rotas estaticas = tudo em routing.pathnames menos as dinamicas.
+const staticPaths = Object.keys(routing.pathnames).filter(
+  (p) => !p.includes('[')
+) as (keyof typeof routing.pathnames)[]
 
+// Sem lastModified nas paginas estaticas: nao existe fonte de verdade para a data
+// no build (mtime = hora do clone na Vercel). Data inventada a cada deploy faz o
+// Google parar de confiar no campo. Blog usa a data real do front-matter.
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const entries: MetadataRoute.Sitemap = [
     {
-      url: baseUrl,
-      lastModified: new Date(),
+      url: BASE_URL,
       changeFrequency: 'weekly',
       priority: 1,
     },
   ]
 
-  for (const internalPath of Object.keys(localizedPaths)) {
+  for (const internalPath of staticPaths) {
+    const languages: Record<string, string> = {}
+    for (const alt of locales) languages[alt] = urlFor(internalPath, alt)
+    languages['x-default'] = urlFor(internalPath, routing.defaultLocale)
+
     for (const locale of locales) {
-      const localePath = localizedPaths[internalPath][locale]
-
-      // Build hreflang alternates for this page across all locales
-      const languages: Record<string, string> = {}
-      for (const altLocale of locales) {
-        const altPath = localizedPaths[internalPath][altLocale]
-        languages[altLocale] = `${baseUrl}/${altLocale}${altPath}`
-      }
-      // x-default points to the default locale (pt-BR)
-      languages['x-default'] = `${baseUrl}/pt-BR${localizedPaths[internalPath]['pt-BR']}`
-
+      const isHome = pathFor(internalPath, locale) === ''
       entries.push({
-        url: `${baseUrl}/${locale}${localePath}`,
-        lastModified: new Date(),
-        changeFrequency: internalPath === '' ? 'weekly' : 'monthly',
-        priority: internalPath === '' ? 0.9 : 0.7,
-        alternates: {
-          languages,
-        },
+        url: urlFor(internalPath, locale),
+        changeFrequency: isHome ? 'weekly' : 'monthly',
+        priority: isHome ? 0.9 : 0.7,
+        alternates: { languages },
       })
     }
   }
 
-  // Blog posts — one entry per (locale, slug) with hreflang to all locales
-  const posts = await listPosts('pt-BR')
+  // Posts: so as locales que realmente tem .mdx. As demais servem o texto pt-BR
+  // com canonical apontando para ele, entao ficam fora do sitemap.
+  const posts = await listPosts(routing.defaultLocale)
   for (const post of posts) {
-    for (const locale of locales) {
-      const languages: Record<string, string> = {}
-      for (const altLocale of locales) {
-        languages[altLocale] = `${baseUrl}/${altLocale}/blog/${post.slug}`
-      }
-      languages['x-default'] = `${baseUrl}/pt-BR/blog/${post.slug}`
+    const available = await getAvailableLocales(post.slug, locales)
+    const languages: Record<string, string> = {}
+    for (const alt of available) languages[alt] = `${BASE_URL}/${alt}/blog/${post.slug}`
+    languages['x-default'] = `${BASE_URL}/${routing.defaultLocale}/blog/${post.slug}`
+
+    for (const locale of available) {
       entries.push({
-        url: `${baseUrl}/${locale}/blog/${post.slug}`,
+        url: `${BASE_URL}/${locale}/blog/${post.slug}`,
         lastModified: new Date(post.date),
         changeFrequency: 'monthly',
         priority: 0.6,

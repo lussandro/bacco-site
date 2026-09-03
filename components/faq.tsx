@@ -25,8 +25,26 @@ const faqKeys = [
 export function FAQ() {
   const t = useTranslations("faq")
 
+  // FAQPage fica aqui, junto do conteudo: se a secao sair da pagina o schema sai junto.
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqKeys.map((key) => ({
+      "@type": "Question",
+      name: t(`items.${key}.question`),
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: t(`items.${key}.answer`),
+      },
+    })),
+  }
+
   return (
     <section id="faq" className="py-20 lg:py-32 bg-muted/30">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <div className="container mx-auto px-4 lg:px-8">
         <div className="text-center mb-16">
           <Badge className="mb-4 text-base px-4 py-1.5">{t("badge")}</Badge>
