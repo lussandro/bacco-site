@@ -1,6 +1,7 @@
 import { routing } from '@/i18n/routing'
 
-export const BASE_URL = 'https://bacco-erp.com'
+// Host canonico de producao: o apex redireciona 307 para www.
+export const BASE_URL = 'https://www.bacco-erp.com'
 
 type Internal = keyof typeof routing.pathnames
 

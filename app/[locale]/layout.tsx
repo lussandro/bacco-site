@@ -8,6 +8,7 @@ import { routing } from '@/i18n/routing';
 import { Playfair_Display, Inter, IBM_Plex_Mono } from "next/font/google"
 import { StructuredData } from "@/components/structured-data"
 import "../globals.css"
+import { BASE_URL } from "@/lib/seo"
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -88,7 +89,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale: paramLocale } = await params;
   const locale = metaByLocale[paramLocale] ? paramLocale : "pt-BR";
   const meta = metaByLocale[locale] ?? metaByLocale["pt-BR"]
-  const baseUrl = new URL("https://bacco-erp.com")
+  const baseUrl = new URL(BASE_URL)
   const ogUrl = `${baseUrl.origin}/${locale}`
   const ogImage = `/api/og?title=${encodeURIComponent("Bacco ERP")}&description=${encodeURIComponent(meta.description)}`
 

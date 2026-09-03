@@ -12,6 +12,7 @@ import { getPost, listSlugs, getAvailableLocales } from '@/lib/blog'
 import { Header } from '@/components/header'
 import { Footer } from '@/components/footer'
 import { Badge } from '@/components/ui/badge'
+import { BASE_URL } from '@/lib/seo'
 
 const CANONICAL_LOCALE = 'pt-BR'
 
@@ -28,7 +29,7 @@ export async function generateMetadata({
   const { locale, slug } = await params
   const post = (await getPost(slug, locale)) ?? (await getPost(slug, CANONICAL_LOCALE))
   if (!post) return {}
-  const baseUrl = 'https://bacco-erp.com'
+  const baseUrl = BASE_URL
   const url = `${baseUrl}/${locale}/blog/${slug}`
   // Sem traducao propria a pagina serve o texto pt-BR: canonical aponta para o
   // original e hreflang lista so as locales que realmente tem .mdx.
@@ -87,16 +88,16 @@ export default async function BlogPostPage({
     '@type': 'Article',
     headline: post.title,
     description: post.description,
-    image: `https://bacco-erp.com${post.cover}`,
+    image: `${BASE_URL}${post.cover}`,
     datePublished: post.date,
     dateModified: post.date,
     author: { '@type': 'Person', name: post.author },
     publisher: {
       '@type': 'Organization',
       name: 'Bacco ERP',
-      logo: { '@type': 'ImageObject', url: 'https://bacco-erp.com/icon.png' },
+      logo: { '@type': 'ImageObject', url: `${BASE_URL}/icon.png` },
     },
-    mainEntityOfPage: { '@type': 'WebPage', '@id': `https://bacco-erp.com/${locale}/blog/${slug}` },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': `${BASE_URL}/${locale}/blog/${slug}` },
     keywords: post.tags.join(', '),
   }
 

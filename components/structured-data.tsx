@@ -1,3 +1,5 @@
+import { BASE_URL } from "@/lib/seo"
+
 const orgDescriptions: Record<string, string> = {
   "pt-BR": "Sistema ERP completo desenvolvido exclusivamente para vinícolas brasileiras",
   "pt-PT": "Sistema ERP completo desenvolvido exclusivamente para adegas",
@@ -105,8 +107,8 @@ export function StructuredData({ locale = "pt-BR" }: { locale?: string }) {
     "@type": "Organization",
     name: "Bacco ERP",
     description: orgDescription,
-    url: "https://bacco-erp.com",
-    logo: "https://bacco-erp.com/icon.svg",
+    url: BASE_URL,
+    logo: `${BASE_URL}/icon.svg`,
     sameAs: [],
     inLanguage: locale,
     areaServed: [
@@ -150,7 +152,7 @@ export function StructuredData({ locale = "pt-BR" }: { locale?: string }) {
     },
     description: softwareDescription,
     featureList: features,
-    screenshot: "https://bacco-erp.com/screenshots/dashboard.png",
+    screenshot: `${BASE_URL}/screenshots/dashboard.png`,
     availableLanguage: [
       { "@type": "Language", name: "Portuguese", alternateName: "pt" },
       { "@type": "Language", name: "English", alternateName: "en" },
@@ -169,7 +171,7 @@ export function StructuredData({ locale = "pt-BR" }: { locale?: string }) {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://bacco-erp.com",
+        item: BASE_URL,
       },
     ],
   }

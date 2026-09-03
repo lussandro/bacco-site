@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import { BASE_URL } from "@/lib/seo"
 
 const metaByLocale: Record<string, { title: string; description: string; ogLocale: string }> = {
   "pt-BR": {
@@ -49,7 +50,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale: paramLocale } = await params
   const locale = metaByLocale[paramLocale] ? paramLocale : "es"
   const meta = metaByLocale[locale] ?? metaByLocale["es"]
-  const baseUrl = new URL("https://bacco-erp.com")
+  const baseUrl = new URL(BASE_URL)
 
   const pathByLocale: Record<string, string> = {
     "pt-BR": "/para-argentina",

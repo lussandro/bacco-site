@@ -8,13 +8,14 @@ import { listPosts } from '@/lib/blog'
 import { Header } from '@/components/header'
 import { Footer } from '@/components/footer'
 import { Badge } from '@/components/ui/badge'
+import { BASE_URL } from '@/lib/seo'
 
 const BLOG_LOCALE = 'pt-BR'
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params
   const t = await getTranslations({ locale, namespace: 'blog' })
-  const baseUrl = 'https://bacco-erp.com'
+  const baseUrl = BASE_URL
   return {
     title: t('listing.metaTitle'),
     description: t('listing.metaDescription'),

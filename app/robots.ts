@@ -1,4 +1,5 @@
 import { MetadataRoute } from 'next'
+import { BASE_URL } from '@/lib/seo'
 
 export default function robots(): MetadataRoute.Robots {
   return {
@@ -9,7 +10,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/api/', '/admin/'],
       },
     ],
-    sitemap: 'https://bacco-erp.com/sitemap.xml',
+    sitemap: `${BASE_URL}/sitemap.xml`,
   }
 }
 
