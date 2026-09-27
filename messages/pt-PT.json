@@ -1322,6 +1322,7 @@
       "email": "comercial@bacco-erp.com",
       "location": "Florianópolis, SC",
       "phone": "+55 48 99197-2220",
+      "phone2": "+55 48 99128-6399",
       "title": "Suporte"
     }
   },
@@ -1803,7 +1804,7 @@
         "heading": "9. Contacto",
         "paragraphs": [
           "Para questões, pedidos ou reclamações relacionados com privacidade e proteção de dados, contacte:",
-          "E-mail: comercial@bacco-erp.com | Telefone: +55 48 99197-2220"
+          "E-mail: comercial@bacco-erp.com | Telefone: +55 48 99197-2220 / +55 48 99128-6399"
         ]
       }
     ]

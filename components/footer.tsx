@@ -93,6 +93,12 @@ export function Footer() {
                 </a>
               </li>
               <li className="flex items-center gap-2">
+                <Phone className="h-4 w-4" />
+                <a href={`tel:${t('support.phone2')}`} className="hover:text-primary transition-colors">
+                  {t('support.phone2')}
+                </a>
+              </li>
+              <li className="flex items-center gap-2">
                 <MapPin className="h-4 w-4" />
                 <span>{t('support.location')}</span>
               </li>
