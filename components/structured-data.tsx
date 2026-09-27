@@ -132,7 +132,7 @@ export function StructuredData({ locale = "pt-BR" }: { locale?: string }) {
     contactPoint: {
       "@type": "ContactPoint",
       contactType: contactType,
-      email: "lussandro@gmail.com",
+      email: "comercial@bacco-erp.com",
     },
   }
 

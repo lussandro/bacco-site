@@ -117,7 +117,7 @@ export default function TermosDeUso() {
             <p className="text-muted-foreground leading-relaxed mb-4">{t("contact.text")}</p>
             <div className="bg-muted/50 p-6 rounded-lg space-y-2">
               <p className="text-muted-foreground">
-                <strong>E-mail:</strong> lussandro@gmail.com
+                <strong>E-mail:</strong> comercial@bacco-erp.com
               </p>
               <p className="text-muted-foreground">
                 <strong>{t("contactPhone")}:</strong> +55 48 99197-2220

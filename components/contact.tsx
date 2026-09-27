@@ -107,11 +107,11 @@ export function Contact() {
                   <div>
                     <h4 className="font-semibold mb-1">{t("email")}</h4>
                     <a
-                      href="mailto:lussandro@gmail.com"
+                      href="mailto:comercial@bacco-erp.com"
                       className="text-muted-foreground hover:text-primary transition-colors"
                       onClick={() => trackEvent('contact_click', { method: 'email', location: 'contact_section' })}
                     >
-                      lussandro@gmail.com
+                      comercial@bacco-erp.com
                     </a>
                   </div>
                 </div>
