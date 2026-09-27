@@ -1,10 +1,12 @@
 import { NextResponse } from "next/server"
 
-// Fonte "bacco-erp.com" no Bacco CRM (Configurações → Entradas automáticas).
-// O path_token não é segredo: é a identidade pública da URL, a mesma que o
-// institucional deixa no HTML. Contrato: vault, bacco-crm/runbooks/captacao-site-institucional.md
+// Mesma fonte "Bacco ERP" do form de baccosistemas.com.br/erp/ (mesmo funil).
+// O redirect_to dela só vale para form-urlencoded; aqui vai JSON e volta JSON.
+// A origem se distingue pelo campo `pagina` (bacco-erp.com/<locale>).
+// O path_token não é segredo: é a identidade pública da URL, que o institucional
+// deixa no HTML. Contrato: vault, bacco-crm/runbooks/captacao-site-institucional.md
 const CRM_WEBHOOK = "https://adega-crm.baccosistemas.com.br/api/v1/webhooks/in/"
-const CRM_TOKEN = "TOKEN_ERP_SITE_PENDENTE"
+const CRM_TOKEN = "LCTErnkZPy0yje7SGSSNPmuG8lpn-W_B"
 
 // Tabela antiga de leads: workflows do n8n (Atendimento IA-Site, bacco-validate-leads)
 // ainda leem dela. Continua recebendo cópia até alguém desligar esses workflows.
