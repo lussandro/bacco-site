@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
-import { Wine, Globe, Menu, X } from "lucide-react"
+import { Wine, Globe, Menu, X, Headset } from "lucide-react"
 import { useTranslations, useLocale } from 'next-intl';
 import { Link as I18nLink, usePathname, useRouter } from '@/i18n/routing';
 import { trackEvent } from '@/lib/analytics';
@@ -109,6 +109,12 @@ export function Header() {
                   </DropdownMenuItem>
                 </DropdownMenuContent>
               </DropdownMenu>
+
+              <Button variant="ghost" size="icon" asChild>
+                <a href="https://suporte.baccosistemas.com.br/portal" aria-label={tCommon('support')} title={tCommon('support')}>
+                  <Headset className="h-5 w-5" />
+                </a>
+              </Button>
 
               <Button className="hidden sm:inline-flex" asChild>
                 <a href="https://staging.bacco-erp.com" target="_blank" rel="noopener noreferrer" onClick={() => trackEvent('cta_click', { cta_name: 'access_demo', cta_location: 'header' })}>
