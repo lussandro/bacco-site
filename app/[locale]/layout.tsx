@@ -115,6 +115,14 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     },
     description: meta.description,
     keywords: meta.keywords,
+    // mesmo cacho do baccosistemas.com.br; sem isso o Google mostra o globo cinza
+    icons: {
+      icon: [
+        { url: "/favicon.svg", type: "image/svg+xml" },
+        { url: "/favicon-48.png", type: "image/png", sizes: "48x48" },
+      ],
+      shortcut: "/favicon.ico",
+    },
     // Bing Webmaster Tools (mesma chave do baccosistemas.com.br)
     verification: { other: { "msvalidate.01": "DB7934224B0C54D54E754DC9A9945231" } },
     openGraph: {
