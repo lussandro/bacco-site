@@ -194,7 +194,7 @@
       },
       "envin": {
         "title": "SISDEVIN",
-        "description": "Modulo declaratorio del vino junto al IBRAVIN, garantizando conformidad regulatoria para las bodegas de Rio Grande do Sul."
+        "description": "Genera las declaraciones del SISDEVIN en el formato oficial, a partir de los datos de producción, para las bodegas de Rio Grande do Sul."
       },
       "enotourism": {
         "title": "Enoturismo",

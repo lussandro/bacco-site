@@ -194,7 +194,7 @@
       },
       "envin": {
         "title": "SISDEVIN",
-        "description": "Módulo declaratório do vinho junto ao IBRAVIN, garantindo conformidade regulatória para as vinícolas do Rio Grande do Sul."
+        "description": "Gera as declarações do SISDEVIN no layout oficial, a partir dos dados de produção, para as vinícolas do Rio Grande do Sul."
       },
       "enotourism": {
         "title": "Enoturismo",
@@ -1657,7 +1657,7 @@
       },
       "issuesWineInvoice": {
         "question": "O Bacco ERP emite nota fiscal de vinho?",
-        "answer": "Sim. O Bacco ERP emite NF-e e NFC-e (com contingência de NFC-e) via FocusNFe, além de NFS-e, com DIFAL, substituição tributária por UF e IPI. O SISDEVIN gera a guia no layout oficial do IBRAVIN a partir dos mesmos dados de produção."
+        "answer": "Sim. O Bacco ERP emite NF-e e NFC-e (com contingência de NFC-e) via FocusNFe, além de NFS-e, com DIFAL, substituição tributária por UF e IPI. O SISDEVIN gera a guia no layout oficial a partir dos mesmos dados de produção."
       },
       "taxReformReady": {
         "question": "O Bacco ERP está adequado à reforma tributária (IBS/CBS)?",
@@ -2996,7 +2996,7 @@
       },
       "fiscalNote": {
         "title": "Emissão de nota fiscal de vinho",
-        "description": "NF-e e NFC-e via FocusNFe, com contingência de NFC-e, além de NFS-e, DIFAL, substituição tributária por UF e IPI. O SISDEVIN gera a guia no layout oficial do IBRAVIN a partir dos mesmos dados de produção."
+        "description": "NF-e e NFC-e via FocusNFe, com contingência de NFC-e, além de NFS-e, DIFAL, substituição tributária por UF e IPI. O SISDEVIN gera a guia no layout oficial a partir dos mesmos dados de produção."
       },
       "taxReform": {
         "title": "Adequado à reforma tributária",

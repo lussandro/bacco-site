@@ -194,7 +194,7 @@
       },
       "envin": {
         "title": "SISDEVIN",
-        "description": "Modulo dichiarativo del vino presso l'IBRAVIN, per le dichiarazioni di raccolta, produzione, commercializzazione e giacenza richieste alle cantine del Rio Grande do Sul."
+        "description": "Genera le dichiarazioni SISDEVIN nel formato ufficiale a partire dai dati di produzione, per le cantine del Rio Grande do Sul."
       },
       "enotourism": {
         "title": "Wine Tourism",

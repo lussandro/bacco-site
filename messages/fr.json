@@ -1436,7 +1436,7 @@
         "title": "Oenotourisme"
       },
       "envin": {
-        "description": "Module déclaratif du vin aupres de l'IBRAVIN, garantissant une conformite reglementaire pour les domaines viticoles du Rio Grande do Sul.",
+        "description": "Génère les déclarations SISDEVIN au format officiel à partir des données de production, pour les domaines du Rio Grande do Sul.",
         "title": "SISDEVIN"
       },
       "financial": {

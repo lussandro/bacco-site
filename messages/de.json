@@ -194,7 +194,7 @@
       },
       "envin": {
         "title": "SISDEVIN",
-        "description": "Deklarationssystem für Wein beim IBRAVIN, fuer Ernte-, Produktions-, Verkaufs- und Bestandsmeldungen der Weingueter in Rio Grande do Sul."
+        "description": "Erstellt die SISDEVIN-Meldungen im offiziellen Format aus den Produktionsdaten, für Weingüter in Rio Grande do Sul."
       },
       "enotourism": {
         "title": "Weintourismus",

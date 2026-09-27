@@ -194,7 +194,7 @@
       },
       "envin": {
         "title": "SISDEVIN",
-        "description": "Wine declaratory system for IBRAVIN, covering harvest, production, sales, and stock declarations required from wineries in Rio Grande do Sul."
+        "description": "Generates SISDEVIN declarations in the official layout from production data, for wineries in Rio Grande do Sul."
       },
       "enotourism": {
         "title": "Wine Tourism",

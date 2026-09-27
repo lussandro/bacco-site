@@ -42,7 +42,7 @@ const ogAltByLocale: Record<string, string> = {
 
 const metaByLocale: Record<string, { title: string; description: string; ogLocale: string; keywords?: string[] }> = {
   "pt-BR": {
-    title: "Bacco ERP | Sistema de Gestão para Vinícolas",
+    title: "Bacco ERP | ERP e sistema de gestão para vinícolas",
     description:
       "ERP brasileiro para vinícolas de pequeno, médio e grande porte: vinhedo, vinificação, fiscal com IBS/CBS, enoturismo e rastreabilidade em um só sistema.",
     ogLocale: "pt_BR",
@@ -115,6 +115,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     },
     description: meta.description,
     keywords: meta.keywords,
+    // Bing Webmaster Tools (mesma chave do baccosistemas.com.br)
+    verification: { other: { "msvalidate.01": "DB7934224B0C54D54E754DC9A9945231" } },
     openGraph: {
       type: "website",
       locale: meta.ogLocale,
