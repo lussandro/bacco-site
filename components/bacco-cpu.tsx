@@ -102,7 +102,7 @@ export function BaccoCpu() {
                 <div className="grid grid-cols-3 gap-3 mb-4">
                   <div className="rounded-lg bg-muted/40 p-3">
                     <p className="text-xs text-muted-foreground mb-1">{t("panel.stats.activeTanks")}</p>
-                    <p className="text-2xl font-bold text-primary">3</p>
+                    <p className="text-2xl font-bold text-primary">6</p>
                   </div>
                   <div className="rounded-lg bg-muted/40 p-3">
                     <p className="text-xs text-muted-foreground mb-1">{t("panel.stats.alerts")}</p>

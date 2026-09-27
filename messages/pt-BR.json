@@ -2738,8 +2738,8 @@
     }
   },
   "baccoCpu": {
-    "badge": "Plataforma IoT",
-    "title": "Uma camada IoT completa para vinhedo, adega e ERP",
+    "badge": "Campo e cantina",
+    "title": "Bacco Campo no vinhedo, Bacco CPU na cantina",
     "intro1": "O Bacco ERP não fica só no escritório. No vinhedo e na cantina, dois componentes levam o sistema até onde o trabalho acontece e trazem os dados de volta para o mesmo cadastro.",
     "intro2": "O Bacco Campo é o aplicativo do vinhedo: funciona sem internet e sincroniza com o ERP quando a rede volta. O Bacco CPU é o controlador da cantina: lê os tanques pela rede RS-485, mostra tudo num painel na parede e envia as leituras para o Bacco ERP.",
     "monitoring": {
@@ -2748,60 +2748,60 @@
       "baccoCampo": "Bacco Campo: aplicativo Android para o vinhedo, que funciona offline e sincroniza com o Bacco ERP.",
       "integracaoErp": "Integração com o Bacco ERP: as leituras dos tanques chegam ao ERP por telemetria MQTT, junto do histórico do lote."
     },
-    "decisionSupport": "Na prática, a plataforma conecta dado de campo, dado de tanque e integração de sistema no mesmo fluxo operacional.",
+    "decisionSupport": "Na prática, o que acontece no vinhedo e nos tanques entra no mesmo cadastro do Bacco ERP.",
     "panel": {
       "title": "Ecossistema Bacco conectado",
-      "subtitle": "Hardware, cloud e operação em uma única visão",
+      "subtitle": "Vinhedo, cantina e ERP em uma única visão",
       "live": "Ao vivo",
       "stats": {
-        "activeTanks": "Linhas IoT",
-        "alerts": "Motores de análise",
-        "inRange": "Camadas da plataforma"
+        "activeTanks": "Tanques ativos",
+        "alerts": "Fora da faixa",
+        "inRange": "Dentro da faixa"
       }
     },
     "benefits": {
       "smartAlerts": {
-        "title": "Alertas e análises",
-        "description": "A plataforma calcula risco para míldio, oídio e botrytis, valida janela de pulverização e organiza alertas operacionais."
+        "title": "Painel na parede da cantina",
+        "description": "O Bacco CPU mostra os tanques ao vivo numa tela na cantina, legível de longe e sem precisar de toque."
       },
       "lessManualWork": {
-        "title": "Operação centralizada",
-        "description": "Vinhedos, dispositivos, tanques, usuários, regras e chaves de integração ficam no mesmo painel web."
+        "title": "Menos anotação à mão",
+        "description": "As leituras dos tanques ficam registradas pelo controlador, sem caderno pendurado no tanque."
       },
       "fermentationHistory": {
-        "title": "Leitura técnica dos processos",
-        "description": "O sistema expõe series de medições, latest readings, resumo por vinhedo, relatório climático e relatório de fermentação."
+        "title": "Histórico por tanque",
+        "description": "Curvas de temperatura das últimas 24 horas e dos últimos 7 dias para cada tanque."
       },
       "fullErpIntegration": {
-        "title": "API pronta para ERP",
-        "description": "As rotas /api/v1 permitem integrar dispositivos e leituras ao Bacco ERP ou a sistemas externos com API Key."
+        "title": "Tudo no Bacco ERP",
+        "description": "As leituras dos tanques chegam ao ERP por telemetria MQTT, e o Bacco Campo sincroniza o trabalho do vinhedo com o mesmo cadastro."
       },
       "allWinerySizes": {
-        "title": "Escala e manutenção",
-        "description": "A arquitetura suporta múltiplas organizações, controle de plano, auditoria, firmware versionado e atualização OTA dos dispositivos."
+        "title": "Cresce com a cantina",
+        "description": "Vários barramentos RS-485 no mesmo controlador, com adoção de novos dispositivos pela tela de configuração."
       }
     },
     "gallery": {
       "main": {
-        "alt": "Visão geral da plataforma Bacco-iOT para vinhedo e adega"
+        "alt": "Cantina com tanques e painel de acompanhamento dos tanques"
       },
       "secondary1": {
-        "alt": "Painel da operação com dispositivos, indicadores e integrações",
-        "title": "Painel operacional unificado",
-        "description": "Uma mesma base para acompanhar vinhedos, tanques, dispositivos, usuários e regras de alerta."
+        "alt": "Painel com os tanques da cantina ao vivo",
+        "title": "Painel da cantina",
+        "description": "Os tanques ao vivo, com temperatura, setpoint e o histórico de cada um."
       },
       "secondary2": {
-        "alt": "Estrutura Bacco-iOT com coleta em campo e processamento no cloud",
-        "title": "Do dispositivo ao cloud",
-        "description": "Os IoTs enviam telemetria para o Bacco-Cloud, que organiza dados, histórico, API e atualização remota."
+        "alt": "Controlador de cantina entre os tanques",
+        "title": "Do tanque ao ERP",
+        "description": "O Bacco CPU lê os tanques pela rede RS-485 e envia as leituras ao Bacco ERP."
       }
     },
     "closing": "O valor está em ligar campo e cantina ao mesmo cadastro: o Bacco Campo no vinhedo, o Bacco CPU nos tanques e o Bacco ERP guardando tudo no histórico de cada lote."
   },
   "telemetryCallout": {
-    "title": "Conheça o Bacco-iOT",
+    "title": "Conheça o Bacco CPU",
     "description": "Veja como o Bacco Campo e o Bacco CPU levam o Bacco ERP ao vinhedo e à cantina.",
-    "cta": "Ver plataforma IoT",
+    "cta": "Ver Bacco CPU",
     "dismiss": "Agora não",
     "close": "Fechar aviso"
   },
