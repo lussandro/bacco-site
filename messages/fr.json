@@ -900,7 +900,8 @@
       "successTitle": "Inscription recue !",
       "successMessage": "Nous vous contacterons bientot. Merci pour votre interet pour Bacco !",
       "sendAnother": "Envoyer un autre",
-      "errorMessage": "Erreur lors de l'envoi. Reessayez ou contactez-nous par WhatsApp."
+      "errorMessage": "Erreur lors de l'envoi. Reessayez ou contactez-nous par WhatsApp.",
+      "consent": "J’autorise Bacco à me contacter par WhatsApp et e-mail au sujet de cette demande. Voir la <link>politique de confidentialité</link> (en portugais)."
     },
     "location": "Emplacement",
     "phone": "Téléphone",

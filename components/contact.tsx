@@ -6,14 +6,14 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Mail, Phone, MapPin, CheckCircle2, Loader2 } from "lucide-react"
 import { useState } from "react"
-import { useTranslations } from "next-intl"
+import { useTranslations, useLocale } from "next-intl"
 import { trackEvent } from "@/lib/analytics"
-
-const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://ezwdwwqekfczkberwzic.supabase.co"
-const SUPABASE_KEY = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || "sb_publishable_YooK50O3JiASp5IwQkcDbw_8ZQj1nel"
 
 export function Contact() {
   const t = useTranslations("contact")
+  const locale = useLocale()
+  const [aceite, setAceite] = useState(false)
+  const [gotcha, setGotcha] = useState("")
 
   const [formData, setFormData] = useState({
     name: "",
@@ -32,45 +32,30 @@ export function Contact() {
     setError("")
 
     try {
-      const notasParts = []
-      if (formData.email) notasParts.push(`Email: ${formData.email}`)
-      if (formData.message) notasParts.push(`Mensagem: ${formData.message}`)
-
-      const res = await fetch(`${SUPABASE_URL}/rest/v1/leads`, {
+      const res = await fetch("/api/contato", {
         method: "POST",
-        headers: {
-          "apikey": SUPABASE_KEY,
-          "Authorization": `Bearer ${SUPABASE_KEY}`,
-          "Content-Type": "application/json",
-          "Prefer": "resolution=merge-duplicates",
-        },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          nome: formData.name || null,
-          telefone: formData.phone,
-          email: formData.email || null,
-          vinicola: formData.company || null,
-          origem: "site",
-          status: "novo",
-          notas_ia: notasParts.length > 0 ? notasParts.join(" | ") : null,
+          nome: formData.name,
+          whatsapp: formData.phone,
+          email: formData.email,
+          empresa: formData.company,
+          mensagem: formData.message,
+          aceite_contato: aceite,
+          _gotcha: gotcha,
+          locale,
         }),
       })
-
       if (!res.ok) {
         const data = await res.json().catch(() => null)
-        if (data?.code === "23505") {
-          setSuccess(true)
-          setFormData({ name: "", email: "", phone: "", company: "", message: "" })
-          trackEvent('form_submit', { form_name: 'contact', company: formData.company || 'not_provided' })
-        } else {
-          throw new Error("Erro ao enviar")
-        }
-      } else {
-        setSuccess(true)
-        setFormData({ name: "", email: "", phone: "", company: "", message: "" })
-        trackEvent('form_submit', { form_name: 'contact', company: formData.company || 'not_provided' })
+        throw new Error(data?.erro || `HTTP ${res.status}`)
       }
-    } catch {
-      setError(t("form.errorMessage"))
+      setSuccess(true)
+      setFormData({ name: "", email: "", phone: "", company: "", message: "" })
+      setAceite(false)
+      trackEvent('form_submit', { form_name: 'contact', company: formData.company || 'not_provided' })
+    } catch (e) {
+      setError(`${t("form.errorMessage")} (${(e as Error).message})`)
     } finally {
       setLoading(false)
     }
@@ -227,6 +212,32 @@ export function Contact() {
                       rows={4}
                     />
                   </div>
+
+                  {/* honeypot: fora da tela, nunca display:none (runbook de captação do CRM) */}
+                  <label aria-hidden="true" className="absolute -left-[9999px] h-px w-px overflow-hidden">
+                    Deixe em branco
+                    <input name="_gotcha" tabIndex={-1} autoComplete="off" value={gotcha} onChange={(e) => setGotcha(e.target.value)} />
+                  </label>
+
+                  <label className="flex items-start gap-3 text-sm text-muted-foreground">
+                    <input
+                      type="checkbox"
+                      name="aceite_contato"
+                      checked={aceite}
+                      onChange={(e) => setAceite(e.target.checked)}
+                      required
+                      className="mt-1 h-4 w-4 accent-primary"
+                    />
+                    <span>
+                      {t.rich("form.consent", {
+                        link: (chunks) => (
+                          <a href="https://www.baccosistemas.com.br/privacidade/" target="_blank" rel="noopener" className="underline hover:text-primary">
+                            {chunks}
+                          </a>
+                        ),
+                      })}
+                    </span>
+                  </label>
 
                   {error && (
                     <p className="text-destructive text-sm">{error}</p>

@@ -717,7 +717,8 @@
       "successTitle": "Registrazione ricevuta!",
       "successMessage": "Ti contatteremo presto. Grazie per il tuo interesse in Bacco!",
       "sendAnother": "Invia un altro",
-      "errorMessage": "Errore nell'invio. Riprova o contattaci tramite WhatsApp."
+      "errorMessage": "Errore nell'invio. Riprova o contattaci tramite WhatsApp.",
+      "consent": "Autorizzo Bacco a contattarmi via WhatsApp ed e-mail in merito a questa richiesta. Consulta l’<link>informativa sulla privacy</link> (in portoghese)."
     }
   },
   "terms": {

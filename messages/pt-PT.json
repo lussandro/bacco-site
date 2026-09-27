@@ -900,7 +900,8 @@
       "successTitle": "Registo recebido!",
       "successMessage": "Entraremos em contacto brevemente. Obrigado pelo interesse no Bacco!",
       "sendAnother": "Enviar outro",
-      "errorMessage": "Erro ao enviar. Tente novamente ou contacte-nos por WhatsApp."
+      "errorMessage": "Erro ao enviar. Tente novamente ou contacte-nos por WhatsApp.",
+      "consent": "Autorizo a Bacco a contactar-me por WhatsApp e e-mail sobre este pedido. Consulte a <link>política de privacidade</link>."
     },
     "location": "Localização",
     "phone": "Telefone",

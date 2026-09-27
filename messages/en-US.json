@@ -717,7 +717,8 @@
       "successTitle": "Message received!",
       "successMessage": "We'll get back to you soon. Thank you for your interest in Bacco!",
       "sendAnother": "Send another",
-      "errorMessage": "Failed to send. Please try again or contact us via WhatsApp."
+      "errorMessage": "Failed to send. Please try again or contact us via WhatsApp.",
+      "consent": "I authorize Bacco to contact me by WhatsApp and email about this request. See the <link>privacy policy</link> (in Portuguese)."
     }
   },
   "terms": {
