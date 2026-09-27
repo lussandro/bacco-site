@@ -1673,7 +1673,7 @@
         },
         "sisdevin": {
           "title": "SISDEVIN",
-          "description": "IBRAVIN Wine Declaratory System. Generate the harvest, production, sales, and stock declarations required from Rio Grande do Sul wineries, exported in the official formats."
+          "description": "SISDEVIN declarations (harvest, production, sales and stock) required from Rio Grande do Sul wineries, generated in the official layout from production data."
         },
         "mapa": {
           "title": "MAPA",

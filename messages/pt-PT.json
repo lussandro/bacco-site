@@ -390,7 +390,7 @@
       },
       "items": {
         "sisdevin": {
-          "description": "Sistema Declarativo do Vinho do IBRAVIN. Gere as declarações de vindima, produção, comercialização e stock exigidas as vinícolas do Rio Grande do Sul, exportadas nos formatos oficiais.",
+          "description": "Declarações do SISDEVIN (vindima, produção, comercialização e stock) exigidas às vinícolas do Rio Grande do Sul, geradas no formato oficial a partir dos dados de produção.",
           "title": "SISDEVIN"
         },
         "mapa": {

@@ -1673,7 +1673,7 @@
         },
         "sisdevin": {
           "title": "SISDEVIN",
-          "description": "Sistema Declaratorio del Vino de IBRAVIN. Genere las declaraciones de cosecha, produccion, comercializacion y stock exigidas a las vinicolas de Rio Grande do Sul, exportadas en los formatos oficiales."
+          "description": "Declaraciones del SISDEVIN (cosecha, producción, comercialización y stock) exigidas a las bodegas de Rio Grande do Sul, generadas en el formato oficial a partir de los datos de producción."
         },
         "mapa": {
           "title": "MAPA",

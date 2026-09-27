@@ -1689,7 +1689,7 @@
         },
         "sisdevin": {
           "title": "SISDEVIN",
-          "description": "Sistema Declaratório do Vinho do IBRAVIN. Gere as declarações de safra, produção, comercialização e estoque exigidas das vinícolas do Rio Grande do Sul, exportadas nos formatos oficiais."
+          "description": "Declarações do SISDEVIN (safra, produção, comercialização e estoque) exigidas das vinícolas do Rio Grande do Sul, geradas no layout oficial a partir dos dados de produção."
         },
         "mapa": {
           "title": "MAPA",
@@ -2740,13 +2740,13 @@
   "baccoCpu": {
     "badge": "Plataforma IoT",
     "title": "Uma camada IoT completa para vinhedo, adega e ERP",
-    "intro1": "O Bacco-iOT não e apenas um modulo de telemetria climática. A aplicação foi estruturada como uma plataforma IoT para vinícolas, com dispositivos dedicados para campo e para adega, painel web, Bacco-Cloud, API publica e operação multiusuário.",
-    "intro2": "Dentro dessa plataforma entram três linhas de hardware: Bacco Meteo para estação meteorológica no vinhedo, Bacco Ferm para controle e leitura de fermentação em tanques, e BaccoDens para densidade e temperatura do mosto ou vinho. Tudo converge para um único ambiente com histórico, alertas, relatórios, chaves de API e atualização OTA.",
+    "intro1": "O Bacco ERP não fica só no escritório. No vinhedo e na cantina, dois componentes levam o sistema até onde o trabalho acontece e trazem os dados de volta para o mesmo cadastro.",
+    "intro2": "O Bacco Campo é o aplicativo do vinhedo: funciona sem internet e sincroniza com o ERP quando a rede volta. O Bacco CPU é o controlador da cantina: lê os tanques pela rede RS-485, mostra tudo num painel na parede e envia as leituras para o Bacco ERP.",
     "monitoring": {
-      "meteoStation": "Bacco Meteo: temperatura, umidade, vento, chuva, molhamento foliar e apoio a fenologia e risco fitossanitário.",
-      "fermentationControl": "Bacco Ferm: temperatura do tanque, setpoint, temperatura ambiente, refrigeração, densidade e pH.",
-      "digitalDensimeter": "BaccoDens: densímetro e termômetro digital para acompanhamento continuo do mosto ou vinho.",
-      "cloudIntegration": "Bacco-Cloud: painel central, API REST, API Keys, histórico, auditoria, relatórios e firmware OTA."
+      "baccoCpu": "Bacco CPU: controlador de cantina com vários barramentos RS-485, leitura contínua dos tanques e setpoint por tanque.",
+      "painelTanques": "Painel ao vivo na parede da cantina e histórico de temperatura de 24 horas e 7 dias por tanque.",
+      "baccoCampo": "Bacco Campo: aplicativo Android para o vinhedo, que funciona offline e sincroniza com o Bacco ERP.",
+      "integracaoErp": "Integração com o Bacco ERP: as leituras dos tanques chegam ao ERP por telemetria MQTT, junto do histórico do lote."
     },
     "decisionSupport": "Na prática, a plataforma conecta dado de campo, dado de tanque e integração de sistema no mesmo fluxo operacional.",
     "panel": {
@@ -2796,11 +2796,11 @@
         "description": "Os IoTs enviam telemetria para o Bacco-Cloud, que organiza dados, histórico, API e atualização remota."
       }
     },
-    "closing": "O valor do Bacco-iOT está em unir os demais IoTs da operação em uma só plataforma: campo com Bacco Meteo, fermentação com Bacco Ferm, leitura de densidade com BaccoDens e uma camada cloud pronta para integração e escala."
+    "closing": "O valor está em ligar campo e cantina ao mesmo cadastro: o Bacco Campo no vinhedo, o Bacco CPU nos tanques e o Bacco ERP guardando tudo no histórico de cada lote."
   },
   "telemetryCallout": {
     "title": "Conheça o Bacco-iOT",
-    "description": "Veja como Bacco Meteo, Bacco Ferm e BaccoDens se conectam ao Bacco-Cloud e ao ERP.",
+    "description": "Veja como o Bacco Campo e o Bacco CPU levam o Bacco ERP ao vinhedo e à cantina.",
     "cta": "Ver plataforma IoT",
     "dismiss": "Agora não",
     "close": "Fechar aviso"

@@ -5,9 +5,8 @@ import { Card, CardContent } from "@/components/ui/card"
 import Image from "next/image"
 import {
   Cpu,
-  CloudSun,
+  Smartphone,
   Thermometer,
-  Droplets,
   Database,
   Bell,
   ShieldCheck,
@@ -21,8 +20,9 @@ import { useTranslations } from "next-intl"
 export function BaccoCpu() {
   const t = useTranslations("baccoCpu")
 
-  const monitorKeys = ["meteoStation", "fermentationControl", "digitalDensimeter", "cloudIntegration"] as const
-  const monitorIcons = [CloudSun, Thermometer, Droplets, Database]
+  // Cada idioma traz os próprios itens; lista fixa aqui quebrava os idiomas sem essas chaves (MISSING_MESSAGE).
+  const monitorKeys = Object.keys(t.raw("monitoring") as Record<string, string>)
+  const monitorIcons = [Cpu, Thermometer, Smartphone, Database]
 
   const benefitKeys = [
     "smartAlerts",
@@ -67,7 +67,7 @@ export function BaccoCpu() {
 
             <div className="grid sm:grid-cols-2 gap-4 mb-8">
               {monitorKeys.map((key, index) => {
-                const Icon = monitorIcons[index]
+                const Icon = monitorIcons[index % monitorIcons.length]
                 return (
                   <div key={key} className="flex gap-3">
                     <div className="h-10 w-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
@@ -116,20 +116,16 @@ export function BaccoCpu() {
 
                 <div className="space-y-2">
                   <div className="rounded-md border border-border/60 p-3 flex items-center justify-between gap-3">
-                    <span className="text-sm">Bacco Meteo</span>
-                    <span className="text-sm font-semibold text-green-600">clima, chuva e molhamento</span>
+                    <span className="text-sm">Bacco CPU</span>
+                    <span className="text-sm font-semibold text-primary">tanques, setpoint e histórico</span>
                   </div>
                   <div className="rounded-md border border-border/60 p-3 flex items-center justify-between gap-3">
-                    <span className="text-sm">Bacco Ferm</span>
-                    <span className="text-sm font-semibold text-primary">temperatura, setpoint e pH</span>
-                  </div>
-                  <div className="rounded-md border border-border/60 p-3 flex items-center justify-between gap-3">
-                    <span className="text-sm">BaccoDens</span>
-                    <span className="text-sm font-semibold text-green-600">densidade e temperatura</span>
+                    <span className="text-sm">Bacco Campo</span>
+                    <span className="text-sm font-semibold text-green-600">vinhedo offline, sincroniza</span>
                   </div>
                   <div className="rounded-md border border-amber-300/60 bg-amber-50/40 p-3 flex items-center justify-between gap-3 dark:bg-amber-950/20">
-                    <span className="text-sm">Bacco-Cloud + API</span>
-                    <span className="text-sm font-semibold text-amber-700 dark:text-amber-400">alertas, historico e OTA</span>
+                    <span className="text-sm">Bacco ERP</span>
+                    <span className="text-sm font-semibold text-amber-700 dark:text-amber-400">leituras por telemetria MQTT</span>
                   </div>
                 </div>
               </CardContent>

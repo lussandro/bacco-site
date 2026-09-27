@@ -1673,7 +1673,7 @@
         },
         "sisdevin": {
           "title": "SISDEVIN",
-          "description": "Weindeklarationssystem von IBRAVIN. Generieren Sie die von den Weingütern in Rio Grande do Sul geforderten Ernte-, Produktions-, Vermarktungs- und Bestandserklärungen, exportiert in den offiziellen Formaten."
+          "description": "SISDEVIN-Meldungen (Ernte, Produktion, Vermarktung und Bestand) für Weingüter in Rio Grande do Sul, im offiziellen Format aus den Produktionsdaten erstellt."
         },
         "mapa": {
           "title": "MAPA",

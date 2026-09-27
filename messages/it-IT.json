@@ -1673,7 +1673,7 @@
         },
         "sisdevin": {
           "title": "SISDEVIN",
-          "description": "Sistema Dichiarativo del Vino di IBRAVIN. Genera le dichiarazioni di vendemmia, produzione, commercializzazione e giacenza richieste alle cantine del Rio Grande do Sul, esportate nei formati ufficiali."
+          "description": "Dichiarazioni SISDEVIN (vendemmia, produzione, commercializzazione e giacenza) richieste alle cantine del Rio Grande do Sul, generate nel formato ufficiale dai dati di produzione."
         },
         "mapa": {
           "title": "MAPA",

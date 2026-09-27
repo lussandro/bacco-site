@@ -390,7 +390,7 @@
       },
       "items": {
         "sisdevin": {
-          "description": "Système déclaratif du vin d'IBRAVIN. Générez les déclarations de récolte, production, commercialisation et stock exigées des établissements vinicoles du Rio Grande do Sul, exportées dans les formats officiels.",
+          "description": "Déclarations SISDEVIN (récolte, production, commercialisation et stock) exigées des domaines du Rio Grande do Sul, générées au format officiel à partir des données de production.",
           "title": "SISDEVIN"
         },
         "mapa": {
