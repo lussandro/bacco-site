@@ -11,12 +11,12 @@
   "seo": {
     "organizationDescription": "Complete ERP system for wineries with multilingual support (Portuguese (Brazil), Portuguese (Portugal), English, Spanish, Italian, French and German)",
     "contactType": "Support",
-    "softwareDescription": "Complete ERP for winery management with AI, traceability, SIVIBE/ENVIN compliance and wine tourism module",
+    "softwareDescription": "Complete ERP for winery management with AI, traceability, SIVIBE/SISDEVIN compliance and wine tourism module",
     "featureList": {
       "vineyardManagement": "Vineyard Management",
       "aiWinemaking": "AI Winemaking",
       "traceability": "Complete Traceability",
-      "compliance": "SIVIBE and ENVIN Compliance",
+      "compliance": "SIVIBE and SISDEVIN Compliance",
       "enotourism": "Wine Tourism",
       "pos": "Integrated POS",
       "mobileApps": "Mobile Apps (Bacco-Campo and Bacco-Comanda)"
@@ -57,7 +57,7 @@
       "description": "Vineyard, production, and quality"
     },
     "badgeMultilingual": "🌍 Available in 7 Languages",
-    "subtitle": "The only Brazilian ERP exclusively for wineries, now available globally",
+    "subtitle": "Brazilian ERP built exclusively for wineries, now available globally",
     "trustBadges": {
       "brazilian": "100% Brazilian",
       "global": "Ready for the World",
@@ -186,15 +186,15 @@
       },
       "fiscalNotes": {
         "title": "Fiscal Notes",
-        "description": "Fiscal note issuance with Webmania integration, fiscal control, and regulatory compliance."
+        "description": "Fiscal note issuance with FocusNFe integration, fiscal control, and regulatory compliance."
       },
       "sivibe": {
         "title": "SIVIBE",
         "description": "Wine and Beverage Information System - Regulatory declarations (Law 7.678/1988) with deadline alerts."
       },
       "envin": {
-        "title": "ENVIN",
-        "description": "Compliance module for ENVIN declarations, ensuring complete regulatory compliance."
+        "title": "SISDEVIN",
+        "description": "Wine declaratory system for IBRAVIN, covering harvest, production, sales, and stock declarations required from wineries in Rio Grande do Sul."
       },
       "enotourism": {
         "title": "Wine Tourism",
@@ -681,7 +681,7 @@
       "cards": {
         "unique": {
           "badge": "#1 in Brazil",
-          "title": "Unique Exclusive Brazilian ERP",
+          "title": "Purpose-Built Brazilian ERP for Wineries",
           "description": "<strong>Developed exclusively for wineries</strong> - not an adaptation of a generic system. Born to meet the specific needs of the Brazilian market."
         },
         "editor": {
@@ -728,7 +728,7 @@
       },
       "compliance": {
         "title": "Brazilian Compliance",
-        "description": "SIVIBE and ENVIN natively integrated. Global ERPs require expensive and complex customizations to meet Brazilian regulations."
+        "description": "SIVIBE and SISDEVIN natively integrated. Global ERPs require expensive and complex customizations to meet Brazilian regulations."
       },
       "enotourism": {
         "title": "Exclusive Wine Tourism",
@@ -747,7 +747,7 @@
       "specialization": {
         "category": "Specialization",
         "feature": "Developed exclusively for Brazilian wineries",
-        "description": "Only Brazilian ERP born to serve wineries, not an adaptation of a generic system"
+        "description": "Brazilian ERP born to serve wineries, not an adaptation of a generic system"
       },
       "ai": {
         "category": "Artificial Intelligence",
@@ -761,7 +761,7 @@
       },
       "compliance": {
         "category": "Brazilian Compliance",
-        "feature": "SIVIBE and ENVIN integrated",
+        "feature": "SIVIBE and SISDEVIN integrated",
         "description": "Total compliance with Brazilian regulations (Law 7.678/1988) and mandatory declarations"
       },
       "enotourism": {
@@ -1370,7 +1370,7 @@
       {
         "heading": "3. Purpose of Processing",
         "paragraphs": [
-          "Data is used to deliver and improve the service, meet legal obligations (including SIVIBE/ENVIN), and ensure security and traceability.",
+          "Data is used to deliver and improve the service, meet legal obligations (including SIVIBE/SISDEVIN), and ensure security and traceability.",
           "We never sell your data."
         ]
       },
@@ -1502,7 +1502,7 @@
           "status": "full",
           "items": [
             "SIVIBE",
-            "ENVIN",
+            "SISDEVIN",
             "MAPA",
             "NF-e"
           ],
@@ -1613,7 +1613,7 @@
     "items": {
       "whatIsBacco": {
         "question": "What is Bacco ERP?",
-        "answer": "Bacco is a complete ERP system developed exclusively for wineries. It manages the entire production process, from vineyard to bottle, including vineyard management, winemaking, quality control, inventory, sales, finance, and wine tourism. It is the only Brazilian ERP 100% specialized in wineries."
+        "answer": "Bacco is a complete ERP system developed exclusively for wineries. It manages the entire production process, from vineyard to bottle, including vineyard management, winemaking, quality control, inventory, sales, finance, and wine tourism. It is a Brazilian ERP specialized in wineries."
       },
       "countries": {
         "question": "In which countries is Bacco available?",
@@ -1657,8 +1657,8 @@
     "back": "Back to site",
     "hero": {
       "badge": "100% Brazilian",
-      "title": "The Only Brazilian ERP Developed Exclusively for Wineries",
-      "subtitle": "Full compliance with SIVIBE, ENVIN, MAPA and NF-e. Developed by those who understand wine for those who live from wine.",
+      "title": "Brazilian ERP Developed Exclusively for Wineries",
+      "subtitle": "Full compliance with SIVIBE, SISDEVIN, MAPA and NF-e. Developed by those who understand wine for those who live from wine.",
       "ctaDemo": "Request Free Demo",
       "ctaFeatures": "See Features"
     },
@@ -1671,10 +1671,6 @@
           "title": "SIVIBE",
           "description": "Wine and Beverage Information System. Generate mandatory declarations under Law 7.678/1988 with automatic deadline alerts and complete compliance control."
         },
-        "envin": {
-          "title": "ENVIN",
-          "description": "Complete module for ENVIN declarations with export in government-required formats, ensuring full regulatory compliance."
-        },
         "sisdevin": {
           "title": "SISDEVIN",
           "description": "IBRAVIN Wine Declaratory System. Generate the harvest, production, sales, and stock declarations required from Rio Grande do Sul wineries, exported in the official formats."
@@ -1685,7 +1681,7 @@
         },
         "nfe": {
           "title": "NF-e / NFC-e",
-          "description": "Integrated electronic invoice issuance via Webmania. Complete fiscal control with NCM, CFOP, and wine-specific taxation."
+          "description": "Integrated electronic invoice issuance via FocusNFe. Complete fiscal control with NCM, CFOP, and wine-specific taxation."
         }
       },
       "highlight": {
@@ -1808,9 +1804,9 @@
       "title": "Integrated with Brazilian Systems",
       "subtitle": "Bacco natively connects with the main Brazilian systems and services to automate your operation.",
       "items": {
-        "webmania": {
+        "focusnfe": {
           "badge": "Invoices",
-          "title": "Webmania NF-e",
+          "title": "FocusNFe NF-e",
           "description": "Automatic issuance of NF-e, NFC-e, and NFS-e directly from the system with real-time SEFAZ validation."
         },
         "rapt": {
@@ -1845,7 +1841,7 @@
       "items": {
         "guides": {
           "title": "Compliance Guides",
-          "description": "Detailed documentation on SIVIBE, ENVIN and MAPA"
+          "description": "Detailed documentation on SIVIBE, SISDEVIN and MAPA"
         },
         "templates": {
           "title": "Report Templates",

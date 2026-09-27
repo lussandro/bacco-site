@@ -4,6 +4,8 @@ import { Internationalization } from "@/components/internationalization"
 import { Countries } from "@/components/countries"
 import { Features } from "@/components/features"
 import { Scope } from "@/components/scope"
+import { WineriesBySize } from "@/components/wineries-by-size"
+import { ProductionDetail } from "@/components/production-detail"
 import { AIAlerts } from "@/components/ai-alerts"
 import { Mobile } from "@/components/mobile"
 import { BaccoCpu } from "@/components/bacco-cpu"
@@ -42,6 +44,12 @@ export default function Home() {
         </AnimateOnScroll>
         <AnimateOnScroll>
           <Scope />
+        </AnimateOnScroll>
+        <AnimateOnScroll>
+          <WineriesBySize />
+        </AnimateOnScroll>
+        <AnimateOnScroll>
+          <ProductionDetail />
         </AnimateOnScroll>
         <AnimateOnScroll>
           <AIAlerts />

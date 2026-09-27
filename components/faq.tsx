@@ -7,7 +7,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion"
 import { Badge } from "@/components/ui/badge"
-import { useTranslations } from "next-intl"
+import { useLocale, useTranslations } from "next-intl"
 
 const faqKeys = [
   "whatIsBacco",
@@ -22,14 +22,26 @@ const faqKeys = [
   "dataImport",
 ] as const
 
+// Perguntas extras só existem em pt-BR/pt-PT (chaves novas só nesses dois locales,
+// mesma regra do comparativo nominal em comparison.tsx). O locale.startsWith("pt")
+// evita MISSING_MESSAGE nos outros 5 idiomas.
+const ptFaqKeys = [
+  "bestForSmallWineries",
+  "issuesWineInvoice",
+  "taxReformReady",
+  "harvestAndVinificationControl",
+] as const
+
 export function FAQ() {
   const t = useTranslations("faq")
+  const locale = useLocale()
+  const keys = locale.startsWith("pt") ? [...faqKeys, ...ptFaqKeys] : faqKeys
 
   // FAQPage fica aqui, junto do conteudo: se a secao sair da pagina o schema sai junto.
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    mainEntity: faqKeys.map((key) => ({
+    mainEntity: keys.map((key) => ({
       "@type": "Question",
       name: t(`items.${key}.question`),
       acceptedAnswer: {
@@ -58,7 +70,7 @@ export function FAQ() {
 
         <div className="max-w-3xl mx-auto">
           <Accordion type="single" collapsible className="w-full">
-            {faqKeys.map((key, index) => (
+            {keys.map((key, index) => (
               <AccordionItem key={key} value={`item-${index}`}>
                 <AccordionTrigger className="text-left text-base lg:text-lg font-medium">
                   {t(`items.${key}.question`)}

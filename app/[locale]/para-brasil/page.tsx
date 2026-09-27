@@ -12,7 +12,6 @@ export default function ParaBrasil() {
 
   const complianceItems = [
     { key: "sivibe", icon: Database },
-    { key: "envin", icon: FileCheck },
     { key: "sisdevin", icon: Shield },
     { key: "mapa", icon: Building2 },
     { key: "nfe", icon: FileCheck },
@@ -22,7 +21,7 @@ export default function ParaBrasil() {
 
   const grapeItems = ["tannat", "merlot", "cabernet", "chardonnay", "moscato", "riesling", "pinotNoir", "malvasia"]
 
-  const integrationItems = ["webmania", "rapt", "pix", "whatsapp"]
+  const integrationItems = ["focusnfe", "rapt", "pix", "whatsapp"]
 
   return (
     <div className="min-h-screen bg-background">

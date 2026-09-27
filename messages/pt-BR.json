@@ -11,12 +11,12 @@
   "seo": {
     "organizationDescription": "Sistema ERP completo para vinícolas com suporte multilíngue (Português (Brasil), Português (Portugal), Inglês, Espanhol, Italiano, Francês e Alemão)",
     "contactType": "Suporte",
-    "softwareDescription": "ERP completo para gestão de vinícolas com IA, rastreabilidade, compliance SIVIBE/ENVIN e módulo de enoturismo",
+    "softwareDescription": "ERP completo para gestão de vinícolas com IA, rastreabilidade, compliance SIVIBE/SISDEVIN e módulo de enoturismo",
     "featureList": {
       "vineyardManagement": "Gestão de Vinhedos",
       "aiWinemaking": "Vinificação com IA",
       "traceability": "Rastreabilidade Completa",
-      "compliance": "Compliance SIVIBE e ENVIN",
+      "compliance": "Compliance SIVIBE e SISDEVIN",
       "enotourism": "Enoturismo",
       "pos": "PDV Integrado",
       "mobileApps": "Apps Móveis (Bacco-Campo e Bacco-Comanda)"
@@ -39,7 +39,7 @@
     "badge": "Sistema Completo para Vinícolas",
     "badgeMultilingual": "🌍 Disponível em 7 Idiomas",
     "title": "Do Vinhedo à Garrafa: Controle Total da Sua Produção",
-    "subtitle": "O único ERP brasileiro exclusivo para vinícolas, agora disponível globalmente",
+    "subtitle": "ERP brasileiro especializado em vinícolas, agora disponível globalmente",
     "description": "<strong>ERP completo para vinícolas com suporte multilíngue nativo.</strong> Gerencie cada etapa da produção de vinhos, espumantes e sucos com o Bacco ERP. <strong>Disponível em Português, Inglês, Espanhol, Italiano, Francês e Alemão</strong> - traduções profissionais, não apenas superficiais. Rastreabilidade completa, monitoramento em tempo real, inteligência artificial integrada e gestão unificada. Inclui <strong>Bacco-Campo</strong> para gestão no vinhedo e <strong>Bacco-Comanda</strong> para PDV e enoturismo.",
     "ctaDemo": "Agendar Demo",
     "ctaSystem": "Ver Sistema em Ação",
@@ -186,15 +186,15 @@
       },
       "fiscalNotes": {
         "title": "Notas Fiscais",
-        "description": "Emissão de notas fiscais com integração Webmania, controle fiscal e compliance regulatório."
+        "description": "Emissão de notas fiscais com integração FocusNFe, controle fiscal e compliance regulatório."
       },
       "sivibe": {
         "title": "SIVIBE",
         "description": "Sistema de Informações Vinícolas e Bebidas - Declarações regulatorias (Lei 7.678/1988) com alertas de prazos."
       },
       "envin": {
-        "title": "ENVIN",
-        "description": "Módulo de compliance para declarações ENVIN, garantindo conformidade regulatória completa."
+        "title": "SISDEVIN",
+        "description": "Módulo declaratório do vinho junto ao IBRAVIN, garantindo conformidade regulatória para as vinícolas do Rio Grande do Sul."
       },
       "enotourism": {
         "title": "Enoturismo",
@@ -681,7 +681,7 @@
       "cards": {
         "unique": {
           "badge": "#1 no Brasil",
-          "title": "Único ERP Brasileiro Exclusivo",
+          "title": "ERP Brasileiro Especializado em Vinícolas",
           "description": "<strong>Desenvolvido exclusivamente para vinícolas</strong> - não é adaptação de sistema genérico. Nascido para atender as necessidades específicas do mercado brasileiro."
         },
         "editor": {
@@ -728,7 +728,7 @@
       },
       "compliance": {
         "title": "Compliance Brasileiro",
-        "description": "SIVIBE e ENVIN integrados nativamente. ERPs globais exigem customizações caras e complexas para atender regulamentações brasileiras."
+        "description": "SIVIBE e SISDEVIN integrados nativamente. ERPs globais exigem customizações caras e complexas para atender regulamentações brasileiras."
       },
       "enotourism": {
         "title": "Enoturismo Exclusivo",
@@ -747,7 +747,7 @@
       "specialization": {
         "category": "Especialização",
         "feature": "Desenvolvido exclusivamente para vinícolas brasileiras",
-        "description": "Único ERP brasileiro nascido para atender vinícolas, não é adaptação de sistema genérico"
+        "description": "ERP brasileiro nascido para atender vinícolas, não é adaptação de sistema genérico"
       },
       "ai": {
         "category": "Inteligência Artificial",
@@ -761,7 +761,7 @@
       },
       "compliance": {
         "category": "Compliance Brasileiro",
-        "feature": "SIVIBE e ENVIN integrados",
+        "feature": "SIVIBE e SISDEVIN integrados",
         "description": "Conformidade total com regulamentações brasileiras (Lei 7.678/1988) e declarações obrigatórias"
       },
       "enotourism": {
@@ -1370,7 +1370,7 @@
       {
         "heading": "3. Finalidade do Tratamento",
         "paragraphs": [
-          "Os dados são utilizados para prestar e aprimorar o serviço, cumprir obrigações legais (incluindo SIVIBE/ENVIN) e garantir segurança e rastreabilidade.",
+          "Os dados são utilizados para prestar e aprimorar o serviço, cumprir obrigações legais (incluindo SIVIBE/SISDEVIN) e garantir segurança e rastreabilidade.",
           "Nunca vendemos seus dados."
         ]
       },
@@ -1502,7 +1502,7 @@
           "status": "full",
           "items": [
             "SIVIBE",
-            "ENVIN",
+            "SISDEVIN",
             "MAPA",
             "NF-e"
           ],
@@ -1613,7 +1613,7 @@
     "items": {
       "whatIsBacco": {
         "question": "O que e o Bacco ERP?",
-        "answer": "O Bacco e um sistema ERP completo desenvolvido exclusivamente para vinicolas. Ele gerencia todo o processo produtivo, desde o vinhedo ate a garrafa, incluindo gestao de vinhedos, vinificacao, controle de qualidade, estoque, vendas, financeiro e enoturismo. E o unico ERP brasileiro 100% especializado em vinicolas."
+        "answer": "O Bacco é um sistema ERP completo desenvolvido exclusivamente para vinícolas. Ele gerencia todo o processo produtivo, desde o vinhedo até a garrafa, incluindo gestão de vinhedos, vinificação, controle de qualidade, estoque, vendas, financeiro e enoturismo. É um ERP brasileiro especializado em vinícolas."
       },
       "countries": {
         "question": "Para quais paises o Bacco esta disponivel?",
@@ -1650,6 +1650,22 @@
       "dataImport": {
         "question": "Posso importar dados de outros sistemas?",
         "answer": "Sim! Nossa equipe auxilia na migracao de dados de planilhas ou outros sistemas. O processo e acompanhado para garantir que todo o historico da sua vinicola seja preservado e organizado no Bacco."
+      },
+      "bestForSmallWineries": {
+        "question": "Qual o melhor sistema para pequenas vinícolas?",
+        "answer": "O Bacco ERP atende pequenas vinícolas com cadastro de talhão, controle de lote, custo de produção e emissão de NF-e/NFC-e desde o rótulo boutique até a cantina de garagem já formalizada, sem precisar adaptar um ERP genérico feito para outro setor."
+      },
+      "issuesWineInvoice": {
+        "question": "O Bacco ERP emite nota fiscal de vinho?",
+        "answer": "Sim. O Bacco ERP emite NF-e e NFC-e (com contingência de NFC-e) via FocusNFe, além de NFS-e, com DIFAL, substituição tributária por UF e IPI. O SISDEVIN gera a guia no layout oficial do IBRAVIN a partir dos mesmos dados de produção."
+      },
+      "taxReformReady": {
+        "question": "O Bacco ERP está adequado à reforma tributária (IBS/CBS)?",
+        "answer": "Sim. IBS e CBS são calculados com controle por vigência e regime, alíquotas em tabela por vigência, e CST 000 / cClassTrib 000001 para vinho já no payload da NF-e. O Imposto Seletivo tem o fato gerador identificado, mas o valor fica deliberadamente sem cálculo até a lei ordinária definir a alíquota."
+      },
+      "harvestAndVinificationControl": {
+        "question": "O sistema faz controle de safra e de vinificação?",
+        "answer": "Sim. O controle de safra vai da ordem de colheita planejada à recepção de uva com pesagem e amostragem, gerando o lote automaticamente. Na vinificação, tanques e barricas ficam num painel só, com protocolos de dose planejada x calculada x executada, blends, análises laboratoriais por lote e curva de fermentação classificada por IA com o densímetro RAPT Pill."
       }
     }
   },
@@ -1657,8 +1673,8 @@
     "back": "Voltar ao site",
     "hero": {
       "badge": "100% Brasileiro",
-      "title": "O Unico ERP Brasileiro Desenvolvido Exclusivamente para Vinicolas",
-      "subtitle": "Compliance total com SIVIBE, ENVIN, MAPA e NF-e. Desenvolvido por quem entende de vinho para quem vive do vinho.",
+      "title": "ERP Brasileiro Desenvolvido Exclusivamente para Vinícolas",
+      "subtitle": "Compliance total com SIVIBE, SISDEVIN, MAPA e NF-e. Desenvolvido por quem entende de vinho para quem vive do vinho.",
       "ctaDemo": "Solicitar Demonstracao Gratuita",
       "ctaFeatures": "Ver Funcionalidades"
     },
@@ -1671,10 +1687,6 @@
           "title": "SIVIBE",
           "description": "Sistema de Informacoes Vinicolas e Bebidas. Gere declaracoes obrigatorias da Lei 7.678/1988 com alertas automaticos de prazos e controle completo de compliance."
         },
-        "envin": {
-          "title": "ENVIN",
-          "description": "Modulo completo para declaracoes ENVIN com exportacao nos formatos exigidos pelo governo, garantindo conformidade regulatoria total."
-        },
         "sisdevin": {
           "title": "SISDEVIN",
           "description": "Sistema Declaratorio do Vinho do IBRAVIN. Gere as declaracoes de safra, producao, comercializacao e estoque exigidas das vinicolas do Rio Grande do Sul, exportadas nos formatos oficiais."
@@ -1685,7 +1697,7 @@
         },
         "nfe": {
           "title": "NF-e / NFC-e",
-          "description": "Emissao de notas fiscais eletronicas integrada via Webmania. Controle fiscal completo com NCM, CFOP e tributacao especifica para vinhos."
+          "description": "Emissao de notas fiscais eletronicas integrada via FocusNFe. Controle fiscal completo com NCM, CFOP e tributacao especifica para vinhos."
         }
       },
       "highlight": {
@@ -1808,9 +1820,9 @@
       "title": "Integrado com Sistemas Brasileiros",
       "subtitle": "O Bacco se conecta nativamente com os principais sistemas e servicos brasileiros para automatizar sua operacao.",
       "items": {
-        "webmania": {
+        "focusnfe": {
           "badge": "Notas Fiscais",
-          "title": "Webmania NF-e",
+          "title": "FocusNFe NF-e",
           "description": "Emissao automatica de NF-e, NFC-e e NFS-e direto do sistema com validacao SEFAZ em tempo real."
         },
         "rapt": {
@@ -1837,7 +1849,7 @@
       "items": {
         "guides": {
           "title": "Guias de Conformidade",
-          "description": "Documentacao detalhada sobre SIVIBE, ENVIN e MAPA"
+          "description": "Documentacao detalhada sobre SIVIBE, SISDEVIN e MAPA"
         },
         "templates": {
           "title": "Templates de Relatorios",
@@ -2945,5 +2957,51 @@
       }
     },
     "footnote": "Comparativo elaborado em agosto de 2026 a partir de material publicado pelos próprios fornecedores — sites de produto, tabelas de planos e documentos legais. As marcas citadas pertencem aos seus respectivos titulares. Encontrou alguma informação desatualizada? Escreva para comercial@bacco-erp.com e corrigimos em até 5 dias úteis."
+  },
+  "wineriesBySize": {
+    "badge": "Para vinícolas de cada porte",
+    "title": "ERP para vinícolas de todos os portes",
+    "subtitle": "Multiempresa, multidepósito e multi-CNPJ no fiscal: a mesma estrutura do Bacco ERP atende desde o produtor boutique até operações com mais de uma empresa.",
+    "sizes": {
+      "small": {
+        "title": "ERP para pequenas vinícolas",
+        "description": "Do rótulo boutique à cantina de garagem já formalizada: cadastro de talhão, controle de lote e emissão de NF-e/NFC-e sem precisar adaptar um ERP genérico feito para outro setor."
+      },
+      "medium": {
+        "title": "ERP para médias vinícolas",
+        "description": "Multidepósito, custo por lote (viticultura, vinificação, envase) e vinificação com painel de tanques e barricas para quem já opera mais de um talhão ou linha de produção."
+      },
+      "large": {
+        "title": "ERP para grandes vinícolas",
+        "description": "Estrutura multiempresa e multi-CNPJ no módulo fiscal, para operações com mais de uma razão social, mais de um depósito ou mais de uma unidade produtiva."
+      }
+    }
+  },
+  "productionDetail": {
+    "badge": "Do vinhedo à nota fiscal",
+    "title": "Controle de safra, vinhedo, vinificação e fiscal em um só sistema",
+    "subtitle": "Cada etapa da produção, do talhão à nota fiscal, com o detalhe que uma planilha ou um ERP genérico não têm.",
+    "topics": {
+      "harvest": {
+        "title": "Controle de safra",
+        "description": "Ordem de colheita planejada (kg e Brix previstos) até a execução (kg colhidos, Brix médio, nota de qualidade). A recepção de uva registra pesagem de bruto, tara e líquido, com amostragem, e gera o lote automaticamente. Rendimento apurado por safra."
+      },
+      "vineyard": {
+        "title": "Gestão de vinhedos",
+        "description": "Vinhedos e talhões com polígono no mapa, número de pés, variedade, porta-enxerto, clone e espaçamento. Caderno de campo com as tarefas de manejo por talhão e safra, fenologia por graus-dia (GDD) acumulados, ocorrências fitossanitárias georreferenciadas com foto e severidade, e aplicações de defensivo registradas por talhão e safra."
+      },
+      "vinification": {
+        "title": "Controle de vinificação",
+        "description": "Tanques e barricas num painel só, com ocupação e histórico. Barrica com renovação, depreciação e atesto. Protocolos de vinificação com dose planejada, calculada e executada, cortes e blends, análises laboratoriais por lote, e curva de fermentação classificada por IA (normal, rápida, lenta ou estagnada) a partir do densímetro RAPT Pill. Custo por lote somando viticultura, vinificação, indireto rateado por safra e envase."
+      },
+      "fiscalNote": {
+        "title": "Emissão de nota fiscal de vinho",
+        "description": "NF-e e NFC-e via FocusNFe, com contingência de NFC-e, além de NFS-e, DIFAL, substituição tributária por UF e IPI. O SISDEVIN gera a guia no layout oficial do IBRAVIN a partir dos mesmos dados de produção."
+      },
+      "taxReform": {
+        "title": "Adequado à reforma tributária",
+        "description": "IBS e CBS calculados com controle por vigência e regime, alíquotas em tabela por vigência, e CST 000 / cClassTrib 000001 para vinho já no payload da NF-e. O Imposto Seletivo tem o fato gerador identificado; o valor fica deliberadamente sem cálculo até a lei ordinária que vai definir a alíquota ser publicada."
+      }
+    }
   }
 }

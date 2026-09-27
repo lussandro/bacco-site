@@ -56,7 +56,7 @@ export function Countries() {
       description: t("items.brazil.description"),
       features: [
         { name: "SIVIBE", description: t("items.brazil.features.sivibe") },
-        { name: "ENVIN", description: t("items.brazil.features.envin") },
+        { name: "SISDEVIN", description: t("items.brazil.features.envin") },
         { name: "MAPA", description: t("items.brazil.features.mapa") },
         { name: "NF-e", description: t("items.brazil.features.nfe") },
       ],

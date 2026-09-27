@@ -11,12 +11,12 @@
   "seo": {
     "organizationDescription": "Sistema ERP completo per cantine con supporto multilingue (Portoghese (Brasile), Portoghese (Portogallo), Inglese, Spagnolo, Italiano, Francese e Tedesco)",
     "contactType": "Supporto",
-    "softwareDescription": "ERP completo per la gestione di cantine con IA, tracciabilità, conformità SIVIBE/ENVIN e modulo enoturismo",
+    "softwareDescription": "ERP completo per la gestione di cantine con IA, tracciabilità, conformità SIVIBE/SISDEVIN e modulo enoturismo",
     "featureList": {
       "vineyardManagement": "Gestione del vigneto",
       "aiWinemaking": "AI Winemaking",
       "traceability": "Tracciabilità completa",
-      "compliance": "Conformità SIVIBE ed ENVIN",
+      "compliance": "Conformità SIVIBE e SISDEVIN",
       "enotourism": "Wine Tourism",
       "pos": "Integrated POS",
       "mobileApps": "App Mobili (Bacco-Campo e Bacco-Comanda)"
@@ -57,7 +57,7 @@
       "description": "Vigneto, produzione e qualità"
     },
     "badgeMultilingual": "🌍 Disponibile in 7 Lingue",
-    "subtitle": "L'unico ERP brasiliano esclusivo per cantine, ora disponibile globalmente",
+    "subtitle": "ERP brasiliano specializzato in cantine, ora disponibile globalmente",
     "trustBadges": {
       "brazilian": "100% Brasiliano",
       "global": "Pronto per il Mondo",
@@ -186,15 +186,15 @@
       },
       "fiscalNotes": {
         "title": "Fiscal Notes",
-        "description": "Emissione di note fiscali con integrazione Webmania, controllo fiscale e conformità normativa."
+        "description": "Emissione di note fiscali con integrazione FocusNFe, controllo fiscale e conformità normativa."
       },
       "sivibe": {
         "title": "SIVIBE",
         "description": "Sistema Informativo Vino e Bevande - Dichiarazioni normative (Legge 7.678/1988) con avvisi di scadenza."
       },
       "envin": {
-        "title": "ENVIN",
-        "description": "Modulo di conformità per le dichiarazioni ENVIN, garantendo la completa conformità normativa."
+        "title": "SISDEVIN",
+        "description": "Modulo dichiarativo del vino presso l'IBRAVIN, per le dichiarazioni di raccolta, produzione, commercializzazione e giacenza richieste alle cantine del Rio Grande do Sul."
       },
       "enotourism": {
         "title": "Wine Tourism",
@@ -681,7 +681,7 @@
       "cards": {
         "unique": {
           "badge": "#1 in Brazil",
-          "title": "Unique Exclusive Brazilian ERP",
+          "title": "ERP Brasiliano Specializzato in Cantine",
           "description": "<strong>Sviluppato esclusivamente per le cantine</strong> - non un adattamento di un sistema generico. Nato per soddisfare le esigenze specifiche del mercato brasiliano."
         },
         "editor": {
@@ -728,7 +728,7 @@
       },
       "compliance": {
         "title": "Brazilian Compliance",
-        "description": "SIVIBE ed ENVIN integrati nativamente. Gli ERP globali richiedono personalizzazioni costose e complesse per soddisfare le normative brasiliane."
+        "description": "SIVIBE e SISDEVIN integrati nativamente. Gli ERP globali richiedono personalizzazioni costose e complesse per soddisfare le normative brasiliane."
       },
       "enotourism": {
         "title": "Exclusive Wine Tourism",
@@ -747,7 +747,7 @@
       "specialization": {
         "category": "Specialization",
         "feature": "Sviluppato esclusivamente per le cantine brasiliane",
-        "description": "Only Brazilian ERP born to serve wineries, not an adaptation of a generic system"
+        "description": "ERP brasiliano nato per le cantine, non è un adattamento di un sistema generico"
       },
       "ai": {
         "category": "Artificial Intelligence",
@@ -761,7 +761,7 @@
       },
       "compliance": {
         "category": "Brazilian Compliance",
-        "feature": "SIVIBE ed ENVIN integrati",
+        "feature": "SIVIBE e SISDEVIN integrati",
         "description": "Totale rispetto della normativa brasiliana (Legge 7.678/1988) e delle dichiarazioni obbligatorie"
       },
       "enotourism": {
@@ -1370,7 +1370,7 @@
       {
         "heading": "3. Purpose of Processing",
         "paragraphs": [
-          "I dati vengono utilizzati per fornire e migliorare il servizio, soddisfare gli obblighi legali (incluso SIVIBE/ENVIN) e garantire sicurezza e tracciabilità.",
+          "I dati vengono utilizzati per fornire e migliorare il servizio, soddisfare gli obblighi legali (incluso SIVIBE/SISDEVIN) e garantire sicurezza e tracciabilità.",
           "We never sell your data."
         ]
       },
@@ -1502,7 +1502,7 @@
           "status": "full",
           "items": [
             "SIVIBE",
-            "ENVIN",
+            "SISDEVIN",
             "MAPA",
             "NF-e"
           ],
@@ -1613,7 +1613,7 @@
     "items": {
       "whatIsBacco": {
         "question": "Cos'e Bacco ERP?",
-        "answer": "Bacco e un sistema ERP completo sviluppato esclusivamente per cantine. Gestisce l'intero processo produttivo, dal vigneto alla bottiglia, inclusa la gestione dei vigneti, vinificazione, controllo qualita, inventario, vendite, finanza ed enoturismo. E l'unico ERP brasiliano 100% specializzato in cantine."
+        "answer": "Bacco e un sistema ERP completo sviluppato esclusivamente per cantine. Gestisce l'intero processo produttivo, dal vigneto alla bottiglia, inclusa la gestione dei vigneti, vinificazione, controllo qualita, inventario, vendite, finanza ed enoturismo. E un ERP brasiliano specializzato in cantine."
       },
       "countries": {
         "question": "In quali paesi e disponibile Bacco?",
@@ -1657,8 +1657,8 @@
     "back": "Torna al sito",
     "hero": {
       "badge": "100% Brasiliano",
-      "title": "L'Unico ERP Brasiliano Sviluppato Esclusivamente per Cantine",
-      "subtitle": "Compliance totale con SIVIBE, ENVIN, MAPA e NF-e. Sviluppato da chi capisce il vino per chi vive di vino.",
+      "title": "ERP Brasiliano Sviluppato Esclusivamente per Cantine",
+      "subtitle": "Compliance totale con SIVIBE, SISDEVIN, MAPA e NF-e. Sviluppato da chi capisce il vino per chi vive di vino.",
       "ctaDemo": "Richiedi Demo Gratuita",
       "ctaFeatures": "Vedi Funzionalita"
     },
@@ -1671,10 +1671,6 @@
           "title": "SIVIBE",
           "description": "Sistema Informativo Vitivinicolo e Bevande. Genera dichiarazioni obbligatorie della Legge 7.678/1988 con avvisi automatici di scadenze e controllo completo del compliance."
         },
-        "envin": {
-          "title": "ENVIN",
-          "description": "Modulo completo per dichiarazioni ENVIN con esportazione nei formati richiesti dal governo, garantendo conformita normativa totale."
-        },
         "sisdevin": {
           "title": "SISDEVIN",
           "description": "Sistema Dichiarativo del Vino di IBRAVIN. Genera le dichiarazioni di vendemmia, produzione, commercializzazione e giacenza richieste alle cantine del Rio Grande do Sul, esportate nei formati ufficiali."
@@ -1685,7 +1681,7 @@
         },
         "nfe": {
           "title": "NF-e / NFC-e",
-          "description": "Emissione di fatture elettroniche integrata tramite Webmania. Controllo fiscale completo con NCM, CFOP e tassazione specifica per vini."
+          "description": "Emissione di fatture elettroniche integrata tramite FocusNFe. Controllo fiscale completo con NCM, CFOP e tassazione specifica per vini."
         }
       },
       "highlight": {
@@ -1808,9 +1804,9 @@
       "title": "Integrato con Sistemi Brasiliani",
       "subtitle": "Bacco si connette nativamente con i principali sistemi e servizi brasiliani per automatizzare la tua operazione.",
       "items": {
-        "webmania": {
+        "focusnfe": {
           "badge": "Fatture",
-          "title": "Webmania NF-e",
+          "title": "FocusNFe NF-e",
           "description": "Emissione automatica di NF-e, NFC-e e NFS-e direttamente dal sistema con validazione SEFAZ in tempo reale."
         },
         "rapt": {
@@ -1845,7 +1841,7 @@
       "items": {
         "guides": {
           "title": "Guide alla Conformita",
-          "description": "Documentazione dettagliata su SIVIBE, ENVIN e MAPA"
+          "description": "Documentazione dettagliata su SIVIBE, SISDEVIN e MAPA"
         },
         "templates": {
           "title": "Modelli di Report",

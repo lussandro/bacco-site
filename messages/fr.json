@@ -389,10 +389,6 @@
         "title": "Conformité automatisée"
       },
       "items": {
-        "envin": {
-          "description": "Module complet de déclarations ENVIN avec export dans les formats requis par le gouvernement, garantissant une totale conformité réglementaire.",
-          "title": "ENVIN"
-        },
         "sisdevin": {
           "description": "Système déclaratif du vin d'IBRAVIN. Générez les déclarations de récolte, production, commercialisation et stock exigées des établissements vinicoles du Rio Grande do Sul, exportées dans les formats officiels.",
           "title": "SISDEVIN"
@@ -402,7 +398,7 @@
           "title": "CARTE"
         },
         "nfe": {
-          "description": "Emission de factures électroniques intégrées via Webmania. Contrôle fiscal complet avec NCM, CFOP et fiscalité spécifique aux vins.",
+          "description": "Emission de factures électroniques intégrées via FocusNFe. Contrôle fiscal complet avec NCM, CFOP et fiscalité spécifique aux vins.",
           "title": "NF-e / NFC-e"
         },
         "sivibe": {
@@ -472,12 +468,17 @@
       "badge": "100% brésilien",
       "ctaDemo": "Demander une démo gratuite",
       "ctaFeatures": "Voir les fonctionnalités",
-      "subtitle": "Conformité totale aux normes SIVIBE, ENVIN, MAPA et NF-e. Développé par ceux qui comprennent le vin pour ceux qui vivent du vin.",
-      "title": "Le seul ERP brésilien développé exclusivement pour les domaines viticoles"
+      "subtitle": "Conformité totale aux normes SIVIBE, SISDEVIN, MAPA et NF-e. Développé par ceux qui comprennent le vin pour ceux qui vivent du vin.",
+      "title": "ERP brésilien développé exclusivement pour les domaines viticoles"
     },
     "integrations": {
       "badge": "Intégrations brésiliennes",
       "items": {
+        "focusnfe": {
+          "badge": "Factures",
+          "description": "Émission automatique de NF-e, NFC-e et NFS-e directement depuis le système avec validation SEFAZ en temps réel.",
+          "title": "FocusNFe NF-e"
+        },
         "pix": {
           "badge": "Paiements",
           "description": "Recevez des paiements via PIX directement au point de vente Bacco-Comanda avec confirmation instantanée.",
@@ -487,11 +488,6 @@
           "badge": "IdO",
           "description": "À proposveillance de la température et de la densité en temps réel avec alertes automatiques pendant la fermentation.",
           "title": "RAPT Nuage"
-        },
-        "webmania": {
-          "badge": "Factures",
-          "description": "Émission automatique de NF-e, NFC-e et NFS-e directement depuis le système avec validation SEFAZ en temps réel.",
-          "title": "Webmania NF-e"
         },
         "whatsapp": {
           "badge": "Communication",
@@ -576,7 +572,7 @@
           "title": "Listes de contrôle d'audit"
         },
         "guides": {
-          "description": "Documentation détaillée sur SIVIBE, ENVIN et MAPA",
+          "description": "Documentation détaillée sur SIVIBE, SISDEVIN et MAPA",
           "title": "Guides de conformité"
         },
         "manuals": {
@@ -870,7 +866,7 @@
         "title": "IA pionnière"
       },
       "compliance": {
-        "description": "SIVIBE et ENVIN intégrés nativement. Les ERP mondiaux nécessitent des personnalisations coûteuses et complexes pour se conformer à la réglementation brésilienne.",
+        "description": "SIVIBE et SISDEVIN intégrés nativement. Les ERP mondiaux nécessitent des personnalisations coûteuses et complexes pour se conformer à la réglementation brésilienne.",
         "title": "Conformité brésilienne"
       },
       "enotourism": {
@@ -887,7 +883,7 @@
       "compliance": {
         "category": "Conformité brésilienne",
         "description": "Conformité totale à la réglementation brésilienne (loi 7 678/1988) et aux déclarations obligatoires",
-        "feature": "SIVIBE et ENVIN intégrés"
+        "feature": "SIVIBE et SISDEVIN intégrés"
       },
       "cost": {
         "category": "Coût",
@@ -911,7 +907,7 @@
       },
       "specialization": {
         "category": "Spécialisation",
-        "description": "Le seul ERP brésilien créé pour servir les domaines viticoles, ce n'est pas une adaptation d'un système générique",
+        "description": "ERP brésilien créé pour servir les domaines viticoles, ce n'est pas une adaptation d'un système générique",
         "feature": "Développé exclusivement pour les vignobles brésiliens"
       },
       "support": {
@@ -1088,7 +1084,7 @@
           "status": "full",
           "items": [
             "SIVIBE",
-            "ENVIN",
+            "SISDEVIN",
             "MAPA",
             "NF-e"
           ],
@@ -1357,7 +1353,7 @@
         "unique": {
           "badge": "N°1 au Brésil",
           "description": "<strong>Développé exclusivement pour les domaines viticoles</strong> - pas une adaptation d'un système générique. Né pour répondre aux besoins spécifiques du marché brésilien.",
-          "title": "Seul ERP brésilien exclusif"
+          "title": "ERP brésilien spécialisé dans les domaines viticoles"
         }
       },
       "mission": {
@@ -1410,7 +1406,7 @@
         "question": "Comment fonctionne le support technique ?"
       },
       "whatIsBacco": {
-        "answer": "Bacco est un système ERP complet développé exclusivement pour les domaines viticoles. Il gère l'ensemble du processus de production, du vignoble à la bouteille, en passant par la gestion du vignoble, la vinification, le contrôle qualité, l'inventaire, la vente, la finance et l'œnotourisme. C'est le seul ERP brésilien 100% spécialisé dans les domaines viticoles.",
+        "answer": "Bacco est un système ERP complet développé exclusivement pour les domaines viticoles. Il gère l'ensemble du processus de production, du vignoble à la bouteille, en passant par la gestion du vignoble, la vinification, le contrôle qualité, l'inventaire, la vente, la finance et l'œnotourisme. C'est un ERP brésilien spécialisé dans les domaines viticoles.",
         "question": "Qu’est-ce que l’ERP Bacco ?"
       }
     },
@@ -1440,15 +1436,15 @@
         "title": "Oenotourisme"
       },
       "envin": {
-        "description": "Module de conformité pour les déclarations ENVIN, garantissant une conformité réglementaire totale.",
-        "title": "ENVIN"
+        "description": "Module déclaratif du vin aupres de l'IBRAVIN, garantissant une conformite reglementaire pour les domaines viticoles du Rio Grande do Sul.",
+        "title": "SISDEVIN"
       },
       "financial": {
         "description": "Comptes créditeurs/clients, flux de trésorerie, contrôle financier complet intégré aux ventes et aux achats.",
         "title": "Financier complet"
       },
       "fiscalNotes": {
-        "description": "Émission de factures avec intégration Webmania, contrôle fiscal et conformité réglementaire.",
+        "description": "Émission de factures avec intégration FocusNFe, contrôle fiscal et conformité réglementaire.",
         "title": "Factures"
       },
       "grapeReception": {
@@ -2174,7 +2170,7 @@
       {
         "heading": "3. Finalités du Traitement",
         "paragraphs": [
-          "Les données sont traitées afin de fournir, sécuriser et améliorer le service, ainsi que pour satisfaire aux obligations légales et réglementaires applicables (y compris SIVIBE/ENVIN).",
+          "Les données sont traitées afin de fournir, sécuriser et améliorer le service, ainsi que pour satisfaire aux obligations légales et réglementaires applicables (y compris SIVIBE/SISDEVIN).",
           "Bacco ERP ne vend pas de données personnelles."
         ]
       },
@@ -2369,7 +2365,7 @@
     "contactType": "Support",
     "featureList": {
       "aiWinemaking": "Vinification avec l'IA",
-      "compliance": "Conformité SIVIBE et ENVIN",
+      "compliance": "Conformité SIVIBE et SISDEVIN",
       "enotourism": "Oenotourisme",
       "mobileApps": "Applications mobiles (Bacco-Campo et Bacco-Comanda)",
       "pos": "PDV intégré",
@@ -2378,7 +2374,7 @@
     },
     "home": "Commencer",
     "organizationDescription": "Système ERP complet pour domaines viticoles avec support multilingue (Portugais (Brésil), Portugais (Portugal), Anglais, Espagnol, Italien, Français et Allemand)",
-    "softwareDescription": "ERP complet pour la gestion de domaine viticole avec IA, traçabilité, conformité SIVIBE/ENVIN et module oenotourisme"
+    "softwareDescription": "ERP complet pour la gestion de domaine viticole avec IA, traçabilité, conformité SIVIBE/SISDEVIN et module oenotourisme"
   },
   "terms": {
     "title": "Conditions d'utilisation",

@@ -11,12 +11,12 @@
   "seo": {
     "organizationDescription": "Komplettes ERP-System für Weingüter mit mehrsprachiger Unterstützung (Portugiesisch (Brasilien), Portugiesisch (Portugal), Englisch, Spanisch, Italienisch, Französisch und Deutsch)",
     "contactType": "Unterstützung",
-    "softwareDescription": "Komplettes ERP für das Weingut-Management mit KI, Rückverfolgbarkeit, SIVIBE/ENVIN-Compliance und Weintourismus-Modul",
+    "softwareDescription": "Komplettes ERP für das Weingut-Management mit KI, Rückverfolgbarkeit, SIVIBE/SISDEVIN-Compliance und Weintourismus-Modul",
     "featureList": {
       "vineyardManagement": "Weinbergsmanagement",
       "aiWinemaking": "AI Winemaking",
       "traceability": "Lückenlose Rückverfolgbarkeit",
-      "compliance": "SIVIBE- und ENVIN-Konformität",
+      "compliance": "SIVIBE- und SISDEVIN-Konformität",
       "enotourism": "Weintourismus",
       "pos": "Integrierter Pos",
       "mobileApps": "Mobile Apps (Bacco-Campo und Bacco-Comanda)"
@@ -57,7 +57,7 @@
       "description": "Weinberg, Produktion und Qualität"
     },
     "badgeMultilingual": "🌍 Verfügbar in 7 Sprachen",
-    "subtitle": "Das einzige brasilianische ERP exklusiv für Weingüter, jetzt weltweit verfügbar",
+    "subtitle": "Brasilianisches ERP exklusiv für Weingüter, jetzt weltweit verfügbar",
     "trustBadges": {
       "brazilian": "100% Brasilianisch",
       "global": "Bereit für die Welt",
@@ -186,15 +186,15 @@
       },
       "fiscalNotes": {
         "title": "Steuererklärungen",
-        "description": "Ausgabe von Steuervermerken mit Webmania-Integration, Steuerkontrolle und Einhaltung gesetzlicher Vorschriften."
+        "description": "Ausgabe von Steuervermerken mit FocusNFe-Integration, Steuerkontrolle und Einhaltung gesetzlicher Vorschriften."
       },
       "sivibe": {
         "title": "SIVIBE",
         "description": "Wein- und Getränkeinformationssystem - Regulatorische Erklärungen (Gesetz 7.678/1988) mit Fristbenachrichtigungen."
       },
       "envin": {
-        "title": "ENVIN",
-        "description": "Compliance-Modul für ENVIN-Erklärungen, um die vollständige Einhaltung der Vorschriften zu gewährleisten."
+        "title": "SISDEVIN",
+        "description": "Deklarationssystem für Wein beim IBRAVIN, fuer Ernte-, Produktions-, Verkaufs- und Bestandsmeldungen der Weingueter in Rio Grande do Sul."
       },
       "enotourism": {
         "title": "Weintourismus",
@@ -681,7 +681,7 @@
       "cards": {
         "unique": {
           "badge": "Nr.1 in Brasilien",
-          "title": "Einzigartiges exklusives brasilianisches ERP",
+          "title": "Brasilianisches ERP für Weingüter",
           "description": "<strong>Exklusiv für Weingüter entwickelt</strong> - keine Anpassung eines generischen Systems. Geboren, um die spezifischen Bedürfnisse des brasilianischen Marktes zu erfüllen."
         },
         "editor": {
@@ -728,7 +728,7 @@
       },
       "compliance": {
         "title": "Brasilianische Compliance",
-        "description": "SIVIBE und ENVIN nativ integriert. Globale ERPs erfordern teure und komplexe Anpassungen, um die brasilianischen Vorschriften zu erfüllen."
+        "description": "SIVIBE und SISDEVIN nativ integriert. Globale ERPs erfordern teure und komplexe Anpassungen, um die brasilianischen Vorschriften zu erfüllen."
       },
       "enotourism": {
         "title": "Exklusiver Weintourismus",
@@ -747,7 +747,7 @@
       "specialization": {
         "category": "Specialization",
         "feature": "Exklusiv für brasilianische Weingüter entwickelt",
-        "description": "Nur brasilianisches ERP, das für Weingüter entwickelt wurde, keine Adaption eines generischen Systems"
+        "description": "Brasilianisches ERP, das für Weingüter entwickelt wurde, keine Adaption eines generischen Systems"
       },
       "ai": {
         "category": "Artificial Intelligence",
@@ -761,7 +761,7 @@
       },
       "compliance": {
         "category": "Brasilianische Compliance",
-        "feature": "SIVIBE und ENVIN integriert",
+        "feature": "SIVIBE und SISDEVIN integriert",
         "description": "Vollständige Einhaltung der brasilianischen Vorschriften (Gesetz 7.678/1988) und obligatorischen Erklärungen"
       },
       "enotourism": {
@@ -1370,7 +1370,7 @@
       {
         "heading": "3. Purpose of Processing",
         "paragraphs": [
-          "Daten werden verwendet, um den Service bereitzustellen und zu verbessern, rechtliche Verpflichtungen (einschließlich SIVIBE/ENVIN) zu erfüllen und Sicherheit und Rückverfolgbarkeit zu gewährleisten.",
+          "Daten werden verwendet, um den Service bereitzustellen und zu verbessern, rechtliche Verpflichtungen (einschließlich SIVIBE/SISDEVIN) zu erfüllen und Sicherheit und Rückverfolgbarkeit zu gewährleisten.",
           "We never sell your data."
         ]
       },
@@ -1502,7 +1502,7 @@
           "status": "full",
           "items": [
             "SIVIBE",
-            "ENVIN",
+            "SISDEVIN",
             "MAPA",
             "NF-e"
           ],
@@ -1613,7 +1613,7 @@
     "items": {
       "whatIsBacco": {
         "question": "What is Bacco ERP?",
-        "answer": "Bacco ist ein komplettes ERP-System, das exklusiv für Weingüter entwickelt wurde. Es verwaltet den gesamten Produktionsprozess vom Weinberg bis zur Flasche, einschließlich Weinbergmanagement, Weinbereitung, Qualitätskontrolle, Inventar, Verkauf, Finanzen und Weintourismus. Es ist das einzige brasilianische ERP, das zu 100 % auf Weingüter spezialisiert ist."
+        "answer": "Bacco ist ein komplettes ERP-System, das exklusiv für Weingüter entwickelt wurde. Es verwaltet den gesamten Produktionsprozess vom Weinberg bis zur Flasche, einschließlich Weinbergmanagement, Weinbereitung, Qualitätskontrolle, Inventar, Verkauf, Finanzen und Weintourismus. Es ist ein brasilianisches ERP, das auf Weingüter spezialisiert ist."
       },
       "countries": {
         "question": "In welchen Laendern ist Bacco verfuegbar?",
@@ -1657,8 +1657,8 @@
     "back": "Zurück zur Website",
     "hero": {
       "badge": "100% Brasilianisch",
-      "title": "Das einzige brasilianische ERP, das ausschließlich für Weingüter entwickelt wurde",
-      "subtitle": "Vollständige Einhaltung von SIVIBE, ENVIN, MAPA und NF-e. Entwickelt von denen, die Wein verstehen, für diejenigen, die vom Wein leben.",
+      "title": "Brasilianisches ERP, das ausschließlich für Weingüter entwickelt wurde",
+      "subtitle": "Vollständige Einhaltung von SIVIBE, SISDEVIN, MAPA und NF-e. Entwickelt von denen, die Wein verstehen, für diejenigen, die vom Wein leben.",
       "ctaDemo": "Fragen Sie eine Demo an",
       "ctaFeatures": "See Features"
     },
@@ -1671,10 +1671,6 @@
           "title": "SIVIBE",
           "description": "Wein- und Getränkeinformationssystem. Generieren Sie verbindliche Erklärungen gemäß Gesetz 7.678/1988 mit automatischen Fristwarnungen und vollständiger Compliance-Kontrolle."
         },
-        "envin": {
-          "title": "ENVIN",
-          "description": "Komplettes Modul für ENVIN-Erklärungen mit Export in staatlich vorgeschriebene Formate, um die vollständige Einhaltung gesetzlicher Vorschriften sicherzustellen."
-        },
         "sisdevin": {
           "title": "SISDEVIN",
           "description": "Weindeklarationssystem von IBRAVIN. Generieren Sie die von den Weingütern in Rio Grande do Sul geforderten Ernte-, Produktions-, Vermarktungs- und Bestandserklärungen, exportiert in den offiziellen Formaten."
@@ -1685,7 +1681,7 @@
         },
         "nfe": {
           "title": "NF-e / NFC-e",
-          "description": "Integrierte elektronische Rechnungsausstellung über Webmania. Vollständige Steuerkontrolle mit NCM, CFOP und weinspezifischer Besteuerung."
+          "description": "Integrierte elektronische Rechnungsausstellung über FocusNFe. Vollständige Steuerkontrolle mit NCM, CFOP und weinspezifischer Besteuerung."
         }
       },
       "highlight": {
@@ -1808,9 +1804,9 @@
       "title": "Integriert in brasilianische Systeme",
       "subtitle": "Bacco verbindet sich nativ mit den wichtigsten brasilianischen Systemen und Diensten, um Ihren Betrieb zu automatisieren.",
       "items": {
-        "webmania": {
+        "focusnfe": {
           "badge": "Invoices",
-          "title": "Webmania NF-e",
+          "title": "FocusNFe NF-e",
           "description": "Automatische Ausstellung von NF-e, NFC-e und NFS-e direkt vom System mit SEFAZ-Validierung in Echtzeit."
         },
         "rapt": {
@@ -1845,7 +1841,7 @@
       "items": {
         "guides": {
           "title": "Compliance Guides",
-          "description": "Ausführliche Dokumentation zu SIVIBE, ENVIN und MAPA"
+          "description": "Ausführliche Dokumentation zu SIVIBE, SISDEVIN und MAPA"
         },
         "templates": {
           "title": "Report Templates",
