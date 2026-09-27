@@ -1,58 +1,4 @@
 {
-  "about": {
-    "history": {
-      "badge": "Histoire",
-      "subtitle": "Un voyage qui allie technologie et passion du vin",
-      "text": {
-        "p1": "Mon parcours technologique a commencé bien avant le cloud, les conteneurs et DevOps. Dans les années 90, j'explorais déjà l'univers du code avec Clipper et DBASE, à l'époque où la programmation était un art presque manuel, réalisé ligne par ligne, avec patience et curiosité.",
-        "p2": "Au fil du temps, j'ai évolué avec les langages et les outils : je suis passé par Visual Basic, où j'ai appris à donner vie à des interfaces graphiques, puis j'ai plongé tête première dans le monde de Python et Node.js avec TypeScript, en créant des API, des systèmes SaaS et des solutions évolutives.",
-        "p3": "À partir de 2015, je me suis découvert une nouvelle passion dans le domaine de la technologie : DevOps. C'est à ce moment-là que j'ai commencé à intégrer le développement dans l'infrastructure, à automatiser les pipelines, à orchestrer les conteneurs et à faire du cycle de déploiement un processus continu, sûr et prévisible. <strong>Cette transition m'a appris quelque chose que je porte encore aujourd'hui : un système est vivant et, comme tout organisme, il a besoin d'équilibre, de soins et d'une évolution constante.</strong>",
-        "p4": "Mais, en dehors du code, il y a une autre partie de moi qui recherche aussi cet équilibre : le vin. Il y a plus de 20 ans, il est entré dans ma vie, d’abord par curiosité, puis par passion. En 2023, j'ai suivi le cours de sommelier et, inspiré par mon ami Elisson Manfroi, je me suis lancé dans le hobby de la « vigne », élaborant mes propres vins à la main.",
-        "p5": "Cette année, j'ai décidé d'aller plus loin et j'ai commencé à étudier l'Œnologie, alliant science et sensibilité pour comprendre chaque détail du processus de vinification.",
-        "quote": "« Aujourd'hui, ces deux passions – la technologie et le vin – vont de pair. Entre les pipelines et les barriques, j'ai trouvé mon espace : transformer les connaissances en outils qui responsabilisent ceux qui vivent du raisin et du vin."
-      },
-      "timeline": {
-        "devops": {
-          "description": "Automatisation et évolutivité",
-          "period": "2015+",
-          "title": "DevOps et Cloud"
-        },
-        "enology": {
-          "description": "Science et sensibilité",
-          "period": "2025",
-          "title": "Faculté d'Œnologie"
-        },
-        "nineties": {
-          "description": "Programmation ligne par ligne",
-          "period": "années 90",
-          "title": "Clipper et DBASE"
-        },
-        "sommelier": {
-          "description": "Passion pour le vin",
-          "period": "2023",
-          "title": "Cours de Sommelier"
-        }
-      },
-      "title": "Un peu d'histoire"
-    },
-    "origin": {
-      "badge": "Origine",
-      "subtitle": "Comment est née l'idée de créer un ERP exclusif pour les domaines viticoles",
-      "text": {
-        "extra1": "Plus qu'un simple logiciel, Bacco représente une vision de l'avenir du vin brésilien : moderne, authentique et fait avec une âme. Un système qui comprend que chaque lot a une histoire, chaque fermentation un rythme et chaque vin une identité.",
-        "extra2": "Bacco n'est pas qu'un ERP. C'est le résultat de décennies d'expérience dans la technologie et de la passion du vin. C'est l'outil que j'aurais aimé avoir lorsque j'ai commencé mes études d'œnologie.",
-        "p1": "L'idée de Bacco est née d'un réel besoin : alors que je produisais mes propres vins à la main, je me suis rendu compte qu'il n'existait pas sur le marché de système de gestion qui comprenne réellement les particularités de la production vitivinicole.",
-        "p2": "Les systèmes disponibles étaient pour la plupart des adaptations d'ERP génériques ou des traductions superficielles de logiciels étrangers qui ne prenaient pas en compte les cépages, les pratiques locales, les réglementations spécifiques ou les besoins des petites et moyennes domaines viticoles.",
-        "p3": "C’est alors que j’ai décidé de combiner mes deux passions – la technologie et le vin – pour créer quelque chose d’unique : un ERP développé de toutes pièces, conçu pour les domaines viticoles, mais avec des normes internationales de qualité et de traçabilité. Aujourd'hui, Bacco est disponible en 7 langues (portugais (Brésil), portugais (Portugal), anglais, espagnol, italien, français et allemand), au service des domaines viticoles du monde entier.",
-        "p4": "Bacco n'est pas qu'un logiciel. C'est le résultat d'années d'expérience dans le développement de systèmes, de connaissances techniques en œnologie et d'une profonde compréhension des besoins réels de ceux qui produisent du vin. Avec un support multilingue, nous apportons cette solution aux domaines viticoles de différents pays."
-      },
-      "title": "L'origine du bacco",
-      "whyBacco": {
-        "description": "Bacco est un hommage à Bacco, le dieu romain du vin, des vendanges et de la fertilité. Nous avons choisi cette référence non seulement pour son lien avec le vin, mais aussi pour sa symbolique : Bacco représente la transformation, la célébration et l'union entre la nature et la culture – des valeurs qui reflètent parfaitement l'essence de notre système.",
-        "title": "Pourquoi Bacco ?"
-      }
-    }
-  },
   "aiAlerts": {
     "badge": "Alertes basées sur l'IA",
     "cta": "Les alertes IA de Bacco vous aident à prendre des décisions proactives, à prévenir les problèmes et à optimiser chaque étape de la production.",
@@ -298,32 +244,6 @@
       "subtitle": "Matériel de support complet pour le respect de la réglementation du secteur vitivinicole argentin.",
       "title": "Documentation réglementaire"
     }
-  },
-  "benefits": {
-    "items": {
-      "integrated": {
-        "description": "Vignoble, production, laboratoire et qualité en un seul endroit",
-        "label": "Gestion intégrée",
-        "stat": "360°"
-      },
-      "realtime": {
-        "description": "Alertes automatiques de température, de densité et d’analyse",
-        "label": "À proposveillance en temps réel",
-        "stat": "En temps réel"
-      },
-      "reports": {
-        "description": "Tableaux de bord et indicateurs pour la prise de décision",
-        "label": "Rapports intelligents",
-        "stat": "24h/24 et 7j/7"
-      },
-      "traceability": {
-        "description": "Du vignoble à la bouteille, suivez chaque étape de la production",
-        "label": "Traçabilité complète",
-        "stat": "100%"
-      }
-    },
-    "subtitle": "Transformez la gestion de votre domaine viticole avec une technologie de pointe et un contrôle total de la production.",
-    "title": "Pourquoi choisir Bacco ?"
   },
   "clients": {
     "badge": "Clients",
@@ -1189,184 +1109,6 @@
       }
     }
   },
-  "cta": {
-    "email": "E-mail",
-    "emailAddress": "lussandro@gmail.com",
-    "phone": "+55 48 99197-2220",
-    "subtitle": "Notre equipe vous aide a valider la conformite et a definir le flux ideal pour votre marche.",
-    "title": "Parlez avec un Specialiste de Votre Pays",
-    "whatsapp": "WhatsApp"
-  },
-  "differentials": {
-    "badge": "Pourquoi Bacco ?",
-    "items": {
-      "ai": {
-        "badge": "IA avancée",
-        "description": "Système intelligent qui non seulement enregistre, mais agit activement dans le processus de production avec l'IA dans plusieurs modules.",
-        "highlights": [
-          "IA de vinification : suggère des corrections et optimise les processus en fonction de l'analyse",
-          "Weather AI : analyse climatique avec prévisions et recommandations automatiques",
-          "Calendrier de gestion avec IA : suggestions basées sur le terroir viticole",
-          "Moteur de règles : résout les opérations en fonction du YAN, de la densité ou du pH"
-        ],
-        "title": "Intelligence artificielle intégrée"
-      },
-      "architecture": {
-        "badge": "Technologie de pointe",
-        "description": "Construit avec les technologies les plus modernes du marché, prêt à évoluer avec votre entreprise.",
-        "highlights": [
-          "React + Noeud + Kubernetes + Redis + PostgreSQL",
-          "Multi-tenant idéal pour le SaaS",
-          "API prête pour l'IoT et l'automatisation des réservoirs",
-          "Contrairement aux systèmes existants limités et fermés"
-        ],
-        "title": "Architecture moderne et évolutive"
-      },
-      "brazilian": {
-        "badge": "Prêt pour le monde entier",
-        "description": "Développé au Brésil, mais préparé pour le monde. Disponible en portugais, anglais, espagnol, italien, français et allemand. Prise en charge totale des pratiques locales et des normes internationales.",
-        "highlights": [
-          "Interface disponible en 7 langues : PT-BR, PT-PT, EN, ES, IT, FR, DE",
-          "Support aux variétés et pratiques de différentes régions",
-          "Adapté aux règles du MAPA, NCM et SIF (Brésil)",
-          "Préparé pour l'exportation et la certification internationale",
-          "Des traductions professionnelles, pas seulement superficielles"
-        ],
-        "title": "Multilingue et mondial"
-      },
-      "integrated": {
-        "badge": "Tout en un",
-        "description": "Du vignoble à la mise en bouteille sur une seule plateforme. Éliminez les feuilles de calcul fragmentées et les systèmes externes.",
-        "highlights": [
-          "Viticultura: plantio, manejo, colheita e análises do vinhedo",
-          "Oenologie : flux, analyses, cuves et barriques",
-          "Terroir et traçabilité par lot, champ et cépage",
-          "Contrôle complet des stocks et intrants œnologiques"
-        ],
-        "title": "Gestion intégrée complète"
-      },
-      "traceability": {
-        "badge": "Contrôle absolu",
-        "description": "Contrôle total des variables techniques avec historique détaillé pour les audits, les certifications et les exportations.",
-        "highlights": [
-          "À proposveillance du Brix, de la température, de la densité et de la fermentation",
-          "Registre des traitements, transferts et température par cuve",
-          "Historique complet intégré au lot de bout en bout",
-          "Prêt pour les certifications et l'exportation internationale"
-        ],
-        "title": "Données techniques et traçabilité complète"
-      },
-      "visualFlow": {
-        "badge": "Pionnier au Brésil",
-        "description": "Premier ERP brésilien avec éditeur visuel des flux vinicoles. Créez, personnalisez et simulez des processus avec des nœuds, des connexions et une logique conditionnelle entre les étapes.",
-        "highlights": [
-          "Modéliser des procédés de vins rouges, blancs, rosés, effervescents ou alternatifs",
-          "Créez des flux personnalisés reliant toutes les étapes de production",
-          "Réutiliser les flux sur plusieurs lots simultanés",
-          "Visualisation en temps réel de l'état de vinification sous forme graphique"
-        ],
-        "title": "Flux de vinification graphique et interactif"
-      }
-    },
-    "pitch": {
-      "badge": "Differenciateurs Commerciaux",
-      "title": "Ce Qui Compte le Plus dans la Decision",
-      "subtitle": "Des arguments concrets qui font la difference lors du choix de Bacco ERP",
-      "items": {
-        "vertical": {
-          "title": "Verticalisation Reelle pour le Vin",
-          "description": "Ce n'est pas un ERP generique adapte. Chaque module a ete concu pour les besoins reels de la production vinicole."
-        },
-        "endToEnd": {
-          "title": "Couverture de Bout en Bout",
-          "description": "Viticulture + vinification + ERP commercial + experience publique, le tout connecte dans un seul systeme."
-        },
-        "modular": {
-          "title": "Architecture Modulaire",
-          "description": "Vendez selon les besoins et la maturite du client. Activez uniquement les modules qui ont du sens maintenant."
-        },
-        "multiCountry": {
-          "title": "Multi-Pays Fiscal",
-          "description": "Pret pour les operations internationales avec des modules fiscaux dedies : BR, PT, IT, FR, ES, DE, AR, CL, UY."
-        },
-        "parcelMap": {
-          "title": "Carte Parcellaire Operationnelle",
-          "description": "Dessin, edition, clusters et vision risque/statut directement sur la carte satellite avec des polygones editables."
-        },
-        "operationalAI": {
-          "title": "IA Operationnelle Appliquee",
-          "description": "Climat et vinification integres au flux de travail. IA qui suggere, alerte et optimise."
-        },
-        "omnichannel": {
-          "title": "Omnicanal",
-          "description": "E-commerce, WhatsApp Bot et oenotourisme dans le meme environnement, avec stock et finances integres."
-        },
-        "governance": {
-          "title": "Gouvernance Enterprise",
-          "description": "Superadmin, observabilite avec Grafana/Loki/Prometheus, piste d'audit complete et controle de securite."
-        }
-      }
-    },
-    "recent": {
-      "badge": "Livraisons Recentes",
-      "title": "Implementations a Impact Commercial",
-      "items": {
-        "sparklingModule": {
-          "title": "Module Vins Effervescents",
-          "description": "Production vins effervescents avec méthodes Charmat, Champenoise et Ancestrale, calculateur dosage et contrôle dédié."
-        },
-        "multiModeReception": {
-          "title": "Réception Multi-mode",
-          "description": "5 modes de réception raisins : charge totale, caisses unitaires, caisses tare variable, échantillonnage et bins/macrobins."
-        },
-        "harvestCosts": {
-          "title": "Coûts Vendange et Taille",
-          "description": "Suivi coûts par parcelle avec calcul automatique journalier, vendangeurs et liaison lot vinification."
-        },
-        "fullVinification": {
-          "title": "Vinification Complète",
-          "description": "Lots de vin, assemblages/cuvées, mise en bouteille avec rendement, panneau contenants et analytics par vendange."
-        },
-        "financialComplete": {
-          "title": "Financier Complet",
-          "description": "Dashboard financier avec aging, compte de résultat par compétence, patrimoine, rapprochement bancaire et rapports PDF/CSV."
-        }
-      }
-    },
-    "pioneers": {
-      "badge": "Novateur",
-      "cards": {
-        "aiModules": {
-          "badge": "IA avancée",
-          "description": "Premier ERP pour domaines viticoles avec <strong>IA en plusieurs modules</strong> : calendrier de vinification, climat et gestion. Système qui apprend et optimise en permanence.",
-          "title": "IA dans plusieurs modules"
-        },
-        "editor": {
-          "badge": "Innovation",
-          "description": "Première plateforme brésilienne avec <strong>éditeur visuel interactif</strong> pour les flux de vinification et <strong>Intelligence Artificielle intégrée</strong> dans plusieurs modules.",
-          "title": "Éditeur visuel + IA intégrée"
-        },
-        "unification": {
-          "badge": "Intégration complète",
-          "description": "Première solution qui <strong>unifie la viticulture, la vinification, l'œnotourisme et le contrôle qualité</strong> avec l'intelligence artificielle sur une seule plateforme.",
-          "title": "Unification complète"
-        },
-        "unique": {
-          "badge": "Conçu au Brésil",
-          "description": "<strong>Développé exclusivement pour les domaines viticoles</strong> - pas une adaptation d'un système générique. Né pour répondre aux besoins spécifiques du marché brésilien.",
-          "title": "ERP brésilien spécialisé dans les domaines viticoles"
-        }
-      },
-      "mission": {
-        "text": "Une solution <span class=\"text-primary\">100% nationale</span> développée de toutes pièces pour les domaines viticoles, avec <span class=\"text-primary\">support multilingue</span> (PT-BR, PT-PT, EN, ES, IT, FR, DE), <span class=\"text-primary\">intégrée IA</span> et <span class=\"text-primary\">technique de profondeur</span>.",
-        "title": "Notre mission"
-      },
-      "subtitle": "Nous marquons l’histoire en étant les premiers sur plusieurs fronts",
-      "title": "Pourquoi sommes-nous des pionniers ?"
-    },
-    "subtitle": "Bacco a été conçu pour révolutionner la gestion des domaines viticoles viticoles, en proposant des outils spécifiques et modernes, parfaitement adaptés aux besoins pratiques de ceux qui produisent du vin au Brésil.",
-    "title": "Avantages de Bacco ERP par rapport aux systèmes existants"
-  },
   "faq": {
     "badge": "FAQ",
     "items": {
@@ -1536,131 +1278,6 @@
     "subtitle": "Tout ce dont vous avez besoin pour gérer votre production de vins, de vins mousseux et de jus dans un seul système.",
     "title": "Fonctionnalités complètes pour votre domaine viticole"
   },
-  "scope": {
-    "badge": "Perimetre Fonctionnel",
-    "title": "Tout Ce Que Bacco ERP Fait pour Vous",
-    "subtitle": "11 blocs fonctionnels valides et operationnels, couvrant toute la chaine de production du domaine viticole.",
-    "footer": "Tous les modules sont activables par licence, permettant une adoption progressive selon la maturite de l'exploitation.",
-    "modules": {
-      "platform": {
-        "title": "Noyau de Plateforme",
-        "description": "Base multi-tenant avec gestion organisationnelle complete.",
-        "items": [
-          "Authentification, inscription et onboarding",
-          "Tableau de bord operationnel en temps reel",
-          "Utilisateurs, secteurs, postes et profils d'acces",
-          "Licences et modularisation par plan",
-          "Superadmin : tenants, facturation, audit, observabilite"
-        ]
-      },
-      "viticulture": {
-        "title": "Viticulture",
-        "description": "Gestion complete du vignoble, de la plantation aux vendanges.",
-        "items": [
-          "Vignobles et parcelles avec géolocalisation et carte polygones éditables",
-          "Gestions, tâches standard et calendrier de gestion avec IA",
-          "Phytosanitaire, vendange et pluviométrie",
-          "Analyse de sol, analyse foliaire et maturation avec décision de vendange",
-          "Climat IA avec prévisions et recommandations automatiques",
-          "Mécanisation : diesel, machines, compteur horaire, OT et maintenance",
-          "Coût de vendange et coût de taille par parcelle"
-        ]
-      },
-      "enology": {
-        "title": "Oenologie et Vinification",
-        "description": "De la reception des raisins a la mise en bouteille, avec des flux visuels.",
-        "items": [
-          "Réception raisins multi-mode : charge totale, caisses, échantillonnage et bins",
-          "Contenants avec panneau d'occupation, fûts et emplacement",
-          "Flux de vinification avec éditeur visuel interactif",
-          "Lots de vin, assemblages/cuvées",
-          "Mise en bouteille avec rendement et contrôle caisses",
-          "Vins effervescents : Charmat, Champenoise et Ancestrale",
-          "Analytics de vinification avec comparaison vendanges",
-          "Laboratoire, dégustation et ordres de cave"
-        ]
-      },
-      "juices": {
-        "title": "Ligne de Jus",
-        "description": "Production de jus avec flux et tracabilite dedies.",
-        "items": [
-          "Tableau de bord et flux avec editeur visuel",
-          "Production et detail par execution",
-          "Formules, conditionnement, ENVIN et tracabilite"
-        ]
-      },
-      "commercial": {
-        "title": "ERP Commercial et Financier",
-        "description": "Ventes, achats, finances et PDV integres.",
-        "items": [
-          "Clients et fournisseurs",
-          "Ventes, listes de prix et achats",
-          "Financier complet : dettes/créances, flux de trésorerie, compte de résultat par compétence",
-          "PDV, gestion caisse, tables et moyens de paiement",
-          "Intégration terminaux de paiement",
-          "E-commerce Hub : iFood, Nuvemshop, catalogue et importation commandes"
-        ]
-      },
-      "fiscal": {
-        "title": "Fiscal et Compliance",
-        "description": "Conformite reglementaire avec modules par pays.",
-        "items": [
-          "Configuration et paramétrage fiscal",
-          "Factures électroniques",
-          "Modules fiscaux : BR, PT, IT, FR, ES, DE, AR, CL, UY",
-          "Conformité SIVIBE avec alertes délais et déclarations",
-          "Traçabilité publique avec QR Code vérification authenticité"
-        ]
-      },
-      "logistics": {
-        "title": "Logistique et Distribution",
-        "description": "Expedition et controle des livraisons.",
-        "items": [
-          "Expedition avec controle des lots",
-          "Gestion des livraisons et des itineraires"
-        ]
-      },
-      "cooperative": {
-        "title": "Cooperative",
-        "description": "Gestion des producteurs associes et comptes courants.",
-        "items": [
-          "Inscription des producteurs",
-          "Compte courant producteur avec mouvements"
-        ]
-      },
-      "enotourism": {
-        "title": "Oenotourisme et Experience Publique",
-        "description": "Reservations, avis et paiements en ligne.",
-        "items": [
-          "Œnotourisme avec 12 onglets : dashboard, visiteurs, expériences, horaires, réservations et plus",
-          "Portail public réservations avec assistant 5 étapes",
-          "Avis public par token",
-          "Coupons, vouchers et liste d'attente",
-          "Webhooks paiement (Mercado Pago et Pagar.me)",
-          "Export iCal et QR Code pour check-in"
-        ]
-      },
-      "iot": {
-        "title": "IoT et Canaux Numeriques",
-        "description": "Capteurs, WhatsApp Bot et hub e-commerce.",
-        "items": [
-          "Capteurs RAPT et telemetrie IoT",
-          "WhatsApp Bot avec webhook public",
-          "E-commerce Hub : integration par canal, catalogue, synchronisation produits",
-          "Importation de commandes et rapports de synthese"
-        ]
-      },
-      "observability": {
-        "title": "Observabilite et Operations",
-        "description": "Monitoring enterprise avec stack complete.",
-        "items": [
-          "Health endpoint et Sentry",
-          "Grafana, Loki, Prometheus et Promtail",
-          "Audit et piste administrative complete"
-        ]
-      }
-    }
-  },
   "footer": {
     "company": {
       "about": "À propos",
@@ -1682,9 +1299,7 @@
     },
     "description": "Système de gestion complet pour les domaines viticoles. De la vigne à la bouteille.",
     "product": {
-      "benefits": "Avantages",
       "features": "Caractéristiques",
-      "process": "Processus",
       "title": "Produit"
     },
     "support": {
@@ -1695,15 +1310,10 @@
     }
   },
   "header": {
-    "about": "À propos",
-    "comanda": "Bacco-Comanda",
-    "differentials": "Différences",
     "features": "Caractéristiques",
-    "scope": "Perimetre",
     "mobile": "Bacco-Campo",
     "system": "Système",
     "enotourism": "Œnotourisme",
-    "baccoCpu": "Telemetrie",
     "clients": "Clients"
   },
   "hero": {
@@ -2000,48 +1610,6 @@
       "title": "Documentation réglementaire"
     }
   },
-  "mission": {
-    "text": "Dotez les vignobles brésiliens d'une excellente technologie, en offrant un système complet et intelligent qui suit chaque étape de la production du vin — du vignoble à la bouteille — avec une traçabilité complète, une analyse précise et une gestion intégrée, permettant aux producteurs de toutes tailles de prendre des décisions basées sur des données et d'élever la qualité de leurs vins aux normes internationales.",
-    "title": "Notre mission",
-    "values": {
-      "accessibility": {
-        "description": "Nous pensons que la technologie de qualité doit être à la portée des domaines viticoles de toutes tailles, de l'artisanal à l'industriel.",
-        "title": "Accessibilité"
-      },
-      "evolution": {
-        "description": "Comme un bon vin, nous mûrissons toujours – nous améliorons, apprenons et évoluons aux côtés de nos clients.",
-        "title": "Évolution continue"
-      },
-      "excellence": {
-        "description": "Engagé à respecter un code propre, une architecture moderne et les meilleures pratiques de développement pour offrir une qualité supérieure.",
-        "title": "Excellence technique"
-      },
-      "innovation": {
-        "description": "Nous recherchons constamment de nouvelles solutions, mais toujours en respectant la tradition et les particularités du secteur vitivinicole.",
-        "title": "Innovation consciente"
-      },
-      "passion": {
-        "description": "Nous développons avec amour et respect pour l'art de la vinification, sachant que chaque lot raconte une histoire unique.",
-        "title": "Passion pour le vin"
-      },
-      "proximity": {
-        "description": "Développé par ceux qui comprennent le vin pour ceux qui vivent du vin, en maintenant toujours un dialogue ouvert avec nos clients.",
-        "title": "Proximité"
-      },
-      "sustainability": {
-        "description": "Nous valorisons les pratiques durables et aidons les domaines viticoles à optimiser les ressources, à réduire les déchets et à prendre soin du terroir.",
-        "title": "Durabilité"
-      },
-      "transparency": {
-        "description": "La traçabilité complète ne concerne pas seulement le vin, elle concerne également nos relations avec les clients, basées sur l'honnêteté et la clarté.",
-        "title": "Transparence"
-      }
-    },
-    "valuesSubtitle": "Des principes qui guident chaque ligne de code et chaque décision que nous prenons",
-    "valuesTitle": "Nos valeurs",
-    "visionText": "Être reconnu comme l'ERP de référence pour le secteur vitivinicole mondial, avec un accent particulier sur le Brésil et l'Amérique latine, transformant la façon dont les domaines viticoles gèrent leur production grâce à l'union de la tradition et de l'innovation. Avec un support multilingue, nous contribuons à la croissance et à la professionnalisation de l’industrie vitivinicole sur différents marchés, positionnant le Brésil comme protagoniste de la technologie œnologique mondiale.",
-    "visionTitle": "Notre Vision"
-  },
   "mobile": {
     "badge": "Bacco Campo",
     "benefits": {
@@ -2223,32 +1791,6 @@
         ]
       }
     ]
-  },
-  "process": {
-    "steps": {
-      "bottling": {
-        "description": "Gestion complète des lots, analyses en laboratoire et traçabilité jusqu'au produit final. Contrôle qualité à chaque étape.",
-        "number": "04",
-        "title": "Embouteillage et distribution"
-      },
-      "harvest": {
-        "description": "Enregistrez l'entrée de vos propres raisins et de ceux de tiers avec des analyses complètes : BRIX, pH, acidité totale et température. Traçabilité depuis l'origine.",
-        "number": "02",
-        "title": "Récolte et réception"
-      },
-      "vineyard": {
-        "description": "Contrôle complet des vignes et des parcelles, avec enregistrement des cépages, superficie plantée, espacement et historique de conduite. Planifier et surveiller toutes les activités sur le terrain.",
-        "number": "01",
-        "title": "Gestion du vignoble"
-      },
-      "vinification": {
-        "description": "Suivez chaque étape du processus : éraflage, pressurage, fermentation, soutirage. Contrôlez la température et la densité en temps réel avec des alertes automatiques.",
-        "number": "03",
-        "title": "Vinification"
-      }
-    },
-    "subtitle": "À proposveillez l’ensemble du processus de production avec un contrôle total et une traçabilité complète à chaque étape.",
-    "title": "De la vigne à la bouteille"
   },
   "screenshots": {
     "title": "Découvrez le Système de l'Intérieur",
@@ -2721,74 +2263,6 @@
         "botConfirm": "Excellent choix ! 🍷 Je vérifie la disponibilité pour samedi. Pour combien de personnes ?"
       }
     }
-  },
-  "baccoCpu": {
-    "badge": "Telemetrie",
-    "title": "Suivi Intelligent de la Fermentation",
-    "intro1": "La fermentation est l une des etapes les plus critiques de la production de vin. De petites variations de temperature peuvent modifier les aromes, affecter la structure du vin ou meme provoquer des arrets fermentaires.",
-    "intro2": "Avec la telemetrie integree a Bacco ERP, des capteurs installes sur les cuves collectent les donnees en continu et les envoient vers un tableau de bord unique en temps reel. Vous gagnez une visibilite complete de la cave et plus de securite a chaque etape.",
-    "monitoring": {
-      "tankTemperature": "Temperature actuelle de chaque fermentation",
-      "temperatureAlerts": "Alertes quand la temperature sort de la plage ideale",
-      "lotHistory": "Historique complet de chaque lot",
-      "visualTracking": "Suivi visuel de la fermentation"
-    },
-    "decisionSupport": "Cela permet a l oenologue de prendre des decisions rapides et de garder un controle total de la vinification.",
-    "panel": {
-      "title": "La cave connectee a Bacco ERP",
-      "subtitle": "Toutes les cuves sur un seul ecran",
-      "live": "Temps Reel",
-      "stats": {
-        "activeTanks": "Cuves actives",
-        "alerts": "Alertes",
-        "inRange": "Dans la plage ideale"
-      }
-    },
-    "benefits": {
-      "smartAlerts": {
-        "title": "Alertes Intelligentes",
-        "description": "Le systeme surveille en continu les capteurs et alerte automatiquement en cas de comportement hors norme."
-      },
-      "lessManualWork": {
-        "title": "Moins de Travail Manuel",
-        "description": "Les mesures deviennent automatiques et sont enregistrees dans le systeme, liberant du temps pour le travail oenologique."
-      },
-      "fermentationHistory": {
-        "title": "Historique Complet",
-        "description": "Analysez les courbes de fermentation, le comportement thermique, la comparaison entre millesimes et la performance des levures."
-      },
-      "fullErpIntegration": {
-        "title": "Integration Totale avec l ERP",
-        "description": "Contrairement aux systemes isoles, les donnees sont directement integrees a l historique de production du domaine, de la vigne a la bouteille."
-      },
-      "allWinerySizes": {
-        "title": "Evolutif pour Toutes les Tailles",
-        "description": "Capteurs industriels avec passerelles intelligentes et envoi cloud securise, avec extension simple a mesure que le domaine grandit."
-      }
-    },
-    "gallery": {
-      "main": {
-        "alt": "Cave avec cuves et panneau de suivi de fermentation"
-      },
-      "secondary1": {
-        "alt": "Cuves avec tableau de bord de telemetrie dans la cave",
-        "title": "Vue Globale de la Cave",
-        "description": "Suivi en temps reel de toute la zone de fermentation."
-      },
-      "secondary2": {
-        "alt": "Terminal industriel de suivi de fermentation entre les cuves",
-        "title": "Collecte Terrain",
-        "description": "Capteurs industriels et passerelles pour une collecte continue des donnees."
-      }
-    },
-    "closing": "Controler la fermentation avec precision permet de produire des vins plus reguliers et de reduire les risques de process. Avec la telemetrie Bacco-CPU, votre domaine gagne en technologie, en visibilite et en controle pour elever la qualite des vins."
-  },
-  "telemetryCallout": {
-    "title": "Nouveau : Telemetrie Bacco-CPU",
-    "description": "Decouvrez comment suivre la fermentation en temps reel dans Bacco ERP.",
-    "cta": "Voir Telemetrie",
-    "dismiss": "Pas maintenant",
-    "close": "Fermer l avis"
   },
   "blog": {
     "navLink": "Blog",

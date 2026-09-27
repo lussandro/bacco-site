@@ -29,15 +29,10 @@ export function Header() {
 
   const navLinks = [
     { href: "#funcionalidades", label: t('features') },
-    { href: "#escopo", label: t('scope') },
     { href: "#mobile", label: t('mobile') },
-    { href: "#bacco-cpu", label: t('baccoCpu') },
-    { href: "#comanda", label: t('comanda') },
     { href: "#enoturismo", label: t('enotourism') },
     { href: "#sistema", label: t('system') },
-    { href: "#diferenciais", label: t('differentials') },
     { href: "#clientes", label: t('clients') },
-    { href: "#sobre", label: t('about') },
     { href: "#faq", label: "FAQ" },
   ]
 
@@ -59,7 +54,7 @@ export function Header() {
               <span className="font-serif text-2xl font-bold">{tCommon('brand')}</span>
             </div>
 
-            <nav className="hidden 2xl:flex items-center gap-5">
+            <nav className="hidden xl:flex items-center gap-5">
               {navLinks.map((link) => (
                 <a
                   key={link.href}
@@ -125,7 +120,7 @@ export function Header() {
               <Button
                 variant="ghost"
                 size="icon"
-                className="2xl:hidden"
+                className="xl:hidden"
                 onClick={() => setMenuOpen(!menuOpen)}
                 aria-label="Menu"
               >
@@ -138,7 +133,7 @@ export function Header() {
 
       {/* Mobile menu overlay */}
       {menuOpen && (
-        <div className="fixed inset-0 z-40 2xl:hidden">
+        <div className="fixed inset-0 z-40 xl:hidden">
           <div
             className="absolute inset-0 bg-black/50 backdrop-blur-sm"
             onClick={() => setMenuOpen(false)}

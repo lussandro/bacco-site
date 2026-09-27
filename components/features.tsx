@@ -53,9 +53,9 @@ export function Features() {
   ];
 
   return (
-    <section id="funcionalidades" className="py-20 lg:py-32 bg-muted/30">
+    <section id="funcionalidades" className="py-16 lg:py-24 bg-muted/30">
       <div className="container mx-auto px-4 lg:px-8">
-        <div className="text-center max-w-3xl mx-auto mb-16">
+        <div className="text-center max-w-3xl mx-auto mb-12">
           <h2 className="font-serif text-4xl lg:text-5xl font-bold mb-6 text-balance">
             {t('title')}
           </h2>
@@ -64,16 +64,16 @@ export function Features() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {keys.map((key, index) => {
             const Icon = icons[index];
             return (
-              <Card key={index} className="p-6 lg:p-8 hover:shadow-lg transition-shadow">
-                <div className="h-12 w-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
-                  <Icon className="h-6 w-6 text-primary" />
+              <Card key={index} className="p-5 gap-0 hover:shadow-lg transition-shadow">
+                <div className="h-9 w-9 rounded-lg bg-primary/10 flex items-center justify-center mb-3">
+                  <Icon className="h-5 w-5 text-primary" />
                 </div>
-                <h3 className="text-xl font-semibold mb-3">{t(`items.${key}.title`)}</h3>
-                <p className="text-muted-foreground leading-relaxed">{t(`items.${key}.description`)}</p>
+                <h3 className="font-semibold mb-1.5">{t(`items.${key}.title`)}</h3>
+                <p className="text-sm text-muted-foreground leading-relaxed">{t(`items.${key}.description`)}</p>
               </Card>
             );
           })}

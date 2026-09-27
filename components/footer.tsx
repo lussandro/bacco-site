@@ -31,16 +31,6 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#processo" className="hover:text-primary transition-colors">
-                  {t('product.process')}
-                </a>
-              </li>
-              <li>
-                <a href="#beneficios" className="hover:text-primary transition-colors">
-                  {t('product.benefits')}
-                </a>
-              </li>
-              <li>
                 <a href="#faq" className="hover:text-primary transition-colors">
                   FAQ
                 </a>
@@ -52,7 +42,7 @@ export function Footer() {
             <h4 className="font-semibold mb-4">{t('company.title')}</h4>
             <ul className="space-y-2 text-sm opacity-80">
               <li>
-                <a href="#sobre" className="hover:text-primary transition-colors">
+                <a href="https://www.baccosistemas.com.br/#empresa" className="hover:text-primary transition-colors">
                   {t('company.about')}
                 </a>
               </li>
