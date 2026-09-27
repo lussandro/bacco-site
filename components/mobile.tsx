@@ -47,34 +47,11 @@ export function Mobile() {
   ] as const
   const featureIcons = [ClipboardCheck, Sprout, Grape, CheckCircle2, MapPin, Wifi]
 
-  const appScreenshots = [
-    {
-      url: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-11-04%20at%2013.18.50-MEzF14i6rABzoz1orikGGJlkwoioe7.jpeg",
-      key: "dashboard",
-    },
-    {
-      url: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-11-04%20at%2013.18.52-D1aPMzD6TT3oeNaDmsWMpBhciAQw92.jpeg",
-      key: "grapeReception",
-    },
-    {
-      url: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-11-04%20at%2013.18.51%282%29-qNDhvtdl41rSXmRNLJDIz9ZUErRDCJ.jpeg",
-      key: "receptionDetails",
-    },
-    {
-      url: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-11-04%20at%2013.18.52%281%29-YIUzfxkqLvVx6ku0879FcN3oNxrUwJ.jpeg",
-      key: "tasks",
-    },
-    {
-      url: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-11-04%20at%2013.18.51%281%29-eXdmSSQcYxjLUGjTPPhCokTIJCWbm0.jpeg",
-      key: "executions",
-    },
-  ] as const
-
   return (
     <>
       <section
         id="mobile"
-        className="py-20 lg:py-32 bg-gradient-to-b from-background to-muted/30 relative overflow-hidden"
+        className="py-16 lg:py-24 bg-gradient-to-b from-background to-muted/30 relative overflow-hidden"
       >
         {/* Decorative grid background */}
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px] [mask-image:linear-gradient(0deg,white,rgba(255,255,255,0.6))] -z-10" />
@@ -183,38 +160,6 @@ export function Mobile() {
                 {/* Glow effect */}
                 <div className="absolute inset-0 bg-primary/5 blur-3xl -z-10" />
               </div>
-            </div>
-          </div>
-
-          <div className="mt-20 lg:mt-32">
-            <div className="text-center mb-12">
-              <Badge className="mb-4 bg-primary/10 text-primary hover:bg-primary/20">
-                <Smartphone className="h-3 w-3 mr-1" />
-                {t("inAction.badge")}
-              </Badge>
-              <h3 className="font-serif text-3xl lg:text-4xl font-bold mb-4">{t("inAction.title")}</h3>
-              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">{t("inAction.subtitle")}</p>
-            </div>
-
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
-              {appScreenshots.map((screenshot) => (
-                <div key={screenshot.key} className="group relative">
-                  <div className="relative rounded-2xl overflow-hidden shadow-lg border-4 border-slate-800 bg-white transition-transform duration-300 group-hover:scale-105">
-                    <div className="absolute top-0 left-1/2 -translate-x-1/2 w-1/3 h-4 bg-slate-800 rounded-b-xl z-10" />
-                    <Image
-                      src={screenshot.url || "/placeholder.svg"}
-                      alt={t(`screenshots.${screenshot.key}.title`)}
-                      width={300}
-                      height={600}
-                      className="w-full h-auto"
-                    />
-                  </div>
-                  <div className="mt-3 text-center">
-                    <p className="font-semibold text-sm">{t(`screenshots.${screenshot.key}.title`)}</p>
-                    <p className="text-xs text-muted-foreground">{t(`screenshots.${screenshot.key}.description`)}</p>
-                  </div>
-                </div>
-              ))}
             </div>
           </div>
         </div>

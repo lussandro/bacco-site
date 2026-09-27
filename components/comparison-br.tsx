@@ -24,9 +24,6 @@ const SYSTEMS: { key: string; coverage: readonly Cover[] }[] = [
   { key: "generic", coverage: ["off", "off", "off", "off", "on", "part", "off"] },
 ]
 
-const STOPS = ["gvino", "ema", "vinoerp", "cepaos"] as const
-const PILLARS = ["fiscal", "enotourism", "iot", "compliance"] as const
-const PILLAR_NUMERALS = ["i", "ii", "iii", "iv"] as const
 
 type Val = "yes" | "no" | "part" | "addon" | "included"
 
@@ -67,7 +64,7 @@ export function ComparisonBR() {
 
   return (
     <section id="comparacao" className="py-20 lg:py-32 bg-background">
-      <div className="container mx-auto px-4 lg:px-8 space-y-16 lg:space-y-24">
+      <div className="container mx-auto px-4 lg:px-8 space-y-8 lg:space-y-10">
         {/* ---------- mapa de cobertura ---------- */}
         <div className="rounded-2xl bg-primary text-primary-foreground p-6 sm:p-10 lg:p-14">
           <Badge className="mb-4 text-sm px-4 py-1.5 bg-brix-lt/15 text-brix-lt border-brix-lt/40 hover:bg-brix-lt/25">
@@ -179,67 +176,13 @@ export function ComparisonBR() {
           </div>
         </div>
 
-        {/* ---------- onde cada um para ---------- */}
-        <div>
-          <div className="max-w-3xl">
-            <Badge className="mb-4 text-sm px-4 py-1.5 bg-primary/10 text-primary border-primary/30">
-              {t("stops.badge")}
-            </Badge>
-            <h2 className="font-serif text-3xl lg:text-4xl font-bold mb-4 text-balance">{t("stops.title")}</h2>
-            <p className="text-lg text-muted-foreground text-pretty">{t("stops.subtitle")}</p>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-5 mt-10">
-            {STOPS.map((k) => (
-              <Card key={k} className="p-7 border hover:border-primary/40 transition-colors">
-                <span className="text-[11px] font-semibold uppercase tracking-widest text-brix">
-                  {t(`stops.items.${k}.tag`)}
-                </span>
-                <h3 className="font-serif text-2xl font-bold text-primary mt-1.5 mb-4">
-                  {t(`stops.items.${k}.name`)}
-                </h3>
-                <p className="text-sm text-muted-foreground text-pretty">{t(`stops.items.${k}.body`)}</p>
-                <p className="mt-5 pt-4 border-t text-sm font-medium text-foreground">
-                  <span className="text-muted-foreground font-normal">{t("stops.gapPrefix")} </span>
-                  {t(`stops.items.${k}.gap`)}
-                </p>
-              </Card>
-            ))}
-          </div>
-        </div>
-
-        {/* ---------- o que só o Bacco entrega ---------- */}
-        <div className="rounded-2xl bg-primary text-primary-foreground p-6 sm:p-10 lg:p-14">
-          <Badge className="mb-4 text-sm px-4 py-1.5 bg-brix-lt/15 text-brix-lt border-brix-lt/40 hover:bg-brix-lt/25">
-            {t("pillars.badge")}
-          </Badge>
-          <h2 className="font-serif text-3xl lg:text-4xl font-bold text-balance max-w-[20ch]">
-            {t("pillars.title")}
-          </h2>
-
-          <div className="grid sm:grid-cols-2 gap-10 mt-12">
-            {PILLARS.map((k, i) => (
-              <div key={k}>
-                <div className="font-serif text-4xl italic font-medium text-brix-lt leading-none">
-                  {PILLAR_NUMERALS[i]}
-                </div>
-                <h3 className="font-serif text-xl font-bold mt-3 mb-2">{t(`pillars.items.${k}.title`)}</h3>
-                <p className="text-sm text-primary-foreground/75 text-pretty">
-                  {t(`pillars.items.${k}.description`)}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-
         {/* ---------- tabela ponto a ponto ---------- */}
         <div>
-          <div className="max-w-3xl">
-            <Badge className="mb-4 text-sm px-4 py-1.5 bg-primary/10 text-primary border-primary/30">
-              {t("table.badge")}
-            </Badge>
-            <h2 className="font-serif text-3xl lg:text-4xl font-bold text-balance">{t("table.title")}</h2>
-          </div>
+          <details className="group">
+            <summary className="cursor-pointer list-none flex items-center justify-between gap-4 rounded-xl border-2 p-5 hover:border-primary/40 transition-colors">
+              <span className="font-serif text-2xl lg:text-3xl font-bold text-balance">{t("table.title")}</span>
+              <span aria-hidden="true" className="text-2xl text-primary transition-transform group-open:rotate-45">+</span>
+            </summary>
 
           <Card className="mt-8 overflow-hidden border-2 p-0">
             <div className="overflow-x-auto">
@@ -279,6 +222,7 @@ export function ComparisonBR() {
               </table>
             </div>
           </Card>
+          </details>
 
           <p className="mt-6 max-w-[68ch] text-xs leading-relaxed text-muted-foreground">{t("footnote")}</p>
         </div>

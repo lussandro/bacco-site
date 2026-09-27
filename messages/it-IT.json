@@ -240,6 +240,14 @@
         "title": "Etichettatura e QR Code",
         "description": "Registrazione etichette con tracciabilità, classificazione vino e generazione QR Code per verifica pubblica di autenticità."
       }
+    },
+    "groups": {
+      "vineyard": "Vigneto e campo",
+      "winemaking": "Ricevimento e vinificazione",
+      "analysis": "Analisi e gestione",
+      "stock": "Magazzino e tracciabilità",
+      "fiscal": "Fiscale e normativo",
+      "commercial": "Commerciale, finanza ed enoturismo"
     }
   },
   "mobile": {
@@ -276,33 +284,6 @@
     "benefits": {
       "autoSync": "Automatic synchronization",
       "offline": "Works offline"
-    },
-    "inAction": {
-      "badge": "Bacco-Campo in Action",
-      "title": "Guarda l'app in azione",
-      "subtitle": "Interfaccia intuitiva e moderna per gestire tutte le operazioni del vigneto nel palmo della tua mano"
-    },
-    "screenshots": {
-      "dashboard": {
-        "title": "Pannello di controllo",
-        "description": "Overview of activities"
-      },
-      "grapeReception": {
-        "title": "Grape Reception",
-        "description": "Grape entry record"
-      },
-      "receptionDetails": {
-        "title": "Reception Details",
-        "description": "Informazioni complete sulla raccolta"
-      },
-      "tasks": {
-        "title": "Tasks",
-        "description": "Gestione delle attività del vigneto"
-      },
-      "executions": {
-        "title": "Executions",
-        "description": "Winemaking tracking"
-      }
     },
     "downloadDialog": {
       "title": "Download Bacco-Campo",
@@ -535,14 +516,6 @@
         "description": "Modulo completo per l'enoturismo che gli ERP globali non hanno. Gestione appuntamenti, degustazioni ed esperienze integrata con l'ERP."
       }
     },
-    "cta": {
-      "title": "ERP Completo per Cantine in Tutto il Mondo",
-      "description": "Sviluppato in Brasile con standard internazionali, Bacco è stato creato da zero pensando alle esigenze specifiche delle cantine. Disponibile in 7 lingue (PT-BR, PT-PT, EN, ES, IT, FR, DE), offre specializzazione nativa con portata globale.",
-      "check1": "Sviluppato in Brasile, disponibile globalmente",
-      "check2": "Supporto multilingue (PT-BR, PT-PT, EN, ES, IT, FR, DE) con conoscenza locale",
-      "check3": "Prezzo accessibile senza licenze internazionali",
-      "check4": "Tecnologia moderna vs sistemi legacy"
-    },
     "items": {
       "specialization": {
         "category": "Specialization",
@@ -650,47 +623,38 @@
     "items": {
       "quintaDeGlaura": {
         "name": "Quinta de Glaura",
-        "description": "Cantina boutique situata nella storica città di Ouro Preto, che produce vini artigianali di alta qualità nella regione del Minas Gerais.",
         "location": "Ouro Preto, MG - Brasile"
       },
       "casaRozental": {
         "name": "Casa Rozental",
-        "description": "Cantina con enoturismo a Secretário, Petrópolis, che unisce produzione artigianale di vini ed esperienze immersive nella Serra di Rio de Janeiro.",
         "location": "Secretário, Petrópolis, RJ - Brasile"
       },
       "vinicolaRomera": {
         "name": "Vinícola Romera",
-        "description": "Cantina a Colônia Roça Nova, zona rurale di Araucária, nell'area metropolitana di Curitiba, in Paraná.",
         "location": "Araucária, PR - Brasile"
       },
       "valeDoGongo": {
         "name": "Vinícola Vale do Gongo",
-        "description": "L'unica cantina del nord del Minas Gerais, a Grão Mogol. Pioniera nella regione e premiata con il Grand Gold al Concorso Nazionale dei Vini.",
         "location": "Grão Mogol, MG - Brasile"
       },
       "bodegaDonValentinCenci": {
         "name": "Bodega Dom Valentin Cenci",
-        "description": "Vigneto familiare nel Distretto Federale, con Syrah, Merlot, Grenache, Tempranillo e Sauvignon Blanc e uno spazio dedicato a visite e degustazioni.",
         "location": "Brasília, DF - Brasile"
       },
       "estanciaChrysiana": {
         "name": "Estância Chrysiana",
-        "description": "Cantina di vini da vendemmia invernale a Três Corações, sud del Minas Gerais. Vigneto di proprietà con Syrah, Cabernet Franc, Marselan e Sauvignon Blanc; prima vendemmia nel 2025.",
         "location": "Três Corações, MG - Brasile"
       },
       "casaDas7Evas": {
         "name": "Vinícola Casa das 7 Evas",
-        "description": "Cantina nella zona rurale di São José de Mipibu, nel Rio Grande do Norte, che porta la viticoltura tropicale nel Nordeste del Brasile.",
         "location": "São José de Mipibu, RN - Brasile"
       },
       "quintaDaNeve": {
         "name": "Quinta da Neve",
-        "description": "Pioniera dei vini di altitudine a São Joaquim: nel 1999 ha piantato le prime vitis vinifera della Serra Catarinense, a 1.200 metri. Quindici ettari di vigneto, spumanti metodo classico e visite con degustazione.",
         "location": "São Joaquim, SC - Brasile"
       },
       "goyah": {
         "name": "Goyah Vinhos e Vinhedos",
-        "description": "Cantina di altitudine a Rancho Queimado, a 960 metri e a 40 km dalla costa di Santa Catarina. Nata come cantina di garage nel 2012, è stata formalizzata nel 2024 nella IP Vinhos de Altitude.",
         "location": "Rancho Queimado, SC - Brasile"
       }
     },
@@ -884,8 +848,7 @@
         "title": "100% Multilingue",
         "description": "Tutti gli avvisi sono tradotti professionalmente in PT, EN, ES e IT."
       }
-    },
-    "cta": "Gli avvisi IA di Bacco ti aiutano a prendere decisioni proattive, prevenire problemi e ottimizzare ogni fase della produzione."
+    }
   },
   "privacy": {
     "title": "politica sulla riservatezza",

@@ -240,6 +240,14 @@
         "title": "Etiquetado y QR Code",
         "description": "Registro de etiquetas con trazabilidad, clasificación del vino y generación de QR Code para verificación pública de autenticidad."
       }
+    },
+    "groups": {
+      "vineyard": "Viñedo y campo",
+      "winemaking": "Recepción y vinificación",
+      "analysis": "Análisis y gestión",
+      "stock": "Inventario y trazabilidad",
+      "fiscal": "Fiscal y regulatorio",
+      "commercial": "Comercial, finanzas y enoturismo"
     }
   },
   "mobile": {
@@ -276,33 +284,6 @@
     "benefits": {
       "autoSync": "Sincronización automática",
       "offline": "Funciona offline"
-    },
-    "inAction": {
-      "badge": "Bacco-Campo en Acción",
-      "title": "Vea la App en Acción",
-      "subtitle": "Interfaz intuitiva y moderna para gestionar todas las operaciones del viñedo en la palma de su mano"
-    },
-    "screenshots": {
-      "dashboard": {
-        "title": "Dashboard",
-        "description": "Visión general de las actividades"
-      },
-      "grapeReception": {
-        "title": "Recepción de Uvas",
-        "description": "Registro de entrada de uvas"
-      },
-      "receptionDetails": {
-        "title": "Detalles de Recepción",
-        "description": "Información completa de la cosecha"
-      },
-      "tasks": {
-        "title": "Tareas",
-        "description": "Gestión de actividades del viñedo"
-      },
-      "executions": {
-        "title": "Ejecuciones",
-        "description": "Seguimiento de vinificación"
-      }
     },
     "downloadDialog": {
       "title": "Descargar Bacco-Campo",
@@ -535,14 +516,6 @@
         "description": "Módulo completo de enoturismo que ERPs globales no poseen. Gestión de agendamientos, degustaciones y experiencias integrada al ERP."
       }
     },
-    "cta": {
-      "title": "ERP Completo para Bodegas en Todo el Mundo",
-      "description": "Desarrollado en Brasil con estándares internacionales, Bacco fue creado desde cero pensando en las necesidades específicas de bodegas. Disponible en 7 idiomas (PT-BR, PT-PT, EN, ES, IT, FR, DE), ofrece especialización nativa con alcance global.",
-      "check1": "Desarrollado en Brasil, disponible globalmente",
-      "check2": "Soporte multilingüe (PT-BR, PT-PT, EN, ES, IT, FR, DE) con conocimiento local",
-      "check3": "Precio accesible sin licenciamiento internacional",
-      "check4": "Tecnología moderna vs sistemas heredados"
-    },
     "items": {
       "specialization": {
         "category": "Especialización",
@@ -650,47 +623,38 @@
     "items": {
       "quintaDeGlaura": {
         "name": "Quinta de Glaura",
-        "description": "Bodega boutique ubicada en la histórica ciudad de Ouro Preto, produciendo vinos artesanales de alta calidad en la región de Minas Gerais.",
         "location": "Ouro Preto, MG - Brasil"
       },
       "casaRozental": {
         "name": "Casa Rozental",
-        "description": "Bodega con enoturismo en Secretário, Petrópolis, combinando producción artesanal de vinos y experiencias inmersivas en la Sierra de Río de Janeiro.",
         "location": "Secretário, Petrópolis, RJ - Brasil"
       },
       "vinicolaRomera": {
         "name": "Vinícola Romera",
-        "description": "Bodega en Colônia Roça Nova, zona rural de Araucária, en el área metropolitana de Curitiba, Paraná.",
         "location": "Araucária, PR - Brasil"
       },
       "valeDoGongo": {
         "name": "Vinícola Vale do Gongo",
-        "description": "La única bodega del norte de Minas Gerais, en Grão Mogol. Pionera en la región y premiada con Grand Gold en el Concurso Nacional de Vinos.",
         "location": "Grão Mogol, MG - Brasil"
       },
       "bodegaDonValentinCenci": {
         "name": "Bodega Dom Valentin Cenci",
-        "description": "Viñedo familiar en el Distrito Federal, con Syrah, Merlot, Grenache, Tempranillo y Sauvignon Blanc, y un espacio dedicado a visitas y catas.",
         "location": "Brasília, DF - Brasil"
       },
       "estanciaChrysiana": {
         "name": "Estância Chrysiana",
-        "description": "Bodega de vinos de invierno en Três Corações, sur de Minas Gerais. Viñedo propio con Syrah, Cabernet Franc, Marselan y Sauvignon Blanc; primera cosecha en 2025.",
         "location": "Três Corações, MG - Brasil"
       },
       "casaDas7Evas": {
         "name": "Vinícola Casa das 7 Evas",
-        "description": "Bodega en la zona rural de São José de Mipibu, en Rio Grande do Norte, llevando la viticultura tropical al Nordeste brasileño.",
         "location": "São José de Mipibu, RN - Brasil"
       },
       "quintaDaNeve": {
         "name": "Quinta da Neve",
-        "description": "Pionera de los vinos de altura en São Joaquim: plantó las primeras vitis vinifera de la Serra Catarinense en 1999, a 1.200 metros. Quince hectáreas de viñedo, espumosos por método tradicional y visitas con degustación.",
         "location": "São Joaquim, SC - Brasil"
       },
       "goyah": {
         "name": "Goyah Vinhos e Vinhedos",
-        "description": "Bodega de altura en Rancho Queimado, a 960 metros y a 40 km del litoral catarinense. Nació como bodega de garaje en 2012 y se formalizó en 2024, dentro de la IP Vinhos de Altitude.",
         "location": "Rancho Queimado, SC - Brasil"
       }
     },
@@ -884,8 +848,7 @@
         "title": "100% Multilingue",
         "description": "Todas las alertas son traducidas profesionalmente a PT, EN, ES e IT."
       }
-    },
-    "cta": "Las alertas de IA de Bacco le ayudan a tomar decisiones proactivas, prevenir problemas y optimizar cada etapa de la produccion."
+    }
   },
   "privacy": {
     "title": "Política de Privacidad",

@@ -1,7 +1,6 @@
 {
   "aiAlerts": {
     "badge": "Alertas com IA",
-    "cta": "Os alertas de IA do Bacco ajudam você a tomar decisões proativas, prevenir problemas e otimizar cada etapa da produção.",
     "features": {
       "contextual": {
         "description": "Alertas inteligentes que consideram histórico, clima e estagio da produção.",
@@ -254,47 +253,38 @@
     "items": {
       "quintaDeGlaura": {
         "name": "Quinta de Glaura",
-        "description": "Adega boutique localizada na histórica cidade de Ouro Preto, produzindo vinhos artesanais de alta qualidade na região de Minas Gerais.",
         "location": "Ouro Preto, MG - Brasil"
       },
       "casaRozental": {
         "name": "Casa Rozental",
-        "description": "Adega com enoturismo em Secretário, Petrópolis, unindo produção artesanal de vinhos e experiências imersivas na Serra do Rio de Janeiro.",
         "location": "Secretário, Petrópolis, RJ - Brasil"
       },
       "vinicolaRomera": {
         "name": "Vinícola Romera",
-        "description": "Vinícola na Colônia Roça Nova, zona rural de Araucária, na região metropolitana de Curitiba, no Paraná.",
         "location": "Araucária, PR - Brasil"
       },
       "valeDoGongo": {
         "name": "Vinícola Vale do Gongo",
-        "description": "A única vinícola do norte de Minas Gerais, em Grão Mogol. Pioneira na região e premiada com Grand Gold no Concurso Nacional de Vinhos.",
         "location": "Grão Mogol, MG - Brasil"
       },
       "bodegaDonValentinCenci": {
         "name": "Bodega Dom Valentin Cenci",
-        "description": "Vinha familiar no Distrito Federal, cultivando Syrah, Merlot, Grenache, Tempranillo e Sauvignon Blanc, com espaço dedicado a visitas e provas.",
         "location": "Brasília, DF - Brasil"
       },
       "estanciaChrysiana": {
         "name": "Estância Chrysiana",
-        "description": "Vinícola de vinhos de inverno em Três Corações, no Sul de Minas. Vinha própria com Syrah, Cabernet Franc, Marselan e Sauvignon Blanc; primeira colheita em 2025.",
         "location": "Três Corações, MG - Brasil"
       },
       "casaDas7Evas": {
         "name": "Vinícola Casa das 7 Evas",
-        "description": "Vinícola na zona rural de São José de Mipibu, no Rio Grande do Norte, levando a viticultura tropical ao Nordeste brasileiro.",
         "location": "São José de Mipibu, RN - Brasil"
       },
       "quintaDaNeve": {
         "name": "Quinta da Neve",
-        "description": "Pioneira dos vinhos de altitude em São Joaquim: plantou as primeiras vitis vinifera da Serra Catarinense em 1999, a 1.200 metros. São 15 hectares de vinha, espumantes pelo método tradicional e visitas com prova.",
         "location": "São Joaquim, SC - Brasil"
       },
       "goyah": {
         "name": "Goyah Vinhos e Vinhedos",
-        "description": "Adega de altitude em Rancho Queimado, a 960 metros e a 40 km do litoral catarinense. Nasceu como adega de garagem em 2012 e foi formalizada em 2024, dentro da IP Vinhos de Altitude.",
         "location": "Rancho Queimado, SC - Brasil"
       }
     },
@@ -770,14 +760,6 @@
     "badge": "Comparação",
     "competitors": "ERPs Globais",
     "competitorsList": "Vintrace, AMS Winery, Vinsight, SAP Business One, Outros ERPs Globais",
-    "cta": {
-      "check1": "Desenvolvido no Brasil, disponível globalmente",
-      "check2": "Suporte multilíngue (PT-BR, PT-PT, EN, ES, IT, FR, DE) com conhecimento local",
-      "check3": "Preço acessível sem licenciamento internacional",
-      "check4": "Tecnologia moderna vs sistemas legados",
-      "description": "Desenvolvido no Brasil com padrões internacionais, o Bacco foi criado do zero pensando nas necessidades específicas de adegas. Disponível em 7 idiomas (PT-BR, PT-PT, EN, ES, IT, FR, DE), oferece especialização nativa com alcance global.",
-      "title": "ERP Completo para Adegas ao Redor do Mundo"
-    },
     "feature": "Funcionalidade",
     "generic": "Genérico",
     "high": "Alto",
@@ -1292,7 +1274,15 @@
       }
     },
     "subtitle": "Tudo que você precisa para gerenciar sua produção de vinhos, espumantes e sucos em um único sistema.",
-    "title": "Funcionalidades Completas para a sua Adega"
+    "title": "Funcionalidades Completas para a sua Adega",
+    "groups": {
+      "vineyard": "Vinha e campo",
+      "winemaking": "Receção e vinificação",
+      "analysis": "Análises e gestão",
+      "stock": "Stock e rastreabilidade",
+      "fiscal": "Fiscal e regulamentar",
+      "commercial": "Comercial, financeiro e enoturismo"
+    }
   },
   "footer": {
     "company": {
@@ -1698,33 +1688,6 @@
       "taskExecution": {
         "description": "Execute e registre tarefas de manejo: poda, adubação, tratamentos fitossanitários e colheita.",
         "title": "Execução de Tarefas"
-      }
-    },
-    "inAction": {
-      "badge": "Bacco-Campo em Ação",
-      "subtitle": "Interface intuitiva e moderna para gerenciar todas as operações do vinhedo na palma da sua mão",
-      "title": "Veja o App em Ação"
-    },
-    "screenshots": {
-      "dashboard": {
-        "description": "Visão geral das atividades",
-        "title": "Dashboard"
-      },
-      "executions": {
-        "description": "Acompanhamento de vinificação",
-        "title": "Execuções"
-      },
-      "grapeReception": {
-        "description": "Registro de entrada de uvas",
-        "title": "Recepção de Uvas"
-      },
-      "receptionDetails": {
-        "description": "Informações completas da colheita",
-        "title": "Detalhes da Recepção"
-      },
-      "tasks": {
-        "description": "Gestão de atividades do vinhedo",
-        "title": "Tarefas"
       }
     },
     "title": "Gestão Completa Direto do Vinhedo"
@@ -2346,60 +2309,6 @@
     "stageOrder": "Etapas, da esquerda para a direita: {stages}",
     "coverageOf": "{name}: cobre {stages}",
     "coverageNone": "{name}: não cobre nenhuma etapa do fluxo",
-    "stops": {
-      "badge": "Comparação honesta",
-      "title": "Cada um é bom nalguma coisa.",
-      "subtitle": "Não vamos fingir que os outros não servem para nada. Vamos ser precisos sobre onde servem — e onde ficam a meio do caminho.",
-      "gapPrefix": "Onde para:",
-      "items": {
-        "gvino": {
-          "tag": "Vertical · RS",
-          "name": "Gvino",
-          "body": "Software vitivinícola sério, com cinco módulos que vão da previsão de vindima ao engarrafamento, integração com o SISDEVIN e uma relação consolidada na Serra Gaúcha. Para uma adega de Bento Gonçalves que apenas produz e vende por grosso, é uma escolha legítima.",
-          "gap": "no balcão. Não cobre POS, loja na adega, reservas de enoturismo nem venda directa ao consumidor."
-        },
-        "ema": {
-          "tag": "Generalista · SC",
-          "name": "Ema ERP",
-          "body": "ERP de gestão competente, com POS maduro e boa leitura de margem por canal de distribuição. Funciona bem para quem precisa de organizar venda e financeiro em vários pontos.",
-          "gap": "na enologia. É um ERP industrial adaptado, não um sistema que percebe de corte, blend, trasfega, análise por lote e PIQ do MAPA."
-        },
-        "vinoerp": {
-          "tag": "Generalista · SP",
-          "name": "VinoERP",
-          "body": "Emite factura electrónica com competência, tem SPED com Bloco K e um bom ecossistema de integrações com marketplaces e comércio electrónico. Serve para loja de vinho, importadora e distribuidora.",
-          "gap": "na uva. O módulo de produção não está disponível em nenhum dos planos publicados — nem no mais caro. A vinificação continua na folha de cálculo."
-        },
-        "cepaos": {
-          "tag": "Vertical · EUA",
-          "name": "Cepaos",
-          "body": "Produto de adega moderno, com captura por telemóvel e cobertura regulatória para vários países. Para quem produz e não precisa de facturar no Brasil, é um bom caderno digital de adega.",
-          "gap": "no fisco. É uma LLC norte-americana que factura a partir do estrangeiro e cujo registo trabalha com CUIT e NIF — não há campo de CNPJ. A factura sai de outro sistema."
-        }
-      }
-    },
-    "pillars": {
-      "badge": "O que só o Bacco entrega",
-      "title": "Quatro coisas que mais ninguém junta.",
-      "items": {
-        "fiscal": {
-          "title": "Fiscal nos três regimes, a sério",
-          "description": "Simples Nacional, Lucro Presumido e Lucro Real. NF-e, NFC-e e NFS-e emitidas dentro do sistema, com ICMS-ST, IPI e a apuração que o contabilista espera receber. Não é integração com terceiros: é o núcleo."
-        },
-        "enotourism": {
-          "title": "Enoturismo que vende sozinho",
-          "description": "Mini-site de reservas e robô de atendimento no WhatsApp que agenda, confirma, cobra e emite a factura de serviço sem ninguém escrever nada. O turista reserva no sábado à noite, quando não há ninguém no escritório."
-        },
-        "iot": {
-          "title": "Sensores na vinha e na adega",
-          "description": "Hardware próprio, com patente submetida no INPI, a medir solo, clima, densidade em fermentação e nível de cuba. O dado entra directamente no lote — não numa folha de cálculo paralela."
-        },
-        "compliance": {
-          "title": "Conformidade incluída, sempre",
-          "description": "SIVIBE, MAPA e SISDEVIN em todos os planos, sem módulo extra. Actualização de legislação sem custo — incluindo durante toda a transição da reforma tributária, até 2033."
-        }
-      }
-    },
     "table": {
       "badge": "Ponto por ponto",
       "title": "O comparativo completo.",

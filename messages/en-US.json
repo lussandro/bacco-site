@@ -240,6 +240,14 @@
         "title": "Labeling & QR Code",
         "description": "Label registration with traceability, wine classification and QR Code generation for public authenticity verification."
       }
+    },
+    "groups": {
+      "vineyard": "Vineyard and field",
+      "winemaking": "Reception and winemaking",
+      "analysis": "Analysis and management",
+      "stock": "Inventory and traceability",
+      "fiscal": "Tax and regulatory",
+      "commercial": "Sales, finance and wine tourism"
     }
   },
   "mobile": {
@@ -276,33 +284,6 @@
     "benefits": {
       "autoSync": "Automatic synchronization",
       "offline": "Works offline"
-    },
-    "inAction": {
-      "badge": "Bacco-Campo in Action",
-      "title": "See the App in Action",
-      "subtitle": "Intuitive and modern interface to manage all vineyard operations in the palm of your hand"
-    },
-    "screenshots": {
-      "dashboard": {
-        "title": "Dashboard",
-        "description": "Overview of activities"
-      },
-      "grapeReception": {
-        "title": "Grape Reception",
-        "description": "Grape entry record"
-      },
-      "receptionDetails": {
-        "title": "Reception Details",
-        "description": "Complete harvest information"
-      },
-      "tasks": {
-        "title": "Tasks",
-        "description": "Vineyard activity management"
-      },
-      "executions": {
-        "title": "Executions",
-        "description": "Winemaking tracking"
-      }
     },
     "downloadDialog": {
       "title": "Download Bacco-Campo",
@@ -535,14 +516,6 @@
         "description": "Complete wine tourism module that global ERPs don't have. Appointment, tasting, and experience management integrated with the ERP."
       }
     },
-    "cta": {
-      "title": "Complete ERP for Wineries Around the World",
-      "description": "Developed in Brazil with international standards, Bacco was created from scratch thinking about the specific needs of wineries. Available in 7 languages (PT-BR, PT-PT, EN, ES, IT, FR, DE), it offers native specialization with global reach.",
-      "check1": "Developed in Brazil, available globally",
-      "check2": "Multilingual support (PT-BR, PT-PT, EN, ES, IT, FR, DE) with local knowledge",
-      "check3": "Affordable price without international licensing",
-      "check4": "Modern technology vs legacy systems"
-    },
     "items": {
       "specialization": {
         "category": "Specialization",
@@ -650,47 +623,38 @@
     "items": {
       "quintaDeGlaura": {
         "name": "Quinta de Glaura",
-        "description": "Boutique winery located in the historic city of Ouro Preto, producing high-quality artisanal wines in the Minas Gerais region.",
         "location": "Ouro Preto, MG - Brazil"
       },
       "casaRozental": {
         "name": "Casa Rozental",
-        "description": "Winery with wine tourism in Secretário, Petrópolis, combining artisanal wine production and immersive experiences in the mountains of Rio de Janeiro.",
         "location": "Secretário, Petrópolis, RJ - Brazil"
       },
       "vinicolaRomera": {
         "name": "Vinícola Romera",
-        "description": "Winery in Colônia Roça Nova, rural Araucária, in the Greater Curitiba area of Paraná.",
         "location": "Araucária, PR - Brazil"
       },
       "valeDoGongo": {
         "name": "Vinícola Vale do Gongo",
-        "description": "The only winery in northern Minas Gerais, in Grão Mogol. A regional pioneer, awarded Grand Gold at the National Wine Competition.",
         "location": "Grão Mogol, MG - Brazil"
       },
       "bodegaDonValentinCenci": {
         "name": "Bodega Dom Valentin Cenci",
-        "description": "A family vineyard in Brazil's Federal District, growing Syrah, Merlot, Grenache, Tempranillo and Sauvignon Blanc, with a space dedicated to visits and tastings.",
         "location": "Brasília, DF - Brazil"
       },
       "estanciaChrysiana": {
         "name": "Estância Chrysiana",
-        "description": "A winter-harvest winery in Três Corações, southern Minas Gerais. Estate vineyard with Syrah, Cabernet Franc, Marselan and Sauvignon Blanc; first harvest in 2025.",
         "location": "Três Corações, MG - Brazil"
       },
       "casaDas7Evas": {
         "name": "Vinícola Casa das 7 Evas",
-        "description": "Winery in rural São José de Mipibu, Rio Grande do Norte, bringing tropical viticulture to Brazil's Northeast.",
         "location": "São José de Mipibu, RN - Brazil"
       },
       "quintaDaNeve": {
         "name": "Quinta da Neve",
-        "description": "A pioneer of high-altitude wine in São Joaquim: it planted Serra Catarinense's first vitis vinifera vines in 1999, at 1,200 metres. Fifteen hectares of vineyard, traditional-method sparkling wines and tastings open to visitors.",
         "location": "São Joaquim, SC - Brazil"
       },
       "goyah": {
         "name": "Goyah Vinhos e Vinhedos",
-        "description": "High-altitude winery in Rancho Queimado, 960 metres up and 40 km from the Santa Catarina coast. It began as a garage cellar in 2012 and was formalised in 2024, within the Vinhos de Altitude protected origin.",
         "location": "Rancho Queimado, SC - Brazil"
       }
     },
@@ -884,8 +848,7 @@
         "title": "100% Multilingual",
         "description": "All alerts are professionally translated to PT, EN, ES, and IT."
       }
-    },
-    "cta": "Bacco's AI alerts help you make proactive decisions, prevent problems, and optimize every stage of production."
+    }
   },
   "privacy": {
     "title": "Privacy Policy",

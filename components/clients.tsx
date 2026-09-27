@@ -74,7 +74,7 @@ export function Clients() {
   const t = useTranslations("clients")
 
   return (
-    <section id="clientes" className="py-20 lg:py-32 relative overflow-hidden">
+    <section id="clientes" className="py-16 lg:py-24 relative overflow-hidden">
       {/* Subtle background texture */}
       <div className="absolute inset-0 bg-gradient-to-b from-muted/40 via-background to-muted/40" />
       <div className="absolute top-0 left-1/4 w-96 h-96 bg-primary/3 rounded-full blur-3xl" />
@@ -82,7 +82,7 @@ export function Clients() {
 
       <div className="container mx-auto px-4 lg:px-8 relative">
         {/* Section header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-10">
           <div className="inline-flex items-center gap-2 mb-4">
             <Wine className="h-5 w-5 text-primary" />
             <Badge className="text-base px-4 py-1.5 bg-primary/10 text-primary border-primary/30">
@@ -98,70 +98,36 @@ export function Clients() {
           </p>
         </div>
 
-        {/* Client cards */}
-        <div className="max-w-5xl mx-auto">
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
-            {clients.map((client) => (
-              <Card
-                key={client.key}
-                className="group border-2 border-primary/15 hover:border-primary/40 transition-all duration-500 hover:shadow-2xl overflow-hidden bg-card/80 backdrop-blur-sm"
-              >
-                <CardContent className="p-0">
-                  {/* Logo area */}
-                  <div className={`relative ${client.logoBg ?? "bg-gradient-to-br from-muted/50 to-muted/30"} p-8 flex items-center justify-center min-h-[220px] border-b border-primary/10`}>
-                    <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,var(--primary)_0.5px,transparent_0.5px)] bg-[length:24px_24px] opacity-[0.03]" />
+        {/* Client cards: compactos, logo + nome + cidade + links */}
+        <div className="max-w-5xl mx-auto grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {clients.map((client) => (
+            <Card key={client.key} className="border hover:border-primary/40 transition-colors p-0 gap-0">
+              <CardContent className="p-4 flex items-center gap-4">
+                <div className={`relative h-20 w-20 flex-shrink-0 rounded-lg overflow-hidden ${client.logoBg ?? "bg-muted/40"}`}>
+                  <Image src={client.logo} alt={t(`items.${client.key}.name`)} fill className="object-contain p-1.5" />
+                </div>
+                <div className="min-w-0">
+                  <h3 className="font-serif text-lg font-bold leading-tight">
+                    {t(`items.${client.key}.name`)}
                     {client.comingSoon && (
-                      <Badge className="absolute top-3 right-3 z-10 bg-primary/90 text-primary-foreground border-0 shadow-md">
-                        {t("comingSoon")}
-                      </Badge>
+                      <Badge className="ml-2 align-middle text-[10px] bg-primary/90 text-primary-foreground border-0">{t("comingSoon")}</Badge>
                     )}
-                    {client.logo ? (
-                      <div className={`relative ${client.logoClass || "w-48 h-48"} group-hover:scale-105 transition-transform duration-500`}>
-                        <Image
-                          src={client.logo}
-                          alt={t(`items.${client.key}.name`)}
-                          fill
-                          className="object-contain drop-shadow-md"
-                        />
-                      </div>
-                    ) : (
-                      <div className="relative flex flex-col items-center justify-center gap-3 text-center group-hover:scale-105 transition-transform duration-500">
-                        <Wine className="h-14 w-14 text-primary/60" />
-                        <span className="font-serif text-lg font-bold text-foreground/80 px-4">
-                          {t(`items.${client.key}.name`)}
-                        </span>
-                      </div>
-                    )}
-                  </div>
-
-                  {/* Info area */}
-                  <div className="p-6">
-                    <h3 className="font-serif text-xl font-bold mb-2 group-hover:text-primary transition-colors">
-                      {t(`items.${client.key}.name`)}
-                    </h3>
-
-                    <p className="text-sm text-muted-foreground mb-4 leading-relaxed">
-                      {t(`items.${client.key}.description`)}
-                    </p>
-
-                    <div className="flex items-center gap-2 text-sm text-muted-foreground mb-4">
-                      <MapPin className="h-4 w-4 text-primary/70 flex-shrink-0" />
-                      <span>{t(`items.${client.key}.location`)}</span>
-                    </div>
-
-                    <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
+                  </h3>
+                  <p className="flex items-center gap-1.5 text-xs text-muted-foreground mt-1">
+                    <MapPin className="h-3.5 w-3.5 text-primary/70 flex-shrink-0" />
+                    {t(`items.${client.key}.location`)}
+                  </p>
+                  <div className="flex items-center gap-3 mt-2">
                     {client.website && (
                       <a
                         href={client.website}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-primary/80 transition-colors group/link"
+                        aria-label={`${t("visitWebsite")}: ${t(`items.${client.key}.name`)}`}
+                        className="text-primary hover:text-primary/70"
                         onClick={() => trackEvent('client_click', { client_name: client.key, link_type: 'website' })}
                       >
                         <ExternalLink className="h-4 w-4" />
-                        <span className="border-b border-primary/30 group-hover/link:border-primary transition-colors">
-                          {t("visitWebsite")}
-                        </span>
                       </a>
                     )}
                     {client.instagram && (
@@ -169,25 +135,22 @@ export function Clients() {
                         href={client.instagram}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-primary/80 transition-colors group/link"
+                        aria-label={`@${client.instagram.split("/").pop()}`}
+                        className="text-primary hover:text-primary/70"
                         onClick={() => trackEvent('client_click', { client_name: client.key, link_type: 'instagram' })}
                       >
                         <Instagram className="h-4 w-4" />
-                        <span className="border-b border-primary/30 group-hover/link:border-primary transition-colors">
-                          @{client.instagram.split("/").pop()}
-                        </span>
                       </a>
                     )}
-                    </div>
                   </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
+                </div>
+              </CardContent>
+            </Card>
+          ))}
         </div>
 
         {/* Trust indicator */}
-        <div className="mt-16 text-center">
+        <div className="mt-8 text-center">
           <p className="text-sm text-muted-foreground italic">
             {t("trustText")}
           </p>

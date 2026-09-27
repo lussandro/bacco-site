@@ -12,7 +12,6 @@ import {
   Brain,
   Globe,
   AlertTriangle,
-  CheckCircle2,
   Sparkles
 } from "lucide-react"
 import { useTranslations } from "next-intl"
@@ -114,13 +113,13 @@ export function AIAlerts() {
   const AlertIcon = currentAlert.icon
 
   return (
-    <section className="py-20 lg:py-32 bg-gradient-to-b from-background via-primary/5 to-background relative overflow-hidden">
+    <section className="py-16 lg:py-24 bg-gradient-to-b from-background via-primary/5 to-background relative overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_70%,color-mix(in oklch, var(--primary) 8%, transparent),transparent_50%)]" />
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_30%,color-mix(in oklch, var(--primary) 5%, transparent),transparent_50%)]" />
 
       <div className="container mx-auto px-4 lg:px-8 relative">
         {/* Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-10">
           <div className="inline-flex items-center gap-2 mb-4">
             <Brain className="h-6 w-6 text-primary" />
             <Badge className="text-base px-4 py-1.5 bg-primary/20 text-primary border-primary/30">
@@ -206,46 +205,10 @@ export function AIAlerts() {
               </div>
             </CardContent>
           </Card>
-
-          {/* All Languages Grid */}
-          <div className="grid md:grid-cols-2 gap-4">
-            {languages.map((lang, index) => (
-              <Card
-                key={lang.code}
-                className={`border-2 transition-all duration-300 hover:shadow-lg cursor-pointer ${
-                  activeLanguage === lang.code
-                    ? "border-primary/50 bg-primary/5"
-                    : "border-border hover:border-primary/30"
-                }`}
-                onClick={() => setActiveLanguage(lang.code)}
-                style={{ animationDelay: `${index * 100}ms` }}
-              >
-                <CardContent className="p-5">
-                  <div className="flex items-center gap-3 mb-3">
-                    <div className={`h-10 w-10 rounded-lg flex items-center justify-center text-lg font-bold ${
-                      activeLanguage === lang.code ? "bg-primary/20 text-primary" : "bg-muted text-muted-foreground"
-                    }`}>
-                      {lang.flag}
-                    </div>
-                    <div>
-                      <h4 className="font-semibold">{lang.name}</h4>
-                      <p className="text-xs text-muted-foreground">{lang.code}</p>
-                    </div>
-                    {activeLanguage === lang.code && (
-                      <CheckCircle2 className="h-5 w-5 text-primary ml-auto" />
-                    )}
-                  </div>
-                  <p className="text-sm text-muted-foreground leading-relaxed line-clamp-3">
-                    {currentAlert.translations[lang.code]}
-                  </p>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
         </div>
 
         {/* Features List */}
-        <div className="mt-16 grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+        <div className="mt-8 grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
           {["realtime", "contextual", "multilingual"].map((feature, index) => (
             <div
               key={feature}
@@ -263,13 +226,6 @@ export function AIAlerts() {
               </div>
             </div>
           ))}
-        </div>
-
-        {/* Bottom CTA */}
-        <div className="text-center mt-12">
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            {t("cta")}
-          </p>
         </div>
       </div>
     </section>

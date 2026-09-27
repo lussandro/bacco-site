@@ -1,56 +1,21 @@
 "use client"
 
 import { Card } from "@/components/ui/card"
-import {
-  Grape,
-  Sprout,
-  ClipboardList,
-  Beaker,
-  FlaskConical,
-  BarChart3,
-  Thermometer,
-  Package,
-  Users,
-  ShoppingCart,
-  FileText,
-  TrendingUp,
-  Database,
-  Wifi,
-  QrCode,
-  CreditCard,
-  Store,
-  Brain,
-  Cloud,
-  Wine,
-  ShieldCheck,
-  Building2,
-  Blend,
-  Pipette,
-  Tractor,
-  ShoppingBag,
-  Tag,
-  GlassWater,
-  LineChart,
-} from "lucide-react"
+import { Grape, FlaskConical, BarChart3, Package, FileText, ShoppingCart } from "lucide-react"
 import { useTranslations } from 'next-intl';
+
+// 29 funcionalidades em 6 grupos: o título de cada uma fica na página, a descrição no tooltip.
+const groups = [
+  { key: 'vineyard', icon: Grape, items: ['vineyardManagement', 'vineyardHandling', 'aiCalendar', 'climateAI', 'mechanization'] },
+  { key: 'winemaking', icon: FlaskConical, items: ['grapeReception', 'productionLots', 'visualFlowEditor', 'vinificationAI', 'temperatureIoT', 'sparklingWine', 'blends', 'bottling'] },
+  { key: 'analysis', icon: BarChart3, items: ['labAnalysis', 'vinificationAnalytics', 'dashboard', 'reports', 'multitenant'] },
+  { key: 'stock', icon: Package, items: ['stockControl', 'stockLabeling', 'labeling', 'traceability'] },
+  { key: 'fiscal', icon: FileText, items: ['fiscalNotes', 'sivibe', 'envin'] },
+  { key: 'commercial', icon: ShoppingCart, items: ['commercial', 'financial', 'ecommerceHub', 'enotourism'] },
+] as const
 
 export function Features() {
   const t = useTranslations('features');
-  const icons = [
-    Grape, Sprout, Brain, Cloud, ClipboardList, Package, FlaskConical, Brain,
-    Thermometer, Beaker, BarChart3, Users, ShoppingCart, CreditCard, FileText,
-    Database, ShieldCheck, Wine, Building2, Store, QrCode, TrendingUp,
-    GlassWater, Blend, Pipette, LineChart, Tractor, ShoppingBag, Tag
-  ];
-  const keys = [
-    'vineyardManagement', 'vineyardHandling', 'aiCalendar', 'climateAI',
-    'grapeReception', 'productionLots', 'visualFlowEditor', 'vinificationAI',
-    'temperatureIoT', 'labAnalysis', 'dashboard', 'multitenant', 'commercial',
-    'financial', 'fiscalNotes', 'sivibe', 'envin', 'enotourism', 'stockControl',
-    'stockLabeling', 'traceability', 'reports',
-    'sparklingWine', 'blends', 'bottling', 'vinificationAnalytics',
-    'mechanization', 'ecommerceHub', 'labeling'
-  ];
 
   return (
     <section id="funcionalidades" className="py-16 lg:py-24 bg-muted/30">
@@ -64,19 +29,25 @@ export function Features() {
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-          {keys.map((key, index) => {
-            const Icon = icons[index];
-            return (
-              <Card key={index} className="p-5 gap-0 hover:shadow-lg transition-shadow">
-                <div className="h-9 w-9 rounded-lg bg-primary/10 flex items-center justify-center mb-3">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {groups.map(({ key, icon: Icon, items }) => (
+            <Card key={key} className="p-6 gap-0">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="h-10 w-10 rounded-lg bg-primary/10 flex items-center justify-center">
                   <Icon className="h-5 w-5 text-primary" />
                 </div>
-                <h3 className="font-semibold mb-1.5">{t(`items.${key}.title`)}</h3>
-                <p className="text-sm text-muted-foreground leading-relaxed">{t(`items.${key}.description`)}</p>
-              </Card>
-            );
-          })}
+                <h3 className="text-lg font-semibold">{t(`groups.${key}`)}</h3>
+              </div>
+              <ul className="space-y-2 text-sm">
+                {items.map((item) => (
+                  <li key={item} title={t(`items.${item}.description`)} className="flex gap-2">
+                    <span aria-hidden="true" className="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-primary/60" />
+                    {t(`items.${item}.title`)}
+                  </li>
+                ))}
+              </ul>
+            </Card>
+          ))}
         </div>
       </div>
     </section>

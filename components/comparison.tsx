@@ -40,7 +40,7 @@ export function Comparison() {
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px] [mask-image:linear-gradient(0deg,white,rgba(255,255,255,0.6))] -z-10" />
 
       <div className="container mx-auto px-4 lg:px-8">
-        <div className="text-center max-w-3xl mx-auto mb-16">
+        <div className="text-center max-w-3xl mx-auto mb-10">
           <Badge className="mb-4 text-base px-4 py-1.5 bg-primary/10 text-primary hover:bg-primary/20">
             {t("badge")}
           </Badge>
@@ -49,7 +49,11 @@ export function Comparison() {
         </div>
 
         {/* Comparison Table */}
-        <div className="mb-12">
+        <details className="group mb-12">
+          <summary className="cursor-pointer list-none flex items-center justify-between gap-4 rounded-xl border-2 p-5 mb-4 hover:border-primary/40 transition-colors">
+            <span className="font-serif text-2xl font-bold">{t("badge")}</span>
+            <span aria-hidden="true" className="text-2xl text-primary transition-transform group-open:rotate-45">+</span>
+          </summary>
           <Card className="overflow-hidden border-2">
             <div className="overflow-x-auto">
               <table className="w-full">
@@ -149,10 +153,10 @@ export function Comparison() {
               </table>
             </div>
           </Card>
-        </div>
+        </details>
 
         {/* Key Differentiators */}
-        <div className="grid md:grid-cols-3 gap-6 mb-12">
+        <div className="grid md:grid-cols-3 gap-6">
           <Card className="p-6 border-2 border-primary/20 bg-gradient-to-br from-primary/5 to-transparent">
             <div className="flex items-center gap-3 mb-4">
               <div className="h-12 w-12 rounded-lg bg-primary/10 flex items-center justify-center">
@@ -188,34 +192,6 @@ export function Comparison() {
               {t("highlights.enotourism.description")}
             </p>
           </Card>
-        </div>
-
-        {/* Bottom CTA */}
-        <div className="bg-gradient-to-br from-primary/10 via-primary/5 to-background rounded-2xl p-8 lg:p-12 border-2 border-primary/20 text-center">
-          <h3 className="text-3xl font-serif font-bold mb-4 text-balance">
-            {t("cta.title")}
-          </h3>
-          <p className="text-lg text-muted-foreground mb-6 max-w-2xl mx-auto text-pretty">
-            {t("cta.description")}
-          </p>
-          <div className="flex flex-wrap justify-center gap-4 text-sm">
-            <div className="flex items-center gap-2">
-              <Check className="h-5 w-5 text-primary" />
-              <span>{t("cta.check1")}</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Check className="h-5 w-5 text-primary" />
-              <span>{t("cta.check2")}</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Check className="h-5 w-5 text-primary" />
-              <span>{t("cta.check3")}</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Check className="h-5 w-5 text-primary" />
-              <span>{t("cta.check4")}</span>
-            </div>
-          </div>
         </div>
       </div>
     </section>

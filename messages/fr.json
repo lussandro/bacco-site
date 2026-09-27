@@ -1,7 +1,6 @@
 {
   "aiAlerts": {
     "badge": "Alertes basées sur l'IA",
-    "cta": "Les alertes IA de Bacco vous aident à prendre des décisions proactives, à prévenir les problèmes et à optimiser chaque étape de la production.",
     "features": {
       "contextual": {
         "description": "Alertes intelligentes tenant compte de l’historique, de la météo et de l’étape de production.",
@@ -254,47 +253,38 @@
     "items": {
       "quintaDeGlaura": {
         "name": "Quinta de Glaura",
-        "description": "Domaine viticole boutique situé dans la ville historique d'Ouro Preto, produisant des vins artisanaux de haute qualité dans la région du Minas Gerais.",
         "location": "Ouro Preto, MG - Brésil"
       },
       "casaRozental": {
         "name": "Casa Rozental",
-        "description": "Domaine viticole avec oenotourisme à Secretário, Petrópolis, alliant production artisanale de vins et expériences immersives dans la Serra de Rio de Janeiro.",
         "location": "Secretário, Petrópolis, RJ - Brésil"
       },
       "vinicolaRomera": {
         "name": "Vinícola Romera",
-        "description": "Cave à Colônia Roça Nova, zone rurale d'Araucária, dans l'agglomération de Curitiba, au Paraná.",
         "location": "Araucária, PR - Brésil"
       },
       "valeDoGongo": {
         "name": "Vinícola Vale do Gongo",
-        "description": "La seule cave du nord du Minas Gerais, à Grão Mogol. Pionnière dans la région et récompensée du Grand Gold au Concours National des Vins.",
         "location": "Grão Mogol, MG - Brésil"
       },
       "bodegaDonValentinCenci": {
         "name": "Bodega Dom Valentin Cenci",
-        "description": "Vignoble familial dans le District fédéral, cultivant Syrah, Merlot, Grenache, Tempranillo et Sauvignon Blanc, avec un espace dédié aux visites et dégustations.",
         "location": "Brasília, DF - Brésil"
       },
       "estanciaChrysiana": {
         "name": "Estância Chrysiana",
-        "description": "Cave de vins de vendange d'hiver à Três Corações, sud du Minas Gerais. Vignoble en propre avec Syrah, Cabernet Franc, Marselan et Sauvignon Blanc ; première vendange en 2025.",
         "location": "Três Corações, MG - Brésil"
       },
       "casaDas7Evas": {
         "name": "Vinícola Casa das 7 Evas",
-        "description": "Domaine viticole en zone rurale de São José de Mipibu, Rio Grande do Norte, qui apporte la viticulture tropicale au Nordeste brésilien.",
         "location": "São José de Mipibu, RN - Brésil"
       },
       "quintaDaNeve": {
         "name": "Quinta da Neve",
-        "description": "Pionnière des vins d'altitude à São Joaquim : elle a planté les premières vitis vinifera de la Serra Catarinense en 1999, à 1 200 mètres. Quinze hectares de vignoble, des effervescents en méthode traditionnelle et des visites avec dégustation.",
         "location": "São Joaquim, SC - Brésil"
       },
       "goyah": {
         "name": "Goyah Vinhos e Vinhedos",
-        "description": "Domaine d'altitude à Rancho Queimado, à 960 mètres et à 40 km du littoral de Santa Catarina. Né comme chai de garage en 2012, il a été officialisé en 2024, au sein de l'IP Vinhos de Altitude.",
         "location": "Rancho Queimado, SC - Brésil"
       }
     },
@@ -770,14 +760,6 @@
     "badge": "Comparaison",
     "competitors": "ERP mondiaux",
     "competitorsList": "Vintrace, AMS Winery, Vinsight, SAP Business One, autres ERP mondiaux",
-    "cta": {
-      "check1": "Développé au Brésil, disponible dans le monde entier",
-      "check2": "Support multilingue (PT-BR, PT-PT, EN, ES, IT, FR, DE) avec connaissance locale",
-      "check3": "Prix ​​abordable sans licence internationale",
-      "check4": "Technologie moderne vs systèmes existants",
-      "description": "Développé au Brésil selon les normes internationales, Bacco a été créé de toutes pièces en pensant aux besoins spécifiques des domaines viticoles. Disponible en 7 langues (PT-BR, PT-PT, EN, ES, IT, FR, DE), elle offre une expertise native à portée mondiale.",
-      "title": "ERP complet pour les domaines viticoles du monde entier"
-    },
     "feature": "Fonctionnalité",
     "generic": "Générique",
     "high": "Haut",
@@ -1276,7 +1258,15 @@
       }
     },
     "subtitle": "Tout ce dont vous avez besoin pour gérer votre production de vins, de vins mousseux et de jus dans un seul système.",
-    "title": "Fonctionnalités complètes pour votre domaine viticole"
+    "title": "Fonctionnalités complètes pour votre domaine viticole",
+    "groups": {
+      "vineyard": "Vignoble et terrain",
+      "winemaking": "Réception et vinification",
+      "analysis": "Analyses et pilotage",
+      "stock": "Stock et traçabilité",
+      "fiscal": "Fiscal et réglementaire",
+      "commercial": "Commercial, finances et œnotourisme"
+    }
   },
   "footer": {
     "company": {
@@ -1682,33 +1672,6 @@
       "taskExecution": {
         "description": "Effectuer et enregistrer les tâches de gestion : taille, fertilisation, traitements phytosanitaires et récolte.",
         "title": "Exécution des tâches"
-      }
-    },
-    "inAction": {
-      "badge": "Bacco-Campo en action",
-      "subtitle": "Interface intuitive et moderne pour gérer toutes les opérations du vignoble au creux de votre main",
-      "title": "Voir l'application en action"
-    },
-    "screenshots": {
-      "dashboard": {
-        "description": "Aperçu des activités",
-        "title": "Tableau de bord"
-      },
-      "executions": {
-        "description": "Suivi de vinification",
-        "title": "Exécutions"
-      },
-      "grapeReception": {
-        "description": "Registre d'entrée des raisins",
-        "title": "Réception aux raisins"
-      },
-      "receptionDetails": {
-        "description": "Informations complètes sur la récolte",
-        "title": "Détails de la réception"
-      },
-      "tasks": {
-        "description": "Gestion de l'activité viticole",
-        "title": "Tâches"
       }
     },
     "title": "Gestion complète directement du Vinhedo"

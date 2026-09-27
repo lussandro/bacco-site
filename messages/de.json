@@ -240,6 +240,14 @@
         "title": "Etikettierung & QR-Code",
         "description": "Etikettenregistrierung mit Rückverfolgbarkeit, Weinklassifikation und QR-Code-Generierung zur öffentlichen Authentizitätsprüfung."
       }
+    },
+    "groups": {
+      "vineyard": "Weinberg und Feld",
+      "winemaking": "Annahme und Weinbereitung",
+      "analysis": "Analysen und Steuerung",
+      "stock": "Lager und Rückverfolgbarkeit",
+      "fiscal": "Steuern und Vorschriften",
+      "commercial": "Vertrieb, Finanzen und Weintourismus"
     }
   },
   "mobile": {
@@ -276,33 +284,6 @@
     "benefits": {
       "autoSync": "Automatische Synchronisierung",
       "offline": "Auch offline arbeiten"
-    },
-    "inAction": {
-      "badge": "Bacco-Campo in Aktion",
-      "title": "Sehen Sie die App in Aktion",
-      "subtitle": "Intuitive und moderne Benutzeroberfläche zur Verwaltung aller Weingartenvorgänge in Ihrer Handfläche"
-    },
-    "screenshots": {
-      "dashboard": {
-        "title": "Armaturenbrett",
-        "description": "Übersicht der Freizeitmöglichkeiten"
-      },
-      "grapeReception": {
-        "title": "Traubenempfang",
-        "description": "Traubeneingabeprotokoll"
-      },
-      "receptionDetails": {
-        "title": "Empfangsdetails",
-        "description": "Vollständige Ernteinformationen"
-      },
-      "tasks": {
-        "title": "Aufgaben",
-        "description": "Weingut-Aktivitätsmanagement"
-      },
-      "executions": {
-        "title": "Ausführungen",
-        "description": "Winzer-Tracking"
-      }
     },
     "downloadDialog": {
       "title": "Bacco-Campo herunterladen",
@@ -535,14 +516,6 @@
         "description": "Komplettes Weintourismus-Modul, das globale ERPs nicht haben. Termin-, Verkostungs- und Erfahrungsmanagement integriert mit dem ERP."
       }
     },
-    "cta": {
-      "title": "Komplettes ERP für Weingüter auf der ganzen Welt",
-      "description": "In Brasilien nach internationalen Standards entwickelt, wurde Bacco von Grund auf fuer die spezifischen Anforderungen von Weinguetern geschaffen. Verfuegbar in 7 Sprachen (PT-BR, PT-PT, EN, ES, IT, FR, DE) und mit nativer Spezialisierung fuer den globalen Einsatz.",
-      "check1": "In Brasilien entwickelt, weltweit verfuegbar",
-      "check2": "Mehrsprachiger Support (PT-BR, PT-PT, EN, ES, IT, FR, DE) mit lokalem Know-how",
-      "check3": "Affordable price without international licensing",
-      "check4": "Modern technology vs legacy systems"
-    },
     "items": {
       "specialization": {
         "category": "Specialization",
@@ -650,47 +623,38 @@
     "items": {
       "quintaDeGlaura": {
         "name": "Quinta de Glaura",
-        "description": "Boutique-Weingut in der historischen Stadt Ouro Preto, das hochwertige handwerkliche Weine in der Region Minas Gerais produziert.",
         "location": "Ouro Preto, MG - Brasilien"
       },
       "casaRozental": {
         "name": "Casa Rozental",
-        "description": "Weingut mit Weintourismus in Secretário, Petrópolis, das handwerkliche Weinproduktion und immersive Erlebnisse im Bergland von Rio de Janeiro vereint.",
         "location": "Secretário, Petrópolis, RJ - Brasilien"
       },
       "vinicolaRomera": {
         "name": "Vinícola Romera",
-        "description": "Weingut in Colônia Roça Nova, ländliches Araucária, im Großraum Curitiba in Paraná.",
         "location": "Araucária, PR - Brasilien"
       },
       "valeDoGongo": {
         "name": "Vinícola Vale do Gongo",
-        "description": "Das einzige Weingut im Norden von Minas Gerais, in Grão Mogol. Pionier der Region und mit Grand Gold beim Nationalen Weinwettbewerb ausgezeichnet.",
         "location": "Grão Mogol, MG - Brasilien"
       },
       "bodegaDonValentinCenci": {
         "name": "Bodega Dom Valentin Cenci",
-        "description": "Familienweinberg im Bundesdistrikt mit Syrah, Merlot, Grenache, Tempranillo und Sauvignon Blanc sowie einem Bereich für Besuche und Verkostungen.",
         "location": "Brasília, DF - Brasilien"
       },
       "estanciaChrysiana": {
         "name": "Estância Chrysiana",
-        "description": "Weingut für Winterlese-Weine in Três Corações, im Süden von Minas Gerais. Eigener Weinberg mit Syrah, Cabernet Franc, Marselan und Sauvignon Blanc; erste Lese 2025.",
         "location": "Três Corações, MG - Brasilien"
       },
       "casaDas7Evas": {
         "name": "Vinícola Casa das 7 Evas",
-        "description": "Weingut im ländlichen São José de Mipibu, Rio Grande do Norte, das den tropischen Weinbau in den Nordosten Brasiliens bringt.",
         "location": "São José de Mipibu, RN - Brasilien"
       },
       "quintaDaNeve": {
         "name": "Quinta da Neve",
-        "description": "Pionier des Höhenweinbaus in São Joaquim: 1999 pflanzte das Gut auf 1.200 Metern die ersten Vitis-vinifera-Reben der Serra Catarinense. 15 Hektar Rebfläche, Schaumweine nach traditioneller Methode und Verkostungen für Besucher.",
         "location": "São Joaquim, SC - Brasilien"
       },
       "goyah": {
         "name": "Goyah Vinhos e Vinhedos",
-        "description": "Höhenweingut in Rancho Queimado, auf 960 Metern und 40 km von der Küste Santa Catarinas entfernt. 2012 als Garagenkellerei begonnen, 2024 innerhalb der Herkunftsangabe Vinhos de Altitude formalisiert.",
         "location": "Rancho Queimado, SC - Brasilien"
       }
     },
@@ -884,8 +848,7 @@
         "title": "100% Multilingual",
         "description": "Alle Warnungen werden professionell in die Sprachen PT, EN, ES und IT übersetzt."
       }
-    },
-    "cta": "Die KI-Warnungen von Bacco helfen Ihnen, proaktive Entscheidungen zu treffen, Probleme zu verhindern und jede Phase der Produktion zu optimieren."
+    }
   },
   "privacy": {
     "title": "Datenschutzrichtlinie",
