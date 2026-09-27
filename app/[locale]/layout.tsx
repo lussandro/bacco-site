@@ -219,7 +219,7 @@ export default async function LocaleLayout({
 
               // Section visibility tracking
               (function() {
-                var sections = ['funcionalidades','escopo','mobile','bacco-cpu','comanda','enoturismo','sistema','diferenciais','clientes','sobre','contato','cta-final'];
+                var sections = ['mercados','funcionalidades','portes','producao','mobile','enoturismo','comanda','sistema','comparacao','clientes','faq','contato'];
                 var observer = new IntersectionObserver(function(entries) {
                   entries.forEach(function(entry) {
                     if (entry.isIntersecting) {
