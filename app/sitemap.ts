@@ -14,18 +14,15 @@ const staticPaths = Object.keys(routing.pathnames).filter(
 // no build (mtime = hora do clone na Vercel). Data inventada a cada deploy faz o
 // Google parar de confiar no campo. Blog usa a data real do front-matter.
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const entries: MetadataRoute.Sitemap = [
-    {
-      url: BASE_URL,
-      changeFrequency: 'weekly',
-      priority: 1,
-    },
-  ]
+  // A raiz não entra como página: ela redireciona (307) para o idioma do
+  // navegador. Aparece só como x-default da home, abaixo.
+  const entries: MetadataRoute.Sitemap = []
 
   for (const internalPath of staticPaths) {
     const languages: Record<string, string> = {}
     for (const alt of locales) languages[alt] = urlFor(internalPath, alt)
-    languages['x-default'] = urlFor(internalPath, routing.defaultLocale)
+    languages['x-default'] =
+      internalPath === '/' ? `${BASE_URL}/` : urlFor(internalPath, routing.defaultLocale)
 
     for (const locale of locales) {
       const isHome = pathFor(internalPath, locale) === ''

@@ -150,7 +150,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
         "it-IT": `${baseUrl.origin}/it-IT`,
         "fr": `${baseUrl.origin}/fr`,
         "de": `${baseUrl.origin}/de`,
-        "x-default": `${baseUrl.origin}/pt-BR`,
+        // a raiz escolhe o idioma pelo navegador (307): é ela o x-default, não o pt-BR
+        "x-default": `${baseUrl.origin}/`,
       },
     },
   }
