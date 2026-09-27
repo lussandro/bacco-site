@@ -35,6 +35,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     }
   }
 
+  // Rastreabilidade: pagina so em portugues, fora de routing.pathnames.
+  entries.push({ url: `${BASE_URL}/pt-BR/rastreabilidade`, changeFrequency: 'monthly', priority: 0.8 })
+
   // Posts: so as locales que realmente tem .mdx. As demais servem o texto pt-BR
   // com canonical apontando para ele, entao ficam fora do sitemap.
   const posts = await listPosts(routing.defaultLocale)

@@ -1,12 +1,13 @@
 "use client"
 
 import { Wine, Mail, Phone, MapPin } from "lucide-react"
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { Link as I18nLink } from '@/i18n/routing';
 
 export function Footer() {
   const t = useTranslations('footer');
   const tCommon = useTranslations('common');
+  const locale = useLocale();
 
   return (
     <footer className="bg-secondary text-secondary-foreground">
@@ -30,6 +31,14 @@ export function Footer() {
                   {t('product.features')}
                 </a>
               </li>
+              {/* página só em português (app/[locale]/rastreabilidade) */}
+              {locale.startsWith('pt') && (
+                <li>
+                  <a href={`/${locale}/rastreabilidade`} className="hover:text-primary transition-colors">
+                    Rastreabilidade
+                  </a>
+                </li>
+              )}
               <li>
                 <a href="#faq" className="hover:text-primary transition-colors">
                   FAQ

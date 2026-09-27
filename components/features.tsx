@@ -2,7 +2,7 @@
 
 import { Card } from "@/components/ui/card"
 import { Grape, FlaskConical, BarChart3, Package, FileText, ShoppingCart } from "lucide-react"
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 
 // 29 funcionalidades em 6 grupos: o título de cada uma fica na página, a descrição no tooltip.
 const groups = [
@@ -16,6 +16,7 @@ const groups = [
 
 export function Features() {
   const t = useTranslations('features');
+  const locale = useLocale();
 
   return (
     <section id="funcionalidades" className="py-16 lg:py-24 bg-muted/30">
@@ -46,6 +47,12 @@ export function Features() {
                   </li>
                 ))}
               </ul>
+              {/* página só em português (app/[locale]/rastreabilidade) */}
+              {key === 'stock' && locale.startsWith('pt') && (
+                <a href={`/${locale}/rastreabilidade`} className="mt-4 text-sm font-medium text-primary underline underline-offset-4">
+                  Como funciona a rastreabilidade
+                </a>
+              )}
             </Card>
           ))}
         </div>
