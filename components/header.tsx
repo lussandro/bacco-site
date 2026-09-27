@@ -53,18 +53,18 @@ export function Header() {
     <>
       <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
         <div className="container mx-auto px-4 lg:px-8">
-          <div className="flex items-center justify-between h-16 lg:h-20">
+          <div className="flex items-center justify-between gap-6 h-16 lg:h-20">
             <div className="flex items-center gap-2">
               <Wine className="h-8 w-8 text-primary" />
               <span className="font-serif text-2xl font-bold">{tCommon('brand')}</span>
             </div>
 
-            <nav className="hidden md:flex items-center gap-8">
+            <nav className="hidden 2xl:flex items-center gap-5">
               {navLinks.map((link) => (
                 <a
                   key={link.href}
                   href={link.href}
-                  className="text-sm font-medium hover:text-primary transition-colors"
+                  className="text-sm font-medium whitespace-nowrap hover:text-primary transition-colors"
                 >
                   {link.label}
                 </a>
@@ -125,7 +125,7 @@ export function Header() {
               <Button
                 variant="ghost"
                 size="icon"
-                className="md:hidden"
+                className="2xl:hidden"
                 onClick={() => setMenuOpen(!menuOpen)}
                 aria-label="Menu"
               >
@@ -138,12 +138,12 @@ export function Header() {
 
       {/* Mobile menu overlay */}
       {menuOpen && (
-        <div className="fixed inset-0 z-40 md:hidden">
+        <div className="fixed inset-0 z-40 2xl:hidden">
           <div
             className="absolute inset-0 bg-black/50 backdrop-blur-sm"
             onClick={() => setMenuOpen(false)}
           />
-          <nav className="absolute top-16 left-0 right-0 bg-background border-b border-border shadow-xl p-6 space-y-1 animate-in slide-in-from-top duration-200">
+          <nav className="absolute top-16 lg:top-20 left-0 right-0 bg-background border-b border-border shadow-xl p-6 space-y-1 animate-in slide-in-from-top duration-200">
             {navLinks.map((link) => (
               <a
                 key={link.href}
