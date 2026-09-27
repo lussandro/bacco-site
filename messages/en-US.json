@@ -680,7 +680,7 @@
       "subtitle": "We made history by being first in multiple fronts",
       "cards": {
         "unique": {
-          "badge": "#1 in Brazil",
+          "badge": "Made in Brazil",
           "title": "Purpose-Built Brazilian ERP for Wineries",
           "description": "<strong>Developed exclusively for wineries</strong> - not an adaptation of a generic system. Born to meet the specific needs of the Brazilian market."
         },
@@ -702,7 +702,7 @@
       },
       "mission": {
         "title": "Our Mission",
-        "text": "The first and only <span class=\"text-primary\">100% national</span> solution developed from scratch for wineries, with <span class=\"text-primary\">multilingual support</span> (PT-BR, PT-PT, EN, ES, IT, FR, DE), <span class=\"text-primary\">integrated AI</span> and <span class=\"text-primary\">technical depth</span> unmatched."
+        "text": "A <span class=\"text-primary\">100% national</span> solution developed from scratch for wineries, with <span class=\"text-primary\">multilingual support</span> (PT-BR, PT-PT, EN, ES, IT, FR, DE), <span class=\"text-primary\">integrated AI</span> and <span class=\"text-primary\">technical depth</span>."
       }
     }
   },
@@ -728,7 +728,7 @@
       },
       "compliance": {
         "title": "Brazilian Compliance",
-        "description": "SIVIBE and SISDEVIN natively integrated. Global ERPs require expensive and complex customizations to meet Brazilian regulations."
+        "description": "SISDEVIN declarations generated in the official layout from production data. Global ERPs require expensive and complex customizations to meet Brazilian regulations."
       },
       "enotourism": {
         "title": "Exclusive Wine Tourism",
@@ -1658,7 +1658,7 @@
     "hero": {
       "badge": "100% Brazilian",
       "title": "Brazilian ERP Developed Exclusively for Wineries",
-      "subtitle": "Full compliance with SIVIBE, SISDEVIN, MAPA and NF-e. Developed by those who understand wine for those who live from wine.",
+      "subtitle": "NF-e, SISDEVIN declarations and the IBS/CBS tax reform in one system. Developed by those who understand wine for those who live from wine.",
       "ctaDemo": "Request Free Demo",
       "ctaFeatures": "See Features"
     },

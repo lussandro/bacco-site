@@ -468,7 +468,7 @@
       "badge": "100% Brasileiro",
       "ctaDemo": "Solicitar Demonstração Gratuita",
       "ctaFeatures": "Ver Funcionalidades",
-      "subtitle": "Conformidade total com SIVIBE, SISDEVIN, MAPA e NF-e. Desenvolvido por quem entende de vinho para quem vive do vinho.",
+      "subtitle": "NF-e, declarações do SISDEVIN e IBS/CBS da reforma tributária no mesmo sistema. Desenvolvido por quem entende de vinho para quem vive do vinho.",
       "title": "ERP Brasileiro Desenvolvido Exclusivamente para Vinícolas"
     },
     "integrations": {
@@ -866,7 +866,7 @@
         "title": "IA Pioneira"
       },
       "compliance": {
-        "description": "SIVIBE e SISDEVIN integrados nativamente. ERPs globais exigem customizações caras e complexas para atender regulamentações brasileiras.",
+        "description": "Declarações do SISDEVIN geradas no layout oficial, a partir dos dados de produção. ERPs globais exigem customizações caras e complexas para atender regulamentações brasileiras.",
         "title": "Conformidade Brasileiro"
       },
       "enotourism": {
@@ -1351,13 +1351,13 @@
           "title": "Unificação Completa"
         },
         "unique": {
-          "badge": "#1 no Brasil",
+          "badge": "Feito no Brasil",
           "description": "<strong>Desenvolvido exclusivamente para adegas</strong> - não é adaptação de sistema genérico. Nascido para atender as necessidades específicas do mercado brasileiro.",
           "title": "ERP Brasileiro Especializado em Adegas"
         }
       },
       "mission": {
-        "text": "A primeira e única solução <span class=\"text-primary\">100% nacional</span> desenvolvida do zero para adegas, com <span class=\"text-primary\">suporte multilíngue</span> (PT-BR, PT-PT, EN, ES, IT, FR, DE), <span class=\"text-primary\">IA integrada</span> e <span class=\"text-primary\">profundidade técnica</span> incomparável.",
+        "text": "Uma solução <span class=\"text-primary\">100% nacional</span> desenvolvida do zero para adegas, com <span class=\"text-primary\">suporte multilíngue</span> (PT-BR, PT-PT, EN, ES, IT, FR, DE), <span class=\"text-primary\">IA integrada</span> e <span class=\"text-primary\">profundidade técnica</span>.",
         "title": "Nossa Missão"
       },
       "subtitle": "Marcamos a história sendo os primeiros em múltiplas frentes",

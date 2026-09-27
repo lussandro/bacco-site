@@ -468,7 +468,7 @@
       "badge": "100% brésilien",
       "ctaDemo": "Demander une démo gratuite",
       "ctaFeatures": "Voir les fonctionnalités",
-      "subtitle": "Conformité totale aux normes SIVIBE, SISDEVIN, MAPA et NF-e. Développé par ceux qui comprennent le vin pour ceux qui vivent du vin.",
+      "subtitle": "NF-e, déclarations SISDEVIN et IBS/CBS de la réforme fiscale dans un seul système. Développé par ceux qui comprennent le vin pour ceux qui vivent du vin.",
       "title": "ERP brésilien développé exclusivement pour les domaines viticoles"
     },
     "integrations": {
@@ -866,7 +866,7 @@
         "title": "IA pionnière"
       },
       "compliance": {
-        "description": "SIVIBE et SISDEVIN intégrés nativement. Les ERP mondiaux nécessitent des personnalisations coûteuses et complexes pour se conformer à la réglementation brésilienne.",
+        "description": "Déclarations SISDEVIN générées au format officiel à partir des données de production. Les ERP mondiaux nécessitent des personnalisations coûteuses et complexes pour se conformer à la réglementation brésilienne.",
         "title": "Conformité brésilienne"
       },
       "enotourism": {
@@ -1351,13 +1351,13 @@
           "title": "Unification complète"
         },
         "unique": {
-          "badge": "N°1 au Brésil",
+          "badge": "Conçu au Brésil",
           "description": "<strong>Développé exclusivement pour les domaines viticoles</strong> - pas une adaptation d'un système générique. Né pour répondre aux besoins spécifiques du marché brésilien.",
           "title": "ERP brésilien spécialisé dans les domaines viticoles"
         }
       },
       "mission": {
-        "text": "La première et unique solution <span class=\"text-primary\">100% nationale</span> développée de toutes pièces pour les domaines viticoles, avec <span class=\"text-primary\">support multilingue</span> (PT-BR, PT-PT, EN, ES, IT, FR, DE), <span class=\"text-primary\">intégrée IA</span> et <span class=\"text-primary\">technique de profondeur</span> incomparable.",
+        "text": "Une solution <span class=\"text-primary\">100% nationale</span> développée de toutes pièces pour les domaines viticoles, avec <span class=\"text-primary\">support multilingue</span> (PT-BR, PT-PT, EN, ES, IT, FR, DE), <span class=\"text-primary\">intégrée IA</span> et <span class=\"text-primary\">technique de profondeur</span>.",
         "title": "Notre mission"
       },
       "subtitle": "Nous marquons l’histoire en étant les premiers sur plusieurs fronts",

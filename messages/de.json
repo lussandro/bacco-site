@@ -680,7 +680,7 @@
       "subtitle": "Wir haben Geschichte geschrieben, indem wir an mehreren Fronten die Ersten waren",
       "cards": {
         "unique": {
-          "badge": "Nr.1 in Brasilien",
+          "badge": "Made in Brasilien",
           "title": "Brasilianisches ERP für Weingüter",
           "description": "<strong>Exklusiv für Weingüter entwickelt</strong> - keine Anpassung eines generischen Systems. Geboren, um die spezifischen Bedürfnisse des brasilianischen Marktes zu erfüllen."
         },
@@ -702,7 +702,7 @@
       },
       "mission": {
         "title": "Unsere Mission",
-        "text": "Die erste und einzige <span class=\"text-primary\">100% nationale</span> Lösung, die von Grund auf für Weingüter entwickelt wurde, mit <span class=\"text-primary\">mehrsprachiger Unterstützung</span> (PT-BR, PT-PT, EN, ES, IT, FR, DE), <span class=\"text-primary\">integrierter KI</span> und unübertroffener <span class=\"text-primary\">technischer Tiefe</span>."
+        "text": "Eine <span class=\"text-primary\">100% nationale</span> Lösung, die von Grund auf für Weingüter entwickelt wurde, mit <span class=\"text-primary\">mehrsprachiger Unterstützung</span> (PT-BR, PT-PT, EN, ES, IT, FR, DE), <span class=\"text-primary\">integrierter KI</span> und <span class=\"text-primary\">technischer Tiefe</span>."
       }
     }
   },
@@ -728,7 +728,7 @@
       },
       "compliance": {
         "title": "Brasilianische Compliance",
-        "description": "SIVIBE und SISDEVIN nativ integriert. Globale ERPs erfordern teure und komplexe Anpassungen, um die brasilianischen Vorschriften zu erfüllen."
+        "description": "SISDEVIN-Meldungen im offiziellen Format aus den Produktionsdaten. Globale ERPs erfordern teure und komplexe Anpassungen, um die brasilianischen Vorschriften zu erfüllen."
       },
       "enotourism": {
         "title": "Exklusiver Weintourismus",
@@ -1658,7 +1658,7 @@
     "hero": {
       "badge": "100% Brasilianisch",
       "title": "Brasilianisches ERP, das ausschließlich für Weingüter entwickelt wurde",
-      "subtitle": "Vollständige Einhaltung von SIVIBE, SISDEVIN, MAPA und NF-e. Entwickelt von denen, die Wein verstehen, für diejenigen, die vom Wein leben.",
+      "subtitle": "NF-e, SISDEVIN-Meldungen und IBS/CBS der Steuerreform in einem System. Entwickelt von denen, die Wein verstehen, für diejenigen, die vom Wein leben.",
       "ctaDemo": "Fragen Sie eine Demo an",
       "ctaFeatures": "See Features"
     },

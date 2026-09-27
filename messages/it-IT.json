@@ -680,7 +680,7 @@
       "subtitle": "We made history by being first in multiple fronts",
       "cards": {
         "unique": {
-          "badge": "#1 in Brazil",
+          "badge": "Made in Brazil",
           "title": "ERP Brasiliano Specializzato in Cantine",
           "description": "<strong>Sviluppato esclusivamente per le cantine</strong> - non un adattamento di un sistema generico. Nato per soddisfare le esigenze specifiche del mercato brasiliano."
         },
@@ -702,7 +702,7 @@
       },
       "mission": {
         "title": "La Nostra Missione",
-        "text": "La prima e unica soluzione <span class=\"text-primary\">100% nazionale</span> sviluppata da zero per cantine, con <span class=\"text-primary\">supporto multilingue</span> (PT-BR, PT-PT, EN, ES, IT, FR, DE), <span class=\"text-primary\">IA integrata</span> e <span class=\"text-primary\">profondità tecnica</span> incomparabile."
+        "text": "Una soluzione <span class=\"text-primary\">100% nazionale</span> sviluppata da zero per cantine, con <span class=\"text-primary\">supporto multilingue</span> (PT-BR, PT-PT, EN, ES, IT, FR, DE), <span class=\"text-primary\">IA integrata</span> e <span class=\"text-primary\">profondità tecnica</span>."
       }
     }
   },
@@ -728,7 +728,7 @@
       },
       "compliance": {
         "title": "Brazilian Compliance",
-        "description": "SIVIBE e SISDEVIN integrati nativamente. Gli ERP globali richiedono personalizzazioni costose e complesse per soddisfare le normative brasiliane."
+        "description": "Dichiarazioni SISDEVIN generate nel formato ufficiale a partire dai dati di produzione. Gli ERP globali richiedono personalizzazioni costose e complesse per soddisfare le normative brasiliane."
       },
       "enotourism": {
         "title": "Exclusive Wine Tourism",
@@ -1658,7 +1658,7 @@
     "hero": {
       "badge": "100% Brasiliano",
       "title": "ERP Brasiliano Sviluppato Esclusivamente per Cantine",
-      "subtitle": "Compliance totale con SIVIBE, SISDEVIN, MAPA e NF-e. Sviluppato da chi capisce il vino per chi vive di vino.",
+      "subtitle": "NF-e, dichiarazioni SISDEVIN e IBS/CBS della riforma fiscale in un unico sistema. Sviluppato da chi capisce il vino per chi vive di vino.",
       "ctaDemo": "Richiedi Demo Gratuita",
       "ctaFeatures": "Vedi Funzionalita"
     },

@@ -113,8 +113,6 @@ export function StructuredData({ locale = "pt-BR" }: { locale?: string }) {
     inLanguage: locale,
     areaServed: [
       { "@type": "Country", name: "Brazil" },
-      { "@type": "Country", name: "Portugal" },
-      { "@type": "Country", name: "United States" },
       { "@type": "Country", name: "Spain" },
       { "@type": "Country", name: "Italy" },
       { "@type": "Country", name: "France" },
