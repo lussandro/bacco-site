@@ -245,14 +245,6 @@ export default async function LocaleLayout({
             src="https://static.cloudflareinsights.com/beacon.min.js"
             data-cf-beacon='{"token": "762db2f5c85d4720855abb4e81f85ef6"}'
           />
-          {/* Bacco Chat Widget */}
-          <Script
-            src="/widget/bacco-chat.js"
-            data-webhook="https://webhook.chatcoreapi.io/webhook/chat-site"
-            data-supabase-url="https://ezwdwwqekfczkberwzic.supabase.co"
-            data-supabase-key="sb_publishable_YooK50O3JiASp5IwQkcDbw_8ZQj1nel"
-            strategy="lazyOnload"
-          />
         </NextIntlClientProvider>
       </body>
     </html>

@@ -8,11 +8,6 @@ import { NextResponse } from "next/server"
 const CRM_WEBHOOK = "https://adega-crm.baccosistemas.com.br/api/v1/webhooks/in/"
 const CRM_TOKEN = "LCTErnkZPy0yje7SGSSNPmuG8lpn-W_B"
 
-// Tabela antiga de leads: workflows do n8n (Atendimento IA-Site, bacco-validate-leads)
-// ainda leem dela. Continua recebendo cópia até alguém desligar esses workflows.
-const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://ezwdwwqekfczkberwzic.supabase.co"
-const SUPABASE_KEY = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || "sb_publishable_YooK50O3JiASp5IwQkcDbw_8ZQj1nel"
-
 const texto = (v: unknown, max: number) => (typeof v === "string" ? v.trim().slice(0, max) : "")
 
 export async function POST(req: Request) {
@@ -51,33 +46,6 @@ export async function POST(req: Request) {
   if (!res.ok) {
     const detalhe = (await res.text().catch(() => "")).slice(0, 300)
     return NextResponse.json({ erro: `Bacco CRM respondeu ${res.status}: ${detalhe}` }, { status: 502 })
-  }
-
-  // cópia na tabela antiga: falha aqui não perde o lead (já está no CRM), só fica no log
-  if (!lead._gotcha) {
-    const notas = [lead.email && `Email: ${lead.email}`, lead.mensagem && `Mensagem: ${lead.mensagem}`].filter(Boolean)
-    await fetch(`${SUPABASE_URL}/rest/v1/leads`, {
-      method: "POST",
-      headers: {
-        apikey: SUPABASE_KEY,
-        Authorization: `Bearer ${SUPABASE_KEY}`,
-        "Content-Type": "application/json",
-        Prefer: "resolution=merge-duplicates",
-      },
-      body: JSON.stringify({
-        nome: lead.nome,
-        telefone: lead.whatsapp,
-        email: lead.email || null,
-        vinicola: lead.empresa || null,
-        origem: "site",
-        status: "novo",
-        notas_ia: notas.length ? notas.join(" | ") : null,
-      }),
-    })
-      .then(async (r) => {
-        if (!r.ok && r.status !== 409) console.error("leads antigo:", r.status, await r.text())
-      })
-      .catch((e) => console.error("leads antigo:", e))
   }
 
   return NextResponse.json({ ok: true })
