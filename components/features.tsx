@@ -47,10 +47,15 @@ export function Features() {
                   </li>
                 ))}
               </ul>
-              {/* página só em português (app/[locale]/rastreabilidade) */}
+              {/* páginas só em português (app/[locale]/rastreabilidade e /sivibe) */}
               {key === 'stock' && locale.startsWith('pt') && (
                 <a href={`/${locale}/rastreabilidade`} className="mt-4 text-sm font-medium text-primary underline underline-offset-4">
                   Como funciona a rastreabilidade
+                </a>
+              )}
+              {key === 'fiscal' && locale.startsWith('pt') && (
+                <a href={`/${locale}/sivibe`} className="mt-4 text-sm font-medium text-primary underline underline-offset-4">
+                  Como o ERP monta o SIVIBE
                 </a>
               )}
             </Card>

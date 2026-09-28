@@ -31,11 +31,18 @@ export function Footer() {
                   {t('product.features')}
                 </a>
               </li>
-              {/* página só em português (app/[locale]/rastreabilidade) */}
+              {/* páginas só em português (app/[locale]/rastreabilidade e /sivibe) */}
               {locale.startsWith('pt') && (
                 <li>
                   <a href={`/${locale}/rastreabilidade`} className="hover:text-primary transition-colors">
                     Rastreabilidade
+                  </a>
+                </li>
+              )}
+              {locale.startsWith('pt') && (
+                <li>
+                  <a href={`/${locale}/sivibe`} className="hover:text-primary transition-colors">
+                    SIVIBE
                   </a>
                 </li>
               )}
