@@ -25,15 +25,6 @@ export const routing = defineRouting({
       'fr': '/conditions-d-utilisation',
       'de': '/nutzungsbedingungen'
     },
-    '/politica-de-privacidade': {
-      'pt-BR': '/politica-de-privacidade',
-      'pt-PT': '/politica-de-privacidade',
-      'en-US': '/privacy-policy',
-      'es': '/politica-de-privacidad',
-      'it-IT': '/informativa-sulla-privacy',
-      'fr': '/politique-de-confidentialite',
-      'de': '/datenschutz'
-    },
     '/para-brasil': {
       'pt-BR': '/para-brasil',
       'pt-PT': '/para-brasil',

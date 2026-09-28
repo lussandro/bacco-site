@@ -79,9 +79,9 @@ export function Footer() {
                 </I18nLink>
               </li>
               <li>
-                <I18nLink href="/politica-de-privacidade" className="hover:text-primary transition-colors">
+                <a href="https://www.baccosistemas.com.br/privacidade/" className="hover:text-primary transition-colors">
                   {t('company.privacy')}
-                </I18nLink>
+                </a>
               </li>
             </ul>
           </div>

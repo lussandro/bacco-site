@@ -18,6 +18,21 @@ const nextConfig = {
   turbopack: {
     root: process.cwd(),
   },
+  // Privacidade: a política única (aprovada em 28/09/2026) fica no institucional.
+  async redirects() {
+    const destination = 'https://www.baccosistemas.com.br/privacidade/'
+    const paths = [
+      '/politica-de-privacidade',
+      '/pt-BR/politica-de-privacidade',
+      '/pt-PT/politica-de-privacidade',
+      '/en-US/privacy-policy',
+      '/es/politica-de-privacidad',
+      '/it-IT/informativa-sulla-privacy',
+      '/fr/politique-de-confidentialite',
+      '/de/datenschutz',
+    ]
+    return paths.map((source) => ({ source, destination, permanent: true }))
+  },
   // Headers de segurança
   async headers() {
     return [
