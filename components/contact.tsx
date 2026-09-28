@@ -53,7 +53,7 @@ export function Contact() {
       setSuccess(true)
       setFormData({ name: "", email: "", phone: "", company: "", message: "" })
       setAceite(false)
-      trackEvent('form_submit', { form_name: 'contact', company: formData.company || 'not_provided' })
+      trackEvent('form_submit', { form_name: 'contact' })
     } catch (e) {
       setError(`${t("form.errorMessage")} (${(e as Error).message})`)
     } finally {
