@@ -10,9 +10,9 @@ import { BASE_URL, ogImageFor, OG_LOCALE } from "@/lib/seo"
 // não há API nem layout de importação no SIVIBE, a saída é relatório para digitar no
 // portal gov.br. Não escrever "integrado", "envia" nem prazo como norma.
 const LOCALES = ["pt-BR", "pt-PT"]
-const TITLE = "SIVIBE: declaração de uva e vinho sem planilha"
+const TITLE = "SIVIBE: acesso, cadastro vitícola, manual e declarações"
 const DESCRIPTION =
-  "As duas declarações do SIVIBE montadas a partir dos dados de produção da vinícola: uva por safra e estoque de vinho no ano. Conferência de cadastro e avisos antes de digitar."
+  "Onde entrar no SIVIBE do MAPA, como é o cadastro vitícola, onde está o manual oficial e como o Bacco ERP monta as declarações de uva e de vinho a partir da produção."
 const CANONICAL = `${BASE_URL}/pt-BR/sivibe`
 const WHATSAPP = "https://wa.me/5548991286399?text=Quero%20ver%20o%20SIVIBE%20no%20Bacco%20ERP"
 
@@ -26,6 +26,36 @@ const declaracoes = [
     titulo: "Estoque de vinhos",
     quando: "por ano-calendário",
     texto: "Estoque inicial, produção e estoque final em 31/12.",
+  },
+]
+
+// Fontes (conferidas em 09/10/2026): página do sistema no MAPA, serviço "Fornecer
+// declaração de produção de uvas" no gov.br e repositório do MAPA (manual de 2025).
+// Só entra aqui o que está nessas páginas; prazo e multa ficam de fora.
+const oficiais = [
+  {
+    titulo: "Acesso (login)",
+    texto: "A entrada é pela página do sistema no MAPA, no botão “Entrar no Sistema”.",
+    link: "https://sistemasweb4.agricultura.gov.br/sivibe/paginaInicial.action",
+    rotulo: "Página do SIVIBE no MAPA",
+  },
+  {
+    titulo: "Cadastro vitícola",
+    texto: "Para declarar a produção de uvas é preciso estar cadastrado como viticultor no SIVIBE e ter o levantamento dos parreirais. A declaração informa as áreas com videiras, a quantidade colhida por cultivar e o destino das uvas.",
+    link: "https://www.gov.br/pt-br/servicos/fornecer-declaracao-de-producao-de-uvas",
+    rotulo: "Serviço no gov.br",
+  },
+  {
+    titulo: "Manual",
+    texto: "O MAPA publicou em 2025 o “Manual do usuário do SIVIBE para a realização do cadastro vitícola”.",
+    link: "https://repositorio-dspace.agricultura.gov.br/handle/1/5813",
+    rotulo: "Manual no repositório do MAPA",
+  },
+  {
+    titulo: "Sistema fora do ar",
+    texto: "O serviço no gov.br indica o e-mail cadastro.vitivinicola@agro.gov.br para quando o sistema está indisponível.",
+    link: "mailto:cadastro.vitivinicola@agro.gov.br",
+    rotulo: "cadastro.vitivinicola@agro.gov.br",
   },
 ]
 
@@ -94,6 +124,24 @@ export default async function Sivibe({ params }: { params: Promise<{ locale: str
           O SIVIBE é o Sistema de Informações da Área de Vinhos e Bebidas do MAPA, que operacionaliza o Cadastro
           Vitícola Nacional previsto na Lei nº 7.678/1988 (IN nº 59/2020).
         </p>
+
+        <section className="mt-14">
+          <h2 className="font-serif text-3xl font-bold mb-3">Acesso, cadastro vitícola e manual do SIVIBE</h2>
+          <p className="text-muted-foreground mb-6">
+            O Bacco ERP não substitui o portal: a declaração é digitada lá. Estes são os endereços oficiais.
+          </p>
+          <div className="grid sm:grid-cols-2 gap-4">
+            {oficiais.map((o) => (
+              <div key={o.titulo} className="rounded-xl border p-5">
+                <h3 className="font-semibold text-lg mb-2">{o.titulo}</h3>
+                <p className="text-muted-foreground mb-3">{o.texto}</p>
+                <a href={o.link} target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-primary underline underline-offset-4 break-words">
+                  {o.rotulo}
+                </a>
+              </div>
+            ))}
+          </div>
+        </section>
 
         <section className="mt-14">
           <h2 className="font-serif text-3xl font-bold mb-6">As duas declarações, com tempos diferentes</h2>
