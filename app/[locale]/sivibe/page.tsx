@@ -41,7 +41,7 @@ const oficiais = [
   },
   {
     titulo: "Cadastro vitícola",
-    texto: "Para declarar a produção de uvas é preciso estar cadastrado como viticultor no SIVIBE e ter o levantamento dos parreirais. A declaração informa as áreas com videiras, a quantidade colhida por cultivar e o destino das uvas.",
+    texto: "Para declarar a produção de uvas é preciso estar cadastrado como viticultor no SIVIBE e ter o levantamento dos parreirais. O acesso começa pelo sistema SOLICITA do MAPA. A declaração informa as áreas com videiras, a quantidade colhida por cultivar e o destino das uvas.",
     link: "https://www.gov.br/pt-br/servicos/fornecer-declaracao-de-producao-de-uvas",
     rotulo: "Serviço no gov.br",
   },
@@ -197,6 +197,13 @@ export default async function Sivibe({ params }: { params: Promise<{ locale: str
         </section>
 
         <p className="mt-10 text-muted-foreground">
+          Passo a passo do cadastro:{" "}
+          <a href="/pt-BR/cadastro-viticola" className="inline-flex items-center gap-1 text-primary underline underline-offset-4">
+            Cadastro Vitícola Nacional: como fazer no SIVIBE <ArrowRight className="h-4 w-4 flex-shrink-0" />
+          </a>
+        </p>
+
+        <p className="mt-4 text-muted-foreground">
           Leia também:{" "}
           <a href="/pt-BR/blog/recibo-sivibe" className="inline-flex items-center gap-1 text-primary underline underline-offset-4">
             O documento que vale mais que a nota fiscal: o recibo do SIVIBE <ArrowRight className="h-4 w-4 flex-shrink-0" />

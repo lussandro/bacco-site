@@ -39,6 +39,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   entries.push({ url: `${BASE_URL}/pt-BR/rastreabilidade`, changeFrequency: 'monthly', priority: 0.8 })
   entries.push({ url: `${BASE_URL}/pt-BR/sivibe`, changeFrequency: 'monthly', priority: 0.8 })
   entries.push({ url: `${BASE_URL}/pt-BR/sisdevin`, changeFrequency: 'monthly', priority: 0.8 })
+  entries.push({ url: `${BASE_URL}/pt-BR/cadastro-viticola`, changeFrequency: 'monthly', priority: 0.8 })
 
   // Posts: so as locales que realmente tem .mdx. As demais servem o texto pt-BR
   // com canonical apontando para ele, entao ficam fora do sitemap.
