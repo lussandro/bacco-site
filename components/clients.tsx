@@ -68,6 +68,20 @@ const clients = [
     instagram: "https://instagram.com/goyahvinhos",
     logoClass: "w-36 h-48",
   },
+  {
+    key: "vinicolaPerico",
+    logo: "/clients/vinicola-perico.png",
+    // vinicolaperico.com.br está com certificado vencido; a loja oficial tem certificado válido
+    website: "https://www.pericovinhos.com.br",
+    instagram: "https://instagram.com/pericovinhos",
+  },
+  {
+    key: "villaTriacca",
+    // só o emblema: a marca horizontal fica ilegível no quadrado de 80px
+    logo: "/clients/villa-triacca.png",
+    website: "https://www.villatriacca.com.br",
+    instagram: "https://instagram.com/villatriaccahotelvinicola",
+  },
 ]
 
 export function Clients() {

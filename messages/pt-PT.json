@@ -286,6 +286,14 @@
       "goyah": {
         "name": "Goyah Vinhos e Vinhedos",
         "location": "Rancho Queimado, SC - Brasil"
+      },
+      "vinicolaPerico": {
+        "name": "Vinícola Pericó",
+        "location": "São Joaquim, SC - Brasil"
+      },
+      "villaTriacca": {
+        "name": "Villa Triacca",
+        "location": "Brasília, DF - Brasil"
       }
     },
     "comingSoon": "Em breve"
