@@ -46,6 +46,13 @@ export function Footer() {
                   </a>
                 </li>
               )}
+              {locale.startsWith('pt') && (
+                <li>
+                  <a href={`/${locale}/sisdevin`} className="hover:text-primary transition-colors">
+                    SISDEVIN
+                  </a>
+                </li>
+              )}
               <li>
                 <a href="#faq" className="hover:text-primary transition-colors">
                   FAQ
