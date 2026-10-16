@@ -109,7 +109,7 @@ export function StructuredData({ locale = "pt-BR" }: { locale?: string }) {
     description: orgDescription,
     url: BASE_URL,
     logo: `${BASE_URL}/icon.svg`,
-    sameAs: [],
+    sameAs: ["https://www.instagram.com/baccoerp/", "https://www.linkedin.com/company/bacco-erp/"],
     inLanguage: locale,
     areaServed: [
       { "@type": "Country", name: "Brazil" },
@@ -143,11 +143,6 @@ export function StructuredData({ locale = "pt-BR" }: { locale?: string }) {
     applicationCategory: "BusinessApplication",
     operatingSystem: "Web",
     inLanguage: locale,
-    offers: {
-      "@type": "Offer",
-      price: "0",
-      priceCurrency: "BRL",
-    },
     description: softwareDescription,
     featureList: features,
     screenshot: `${BASE_URL}/screenshots/dashboard.png`,
