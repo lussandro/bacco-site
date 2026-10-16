@@ -15,7 +15,7 @@ import { BASE_URL, ogImageFor, OG_LOCALE } from "@/lib/seo"
 const LOCALES = ["pt-BR", "pt-PT"]
 const TITLE = "Cadastro Vitícola Nacional: como fazer no SIVIBE"
 const DESCRIPTION =
-  "O que é o Cadastro Vitícola Nacional, quem se cadastra, as duas etapas no SIVIBE do MAPA, os dados da propriedade e dos parreirais e onde conferir a declaração."
+  "O que é o Cadastro Vitícola Nacional, quem se cadastra, as duas etapas no SIVIBE, os dados da propriedade e dos parreirais e onde conferir a declaração."
 const CANONICAL = `${BASE_URL}/pt-BR/cadastro-viticola`
 const WHATSAPP = "https://wa.me/5548991286399?text=Quero%20ver%20o%20cadastro%20vit%C3%ADcola%20no%20Bacco%20ERP"
 

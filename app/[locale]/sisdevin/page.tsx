@@ -13,9 +13,9 @@ import { BASE_URL, ogImageFor, OG_LOCALE } from "@/lib/seo"
 // O arquivo de remessa ainda é provisório no ERP: não escrever "layout oficial",
 // "transmite", "envia" nem "integrado" aqui enquanto isso não mudar no código.
 const LOCALES = ["pt-BR", "pt-PT"]
-const TITLE = "SISDEVIN RS: o que é, acesso, cadastro e telefone"
+const TITLE = "SISDEVIN RS: o que é, acesso e cadastro"
 const DESCRIPTION =
-  "O que é o SISDEVIN, onde fazer o login, como a vinícola pede o cadastro, telefone e e-mail da Secretaria da Agricultura do RS, e como o Bacco ERP organiza as remessas."
+  "O que é o SISDEVIN, como pedir o cadastro, telefone e e-mail da Secretaria da Agricultura do RS e como o Bacco ERP organiza as remessas."
 const CANONICAL = `${BASE_URL}/pt-BR/sisdevin`
 const WHATSAPP = "https://wa.me/5548991286399?text=Quero%20ver%20o%20SISDEVIN%20no%20Bacco%20ERP"
 const SEAPI = "https://www.agricultura.rs.gov.br"

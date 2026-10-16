@@ -3,43 +3,43 @@ import { BASE_URL } from "@/lib/seo"
 
 const metaByLocale: Record<string, { title: string; description: string; ogLocale: string }> = {
   "pt-BR": {
-    title: "Bacco ERP para Brasil - Compliance SIVIBE, SISDEVIN, MAPA e NF-e",
+    title: "Bacco ERP para Brasil - SIVIBE, SISDEVIN e NF-e",
     description:
-      "ERP brasileiro desenvolvido exclusivamente para vinicolas. Compliance total com SIVIBE, SISDEVIN, MAPA e NF-e. Suporte a todas as regioes vinicolas brasileiras: Serra Gaucha, Vale do Sao Francisco, Campanha Gaucha e mais.",
+      "ERP brasileiro desenvolvido exclusivamente para vinicolas. Compliance total com SIVIBE, SISDEVIN, MAPA e NF-e. Todas as regioes vinicolas brasileiras.",
     ogLocale: "pt_BR",
   },
   "pt-PT": {
-    title: "Bacco ERP para o Brasil - Compliance SIVIBE, SISDEVIN, MAPA e NF-e",
+    title: "Bacco ERP para o Brasil - SIVIBE, SISDEVIN, NF-e",
     description:
       "ERP desenvolvido exclusivamente para adegas. Compliance total com SIVIBE, SISDEVIN, MAPA e NF-e. Suporte para todas as regioes vitivinicolas do Brasil.",
     ogLocale: "pt_PT",
   },
   "en-US": {
-    title: "Bacco ERP for Brazil - SIVIBE, SISDEVIN, MAPA & NF-e Compliance",
+    title: "Bacco ERP for Brazil - SIVIBE, SISDEVIN & NF-e",
     description:
-      "Brazilian ERP developed exclusively for wineries. Full compliance with SIVIBE, SISDEVIN, MAPA, and NF-e. Support for all Brazilian wine regions: Serra Gaucha, Sao Francisco Valley, Campanha Gaucha, and more.",
+      "Brazilian ERP developed exclusively for wineries. Full compliance with SIVIBE, SISDEVIN, MAPA, and NF-e. All Brazilian wine regions.",
     ogLocale: "en_US",
   },
   "es": {
-    title: "Bacco ERP para Brasil - Compliance SIVIBE, SISDEVIN, MAPA y NF-e",
+    title: "Bacco ERP para Brasil - SIVIBE, SISDEVIN y NF-e",
     description:
-      "ERP brasileno desarrollado exclusivamente para bodegas. Compliance total con SIVIBE, SISDEVIN, MAPA y NF-e. Soporte a todas las regiones vinicolas brasilenas: Serra Gaucha, Valle del San Francisco, Campana Gaucha y mas.",
+      "ERP brasileno desarrollado exclusivamente para bodegas. Compliance total con SIVIBE, SISDEVIN, MAPA y NF-e. Todas las regiones vinicolas brasilenas.",
     ogLocale: "es_ES",
   },
   "it-IT": {
-    title: "Bacco ERP per Brasile - Compliance SIVIBE, SISDEVIN, MAPA e NF-e",
+    title: "Bacco ERP per Brasile - SIVIBE, SISDEVIN e NF-e",
     description:
-      "ERP brasiliano sviluppato esclusivamente per cantine. Compliance totale con SIVIBE, SISDEVIN, MAPA e NF-e. Supporto a tutte le regioni vinicole brasiliane: Serra Gaucha, Valle del San Francisco, Campagna Gaucha e altre.",
+      "ERP brasiliano sviluppato esclusivamente per cantine. Compliance totale con SIVIBE, SISDEVIN, MAPA e NF-e. Tutte le regioni vinicole brasiliane.",
     ogLocale: "it_IT",
   },
   "fr": {
-    title: "Bacco ERP pour le Bresil - Conformite SIVIBE, SISDEVIN, MAPA et NF-e",
+    title: "Bacco ERP Bresil - SIVIBE, SISDEVIN et NF-e",
     description:
       "ERP concu pour les domaines viticoles operant au Bresil. Conformite complete avec SIVIBE, SISDEVIN, MAPA et NF-e.",
     ogLocale: "fr_FR",
   },
   "de": {
-    title: "Bacco ERP fuer Brasilien - SIVIBE, SISDEVIN, MAPA und NF-e Compliance",
+    title: "Bacco ERP Brasilien - SIVIBE, SISDEVIN und NF-e",
     description:
       "Brasilianisches ERP, das exklusiv fuer Weingueter entwickelt wurde. Volle Compliance mit SIVIBE, SISDEVIN, MAPA und NF-e.",
     ogLocale: "de_DE",
