@@ -62,39 +62,39 @@ const metaByLocale: Record<string, { title: string; description: string; ogLocal
     ],
   },
   "pt-PT": {
-    title: "Bacco ERP - Sistema Completo para Gestão de Adegas | ERP especializado",
+    title: "Bacco ERP - Sistema Completo para Gestão de Adegas",
     description:
-      "ERP desenvolvido exclusivamente para adegas. Da vinha à garrafa: controlo total da produção com IA, rastreabilidade completa, compliance SIVIBE/SISDEVIN e enoturismo. Inclui Bacco-Campo e Bacco-Comanda.",
+      "ERP desenvolvido exclusivamente para adegas. Da vinha à garrafa: controlo da produção com IA, rastreabilidade, compliance SIVIBE/SISDEVIN e enoturismo.",
     ogLocale: "pt_PT",
   },
   "en-US": {
     title: "Bacco ERP - Complete Winery Management | Brazilian-born ERP",
     description:
-      "Brazilian ERP built exclusively for wineries. From vineyard to bottle: full production control with AI, end-to-end traceability, compliance (SIVIBE/SISDEVIN), enotourism, plus Bacco-Campo (field) and Bacco-Comanda (POS).",
+      "Brazilian ERP built exclusively for wineries. From vineyard to bottle: production control with AI, traceability, SIVIBE/SISDEVIN compliance and enotourism.",
     ogLocale: "en_US",
   },
   "es": {
-    title: "Bacco ERP - Sistema Completo para Gestión de Bodegas | ERP Brasilero",
+    title: "Bacco ERP - Sistema Completo para Gestión de Bodegas",
     description:
-      "ERP brasilero desarrollado exclusivamente para bodegas. Del viñedo a la botella: control total de producción con IA, trazabilidad completa, compliance SIVIBE/SISDEVIN y enoturismo. Incluye Bacco-Campo y Bacco-Comanda.",
+      "ERP brasilero desarrollado exclusivamente para bodegas. Del viñedo a la botella: control de producción con IA, trazabilidad, SIVIBE/SISDEVIN y enoturismo.",
     ogLocale: "es_ES",
   },
   "it-IT": {
     title: "Bacco ERP - Sistema Completo per la Gestione delle Cantine",
     description:
-      "ERP sviluppato esclusivamente per cantine. Dal vigneto alla bottiglia: controllo completo della produzione con IA, tracciabilita end-to-end, compliance SIVIBE/SISDEVIN ed enoturismo.",
+      "ERP sviluppato esclusivamente per cantine. Dal vigneto alla bottiglia: controllo della produzione con IA, tracciabilita, SIVIBE/SISDEVIN ed enoturismo.",
     ogLocale: "it_IT",
   },
   "fr": {
     title: "Bacco ERP - Suite Complete de Gestion des Domaines Viticoles",
     description:
-      "ERP concu exclusivement pour les domaines viticoles. De la vigne a la bouteille : controle total de la production avec IA, tracabilite complete, conformite et oenotourisme.",
+      "ERP concu exclusivement pour les domaines viticoles. De la vigne a la bouteille : controle de la production avec IA, tracabilite, conformite, oenotourisme.",
     ogLocale: "fr_FR",
   },
   "de": {
     title: "Bacco ERP - Komplette Loesung fuer das Weingueter-Management",
     description:
-      "ERP, das exklusiv fuer Weingueter entwickelt wurde. Vom Weinberg bis zur Flasche: volle Produktionskontrolle mit KI, vollstaendiger Rueckverfolgbarkeit, SIVIBE/SISDEVIN-Compliance und Weintourismus.",
+      "ERP exklusiv fuer Weingueter. Vom Weinberg bis zur Flasche: Produktionskontrolle mit KI, Rueckverfolgbarkeit, SIVIBE/SISDEVIN-Compliance, Weintourismus.",
     ogLocale: "de_DE",
   },
 }

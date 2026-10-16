@@ -3,43 +3,43 @@ import { BASE_URL } from "@/lib/seo"
 
 const metaByLocale: Record<string, { title: string; description: string; ogLocale: string }> = {
   "pt-BR": {
-    title: "Bacco ERP para Italia - Compliance DOC, DOCG, IGT e Regulacoes EU",
+    title: "Bacco ERP para Italia - DOC, DOCG, IGT e UE",
     description:
-      "ERP completo para vinicolas italianas. Compliance com DOC, DOCG, IGT, Registro Vigneti e SIAN. Suporte a todas as regioes vinicolas italianas: Toscana, Piemonte, Veneto, Sicilia, Puglia e mais.",
+      "ERP completo para vinicolas italianas. Compliance com DOC, DOCG, IGT, Registro Vigneti e SIAN. Toscana, Piemonte, Veneto, Sicilia, Puglia e mais.",
     ogLocale: "pt_BR",
   },
   "pt-PT": {
-    title: "Bacco ERP para Italia - Compliance DOC, DOCG, IGT e regulacao UE",
+    title: "Bacco ERP para Italia - DOC, DOCG, IGT e UE",
     description:
       "ERP completo para adegas italianas. Compliance com DOC, DOCG, IGT, Registro Vigneti e SIAN.",
     ogLocale: "pt_PT",
   },
   "en-US": {
-    title: "Bacco ERP for Italy - DOC, DOCG, IGT & EU Compliance",
+    title: "Bacco ERP for Italy - DOC, DOCG, IGT & EU",
     description:
-      "Complete ERP for Italian wineries. Compliance with DOC, DOCG, IGT, Registro Vigneti and SIAN. Support for all Italian wine regions: Tuscany, Piedmont, Veneto, Sicily, Puglia and more.",
+      "Complete ERP for Italian wineries. Compliance with DOC, DOCG, IGT, Registro Vigneti and SIAN. Tuscany, Piedmont, Veneto, Sicily, Puglia and more.",
     ogLocale: "en_US",
   },
   "es": {
-    title: "Bacco ERP para Italia - Compliance DOC, DOCG, IGT y Regulaciones UE",
+    title: "Bacco ERP para Italia - DOC, DOCG, IGT y UE",
     description:
-      "ERP completo para bodegas italianas. Compliance con DOC, DOCG, IGT, Registro Vigneti y SIAN. Soporte a todas las regiones vinicolas italianas: Toscana, Piamonte, Veneto, Sicilia, Puglia y mas.",
+      "ERP completo para bodegas italianas. Compliance con DOC, DOCG, IGT, Registro Vigneti y SIAN. Toscana, Piamonte, Veneto, Sicilia, Puglia y mas.",
     ogLocale: "es_ES",
   },
   "it-IT": {
-    title: "Bacco ERP per Italia - Compliance DOC, DOCG, IGT e Normative UE",
+    title: "Bacco ERP per Italia - DOC, DOCG, IGT e UE",
     description:
-      "ERP completo per cantine italiane. Compliance con DOC, DOCG, IGT, Registro Vigneti e SIAN. Supporto a tutte le regioni vinicole italiane: Toscana, Piemonte, Veneto, Sicilia, Puglia e altre.",
+      "ERP completo per cantine italiane. Compliance con DOC, DOCG, IGT, Registro Vigneti e SIAN. Toscana, Piemonte, Veneto, Sicilia, Puglia e altre.",
     ogLocale: "it_IT",
   },
   "fr": {
-    title: "Bacco ERP pour l'Italie - Conformite DOC, DOCG, IGT et normes UE",
+    title: "Bacco ERP pour l'Italie - DOC, DOCG, IGT et UE",
     description:
       "ERP complet pour les domaines viticoles italiens, avec conformite DOC, DOCG, IGT, Registro Vigneti et SIAN.",
     ogLocale: "fr_FR",
   },
   "de": {
-    title: "Bacco ERP fuer Italien - DOC, DOCG, IGT und EU-Compliance",
+    title: "Bacco ERP fuer Italien - DOC, DOCG, IGT, EU",
     description:
       "Komplettes ERP fuer italienische Weingueter. Compliance mit DOC, DOCG, IGT, Registro Vigneti und SIAN.",
     ogLocale: "de_DE",

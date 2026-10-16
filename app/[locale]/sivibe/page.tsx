@@ -10,9 +10,9 @@ import { BASE_URL, ogImageFor, OG_LOCALE } from "@/lib/seo"
 // não há API nem layout de importação no SIVIBE, a saída é relatório para digitar no
 // portal gov.br. Não escrever "integrado", "envia" nem prazo como norma.
 const LOCALES = ["pt-BR", "pt-PT"]
-const TITLE = "SIVIBE: acesso, cadastro vitícola, manual e declarações"
+const TITLE = "SIVIBE: acesso, cadastro vitícola e declarações"
 const DESCRIPTION =
-  "Onde entrar no SIVIBE do MAPA, como é o cadastro vitícola, onde está o manual oficial e como o Bacco ERP monta as declarações de uva e de vinho a partir da produção."
+  "Onde entrar no SIVIBE do MAPA, como é o cadastro vitícola, onde está o manual oficial e como o Bacco ERP monta as declarações de uva e de vinho."
 const CANONICAL = `${BASE_URL}/pt-BR/sivibe`
 const WHATSAPP = "https://wa.me/5548991286399?text=Quero%20ver%20o%20SIVIBE%20no%20Bacco%20ERP"
 

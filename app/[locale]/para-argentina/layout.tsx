@@ -3,43 +3,43 @@ import { BASE_URL } from "@/lib/seo"
 
 const metaByLocale: Record<string, { title: string; description: string; ogLocale: string }> = {
   "pt-BR": {
-    title: "Bacco ERP para Argentina - Compliance SENASA, INV e Regulamentacoes Locais",
+    title: "Bacco ERP para Argentina - SENASA e INV",
     description:
-      "ERP completo para vinicolas argentinas. Compliance total com SENASA, INV (Instituto Nacional de Vitivinicultura) e regulamentacoes locais. Suporte a todas as regioes vinicolas: Mendoza, San Juan, Salta, Patagonia e La Rioja.",
+      "ERP completo para vinicolas argentinas. Compliance total com SENASA, INV (Instituto Nacional de Vitivinicultura) e regulamentacoes locais.",
     ogLocale: "pt_BR",
   },
   "pt-PT": {
-    title: "Bacco ERP para a Argentina - Compliance SENASA, INV e Regulamentacao Local",
+    title: "Bacco ERP para a Argentina - SENASA e INV",
     description:
       "ERP completo para adegas argentinas. Compliance com SENASA, INV e regulamentacao local de vitivinicultura.",
     ogLocale: "pt_PT",
   },
   "en-US": {
-    title: "Bacco ERP for Argentina - SENASA, INV & Local Compliance",
+    title: "Bacco ERP for Argentina - SENASA & INV",
     description:
-      "Complete ERP for Argentine wineries. Full compliance with SENASA, INV (National Institute of Viticulture) and local regulations. Support for all wine regions: Mendoza, San Juan, Salta, Patagonia, and La Rioja.",
+      "Complete ERP for Argentine wineries. Full compliance with SENASA, INV (National Institute of Viticulture) and local regulations.",
     ogLocale: "en_US",
   },
   "es": {
-    title: "Bacco ERP para Argentina - Compliance SENASA, INV y Regulaciones Locales",
+    title: "Bacco ERP para Argentina - SENASA y INV",
     description:
-      "ERP completo para bodegas argentinas. Compliance total con SENASA, INV (Instituto Nacional de Vitivinicultura) y regulaciones locales. Soporte a todas las regiones vitivinicolas: Mendoza, San Juan, Salta, Patagonia y La Rioja.",
+      "ERP completo para bodegas argentinas. Compliance total con SENASA, INV (Instituto Nacional de Vitivinicultura) y regulaciones locales.",
     ogLocale: "es_AR",
   },
   "it-IT": {
-    title: "Bacco ERP per Argentina - Compliance SENASA, INV e Regolamentazioni Locali",
+    title: "Bacco ERP per Argentina - SENASA e INV",
     description:
-      "ERP completo per cantine argentine. Compliance totale con SENASA, INV (Istituto Nazionale di Vitivinicoltura) e regolamentazioni locali. Supporto a tutte le regioni vinicole: Mendoza, San Juan, Salta, Patagonia e La Rioja.",
+      "ERP completo per cantine argentine. Compliance totale con SENASA, INV (Istituto Nazionale di Vitivinicoltura) e normative locali.",
     ogLocale: "it_IT",
   },
   "fr": {
-    title: "Bacco ERP pour l'Argentine - Conformite SENASA, INV et normes locales",
+    title: "Bacco ERP pour l'Argentine - SENASA et INV",
     description:
       "ERP complet pour les domaines viticoles argentins. Conformite avec SENASA, INV et la reglementation locale.",
     ogLocale: "fr_FR",
   },
   "de": {
-    title: "Bacco ERP fuer Argentinien - SENASA, INV und lokale Compliance",
+    title: "Bacco ERP fuer Argentinien - SENASA und INV",
     description:
       "Komplettes ERP fuer argentinische Weingueter. Volle Compliance mit SENASA, INV und lokalen Vorschriften.",
     ogLocale: "de_DE",
