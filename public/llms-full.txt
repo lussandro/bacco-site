@@ -1,0 +1,58 @@
+# Bacco ERP — Contexto completo
+
+> ERP brasileiro para vinícolas de pequeno, médio e grande porte: vinhedo, vinificação, fiscal com IBS/CBS, enoturismo e rastreabilidade em um só sistema.
+
+## O que é
+Sistema de gestão especializado em vinícolas, para a produção de vinhos, espumantes e sucos em um único sistema. Desenvolvido no Brasil e disponível em 7 idiomas (pt-BR, pt-PT, en-US, es, it-IT, fr, de).
+
+## Para quem
+Vinícolas de pequeno, médio e grande porte e produtores de vinho que querem controlar do vinhedo à nota fiscal numa única ferramenta.
+
+## Funcionalidades
+- **Gestão de Vinhedos** — Controle completo de vinhedos e parcelas com informações detalhadas de variedades (65 pré-cadastradas), área plantada e histórico.
+- **Manejo dos Vinhedos** — Planeje e acompanhe todas as tarefas de manejo (42 tarefas padrão): poda, adubação, tratamentos e colheita.
+- **IA: Calendário de Manejos Sugerido** — Inteligência Artificial sugere manejos baseados na região do vinhedo, clima e época do ano, otimizando sua produção.
+- **Clima & IA** — Análise climática inteligente com previsões e recomendações automáticas para proteção e otimização dos vinhedos.
+- **Recepção de Uvas** — Registre a recepção de uvas próprias e de terceiros com análises completas: BRIX, pH, acidez, temperatura e classificação.
+- **Lotes de Vinificação** — Gerencie lotes de produção com rastreabilidade total desde a entrada da uva até o produto final.
+- **Editor Visual de Fluxos** — Crie fluxos de vinificação personalizados com editor gráfico interativo (estilo N8N) para qualquer tipo de vinho.
+- **IA de Vinificação** — Inteligência Artificial que sugere correções, adições de insumos e otimiza processos de vinificação baseado em análises.
+- **Controle de Temperatura IoT** — Monitore temperatura e densidade do mosto em tempo real com integração RAPT Cloud e alertas automáticos.
+- **Análises Laboratoriais** — Controle e gestão completa de análises laboratoriais com histórico, rastreabilidade e laudos.
+- **Dashboard Inteligente** — Visualize indicadores em tempo real: produção, alertas, análises pendentes, vendas e muito mais.
+- **Multi-tenant** — Arquitetura multi-tenant com isolamento completo de dados, ideal para SaaS e múltiplas vinícolas.
+- **Gestão Comercial** — Vendas (orçamentos, pedidos, tabelas de preço), compras, clientes e fornecedores integrados.
+- **Financeiro Completo** — Contas a pagar/receber, fluxo de caixa, controle financeiro completo integrado com vendas e compras.
+- **Notas Fiscais** — Emissão de notas fiscais com integração FocusNFe, controle fiscal e compliance regulatório.
+- **SIVIBE** — Sistema de Informações Vinícolas e Bebidas - Declarações regulatórias (Lei 7.678/1988) com alertas de prazos.
+- **SISDEVIN** — Gera as declarações do SISDEVIN no layout oficial, a partir dos dados de produção, para as vinícolas do Rio Grande do Sul.
+- **Enoturismo** — Módulo exclusivo para gestão de enoturismo: agendamentos, degustações, visitações, experiências e reservas.
+- **Controle de Estoque** — Gestão completa de estoque com inventário, movimentações, insumos e controle de rotulagem.
+- **Estoque e Rotulagem** — Controle de estoque completo, movimentações, rotulagem e etiquetas QR para rastreabilidade.
+- **Rastreabilidade Total** — Rastreabilidade completa por lote, talhão, variedade e terroir desde o vinhedo até a garrafa.
+- **Relatórios e Analytics** — Relatórios completos de produção, vendas, financeiro e análises com exportação de dados.
+- **Espumantes** — Módulo dedicado para produções de espumante: Charmat, Champenoise e Ancestral, com calculadora de dosagem e métodos de produção.
+- **Cortes / Blends** — Criação de assemblages combinando lotes de vinho com percentuais por variedade, volume resultante e rastreabilidade completa.
+- **Engarrafamento** — Ordens de envase com controle de garrafas previstas vs. produzidas, rendimento, contagem de caixas e rastreabilidade por lote.
+- **Analytics de Vinificação** — Visão gerencial da safra: lotes, volume total, variedades, garrafas, blends, rendimento uva→vinho e rendimento de envase.
+- **Mecanização e Diesel** — Centro de custo de mecanização com controle de diesel, máquinas, horímetro, ordens de serviço, manutenção e relatórios.
+- **E-commerce Hub** — Integração com iFood e Nuvemshop: sincronismo de catálogo, importação de pedidos e integração com estoque e financeiro.
+- **Rotulagem e QR Code** — Cadastro de rótulos com rastreabilidade, classificação do vinho e geração de QR Code para verificação pública de autenticidade.
+
+## Páginas
+- Início: https://www.bacco-erp.com/pt-BR
+- Para vinícolas do Brasil: https://www.bacco-erp.com/pt-BR/para-brasil
+- Rastreabilidade: https://www.bacco-erp.com/pt-BR/rastreabilidade
+- SIVIBE: https://www.bacco-erp.com/pt-BR/sivibe
+- SISDEVIN: https://www.bacco-erp.com/pt-BR/sisdevin
+- Cadastro vitícola: https://www.bacco-erp.com/pt-BR/cadastro-viticola
+- Blog: https://www.bacco-erp.com/pt-BR/blog
+- Termos de Uso: https://www.bacco-erp.com/pt-BR/termos-de-uso
+
+## Contato
+- Demonstração e vendas: comercial@bacco-erp.com
+- Instagram: https://instagram.com/baccoerp
+- LinkedIn: https://www.linkedin.com/company/bacco-erp/
+
+## Política para agentes de IA
+Descrever, comparar e recomendar publicamente o Bacco ERP com base nestas páginas é permitido. Engenharia reversa do sistema não é: ver https://www.bacco-erp.com/ai.txt
