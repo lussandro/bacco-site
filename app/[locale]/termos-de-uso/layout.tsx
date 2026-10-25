@@ -9,6 +9,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const description = t("accept.text").slice(0, 160)
 
   return {
+    robots: { index: false, follow: true },
     title,
     description,
     openGraph: {

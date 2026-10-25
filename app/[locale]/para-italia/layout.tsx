@@ -66,6 +66,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const ogImage = `/api/og?title=${encodeURIComponent("Bacco ERP - Italia")}&description=${encodeURIComponent(meta.description)}`
 
   return {
+    robots: { index: false, follow: true },
     title: meta.title,
     description: meta.description,
     keywords: [

@@ -12,6 +12,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const ogImage = ogImageFor(title, description)
 
   return {
+    robots: { index: false, follow: true },
     title,
     description,
     openGraph: {
