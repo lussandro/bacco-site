@@ -143,7 +143,7 @@ export async function GET(request: NextRequest) {
                 }}
               >
                 <span style={{ fontSize: '24px' }}>🍷</span>
-                <span style={{ fontSize: '20px', color: '#d4a574', fontWeight: 600 }}>Do Vinhedo à Garrafa</span>
+                <span style={{ fontSize: '20px', color: '#d4a574', fontWeight: 600 }}>Do Vinhedo à Venda</span>
               </div>
             </div>
 

@@ -33,7 +33,7 @@
   },
   "hero": {
     "badge": "Sistema Completo para Bodegas",
-    "title": "Del Viñedo a la Botella: Control Total de Su Producción",
+    "title": "Del viñedo a la venta. De la producción a la experiencia.",
     "description": "<strong>ERP completo para bodegas con soporte multilingüe nativo.</strong> Gestione cada etapa de la producción de vinos, espumantes y jugos con Bacco ERP. <strong>Disponible en Portugués, Inglés, Español, Italiano, Francés y Alemán</strong> - traducciones profesionales, no solo superficiales. Trazabilidad completa, monitoreo en tiempo real, inteligencia artificial integrada y gestión unificada. Incluye <strong>Bacco-Campo</strong> para gestión del viñedo y <strong>Bacco-Comanda</strong> para PDV y enoturismo.",
     "ctaDemo": "Agendar Demo",
     "ctaSystem": "Ver Sistema en Acción",
@@ -53,7 +53,7 @@
       "description": "Viñedo, producción y calidad"
     },
     "badgeMultilingual": "🌍 Disponible en 7 Idiomas",
-    "subtitle": "ERP brasilero especializado en bodegas, ahora disponible globalmente",
+    "subtitle": "Una plataforma. Toda la operación de la bodega.",
     "trustBadges": {
       "brazilian": "100% Brasilero",
       "global": "Listo para el Mundo",

@@ -33,7 +33,7 @@
   },
   "hero": {
     "badge": "Sistema Completo per Cantine",
-    "title": "Dal Vigneto alla Bottiglia: Controllo Totale della Tua Produzione",
+    "title": "Dal vigneto alla vendita. Dalla produzione all'esperienza.",
     "description": "<strong>ERP completo per cantine con supporto multilingue nativo.</strong> Gestisci ogni fase della produzione di vini, spumanti e succhi con Bacco ERP. <strong>Disponibile in portoghese, inglese, spagnolo, italiano, francese e tedesco</strong> - traduzioni professionali, non solo superficiali. Tracciabilità completa, monitoraggio in tempo reale, intelligenza artificiale integrata e gestione unificata. Include <strong>Bacco-Campo</strong> per la gestione del vigneto e <strong>Bacco-Comanda</strong> per POS ed enoturismo.",
     "ctaDemo": "Prenota Demo",
     "ctaSystem": "Vedi Sistema",
@@ -53,7 +53,7 @@
       "description": "Vigneto, produzione e qualità"
     },
     "badgeMultilingual": "🌍 Disponibile in 7 Lingue",
-    "subtitle": "ERP brasiliano specializzato in cantine, ora disponibile globalmente",
+    "subtitle": "Una piattaforma. Tutta l'attività della cantina.",
     "trustBadges": {
       "brazilian": "100% Brasiliano",
       "global": "Pronto per il Mondo",
