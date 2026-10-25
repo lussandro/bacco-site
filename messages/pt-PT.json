@@ -1173,6 +1173,10 @@
         "description": "Análise climática inteligente com previsões e recomendações automáticas para proteção e otimização dos vinhedos.",
         "title": "Clima & IA"
       },
+      "irrigation": {
+        "title": "Rega e Balanço Hídrico",
+        "description": "Setores de rega por parcela, registo no amanho com dotação bruta e líquida, balanço hídrico diário com ET0 e Kc e tempo sugerido de rega."
+      },
       "commercial": {
         "description": "Vendas (orçamentos, pedidos, tabelas de preço), compras, clientes e fornecedores integrados.",
         "title": "Gestão Comercial"

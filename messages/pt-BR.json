@@ -140,6 +140,10 @@
         "title": "Clima & IA",
         "description": "Análise climática inteligente com previsões e recomendações automáticas para proteção e otimização dos vinhedos."
       },
+      "irrigation": {
+        "title": "Irrigação e Balanço Hídrico",
+        "description": "Setores de irrigação por parcela, lançamento no manejo com lâmina bruta e líquida, balanço hídrico diário com ET0 e Kc e tempo sugerido de irrigação."
+      },
       "grapeReception": {
         "title": "Recepção de Uvas",
         "description": "Registre a recepção de uvas próprias e de terceiros com análises completas: BRIX, pH, acidez, temperatura e classificação."

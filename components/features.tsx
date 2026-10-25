@@ -4,9 +4,9 @@ import { Card } from "@/components/ui/card"
 import { Grape, FlaskConical, BarChart3, Package, FileText, ShoppingCart } from "lucide-react"
 import { useTranslations, useLocale } from 'next-intl';
 
-// 29 funcionalidades em 6 grupos: o título de cada uma fica na página, a descrição no tooltip.
+// 30 funcionalidades em 6 grupos: o título de cada uma fica na página, a descrição no tooltip.
 const groups = [
-  { key: 'vineyard', icon: Grape, items: ['vineyardManagement', 'vineyardHandling', 'aiCalendar', 'climateAI', 'mechanization'] },
+  { key: 'vineyard', icon: Grape, items: ['vineyardManagement', 'vineyardHandling', 'aiCalendar', 'climateAI', 'irrigation', 'mechanization'] },
   { key: 'winemaking', icon: FlaskConical, items: ['grapeReception', 'productionLots', 'visualFlowEditor', 'vinificationAI', 'temperatureIoT', 'sparklingWine', 'blends', 'bottling'] },
   { key: 'analysis', icon: BarChart3, items: ['labAnalysis', 'vinificationAnalytics', 'dashboard', 'reports', 'multitenant'] },
   { key: 'stock', icon: Package, items: ['stockControl', 'stockLabeling', 'labeling', 'traceability'] },

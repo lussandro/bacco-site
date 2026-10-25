@@ -140,6 +140,10 @@
         "title": "Klima & KI",
         "description": "Intelligente Klimaanalyse mit Prognosen und automatischen Empfehlungen für den Schutz und die Optimierung von Weinbergen."
       },
+      "irrigation": {
+        "title": "Bewässerung und Wasserbilanz",
+        "description": "Bewässerungssektoren pro Parzelle, Erfassung in der Weinbergsarbeit mit Brutto- und Nettogabe, tägliche Wasserbilanz mit ET0 und Kc und vorgeschlagene Bewässerungsdauer."
+      },
       "grapeReception": {
         "title": "Traubenempfang",
         "description": "Aufzeichnung des Empfangs von eigenen und fremden Trauben mit vollständigen Analysen: BRIX, pH-Wert, Säuregehalt, Temperatur und Klassifizierung."

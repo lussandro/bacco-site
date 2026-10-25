@@ -1157,6 +1157,10 @@
         "description": "Analyse climatique intelligente avec prévisions et recommandations automatiques pour protéger et optimiser les vignobles.",
         "title": "Climat et IA"
       },
+      "irrigation": {
+        "title": "Irrigation et Bilan Hydrique",
+        "description": "Secteurs d'irrigation par parcelle, saisie dans l'intervention avec lames brute et nette, bilan hydrique quotidien avec ET0 et Kc et durée d'irrigation suggérée."
+      },
       "commercial": {
         "description": "Ventes (budgets, commandes, tarifs), achats, clients et fournisseurs intégrés.",
         "title": "Gestion Commerciale"

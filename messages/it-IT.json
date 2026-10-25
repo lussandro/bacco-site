@@ -140,6 +140,10 @@
         "title": "Climate & AI",
         "description": "Analisi climatica intelligente con previsioni e raccomandazioni automatiche per la tutela e l'ottimizzazione del vigneto."
       },
+      "irrigation": {
+        "title": "Irrigazione e Bilancio Idrico",
+        "description": "Settori di irrigazione per parcella, registrazione nell'intervento con altezza lorda e netta, bilancio idrico giornaliero con ET0 e Kc e tempo di irrigazione suggerito."
+      },
       "grapeReception": {
         "title": "Grape Reception",
         "description": "Registra la ricezione delle uve proprie e di terzi con analisi complete: BRIX, pH, acidità, temperatura e classificazione."

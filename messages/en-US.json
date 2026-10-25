@@ -140,6 +140,10 @@
         "title": "Climate & AI",
         "description": "Intelligent climate analysis with forecasts and automatic recommendations for vineyard protection and optimization."
       },
+      "irrigation": {
+        "title": "Irrigation and Water Balance",
+        "description": "Irrigation sectors per plot, logging in vineyard tasks with gross and net depth, daily water balance with ET0 and Kc, and suggested irrigation time."
+      },
       "grapeReception": {
         "title": "Grape Reception",
         "description": "Record reception of own and third-party grapes with complete analyses: BRIX, pH, acidity, temperature, and classification."
