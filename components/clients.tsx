@@ -4,7 +4,7 @@ import { Badge } from "@/components/ui/badge"
 import { Card, CardContent } from "@/components/ui/card"
 import { MapPin, ExternalLink, Instagram, Wine } from "lucide-react"
 import Image from "next/image"
-import { useTranslations } from "next-intl"
+import { useLocale, useTranslations } from "next-intl"
 import { trackEvent } from "@/lib/analytics"
 
 const clients = [
@@ -84,8 +84,33 @@ const clients = [
   },
 ]
 
+// Depoimentos enviados pelos clientes a pedido da Bacco (uso autorizado). Só em português:
+// traduzir seria pôr palavras na boca de quem escreveu.
+const testimonials = [
+  {
+    photo: "/depoimentos/depoimento-elcy-quinta-de-glaura.webp",
+    alt: "Elcy Caldas, proprietária da Quinta de Glaura",
+    author: "Elcy Caldas, proprietária da Quinta de Glaura",
+    paragraphs: [
+      "A minha trajetória para empreender tendo o vinhedo e o vinho como peça fundamental nessa engrenagem começa com o planejamento, nosso vinhedo existe há pouco menos de 5 anos, exatamente o tempo que tenho levado para me preparar para receber a expectativa das pessoas. Nesse planejamento com tantas abas abertas na minha cabeça não dei conta de gerenciar tantas planilhas.",
+      "Antes de usar o Bacco ERP, a sensação era de que eu passava mais tempo apagando incêndio, juntando e atualizando planilha do que focando na qualidade do produto. Primeiro a busca foi sobre um sistema, depois descobri qual o nome desse sistema (ERP), até chegar no Bacco, centralizar os processos da produção às vendas em um só lugar, é ter o total controle dessa empresa que idealizei com muita paixão.",
+      "A importância de entender das fases da videira não é suficiente, isso perpassa dos ajustes fiscais até o overbooking de um agendamento da sala de degustação. É preciso ressaltar que a assessoria direta, precisa, resolutiva e HUMANA do Bacco, são condições “sine qua non” para a minha inteira satisfação como cliente.",
+    ],
+  },
+  {
+    photo: "/depoimentos/depoimento-marcelo-casa-rozental.webp",
+    alt: "Marcelo Rozental, produtor e enólogo da Casa Rozental, segurando um cacho de uva branca entre as folhas da videira",
+    author: "Marcelo Rozental, produtor e enólogo da Casa Rozental Vinícola e Enoturismo, Secretário, Petrópolis (RJ)",
+    paragraphs: [
+      "Gerenciar todas as frentes de uma vinícola exige muita organização, e o Bacco ERP tem sido um pilar para a Casa Rozental. O módulo de controle de estoque é um destaque à parte: a facilidade de importar notas fiscais em XML para dar entrada e a baixa automática dos produtos ao utilizá-los ou vendê-los traz muita segurança para o dia a dia.",
+      "Eventuais falhas de um sistema novo ocorrem, mas tornam-se irrelevantes frente ao atendimento impecável e imediato do Lussandro, que soluciona qualquer questão na hora. Recomendo para quem busca um software completo com uma equipe de suporte verdadeiramente comprometida.",
+    ],
+  },
+]
+
 export function Clients() {
   const t = useTranslations("clients")
+  const locale = useLocale()
 
   return (
     <section id="clientes" className="py-16 lg:py-24 relative overflow-hidden">
@@ -162,6 +187,24 @@ export function Clients() {
             </Card>
           ))}
         </div>
+
+        {locale.startsWith("pt") && (
+          <div className="max-w-5xl mx-auto mt-12 space-y-10">
+            {testimonials.map((d) => (
+              <figure key={d.author} className="grid sm:grid-cols-[180px_1fr] gap-6 items-start">
+                <Image src={d.photo} alt={d.alt} width={480} height={600} className="w-40 sm:w-full h-auto rounded-lg" />
+                <blockquote className="border-l-2 border-primary/40 pl-5">
+                  {d.paragraphs.map((p, i) => (
+                    <p key={i} className="text-base leading-relaxed mb-3">
+                      {i === 0 && "“"}{p}{i === d.paragraphs.length - 1 && "”"}
+                    </p>
+                  ))}
+                  <footer className="text-sm text-muted-foreground">{d.author}</footer>
+                </blockquote>
+              </figure>
+            ))}
+          </div>
+        )}
 
         {/* Trust indicator */}
         <div className="mt-8 text-center">
