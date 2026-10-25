@@ -9,6 +9,7 @@ import {
   Globe,
   ExternalLink,
   Bot,
+  BedDouble,
 } from "lucide-react"
 import Image from "next/image"
 import { useTranslations } from "next-intl"
@@ -20,9 +21,10 @@ export function Enotourism() {
     "booking",
     "whatsappBot",
     "publicPage",
+    "lodging",
   ] as const
 
-  const featureIcons = [Calendar, Bot, Globe]
+  const featureIcons = [Calendar, Bot, Globe, BedDouble]
 
   return (
     <section

@@ -2130,6 +2130,10 @@
       "publicPage": {
         "title": "Página Pública de Experiências",
         "description": "Página de reservas personalizada para a sua adega. Os seus visitantes escolhem a experiência, data, horário e número de pessoas, tudo online."
+      },
+      "lodging": {
+        "title": "Alojamento: chalés e cabanas",
+        "description": "Novo módulo para quem aloja hóspedes: tarifas por época, calendário de ocupação, reserva sem duplicação ao balcão ou online com Pix, pacotes com experiências, check-in com ficha do hóspede e calendários do Airbnb e do Booking."
       }
     },
     "highlights": {

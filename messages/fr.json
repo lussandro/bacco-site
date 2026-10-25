@@ -2114,6 +2114,10 @@
       "publicPage": {
         "title": "Page Publique d'Expériences",
         "description": "Page de réservation personnalisée pour votre domaine. Vos visiteurs choisissent l'expérience, la date, l'horaire et le nombre de personnes, le tout en ligne."
+      },
+      "lodging": {
+        "title": "Hébergement : chalets et cabanes",
+        "description": "Nouveau module pour les domaines qui hébergent : tarifs par saison, calendrier d'occupation, réservations sans doublon à l'accueil ou en ligne avec Pix, forfaits avec expériences, check-in avec fiche client et calendriers Airbnb et Booking."
       }
     },
     "highlights": {

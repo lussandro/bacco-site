@@ -2114,6 +2114,10 @@
       "publicPage": {
         "title": "Página Pública de Experiencias",
         "description": "Página de reservas personalizada para su bodega. Sus visitantes eligen la experiencia, fecha, horario y número de personas, todo en línea."
+      },
+      "lodging": {
+        "title": "Alojamiento: chalés y cabañas",
+        "description": "Nuevo módulo para bodegas que alojan huéspedes: tarifas por temporada, calendario de ocupación, reservas sin duplicados en recepción u online con Pix, paquetes con experiencias, check-in con ficha del huésped y calendarios de Airbnb y Booking."
       }
     },
     "highlights": {

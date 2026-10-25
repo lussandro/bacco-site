@@ -2114,6 +2114,10 @@
       "publicPage": {
         "title": "Public Experience Page",
         "description": "A custom booking page for your winery. Visitors choose the experience, date, time, and number of guests — all online."
+      },
+      "lodging": {
+        "title": "Lodging: chalets and cabins",
+        "description": "New module for wineries that host guests: seasonal rates, occupancy calendar, double-booking-proof reservations at the front desk or online with Pix, packages with experiences, guest check-in and Airbnb and Booking calendars."
       }
     },
     "highlights": {

@@ -2114,6 +2114,10 @@
       "publicPage": {
         "title": "Öffentliche Erlebnisseite",
         "description": "Individuelle Buchungsseite für Ihr Weingut. Besucher wählen Erlebnis, Datum, Uhrzeit und Personenzahl — alles online."
+      },
+      "lodging": {
+        "title": "Beherbergung: Chalets und Hütten",
+        "description": "Neues Modul für Weingüter mit Unterkünften: Saisontarife, Belegungskalender, Buchungen ohne Doppelbelegung an der Rezeption oder online mit Pix, Pakete mit Erlebnissen, Check-in mit Gästeblatt sowie Airbnb- und Booking-Kalender."
       }
     },
     "highlights": {

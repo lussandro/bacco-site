@@ -2114,6 +2114,10 @@
       "publicPage": {
         "title": "Pagina Pubblica Esperienze",
         "description": "Pagina di prenotazione personalizzata per la tua cantina. I visitatori scelgono l'esperienza, la data, l'orario e il numero di ospiti, tutto online."
+      },
+      "lodging": {
+        "title": "Ospitalità: chalet e cabine",
+        "description": "Nuovo modulo per le cantine che ospitano: tariffe stagionali, calendario di occupazione, prenotazioni senza doppioni al banco o online con Pix, pacchetti con esperienze, check-in con scheda ospite e calendari Airbnb e Booking."
       }
     },
     "highlights": {
