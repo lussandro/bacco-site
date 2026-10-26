@@ -74,9 +74,9 @@ const metaByLocale: Record<string, { title: string; description: string; ogLocal
     ogLocale: "en_US",
   },
   "es": {
-    title: "Bacco ERP - Sistema Completo para Gestión de Bodegas",
+    title: "ERP para Bodegas | Bacco ERP, del Viñedo a la Venta",
     description:
-      "ERP brasilero desarrollado exclusivamente para bodegas. Del viñedo a la botella: control de producción con IA, trazabilidad, SIVIBE/SISDEVIN y enoturismo.",
+      "ERP para bodegas desarrollado en Brasil. Del viñedo a la venta: control de producción con IA, trazabilidad, SIVIBE/SISDEVIN y enoturismo.",
     ogLocale: "es_ES",
   },
   "it-IT": {

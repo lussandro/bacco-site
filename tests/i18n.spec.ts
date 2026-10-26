@@ -22,7 +22,7 @@ test.describe('i18n - Internationalization', () => {
 
   test('should load Spanish (es) page correctly', async ({ page }) => {
     await page.goto('/es');
-    await expect(page).toHaveTitle(/Bacco ERP.*Sistema Completo para Gestión de Bodegas/);
+    await expect(page).toHaveTitle(/ERP para Bodegas.*Bacco ERP/);
     await expect(page.getByRole('heading', { name: /Del Viñedo a la Botella/ }).first()).toBeVisible();
   });
 
