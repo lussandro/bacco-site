@@ -8,7 +8,7 @@ const locales = routing.locales
 // Rotas estaticas = tudo em routing.pathnames menos as dinamicas.
 // Páginas de país fora do Brasil e termos de uso: noindex no layout e fora do sitemap.
 // O Google as descobriu e não indexou (25/10/2026); conteúdo fino puxa o domínio para baixo.
-const FORA_DO_INDICE = ['/para-argentina', '/para-italia', '/para-chile', '/para-uruguai', '/termos-de-uso']
+const FORA_DO_INDICE = ['/para-argentina', '/para-italia', '/termos-de-uso']
 
 const staticPaths = Object.keys(routing.pathnames).filter(
   (p) => !p.includes('[') && !FORA_DO_INDICE.includes(p)

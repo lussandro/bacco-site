@@ -14,6 +14,8 @@ const nextConfig = {
   // output: 'standalone', // Comentado para Vercel (usa otimização própria)
   compress: true,
   poweredByHeader: false,
+  // Canonical, hreflang e robots no <head> para todo user-agent (o padrão do Next manda no <body> por streaming).
+  htmlLimitedBots: /.*/,
   reactStrictMode: true,
   turbopack: {
     root: process.cwd(),
